@@ -1,0 +1,1041 @@
+{
+  "metadata": {
+    "date": "2026-02-19",
+    "source": "llm_council_results.json",
+    "annotated_by": "claude-opus-4-6",
+    "methodology": "Hebbian superorganism annotation: canonical phase sequences and cell assemblies defined a priori; individuals mapped by Claude Opus 4.6 at temperature=0.3"
+  },
+  "canonical_vocabulary": {
+    "phase_sequences": [
+      {
+        "id": "PS-01",
+        "name": "Global AI Supremacy",
+        "hemisphere_bias": "West",
+        "definition": "Race among state and corporate actors to develop, deploy, and leverage dominant AI capabilities — the primary technological competition of the era."
+      },
+      {
+        "id": "PS-02",
+        "name": "US-China Strategic Bifurcation",
+        "hemisphere_bias": "Split",
+        "definition": "Technological, economic, and military decoupling of the world's two largest powers into parallel global systems — trade blocs, chip stacks, payment rails, and alliances."
+      },
+      {
+        "id": "PS-03",
+        "name": "Multiplanetary Expansion",
+        "hemisphere_bias": "West",
+        "definition": "Establishment of permanent human presence beyond Earth, driven by private space enterprise and competing national space programs."
+      },
+      {
+        "id": "PS-04",
+        "name": "Dollar Hegemony Defense",
+        "hemisphere_bias": "West",
+        "definition": "Coordinated maintenance of the USD as the world's reserve currency through monetary policy, sanctions architecture, and geopolitical leverage against alternatives (BRICS currencies, digital yuan)."
+      },
+      {
+        "id": "PS-05",
+        "name": "Eurasian Resistance Arc",
+        "hemisphere_bias": "East",
+        "definition": "Russia-China-Iran strategic coordination to counterbalance the Western-led international order — shared interest in multipolar world, sanctions evasion, and alternative institutions."
+      },
+      {
+        "id": "PS-06",
+        "name": "Middle East Power Realignment",
+        "hemisphere_bias": "East",
+        "definition": "Post-Gaza restructuring of regional alliances, normalization dynamics, and Iranian containment — reshaping the security and diplomatic architecture of the Middle East."
+      },
+      {
+        "id": "PS-07",
+        "name": "Semiconductor Sovereignty Race",
+        "hemisphere_bias": "Split",
+        "definition": "National competition for control of advanced chip design, fabrication, and supply chain — the decisive chokepoint of the AI and defense technology era."
+      },
+      {
+        "id": "PS-08",
+        "name": "Global Energy Transition",
+        "hemisphere_bias": "West",
+        "definition": "Shift from fossil fuel dependence to renewable energy while managing near-term energy security — a decades-long metabolic transformation of the global economy."
+      },
+      {
+        "id": "PS-09",
+        "name": "Information & Narrative Control",
+        "hemisphere_bias": "West",
+        "definition": "Platform-mediated competition over global information flows, algorithmic curation, and ideological framing — who controls what billions of people see and believe."
+      },
+      {
+        "id": "PS-10",
+        "name": "Western Alliance Reformation",
+        "hemisphere_bias": "West",
+        "definition": "Restructuring of NATO, transatlantic economic ties, and liberal international institutions under new geopolitical pressures — redefining who bears costs and who calls shots."
+      }
+    ],
+    "hemispheres": {
+      "West": {
+        "regions": [
+          "US",
+          "Europe"
+        ],
+        "character": "Individualist, rule-of-law, market-driven, liberal institutions"
+      },
+      "East": {
+        "regions": [
+          "China",
+          "Russia"
+        ],
+        "character": "Collective, state-centric, long-horizon, hierarchical — Russia firmly East-aligned post-2022"
+      },
+      "Bridge": {
+        "regions": [
+          "India",
+          "Middle East"
+        ],
+        "character": "Non-aligned, leverage-based swing actors who maintain optionality between East and West systems"
+      },
+      "Ancestral": {
+        "regions": [
+          "Africa"
+        ],
+        "character": "Oldest civilizational substrate — foundational patterns; not yet prime-mover-generating in the current model snapshot"
+      }
+    },
+    "cell_assemblies": [
+      "CCP (Chinese Communist Party)",
+      "PLA (People's Liberation Army)",
+      "Belt and Road Initiative (BRI)",
+      "CIPS (Cross-Border Interbank Payment System)",
+      "Trump Administration",
+      "MAGA Movement",
+      "Republican Party",
+      "SpaceX",
+      "Tesla",
+      "xAI",
+      "X (Twitter)",
+      "DOGE (Department of Government Efficiency)",
+      "Russian Federation Executive",
+      "FSB",
+      "Gazprom / Rosneft",
+      "CSTO (Collective Security Treaty Organization)",
+      "BJP (Bharatiya Janata Party)",
+      "Digital India Initiative",
+      "Make in India",
+      "RSS (Rashtriya Swayamsevak Sangh)",
+      "NVIDIA",
+      "CUDA Ecosystem",
+      "Federal Reserve System",
+      "FOMC (Federal Open Market Committee)",
+      "Saudi Aramco",
+      "OPEC+",
+      "Public Investment Fund (PIF)",
+      "Vision 2030",
+      "OpenAI",
+      "Worldcoin",
+      "Microsoft",
+      "Azure Cloud",
+      "GitHub",
+      "European Commission",
+      "EU Regulatory Apparatus",
+      "Meta",
+      "Facebook",
+      "Instagram",
+      "WhatsApp",
+      "IDF (Israel Defense Forces)",
+      "Mossad",
+      "Likud",
+      "IRGC (Islamic Revolutionary Guard Corps)",
+      "Axis of Resistance (Hezbollah / Hamas / Houthis)",
+      "Apple",
+      "App Store Ecosystem",
+      "BlackRock",
+      "Aladdin Platform",
+      "European Central Bank (ECB)",
+      "Eurozone Banking System",
+      "NATO",
+      "G7 / G20",
+      "UN Security Council",
+      "WTO (World Trade Organization)",
+      "IMF (International Monetary Fund)",
+      "TSMC (Taiwan Semiconductor Manufacturing Company)"
+    ]
+  },
+  "superorganism_list": [
+    {
+      "rank": 1,
+      "name": "Xi Jinping",
+      "domain": "Geopolitics / State Leadership",
+      "justification": "As China's paramount leader, he exercises centralized control over the world's second-largest economy and military, shapes global trade and technology competition, and drives geopolitical realignment through initiatives like Belt and Road and expanding diplomatic reach.",
+      "consensus_notes": "Unanimous #1 or top-2 across all four models; no disagreement on his primacy.",
+      "superorganism": {
+        "hemisphere": "East",
+        "primary_region": "China",
+        "secondary_regions": [
+          "Russia",
+          "Africa",
+          "Middle East"
+        ],
+        "neuron_role": "Central command neuron of the Eastern hemisphere — integrates state, military, and economic signals into unified long-horizon strategic output",
+        "neuron_type": "Tonic-firing inhibitory/excitatory neuron — sustained, high-authority signaling that maintains hierarchical coherence across vast assemblies",
+        "cell_assemblies": [
+          {
+            "name": "CCP (Chinese Communist Party)",
+            "role": "Core assembly through which all domestic and foreign policy signals propagate"
+          },
+          {
+            "name": "PLA (People's Liberation Army)",
+            "role": "Military instrument for PS-02 and PS-05 strategic posturing"
+          },
+          {
+            "name": "Belt and Road Initiative (BRI)",
+            "role": "Primary infrastructure for extending Eastern influence globally, key to PS-05"
+          },
+          {
+            "name": "CIPS (Cross-Border Interbank Payment System)",
+            "role": "Alternative financial rail undermining PS-04 dollar hegemony"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-02",
+            "name": "US-China Strategic Bifurcation",
+            "role": "Principal Eastern architect of decoupling — drives parallel tech stack, trade blocs, and alliance systems"
+          },
+          {
+            "id": "PS-05",
+            "name": "Eurasian Resistance Arc",
+            "role": "Senior partner in Russia-China-Iran coordination against Western-led order"
+          },
+          {
+            "id": "PS-07",
+            "name": "Semiconductor Sovereignty Race",
+            "role": "Drives massive state investment in domestic chip fabrication to escape Western chokepoints"
+          },
+          {
+            "id": "PS-01",
+            "name": "Global AI Supremacy",
+            "role": "State-directed AI development competing for parity or dominance with Western frontier labs"
+          },
+          {
+            "id": "PS-04",
+            "name": "Dollar Hegemony Defense",
+            "role": "Primary adversary — promotes yuan internationalization, BRICS currency alternatives, and CIPS adoption"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "name": "Donald Trump",
+      "domain": "Politics / Geopolitics",
+      "justification": "As the 47th President of the United States, he is actively reshaping global trade through aggressive tariffs, reorienting U.S. foreign policy and alliances, and driving massive downstream effects on the international order from the world's largest economy.",
+      "consensus_notes": "Listed by Claude (#2) and Grok (#2); ChatGPT erroneously listed Biden; Gemini omitted the U.S. president from its list entirely. Peer reviews confirmed Trump is the correct sitting president as of February 2026.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_region": "US",
+        "secondary_regions": [
+          "Europe",
+          "China",
+          "Middle East"
+        ],
+        "neuron_role": "Executive command neuron of the Western hemisphere — high-amplitude signals that reorganize alliances, trade flows, and institutional norms",
+        "neuron_type": "Burst-firing excitatory neuron — irregular, high-impact discharges that destabilize existing patterns and force rapid assembly reconfiguration",
+        "cell_assemblies": [
+          {
+            "name": "Trump Administration",
+            "role": "Primary executive assembly for US federal policy across all phase sequences"
+          },
+          {
+            "name": "MAGA Movement",
+            "role": "Mass populist assembly providing political energy and electoral mandate"
+          },
+          {
+            "name": "Republican Party",
+            "role": "Legislative and institutional vehicle for policy implementation"
+          },
+          {
+            "name": "DOGE (Department of Government Efficiency)",
+            "role": "Internal restructuring tool for federal government metabolism"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-02",
+            "name": "US-China Strategic Bifurcation",
+            "role": "Primary Western driver of decoupling through tariffs, export controls, and economic confrontation"
+          },
+          {
+            "id": "PS-10",
+            "name": "Western Alliance Reformation",
+            "role": "Disruptive force reshaping NATO burden-sharing, transatlantic relations, and liberal institutional norms"
+          },
+          {
+            "id": "PS-04",
+            "name": "Dollar Hegemony Defense",
+            "role": "Wields sanctions and trade policy to maintain dollar centrality while pressuring alternatives"
+          },
+          {
+            "id": "PS-09",
+            "name": "Information & Narrative Control",
+            "role": "Dominant narrative actor who shapes global media cycles and political discourse"
+          },
+          {
+            "id": "PS-06",
+            "name": "Middle East Power Realignment",
+            "role": "Key external actor influencing normalization dynamics and regional security architecture"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "name": "Elon Musk",
+      "domain": "Technology / Business / Government",
+      "justification": "His simultaneous leadership of Tesla, SpaceX, xAI, and X, combined with his role directing the Department of Government Efficiency (DOGE) inside the Trump administration, gives him an unprecedented fusion of private-sector technological power and direct influence over U.S. federal operations.",
+      "consensus_notes": "All four models included Musk in their top 5-9; Claude and Grok specifically noted his government role. Peer reviews from Claude, Grok, and Gemini validated the DOGE detail as accurate for the timeline.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_region": "US",
+        "secondary_regions": [
+          "Europe",
+          "China"
+        ],
+        "neuron_role": "Motor initiation neuron — fires novel, high-amplitude signals that reorganize large assemblies across the organism",
+        "neuron_type": "Burst-firing excitatory neuron — intermittent but high-amplitude influence across multiple assemblies simultaneously",
+        "cell_assemblies": [
+          {
+            "name": "SpaceX",
+            "role": "Primary driver of PS-03"
+          },
+          {
+            "name": "Tesla",
+            "role": "Major actor in PS-08 energy transition and global EV manufacturing"
+          },
+          {
+            "name": "xAI",
+            "role": "Competitor in PS-01"
+          },
+          {
+            "name": "X (Twitter)",
+            "role": "Primary platform for PS-09"
+          },
+          {
+            "name": "DOGE (Department of Government Efficiency)",
+            "role": "Metabolic regulator of US executive function"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-03",
+            "name": "Multiplanetary Expansion",
+            "role": "Primary architect and sole industrial executor of human Mars colonization"
+          },
+          {
+            "id": "PS-01",
+            "name": "Global AI Supremacy",
+            "role": "Competing actor via xAI; also controls critical AI infrastructure"
+          },
+          {
+            "id": "PS-09",
+            "name": "Information & Narrative Control",
+            "role": "Platform owner with direct global reach through X"
+          },
+          {
+            "id": "PS-08",
+            "name": "Global Energy Transition",
+            "role": "Drives mass EV adoption and battery/solar deployment through Tesla"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "name": "Vladimir Putin",
+      "domain": "Geopolitics / Military / Energy",
+      "justification": "As Russia's president prosecuting the ongoing war in Ukraine, he continues to destabilize European security, disrupt global energy markets, control a vast nuclear arsenal, and force a fundamental reorientation of Western defense and foreign policy.",
+      "consensus_notes": "All four models included Putin in their top 5; strong consensus on his destabilizing influence through the Ukraine conflict and energy leverage.",
+      "superorganism": {
+        "hemisphere": "East",
+        "primary_region": "Russia",
+        "secondary_regions": [
+          "Europe",
+          "Middle East",
+          "Africa"
+        ],
+        "neuron_role": "Survival-mode command neuron — sustains high-frequency defensive firing that forces continuous Western resource allocation and alliance reconfiguration",
+        "neuron_type": "Tonic-firing excitatory neuron — persistent, escalation-prone signaling that maintains conflict state and prevents system relaxation",
+        "cell_assemblies": [
+          {
+            "name": "Russian Federation Executive",
+            "role": "Centralized command assembly for all Russian state action"
+          },
+          {
+            "name": "FSB",
+            "role": "Intelligence and internal security apparatus supporting regime stability and hybrid warfare"
+          },
+          {
+            "name": "Gazprom / Rosneft",
+            "role": "Energy weapon assemblies for geopolitical leverage and sanctions evasion"
+          },
+          {
+            "name": "CSTO (Collective Security Treaty Organization)",
+            "role": "Military alliance structure for Eurasian sphere maintenance"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-05",
+            "name": "Eurasian Resistance Arc",
+            "role": "Primary initiator — war in Ukraine catalyzed Russia-China-Iran strategic alignment"
+          },
+          {
+            "id": "PS-10",
+            "name": "Western Alliance Reformation",
+            "role": "Adversarial catalyst forcing NATO restructuring and European defense integration"
+          },
+          {
+            "id": "PS-08",
+            "name": "Global Energy Transition",
+            "role": "Disruptive force — weaponization of energy supply accelerates and complicates transition"
+          },
+          {
+            "id": "PS-04",
+            "name": "Dollar Hegemony Defense",
+            "role": "Active adversary pursuing sanctions evasion and alternative payment systems"
+          },
+          {
+            "id": "PS-02",
+            "name": "US-China Strategic Bifurcation",
+            "role": "Junior Eastern partner whose conflict accelerates global bloc formation"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "name": "Narendra Modi",
+      "domain": "Politics / Geopolitics / Economics",
+      "justification": "As Prime Minister of the world's most populous nation and fastest-growing major economy, he shapes global supply chains, digital infrastructure, technology labor markets, and the geopolitical balance as a pivotal swing power between East and West.",
+      "consensus_notes": "All four models included Modi in their top 4-6; universally recognized as leading a decisive swing power with enormous economic and demographic weight.",
+      "superorganism": {
+        "hemisphere": "Bridge",
+        "primary_region": "India",
+        "secondary_regions": [
+          "Middle East",
+          "Africa",
+          "US"
+        ],
+        "neuron_role": "Bridge integrator neuron — maintains optionality between East and West while channeling massive demographic and economic potential",
+        "neuron_type": "Adaptive oscillatory neuron — modulates firing frequency based on geopolitical context, maintaining non-aligned flexibility",
+        "cell_assemblies": [
+          {
+            "name": "BJP (Bharatiya Janata Party)",
+            "role": "Dominant political assembly providing domestic mandate and ideological coherence"
+          },
+          {
+            "name": "Digital India Initiative",
+            "role": "Digital infrastructure assembly enabling tech sovereignty and service economy growth"
+          },
+          {
+            "name": "Make in India",
+            "role": "Manufacturing assembly for supply chain diversification away from China, relevant to PS-07"
+          },
+          {
+            "name": "RSS (Rashtriya Swayamsevak Sangh)",
+            "role": "Deep ideological assembly providing cultural-nationalist substrate for BJP governance"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-02",
+            "name": "US-China Strategic Bifurcation",
+            "role": "Critical swing actor — alternative manufacturing base and strategic partner courted by both blocs"
+          },
+          {
+            "id": "PS-07",
+            "name": "Semiconductor Sovereignty Race",
+            "role": "Emerging competitor attracting fab investment as supply chain diversification destination"
+          },
+          {
+            "id": "PS-08",
+            "name": "Global Energy Transition",
+            "role": "Massive demand-side actor balancing renewable ambitions with fossil fuel dependence"
+          },
+          {
+            "id": "PS-05",
+            "name": "Eurasian Resistance Arc",
+            "role": "Selective participant — maintains Russian energy ties while deepening Western tech partnerships"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "name": "Jensen Huang",
+      "domain": "Technology / Semiconductors",
+      "justification": "As CEO of NVIDIA, he controls the critical bottleneck hardware powering the global AI revolution, making his company's chip allocation and architecture decisions a primary determinant of which nations and companies lead in artificial intelligence.",
+      "consensus_notes": "All four models included Huang (ranked #4-#11); Gemini notably placed him at #4, and Claude's peer review praised this as a genuinely insightful pick reflecting structural power over AI compute.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_region": "US",
+        "secondary_regions": [
+          "China",
+          "Europe"
+        ],
+        "neuron_role": "Chokepoint gatekeeper neuron — controls the critical hardware bottleneck through which all AI capability must flow",
+        "neuron_type": "High-frequency tonic neuron — steady, indispensable signaling that enables or constrains firing across nearly all other AI-related assemblies",
+        "cell_assemblies": [
+          {
+            "name": "NVIDIA",
+            "role": "Dominant GPU supplier and primary hardware enabler of PS-01"
+          },
+          {
+            "name": "CUDA Ecosystem",
+            "role": "Software lock-in assembly that entrenches NVIDIA's position as AI compute standard"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-01",
+            "name": "Global AI Supremacy",
+            "role": "Controls the decisive hardware bottleneck — chip allocation determines who can train frontier models"
+          },
+          {
+            "id": "PS-07",
+            "name": "Semiconductor Sovereignty Race",
+            "role": "Central actor whose supply chain dependencies (TSMC) and export compliance shape national chip strategies"
+          },
+          {
+            "id": "PS-02",
+            "name": "US-China Strategic Bifurcation",
+            "role": "Involuntary enforcement mechanism — US export controls on NVIDIA chips are a primary decoupling tool"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "name": "Jerome Powell",
+      "domain": "Finance / Monetary Policy",
+      "justification": "As Chair of the U.S. Federal Reserve with his term active through May 2026, his interest-rate decisions and monetary policy guidance directly move global capital markets, influence the value of the world's reserve currency, and set the tone for central banks worldwide.",
+      "consensus_notes": "All four models included Powell (ranked #4-#15); universally recognized for his outsized impact on global financial conditions through the dollar system.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_region": "US",
+        "secondary_regions": [
+          "Europe"
+        ],
+        "neuron_role": "Metabolic regulator neuron — sets the baseline interest rate signal that modulates global capital flows and economic activity",
+        "neuron_type": "Pacemaker neuron — rhythmic, calibrated signaling that sets tempo for global financial system oscillations",
+        "cell_assemblies": [
+          {
+            "name": "Federal Reserve System",
+            "role": "Core monetary policy assembly governing USD liquidity and global capital conditions"
+          },
+          {
+            "name": "FOMC (Federal Open Market Committee)",
+            "role": "Decision-making body for interest rate policy, directly affecting PS-04"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-04",
+            "name": "Dollar Hegemony Defense",
+            "role": "Primary institutional defender — rate decisions and liquidity management sustain dollar reserve status"
+          },
+          {
+            "id": "PS-08",
+            "name": "Global Energy Transition",
+            "role": "Interest rate environment shapes capital availability for renewable energy investment at scale"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "name": "Mohammed bin Salman",
+      "domain": "Energy / Geopolitics / Finance",
+      "justification": "As Crown Prince and de facto ruler of Saudi Arabia, he controls the world's swing oil production capacity, leads OPEC+ coordination, manages a $900B+ sovereign wealth fund driving cross-border investment, and is a decisive actor in Middle East stability and diplomacy.",
+      "consensus_notes": "All four models included MBS (ranked #6-#10); strong consensus on his outsized influence over energy markets, regional security, and global capital flows.",
+      "superorganism": {
+        "hemisphere": "Bridge",
+        "primary_region": "Middle East",
+        "secondary_regions": [
+          "Africa",
+          "China",
+          "US"
+        ],
+        "neuron_role": "Energy-geopolitical bridge neuron — controls swing oil capacity and sovereign capital while maintaining strategic optionality between all major blocs",
+        "neuron_type": "Variable-frequency oscillatory neuron — modulates output based on oil market conditions and geopolitical alignment opportunities",
+        "cell_assemblies": [
+          {
+            "name": "Saudi Aramco",
+            "role": "World's largest oil producer and primary lever for energy market influence"
+          },
+          {
+            "name": "OPEC+",
+            "role": "Cartel coordination assembly for global oil supply management"
+          },
+          {
+            "name": "Public Investment Fund (PIF)",
+            "role": "Sovereign wealth vehicle for cross-border capital deployment and economic diversification"
+          },
+          {
+            "name": "Vision 2030",
+            "role": "Domestic transformation assembly for post-oil economic restructuring"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-06",
+            "name": "Middle East Power Realignment",
+            "role": "Central architect of post-Gaza regional order, normalization dynamics, and Iranian containment"
+          },
+          {
+            "id": "PS-08",
+            "name": "Global Energy Transition",
+            "role": "Swing producer managing fossil-to-renewable transition timeline and oil price stability"
+          },
+          {
+            "id": "PS-04",
+            "name": "Dollar Hegemony Defense",
+            "role": "Petrodollar anchor — Saudi oil pricing in USD is foundational to dollar reserve status"
+          },
+          {
+            "id": "PS-05",
+            "name": "Eurasian Resistance Arc",
+            "role": "Selective engagement — OPEC+ coordination with Russia while maintaining Western security ties"
+          },
+          {
+            "id": "PS-02",
+            "name": "US-China Strategic Bifurcation",
+            "role": "Swing actor courted by both sides for energy supply and investment capital"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "name": "Sam Altman",
+      "domain": "Artificial Intelligence / Technology",
+      "justification": "As CEO of OpenAI, he steers the development and deployment of the most influential frontier AI systems, reshaping knowledge work, software industries, and driving global policy conversations on AI governance and existential risk.",
+      "consensus_notes": "All four models included Altman (ranked #8-#11); consensus that he sits at the frontier of the most transformative technology of the era.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_region": "US",
+        "secondary_regions": [
+          "Europe",
+          "Africa"
+        ],
+        "neuron_role": "Frontier capability neuron — generates the most advanced AI signals that propagate across all sectors and force global policy responses",
+        "neuron_type": "Burst-firing excitatory neuron — each model release sends high-amplitude capability shocks through the global system",
+        "cell_assemblies": [
+          {
+            "name": "OpenAI",
+            "role": "Leading frontier AI lab and primary driver of PS-01 capability advances"
+          },
+          {
+            "name": "Microsoft",
+            "role": "Strategic infrastructure partner providing compute and distribution for OpenAI models"
+          },
+          {
+            "name": "Worldcoin",
+            "role": "Digital identity and financial inclusion initiative with global ambitions"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-01",
+            "name": "Global AI Supremacy",
+            "role": "Primary capability driver — OpenAI's model releases define the frontier and set the pace of the race"
+          },
+          {
+            "id": "PS-09",
+            "name": "Information & Narrative Control",
+            "role": "AI-generated content and chatbot interfaces reshape how information is produced and consumed"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "name": "Satya Nadella",
+      "domain": "Technology / Cloud Computing / Enterprise AI",
+      "justification": "As CEO of Microsoft, the world's most valuable company and OpenAI's key infrastructure partner, he is integrating AI across the global enterprise software stack used by billions and steering massive cloud and computing infrastructure investments.",
+      "consensus_notes": "Included by Claude (#9), Gemini (#8), and ChatGPT (#13); recognized for translating AI breakthroughs into enterprise-scale deployment affecting productivity worldwide.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_region": "US",
+        "secondary_regions": [
+          "Europe",
+          "India"
+        ],
+        "neuron_role": "Infrastructure integration neuron — embeds AI capability into the global enterprise substrate through cloud and software distribution",
+        "neuron_type": "Tonic-firing facilitatory neuron — steady, pervasive signaling that enables other neurons and assemblies to function at higher capacity",
+        "cell_assemblies": [
+          {
+            "name": "Microsoft",
+            "role": "World's most valuable company and primary enterprise AI distribution platform"
+          },
+          {
+            "name": "Azure Cloud",
+            "role": "Cloud infrastructure assembly providing compute backbone for AI deployment globally"
+          },
+          {
+            "name": "GitHub",
+            "role": "Developer platform assembly shaping global software production and AI code integration"
+          },
+          {
+            "name": "OpenAI",
+            "role": "Strategic AI partner — Microsoft's investment and infrastructure enable OpenAI's frontier research"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-01",
+            "name": "Global AI Supremacy",
+            "role": "Primary infrastructure provider and distribution channel for frontier AI into enterprise and government"
+          },
+          {
+            "id": "PS-07",
+            "name": "Semiconductor Sovereignty Race",
+            "role": "Major demand-side actor whose compute requirements shape chip procurement and data center buildout"
+          },
+          {
+            "id": "PS-09",
+            "name": "Information & Narrative Control",
+            "role": "AI integration into productivity tools reshapes how information is created and processed at scale"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 11,
+      "name": "Ursula von der Leyen",
+      "domain": "Politics / Regulation / Geopolitics",
+      "justification": "As President of the European Commission, she drives regulatory frameworks—including the AI Act, Digital Markets Act, and climate policy—that set global compliance standards, while coordinating Europe's response to trade wars, defense integration, and the Ukraine crisis.",
+      "consensus_notes": "Included by three of four models (Claude #13, ChatGPT #5, Grok #6, Gemini #12); ChatGPT and Grok ranked her particularly high for institutional regulatory power.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_region": "Europe",
+        "secondary_regions": [
+          "US",
+          "Africa"
+        ],
+        "neuron_role": "Regulatory command neuron — generates compliance signals that propagate globally through the Brussels Effect, shaping technology, trade, and security norms",
+        "neuron_type": "Tonic inhibitory neuron — sustained regulatory signaling that constrains and channels the behavior of other assemblies worldwide",
+        "cell_assemblies": [
+          {
+            "name": "European Commission",
+            "role": "Executive assembly of the EU driving regulation, trade policy, and strategic autonomy"
+          },
+          {
+            "name": "EU Regulatory Apparatus",
+            "role": "Norm-setting assembly whose AI Act, DMA, and climate rules create global compliance standards"
+          },
+          {
+            "name": "NATO",
+            "role": "Security alliance assembly being restructured under European defense integration pressure"
+          },
+          {
+            "name": "G7 / G20",
+            "role": "Multilateral coordination assembly for Western economic and security alignment"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-10",
+            "name": "Western Alliance Reformation",
+            "role": "Key architect of European strategic autonomy and NATO burden-sharing restructuring"
+          },
+          {
+            "id": "PS-01",
+            "name": "Global AI Supremacy",
+            "role": "Regulatory shaper — AI Act and digital rules constrain and direct AI development globally"
+          },
+          {
+            "id": "PS-08",
+            "name": "Global Energy Transition",
+            "role": "Drives EU Green Deal and climate policy that sets global transition benchmarks"
+          },
+          {
+            "id": "PS-02",
+            "name": "US-China Strategic Bifurcation",
+            "role": "Manages European positioning between US and China on trade, tech, and investment screening"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 12,
+      "name": "Mark Zuckerberg",
+      "domain": "Technology / Social Media / AI",
+      "justification": "As CEO of Meta, he controls platforms (Facebook, Instagram, WhatsApp, Threads) connecting nearly half the global population, giving him enormous influence over information flows, public discourse, and—through investment in open-source AI—industry standards for AI development.",
+      "consensus_notes": "Included by three of four models (Claude #12, Grok #14, Gemini #11); recognized for unparalleled reach in global communications and growing AI influence.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_region": "US",
+        "secondary_regions": [
+          "Europe",
+          "India",
+          "Africa"
+        ],
+        "neuron_role": "Mass connectivity neuron — controls the largest social graph on Earth, mediating information flow and social coordination for nearly half of humanity",
+        "neuron_type": "High-frequency tonic neuron — continuous, pervasive signaling through billions of daily platform interactions that shape global discourse",
+        "cell_assemblies": [
+          {
+            "name": "Meta",
+            "role": "Parent assembly controlling the world's largest social media ecosystem"
+          },
+          {
+            "name": "Facebook",
+            "role": "Primary social platform with ~3B users shaping information flows globally"
+          },
+          {
+            "name": "Instagram",
+            "role": "Visual media platform influencing culture, commerce, and narrative"
+          },
+          {
+            "name": "WhatsApp",
+            "role": "Dominant messaging platform in Global South, critical communication infrastructure"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-09",
+            "name": "Information & Narrative Control",
+            "role": "Controls the largest platforms for global information distribution, algorithmic curation, and public discourse"
+          },
+          {
+            "id": "PS-01",
+            "name": "Global AI Supremacy",
+            "role": "Major open-source AI competitor via Llama models, shaping industry standards and democratizing access"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 13,
+      "name": "Benjamin Netanyahu",
+      "domain": "Geopolitics / Military / Security",
+      "justification": "As Prime Minister of Israel, his prosecution of military operations in Gaza and strategic decisions regarding Iran and regional security are actively reshaping the Middle East and driving global diplomatic, humanitarian, and security debates.",
+      "consensus_notes": "Included by Claude (#14), ChatGPT (#16), and Grok (not listed but context supports); his acute influence on a major active conflict zone justifies inclusion.",
+      "superorganism": {
+        "hemisphere": "Bridge",
+        "primary_region": "Middle East",
+        "secondary_regions": [
+          "US",
+          "Europe"
+        ],
+        "neuron_role": "Regional escalation neuron — fires high-intensity security signals that reshape Middle Eastern alliances and force global diplomatic responses",
+        "neuron_type": "Burst-firing excitatory neuron — crisis-driven, high-amplitude signaling that triggers cascading responses across regional and global assemblies",
+        "cell_assemblies": [
+          {
+            "name": "IDF (Israel Defense Forces)",
+            "role": "Primary military instrument for Gaza operations and regional force projection"
+          },
+          {
+            "name": "Mossad",
+            "role": "Intelligence assembly for covert operations, Iranian containment, and strategic disruption"
+          },
+          {
+            "name": "Likud",
+            "role": "Political assembly providing domestic mandate and coalition governance"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-06",
+            "name": "Middle East Power Realignment",
+            "role": "Primary catalyst — Gaza operations and Iran strategy are reshaping the entire regional security architecture"
+          },
+          {
+            "id": "PS-10",
+            "name": "Western Alliance Reformation",
+            "role": "Stress-tests Western alliance cohesion through divergent responses to Israeli military operations"
+          },
+          {
+            "id": "PS-05",
+            "name": "Eurasian Resistance Arc",
+            "role": "Adversarial target — Israeli actions against Iran and proxies directly confront the Axis of Resistance"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 14,
+      "name": "Ali Khamenei",
+      "domain": "Geopolitics / Military / Security",
+      "justification": "As Supreme Leader of Iran, he directs a network of regional proxy forces, controls Iran's nuclear program decisions, and is a central figure in Middle Eastern instability whose choices directly affect oil markets, escalation risks, and global security.",
+      "consensus_notes": "Included by Claude (#17) and ChatGPT (#17); his role as the ultimate decision-maker behind Iran's destabilizing regional posture warrants inclusion despite lower individual rankings.",
+      "superorganism": {
+        "hemisphere": "East",
+        "primary_region": "Middle East",
+        "secondary_regions": [
+          "Russia"
+        ],
+        "neuron_role": "Asymmetric resistance neuron — sustains proxy network signaling that destabilizes regional order and constrains Western and Israeli freedom of action",
+        "neuron_type": "Tonic-firing inhibitory neuron — persistent, low-to-medium amplitude signaling through distributed proxy networks that impose costs on adversaries",
+        "cell_assemblies": [
+          {
+            "name": "IRGC (Islamic Revolutionary Guard Corps)",
+            "role": "Primary military-intelligence assembly for regional power projection and proxy coordination"
+          },
+          {
+            "name": "Axis of Resistance (Hezbollah / Hamas / Houthis)",
+            "role": "Distributed proxy network executing asymmetric warfare across the Middle East"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-06",
+            "name": "Middle East Power Realignment",
+            "role": "Central antagonist — proxy network and nuclear program are primary drivers of regional instability"
+          },
+          {
+            "id": "PS-05",
+            "name": "Eurasian Resistance Arc",
+            "role": "Key partner in Russia-China-Iran axis — provides regional disruption capability and sanctions evasion cooperation"
+          },
+          {
+            "id": "PS-08",
+            "name": "Global Energy Transition",
+            "role": "Threat to energy security — Houthi attacks on shipping and Strait of Hormuz risk disrupt global oil flows"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 15,
+      "name": "Tim Cook",
+      "domain": "Technology / Consumer Electronics / Supply Chains",
+      "justification": "As CEO of Apple, he oversees an ecosystem touching over two billion active devices globally, makes supply-chain decisions that shape manufacturing across China and India, and sets influential standards for consumer privacy and app-economy governance.",
+      "consensus_notes": "Included by Claude (#11), ChatGPT (#12), and Gemini (#14); consistent recognition of his influence through the world's most valuable hardware ecosystem.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_region": "US",
+        "secondary_regions": [
+          "China",
+          "India",
+          "Europe"
+        ],
+        "neuron_role": "Supply chain integration neuron — bridges US-China manufacturing dependencies while controlling the consumer device ecosystem through which billions access digital services",
+        "neuron_type": "Tonic-firing modulatory neuron — steady, consistent signaling that shapes ecosystem standards, supply chain geography, and privacy norms",
+        "cell_assemblies": [
+          {
+            "name": "Apple",
+            "role": "World's largest consumer technology company with 2B+ active devices globally"
+          },
+          {
+            "name": "App Store Ecosystem",
+            "role": "Platform governance assembly controlling app distribution, developer economics, and privacy standards"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-02",
+            "name": "US-China Strategic Bifurcation",
+            "role": "Critical stress point — Apple's deep China manufacturing dependence makes it a barometer and actor in decoupling dynamics"
+          },
+          {
+            "id": "PS-07",
+            "name": "Semiconductor Sovereignty Race",
+            "role": "Major demand-side actor whose chip design (Apple Silicon) and TSMC dependence shape semiconductor strategy"
+          },
+          {
+            "id": "PS-09",
+            "name": "Information & Narrative Control",
+            "role": "App Store and privacy policies shape what information reaches billions of device users"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 16,
+      "name": "Larry Fink",
+      "domain": "Finance / Asset Management / Capital Allocation",
+      "justification": "As CEO of BlackRock, the world's largest asset manager overseeing tens of trillions in assets, he influences global capital allocation, corporate governance priorities, and risk pricing at a scale that shapes markets and policy agendas worldwide.",
+      "consensus_notes": "Included by ChatGPT (#14), Grok (#16), and Gemini (#10); recognized for structural influence over how global capital flows and corporate behavior are shaped.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_region": "US",
+        "secondary_regions": [
+          "Europe",
+          "Middle East"
+        ],
+        "neuron_role": "Capital allocation neuron — directs the largest pool of managed assets on Earth, shaping corporate governance, risk pricing, and investment flows across all sectors",
+        "neuron_type": "Tonic-firing modulatory neuron — steady, pervasive influence through capital allocation signals that shape behavior of corporations and governments globally",
+        "cell_assemblies": [
+          {
+            "name": "BlackRock",
+            "role": "World's largest asset manager with $10T+ AUM shaping global capital flows"
+          },
+          {
+            "name": "Aladdin Platform",
+            "role": "Risk analytics infrastructure used by institutions managing ~$20T+ in assets, embedding BlackRock's risk models into global finance"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-04",
+            "name": "Dollar Hegemony Defense",
+            "role": "Reinforces dollar-denominated capital markets as the default global investment substrate"
+          },
+          {
+            "id": "PS-08",
+            "name": "Global Energy Transition",
+            "role": "Capital allocation decisions on ESG and energy investments materially shape transition pace and direction"
+          },
+          {
+            "id": "PS-01",
+            "name": "Global AI Supremacy",
+            "role": "Major capital allocator to AI infrastructure buildout through equity and debt markets"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 17,
+      "name": "Christine Lagarde",
+      "domain": "Central Banking / Monetary Policy",
+      "justification": "As President of the European Central Bank, she manages monetary policy for the Eurozone—the world's second-largest reserve currency bloc—impacting financial stability, inflation, capital flows, and crisis management across Europe and globally.",
+      "consensus_notes": "Included by ChatGPT (#7) and Gemini (#15); provides essential domain coverage in global monetary policy alongside Powell, reflecting the dual-pillar nature of the world's financial system.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_region": "Europe",
+        "secondary_regions": [
+          "US"
+        ],
+        "neuron_role": "European metabolic regulator neuron — sets monetary conditions for the world's second-largest currency bloc, stabilizing or stressing the Eurozone financial system",
+        "neuron_type": "Pacemaker neuron — rhythmic, calibrated signaling that maintains Eurozone financial stability and coordinates with global monetary tempo",
+        "cell_assemblies": [
+          {
+            "name": "European Central Bank (ECB)",
+            "role": "Core monetary policy assembly for the Eurozone, managing inflation, rates, and financial stability"
+          },
+          {
+            "name": "Eurozone Banking System",
+            "role": "Transmission assembly through which ECB policy propagates to the real economy"
+          },
+          {
+            "name": "IMF (International Monetary Fund)",
+            "role": "Former leadership role; ongoing institutional influence on global financial governance norms"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "PS-04",
+            "name": "Dollar Hegemony Defense",
+            "role": "Euro steward — manages the primary alternative reserve currency, both complementing and competing with dollar dominance"
+          },
+          {
+            "id": "PS-10",
+            "name": "Western Alliance Reformation",
+            "role": "Monetary policy coordination with Fed shapes transatlantic economic alignment and European strategic capacity"
+          },
+          {
+            "id": "PS-08",
+            "name": "Global Energy Transition",
+            "role": "ECB green finance policies and rate environment shape European energy transition investment"
+          }
+        ]
+      }
+    }
+  ]
+}

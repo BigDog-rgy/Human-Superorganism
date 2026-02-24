@@ -1,0 +1,29 @@
+# Environment variables and API keys
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# LLM Council outputs
+llm_council_results.json
+llm_council_summary.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+startup.txt

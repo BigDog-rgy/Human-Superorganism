@@ -1,0 +1,710 @@
+{
+  "metadata": {
+    "date": "2026-02-22",
+    "source": "us_llm_council_results.json",
+    "focus": "US domestic prime movers",
+    "annotated_by": "claude-opus-4-6",
+    "methodology": "Hebbian superorganism annotation with US-specific DPS phase sequences: canonical phase sequences (DPS-01 to DPS-08) and cell assemblies defined a priori; individuals mapped by Claude Opus 4.6 at temperature=0.3"
+  },
+  "canonical_vocabulary": {
+    "phase_sequences": [
+      {
+        "id": "DPS-01",
+        "name": "MAGA Realignment",
+        "definition": "The structural reorientation of the Republican Party and federal government under Trump's 2025-2026 executive agenda — deregulation, tariff-based industrial policy, executive power consolidation, and dismantling of legacy administrative state norms."
+      },
+      {
+        "id": "DPS-02",
+        "name": "AI & Compute Dominance",
+        "definition": "The race among US private actors and government to lead in frontier AI model development, chip design, and data center infrastructure — determining American technological supremacy for the next decade."
+      },
+      {
+        "id": "DPS-03",
+        "name": "Financial System Control",
+        "definition": "Competition and coordination among the Federal Reserve, Treasury, Wall Street asset managers, and cryptocurrency actors over interest rates, capital allocation, and the architecture of US and global financial markets."
+      },
+      {
+        "id": "DPS-04",
+        "name": "Platform & Narrative Hegemony",
+        "definition": "Dominance over the US information environment via social media platforms, algorithmic curation, podcast networks, and cable news — who shapes what 330M Americans see, believe, and vote for."
+      },
+      {
+        "id": "DPS-05",
+        "name": "Defense & Industrial Mobilization",
+        "definition": "The shift toward great-power-competition defense spending, reshoring of critical manufacturing, and integration of private defense contractors into national security priorities — the US war economy restructuring."
+      },
+      {
+        "id": "DPS-06",
+        "name": "Energy Dominance",
+        "definition": "The Trump administration's strategy of maximizing US fossil fuel production, rolling back climate mandates, and leveraging American LNG and oil exports as geopolitical tools."
+      },
+      {
+        "id": "DPS-07",
+        "name": "Judicial & Constitutional Architecture",
+        "definition": "The long-run reshaping of US law through Supreme Court appointments, federal judiciary transformation, and litigation-based policy battles — determining the constitutional boundaries of executive power, regulatory authority, and civil rights."
+      },
+      {
+        "id": "DPS-08",
+        "name": "Capital & Wealth Concentration",
+        "definition": "The acceleration of wealth consolidation among the top 0.1% through tax policy, financial deregulation, and technology-driven productivity gains — reshaping US class structure, political influence, and consumer market dynamics."
+      }
+    ],
+    "sectors": {
+      "Federal Executive": {
+        "character": "Direct executive branch authority — White House, cabinet, executive agencies, and executive order power"
+      },
+      "Technology": {
+        "character": "Private sector tech company leadership — product, platform, and compute control over the digital economy"
+      },
+      "AI / ML": {
+        "character": "Frontier AI research and deployment — models, infrastructure, safety governance, and the AGI race"
+      },
+      "Finance / Capital Markets": {
+        "character": "Capital allocation, monetary policy, asset management, and market-making — control over the financial nervous system"
+      },
+      "Defense / Security": {
+        "character": "Military procurement, intelligence adjacency, and national security apparatus — hardware and software of US power"
+      },
+      "Media / Narrative": {
+        "character": "Platform ownership, editorial control, and narrative reach over US public opinion and political discourse"
+      },
+      "Energy": {
+        "character": "Fossil fuel production, utility control, and energy regulatory influence — the metabolic base of the US economy"
+      }
+    },
+    "cell_assemblies": [
+      "Trump Administration",
+      "MAGA Movement",
+      "Republican Party",
+      "Democratic Party",
+      "DOGE (Department of Government Efficiency)",
+      "White House Office",
+      "US Senate",
+      "US House of Representatives",
+      "US Department of Treasury",
+      "US Department of Defense",
+      "US Department of Justice",
+      "OpenAI",
+      "Microsoft",
+      "Azure Cloud",
+      "GitHub",
+      "Meta",
+      "Facebook",
+      "Instagram",
+      "Apple",
+      "App Store Ecosystem",
+      "NVIDIA",
+      "CUDA Ecosystem",
+      "SpaceX",
+      "Tesla",
+      "xAI",
+      "X (Twitter)",
+      "Google / Alphabet",
+      "Google DeepMind",
+      "Federal Reserve System",
+      "FOMC (Federal Open Market Committee)",
+      "BlackRock",
+      "Aladdin Platform",
+      "Goldman Sachs",
+      "JP Morgan",
+      "US Treasury / Bond Market",
+      "Fox News",
+      "Podcast Industrial Complex",
+      "Palantir",
+      "Anduril"
+    ]
+  },
+  "superorganism_list": [
+    {
+      "rank": 1,
+      "name": "Donald J. Trump",
+      "domain": "Federal Politics / Executive Power",
+      "justification": "As the sitting President of the United States, Trump wields supreme domestic influence over federal policy, regulatory direction, immigration enforcement, executive orders, appointments, and the entire national political agenda.",
+      "consensus_notes": "Universal #1 or #2 across all four models; three of four placed him first, and peer reviews unanimously affirmed the President must top a domestic-influence list.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_sector": "Federal Executive",
+        "secondary_sectors": [
+          "Media / Narrative",
+          "Energy",
+          "Defense / Security"
+        ],
+        "neuron_role": "Master pacemaker neuron — sets the oscillatory rhythm for the entire US domestic superorganism, with every other neuron's firing pattern entrained to or reactive against his executive signals",
+        "neuron_type": "Tonic-firing command neuron — continuous high-amplitude output that establishes baseline activation across all seven sectors simultaneously",
+        "cell_assemblies": [
+          {
+            "name": "Trump Administration",
+            "role": "Central executive assembly driving DPS-01 MAGA Realignment across all federal agencies"
+          },
+          {
+            "name": "MAGA Movement",
+            "role": "Mass political base providing electoral and cultural energy for DPS-01 and DPS-04"
+          },
+          {
+            "name": "Republican Party",
+            "role": "Institutional vehicle captured and reorganized under DPS-01 realignment"
+          },
+          {
+            "name": "White House Office",
+            "role": "Operational nerve center for executive order strategy and policy coordination"
+          },
+          {
+            "name": "Fox News",
+            "role": "Primary broadcast amplifier for DPS-04 narrative dominance"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "DPS-01",
+            "name": "MAGA Realignment",
+            "role": "Prime mover and ultimate authority — every element of the realignment flows from or requires his executive action"
+          },
+          {
+            "id": "DPS-04",
+            "name": "Platform & Narrative Hegemony",
+            "role": "Dominant narrative generator — his statements, rallies, and social media posts set the national news agenda daily"
+          },
+          {
+            "id": "DPS-05",
+            "name": "Defense & Industrial Mobilization",
+            "role": "Commander-in-chief directing defense spending priorities and reshoring mandates"
+          },
+          {
+            "id": "DPS-06",
+            "name": "Energy Dominance",
+            "role": "Chief architect of 'drill baby drill' policy — executive orders rolling back climate regulation and maximizing fossil fuel output"
+          },
+          {
+            "id": "DPS-07",
+            "name": "Judicial & Constitutional Architecture",
+            "role": "Appointing authority for federal judges; his executive actions generate the constitutional test cases the judiciary must resolve"
+          },
+          {
+            "id": "DPS-08",
+            "name": "Capital & Wealth Concentration",
+            "role": "Tax policy and deregulation agenda directly accelerates wealth consolidation among top earners"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "name": "Elon Musk",
+      "domain": "Technology / Government Efficiency / Media",
+      "justification": "As head of the Department of Government Efficiency (DOGE), owner of X (the dominant platform for US political discourse), and CEO of Tesla and SpaceX, Musk is uniquely reshaping federal spending, government workforce policy, and public narrative simultaneously from both inside and outside government.",
+      "consensus_notes": "All four models placed him in the top three; peer reviews validated his DOGE role as a critical distinguishing factor for 2026 domestic influence, and models that omitted DOGE were penalized in peer review.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_sector": "Technology",
+        "secondary_sectors": [
+          "AI / ML",
+          "Federal Executive",
+          "Media / Narrative",
+          "Defense / Security"
+        ],
+        "neuron_role": "Hypomanic burst neuron — fires across multiple US assemblies simultaneously with extraordinary amplitude, reorganizing executive, tech, and narrative networks in real time",
+        "neuron_type": "Burst-firing excitatory neuron — intermittent but extremely high-amplitude influence across Federal Executive, Technology, and Media sectors simultaneously",
+        "cell_assemblies": [
+          {
+            "name": "SpaceX",
+            "role": "Primary industrial executor of US aerospace dominance and DPS-05 defense mobilization"
+          },
+          {
+            "name": "Tesla",
+            "role": "Mass-market vehicle for DPS-06 energy transition disruption and industrial manufacturing"
+          },
+          {
+            "name": "xAI",
+            "role": "Competing actor in DPS-02 AI & Compute Dominance"
+          },
+          {
+            "name": "DOGE (Department of Government Efficiency)",
+            "role": "Primary vehicle for DPS-01 MAGA Realignment — metabolic restructuring of federal bureaucracy"
+          },
+          {
+            "name": "X (Twitter)",
+            "role": "Primary platform for DPS-04 Platform & Narrative Hegemony"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "DPS-01",
+            "name": "MAGA Realignment",
+            "role": "Co-architect via DOGE — dismantling administrative state from inside executive branch"
+          },
+          {
+            "id": "DPS-02",
+            "name": "AI & Compute Dominance",
+            "role": "Competing actor via xAI; building massive compute clusters to challenge OpenAI and Google"
+          },
+          {
+            "id": "DPS-04",
+            "name": "Platform & Narrative Hegemony",
+            "role": "Platform owner with direct reach to 100M+ US users via X, reshaping political discourse norms"
+          },
+          {
+            "id": "DPS-05",
+            "name": "Defense & Industrial Mobilization",
+            "role": "SpaceX as critical national security asset — Starlink, launch dominance, and military satellite infrastructure"
+          },
+          {
+            "id": "DPS-08",
+            "name": "Capital & Wealth Concentration",
+            "role": "World's wealthiest individual; personal fortune and corporate empires exemplify and accelerate top-0.1% concentration"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "name": "John G. Roberts Jr.",
+      "domain": "Judiciary / Constitutional Law",
+      "justification": "As Chief Justice of a 6-3 conservative Supreme Court actively deciding landmark cases on executive power, administrative law, and federal authority, Roberts shapes the constitutional boundaries within which all other domestic actors operate.",
+      "consensus_notes": "Included by three of four models (Claude, Grok, Gemini); peer reviews highlighted his structural importance, and ChatGPT was criticized for omitting the Chief Justice.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_sector": "Federal Executive",
+        "secondary_sectors": [],
+        "neuron_role": "Inhibitory gating neuron — determines the constitutional boundaries within which all other neurons can fire, selectively permitting or blocking executive, legislative, and regulatory signals",
+        "neuron_type": "Slow-firing inhibitory interneuron — low frequency but each firing event permanently reshapes the network's wiring rules via precedent",
+        "cell_assemblies": [
+          {
+            "name": "US Department of Justice",
+            "role": "Primary litigant and respondent before the Court; DOJ positions shape the cases Roberts adjudicates under DPS-07"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "DPS-07",
+            "name": "Judicial & Constitutional Architecture",
+            "role": "Central node — as Chief Justice of a 6-3 conservative Court, his vote and opinion assignments determine the constitutional framework for executive power, administrative law, and federal authority"
+          },
+          {
+            "id": "DPS-01",
+            "name": "MAGA Realignment",
+            "role": "Judicial gatekeeper — Court rulings on executive orders, agency dismantlement, and administrative law define the legal limits of the MAGA restructuring"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "name": "Jerome H. Powell",
+      "domain": "Monetary Policy / Financial Markets",
+      "justification": "As Chair of the Federal Reserve through May 2026, his interest rate decisions and monetary policy guidance directly determine credit conditions, inflation trajectory, employment levels, and the economic reality experienced by every American household and business.",
+      "consensus_notes": "All four models included Powell in their top six; universally recognized as the single most influential figure over US domestic economic conditions outside the presidency.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_sector": "Finance / Capital Markets",
+        "secondary_sectors": [],
+        "neuron_role": "Thermostat neuron — regulates the metabolic rate of the entire US economic organism through interest rate settings, directly modulating the firing thresholds of every financial and commercial neuron",
+        "neuron_type": "Tonic-firing modulatory neuron — steady, predictable output that sets background excitability levels across all economic sectors",
+        "cell_assemblies": [
+          {
+            "name": "Federal Reserve System",
+            "role": "Institutional base — controls monetary policy apparatus for DPS-03 Financial System Control"
+          },
+          {
+            "name": "FOMC (Federal Open Market Committee)",
+            "role": "Decision-making assembly for interest rate policy — the core mechanism of DPS-03"
+          },
+          {
+            "name": "US Treasury / Bond Market",
+            "role": "Counterparty and co-dependent assembly — Fed actions directly determine Treasury yields and bond market dynamics"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "DPS-03",
+            "name": "Financial System Control",
+            "role": "Primary controller — interest rate decisions and balance sheet management determine credit conditions, asset prices, and the architecture of US financial markets"
+          },
+          {
+            "id": "DPS-08",
+            "name": "Capital & Wealth Concentration",
+            "role": "Indirect but powerful — monetary policy settings disproportionately affect asset prices, amplifying or moderating wealth concentration dynamics"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "name": "Mike Johnson",
+      "domain": "Federal Legislation",
+      "justification": "As Speaker of the House, Johnson controls the legislative agenda, serves as gatekeeper for tax reform, spending bills, and reconciliation packages, and is the indispensable figure determining what domestic legislation reaches the President's desk.",
+      "consensus_notes": "Included by Claude and Grok; peer reviews from three of four models criticized lists that omitted the Speaker, noting that constitutional officeholders with direct legislative power must appear on a domestic-influence list.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_sector": "Federal Executive",
+        "secondary_sectors": [],
+        "neuron_role": "Legislative bottleneck neuron — all domestic policy signals must pass through this node to become law; controls the sequencing and gating of fiscal, regulatory, and structural legislation",
+        "neuron_type": "Threshold-gating neuron — fires only when sufficient coalition pressure accumulates, but each firing event releases large-scale legislative output",
+        "cell_assemblies": [
+          {
+            "name": "US House of Representatives",
+            "role": "Institutional base — controls floor votes, committee assignments, and legislative calendar"
+          },
+          {
+            "name": "Republican Party",
+            "role": "Governing coalition vehicle — must manage fractious majority to advance DPS-01 legislative agenda"
+          },
+          {
+            "name": "MAGA Movement",
+            "role": "Primary constituency pressure — MAGA base demands shape Johnson's legislative priorities"
+          },
+          {
+            "name": "Trump Administration",
+            "role": "Executive counterpart — Johnson serves as legislative executor of Trump's policy agenda"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "DPS-01",
+            "name": "MAGA Realignment",
+            "role": "Legislative gatekeeper — controls whether tax reform, spending cuts, and deregulation bills reach the President's desk"
+          },
+          {
+            "id": "DPS-08",
+            "name": "Capital & Wealth Concentration",
+            "role": "Tax policy architect — reconciliation bills extending Trump tax cuts directly shape wealth distribution"
+          },
+          {
+            "id": "DPS-05",
+            "name": "Defense & Industrial Mobilization",
+            "role": "Appropriations authority — defense spending levels and industrial policy funding require House passage"
+          },
+          {
+            "id": "DPS-06",
+            "name": "Energy Dominance",
+            "role": "Legislative enabler — energy deregulation and permitting reform bills require House action"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "name": "Jensen Huang",
+      "domain": "Semiconductors / AI Infrastructure",
+      "justification": "As CEO of NVIDIA, Huang controls the essential GPU hardware and software stack powering the entire US AI revolution, making his company's decisions on chip supply, pricing, and architecture foundational to American technological and economic competitiveness.",
+      "consensus_notes": "All four models included Huang; strong consensus that his chokepoint position in the AI supply chain makes him one of the most consequential private-sector figures for domestic economic transformation.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_sector": "AI / ML",
+        "secondary_sectors": [
+          "Technology",
+          "Defense / Security"
+        ],
+        "neuron_role": "Infrastructure substrate neuron — provides the essential computational hardware upon which all AI-sector neurons depend; controls the metabolic fuel supply for the entire AI phase sequence",
+        "neuron_type": "Tonic-firing excitatory neuron — steady, high-output signal that enables and amplifies the firing of every downstream AI and compute-dependent neuron",
+        "cell_assemblies": [
+          {
+            "name": "NVIDIA",
+            "role": "Monopoly provider of GPU hardware powering DPS-02 AI & Compute Dominance"
+          },
+          {
+            "name": "CUDA Ecosystem",
+            "role": "Software lock-in layer — CUDA's dominance ensures NVIDIA's architectural control over the entire AI software stack"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "DPS-02",
+            "name": "AI & Compute Dominance",
+            "role": "Foundational enabler — NVIDIA's GPU supply, pricing, and architecture decisions determine the pace and direction of US AI development"
+          },
+          {
+            "id": "DPS-05",
+            "name": "Defense & Industrial Mobilization",
+            "role": "Critical supplier — military AI, autonomous systems, and intelligence applications depend on NVIDIA hardware"
+          },
+          {
+            "id": "DPS-08",
+            "name": "Capital & Wealth Concentration",
+            "role": "NVIDIA's market cap explosion exemplifies and drives technology-driven wealth concentration among shareholders and executives"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "name": "Satya Nadella",
+      "domain": "Enterprise Technology / Cloud & AI",
+      "justification": "As CEO of Microsoft, Nadella drives the integration of generative AI into the enterprise software, cloud infrastructure, and operating systems used by the vast majority of US government agencies and corporations, fundamentally reshaping American workplace productivity.",
+      "consensus_notes": "Included by three of four models (Claude, ChatGPT, Gemini); recognized as the leading figure in translating frontier AI capabilities into actual deployed domestic enterprise and government systems.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_sector": "Technology",
+        "secondary_sectors": [
+          "AI / ML",
+          "Defense / Security"
+        ],
+        "neuron_role": "Enterprise integration neuron — embeds AI capabilities into the operational infrastructure of US government and corporate networks, converting frontier research into deployed institutional capacity",
+        "neuron_type": "Tonic-firing relay neuron — steady, high-bandwidth signal that translates AI research outputs into enterprise-scale deployment across millions of organizational endpoints",
+        "cell_assemblies": [
+          {
+            "name": "Microsoft",
+            "role": "Primary enterprise platform for DPS-02 — integrates AI into Windows, Office, and enterprise software used by most US institutions"
+          },
+          {
+            "name": "Azure Cloud",
+            "role": "Cloud infrastructure backbone for DPS-02 — hosts OpenAI models and provides compute to government and enterprise customers"
+          },
+          {
+            "name": "OpenAI",
+            "role": "Strategic investment and deployment partner — Microsoft's $13B+ investment makes it the primary commercial channel for OpenAI's models"
+          },
+          {
+            "name": "GitHub",
+            "role": "Developer platform — Copilot AI integration reshapes software development productivity across the US tech workforce"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "DPS-02",
+            "name": "AI & Compute Dominance",
+            "role": "Primary enterprise deployer — Azure + OpenAI partnership makes Microsoft the dominant channel for AI commercialization in US government and business"
+          },
+          {
+            "id": "DPS-05",
+            "name": "Defense & Industrial Mobilization",
+            "role": "Cloud and AI provider to US defense and intelligence agencies via Azure Government contracts"
+          },
+          {
+            "id": "DPS-08",
+            "name": "Capital & Wealth Concentration",
+            "role": "Microsoft's AI-driven market cap growth and enterprise pricing power concentrate returns among shareholders and tech workers"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "name": "Jamie Dimon",
+      "domain": "Banking / Financial Stability",
+      "justification": "As CEO of JPMorgan Chase, the largest and most systemically important US bank, Dimon's influence over credit availability, lending standards, deal-making, and his role as the de facto voice of Wall Street give him outsized sway over US economic stability and policy.",
+      "consensus_notes": "All four models included Dimon; unanimous agreement that he is the single most influential figure in US banking, with direct impact on domestic credit conditions and financial confidence.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_sector": "Finance / Capital Markets",
+        "secondary_sectors": [],
+        "neuron_role": "Financial system anchor neuron — serves as the de facto voice and stabilizer of US commercial banking, with JPMorgan's lending, deal-making, and risk management setting the tone for the entire financial sector",
+        "neuron_type": "Tonic-firing stabilizing neuron — steady, authoritative output that dampens financial panic and coordinates banking sector behavior during stress events",
+        "cell_assemblies": [
+          {
+            "name": "JP Morgan",
+            "role": "Largest US bank — systemically important institution at the center of DPS-03 Financial System Control"
+          },
+          {
+            "name": "US Treasury / Bond Market",
+            "role": "Primary dealer and market-maker — JPMorgan's Treasury operations are critical to bond market liquidity and DPS-03"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "DPS-03",
+            "name": "Financial System Control",
+            "role": "Systemic anchor — JPMorgan's credit decisions, risk appetite, and Dimon's public commentary shape market expectations and financial stability"
+          },
+          {
+            "id": "DPS-08",
+            "name": "Capital & Wealth Concentration",
+            "role": "Gatekeeper of capital access — JPMorgan's lending standards and deal-making concentrate financial returns among institutional and wealthy clients"
+          },
+          {
+            "id": "DPS-01",
+            "name": "MAGA Realignment",
+            "role": "Corporate interlocutor — Dimon's relationship with the Trump administration shapes financial deregulation and banking policy"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "name": "Mark Zuckerberg",
+      "domain": "Social Media / Information Ecosystem",
+      "justification": "As CEO of Meta, Zuckerberg controls Facebook, Instagram, WhatsApp, and Threads — platforms that collectively shape the information environment, political communication, advertising markets, and social behavior of hundreds of millions of Americans daily.",
+      "consensus_notes": "Included by three of four models (Claude, ChatGPT, Gemini); recognized for his enormous reach over US attention and discourse, though some debate about whether platform influence translates into directed domestic policy power.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_sector": "Media / Narrative",
+        "secondary_sectors": [
+          "Technology",
+          "AI / ML"
+        ],
+        "neuron_role": "Mass-reach narrative neuron — controls the information environment for the largest share of US social media users, determining what political, commercial, and cultural signals reach hundreds of millions of Americans",
+        "neuron_type": "Tonic-firing broadcast neuron — continuous high-bandwidth output via algorithmic curation that shapes baseline information exposure for the US population",
+        "cell_assemblies": [
+          {
+            "name": "Meta",
+            "role": "Parent company controlling the dominant US social media platforms for DPS-04 narrative hegemony"
+          },
+          {
+            "name": "Facebook",
+            "role": "Largest US social network — primary vehicle for political communication, news distribution, and community organizing"
+          },
+          {
+            "name": "Instagram",
+            "role": "Visual and cultural platform shaping consumer behavior, influencer economy, and youth information environment"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "DPS-04",
+            "name": "Platform & Narrative Hegemony",
+            "role": "Dominant platform controller — Meta's content moderation, algorithmic, and policy decisions shape the information diet of 200M+ US users"
+          },
+          {
+            "id": "DPS-02",
+            "name": "AI & Compute Dominance",
+            "role": "Major AI competitor — Meta's open-source LLaMA models and massive compute investments make it a key actor in the frontier AI race"
+          },
+          {
+            "id": "DPS-08",
+            "name": "Capital & Wealth Concentration",
+            "role": "Meta's advertising monopoly and AI investments concentrate digital economy returns among shareholders and tech elite"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "name": "Larry Fink",
+      "domain": "Asset Management / Capital Allocation",
+      "justification": "As CEO of BlackRock, the world's largest asset manager with over $10 trillion under management, Fink's investment decisions, corporate governance positions, and risk frameworks influence capital flows, corporate behavior, and retirement outcomes for millions of Americans.",
+      "consensus_notes": "All four models included Fink; strong consensus on his unique structural influence over US capital markets and corporate governance through massive shareholding power across virtually all major American companies.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_sector": "Finance / Capital Markets",
+        "secondary_sectors": [
+          "Energy"
+        ],
+        "neuron_role": "Capital allocation neuron — directs the flow of $10T+ in managed assets across the US economy, with investment decisions and corporate governance positions shaping which companies, sectors, and strategies receive capital",
+        "neuron_type": "Slow-firing modulatory neuron — low-frequency but massive-amplitude signals that reshape capital flows and corporate behavior over quarters and years",
+        "cell_assemblies": [
+          {
+            "name": "BlackRock",
+            "role": "World's largest asset manager — central node in DPS-03 and DPS-08 through sheer capital allocation scale"
+          },
+          {
+            "name": "Aladdin Platform",
+            "role": "Risk management infrastructure used by institutional investors globally — algorithmic backbone of capital allocation decisions"
+          },
+          {
+            "name": "US Treasury / Bond Market",
+            "role": "Largest private holder of US Treasuries — BlackRock's bond positioning directly affects sovereign debt markets"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "DPS-03",
+            "name": "Financial System Control",
+            "role": "Dominant capital allocator — BlackRock's investment flows and Aladdin's risk models shape market structure and asset pricing across US markets"
+          },
+          {
+            "id": "DPS-08",
+            "name": "Capital & Wealth Concentration",
+            "role": "Primary mechanism — BlackRock's passive index dominance and fee structure concentrate returns while its corporate governance positions shape executive compensation and shareholder value extraction"
+          },
+          {
+            "id": "DPS-06",
+            "name": "Energy Dominance",
+            "role": "Capital gatekeeper for energy sector — BlackRock's investment stance on fossil fuels vs. renewables materially affects energy company financing and strategic direction"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 11,
+      "name": "Sam Altman",
+      "domain": "Artificial Intelligence",
+      "justification": "As CEO of OpenAI, Altman is at the epicenter of the generative AI transformation, with his company's products and policy positions directly shaping US AI regulation debates, labor market disruption, education, and the pace of technological adoption nationwide.",
+      "consensus_notes": "Included by three of four models (Claude, ChatGPT, Gemini); recognized as the public face and primary driver of frontier AI deployment in the US, though some debate about whether his influence is more aspirational than currently realized compared to infrastructure players like Huang.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_sector": "AI / ML",
+        "secondary_sectors": [
+          "Technology"
+        ],
+        "neuron_role": "Frontier AI pacemaker neuron — sets the tempo of the US AI race through OpenAI's model releases, safety framing, and policy positioning, forcing every other AI actor to respond to his cadence",
+        "neuron_type": "Burst-firing excitatory neuron — each major model release or policy statement triggers cascading activation across technology, finance, media, and government sectors",
+        "cell_assemblies": [
+          {
+            "name": "OpenAI",
+            "role": "Leading frontier AI lab — central actor in DPS-02 AI & Compute Dominance"
+          },
+          {
+            "name": "Microsoft",
+            "role": "Primary investor and deployment partner — OpenAI's models reach enterprise scale through Microsoft's infrastructure"
+          },
+          {
+            "name": "Azure Cloud",
+            "role": "Compute infrastructure provider — OpenAI's training and inference runs on Azure, binding the two assemblies"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "DPS-02",
+            "name": "AI & Compute Dominance",
+            "role": "Pace-setter — OpenAI's GPT model series defines the frontier; Altman's fundraising and compute acquisition strategy shapes the entire AI ecosystem's trajectory"
+          },
+          {
+            "id": "DPS-08",
+            "name": "Capital & Wealth Concentration",
+            "role": "AI-driven productivity gains and OpenAI's $150B+ valuation concentrate wealth among investors and tech insiders while potentially displacing labor"
+          }
+        ]
+      }
+    },
+    {
+      "rank": 12,
+      "name": "Stephen Miller",
+      "domain": "Domestic Policy / Immigration",
+      "justification": "As Deputy Chief of Staff for Policy in the Trump White House, Miller is the chief architect of the administration's sweeping immigration enforcement, executive order strategy, and domestic policy agenda, translating ideological vision into binding federal action with enormous real-world consequences.",
+      "consensus_notes": "Only included by Claude, but peer reviews strongly validated the importance of including key White House policy architects who translate presidential power into specific domestic action; Miller's role is particularly significant given immigration's centrality to the 2025-2026 domestic agenda. Chosen over other contenders (Vance, RFK Jr., Thune, Cook, Pichai) because his behind-the-scenes policy design role has more direct domestic impact than the VP's largely ceremonial duties, and because the list already has strong tech/finance representation.",
+      "superorganism": {
+        "hemisphere": "West",
+        "primary_sector": "Federal Executive",
+        "secondary_sectors": [
+          "Media / Narrative"
+        ],
+        "neuron_role": "Policy crystallization neuron — converts ideological MAGA signals into precise executive orders, legal strategies, and enforcement directives, serving as the translation layer between political vision and federal action",
+        "neuron_type": "Tonic-firing interneuron — continuous, focused output within the executive branch that converts broad political impulses into specific, legally operative policy instruments",
+        "cell_assemblies": [
+          {
+            "name": "White House Office",
+            "role": "Operational base — as Deputy Chief of Staff for Policy, Miller controls the domestic policy pipeline within the West Wing"
+          },
+          {
+            "name": "Trump Administration",
+            "role": "Executive authority structure — Miller translates Trump's agenda into binding federal action across agencies"
+          },
+          {
+            "name": "MAGA Movement",
+            "role": "Ideological source — Miller's policy positions are rooted in and amplified by the MAGA base's priorities on immigration and nationalism"
+          },
+          {
+            "name": "US Department of Justice",
+            "role": "Enforcement partner — DOJ executes immigration enforcement and legal strategies architected by Miller"
+          }
+        ],
+        "phase_sequences": [
+          {
+            "id": "DPS-01",
+            "name": "MAGA Realignment",
+            "role": "Chief policy architect — designs and implements the executive order strategy, immigration enforcement regime, and administrative state restructuring that constitute the operational core of MAGA realignment"
+          },
+          {
+            "id": "DPS-07",
+            "name": "Judicial & Constitutional Architecture",
+            "role": "Litigation catalyst — Miller's aggressive executive orders deliberately generate constitutional test cases that advance the administration's legal theories before a sympathetic judiciary"
+          },
+          {
+            "id": "DPS-04",
+            "name": "Platform & Narrative Hegemony",
+            "role": "Narrative strategist — frames immigration and domestic policy in terms designed to dominate media cycles and mobilize the MAGA base"
+          }
+        ]
+      }
+    }
+  ]
+}

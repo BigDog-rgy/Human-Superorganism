@@ -1,0 +1,487 @@
+{
+  "metadata": {
+    "date": "2026-02-17",
+    "focus": "US domestic prime movers",
+    "models_queried": [
+      "claude",
+      "chatgpt",
+      "grok",
+      "gemini"
+    ],
+    "methodology": "Three-stage LLM Council (Karpathy method): Stage 1 - Independent responses, Stage 2 - Peer review, Stage 3 - Chairman synthesis by Claude Opus 4.6"
+  },
+  "stage_1_individual_responses": {
+    "claude": [
+      {
+        "rank": 1,
+        "name": "Donald J. Trump",
+        "domain": "Federal Policy / Executive Power",
+        "justification": "As the 47th President of the United States, inaugurated January 20, 2025, Trump wields unmatched domestic influence over federal policy, regulatory direction, immigration enforcement, and the national agenda."
+      },
+      {
+        "rank": 2,
+        "name": "Elon Musk",
+        "domain": "Technology / Government Efficiency / Media",
+        "justification": "As head of the Department of Government Efficiency (DOGE) and owner of X (formerly Twitter), Tesla, and SpaceX, Musk is actively reshaping federal spending, government workforce policy, and the dominant platform for US political discourse simultaneously."
+      },
+      {
+        "rank": 3,
+        "name": "John Roberts",
+        "domain": "Judiciary / Constitutional Law",
+        "justification": "As Chief Justice of the United States, Roberts presides over a 6-3 conservative Supreme Court that is actively deciding landmark cases on executive power, administrative law, and the boundaries of federal authority in the Trump era."
+      },
+      {
+        "rank": 4,
+        "name": "Mike Johnson",
+        "domain": "Federal Legislation",
+        "justification": "As Speaker of the House, Johnson controls the legislative agenda and is the critical gatekeeper for tax reform, spending bills, and the reconciliation packages that will define domestic fiscal policy."
+      },
+      {
+        "rank": 5,
+        "name": "Jerome Powell",
+        "domain": "Monetary Policy / Financial Markets",
+        "justification": "As Chair of the Federal Reserve, Powell's interest rate decisions and monetary policy guidance directly move trillions in US financial markets and shape the economic conditions experienced by every American household and business."
+      },
+      {
+        "rank": 6,
+        "name": "Jensen Huang",
+        "domain": "Technology / AI Infrastructure",
+        "justification": "As CEO of NVIDIA, Huang controls the essential hardware infrastructure powering the AI revolution, making his company's decisions on chip supply, pricing, and architecture foundational to the trajectory of US technological and economic competitiveness."
+      },
+      {
+        "rank": 7,
+        "name": "Satya Nadella",
+        "domain": "Technology / AI Deployment",
+        "justification": "As CEO of Microsoft and the driving force behind the OpenAI partnership, Nadella is leading the integration of generative AI into enterprise software used by the vast majority of American businesses, fundamentally reshaping US workplace productivity."
+      },
+      {
+        "rank": 8,
+        "name": "Mark Zuckerberg",
+        "domain": "Social Media / Information Ecosystem",
+        "justification": "As CEO of Meta, Zuckerberg controls Facebook, Instagram, WhatsApp, and Threads — platforms that collectively shape the information environment, political discourse, and social behavior of hundreds of millions of Americans daily."
+      },
+      {
+        "rank": 9,
+        "name": "Jamie Dimon",
+        "domain": "Finance / Banking",
+        "justification": "As CEO of JPMorgan Chase, the largest US bank by assets, Dimon's influence over credit markets, lending standards, and his role as the de facto voice of Wall Street give him outsized sway over US economic policy and financial stability."
+      },
+      {
+        "rank": 10,
+        "name": "Sam Altman",
+        "domain": "Artificial Intelligence",
+        "justification": "As CEO of OpenAI, Altman is at the epicenter of the generative AI transformation, with his company's products and policy positions directly shaping US AI regulation debates, labor market disruption, and the pace of technological adoption nationwide."
+      },
+      {
+        "rank": 11,
+        "name": "Stephen Miller",
+        "domain": "Domestic Policy / Immigration",
+        "justification": "As Deputy Chief of Staff for Policy in the Trump White House, Miller is the architect of the administration's sweeping immigration enforcement, executive order strategy, and domestic policy agenda, translating ideology into binding federal action."
+      },
+      {
+        "rank": 12,
+        "name": "Larry Fink",
+        "domain": "Finance / Capital Allocation",
+        "justification": "As CEO of BlackRock, the world's largest asset manager with over $10 trillion under management, Fink's investment decisions and corporate governance positions influence capital flows, corporate behavior, and retirement outcomes for millions of Americans."
+      }
+    ],
+    "chatgpt": [
+      {
+        "rank": 1,
+        "name": "Donald J. Trump",
+        "domain": "Federal politics / executive power",
+        "justification": "As President of the United States, he directly steers domestic policy priorities, federal enforcement and regulatory posture, budget negotiations, and the national political agenda."
+      },
+      {
+        "rank": 2,
+        "name": "Jerome H. Powell",
+        "domain": "Monetary policy / financial markets",
+        "justification": "As Chair of the Federal Reserve, his decisions and signaling on interest rates, liquidity, and banking stability materially move US credit conditions, inflation dynamics, employment, and markets."
+      },
+      {
+        "rank": 3,
+        "name": "Elon R. Musk",
+        "domain": "Technology platforms / transportation & industrial innovation",
+        "justification": "Through control of X (major narrative distribution) and leadership of Tesla and other US-based ventures, he influences public discourse, capital allocation, and key domestic tech/industrial trajectories."
+      },
+      {
+        "rank": 4,
+        "name": "Jensen Huang",
+        "domain": "Semiconductors / AI compute supply chain",
+        "justification": "As CEO of NVIDIA, he sits at a chokepoint for the AI boom by shaping access to the GPUs and software stack that underpin US corporate AI deployment and investment."
+      },
+      {
+        "rank": 5,
+        "name": "Tim Cook",
+        "domain": "Consumer technology / digital ecosystems",
+        "justification": "As CEO of Apple, he influences US consumer behavior, mobile platform rules (App Store), privacy defaults, and a vast domestic hardware/services economy."
+      },
+      {
+        "rank": 6,
+        "name": "Satya Nadella",
+        "domain": "Enterprise technology / cloud & AI",
+        "justification": "As CEO of Microsoft, he drives core US enterprise infrastructure decisions via Azure, productivity software, and large-scale AI commercialization that reshapes how organizations operate."
+      },
+      {
+        "rank": 7,
+        "name": "Larry Fink",
+        "domain": "Asset management / capital markets",
+        "justification": "As CEO of BlackRock, he influences US corporate governance and capital flows at scale through stewardship, risk frameworks, and allocation across public and private markets."
+      },
+      {
+        "rank": 8,
+        "name": "Jamie Dimon",
+        "domain": "Banking / credit intermediation",
+        "justification": "As CEO of JPMorgan Chase, he affects US credit availability, deal-making, and financial stability through the country’s most systemically important bank."
+      },
+      {
+        "rank": 9,
+        "name": "Mark Zuckerberg",
+        "domain": "Social media / digital advertising & information flows",
+        "justification": "As CEO of Meta, he controls platforms that shape US attention, political communication, and advertising markets through Facebook, Instagram, and WhatsApp."
+      },
+      {
+        "rank": 10,
+        "name": "Sundar Pichai",
+        "domain": "Search / digital advertising / AI consumer interfaces",
+        "justification": "As CEO of Alphabet, he influences how Americans find information and how businesses reach customers via Google Search/YouTube, while steering AI integration into widely used products."
+      },
+      {
+        "rank": 11,
+        "name": "Sam Altman",
+        "domain": "Artificial intelligence / technology commercialization",
+        "justification": "As a central figure in frontier AI deployment and partnerships across US industry, he shapes the pace and direction of AI adoption, norms, and competitive dynamics domestically."
+      },
+      {
+        "rank": 12,
+        "name": "Rupert Murdoch",
+        "domain": "Media / political narrative and agenda-setting",
+        "justification": "Through enduring influence over major US news and commentary outlets, he continues to shape elite and mass political narratives that affect elections and policy debates."
+      }
+    ],
+    "grok": [
+      {
+        "rank": 1,
+        "name": "Donald J. Trump",
+        "domain": "Politics",
+        "justification": "As President of the United States, he directs executive policy, appointments, and federal agencies shaping core domestic governance."
+      },
+      {
+        "rank": 2,
+        "name": "Elon Musk",
+        "domain": "Technology & Business",
+        "justification": "As CEO of Tesla, SpaceX, and xAI, and co-head of the Department of Government Efficiency (DOGE), he drives tech innovation, federal cost-cutting, and public narrative via X."
+      },
+      {
+        "rank": 3,
+        "name": "JD Vance",
+        "domain": "Politics",
+        "justification": "As Vice President, he casts Senate tie-breakers, influences legislation, and advises on domestic policy priorities."
+      },
+      {
+        "rank": 4,
+        "name": "Mike Johnson",
+        "domain": "Politics",
+        "justification": "As Speaker of the House, he controls the legislative agenda and Republican majority in passing domestic bills."
+      },
+      {
+        "rank": 5,
+        "name": "John G. Roberts Jr.",
+        "domain": "Judiciary",
+        "justification": "As Chief Justice of the Supreme Court, he leads decisions on constitutional, regulatory, and social issues defining US law."
+      },
+      {
+        "rank": 6,
+        "name": "Jerome Powell",
+        "domain": "Finance",
+        "justification": "As Federal Reserve Chair, he sets interest rates and monetary policy profoundly impacting US markets and economy."
+      },
+      {
+        "rank": 7,
+        "name": "Vivek Ramaswamy",
+        "domain": "Politics & Business",
+        "justification": "As co-head of DOGE and biotech entrepreneur, he spearheads government restructuring and regulatory reforms."
+      },
+      {
+        "rank": 8,
+        "name": "John Thune",
+        "domain": "Politics",
+        "justification": "As Senate Majority Leader, he manages the chamber's schedule and advances key domestic legislation."
+      },
+      {
+        "rank": 9,
+        "name": "Jamie Dimon",
+        "domain": "Finance",
+        "justification": "As CEO of JPMorgan Chase, the largest US bank, he influences lending, markets, and economic policy advice."
+      },
+      {
+        "rank": 10,
+        "name": "Larry Fink",
+        "domain": "Finance",
+        "justification": "As CEO of BlackRock, managing over $10 trillion, he shapes investment flows and corporate governance trends."
+      },
+      {
+        "rank": 11,
+        "name": "Sundar Pichai",
+        "domain": "Technology",
+        "justification": "As CEO of Alphabet/Google, he dominates search, AI development, and digital advertising influencing public information and behavior."
+      },
+      {
+        "rank": 12,
+        "name": "Robert F. Kennedy Jr.",
+        "domain": "Politics & Health",
+        "justification": "As HHS Secretary, he oversees health policy, FDA, CDC, and reforms impacting public health and pharmaceuticals."
+      }
+    ],
+    "gemini": [
+      {
+        "rank": 1,
+        "name": "Elon Musk",
+        "domain": "Technology, Media, & Space Infrastructure",
+        "justification": "Through his control of X (social media narrative), SpaceX (critical national space/defense infrastructure), and Tesla (energy/transportation), he wields unparalleled multi-domain leverage over public discourse and government capabilities."
+      },
+      {
+        "rank": 2,
+        "name": "Jerome Powell",
+        "domain": "Federal Monetary Policy",
+        "justification": "As Chair of the Federal Reserve (serving until May 2026), his decisions on interest rates continue to dictate the cost of capital, inflation trajectory, and the immediate health of the US domestic economy."
+      },
+      {
+        "rank": 3,
+        "name": "John Roberts",
+        "domain": "Judicial Policy",
+        "justification": "As Chief Justice of the Supreme Court, he holds the decisive vote and agenda-setting power over the nation's most contentious legal disputes, regulatory powers, and social policies."
+      },
+      {
+        "rank": 4,
+        "name": "Sam Altman",
+        "domain": "Artificial Intelligence",
+        "justification": "As CEO of OpenAI, he directs the deployment of the dominant generative AI models that are currently restructuring the US labor market, education system, and corporate productivity strategies."
+      },
+      {
+        "rank": 5,
+        "name": "Jensen Huang",
+        "domain": "Semiconductor Technology",
+        "justification": "As CEO of Nvidia, he controls the supply of the specialized hardware that serves as the backbone for the entire US artificial intelligence sector and national security computing capabilities."
+      },
+      {
+        "rank": 6,
+        "name": "Satya Nadella",
+        "domain": "Enterprise Technology",
+        "justification": "Leading Microsoft, he controls the operating systems, cloud infrastructure (Azure), and integrated AI tools that power the vast majority of US government and corporate operations."
+      },
+      {
+        "rank": 7,
+        "name": "Jamie Dimon",
+        "domain": "Banking & Finance",
+        "justification": "As CEO of JPMorgan Chase, he serves as the de facto guardian of US financial stability, influencing market confidence and lending policies across the domestic economy."
+      },
+      {
+        "rank": 8,
+        "name": "Larry Fink",
+        "domain": "Asset Management",
+        "justification": "As CEO of BlackRock, he oversees the world's largest asset manager, influencing corporate governance and capital flows into major US industries through massive shareholding power."
+      },
+      {
+        "rank": 9,
+        "name": "Mark Zuckerberg",
+        "domain": "Social Media & Consumer Tech",
+        "justification": "Through Meta (Facebook, Instagram, WhatsApp), he controls the communication channels for billions and shapes the algorithmic curation of news and social connection for the US populace."
+      },
+      {
+        "rank": 10,
+        "name": "Jeff Bezos",
+        "domain": "Logistics, Media, & Space",
+        "justification": "Retaining immense influence as the founder of Amazon, owner of The Washington Post, and leader of Blue Origin, he shapes domestic logistics standards and elite media narratives."
+      },
+      {
+        "rank": 11,
+        "name": "Tim Cook",
+        "domain": "Consumer Electronics",
+        "justification": "As CEO of Apple, his decisions regarding the App Store ecosystem and device privacy standards directly regulate the mobile economy and consumer data access in the US."
+      },
+      {
+        "rank": 12,
+        "name": "Ken Griffin",
+        "domain": "Financial Markets & Political Finance",
+        "justification": "As founder of Citadel, he dominates US equity market making and serves as a primary financial engine for political lobbying and policy advocacy."
+      }
+    ]
+  },
+  "stage_2_peer_reviews": {
+    "claude": {
+      "rankings": [
+        {
+          "model": "Model B",
+          "rank": 1,
+          "reasoning": "Best balance of structural/institutional power and individual influence. Includes essential governmental figures (Trump, Vance, Johnson, Roberts) that reflect how domestic policy is actually made through constitutional offices. Musk's DOGE role is a timely and accurate detail for early 2026. The inclusion of Speaker and VP reflects genuine domestic legislative leverage. Strong domestic focus rather than drifting into tech-industry or global influence.",
+          "actual_model": "grok"
+        },
+        {
+          "model": "Model C",
+          "rank": 2,
+          "reasoning": "Strong reasoning quality with specific, well-articulated justifications (e.g., Powell's term end date, Roberts as 'decisive vote'). Good inclusion of AI figures (Altman, Huang) reflecting the current domestic economic transformation. However, leading with Musk at #1 over the sitting President is a questionable ranking choice, and the list appears to skew toward tech/private-sector influence at the expense of key governmental power holders like the Speaker of the House or Vice President.",
+          "actual_model": "gemini"
+        },
+        {
+          "model": "Model A",
+          "rank": 3,
+          "reasoning": "Correctly places Trump at #1 and includes Powell and important tech CEOs (Huang, Cook). However, the visible top 5 is heavily weighted toward corporate/tech figures and lacks key constitutional officeholders like the Chief Justice, Speaker of the House, or Vice President. Tim Cook, while influential in consumer tech, is arguably less domestically influential than figures shaping law and legislation. The domestic-focus criterion suffers from an overrepresentation of business leaders whose influence is often more global than domestic.",
+          "actual_model": "chatgpt"
+        }
+      ]
+    },
+    "chatgpt": {
+      "rankings": [
+        {
+          "model": "Model B",
+          "rank": 1,
+          "reasoning": "Among the three, it has the fewest high-confidence factual problems and its top picks map cleanly onto domestic levers of power (presidency, vice presidency/Senate tie-break, House speakership, Supreme Court). Its justifications are straightforward and mostly grounded in institutional authority, though it still repeats the questionable claim that Elon Musk is a co-head of a federal “DOGE” entity.",
+          "actual_model": "grok"
+        },
+        {
+          "model": "Model A",
+          "rank": 2,
+          "reasoning": "Reasoning is strong and domestically focused (executive power, Fed, Court, Speaker), but it contains more and larger accuracy risks than Model B—most notably presenting Musk as “head of the Department of Government Efficiency (DOGE)” and asserting specific current-office details (e.g., “47th President… inaugurated Jan 20, 2025”) that are not reliably verifiable from the prompt and are likely incorrect. It also appears less comprehensive in the excerpt (stops at 5 with “...and 7 more”).",
+          "actual_model": "claude"
+        },
+        {
+          "model": "Model C",
+          "rank": 3,
+          "reasoning": "It is the least domestically anchored: it elevates tech/industry figures (Altman, Huang) whose influence is substantial but more indirect and often global/market-based rather than primarily domestic governance. It also omits core domestic institutional actors (e.g., President, Speaker) in the visible top five, weakening comprehensiveness for a “most influential Americans (domestic focus)” list. Some claims are overstated (e.g., Musk “unparalleled” leverage; Roberts as the decisive vote) and the overall selection skews toward tech-sector power rather than broad domestic political influence.",
+          "actual_model": "gemini"
+        }
+      ]
+    },
+    "grok": {
+      "rankings": [
+        {
+          "model": "Model A",
+          "rank": 1,
+          "reasoning": "Highest accuracy with Feb 2026 details (Trump's inauguration, Musk's DOGE role); superior reasoning tied to current gov't roles; strongest domestic policy focus (President, Speaker, Chief Justice, Fed); most comprehensive gov't-centric insight.",
+          "actual_model": "claude"
+        },
+        {
+          "model": "Model B",
+          "rank": 2,
+          "reasoning": "Accurate info; good justifications for economic/tech influence; balanced domestic focus but leans corporate (Huang, Cook); solid but less gov't depth than A.",
+          "actual_model": "chatgpt"
+        },
+        {
+          "model": "Model C",
+          "rank": 3,
+          "reasoning": "Mostly accurate but ranks Musk over President, undercutting top influence; reasoning strong on tech but overemphasizes private sector vs. gov't; domestic but less comprehensive policy insight.",
+          "actual_model": "gemini"
+        }
+      ]
+    },
+    "gemini": {
+      "rankings": [
+        {
+          "model": "Model A",
+          "rank": 1,
+          "reasoning": "This model demonstrates the highest level of situational awareness for the requested date (February 2026). It correctly contextualizes Elon Musk's influence through the specific lens of the 'Department of Government Efficiency' (DOGE), which is a critical domestic factor in this timeline. Its justifications are superior, referencing specific mechanisms of power (e.g., 'reconciliation packages' for Johnson, 'administrative law' for Roberts) rather than just job titles. It strikes the best balance between the executive, legislative, judicial, and economic branches.",
+          "actual_model": "claude"
+        },
+        {
+          "model": "Model C",
+          "rank": 2,
+          "reasoning": "Model C is very strong and correctly identifies the key political players for 2026, including the specific nuance of Musk's role in DOGE and the importance of the Vice President (Vance) in a second term. It is ranked second only because Model A provides slightly deeper insight into the *application* of that power (legislative mechanics and financial markets) whereas Model C's justifications are somewhat more generic descriptions of duties.",
+          "actual_model": "grok"
+        },
+        {
+          "model": "Model B",
+          "rank": 3,
+          "reasoning": "Model B is the weakest because it fails to fully adapt to the February 2026 context. It describes Elon Musk primarily as a tech mogul/media owner, omitting his specific quasi-governmental role (DOGE) which defines his domestic political influence in this era. Furthermore, by prioritizing corporate CEOs (Huang, Cook) over the Speaker of the House or Vice President, it dilutes the definition of 'domestic influence' regarding federal policy and governance.",
+          "actual_model": "chatgpt"
+        }
+      ]
+    }
+  },
+  "stage_3_final_list": [
+    {
+      "rank": 1,
+      "name": "Donald J. Trump",
+      "domain": "Federal Politics / Executive Power",
+      "justification": "As the sitting President of the United States, Trump wields supreme domestic influence over federal policy, regulatory direction, immigration enforcement, executive orders, appointments, and the entire national political agenda.",
+      "consensus_notes": "Universal #1 or #2 across all four models; three of four placed him first, and peer reviews unanimously affirmed the President must top a domestic-influence list."
+    },
+    {
+      "rank": 2,
+      "name": "Elon Musk",
+      "domain": "Technology / Government Efficiency / Media",
+      "justification": "As head of the Department of Government Efficiency (DOGE), owner of X (the dominant platform for US political discourse), and CEO of Tesla and SpaceX, Musk is uniquely reshaping federal spending, government workforce policy, and public narrative simultaneously from both inside and outside government.",
+      "consensus_notes": "All four models placed him in the top three; peer reviews validated his DOGE role as a critical distinguishing factor for 2026 domestic influence, and models that omitted DOGE were penalized in peer review."
+    },
+    {
+      "rank": 3,
+      "name": "John G. Roberts Jr.",
+      "domain": "Judiciary / Constitutional Law",
+      "justification": "As Chief Justice of a 6-3 conservative Supreme Court actively deciding landmark cases on executive power, administrative law, and federal authority, Roberts shapes the constitutional boundaries within which all other domestic actors operate.",
+      "consensus_notes": "Included by three of four models (Claude, Grok, Gemini); peer reviews highlighted his structural importance, and ChatGPT was criticized for omitting the Chief Justice."
+    },
+    {
+      "rank": 4,
+      "name": "Jerome H. Powell",
+      "domain": "Monetary Policy / Financial Markets",
+      "justification": "As Chair of the Federal Reserve through May 2026, his interest rate decisions and monetary policy guidance directly determine credit conditions, inflation trajectory, employment levels, and the economic reality experienced by every American household and business.",
+      "consensus_notes": "All four models included Powell in their top six; universally recognized as the single most influential figure over US domestic economic conditions outside the presidency."
+    },
+    {
+      "rank": 5,
+      "name": "Mike Johnson",
+      "domain": "Federal Legislation",
+      "justification": "As Speaker of the House, Johnson controls the legislative agenda, serves as gatekeeper for tax reform, spending bills, and reconciliation packages, and is the indispensable figure determining what domestic legislation reaches the President's desk.",
+      "consensus_notes": "Included by Claude and Grok; peer reviews from three of four models criticized lists that omitted the Speaker, noting that constitutional officeholders with direct legislative power must appear on a domestic-influence list."
+    },
+    {
+      "rank": 6,
+      "name": "Jensen Huang",
+      "domain": "Semiconductors / AI Infrastructure",
+      "justification": "As CEO of NVIDIA, Huang controls the essential GPU hardware and software stack powering the entire US AI revolution, making his company's decisions on chip supply, pricing, and architecture foundational to American technological and economic competitiveness.",
+      "consensus_notes": "All four models included Huang; strong consensus that his chokepoint position in the AI supply chain makes him one of the most consequential private-sector figures for domestic economic transformation."
+    },
+    {
+      "rank": 7,
+      "name": "Satya Nadella",
+      "domain": "Enterprise Technology / Cloud & AI",
+      "justification": "As CEO of Microsoft, Nadella drives the integration of generative AI into the enterprise software, cloud infrastructure, and operating systems used by the vast majority of US government agencies and corporations, fundamentally reshaping American workplace productivity.",
+      "consensus_notes": "Included by three of four models (Claude, ChatGPT, Gemini); recognized as the leading figure in translating frontier AI capabilities into actual deployed domestic enterprise and government systems."
+    },
+    {
+      "rank": 8,
+      "name": "Jamie Dimon",
+      "domain": "Banking / Financial Stability",
+      "justification": "As CEO of JPMorgan Chase, the largest and most systemically important US bank, Dimon's influence over credit availability, lending standards, deal-making, and his role as the de facto voice of Wall Street give him outsized sway over US economic stability and policy.",
+      "consensus_notes": "All four models included Dimon; unanimous agreement that he is the single most influential figure in US banking, with direct impact on domestic credit conditions and financial confidence."
+    },
+    {
+      "rank": 9,
+      "name": "Mark Zuckerberg",
+      "domain": "Social Media / Information Ecosystem",
+      "justification": "As CEO of Meta, Zuckerberg controls Facebook, Instagram, WhatsApp, and Threads — platforms that collectively shape the information environment, political communication, advertising markets, and social behavior of hundreds of millions of Americans daily.",
+      "consensus_notes": "Included by three of four models (Claude, ChatGPT, Gemini); recognized for his enormous reach over US attention and discourse, though some debate about whether platform influence translates into directed domestic policy power."
+    },
+    {
+      "rank": 10,
+      "name": "Larry Fink",
+      "domain": "Asset Management / Capital Allocation",
+      "justification": "As CEO of BlackRock, the world's largest asset manager with over $10 trillion under management, Fink's investment decisions, corporate governance positions, and risk frameworks influence capital flows, corporate behavior, and retirement outcomes for millions of Americans.",
+      "consensus_notes": "All four models included Fink; strong consensus on his unique structural influence over US capital markets and corporate governance through massive shareholding power across virtually all major American companies."
+    },
+    {
+      "rank": 11,
+      "name": "Sam Altman",
+      "domain": "Artificial Intelligence",
+      "justification": "As CEO of OpenAI, Altman is at the epicenter of the generative AI transformation, with his company's products and policy positions directly shaping US AI regulation debates, labor market disruption, education, and the pace of technological adoption nationwide.",
+      "consensus_notes": "Included by three of four models (Claude, ChatGPT, Gemini); recognized as the public face and primary driver of frontier AI deployment in the US, though some debate about whether his influence is more aspirational than currently realized compared to infrastructure players like Huang."
+    },
+    {
+      "rank": 12,
+      "name": "Stephen Miller",
+      "domain": "Domestic Policy / Immigration",
+      "justification": "As Deputy Chief of Staff for Policy in the Trump White House, Miller is the chief architect of the administration's sweeping immigration enforcement, executive order strategy, and domestic policy agenda, translating ideological vision into binding federal action with enormous real-world consequences.",
+      "consensus_notes": "Only included by Claude, but peer reviews strongly validated the importance of including key White House policy architects who translate presidential power into specific domestic action; Miller's role is particularly significant given immigration's centrality to the 2025-2026 domestic agenda. Chosen over other contenders (Vance, RFK Jr., Thune, Cook, Pichai) because his behind-the-scenes policy design role has more direct domestic impact than the VP's largely ceremonial duties, and because the list already has strong tech/finance representation."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# LLM Council Dependencies
+
+# Core API clients
+anthropic>=0.40.0
+openai>=1.54.0
+google-genai>=0.3.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Optional: for enhanced output formatting
+rich>=13.9.0
