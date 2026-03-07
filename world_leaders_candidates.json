@@ -1,0 +1,5638 @@
+{
+  "generated": "2026-02-26T21:05:22.516830",
+  "source": "Wikidata SPARQL (P35=head of state)",
+  "total_countries": 192,
+  "total_candidates": 183,
+  "candidates": [
+    {
+      "name": "Hibatullah Akhundzada",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Afghanistan",
+      "country_iso2": "AF",
+      "country_qid": "Q889",
+      "description": "",
+      "wikidata": "Q24237654",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Bajram Begaj",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Albania",
+      "country_iso2": "AL",
+      "country_qid": "Q222",
+      "description": "",
+      "wikidata": "Q107422711",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Abdelmadjid Tebboune",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Algeria",
+      "country_iso2": "DZ",
+      "country_qid": "Q262",
+      "description": "",
+      "wikidata": "Q2821166",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Emmanuel Macron",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Andorra",
+      "country_iso2": "AD",
+      "country_qid": "Q228",
+      "description": "",
+      "wikidata": "Q3052772",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Josep-Lluís Serrano Pentinat",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Andorra",
+      "country_iso2": "AD",
+      "country_qid": "Q228",
+      "description": "",
+      "wikidata": "Q93244592",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "João Lourenço",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Angola",
+      "country_iso2": "AO",
+      "country_qid": "Q916",
+      "description": "",
+      "wikidata": "Q28650390",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Charles III",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Antigua and Barbuda",
+      "country_iso2": "AG",
+      "country_qid": "Q781",
+      "description": "",
+      "wikidata": "Q43274",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Javier Milei",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Argentina",
+      "country_iso2": "AR",
+      "country_qid": "Q414",
+      "description": "",
+      "wikidata": "Q52395487",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Vahagn Khachatryan",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Armenia",
+      "country_iso2": "AM",
+      "country_qid": "Q399",
+      "description": "",
+      "wikidata": "Q3553274",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Alexander Van der Bellen",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Austria",
+      "country_iso2": "AT",
+      "country_qid": "Q40",
+      "description": "",
+      "wikidata": "Q78869",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Ilham Aliyev",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Azerbaijan",
+      "country_iso2": "AZ",
+      "country_qid": "Q227",
+      "description": "",
+      "wikidata": "Q57371",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Hamad II of Bahrain",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Bahrain",
+      "country_iso2": "BH",
+      "country_qid": "Q398",
+      "description": "",
+      "wikidata": "Q57352",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Mohammad Shahabuddin",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Bangladesh",
+      "country_iso2": "BD",
+      "country_qid": "Q902",
+      "description": "",
+      "wikidata": "Q116763154",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Sandra Mason",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Barbados",
+      "country_iso2": "BB",
+      "country_qid": "Q244",
+      "description": "",
+      "wikidata": "Q9333540",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Alexander Lukashenko",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Belarus",
+      "country_iso2": "BY",
+      "country_qid": "Q184",
+      "description": "",
+      "wikidata": "Q2866",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Philippe of Belgium",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Belgium",
+      "country_iso2": "BE",
+      "country_qid": "Q31",
+      "description": "",
+      "wikidata": "Q155004",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Patrice Talon",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Benin",
+      "country_iso2": "BJ",
+      "country_qid": "Q962",
+      "description": "",
+      "wikidata": "Q16669148",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Jigme Khesar Namgyel Wangchuck",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Bhutan",
+      "country_iso2": "BT",
+      "country_qid": "Q917",
+      "description": "",
+      "wikidata": "Q57376",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Rodrigo Paz Pereira",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Bolivia",
+      "country_iso2": "BO",
+      "country_qid": "Q750",
+      "description": "",
+      "wikidata": "Q110520817",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Željko Komšić",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Bosnia and Herzegovina",
+      "country_iso2": "BA",
+      "country_qid": "Q225",
+      "description": "",
+      "wikidata": "Q297825",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Željka Cvijanović",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Bosnia and Herzegovina",
+      "country_iso2": "BA",
+      "country_qid": "Q225",
+      "description": "",
+      "wikidata": "Q5528031",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Denis Bećirović",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Bosnia and Herzegovina",
+      "country_iso2": "BA",
+      "country_qid": "Q225",
+      "description": "",
+      "wikidata": "Q13081568",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Duma Boko",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Botswana",
+      "country_iso2": "BW",
+      "country_qid": "Q963",
+      "description": "",
+      "wikidata": "Q18618881",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Luiz Inácio Lula da Silva",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Brazil",
+      "country_iso2": "BR",
+      "country_qid": "Q155",
+      "description": "",
+      "wikidata": "Q37181",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Hassanal Bolkiah I of Brunei",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Brunei",
+      "country_iso2": "BN",
+      "country_qid": "Q921",
+      "description": "",
+      "wikidata": "Q57327",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Iliana Yotova",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Bulgaria",
+      "country_iso2": "BG",
+      "country_qid": "Q219",
+      "description": "",
+      "wikidata": "Q433338",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Ibrahim Traoré",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Burkina Faso",
+      "country_iso2": "BF",
+      "country_qid": "Q965",
+      "description": "",
+      "wikidata": "Q114341246",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Évariste Ndayishimiye",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Burundi",
+      "country_iso2": "BI",
+      "country_qid": "Q967",
+      "description": "",
+      "wikidata": "Q27329764",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Norodom Sihamoni",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Cambodia",
+      "country_iso2": "KH",
+      "country_qid": "Q424",
+      "description": "",
+      "wikidata": "Q57319",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Paul Biya",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Cameroon",
+      "country_iso2": "CM",
+      "country_qid": "Q1009",
+      "description": "",
+      "wikidata": "Q57272",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "José Maria Neves",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Cape Verde",
+      "country_iso2": "CV",
+      "country_qid": "Q1011",
+      "description": "",
+      "wikidata": "Q57649",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Faustin-Archange Touadéra",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Central African Republic",
+      "country_iso2": "CF",
+      "country_qid": "Q929",
+      "description": "",
+      "wikidata": "Q57758",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Mahamat Déby",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Chad",
+      "country_iso2": "TD",
+      "country_qid": "Q657",
+      "description": "",
+      "wikidata": "Q16206405",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Gabriel Boric",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Chile",
+      "country_iso2": "CL",
+      "country_qid": "Q298",
+      "description": "",
+      "wikidata": "Q16297876",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Gustavo Petro",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Colombia",
+      "country_iso2": "CO",
+      "country_qid": "Q739",
+      "description": "",
+      "wikidata": "Q704022",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Azali Assoumani",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Comoros",
+      "country_iso2": "KM",
+      "country_qid": "Q970",
+      "description": "",
+      "wikidata": "Q515602",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Rodrigo Chaves",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Costa Rica",
+      "country_iso2": "CR",
+      "country_qid": "Q800",
+      "description": "",
+      "wikidata": "Q98017689",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Zoran Milanović",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Croatia",
+      "country_iso2": "HR",
+      "country_qid": "Q224",
+      "description": "",
+      "wikidata": "Q57687",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Miguel Díaz-Canel",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Cuba",
+      "country_iso2": "CU",
+      "country_qid": "Q241",
+      "description": "",
+      "wikidata": "Q1932603",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Nicos Christodoulides",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Cyprus",
+      "country_iso2": "CY",
+      "country_qid": "Q229",
+      "description": "",
+      "wikidata": "Q48905549",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Petr Pavel",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Czech Republic",
+      "country_iso2": "CZ",
+      "country_qid": "Q213",
+      "description": "",
+      "wikidata": "Q2080040",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Félix Tshisekedi",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Democratic Republic of the Congo",
+      "country_iso2": "CD",
+      "country_qid": "Q974",
+      "description": "",
+      "wikidata": "Q29032770",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Ismail Omar Guelleh",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Djibouti",
+      "country_iso2": "DJ",
+      "country_qid": "Q977",
+      "description": "",
+      "wikidata": "Q57390",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Sylvanie Burton",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Dominica",
+      "country_iso2": "DM",
+      "country_qid": "Q784",
+      "description": "",
+      "wikidata": "Q122208779",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Luis Abinader",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Dominican Republic",
+      "country_iso2": "DO",
+      "country_qid": "Q786",
+      "description": "",
+      "wikidata": "Q16594097",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Daniel Noboa",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Ecuador",
+      "country_iso2": "EC",
+      "country_qid": "Q736",
+      "description": "",
+      "wikidata": "Q112075625",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Abdel Fattah el-Sisi",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Egypt",
+      "country_iso2": "EG",
+      "country_qid": "Q79",
+      "description": "",
+      "wikidata": "Q307871",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Nayib Bukele",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "El Salvador",
+      "country_iso2": "SV",
+      "country_qid": "Q792",
+      "description": "",
+      "wikidata": "Q17712353",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Teodoro Obiang",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Equatorial Guinea",
+      "country_iso2": "GQ",
+      "country_qid": "Q983",
+      "description": "",
+      "wikidata": "Q57385",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Isaias Afwerki",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Eritrea",
+      "country_iso2": "ER",
+      "country_qid": "Q986",
+      "description": "",
+      "wikidata": "Q57348",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Alar Karis",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Estonia",
+      "country_iso2": "EE",
+      "country_qid": "Q191",
+      "description": "",
+      "wikidata": "Q12358575",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Mswati III",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Eswatini",
+      "country_iso2": "SZ",
+      "country_qid": "Q1050",
+      "description": "",
+      "wikidata": "Q57340",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Taye Atske Selassie",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Ethiopia",
+      "country_iso2": "ET",
+      "country_qid": "Q115",
+      "description": "",
+      "wikidata": "Q124831090",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Wesley Simina",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Federated States of Micronesia",
+      "country_iso2": "FM",
+      "country_qid": "Q702",
+      "description": "",
+      "wikidata": "Q7984081",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Wiliame Katonivere",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Fiji",
+      "country_iso2": "FJ",
+      "country_qid": "Q712",
+      "description": "",
+      "wikidata": "Q109012733",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Alexander Stubb",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Finland",
+      "country_iso2": "FI",
+      "country_qid": "Q33",
+      "description": "",
+      "wikidata": "Q503143",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Brice Clotaire Oligui Nguema",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Gabon",
+      "country_iso2": "GA",
+      "country_qid": "Q1000",
+      "description": "",
+      "wikidata": "Q122067521",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Salome Zourabichvili",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Georgia",
+      "country_iso2": "GE",
+      "country_qid": "Q230",
+      "description": "",
+      "wikidata": "Q272416",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Frank-Walter Steinmeier",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Germany",
+      "country_iso2": "DE",
+      "country_qid": "Q183",
+      "description": "",
+      "wikidata": "Q76658",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "John Mahama",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Ghana",
+      "country_iso2": "GH",
+      "country_qid": "Q117",
+      "description": "",
+      "wikidata": "Q50678",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Konstantinos Tasoulas",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Greece",
+      "country_iso2": "GR",
+      "country_qid": "Q41",
+      "description": "",
+      "wikidata": "Q20995518",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Bernardo Arévalo de León",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Guatemala",
+      "country_iso2": "GT",
+      "country_qid": "Q774",
+      "description": "",
+      "wikidata": "Q107254030",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Mamady Doumbouya",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Guinea",
+      "country_iso2": "GN",
+      "country_qid": "Q1006",
+      "description": "",
+      "wikidata": "Q108418519",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Manuel Serifo Nhamadjo",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Guinea-Bissau",
+      "country_iso2": "GW",
+      "country_qid": "Q1007",
+      "description": "",
+      "wikidata": "Q57424",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Umaro Sissoco Embaló",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Guinea-Bissau",
+      "country_iso2": "GW",
+      "country_qid": "Q1007",
+      "description": "",
+      "wikidata": "Q16855164",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "José Mário Vaz",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Guinea-Bissau",
+      "country_iso2": "GW",
+      "country_qid": "Q1007",
+      "description": "",
+      "wikidata": "Q16908893",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Irfaan Ali",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Guyana",
+      "country_iso2": "GY",
+      "country_qid": "Q734",
+      "description": "",
+      "wikidata": "Q64840184",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Nasry Asfura",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Honduras",
+      "country_iso2": "HN",
+      "country_qid": "Q783",
+      "description": "",
+      "wikidata": "Q16146159",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Tamás Sulyok",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Hungary",
+      "country_iso2": "HU",
+      "country_qid": "Q28",
+      "description": "",
+      "wikidata": "Q28599854",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Halla Tómasdóttir",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Iceland",
+      "country_iso2": "IS",
+      "country_qid": "Q189",
+      "description": "",
+      "wikidata": "Q24494577",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Droupadi Murmu",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "India",
+      "country_iso2": "IN",
+      "country_qid": "Q668",
+      "description": "",
+      "wikidata": "Q19901232",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Prabowo Subianto",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Indonesia",
+      "country_iso2": "ID",
+      "country_qid": "Q252",
+      "description": "",
+      "wikidata": "Q2107268",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Ali Khamenei",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Iran",
+      "country_iso2": "IR",
+      "country_qid": "Q794",
+      "description": "",
+      "wikidata": "Q57336",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Abdul Latif Rashid",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Iraq",
+      "country_iso2": "IQ",
+      "country_qid": "Q796",
+      "description": "",
+      "wikidata": "Q6496078",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Catherine Connolly",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Ireland",
+      "country_iso2": "IE",
+      "country_qid": "Q27",
+      "description": "",
+      "wikidata": "Q5052598",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Sergio Mattarella",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Italy",
+      "country_iso2": "IT",
+      "country_qid": "Q38",
+      "description": "",
+      "wikidata": "Q3956186",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Alassane Ouattara",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Ivory Coast",
+      "country_iso2": "CI",
+      "country_qid": "Q1008",
+      "description": "",
+      "wikidata": "Q57413",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Naruhito",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Japan",
+      "country_iso2": "JP",
+      "country_qid": "Q17",
+      "description": "",
+      "wikidata": "Q217096",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Abdullah II of Jordan",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Jordan",
+      "country_iso2": "JO",
+      "country_qid": "Q810",
+      "description": "",
+      "wikidata": "Q57464",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Kassym-Jomart Tokayev",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Kazakhstan",
+      "country_iso2": "KZ",
+      "country_qid": "Q232",
+      "description": "",
+      "wikidata": "Q200881",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "William Ruto",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Kenya",
+      "country_iso2": "KE",
+      "country_qid": "Q114",
+      "description": "",
+      "wikidata": "Q195725",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Frederik X of Denmark",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Kingdom of Denmark",
+      "country_iso2": "",
+      "country_qid": "Q756617",
+      "description": "",
+      "wikidata": "Q1004037",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "William Alexander of the Netherlands",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Kingdom of the Netherlands",
+      "country_iso2": "NL",
+      "country_qid": "Q29999",
+      "description": "",
+      "wikidata": "Q154952",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Taneti Maamau",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Kiribati",
+      "country_iso2": "KI",
+      "country_qid": "Q710",
+      "description": "",
+      "wikidata": "Q23034482",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Mishal Al-Ahmad Al-Jaber Al-Sabah",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Kuwait",
+      "country_iso2": "KW",
+      "country_qid": "Q817",
+      "description": "",
+      "wikidata": "Q12243161",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Sadyr Japarov",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Kyrgyzstan",
+      "country_iso2": "KG",
+      "country_qid": "Q813",
+      "description": "",
+      "wikidata": "Q25597826",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Thongloun Sisoulith",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Laos",
+      "country_iso2": "LA",
+      "country_qid": "Q819",
+      "description": "",
+      "wikidata": "Q58323",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Edgars Rinkēvičs",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Latvia",
+      "country_iso2": "LV",
+      "country_qid": "Q211",
+      "description": "",
+      "wikidata": "Q3047551",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Joseph Aoun",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Lebanon",
+      "country_iso2": "LB",
+      "country_qid": "Q822",
+      "description": "",
+      "wikidata": "Q29033962",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Letsie III of Lesotho",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Lesotho",
+      "country_iso2": "LS",
+      "country_qid": "Q1013",
+      "description": "",
+      "wikidata": "Q57537",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Joseph Boakai",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Liberia",
+      "country_iso2": "LR",
+      "country_qid": "Q1014",
+      "description": "",
+      "wikidata": "Q2630483",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Mohamed al-Menfi",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Libya",
+      "country_iso2": "LY",
+      "country_qid": "Q1016",
+      "description": "",
+      "wikidata": "Q105319610",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Hans-Adam II, Prince of Liechtenstein",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Liechtenstein",
+      "country_iso2": "LI",
+      "country_qid": "Q347",
+      "description": "",
+      "wikidata": "Q57454",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Gitanas Nausėda",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Lithuania",
+      "country_iso2": "LT",
+      "country_qid": "Q37",
+      "description": "",
+      "wikidata": "Q9268379",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Guillaume V, Grand Duke of Luxembourg",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Luxembourg",
+      "country_iso2": "LU",
+      "country_qid": "Q32",
+      "description": "",
+      "wikidata": "Q161319",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Michael Randrianirina",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Madagascar",
+      "country_iso2": "MG",
+      "country_qid": "Q1019",
+      "description": "",
+      "wikidata": "Q136500275",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Peter Mutharika",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Malawi",
+      "country_iso2": "MW",
+      "country_qid": "Q1020",
+      "description": "",
+      "wikidata": "Q7176020",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Ibrahim Iskandar of Johor",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Malaysia",
+      "country_iso2": "MY",
+      "country_qid": "Q833",
+      "description": "",
+      "wikidata": "Q2657043",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Mohamed Muizzu",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Maldives",
+      "country_iso2": "MV",
+      "country_qid": "Q826",
+      "description": "",
+      "wikidata": "Q116293030",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Assimi Goïta",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Mali",
+      "country_iso2": "ML",
+      "country_qid": "Q912",
+      "description": "",
+      "wikidata": "Q98497406",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Myriam Spiteri Debono",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Malta",
+      "country_iso2": "MT",
+      "country_qid": "Q233",
+      "description": "",
+      "wikidata": "Q1647394",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Hilda Heine",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Marshall Islands",
+      "country_iso2": "MH",
+      "country_qid": "Q709",
+      "description": "",
+      "wikidata": "Q20090884",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Mohamed Ould Ghazouani",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Mauritania",
+      "country_iso2": "MR",
+      "country_qid": "Q1025",
+      "description": "",
+      "wikidata": "Q12241106",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Dharam Gokhool",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Mauritius",
+      "country_iso2": "MU",
+      "country_qid": "Q1027",
+      "description": "",
+      "wikidata": "Q131403499",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Claudia Sheinbaum",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Mexico",
+      "country_iso2": "MX",
+      "country_qid": "Q96",
+      "description": "",
+      "wikidata": "Q5771800",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Maia Sandu",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Moldova",
+      "country_iso2": "MD",
+      "country_qid": "Q217",
+      "description": "",
+      "wikidata": "Q15071069",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Albert II, Prince of Monaco",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Monaco",
+      "country_iso2": "MC",
+      "country_qid": "Q235",
+      "description": "",
+      "wikidata": "Q3910",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Khurelsukh Ukhnaa",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Mongolia",
+      "country_iso2": "MN",
+      "country_qid": "Q711",
+      "description": "",
+      "wikidata": "Q27058418",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Jakov Milatović",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Montenegro",
+      "country_iso2": "ME",
+      "country_qid": "Q236",
+      "description": "",
+      "wikidata": "Q104417661",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Mohammed VI of Morocco",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Morocco",
+      "country_iso2": "MA",
+      "country_qid": "Q1028",
+      "description": "",
+      "wikidata": "Q57553",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Daniel Chapo",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Mozambique",
+      "country_iso2": "MZ",
+      "country_qid": "Q1029",
+      "description": "",
+      "wikidata": "Q97058466",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Myint Swe",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Myanmar",
+      "country_iso2": "MM",
+      "country_qid": "Q836",
+      "description": "",
+      "wikidata": "Q3331362",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Netumbo Nandi-Ndaitwah",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Namibia",
+      "country_iso2": "NA",
+      "country_qid": "Q1030",
+      "description": "",
+      "wikidata": "Q527020",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "David Adeang",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Nauru",
+      "country_iso2": "NR",
+      "country_qid": "Q697",
+      "description": "",
+      "wikidata": "Q58096",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Ram Chandra Poudel",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Nepal",
+      "country_iso2": "NP",
+      "country_qid": "Q837",
+      "description": "",
+      "wikidata": "Q3183124",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Daniel Ortega",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Nicaragua",
+      "country_iso2": "NI",
+      "country_qid": "Q811",
+      "description": "",
+      "wikidata": "Q57402",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Abdourahamane Tchiani",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Niger",
+      "country_iso2": "NE",
+      "country_qid": "Q1032",
+      "description": "",
+      "wikidata": "Q120965176",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Bola Ahmed Tinubu",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Nigeria",
+      "country_iso2": "NG",
+      "country_qid": "Q1033",
+      "description": "",
+      "wikidata": "Q3510872",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Kim Jong-un",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "North Korea",
+      "country_iso2": "KP",
+      "country_qid": "Q423",
+      "description": "",
+      "wikidata": "Q56226",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Gordana Siljanovska-Davkova",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "North Macedonia",
+      "country_iso2": "MK",
+      "country_qid": "Q221",
+      "description": "",
+      "wikidata": "Q12277168",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Harald V of Norway",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Norway",
+      "country_iso2": "NO",
+      "country_qid": "Q20",
+      "description": "",
+      "wikidata": "Q57287",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Haitham bin Tarik Al Said",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Oman",
+      "country_iso2": "OM",
+      "country_qid": "Q842",
+      "description": "",
+      "wikidata": "Q12250314",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Asif Ali Zardari",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Pakistan",
+      "country_iso2": "PK",
+      "country_qid": "Q843",
+      "description": "",
+      "wikidata": "Q57373",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Surangel Whipps Jr.",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Palau",
+      "country_iso2": "PW",
+      "country_qid": "Q695",
+      "description": "",
+      "wikidata": "Q26703072",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Mahmoud Abbas",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Palestine",
+      "country_iso2": "PS",
+      "country_qid": "Q219060",
+      "description": "",
+      "wikidata": "Q127998",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "José Raúl Mulino",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Panama",
+      "country_iso2": "PA",
+      "country_qid": "Q804",
+      "description": "",
+      "wikidata": "Q108454869",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Santiago Peña Palacios",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Paraguay",
+      "country_iso2": "PY",
+      "country_qid": "Q733",
+      "description": "",
+      "wikidata": "Q22695687",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Xi Jinping",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "People's Republic of China",
+      "country_iso2": "CN",
+      "country_qid": "Q148",
+      "description": "",
+      "wikidata": "Q15031",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "José María Balcázar",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Peru",
+      "country_iso2": "PE",
+      "country_qid": "Q419",
+      "description": "",
+      "wikidata": "Q108414587",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Bongbong Marcos",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Philippines",
+      "country_iso2": "PH",
+      "country_qid": "Q928",
+      "description": "",
+      "wikidata": "Q983324",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Karol Nawrocki",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Poland",
+      "country_iso2": "PL",
+      "country_qid": "Q36",
+      "description": "",
+      "wikidata": "Q17704749",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Marcelo Rebelo de Sousa",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Portugal",
+      "country_iso2": "PT",
+      "country_qid": "Q45",
+      "description": "",
+      "wikidata": "Q6756617",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Tamim bin Hamad Al",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Qatar",
+      "country_iso2": "QA",
+      "country_qid": "Q846",
+      "description": "",
+      "wikidata": "Q1855372",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Denis Sassou-Nguesso",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Republic of the Congo",
+      "country_iso2": "CG",
+      "country_qid": "Q971",
+      "description": "",
+      "wikidata": "Q57418",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Nicușor Dan",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Romania",
+      "country_iso2": "RO",
+      "country_qid": "Q218",
+      "description": "",
+      "wikidata": "Q11163124",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Vladimir Putin",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Russia",
+      "country_iso2": "RU",
+      "country_qid": "Q159",
+      "description": "",
+      "wikidata": "Q7747",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Paul Kagame",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Rwanda",
+      "country_iso2": "RW",
+      "country_qid": "Q1037",
+      "description": "",
+      "wikidata": "Q1231345",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Va'aletoa Sualauvi II",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Samoa",
+      "country_iso2": "WS",
+      "country_qid": "Q683",
+      "description": "",
+      "wikidata": "Q32014514",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Denise Bronzetti",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "San Marino",
+      "country_iso2": "SM",
+      "country_qid": "Q238",
+      "description": "",
+      "wikidata": "Q57546",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Italo Righi",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "San Marino",
+      "country_iso2": "SM",
+      "country_qid": "Q238",
+      "description": "",
+      "wikidata": "Q1353628",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Salman bin Abdulaziz Al Saud",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Saudi Arabia",
+      "country_iso2": "SA",
+      "country_qid": "Q851",
+      "description": "",
+      "wikidata": "Q367825",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Bassirou Diomaye Faye",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Senegal",
+      "country_iso2": "SN",
+      "country_qid": "Q1041",
+      "description": "",
+      "wikidata": "Q124382437",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Aleksandar Vučić",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Serbia",
+      "country_iso2": "RS",
+      "country_qid": "Q403",
+      "description": "",
+      "wikidata": "Q222031",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Patrick Herminie",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Seychelles",
+      "country_iso2": "SC",
+      "country_qid": "Q1042",
+      "description": "",
+      "wikidata": "Q16190544",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Julius Maada Bio",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Sierra Leone",
+      "country_iso2": "SL",
+      "country_qid": "Q1044",
+      "description": "",
+      "wikidata": "Q283829",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Tharman Shanmugaratnam",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Singapore",
+      "country_iso2": "SG",
+      "country_qid": "Q334",
+      "description": "",
+      "wikidata": "Q983752",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Peter Pellegrini",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Slovakia",
+      "country_iso2": "SK",
+      "country_qid": "Q214",
+      "description": "",
+      "wikidata": "Q17330556",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Nataša Pirc Musar",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Slovenia",
+      "country_iso2": "SI",
+      "country_qid": "Q215",
+      "description": "",
+      "wikidata": "Q12797332",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Hassan Sheikh Mohamud",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Somalia",
+      "country_iso2": "SO",
+      "country_qid": "Q1045",
+      "description": "",
+      "wikidata": "Q319153",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Cyril Ramaphosa",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "South Africa",
+      "country_iso2": "ZA",
+      "country_qid": "Q258",
+      "description": "",
+      "wikidata": "Q1148669",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Lee Jae Myung",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "South Korea",
+      "country_iso2": "KR",
+      "country_qid": "Q884",
+      "description": "",
+      "wikidata": "Q12612463",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Salva Kiir Mayardit",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "South Sudan",
+      "country_iso2": "SS",
+      "country_qid": "Q958",
+      "description": "",
+      "wikidata": "Q57315",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Felipe VI of Spain",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Spain",
+      "country_iso2": "ES",
+      "country_qid": "Q29",
+      "description": "",
+      "wikidata": "Q191045",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Anura Kumara Dissanayake",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Sri Lanka",
+      "country_iso2": "LK",
+      "country_qid": "Q854",
+      "description": "",
+      "wikidata": "Q4777855",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Abdel Fattah al-Burhan",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Sudan",
+      "country_iso2": "SD",
+      "country_qid": "Q1049",
+      "description": "",
+      "wikidata": "Q63111184",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Jennifer Geerlings-Simons",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Suriname",
+      "country_iso2": "SR",
+      "country_qid": "Q730",
+      "description": "",
+      "wikidata": "Q440403",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Carl XVI Gustaf of Sweden",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Sweden",
+      "country_iso2": "SE",
+      "country_qid": "Q34",
+      "description": "",
+      "wikidata": "Q45068",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Carlos Vila Nova",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "São Tomé and Príncipe",
+      "country_iso2": "ST",
+      "country_qid": "Q1039",
+      "description": "",
+      "wikidata": "Q27982047",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Lai Ching-te",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Taiwan",
+      "country_iso2": "TW",
+      "country_qid": "Q865",
+      "description": "",
+      "wikidata": "Q3847080",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Emomali Rahmon",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Tajikistan",
+      "country_iso2": "TJ",
+      "country_qid": "Q863",
+      "description": "",
+      "wikidata": "Q57366",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Samia Suluhu Hassan",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Tanzania",
+      "country_iso2": "TZ",
+      "country_qid": "Q924",
+      "description": "",
+      "wikidata": "Q16193885",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Vajiralongkorn",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Thailand",
+      "country_iso2": "TH",
+      "country_qid": "Q869",
+      "description": "",
+      "wikidata": "Q548733",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Adama Barrow",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "The Gambia",
+      "country_iso2": "GM",
+      "country_qid": "Q1005",
+      "description": "",
+      "wikidata": "Q27917049",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "José Ramos-Horta",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Timor-Leste",
+      "country_iso2": "TL",
+      "country_qid": "Q574",
+      "description": "",
+      "wikidata": "Q11665",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Jean-Lucien Savi de Tové",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Togo",
+      "country_iso2": "TG",
+      "country_qid": "Q945",
+      "description": "",
+      "wikidata": "Q6169516",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Tupou VI of Tonga",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Tonga",
+      "country_iso2": "TO",
+      "country_qid": "Q678",
+      "description": "",
+      "wikidata": "Q208497",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Christine Kangaloo",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Trinidad and Tobago",
+      "country_iso2": "TT",
+      "country_qid": "Q754",
+      "description": "",
+      "wikidata": "Q97400315",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Kais Saied",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Tunisia",
+      "country_iso2": "TN",
+      "country_qid": "Q948",
+      "description": "",
+      "wikidata": "Q16120878",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Recep Tayyip Erdoğan",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Turkey",
+      "country_iso2": "TR",
+      "country_qid": "Q43",
+      "description": "",
+      "wikidata": "Q39259",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Serdar Berdimuhamedow",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Turkmenistan",
+      "country_iso2": "TM",
+      "country_qid": "Q874",
+      "description": "",
+      "wikidata": "Q51874548",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Yoweri Museveni",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Uganda",
+      "country_iso2": "UG",
+      "country_qid": "Q1036",
+      "description": "",
+      "wikidata": "Q57274",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Volodymyr Zelenskyy",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Ukraine",
+      "country_iso2": "UA",
+      "country_qid": "Q212",
+      "description": "",
+      "wikidata": "Q3874799",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Mohammed Bin Zayed Al Nahyan",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "United Arab Emirates",
+      "country_iso2": "AE",
+      "country_qid": "Q878",
+      "description": "",
+      "wikidata": "Q1951896",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Donald Trump",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "United States",
+      "country_iso2": "US",
+      "country_qid": "Q30",
+      "description": "",
+      "wikidata": "Q22686",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Yamandú Orsi",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Uruguay",
+      "country_iso2": "UY",
+      "country_qid": "Q77",
+      "description": "",
+      "wikidata": "Q19946921",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Shavkat Mirziyoyev",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Uzbekistan",
+      "country_iso2": "UZ",
+      "country_qid": "Q265",
+      "description": "",
+      "wikidata": "Q57808",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Nikenike Vurobaravu",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Vanuatu",
+      "country_iso2": "VU",
+      "country_qid": "Q686",
+      "description": "",
+      "wikidata": "Q113239716",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Leo XIV",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Vatican City",
+      "country_iso2": "VA",
+      "country_qid": "Q237",
+      "description": "",
+      "wikidata": "Q6109517",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Delcy Rodríguez",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Venezuela",
+      "country_iso2": "VE",
+      "country_qid": "Q717",
+      "description": "",
+      "wikidata": "Q15081116",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Tô Lâm",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Vietnam",
+      "country_iso2": "VN",
+      "country_qid": "Q881",
+      "description": "",
+      "wikidata": "Q10831196",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Rashad al-Alimi",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Yemen",
+      "country_iso2": "YE",
+      "country_qid": "Q805",
+      "description": "",
+      "wikidata": "Q12213376",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Hakainde Hichilema",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Zambia",
+      "country_iso2": "ZM",
+      "country_qid": "Q953",
+      "description": "",
+      "wikidata": "Q717185",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    },
+    {
+      "name": "Emmerson Mnangagwa",
+      "source": "wikidata_world_leaders",
+      "scope": "global",
+      "category": "political",
+      "subcategory": "head_of_state",
+      "roles": [
+        "head_of_state"
+      ],
+      "country": "Zimbabwe",
+      "country_iso2": "ZW",
+      "country_qid": "Q954",
+      "description": "",
+      "wikidata": "Q510523",
+      "elo_score": 1000,
+      "elo_matches": 0,
+      "metadata": {}
+    }
+  ],
+  "country_detail": [
+    {
+      "country": "Afghanistan",
+      "country_iso2": "AF",
+      "country_qid": "Q889",
+      "head_of_state": [
+        {
+          "name": "Hibatullah Akhundzada",
+          "wikidata": "Q24237654",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Albania",
+      "country_iso2": "AL",
+      "country_qid": "Q222",
+      "head_of_state": [
+        {
+          "name": "Bajram Begaj",
+          "wikidata": "Q107422711",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Algeria",
+      "country_iso2": "DZ",
+      "country_qid": "Q262",
+      "head_of_state": [
+        {
+          "name": "Abdelmadjid Tebboune",
+          "wikidata": "Q2821166",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Andorra",
+      "country_iso2": "AD",
+      "country_qid": "Q228",
+      "head_of_state": [
+        {
+          "name": "Emmanuel Macron",
+          "wikidata": "Q3052772",
+          "description": ""
+        },
+        {
+          "name": "Josep-Lluís Serrano Pentinat",
+          "wikidata": "Q93244592",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Angola",
+      "country_iso2": "AO",
+      "country_qid": "Q916",
+      "head_of_state": [
+        {
+          "name": "João Lourenço",
+          "wikidata": "Q28650390",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Antigua and Barbuda",
+      "country_iso2": "AG",
+      "country_qid": "Q781",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Argentina",
+      "country_iso2": "AR",
+      "country_qid": "Q414",
+      "head_of_state": [
+        {
+          "name": "Javier Milei",
+          "wikidata": "Q52395487",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Armenia",
+      "country_iso2": "AM",
+      "country_qid": "Q399",
+      "head_of_state": [
+        {
+          "name": "Vahagn Khachatryan",
+          "wikidata": "Q3553274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Australia",
+      "country_iso2": "AU",
+      "country_qid": "Q408",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Austria",
+      "country_iso2": "AT",
+      "country_qid": "Q40",
+      "head_of_state": [
+        {
+          "name": "Alexander Van der Bellen",
+          "wikidata": "Q78869",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Azerbaijan",
+      "country_iso2": "AZ",
+      "country_qid": "Q227",
+      "head_of_state": [
+        {
+          "name": "Ilham Aliyev",
+          "wikidata": "Q57371",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Bahrain",
+      "country_iso2": "BH",
+      "country_qid": "Q398",
+      "head_of_state": [
+        {
+          "name": "Hamad II of Bahrain",
+          "wikidata": "Q57352",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Bangladesh",
+      "country_iso2": "BD",
+      "country_qid": "Q902",
+      "head_of_state": [
+        {
+          "name": "Mohammad Shahabuddin",
+          "wikidata": "Q116763154",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Barbados",
+      "country_iso2": "BB",
+      "country_qid": "Q244",
+      "head_of_state": [
+        {
+          "name": "Sandra Mason",
+          "wikidata": "Q9333540",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Belarus",
+      "country_iso2": "BY",
+      "country_qid": "Q184",
+      "head_of_state": [
+        {
+          "name": "Alexander Lukashenko",
+          "wikidata": "Q2866",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Belgium",
+      "country_iso2": "BE",
+      "country_qid": "Q31",
+      "head_of_state": [
+        {
+          "name": "Philippe of Belgium",
+          "wikidata": "Q155004",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Belize",
+      "country_iso2": "BZ",
+      "country_qid": "Q242",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Benin",
+      "country_iso2": "BJ",
+      "country_qid": "Q962",
+      "head_of_state": [
+        {
+          "name": "Patrice Talon",
+          "wikidata": "Q16669148",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Bhutan",
+      "country_iso2": "BT",
+      "country_qid": "Q917",
+      "head_of_state": [
+        {
+          "name": "Jigme Khesar Namgyel Wangchuck",
+          "wikidata": "Q57376",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Bolivia",
+      "country_iso2": "BO",
+      "country_qid": "Q750",
+      "head_of_state": [
+        {
+          "name": "Rodrigo Paz Pereira",
+          "wikidata": "Q110520817",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "country_iso2": "BA",
+      "country_qid": "Q225",
+      "head_of_state": [
+        {
+          "name": "Željko Komšić",
+          "wikidata": "Q297825",
+          "description": ""
+        },
+        {
+          "name": "Željka Cvijanović",
+          "wikidata": "Q5528031",
+          "description": ""
+        },
+        {
+          "name": "Denis Bećirović",
+          "wikidata": "Q13081568",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Botswana",
+      "country_iso2": "BW",
+      "country_qid": "Q963",
+      "head_of_state": [
+        {
+          "name": "Duma Boko",
+          "wikidata": "Q18618881",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Brazil",
+      "country_iso2": "BR",
+      "country_qid": "Q155",
+      "head_of_state": [
+        {
+          "name": "Luiz Inácio Lula da Silva",
+          "wikidata": "Q37181",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Brunei",
+      "country_iso2": "BN",
+      "country_qid": "Q921",
+      "head_of_state": [
+        {
+          "name": "Hassanal Bolkiah I of Brunei",
+          "wikidata": "Q57327",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Bulgaria",
+      "country_iso2": "BG",
+      "country_qid": "Q219",
+      "head_of_state": [
+        {
+          "name": "Iliana Yotova",
+          "wikidata": "Q433338",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Burkina Faso",
+      "country_iso2": "BF",
+      "country_qid": "Q965",
+      "head_of_state": [
+        {
+          "name": "Ibrahim Traoré",
+          "wikidata": "Q114341246",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Burundi",
+      "country_iso2": "BI",
+      "country_qid": "Q967",
+      "head_of_state": [
+        {
+          "name": "Évariste Ndayishimiye",
+          "wikidata": "Q27329764",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "country_iso2": "KH",
+      "country_qid": "Q424",
+      "head_of_state": [
+        {
+          "name": "Norodom Sihamoni",
+          "wikidata": "Q57319",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Cameroon",
+      "country_iso2": "CM",
+      "country_qid": "Q1009",
+      "head_of_state": [
+        {
+          "name": "Paul Biya",
+          "wikidata": "Q57272",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Canada",
+      "country_iso2": "CA",
+      "country_qid": "Q16",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Cape Verde",
+      "country_iso2": "CV",
+      "country_qid": "Q1011",
+      "head_of_state": [
+        {
+          "name": "José Maria Neves",
+          "wikidata": "Q57649",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Central African Republic",
+      "country_iso2": "CF",
+      "country_qid": "Q929",
+      "head_of_state": [
+        {
+          "name": "Faustin-Archange Touadéra",
+          "wikidata": "Q57758",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Chad",
+      "country_iso2": "TD",
+      "country_qid": "Q657",
+      "head_of_state": [
+        {
+          "name": "Mahamat Déby",
+          "wikidata": "Q16206405",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Chile",
+      "country_iso2": "CL",
+      "country_qid": "Q298",
+      "head_of_state": [
+        {
+          "name": "Gabriel Boric",
+          "wikidata": "Q16297876",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Colombia",
+      "country_iso2": "CO",
+      "country_qid": "Q739",
+      "head_of_state": [
+        {
+          "name": "Gustavo Petro",
+          "wikidata": "Q704022",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Comoros",
+      "country_iso2": "KM",
+      "country_qid": "Q970",
+      "head_of_state": [
+        {
+          "name": "Azali Assoumani",
+          "wikidata": "Q515602",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Costa Rica",
+      "country_iso2": "CR",
+      "country_qid": "Q800",
+      "head_of_state": [
+        {
+          "name": "Rodrigo Chaves",
+          "wikidata": "Q98017689",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Croatia",
+      "country_iso2": "HR",
+      "country_qid": "Q224",
+      "head_of_state": [
+        {
+          "name": "Zoran Milanović",
+          "wikidata": "Q57687",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Cuba",
+      "country_iso2": "CU",
+      "country_qid": "Q241",
+      "head_of_state": [
+        {
+          "name": "Miguel Díaz-Canel",
+          "wikidata": "Q1932603",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Cyprus",
+      "country_iso2": "CY",
+      "country_qid": "Q229",
+      "head_of_state": [
+        {
+          "name": "Nicos Christodoulides",
+          "wikidata": "Q48905549",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Czech Republic",
+      "country_iso2": "CZ",
+      "country_qid": "Q213",
+      "head_of_state": [
+        {
+          "name": "Petr Pavel",
+          "wikidata": "Q2080040",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "country_iso2": "CD",
+      "country_qid": "Q974",
+      "head_of_state": [
+        {
+          "name": "Félix Tshisekedi",
+          "wikidata": "Q29032770",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Djibouti",
+      "country_iso2": "DJ",
+      "country_qid": "Q977",
+      "head_of_state": [
+        {
+          "name": "Ismail Omar Guelleh",
+          "wikidata": "Q57390",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Dominica",
+      "country_iso2": "DM",
+      "country_qid": "Q784",
+      "head_of_state": [
+        {
+          "name": "Sylvanie Burton",
+          "wikidata": "Q122208779",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Dominican Republic",
+      "country_iso2": "DO",
+      "country_qid": "Q786",
+      "head_of_state": [
+        {
+          "name": "Luis Abinader",
+          "wikidata": "Q16594097",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Ecuador",
+      "country_iso2": "EC",
+      "country_qid": "Q736",
+      "head_of_state": [
+        {
+          "name": "Daniel Noboa",
+          "wikidata": "Q112075625",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Egypt",
+      "country_iso2": "EG",
+      "country_qid": "Q79",
+      "head_of_state": [
+        {
+          "name": "Abdel Fattah el-Sisi",
+          "wikidata": "Q307871",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "El Salvador",
+      "country_iso2": "SV",
+      "country_qid": "Q792",
+      "head_of_state": [
+        {
+          "name": "Nayib Bukele",
+          "wikidata": "Q17712353",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Equatorial Guinea",
+      "country_iso2": "GQ",
+      "country_qid": "Q983",
+      "head_of_state": [
+        {
+          "name": "Teodoro Obiang",
+          "wikidata": "Q57385",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Eritrea",
+      "country_iso2": "ER",
+      "country_qid": "Q986",
+      "head_of_state": [
+        {
+          "name": "Isaias Afwerki",
+          "wikidata": "Q57348",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Estonia",
+      "country_iso2": "EE",
+      "country_qid": "Q191",
+      "head_of_state": [
+        {
+          "name": "Alar Karis",
+          "wikidata": "Q12358575",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Eswatini",
+      "country_iso2": "SZ",
+      "country_qid": "Q1050",
+      "head_of_state": [
+        {
+          "name": "Mswati III",
+          "wikidata": "Q57340",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Ethiopia",
+      "country_iso2": "ET",
+      "country_qid": "Q115",
+      "head_of_state": [
+        {
+          "name": "Taye Atske Selassie",
+          "wikidata": "Q124831090",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Federated States of Micronesia",
+      "country_iso2": "FM",
+      "country_qid": "Q702",
+      "head_of_state": [
+        {
+          "name": "Wesley Simina",
+          "wikidata": "Q7984081",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Fiji",
+      "country_iso2": "FJ",
+      "country_qid": "Q712",
+      "head_of_state": [
+        {
+          "name": "Wiliame Katonivere",
+          "wikidata": "Q109012733",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Finland",
+      "country_iso2": "FI",
+      "country_qid": "Q33",
+      "head_of_state": [
+        {
+          "name": "Alexander Stubb",
+          "wikidata": "Q503143",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "France",
+      "country_iso2": "FR",
+      "country_qid": "Q142",
+      "head_of_state": [
+        {
+          "name": "Emmanuel Macron",
+          "wikidata": "Q3052772",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Gabon",
+      "country_iso2": "GA",
+      "country_qid": "Q1000",
+      "head_of_state": [
+        {
+          "name": "Brice Clotaire Oligui Nguema",
+          "wikidata": "Q122067521",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Georgia",
+      "country_iso2": "GE",
+      "country_qid": "Q230",
+      "head_of_state": [
+        {
+          "name": "Salome Zourabichvili",
+          "wikidata": "Q272416",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Germany",
+      "country_iso2": "DE",
+      "country_qid": "Q183",
+      "head_of_state": [
+        {
+          "name": "Frank-Walter Steinmeier",
+          "wikidata": "Q76658",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Ghana",
+      "country_iso2": "GH",
+      "country_qid": "Q117",
+      "head_of_state": [
+        {
+          "name": "John Mahama",
+          "wikidata": "Q50678",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Greece",
+      "country_iso2": "GR",
+      "country_qid": "Q41",
+      "head_of_state": [
+        {
+          "name": "Konstantinos Tasoulas",
+          "wikidata": "Q20995518",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Grenada",
+      "country_iso2": "GD",
+      "country_qid": "Q769",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Guatemala",
+      "country_iso2": "GT",
+      "country_qid": "Q774",
+      "head_of_state": [
+        {
+          "name": "Bernardo Arévalo de León",
+          "wikidata": "Q107254030",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Guinea",
+      "country_iso2": "GN",
+      "country_qid": "Q1006",
+      "head_of_state": [
+        {
+          "name": "Mamady Doumbouya",
+          "wikidata": "Q108418519",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Guinea-Bissau",
+      "country_iso2": "GW",
+      "country_qid": "Q1007",
+      "head_of_state": [
+        {
+          "name": "Manuel Serifo Nhamadjo",
+          "wikidata": "Q57424",
+          "description": ""
+        },
+        {
+          "name": "Umaro Sissoco Embaló",
+          "wikidata": "Q16855164",
+          "description": ""
+        },
+        {
+          "name": "José Mário Vaz",
+          "wikidata": "Q16908893",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Guyana",
+      "country_iso2": "GY",
+      "country_qid": "Q734",
+      "head_of_state": [
+        {
+          "name": "Irfaan Ali",
+          "wikidata": "Q64840184",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Honduras",
+      "country_iso2": "HN",
+      "country_qid": "Q783",
+      "head_of_state": [
+        {
+          "name": "Nasry Asfura",
+          "wikidata": "Q16146159",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Hungary",
+      "country_iso2": "HU",
+      "country_qid": "Q28",
+      "head_of_state": [
+        {
+          "name": "Tamás Sulyok",
+          "wikidata": "Q28599854",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Iceland",
+      "country_iso2": "IS",
+      "country_qid": "Q189",
+      "head_of_state": [
+        {
+          "name": "Halla Tómasdóttir",
+          "wikidata": "Q24494577",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "India",
+      "country_iso2": "IN",
+      "country_qid": "Q668",
+      "head_of_state": [
+        {
+          "name": "Droupadi Murmu",
+          "wikidata": "Q19901232",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "country_iso2": "ID",
+      "country_qid": "Q252",
+      "head_of_state": [
+        {
+          "name": "Prabowo Subianto",
+          "wikidata": "Q2107268",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Iran",
+      "country_iso2": "IR",
+      "country_qid": "Q794",
+      "head_of_state": [
+        {
+          "name": "Ali Khamenei",
+          "wikidata": "Q57336",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Iraq",
+      "country_iso2": "IQ",
+      "country_qid": "Q796",
+      "head_of_state": [
+        {
+          "name": "Abdul Latif Rashid",
+          "wikidata": "Q6496078",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Ireland",
+      "country_iso2": "IE",
+      "country_qid": "Q27",
+      "head_of_state": [
+        {
+          "name": "Catherine Connolly",
+          "wikidata": "Q5052598",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Italy",
+      "country_iso2": "IT",
+      "country_qid": "Q38",
+      "head_of_state": [
+        {
+          "name": "Sergio Mattarella",
+          "wikidata": "Q3956186",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Ivory Coast",
+      "country_iso2": "CI",
+      "country_qid": "Q1008",
+      "head_of_state": [
+        {
+          "name": "Alassane Ouattara",
+          "wikidata": "Q57413",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Jamaica",
+      "country_iso2": "JM",
+      "country_qid": "Q766",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Japan",
+      "country_iso2": "JP",
+      "country_qid": "Q17",
+      "head_of_state": [
+        {
+          "name": "Naruhito",
+          "wikidata": "Q217096",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Jordan",
+      "country_iso2": "JO",
+      "country_qid": "Q810",
+      "head_of_state": [
+        {
+          "name": "Abdullah II of Jordan",
+          "wikidata": "Q57464",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Kazakhstan",
+      "country_iso2": "KZ",
+      "country_qid": "Q232",
+      "head_of_state": [
+        {
+          "name": "Kassym-Jomart Tokayev",
+          "wikidata": "Q200881",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Kenya",
+      "country_iso2": "KE",
+      "country_qid": "Q114",
+      "head_of_state": [
+        {
+          "name": "William Ruto",
+          "wikidata": "Q195725",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Kingdom of Denmark",
+      "country_iso2": "",
+      "country_qid": "Q756617",
+      "head_of_state": [
+        {
+          "name": "Frederik X of Denmark",
+          "wikidata": "Q1004037",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Kingdom of the Netherlands",
+      "country_iso2": "NL",
+      "country_qid": "Q29999",
+      "head_of_state": [
+        {
+          "name": "William Alexander of the Netherlands",
+          "wikidata": "Q154952",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Kiribati",
+      "country_iso2": "KI",
+      "country_qid": "Q710",
+      "head_of_state": [
+        {
+          "name": "Taneti Maamau",
+          "wikidata": "Q23034482",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Kuwait",
+      "country_iso2": "KW",
+      "country_qid": "Q817",
+      "head_of_state": [
+        {
+          "name": "Mishal Al-Ahmad Al-Jaber Al-Sabah",
+          "wikidata": "Q12243161",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Kyrgyzstan",
+      "country_iso2": "KG",
+      "country_qid": "Q813",
+      "head_of_state": [
+        {
+          "name": "Sadyr Japarov",
+          "wikidata": "Q25597826",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Laos",
+      "country_iso2": "LA",
+      "country_qid": "Q819",
+      "head_of_state": [
+        {
+          "name": "Thongloun Sisoulith",
+          "wikidata": "Q58323",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Latvia",
+      "country_iso2": "LV",
+      "country_qid": "Q211",
+      "head_of_state": [
+        {
+          "name": "Edgars Rinkēvičs",
+          "wikidata": "Q3047551",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Lebanon",
+      "country_iso2": "LB",
+      "country_qid": "Q822",
+      "head_of_state": [
+        {
+          "name": "Joseph Aoun",
+          "wikidata": "Q29033962",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Lesotho",
+      "country_iso2": "LS",
+      "country_qid": "Q1013",
+      "head_of_state": [
+        {
+          "name": "Letsie III of Lesotho",
+          "wikidata": "Q57537",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Liberia",
+      "country_iso2": "LR",
+      "country_qid": "Q1014",
+      "head_of_state": [
+        {
+          "name": "Joseph Boakai",
+          "wikidata": "Q2630483",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Libya",
+      "country_iso2": "LY",
+      "country_qid": "Q1016",
+      "head_of_state": [
+        {
+          "name": "Mohamed al-Menfi",
+          "wikidata": "Q105319610",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Liechtenstein",
+      "country_iso2": "LI",
+      "country_qid": "Q347",
+      "head_of_state": [
+        {
+          "name": "Hans-Adam II, Prince of Liechtenstein",
+          "wikidata": "Q57454",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Lithuania",
+      "country_iso2": "LT",
+      "country_qid": "Q37",
+      "head_of_state": [
+        {
+          "name": "Gitanas Nausėda",
+          "wikidata": "Q9268379",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Luxembourg",
+      "country_iso2": "LU",
+      "country_qid": "Q32",
+      "head_of_state": [
+        {
+          "name": "Guillaume V, Grand Duke of Luxembourg",
+          "wikidata": "Q161319",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Madagascar",
+      "country_iso2": "MG",
+      "country_qid": "Q1019",
+      "head_of_state": [
+        {
+          "name": "Michael Randrianirina",
+          "wikidata": "Q136500275",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Malawi",
+      "country_iso2": "MW",
+      "country_qid": "Q1020",
+      "head_of_state": [
+        {
+          "name": "Peter Mutharika",
+          "wikidata": "Q7176020",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "country_iso2": "MY",
+      "country_qid": "Q833",
+      "head_of_state": [
+        {
+          "name": "Ibrahim Iskandar of Johor",
+          "wikidata": "Q2657043",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Maldives",
+      "country_iso2": "MV",
+      "country_qid": "Q826",
+      "head_of_state": [
+        {
+          "name": "Mohamed Muizzu",
+          "wikidata": "Q116293030",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Mali",
+      "country_iso2": "ML",
+      "country_qid": "Q912",
+      "head_of_state": [
+        {
+          "name": "Assimi Goïta",
+          "wikidata": "Q98497406",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Malta",
+      "country_iso2": "MT",
+      "country_qid": "Q233",
+      "head_of_state": [
+        {
+          "name": "Myriam Spiteri Debono",
+          "wikidata": "Q1647394",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Marshall Islands",
+      "country_iso2": "MH",
+      "country_qid": "Q709",
+      "head_of_state": [
+        {
+          "name": "Hilda Heine",
+          "wikidata": "Q20090884",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Mauritania",
+      "country_iso2": "MR",
+      "country_qid": "Q1025",
+      "head_of_state": [
+        {
+          "name": "Mohamed Ould Ghazouani",
+          "wikidata": "Q12241106",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Mauritius",
+      "country_iso2": "MU",
+      "country_qid": "Q1027",
+      "head_of_state": [
+        {
+          "name": "Dharam Gokhool",
+          "wikidata": "Q131403499",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Mexico",
+      "country_iso2": "MX",
+      "country_qid": "Q96",
+      "head_of_state": [
+        {
+          "name": "Claudia Sheinbaum",
+          "wikidata": "Q5771800",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Moldova",
+      "country_iso2": "MD",
+      "country_qid": "Q217",
+      "head_of_state": [
+        {
+          "name": "Maia Sandu",
+          "wikidata": "Q15071069",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Monaco",
+      "country_iso2": "MC",
+      "country_qid": "Q235",
+      "head_of_state": [
+        {
+          "name": "Albert II, Prince of Monaco",
+          "wikidata": "Q3910",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Mongolia",
+      "country_iso2": "MN",
+      "country_qid": "Q711",
+      "head_of_state": [
+        {
+          "name": "Khurelsukh Ukhnaa",
+          "wikidata": "Q27058418",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Montenegro",
+      "country_iso2": "ME",
+      "country_qid": "Q236",
+      "head_of_state": [
+        {
+          "name": "Jakov Milatović",
+          "wikidata": "Q104417661",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Morocco",
+      "country_iso2": "MA",
+      "country_qid": "Q1028",
+      "head_of_state": [
+        {
+          "name": "Mohammed VI of Morocco",
+          "wikidata": "Q57553",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Mozambique",
+      "country_iso2": "MZ",
+      "country_qid": "Q1029",
+      "head_of_state": [
+        {
+          "name": "Daniel Chapo",
+          "wikidata": "Q97058466",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Myanmar",
+      "country_iso2": "MM",
+      "country_qid": "Q836",
+      "head_of_state": [
+        {
+          "name": "Myint Swe",
+          "wikidata": "Q3331362",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Namibia",
+      "country_iso2": "NA",
+      "country_qid": "Q1030",
+      "head_of_state": [
+        {
+          "name": "Netumbo Nandi-Ndaitwah",
+          "wikidata": "Q527020",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Nauru",
+      "country_iso2": "NR",
+      "country_qid": "Q697",
+      "head_of_state": [
+        {
+          "name": "David Adeang",
+          "wikidata": "Q58096",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Nepal",
+      "country_iso2": "NP",
+      "country_qid": "Q837",
+      "head_of_state": [
+        {
+          "name": "Ram Chandra Poudel",
+          "wikidata": "Q3183124",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "New Zealand",
+      "country_iso2": "NZ",
+      "country_qid": "Q664",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Nicaragua",
+      "country_iso2": "NI",
+      "country_qid": "Q811",
+      "head_of_state": [
+        {
+          "name": "Daniel Ortega",
+          "wikidata": "Q57402",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Niger",
+      "country_iso2": "NE",
+      "country_qid": "Q1032",
+      "head_of_state": [
+        {
+          "name": "Abdourahamane Tchiani",
+          "wikidata": "Q120965176",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Nigeria",
+      "country_iso2": "NG",
+      "country_qid": "Q1033",
+      "head_of_state": [
+        {
+          "name": "Bola Ahmed Tinubu",
+          "wikidata": "Q3510872",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "North Korea",
+      "country_iso2": "KP",
+      "country_qid": "Q423",
+      "head_of_state": [
+        {
+          "name": "Kim Jong-un",
+          "wikidata": "Q56226",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "North Macedonia",
+      "country_iso2": "MK",
+      "country_qid": "Q221",
+      "head_of_state": [
+        {
+          "name": "Gordana Siljanovska-Davkova",
+          "wikidata": "Q12277168",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Norway",
+      "country_iso2": "NO",
+      "country_qid": "Q20",
+      "head_of_state": [
+        {
+          "name": "Harald V of Norway",
+          "wikidata": "Q57287",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Oman",
+      "country_iso2": "OM",
+      "country_qid": "Q842",
+      "head_of_state": [
+        {
+          "name": "Haitham bin Tarik Al Said",
+          "wikidata": "Q12250314",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Pakistan",
+      "country_iso2": "PK",
+      "country_qid": "Q843",
+      "head_of_state": [
+        {
+          "name": "Asif Ali Zardari",
+          "wikidata": "Q57373",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Palau",
+      "country_iso2": "PW",
+      "country_qid": "Q695",
+      "head_of_state": [
+        {
+          "name": "Surangel Whipps Jr.",
+          "wikidata": "Q26703072",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Palestine",
+      "country_iso2": "PS",
+      "country_qid": "Q219060",
+      "head_of_state": [
+        {
+          "name": "Mahmoud Abbas",
+          "wikidata": "Q127998",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Panama",
+      "country_iso2": "PA",
+      "country_qid": "Q804",
+      "head_of_state": [
+        {
+          "name": "José Raúl Mulino",
+          "wikidata": "Q108454869",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Papua New Guinea",
+      "country_iso2": "PG",
+      "country_qid": "Q691",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Paraguay",
+      "country_iso2": "PY",
+      "country_qid": "Q733",
+      "head_of_state": [
+        {
+          "name": "Santiago Peña Palacios",
+          "wikidata": "Q22695687",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "People's Republic of China",
+      "country_iso2": "CN",
+      "country_qid": "Q148",
+      "head_of_state": [
+        {
+          "name": "Xi Jinping",
+          "wikidata": "Q15031",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Peru",
+      "country_iso2": "PE",
+      "country_qid": "Q419",
+      "head_of_state": [
+        {
+          "name": "José María Balcázar",
+          "wikidata": "Q108414587",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Philippines",
+      "country_iso2": "PH",
+      "country_qid": "Q928",
+      "head_of_state": [
+        {
+          "name": "Bongbong Marcos",
+          "wikidata": "Q983324",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Poland",
+      "country_iso2": "PL",
+      "country_qid": "Q36",
+      "head_of_state": [
+        {
+          "name": "Karol Nawrocki",
+          "wikidata": "Q17704749",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Portugal",
+      "country_iso2": "PT",
+      "country_qid": "Q45",
+      "head_of_state": [
+        {
+          "name": "Marcelo Rebelo de Sousa",
+          "wikidata": "Q6756617",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Qatar",
+      "country_iso2": "QA",
+      "country_qid": "Q846",
+      "head_of_state": [
+        {
+          "name": "Tamim bin Hamad Al",
+          "wikidata": "Q1855372",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Republic of the Congo",
+      "country_iso2": "CG",
+      "country_qid": "Q971",
+      "head_of_state": [
+        {
+          "name": "Denis Sassou-Nguesso",
+          "wikidata": "Q57418",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Romania",
+      "country_iso2": "RO",
+      "country_qid": "Q218",
+      "head_of_state": [
+        {
+          "name": "Nicușor Dan",
+          "wikidata": "Q11163124",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Russia",
+      "country_iso2": "RU",
+      "country_qid": "Q159",
+      "head_of_state": [
+        {
+          "name": "Vladimir Putin",
+          "wikidata": "Q7747",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Rwanda",
+      "country_iso2": "RW",
+      "country_qid": "Q1037",
+      "head_of_state": [
+        {
+          "name": "Paul Kagame",
+          "wikidata": "Q1231345",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Saint Kitts and Nevis",
+      "country_iso2": "KN",
+      "country_qid": "Q763",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Saint Lucia",
+      "country_iso2": "LC",
+      "country_qid": "Q760",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Saint Vincent and the Grenadines",
+      "country_iso2": "VC",
+      "country_qid": "Q757",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Samoa",
+      "country_iso2": "WS",
+      "country_qid": "Q683",
+      "head_of_state": [
+        {
+          "name": "Va'aletoa Sualauvi II",
+          "wikidata": "Q32014514",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "San Marino",
+      "country_iso2": "SM",
+      "country_qid": "Q238",
+      "head_of_state": [
+        {
+          "name": "Denise Bronzetti",
+          "wikidata": "Q57546",
+          "description": ""
+        },
+        {
+          "name": "Italo Righi",
+          "wikidata": "Q1353628",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Saudi Arabia",
+      "country_iso2": "SA",
+      "country_qid": "Q851",
+      "head_of_state": [
+        {
+          "name": "Salman bin Abdulaziz Al Saud",
+          "wikidata": "Q367825",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Senegal",
+      "country_iso2": "SN",
+      "country_qid": "Q1041",
+      "head_of_state": [
+        {
+          "name": "Bassirou Diomaye Faye",
+          "wikidata": "Q124382437",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Serbia",
+      "country_iso2": "RS",
+      "country_qid": "Q403",
+      "head_of_state": [
+        {
+          "name": "Aleksandar Vučić",
+          "wikidata": "Q222031",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Seychelles",
+      "country_iso2": "SC",
+      "country_qid": "Q1042",
+      "head_of_state": [
+        {
+          "name": "Patrick Herminie",
+          "wikidata": "Q16190544",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Sierra Leone",
+      "country_iso2": "SL",
+      "country_qid": "Q1044",
+      "head_of_state": [
+        {
+          "name": "Julius Maada Bio",
+          "wikidata": "Q283829",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Singapore",
+      "country_iso2": "SG",
+      "country_qid": "Q334",
+      "head_of_state": [
+        {
+          "name": "Tharman Shanmugaratnam",
+          "wikidata": "Q983752",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Slovakia",
+      "country_iso2": "SK",
+      "country_qid": "Q214",
+      "head_of_state": [
+        {
+          "name": "Peter Pellegrini",
+          "wikidata": "Q17330556",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Slovenia",
+      "country_iso2": "SI",
+      "country_qid": "Q215",
+      "head_of_state": [
+        {
+          "name": "Nataša Pirc Musar",
+          "wikidata": "Q12797332",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Solomon Islands",
+      "country_iso2": "SB",
+      "country_qid": "Q685",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Somalia",
+      "country_iso2": "SO",
+      "country_qid": "Q1045",
+      "head_of_state": [
+        {
+          "name": "Hassan Sheikh Mohamud",
+          "wikidata": "Q319153",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "South Africa",
+      "country_iso2": "ZA",
+      "country_qid": "Q258",
+      "head_of_state": [
+        {
+          "name": "Cyril Ramaphosa",
+          "wikidata": "Q1148669",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "South Korea",
+      "country_iso2": "KR",
+      "country_qid": "Q884",
+      "head_of_state": [
+        {
+          "name": "Lee Jae Myung",
+          "wikidata": "Q12612463",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "South Sudan",
+      "country_iso2": "SS",
+      "country_qid": "Q958",
+      "head_of_state": [
+        {
+          "name": "Salva Kiir Mayardit",
+          "wikidata": "Q57315",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Spain",
+      "country_iso2": "ES",
+      "country_qid": "Q29",
+      "head_of_state": [
+        {
+          "name": "Felipe VI of Spain",
+          "wikidata": "Q191045",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Sri Lanka",
+      "country_iso2": "LK",
+      "country_qid": "Q854",
+      "head_of_state": [
+        {
+          "name": "Anura Kumara Dissanayake",
+          "wikidata": "Q4777855",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Sudan",
+      "country_iso2": "SD",
+      "country_qid": "Q1049",
+      "head_of_state": [
+        {
+          "name": "Abdel Fattah al-Burhan",
+          "wikidata": "Q63111184",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Suriname",
+      "country_iso2": "SR",
+      "country_qid": "Q730",
+      "head_of_state": [
+        {
+          "name": "Jennifer Geerlings-Simons",
+          "wikidata": "Q440403",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Sweden",
+      "country_iso2": "SE",
+      "country_qid": "Q34",
+      "head_of_state": [
+        {
+          "name": "Carl XVI Gustaf of Sweden",
+          "wikidata": "Q45068",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "São Tomé and Príncipe",
+      "country_iso2": "ST",
+      "country_qid": "Q1039",
+      "head_of_state": [
+        {
+          "name": "Carlos Vila Nova",
+          "wikidata": "Q27982047",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Taiwan",
+      "country_iso2": "TW",
+      "country_qid": "Q865",
+      "head_of_state": [
+        {
+          "name": "Lai Ching-te",
+          "wikidata": "Q3847080",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Tajikistan",
+      "country_iso2": "TJ",
+      "country_qid": "Q863",
+      "head_of_state": [
+        {
+          "name": "Emomali Rahmon",
+          "wikidata": "Q57366",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Tanzania",
+      "country_iso2": "TZ",
+      "country_qid": "Q924",
+      "head_of_state": [
+        {
+          "name": "Samia Suluhu Hassan",
+          "wikidata": "Q16193885",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Thailand",
+      "country_iso2": "TH",
+      "country_qid": "Q869",
+      "head_of_state": [
+        {
+          "name": "Vajiralongkorn",
+          "wikidata": "Q548733",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "The Bahamas",
+      "country_iso2": "BS",
+      "country_qid": "Q778",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "The Gambia",
+      "country_iso2": "GM",
+      "country_qid": "Q1005",
+      "head_of_state": [
+        {
+          "name": "Adama Barrow",
+          "wikidata": "Q27917049",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Timor-Leste",
+      "country_iso2": "TL",
+      "country_qid": "Q574",
+      "head_of_state": [
+        {
+          "name": "José Ramos-Horta",
+          "wikidata": "Q11665",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Togo",
+      "country_iso2": "TG",
+      "country_qid": "Q945",
+      "head_of_state": [
+        {
+          "name": "Jean-Lucien Savi de Tové",
+          "wikidata": "Q6169516",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Tonga",
+      "country_iso2": "TO",
+      "country_qid": "Q678",
+      "head_of_state": [
+        {
+          "name": "Tupou VI of Tonga",
+          "wikidata": "Q208497",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "country_iso2": "TT",
+      "country_qid": "Q754",
+      "head_of_state": [
+        {
+          "name": "Christine Kangaloo",
+          "wikidata": "Q97400315",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Tunisia",
+      "country_iso2": "TN",
+      "country_qid": "Q948",
+      "head_of_state": [
+        {
+          "name": "Kais Saied",
+          "wikidata": "Q16120878",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Turkey",
+      "country_iso2": "TR",
+      "country_qid": "Q43",
+      "head_of_state": [
+        {
+          "name": "Recep Tayyip Erdoğan",
+          "wikidata": "Q39259",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Turkmenistan",
+      "country_iso2": "TM",
+      "country_qid": "Q874",
+      "head_of_state": [
+        {
+          "name": "Serdar Berdimuhamedow",
+          "wikidata": "Q51874548",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Tuvalu",
+      "country_iso2": "TV",
+      "country_qid": "Q672",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Uganda",
+      "country_iso2": "UG",
+      "country_qid": "Q1036",
+      "head_of_state": [
+        {
+          "name": "Yoweri Museveni",
+          "wikidata": "Q57274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Ukraine",
+      "country_iso2": "UA",
+      "country_qid": "Q212",
+      "head_of_state": [
+        {
+          "name": "Volodymyr Zelenskyy",
+          "wikidata": "Q3874799",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "United Arab Emirates",
+      "country_iso2": "AE",
+      "country_qid": "Q878",
+      "head_of_state": [
+        {
+          "name": "Mohammed Bin Zayed Al Nahyan",
+          "wikidata": "Q1951896",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "United Kingdom",
+      "country_iso2": "GB",
+      "country_qid": "Q145",
+      "head_of_state": [
+        {
+          "name": "Charles III",
+          "wikidata": "Q43274",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "United States",
+      "country_iso2": "US",
+      "country_qid": "Q30",
+      "head_of_state": [
+        {
+          "name": "Donald Trump",
+          "wikidata": "Q22686",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Uruguay",
+      "country_iso2": "UY",
+      "country_qid": "Q77",
+      "head_of_state": [
+        {
+          "name": "Yamandú Orsi",
+          "wikidata": "Q19946921",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Uzbekistan",
+      "country_iso2": "UZ",
+      "country_qid": "Q265",
+      "head_of_state": [
+        {
+          "name": "Shavkat Mirziyoyev",
+          "wikidata": "Q57808",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Vanuatu",
+      "country_iso2": "VU",
+      "country_qid": "Q686",
+      "head_of_state": [
+        {
+          "name": "Nikenike Vurobaravu",
+          "wikidata": "Q113239716",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Vatican City",
+      "country_iso2": "VA",
+      "country_qid": "Q237",
+      "head_of_state": [
+        {
+          "name": "Leo XIV",
+          "wikidata": "Q6109517",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Venezuela",
+      "country_iso2": "VE",
+      "country_qid": "Q717",
+      "head_of_state": [
+        {
+          "name": "Delcy Rodríguez",
+          "wikidata": "Q15081116",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "country_iso2": "VN",
+      "country_qid": "Q881",
+      "head_of_state": [
+        {
+          "name": "Tô Lâm",
+          "wikidata": "Q10831196",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Yemen",
+      "country_iso2": "YE",
+      "country_qid": "Q805",
+      "head_of_state": [
+        {
+          "name": "Rashad al-Alimi",
+          "wikidata": "Q12213376",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Zambia",
+      "country_iso2": "ZM",
+      "country_qid": "Q953",
+      "head_of_state": [
+        {
+          "name": "Hakainde Hichilema",
+          "wikidata": "Q717185",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "country": "Zimbabwe",
+      "country_iso2": "ZW",
+      "country_qid": "Q954",
+      "head_of_state": [
+        {
+          "name": "Emmerson Mnangagwa",
+          "wikidata": "Q510523",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}

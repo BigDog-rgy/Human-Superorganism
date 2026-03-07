@@ -13,6 +13,7 @@ Framework:
 import os
 import json
 from datetime import date
+from pathlib import Path
 from dotenv import load_dotenv
 import anthropic
 
@@ -189,10 +190,24 @@ CANONICAL_CELL_ASSEMBLIES = [
 # PROMPT BUILDER
 # ---------------------------------------------------------------------------
 
-def build_mapping_prompt(individuals: list) -> str:
+def _load_ps_from_canon(path: Path):
+    """Load phase sequences from ps_canon file. Returns None if file missing or has no sequences."""
+    if not path.exists():
+        return None
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    ps = data.get("phase_sequences")
+    if ps:
+        print(f"  Loaded PS from {path.name} ({len(ps)} sequences)")
+    return ps or None
+
+
+def build_mapping_prompt(individuals: list, phase_sequences: list = None) -> str:
+    if phase_sequences is None:
+        phase_sequences = POWER_PHASE_SEQUENCES
     ps_block = "\n".join(
-        f"  {ps['id']}: {ps['name']} [{ps['hemisphere_bias']}] — {ps['definition']}"
-        for ps in POWER_PHASE_SEQUENCES
+        f"  {ps['id']}: {ps['name']} [{ps.get('hemisphere_bias', '')}] — {ps['definition']}"
+        for ps in phase_sequences
     )
 
     hemisphere_block = "\n".join(
@@ -203,7 +218,7 @@ def build_mapping_prompt(individuals: list) -> str:
     assemblies_block = "\n".join(f"  - {a}" for a in CANONICAL_CELL_ASSEMBLIES)
 
     individuals_block = "\n".join(
-        f"  {p['rank']}. {p['name']} | Domain: {p['domain']} | {p['justification']}"
+        f"  {p['rank']}. {p['name']} | {p.get('title', p.get('domain', ''))}"
         for p in individuals
     )
 
@@ -300,7 +315,7 @@ Now annotate all 17 individuals. Return only the JSON array, no preamble.
 def load_individuals(results_path: str) -> list:
     with open(results_path, "r", encoding="utf-8") as f:
         data = json.load(f)
-    return data["stage_3_final_list"]
+    return data if isinstance(data, list) else data["stage_3_final_list"]
 
 
 def call_claude(prompt: str) -> list:
@@ -342,11 +357,11 @@ def merge_annotations(individuals: list, annotations: list) -> list:
     return merged
 
 
-def save_output(merged: list, output_path: str):
+def save_output(merged: list, output_path: str, phase_sequences: list = None):
     output = {
         "metadata": {
             "date": str(date.today()),
-            "source": "llm_council_results.json",
+            "source": "final_ranked_global.json",
             "annotated_by": "claude-opus-4-6",
             "methodology": (
                 "Hebbian superorganism annotation: canonical phase sequences and cell assemblies "
@@ -354,7 +369,7 @@ def save_output(merged: list, output_path: str):
             )
         },
         "canonical_vocabulary": {
-            "phase_sequences": POWER_PHASE_SEQUENCES,
+            "phase_sequences": phase_sequences if phase_sequences is not None else POWER_PHASE_SEQUENCES,
             "hemispheres": HEMISPHERE_MAP,
             "cell_assemblies": CANONICAL_CELL_ASSEMBLIES
         },
@@ -369,18 +384,25 @@ def save_output(merged: list, output_path: str):
 
 def run():
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    input_path = os.path.join(script_dir, "llm_council_results.json")
+    input_path = os.path.join(script_dir, "final_ranked_global.json")
     output_path = os.path.join(script_dir, "superorganism_model.json")
 
     print("=" * 60)
     print("SUPERORGANISM MAPPER")
     print("=" * 60)
 
-    print("\nLoading individuals from stage_3_final_list...")
+    # Load phase sequences from ps_canon if available, else use hardcoded fallback
+    ps_canon_path = Path(script_dir) / "ps_canon_global.json"
+    phase_sequences = _load_ps_from_canon(ps_canon_path)
+    if phase_sequences is None:
+        print("  Using hardcoded POWER_PHASE_SEQUENCES (ps_canon_global.json not found)")
+        phase_sequences = POWER_PHASE_SEQUENCES
+
+    print("\nLoading individuals from final_ranked_global.json...")
     individuals = load_individuals(input_path)
     print(f"Loaded {len(individuals)} individuals")
 
-    prompt = build_mapping_prompt(individuals)
+    prompt = build_mapping_prompt(individuals, phase_sequences)
 
     try:
         annotations = call_claude(prompt)
@@ -392,7 +414,7 @@ def run():
     print("Merging annotations...")
     merged = merge_annotations(individuals, annotations)
 
-    save_output(merged, output_path)
+    save_output(merged, output_path, phase_sequences)
 
     print("\n" + "=" * 60)
     print("Superorganism mapping complete!")

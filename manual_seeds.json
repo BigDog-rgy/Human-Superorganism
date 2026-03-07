@@ -1,0 +1,11 @@
+{
+  "notes": "Manually curated entries for people missed by all automated sources (Forbes lists, Congress scraper, world leaders scraper, LLM council). Treated as source='council' — bypass tournament round 1, enter at round 2. Add both lists where applicable.",
+  "us": [
+    {"name": "Sam Altman",   "title": "CEO, OpenAI"},
+    {"name": "Dario Amodei", "title": "CEO, Anthropic"}
+  ],
+  "global": [
+    {"name": "Sam Altman",   "title": "CEO, OpenAI"},
+    {"name": "Dario Amodei", "title": "CEO, Anthropic"}
+  ]
+}

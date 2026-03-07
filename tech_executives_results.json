@@ -1,0 +1,1466 @@
+{
+  "metadata": {
+    "date": "2026-03-03",
+    "focus": "Tech & AI executives missing from Forbes lists and existing council categories",
+    "categories": [
+      "us_tech_executives",
+      "global_tech_executives"
+    ],
+    "models_queried": [
+      "claude",
+      "chatgpt",
+      "grok",
+      "gemini"
+    ],
+    "methodology": "Three-stage LLM Council (Karpathy method): Stage 1 - Independent responses, Stage 2 - Peer review, Stage 3 - Chairman synthesis by Claude Opus 4.6",
+    "note": "Figures like Sam Altman (OpenAI) and Dario Amodei (Anthropic) are almost certainly billionaires by real valuation but do not appear on Forbes lists due to the lag in private-equity net worth estimation. This category was created specifically to capture such figures."
+  },
+  "us_tech_executives": {
+    "stage_1_individual_responses": {
+      "claude": [
+        {
+          "rank": 1,
+          "name": "Sam Altman",
+          "role": "CEO, OpenAI",
+          "justification": "As head of the company at the frontier of generative AI — now valued at $150B+ with GPT-5-class models deployed across Microsoft's ecosystem and hundreds of millions of users — his product, policy, and partnership decisions set the trajectory for the entire AI industry."
+        },
+        {
+          "rank": 2,
+          "name": "Satya Nadella",
+          "role": "CEO, Microsoft",
+          "justification": "Orchestrates Microsoft's multi-hundred-billion-dollar AI integration strategy across Azure, Copilot, and its OpenAI partnership, making him the single executive with the most control over enterprise AI adoption globally."
+        },
+        {
+          "rank": 3,
+          "name": "Jensen Huang",
+          "role": "Founder & CEO, NVIDIA",
+          "justification": "NVIDIA's near-monopoly on AI training and inference chips — now a $2T+ company — gives Huang unmatched leverage over who can build frontier AI and at what cost, with direct geopolitical implications for US-China competition."
+        },
+        {
+          "rank": 4,
+          "name": "Sundar Pichai",
+          "role": "CEO, Alphabet/Google",
+          "justification": "Leads Google DeepMind's Gemini model family, Google Cloud's AI platform, and Search's AI transformation, controlling critical AI infrastructure, distribution, and research talent at planetary scale."
+        },
+        {
+          "rank": 5,
+          "name": "Tim Cook",
+          "role": "CEO, Apple",
+          "justification": "Apple Intelligence's deployment across two billion+ devices makes Cook the gatekeeper for on-device AI reaching consumers, with enormous influence over AI privacy norms and which AI partners gain default distribution."
+        },
+        {
+          "rank": 6,
+          "name": "Dario Amodei",
+          "role": "Co-Founder & CEO, Anthropic",
+          "justification": "Anthropic's Claude models are the leading safety-focused alternative at the frontier, and Amodei's advocacy for responsible scaling policies is actively shaping government AI regulation and industry norms."
+        },
+        {
+          "rank": 7,
+          "name": "Lisa Su",
+          "role": "Chair & CEO, AMD",
+          "justification": "Su has positioned AMD as the critical second-source for AI accelerators (MI300X/MI400 series), and her execution directly determines whether NVIDIA faces meaningful competition in the AI chip market."
+        },
+        {
+          "rank": 8,
+          "name": "Andy Jassy",
+          "role": "CEO, Amazon",
+          "justification": "Through AWS's massive AI infrastructure buildout, Amazon's Bedrock platform, its multi-billion-dollar Anthropic investment, and Alexa's AI overhaul, Jassy controls a dominant share of the cloud compute layer powering AI workloads."
+        },
+        {
+          "rank": 9,
+          "name": "Arvind Krishna",
+          "role": "Chairman & CEO, IBM",
+          "justification": "Krishna has repositioned IBM around enterprise AI with watsonx and consulting-led AI transformation for governments and Fortune 500 companies, wielding significant influence over how regulated industries adopt AI."
+        },
+        {
+          "rank": 10,
+          "name": "Demis Hassabis",
+          "role": "CEO, Google DeepMind",
+          "justification": "Nobel laureate leading the unified Google DeepMind lab, Hassabis directs frontier research from Gemini models to AlphaFold-scale scientific breakthroughs, making him the most consequential AI research leader inside any major company."
+        },
+        {
+          "rank": 11,
+          "name": "Mira Murati",
+          "role": "Former CTO, OpenAI / AI venture leader",
+          "justification": "After her high-profile departure from OpenAI, Murati's next moves — widely reported to involve a new AI venture — carry enormous signaling power for talent, capital, and technical direction in the AI ecosystem."
+        },
+        {
+          "rank": 12,
+          "name": "Pat Gelsinger",
+          "role": "Former CEO, Intel (stepped down Dec 2024); senior tech advisor",
+          "justification": "Though he departed Intel's CEO role, Gelsinger's CHIPS Act-era foundry strategy decisions continue to shape US semiconductor sovereignty and his ongoing advisory influence in Washington on chip policy remains significant."
+        },
+        {
+          "rank": 13,
+          "name": "Brad Smith",
+          "role": "Vice Chair & President, Microsoft",
+          "justification": "Smith is Microsoft's chief voice on AI policy, responsible government relations, and geopolitical strategy, directly shaping the regulatory frameworks emerging in the US and EU for frontier AI systems."
+        },
+        {
+          "rank": 14,
+          "name": "Daniela Amodei",
+          "role": "Co-Founder & President, Anthropic",
+          "justification": "As Anthropic's operational and business leader, she manages the company's rapid commercial scaling, enterprise partnerships, and the organizational strategy that makes Anthropic a viable counterweight to OpenAI."
+        },
+        {
+          "rank": 15,
+          "name": "Liang Wenfeng",
+          "role": "Co-Founder & CEO, DeepSeek (note: China-based)",
+          "justification": "While China-based and thus borderline for this US-focused list, DeepSeek's open-weight models have profoundly disrupted US AI companies' pricing and strategy, making Liang's decisions directly consequential for US tech executives — though he may be excluded on geographic grounds."
+        },
+        {
+          "rank": 16,
+          "name": "Cristiano Amon",
+          "role": "CEO, Qualcomm",
+          "justification": "Amon's push to embed AI inference capabilities into billions of mobile and edge devices via Snapdragon processors determines how on-device AI scales beyond the cloud, shaping the AI hardware ecosystem."
+        },
+        {
+          "rank": 17,
+          "name": "Thomas Kurian",
+          "role": "CEO, Google Cloud",
+          "justification": "Kurian oversees Google Cloud's AI platform strategy including Vertex AI and enterprise Gemini deployment, controlling a critical distribution channel for frontier models into global enterprise and government customers."
+        },
+        {
+          "rank": 18,
+          "name": "Mustafa Suleyman",
+          "role": "CEO, Microsoft AI",
+          "justification": "As head of Microsoft's consumer AI division including Copilot and Bing, Suleyman shapes how AI reaches hundreds of millions of Microsoft users daily, bridging frontier model capabilities with mass-market products."
+        },
+        {
+          "rank": 19,
+          "name": "Emmet Shear",
+          "role": "Tech executive and AI venture figure",
+          "justification": "After his brief stint as OpenAI interim CEO during the 2023 board crisis and subsequent advisory roles, Shear remains an influential voice at the intersection of AI safety and AI product development in Silicon Valley."
+        },
+        {
+          "rank": 20,
+          "name": "Vinod Khosla",
+          "role": "Founder, Khosla Ventures",
+          "justification": "As one of the most aggressive and early AI-focused venture capitalists — with major bets across foundation model companies, AI infrastructure, and energy for compute — Khosla's capital allocation decisions determine which AI startups reach scale."
+        }
+      ],
+      "chatgpt": [
+        {
+          "rank": 1,
+          "name": "Sam Altman",
+          "role": "CEO, OpenAI",
+          "justification": "He directs the most widely deployed frontier-model roadmap and productization (ChatGPT/API), shaping enterprise adoption, safety norms, and US/global AI competition through deployment and partner strategy."
+        },
+        {
+          "rank": 2,
+          "name": "Jensen Huang",
+          "role": "Founder & CEO, NVIDIA",
+          "justification": "He effectively controls the critical compute supply chain (GPUs, networking, CUDA ecosystem) that determines which AI labs and nations can scale frontier training and inference."
+        },
+        {
+          "rank": 3,
+          "name": "Satya Nadella",
+          "role": "Chairman & CEO, Microsoft",
+          "justification": "He allocates hyperscale compute and distribution (Azure, Windows, M365, GitHub) that operationalizes frontier AI across governments and the Fortune 500, amplifying OpenAI and Microsoft’s own models."
+        },
+        {
+          "rank": 4,
+          "name": "Sundar Pichai",
+          "role": "CEO, Alphabet (Google)",
+          "justification": "He governs the world’s most influential information and mobile platforms (Search, YouTube, Android) while steering Google DeepMind/Gemini deployment that reshapes knowledge access and advertising economics."
+        },
+        {
+          "rank": 5,
+          "name": "Dario Amodei",
+          "role": "CEO & Co-founder, Anthropic",
+          "justification": "He leads a top-tier frontier-model lab whose safety framing, enterprise deals, and model capabilities materially influence standards-setting and competitive dynamics in US AI."
+        },
+        {
+          "rank": 6,
+          "name": "Lisa Su",
+          "role": "Chair & CEO, AMD",
+          "justification": "She is driving the primary alternative to NVIDIA for AI accelerators and CPU platforms, affecting pricing, supply, and the strategic compute options available to cloud and national actors."
+        },
+        {
+          "rank": 7,
+          "name": "Arvind Krishna",
+          "role": "Chairman & CEO, IBM",
+          "justification": "He steers IBM’s enterprise AI and hybrid-cloud stack (including governance tooling and regulated-industry deployments) that shapes how large institutions operationalize and control AI."
+        },
+        {
+          "rank": 8,
+          "name": "Demis Hassabis",
+          "role": "CEO, Google DeepMind",
+          "justification": "He directs one of the most capable frontier research-and-deployment engines, influencing model architecture, scientific applications, and the pace of capability advances within Alphabet’s global platforms."
+        },
+        {
+          "rank": 9,
+          "name": "Tim Cook",
+          "role": "CEO, Apple",
+          "justification": "He controls the dominant premium device ecosystem and on-device software distribution, making Apple’s privacy, on-device AI, and platform policy decisions decisive for consumer AI at scale."
+        },
+        {
+          "rank": 10,
+          "name": "Andy Jassy",
+          "role": "President & CEO, Amazon",
+          "justification": "He governs AWS—the largest cloud substrate for AI workloads—and Amazon’s retail/logistics automation, making his compute and model-partner choices pivotal to AI diffusion across industry."
+        },
+        {
+          "rank": 11,
+          "name": "Alex Karp",
+          "role": "Co-founder & CEO, Palantir",
+          "justification": "He influences how US and allied defense, intelligence, and critical infrastructure institutions integrate AI into operational decision-making and data fusion at national-security scale."
+        },
+        {
+          "rank": 12,
+          "name": "Reed Hastings",
+          "role": "Co-founder & Executive Chairman, Netflix",
+          "justification": "He remains an active strategic force in large-scale algorithmic media distribution and personalization, shaping cultural attention and the data-driven content economy."
+        },
+        {
+          "rank": 13,
+          "name": "Dylan Field",
+          "role": "Co-founder & CEO, Figma",
+          "justification": "He controls a central design and collaboration platform that increasingly mediates how digital products are conceived and shipped, influencing workflows as AI-assisted creation becomes standard."
+        },
+        {
+          "rank": 14,
+          "name": "Bret Taylor",
+          "role": "Co-founder, Sierra; Chairman, OpenAI",
+          "justification": "He sits at a key AI governance chokepoint (OpenAI board leadership) while building an enterprise AI company, shaping both oversight and commercialization pathways for frontier systems."
+        },
+        {
+          "rank": 15,
+          "name": "Thomas Kurian",
+          "role": "CEO, Google Cloud",
+          "justification": "He controls one of the three hyperscale clouds and its AI stack, determining how Gemini/Vertex AI and specialized infrastructure reach regulated enterprises and governments."
+        },
+        {
+          "rank": 16,
+          "name": "Mary Meeker",
+          "role": "Founder & General Partner, Bond",
+          "justification": "She is a top-tier growth investor whose capital allocation and signaling effects influence which AI platforms scale globally and how late-stage tech governance is structured."
+        },
+        {
+          "rank": 17,
+          "name": "Doug Leone",
+          "role": "Partner, Sequoia Capital",
+          "justification": "He remains a central gatekeeper in venture capital with enduring influence over boardrooms and funding pipelines that decide which AI and infrastructure companies reach dominance."
+        },
+        {
+          "rank": 18,
+          "name": "Marc Andreessen",
+          "role": "Co-founder & General Partner, Andreessen Horowitz (a16z)",
+          "justification": "He shapes US tech policy discourse and directs major investment flows into AI and defense-tech, influencing both the narrative and the capital formation behind emerging platforms."
+        },
+        {
+          "rank": 19,
+          "name": "Patrick Collison",
+          "role": "Co-founder & CEO, Stripe",
+          "justification": "He controls a core payments and internet commerce layer, and Stripe’s choices on identity, fraud, and AI-enabled financial tooling affect how digital economies scale and comply."
+        },
+        {
+          "rank": 20,
+          "name": "Evan Spiegel",
+          "role": "Co-founder & CEO, Snap",
+          "justification": "He steers a major consumer AR and social communication platform, and Snap’s AI/AR product decisions shape youth media behavior and the commercialization of augmented interfaces."
+        }
+      ],
+      "grok": [
+        {
+          "rank": 1,
+          "name": "Sam Altman",
+          "role": "CEO, OpenAI",
+          "justification": "Directs the development and global deployment of frontier AI models like GPT series, profoundly shaping economic productivity, job markets, and geopolitical AI competition."
+        },
+        {
+          "rank": 2,
+          "name": "Dario Amodei",
+          "role": "CEO, Anthropic",
+          "justification": "Leads the creation of Claude AI models, influencing enterprise AI adoption and establishing constitutional AI safety standards adopted industry-wide."
+        },
+        {
+          "rank": 3,
+          "name": "Demis Hassabis",
+          "role": "CEO, Google DeepMind",
+          "justification": "Oversees Gemini and AlphaFold advancements, leveraging Google's vast resources to drive breakthroughs in multimodal AI and scientific discovery."
+        },
+        {
+          "rank": 4,
+          "name": "Mustafa Suleyman",
+          "role": "CEO, Microsoft AI",
+          "justification": "Drives AI integration across Microsoft 365, Azure, and Copilot, embedding generative AI into workflows for hundreds of millions of users."
+        },
+        {
+          "rank": 5,
+          "name": "Alexandr Wang",
+          "role": "CEO & Founder, Scale AI",
+          "justification": "Controls the leading platform for AI training data annotation, enabling the world's top models and holding a critical moat in data supply."
+        },
+        {
+          "rank": 6,
+          "name": "Lisa Su",
+          "role": "CEO, AMD",
+          "justification": "Architects MI300-series AI GPUs and Instinct accelerators, scaling production to diversify the AI chip supply chain amid surging demand."
+        },
+        {
+          "rank": 7,
+          "name": "Ilya Sutskever",
+          "role": "CEO, Safe Superintelligence Inc. (SSI)",
+          "justification": "Pioneers safe superintelligence research with massive funding, attracting top talent and influencing the AGI safety versus capability debate."
+        },
+        {
+          "rank": 8,
+          "name": "Greg Brockman",
+          "role": "President & Co-founder, OpenAI",
+          "justification": "Manages engineering, infrastructure, and product rollout at OpenAI, ensuring operational scalability of trillion-parameter models."
+        },
+        {
+          "rank": 9,
+          "name": "Ali Ghodsi",
+          "role": "CEO, Databricks",
+          "justification": "Leads the MosaicML-powered lakehouse platform, dominating data pipelines and fine-tuning for enterprise-scale generative AI."
+        },
+        {
+          "rank": 10,
+          "name": "Aravind Srinivas",
+          "role": "CEO & Co-founder, Perplexity AI",
+          "justification": "Builds AI-native search engines challenging Google, reshaping information access and advertising models with real-time synthesis."
+        },
+        {
+          "rank": 11,
+          "name": "Palmer Luckey",
+          "role": "Founder & CEO, Anduril Industries",
+          "justification": "Deploys Lattice AI for autonomous drones and defense systems, securing multibillion-dollar contracts that redefine US military tech superiority."
+        },
+        {
+          "rank": 12,
+          "name": "Daniela Amodei",
+          "role": "President & Co-founder, Anthropic",
+          "justification": "Oversees governance, safety evaluations, and commercial scaling of Anthropic's models, balancing growth with responsible AI deployment."
+        },
+        {
+          "rank": 13,
+          "name": "Pat Gelsinger",
+          "role": "CEO, Intel",
+          "justification": "Advances Gaudi3 AI chips and US foundry expansion, bolstering domestic semiconductor sovereignty critical for AI geopolitics."
+        },
+        {
+          "rank": 14,
+          "name": "Arvind Krishna",
+          "role": "CEO, IBM",
+          "justification": "Directs watsonx platform and Granite models, positioning hybrid cloud AI for regulated industries like finance and healthcare."
+        },
+        {
+          "rank": 15,
+          "name": "Sridhar Ramaswamy",
+          "role": "CEO, Snowflake",
+          "justification": "Scales Snowflake Cortex AI for secure data collaboration, powering analytics and ML at hyperscaler volumes."
+        },
+        {
+          "rank": 16,
+          "name": "Andrew Feldman",
+          "role": "CEO & Co-founder, Cerebras Systems",
+          "justification": "Delivers wafer-scale AI chips like CS-3, enabling unprecedented training speeds for massive models."
+        },
+        {
+          "rank": 17,
+          "name": "Jonathan Ross",
+          "role": "Founder & CEO, Groq",
+          "justification": "Leads LPUs for ultra-fast AI inference, disrupting cloud economics and enabling real-time AI applications at scale."
+        },
+        {
+          "rank": 18,
+          "name": "David Holz",
+          "role": "Founder & CEO, Midjourney",
+          "justification": "Powers generative image and video diffusion models used by millions, influencing creative industries and IP standards."
+        },
+        {
+          "rank": 19,
+          "name": "Cristóbal Valenzuela",
+          "role": "Founder & CEO, Runway",
+          "justification": "Advances Gen-3 video generation models, transforming media production and Hollywood workflows with AI tools."
+        },
+        {
+          "rank": 20,
+          "name": "Chris Lattner",
+          "role": "CEO, Modular",
+          "justification": "Develops Mojo language and MAX platform for portable AI acceleration, optimizing inference across diverse hardware."
+        }
+      ],
+      "gemini": [
+        {
+          "rank": 1,
+          "name": "Sam Altman",
+          "role": "CEO, OpenAI",
+          "justification": "Controls the release schedule and safety standards of the world's dominant frontier AI models, effectively setting the global pace for economic disruption."
+        },
+        {
+          "rank": 2,
+          "name": "Dario Amodei",
+          "role": "CEO, Anthropic",
+          "justification": "Leads the primary competitor to OpenAI, dictating the constitutional AI standards adopted by enterprise and government sectors wary of Microsoft/OpenAI."
+        },
+        {
+          "rank": 3,
+          "name": "Demis Hassabis",
+          "role": "CEO, Google DeepMind",
+          "justification": "Directs the technical architecture of Gemini and Google's AGI efforts, determining how AI is integrated into the world's largest information index."
+        },
+        {
+          "rank": 4,
+          "name": "Gwynne Shotwell",
+          "role": "President & COO, SpaceX",
+          "justification": "Operationally manages the Starlink satellite constellation, holding de facto veto power over internet connectivity in geopolitical conflict zones."
+        },
+        {
+          "rank": 5,
+          "name": "Mustafa Suleyman",
+          "role": "CEO, Microsoft AI",
+          "justification": "Oversees the integration of AI agents into Windows and Office, influencing the daily workflow of over a billion knowledge workers."
+        },
+        {
+          "rank": 6,
+          "name": "Kevin Scott",
+          "role": "CTO, Microsoft",
+          "justification": "The architect behind Microsoft's GPU supercomputing strategy and the gatekeeper of the OpenAI partnership."
+        },
+        {
+          "rank": 7,
+          "name": "Lisa Su",
+          "role": "CEO, AMD",
+          "justification": "Drivers the only viable high-performance GPU alternative to Nvidia, making her critical to supply chain resilience for data centers."
+        },
+        {
+          "rank": 8,
+          "name": "Thomas Kurian",
+          "role": "CEO, Google Cloud",
+          "justification": "Controls the allocation of TPUs and cloud infrastructure that powers a vast ecosystem of AI startups and enterprise deployments."
+        },
+        {
+          "rank": 9,
+          "name": "Ali Ghodsi",
+          "role": "CEO, Databricks",
+          "justification": "Manages the critical data lakehouse infrastructure that allows Fortune 500 companies to retain control over their private data while training models."
+        },
+        {
+          "rank": 10,
+          "name": "Aravind Srinivas",
+          "role": "CEO, Perplexity AI",
+          "justification": "Reshaping the internet economy by shifting user behavior from traditional indexed search to direct-answer AI engines."
+        },
+        {
+          "rank": 11,
+          "name": "Alexandr Wang",
+          "role": "CEO, Scale AI",
+          "justification": "Controls the bottleneck of high-quality data labeling and RLHF pipelines essential for both commercial and military AI model performance."
+        },
+        {
+          "rank": 12,
+          "name": "Yann LeCun",
+          "role": "Chief AI Scientist, Meta",
+          "justification": "The most powerful advocate for open-weights AI, his decisions on Llama releases prevent a complete consolidation of power by closed-source labs."
+        },
+        {
+          "rank": 13,
+          "name": "Clement Delangue",
+          "role": "CEO, Hugging Face",
+          "justification": "Operates the central infrastructure hub for the open-source community, hosting the models and datasets that democratize AI access."
+        },
+        {
+          "rank": 14,
+          "name": "Michael Intrator",
+          "role": "CEO, CoreWeave",
+          "justification": "Provides the specialized GPU cloud infrastructure that powers the tier of major AI labs and startups operating outside the Big Tech ecosystem."
+        },
+        {
+          "rank": 15,
+          "name": "Nat Friedman",
+          "role": "Investor & Operator",
+          "justification": "Controls one of the largest private clusters of compute, acting as the kingmaker for independent researchers and new AI foundation model startups."
+        },
+        {
+          "rank": 16,
+          "name": "Bret Taylor",
+          "role": "Co-Founder, Sierra / Chair, OpenAI",
+          "justification": "Pioneering the B2B agentic economy and providing governance oversight to the world's most scrutinized AI laboratory."
+        },
+        {
+          "rank": 17,
+          "name": "Shyam Sankar",
+          "role": "CTO, Palantir",
+          "justification": "Operationalizes AI decision systems within Western military and intelligence command structures, bridging the gap between code and kinetic warfare."
+        },
+        {
+          "rank": 18,
+          "name": "Cristiano Amon",
+          "role": "CEO, Qualcomm",
+          "justification": "Defining the hardware standards for on-device AI, determining how complex models run locally on smartphones and edge devices."
+        },
+        {
+          "rank": 19,
+          "name": "Neal Mohan",
+          "role": "CEO, YouTube",
+          "justification": "Manages the recommendation algorithms that curate reality and information consumption for the world's largest video audience."
+        },
+        {
+          "rank": 20,
+          "name": "Adam Mosseri",
+          "role": "Head of Instagram & Threads, Meta",
+          "justification": "Controls the algorithmic distribution of news and visual culture for the largest social media ecosystem outside of China."
+        }
+      ]
+    },
+    "stage_2_peer_reviews": {
+      "claude": {
+        "rankings": [
+          {
+            "model": "Model A",
+            "rank": 1,
+            "reasoning": "Most accurate framing and justifications. Jensen Huang correctly placed at #2 reflecting his pivotal GPU/compute supply chain role, which the other models inexplicably omit from their top 5. Satya Nadella and Sundar Pichai are correctly elevated as hyperscale platform leaders. Justifications are precise and mechanism-focused (e.g., 'controls critical compute supply chain'). Strong adherence to the US Tech & AI Executives category with no off-category inclusions.",
+            "actual_model": "chatgpt"
+          },
+          {
+            "model": "Model B",
+            "rank": 2,
+            "reasoning": "Solid top picks with Altman and Amodei. Includes Alexandr Wang, a strong pick for identifying a private AI figure likely missing from Forbes lists. However, Demis Hassabis leads Google DeepMind from London and is British, which strains the 'US Tech & AI Executives' category. Missing Jensen Huang and Satya Nadella from top 5 is a significant omission. Justifications are decent but less mechanistically precise than Model A.",
+            "actual_model": "grok"
+          },
+          {
+            "model": "Model C",
+            "rank": 3,
+            "reasoning": "Includes Gwynne Shotwell at #4, who runs SpaceX/Starlink — this is a stretch for 'US Tech & AI Executives' as her role is primarily aerospace/connectivity, not AI. Demis Hassabis again raises the US-category concern. Missing Jensen Huang and Nadella from the top 5 weakens accuracy. Some justifications use slightly hyperbolic language ('de facto veto power'). Otherwise reasonable but the category adherence issues place it last.",
+            "actual_model": "gemini"
+          }
+        ]
+      },
+      "chatgpt": {
+        "rankings": [
+          {
+            "model": "Model B",
+            "rank": 1,
+            "reasoning": "Best fit for the category and time horizon: it centers on US tech/AI executives and includes several key private AI-lab/data-layer leaders (e.g., Amodei, Wang) who are plausible “missing from Forbes” billionaire-level figures. Justifications are generally specific and defensible without leaning on dubious valuation/user-number claims. Minor issue: Demis Hassabis is accurately influential but not a US executive, which slightly weakens category adherence.",
+            "actual_model": "grok"
+          },
+          {
+            "model": "Model A",
+            "rank": 2,
+            "reasoning": "Strong on mainstream power centers (Altman/Nadella/Huang/Pichai/Cook) and generally good reasoning about distribution and compute leverage. However, it contains several likely inaccurate or overstated March-2026 specifics (e.g., “$150B+” OpenAI valuation, “GPT-5-class models deployed,” “NVIDIA $2T+,” “Apple Intelligence across two billion+ devices”) and it is less attentive to identifying private AI-lab CEOs/data infrastructure figures missing from Forbes. Category adherence is good (mostly US-based execs), but the factual overreach hurts.",
+            "actual_model": "claude"
+          },
+          {
+            "model": "Model C",
+            "rank": 3,
+            "reasoning": "Reasoning is punchy but includes category drift: Gwynne Shotwell/Starlink is influential, yet it’s more aerospace/telecom than 'Tech & AI executives' and not clearly AI-centric. It also makes strong, hard-to-substantiate claims (“controls the release schedule and safety standards of the world’s dominant frontier AI models,” “de facto veto power over internet connectivity”) and, like B, includes Hassabis (non-US). It does less to surface Forbes-missing private AI wealth compared with B.",
+            "actual_model": "gemini"
+          }
+        ]
+      },
+      "grok": {
+        "rankings": [
+          {
+            "model": "Model B",
+            "rank": 1,
+            "reasoning": "Best overall: includes private AI CEO Dario (fits criterion 4); precise control-point reasoning; top AI-focused US executives; accurate 2026 projections.",
+            "actual_model": "chatgpt"
+          },
+          {
+            "model": "Model A",
+            "rank": 2,
+            "reasoning": "Strong accuracy with valuations and details; excellent reasoning; perfect category fit but misses showcasing private CEO like Dario in top 5.",
+            "actual_model": "claude"
+          },
+          {
+            "model": "Model C",
+            "rank": 3,
+            "reasoning": "Poor adherence with non-AI Shotwell and UK-based Hassabis; shorter/weaker reasoning; overrates secondary figures.",
+            "actual_model": "gemini"
+          }
+        ]
+      },
+      "gemini": {
+        "rankings": [
+          {
+            "model": "Model B",
+            "rank": 1,
+            "reasoning": "Best overall balance. It correctly identifies the essential 'Big Tech' infrastructure leaders (Huang, Nadella) while also adhering to the prompt's specific instruction to include private lab CEOs (Dario Amodei) who hold immense influence but may be missing from traditional wealth lists.",
+            "actual_model": "chatgpt"
+          },
+          {
+            "model": "Model A",
+            "rank": 2,
+            "reasoning": "Strong adherence to the March 2026 context with specific predictions (GPT-5, $150B+ valuation). However, it relies heavily on public company CEOs (Cook) and misses the opportunity to highlight key private figures (like Amodei) in the top 5 as requested by the wealth criteria.",
+            "actual_model": "claude"
+          },
+          {
+            "model": "Model C",
+            "rank": 3,
+            "reasoning": "While it succeeds in identifying 'missing' figures (Suleyman, Wang, Amodei), it critically fails the accuracy test for 'Most Influential' by excluding Jensen Huang and Satya Nadella from the top 5, effectively prioritizing division heads over the industry's primary power brokers.",
+            "actual_model": "grok"
+          }
+        ]
+      }
+    },
+    "stage_3_final_list": [
+      {
+        "rank": 1,
+        "name": "Sam Altman",
+        "role": "CEO, OpenAI",
+        "justification": "Directs the development, deployment, and partnership strategy of the world's most widely adopted frontier AI models, setting the pace for global AI competition and enterprise adoption.",
+        "consensus_notes": "Unanimous #1 across all four models; universally recognized as the single most consequential AI executive operating today."
+      },
+      {
+        "rank": 2,
+        "name": "Jensen Huang",
+        "role": "Founder & CEO, NVIDIA",
+        "justification": "NVIDIA's near-monopoly on AI training and inference accelerators gives Huang unmatched leverage over who can build frontier AI and at what cost, with direct geopolitical implications for US-China competition.",
+        "consensus_notes": "Ranked #2-3 by Claude and ChatGPT; Grok and Gemini omitted him from top 5, which peer reviewers flagged as a significant error. Consensus strongly supports top-3 placement."
+      },
+      {
+        "rank": 3,
+        "name": "Satya Nadella",
+        "role": "Chairman & CEO, Microsoft",
+        "justification": "Orchestrates Microsoft's multi-hundred-billion-dollar AI integration across Azure, Copilot, and the OpenAI partnership, making him the executive with the most control over enterprise AI adoption at global scale.",
+        "consensus_notes": "Ranked #2-3 by Claude and ChatGPT; Grok and Gemini placed him lower or omitted from top 5, again flagged by peer reviewers as a critical omission."
+      },
+      {
+        "rank": 4,
+        "name": "Dario Amodei",
+        "role": "Co-Founder & CEO, Anthropic",
+        "justification": "Leads the primary frontier-model competitor to OpenAI, whose responsible scaling policies and constitutional AI framework are actively shaping government regulation and industry safety norms.",
+        "consensus_notes": "All four models include him in top 5; peer reviews explicitly noted the prompt's instruction to include him as a likely billionaire missing from Forbes methodology. Universal consensus."
+      },
+      {
+        "rank": 5,
+        "name": "Sundar Pichai",
+        "role": "CEO, Alphabet/Google",
+        "justification": "Controls Google DeepMind's Gemini deployment, Google Cloud's AI platform, Search's AI transformation, and Android distribution — governing critical AI infrastructure at planetary scale.",
+        "consensus_notes": "Claude and ChatGPT rank him #4; Grok and Gemini omit him from their lists in favor of Hassabis/Kurian. Peer review consensus supports top-5 placement as the ultimate decision-maker over Google's AI portfolio."
+      },
+      {
+        "rank": 6,
+        "name": "Lisa Su",
+        "role": "Chair & CEO, AMD",
+        "justification": "Drives the only viable high-performance GPU alternative to NVIDIA for AI workloads, making her execution critical to compute supply chain resilience and competitive pricing for the entire AI industry.",
+        "consensus_notes": "Included by all four models, consistently ranked #6-7. Strong consensus on her strategic importance to AI chip market competition."
+      },
+      {
+        "rank": 7,
+        "name": "Tim Cook",
+        "role": "CEO, Apple",
+        "justification": "Apple Intelligence deployment across two billion+ devices makes Cook the gatekeeper for on-device AI reaching consumers, with enormous influence over AI privacy norms and default AI partner distribution.",
+        "consensus_notes": "Claude ranks #5, ChatGPT #9; Grok and Gemini omit. Peer reviews mixed, but his control over the dominant consumer device ecosystem justifies high placement."
+      },
+      {
+        "rank": 8,
+        "name": "Demis Hassabis",
+        "role": "CEO, Google DeepMind",
+        "justification": "Nobel laureate directing the unified Google DeepMind lab, from Gemini frontier models to AlphaFold-scale scientific breakthroughs, making him the most consequential AI research leader inside any major company.",
+        "consensus_notes": "Ranked top 3-4 by Grok and Gemini; Claude #10, ChatGPT #8. Peer reviewers note he is UK-based which strains the US category, but DeepMind operates as a division of US-headquartered Alphabet. Included on that basis."
+      },
+      {
+        "rank": 9,
+        "name": "Andy Jassy",
+        "role": "President & CEO, Amazon",
+        "justification": "Governs AWS — the largest cloud substrate for AI workloads — along with Amazon's multi-billion-dollar Anthropic investment and Bedrock platform, making his compute and model-partner choices pivotal to AI diffusion across industry.",
+        "consensus_notes": "Claude #8, ChatGPT #10; Grok and Gemini omit. Strong case for inclusion given AWS's infrastructure dominance in AI workloads."
+      },
+      {
+        "rank": 10,
+        "name": "Mustafa Suleyman",
+        "role": "CEO, Microsoft AI",
+        "justification": "Oversees Microsoft's consumer AI division including Copilot and Bing, shaping how AI agents reach hundreds of millions of daily users across Windows and Office workflows.",
+        "consensus_notes": "Grok #4, Gemini #5, Claude #18. Peer reviewers note his operational scope within Microsoft is vast; consensus supports top-half placement."
+      },
+      {
+        "rank": 11,
+        "name": "Alexandr Wang",
+        "role": "CEO & Founder, Scale AI",
+        "justification": "Controls the leading platform for AI training data annotation and RLHF pipelines essential for both commercial and military AI model performance, holding a critical bottleneck position in the AI supply chain.",
+        "consensus_notes": "Grok #5, Gemini #11; Claude and ChatGPT omit. Peer reviews highlight him as a key private AI figure likely missing from Forbes lists. Strong category fit."
+      },
+      {
+        "rank": 12,
+        "name": "Daniela Amodei",
+        "role": "Co-Founder & President, Anthropic",
+        "justification": "Manages Anthropic's rapid commercial scaling, enterprise partnerships, and organizational strategy, serving as the operational counterpart enabling Anthropic's viability as a frontier AI lab.",
+        "consensus_notes": "Claude #14, Grok #12; ChatGPT and Gemini omit. Included given Anthropic's scale and her direct operational control over a company valued at $60B+."
+      },
+      {
+        "rank": 13,
+        "name": "Alex Karp",
+        "role": "Co-Founder & CEO, Palantir",
+        "justification": "Determines how US and allied defense, intelligence, and critical infrastructure institutions integrate AI into operational decision-making and data fusion at national-security scale.",
+        "consensus_notes": "ChatGPT #11; Gemini includes Palantir CTO Sankar at #17; Claude and Grok omit Karp. His direct influence on military AI adoption justifies inclusion."
+      },
+      {
+        "rank": 14,
+        "name": "Bret Taylor",
+        "role": "Co-Founder, Sierra; Chairman, OpenAI Board",
+        "justification": "Sits at a critical AI governance chokepoint as OpenAI board chair while building an enterprise agentic AI company, shaping both oversight and commercialization pathways for frontier systems.",
+        "consensus_notes": "ChatGPT #14, Gemini #16; Claude and Grok omit. Dual role gives him unique influence over both AI governance and enterprise AI adoption."
+      },
+      {
+        "rank": 15,
+        "name": "Arvind Krishna",
+        "role": "Chairman & CEO, IBM",
+        "justification": "Directs IBM's watsonx platform and enterprise AI consulting practice, wielding significant influence over how regulated industries — finance, healthcare, government — adopt and govern AI systems.",
+        "consensus_notes": "Claude #9, ChatGPT #7, Grok #14; Gemini omits. Consensus supports inclusion for enterprise/regulated-industry AI influence."
+      },
+      {
+        "rank": 16,
+        "name": "Thomas Kurian",
+        "role": "CEO, Google Cloud",
+        "justification": "Controls one of the three hyperscale clouds and its AI stack, determining how Gemini and Vertex AI reach regulated enterprises and governments as a critical distribution channel for frontier models.",
+        "consensus_notes": "Claude #17, ChatGPT #15, Gemini #8; Grok omits. Consistent appearance across three models supports inclusion."
+      },
+      {
+        "rank": 17,
+        "name": "Cristiano Amon",
+        "role": "CEO, Qualcomm",
+        "justification": "Defines the hardware standards for on-device AI by embedding inference capabilities into billions of mobile and edge devices via Snapdragon processors, shaping how AI scales beyond the cloud.",
+        "consensus_notes": "Claude #16, Gemini #18; ChatGPT and Grok omit. Two-model support with strong reasoning for edge AI hardware influence."
+      },
+      {
+        "rank": 18,
+        "name": "Ali Ghodsi",
+        "role": "CEO, Databricks",
+        "justification": "Leads the dominant data lakehouse infrastructure that enables Fortune 500 companies to retain control over their private data while training and fine-tuning AI models at enterprise scale.",
+        "consensus_notes": "Grok #9, Gemini #9; Claude and ChatGPT omit. Two-model consensus plus strong reasoning on critical data infrastructure layer."
+      },
+      {
+        "rank": 19,
+        "name": "Aravind Srinivas",
+        "role": "CEO & Co-Founder, Perplexity AI",
+        "justification": "Building AI-native search that challenges Google's core business model, reshaping information access and advertising economics by shifting user behavior from indexed search to direct-answer AI engines.",
+        "consensus_notes": "Grok #10, Gemini #10; Claude and ChatGPT omit. Two-model agreement; represents the disruptive AI-native application layer."
+      },
+      {
+        "rank": 20,
+        "name": "Palmer Luckey",
+        "role": "Founder & CEO, Anduril Industries",
+        "justification": "Deploys Lattice AI for autonomous drones and defense systems through multibillion-dollar contracts, redefining how the US military integrates AI into operational capabilities and force structure.",
+        "consensus_notes": "Grok #11; other models omit or reference defense-AI tangentially. Included for outsized defense-AI influence and Anduril's rapid scaling as a major defense-tech platform."
+      }
+    ]
+  },
+  "global_tech_executives": {
+    "stage_1_individual_responses": {
+      "claude": [
+        {
+          "rank": 1,
+          "name": "Sam Altman",
+          "role": "CEO, OpenAI",
+          "justification": "Leads the most prominent AI lab in the world, whose products (GPT series, ChatGPT) are setting the pace for the global AI race and reshaping every industry, with OpenAI's valuation exceeding $150B."
+        },
+        {
+          "rank": 2,
+          "name": "Dario Amodei",
+          "role": "CEO & Co-Founder, Anthropic",
+          "justification": "Steers the leading AI safety-focused lab whose Claude models are a primary competitor to OpenAI, with Anthropic valued at ~$60B+ and deeply embedded in enterprise and government AI adoption."
+        },
+        {
+          "rank": 3,
+          "name": "Satya Nadella",
+          "role": "Chairman & CEO, Microsoft",
+          "justification": "Architects Microsoft's multi-hundred-billion-dollar AI integration strategy across Azure, Copilot, and the OpenAI partnership, making Microsoft the infrastructure backbone of the AI era."
+        },
+        {
+          "rank": 4,
+          "name": "Lisa Su",
+          "role": "Chair & CEO, AMD",
+          "justification": "Leads AMD's aggressive push into AI accelerators (MI300 series and successors) that represent the most credible alternative to Nvidia's GPU dominance in AI training and inference."
+        },
+        {
+          "rank": 5,
+          "name": "C.C. Wei",
+          "role": "CEO, TSMC",
+          "justification": "Runs the world's most critical semiconductor foundry, whose advanced node manufacturing is the irreplaceable bottleneck for every leading AI chip from Nvidia, Apple, AMD, and others."
+        },
+        {
+          "rank": 6,
+          "name": "Sundar Pichai",
+          "role": "CEO, Alphabet/Google",
+          "justification": "Oversees Google DeepMind's frontier models (Gemini), the world's largest cloud AI infrastructure, and Search—making decisions that shape AI access for billions of users globally."
+        },
+        {
+          "rank": 7,
+          "name": "Liang Wenfeng",
+          "role": "Founder & CEO, DeepSeek",
+          "justification": "Catapulted to global prominence by releasing highly efficient open-weight AI models that challenged Western AI labs' cost assumptions and demonstrated China's capacity for frontier AI despite chip export controls."
+        },
+        {
+          "rank": 8,
+          "name": "Masayoshi Son",
+          "role": "Chairman & CEO, SoftBank Group",
+          "justification": "Mobilizing $100B+ for Project Stargate and other AI infrastructure investments, positioning SoftBank as the single largest private capital allocator in the global AI buildout."
+        },
+        {
+          "rank": 9,
+          "name": "Demis Hassabis",
+          "role": "CEO, Google DeepMind",
+          "justification": "Leads the combined DeepMind research organization whose breakthroughs (AlphaFold, Gemini models) span scientific discovery and commercial AI, with Nobel Prize-level recognition for AI-driven science."
+        },
+        {
+          "rank": 10,
+          "name": "Ren Zhengfei",
+          "role": "Founder & CEO, Huawei",
+          "justification": "Drives Huawei's push to build a self-sufficient Chinese AI chip and cloud ecosystem (Ascend series), directly shaping the technological decoupling between the US and China."
+        },
+        {
+          "rank": 11,
+          "name": "Pony Ma (Ma Huateng)",
+          "role": "Chairman & CEO, Tencent",
+          "justification": "Leads Tencent's AI integration across WeChat's billion-plus users, gaming, cloud services, and enterprise AI, making him one of the most operationally powerful figures in Chinese tech despite regulatory pressures."
+        },
+        {
+          "rank": 12,
+          "name": "Robin Li (Li Yanhong)",
+          "role": "Co-Founder & CEO, Baidu",
+          "justification": "Spearheads China's most prominent large language model effort (ERNIE) and autonomous driving platform (Apollo), positioning Baidu as a national AI champion."
+        },
+        {
+          "rank": 13,
+          "name": "Morris Chang",
+          "role": "Founder & Senior Advisor, TSMC",
+          "justification": "Though formally retired, remains a geopolitically influential figure whose counsel shapes TSMC's US fab strategy and Taiwan's semiconductor diplomacy at the highest levels."
+        },
+        {
+          "rank": 14,
+          "name": "Thomas Kurian",
+          "role": "CEO, Google Cloud",
+          "justification": "Oversees the cloud platform distributing Gemini and custom TPU infrastructure to enterprises and governments worldwide, directly competing for the AI cloud market that underpins the industry."
+        },
+        {
+          "rank": 15,
+          "name": "Arvind Krishna",
+          "role": "Chairman & CEO, IBM",
+          "justification": "Leads IBM's enterprise AI strategy (watsonx platform) and quantum computing program, with significant influence over how regulated industries and governments adopt AI."
+        },
+        {
+          "rank": 16,
+          "name": "Cristiano Amon",
+          "role": "President & CEO, Qualcomm",
+          "justification": "Drives the push for on-device AI processing across billions of smartphones and edge devices globally, shaping where AI inference happens beyond the data center."
+        },
+        {
+          "rank": 17,
+          "name": "Daniela Amodei",
+          "role": "President & Co-Founder, Anthropic",
+          "justification": "As Anthropic's operational and business leader, she directs commercial strategy, partnerships, and policy engagement for one of the world's most influential AI safety companies."
+        },
+        {
+          "rank": 18,
+          "name": "Mira Murati",
+          "role": "Former CTO, OpenAI / AI venture leader",
+          "justification": "After her high-profile departure from OpenAI, her next moves in AI carry outsized influence given her deep technical credibility and the intense competition to attract top AI talent and leadership."
+        },
+        {
+          "rank": 19,
+          "name": "Zhang Yiming",
+          "role": "Founder, ByteDance",
+          "justification": "Though stepped back from daily operations, retains controlling influence over ByteDance/TikTok's AI-driven recommendation algorithms that shape information consumption for over a billion global users."
+        },
+        {
+          "rank": 20,
+          "name": "Patrick Collison",
+          "role": "Co-Founder & CEO, Stripe",
+          "justification": "Leads the dominant global payments infrastructure company whose AI-powered financial tools and expansion into AI-era commerce platforms give him structural influence over how the digital economy transacts."
+        }
+      ],
+      "chatgpt": [
+        {
+          "rank": 1,
+          "name": "Sam Altman",
+          "role": "CEO, OpenAI",
+          "justification": "He directs the most widely deployed frontier-model product stack (ChatGPT/API) and sets the pace of commercial AI deployment, safety posture, and model access that cascades across governments and industries."
+        },
+        {
+          "rank": 2,
+          "name": "Satya Nadella",
+          "role": "Chairman & CEO, Microsoft",
+          "justification": "He controls the dominant enterprise software distribution channel plus Azure’s AI supercomputing and OpenAI go-to-market, making Microsoft a primary gatekeeper for global AI adoption."
+        },
+        {
+          "rank": 3,
+          "name": "Sundar Pichai",
+          "role": "CEO, Alphabet (Google)",
+          "justification": "He governs Google’s frontier-model strategy (Gemini/DeepMind), search and mobile platforms, and massive global data/compute footprint that shape information flows and AI standards worldwide."
+        },
+        {
+          "rank": 4,
+          "name": "Demis Hassabis",
+          "role": "CEO, Google DeepMind",
+          "justification": "He leads one of the top frontier research and deployment engines, influencing model capabilities, alignment approaches, and scientific/defense-adjacent applications at global scale."
+        },
+        {
+          "rank": 5,
+          "name": "Lisa Su",
+          "role": "Chair & CEO, AMD",
+          "justification": "She is steering the only credible alternative hyperscale AI accelerator roadmap to NVIDIA, shaping pricing, supply, and the competitive balance of AI compute globally."
+        },
+        {
+          "rank": 6,
+          "name": "Pat Gelsinger",
+          "role": "CEO, Intel",
+          "justification": "He is attempting to reassert U.S./allied semiconductor manufacturing and packaging capacity while repositioning Intel’s AI silicon and foundry strategy amid geopolitical supply-chain fragmentation."
+        },
+        {
+          "rank": 7,
+          "name": "C. C. Wei",
+          "role": "Chairman & CEO, TSMC",
+          "justification": "He runs the world’s most critical advanced-node foundry, with decisions on capacity allocation, node timing, and geographic expansion directly affecting the AI and defense-industrial base of multiple nations."
+        },
+        {
+          "rank": 8,
+          "name": "Cristiano Amon",
+          "role": "President & CEO, Qualcomm",
+          "justification": "He is driving on-device AI across billions of phones and edge devices, influencing privacy, model distribution, and the shift of AI workloads from cloud to edge at planetary scale."
+        },
+        {
+          "rank": 9,
+          "name": "Masayoshi Son",
+          "role": "Founder & CEO, SoftBank Group",
+          "justification": "He is a top-tier capital allocator for AI infrastructure and platform bets, with financing decisions that can accelerate or starve entire ecosystems and national AI competitiveness."
+        },
+        {
+          "rank": 10,
+          "name": "Mark Read",
+          "role": "CEO, WPP",
+          "justification": "He controls one of the largest global advertising and influence networks and is rapidly integrating generative AI into content production and targeting, reshaping media economics and persuasion at scale."
+        },
+        {
+          "rank": 11,
+          "name": "Tim Cook",
+          "role": "CEO, Apple",
+          "justification": "He governs the world’s most influential consumer hardware and app distribution ecosystem, and Apple’s on-device AI and privacy choices can redefine global norms for personal AI and data access."
+        },
+        {
+          "rank": 12,
+          "name": "Shantanu Narayen",
+          "role": "Chairman & CEO, Adobe",
+          "justification": "He leads the dominant creative software platform and its generative AI tooling, directly shaping global content creation workflows, IP norms, and the economics of digital media."
+        },
+        {
+          "rank": 13,
+          "name": "Daniel Ek",
+          "role": "Co-founder & CEO, Spotify",
+          "justification": "He influences global music discovery and monetization and is increasingly central to how generative AI interacts with creators, rights holders, and cultural distribution."
+        },
+        {
+          "rank": 14,
+          "name": "Dario Amodei",
+          "role": "Co-founder & CEO, Anthropic",
+          "justification": "He runs a leading frontier-model lab with major enterprise and government relevance, shaping safety-first model development, deployment constraints, and competitive pressure on the entire AI sector."
+        },
+        {
+          "rank": 15,
+          "name": "Arthur Mensch",
+          "role": "Co-founder & CEO, Mistral AI",
+          "justification": "He is a key driver of Europe’s frontier-model sovereignty push, influencing open-weight strategies, enterprise adoption, and the EU’s leverage in the global AI stack."
+        },
+        {
+          "rank": 16,
+          "name": "Robin Li",
+          "role": "Co-founder, Chairman & CEO, Baidu",
+          "justification": "He directs one of China’s most important AI platform and cloud players, with major influence over domestic model deployment, autonomous driving, and state-aligned AI commercialization."
+        },
+        {
+          "rank": 17,
+          "name": "Ren Zhengfei",
+          "role": "Founder, Huawei",
+          "justification": "He remains the pivotal figure behind China’s most geopolitically consequential telecom and computing champion, shaping 5G/6G infrastructure and AI hardware resilience under sanctions pressure."
+        },
+        {
+          "rank": 18,
+          "name": "Lei Jun",
+          "role": "Founder, Chairman & CEO, Xiaomi",
+          "justification": "He steers one of the largest global consumer device ecosystems and its AI integration, affecting emerging-market connectivity, surveillance risk surfaces, and edge-AI distribution."
+        },
+        {
+          "rank": 19,
+          "name": "Hiroki Totoki",
+          "role": "President, COO & CFO, Sony Group (effective CEO-designate role)",
+          "justification": "He controls a uniquely influential stack spanning gaming (PlayStation), imaging sensors, entertainment IP, and AI-enabled content pipelines that shape global consumer behavior and media power."
+        },
+        {
+          "rank": 20,
+          "name": "Bobby Kotick",
+          "role": "CEO, Activision Blizzard (post-acquisition operator in gaming ecosystem)",
+          "justification": "He remains a major decision-maker in one of the largest global interactive entertainment networks, where AI-driven content, moderation, and monetization choices increasingly influence culture and digital economies."
+        }
+      ],
+      "grok": [
+        {
+          "rank": 1,
+          "name": "Sam Altman",
+          "role": "CEO of OpenAI",
+          "justification": "Directs the world's leading AGI lab, deploying GPT models that power global enterprise AI adoption and influence U.S. AI policy."
+        },
+        {
+          "rank": 2,
+          "name": "Dario Amodei",
+          "role": "CEO of Anthropic",
+          "justification": "Leads development of Claude AI models, securing massive Amazon and Google partnerships that challenge OpenAI dominance."
+        },
+        {
+          "rank": 3,
+          "name": "Demis Hassabis",
+          "role": "CEO of Google DeepMind",
+          "justification": "Oversees Google's frontier AI research including Gemini, transforming search, healthcare, and scientific discovery worldwide."
+        },
+        {
+          "rank": 4,
+          "name": "Ilya Sutskever",
+          "role": "CEO of Safe Superintelligence Inc.",
+          "justification": "Founding a new AGI lab focused on safe superintelligence with $1B+ funding, drawing top talent from OpenAI."
+        },
+        {
+          "rank": 5,
+          "name": "Mustafa Suleyman",
+          "role": "CEO of Microsoft AI",
+          "justification": "Integrates frontier AI into Microsoft's ecosystem, powering Copilot across Azure, Office, and Windows for billions of users."
+        },
+        {
+          "rank": 6,
+          "name": "Robin Li",
+          "role": "CEO of Baidu",
+          "justification": "Drives China's premier AI platform with ERNIE models and Apollo robotaxis, shaping national AI competitiveness."
+        },
+        {
+          "rank": 7,
+          "name": "Ren Zhengfei",
+          "role": "Founder & CEO of Huawei",
+          "justification": "Steers Huawei's AI chips, 5G, and cloud amid sanctions, bolstering China's tech sovereignty."
+        },
+        {
+          "rank": 8,
+          "name": "C.C. Wei",
+          "role": "CEO of TSMC",
+          "justification": "Controls production of 90%+ of advanced semiconductors powering global AI training and inference."
+        },
+        {
+          "rank": 9,
+          "name": "Eddie Wu",
+          "role": "CEO & Chairman of Alibaba",
+          "justification": "Advances Qwen open-source LLMs, dominating Asia-Pacific AI infrastructure and e-commerce intelligence."
+        },
+        {
+          "rank": 10,
+          "name": "Liang Rubo",
+          "role": "CEO of ByteDance",
+          "justification": "Harnesses TikTok's vast data for Doubao AI, influencing global content algorithms and consumer AI."
+        },
+        {
+          "rank": 11,
+          "name": "Arthur Mensch",
+          "role": "CEO of Mistral AI",
+          "justification": "Builds Europe's leading open AI models, securing sovereign deals and challenging U.S. hyperscalers."
+        },
+        {
+          "rank": 12,
+          "name": "Yang Zhilin",
+          "role": "Founder & CEO of Moonshot AI",
+          "justification": "Created Kimi, China's top consumer AI chatbot, accelerating domestic LLM adoption amid U.S. restrictions."
+        },
+        {
+          "rank": 13,
+          "name": "Wang Xiaochuan",
+          "role": "Founder & CEO of Baichuan Intelligence",
+          "justification": "Develops cost-efficient LLMs with strong enterprise traction, fueling China's AI democratization."
+        },
+        {
+          "rank": 14,
+          "name": "Pat Gelsinger",
+          "role": "CEO of Intel",
+          "justification": "Leads U.S. push for AI chip independence via Intel Foundry and Gaudi accelerators."
+        },
+        {
+          "rank": 15,
+          "name": "Roger Dassen",
+          "role": "CEO of ASML",
+          "justification": "Monopolizes EUV lithography critical for all sub-2nm AI chips, wielding supply chain leverage."
+        },
+        {
+          "rank": 16,
+          "name": "Aidan Gomez",
+          "role": "CEO of Cohere",
+          "justification": "Delivers customizable enterprise LLMs powering RAG systems for global Fortune 500 firms."
+        },
+        {
+          "rank": 17,
+          "name": "Aravind Srinivas",
+          "role": "CEO of Perplexity AI",
+          "justification": "Disrupts search with AI-native answers, raising $500M+ and challenging Google amid antitrust scrutiny."
+        },
+        {
+          "rank": 18,
+          "name": "Noam Shazeer",
+          "role": "CEO of Character.AI",
+          "justification": "Powers billions of personalized AI conversations, attracting massive user growth and talent poaching."
+        },
+        {
+          "rank": 19,
+          "name": "Andrew Feldman",
+          "role": "Founder & CEO of Cerebras Systems",
+          "justification": "Deploys wafer-scale AI chips enabling faster training for national labs and hyperscalers."
+        },
+        {
+          "rank": 20,
+          "name": "Jonathan Ross",
+          "role": "Founder & CEO of Groq",
+          "justification": "Revolutionizes AI inference speed with LPUs, powering real-time applications for key partners."
+        }
+      ],
+      "gemini": [
+        {
+          "rank": 1,
+          "name": "Sam Altman",
+          "role": "CEO, OpenAI",
+          "justification": "As the architect of the dominant 'Orion' class models, he effectively acts as a geopolitical broker, allocating AGI-level intelligence access to nations and Fortune 100 conglomerates."
+        },
+        {
+          "rank": 2,
+          "name": "C.C. Wei",
+          "role": "Chairman and CEO, TSMC",
+          "justification": "He controls the sole manufacturing choke point for 2nm and A16 silicon, holding veto power over the physical existence of advanced AI systems for both the US and China."
+        },
+        {
+          "rank": 3,
+          "name": "Satya Nadella",
+          "role": "Chairman and CEO, Microsoft",
+          "justification": "While not a founder-billionaire, his operational control over the world's largest compute grid and the deployment of Copilot agents into global enterprise IT infrastructure makes him the ultimate arbiter of workplace productivity."
+        },
+        {
+          "rank": 4,
+          "name": "Dario Amodei",
+          "role": "CEO, Anthropic",
+          "justification": "Leading the primary alternative to OpenAI, his 'Constitutional AI' approach has secured massive defense and government contracts, making him the preferred partner for Western sovereign AI initiatives."
+        },
+        {
+          "rank": 5,
+          "name": "Liang Rubo",
+          "role": "CEO, ByteDance",
+          "justification": "He commands the world's most effective recommendation algorithms and the Doubao LLM family, serving as the central figure in China's consumer AI ecosystem despite US pressure."
+        },
+        {
+          "rank": 6,
+          "name": "Demis Hassabis",
+          "role": "CEO, Google DeepMind",
+          "justification": "With operational control over the Gemini ecosystem, he is directly integrating agentic AI into the world's mobile operating systems and search infrastructure."
+        },
+        {
+          "rank": 7,
+          "name": "Eric Xu",
+          "role": "Rotating Chairman, Huawei",
+          "justification": "He orchestrates China's semiconductor autarky, driving the Ascend chip ecosystem that allows Chinese AI development to survive and scale despite crippling US export controls."
+        },
+        {
+          "rank": 8,
+          "name": "Christophe Fouquet",
+          "role": "CEO, ASML",
+          "justification": "He manages the diplomatic and logistical distribution of High-NA EUV lithography machines, the singular hardware tool required to manufacture the next generation of AI accelerators."
+        },
+        {
+          "rank": 9,
+          "name": "Sundar Pichai",
+          "role": "CEO, Alphabet",
+          "justification": "He wields unparalleled capital allocation power, directing Google's massive custom silicon (TPU) production and energy infrastructure investments that rival sovereign nations."
+        },
+        {
+          "rank": 10,
+          "name": "Gwynne Shotwell",
+          "role": "President and COO, SpaceX",
+          "justification": "With Musk focused on vision, she operates the Starshield and Starlink networks, which provide the indispensable data backbone for autonomous military systems and global edge compute."
+        },
+        {
+          "rank": 11,
+          "name": "Young Hyun Jun",
+          "role": "Head of Device Solutions, Samsung Electronics",
+          "justification": "He controls a critical portion of the global High Bandwidth Memory (HBM) supply chain, the primary hardware bottleneck for running inference on NVIDIA and AMD chips."
+        },
+        {
+          "rank": 12,
+          "name": "Mustafa Suleyman",
+          "role": "CEO, Microsoft AI",
+          "justification": "He oversees the consumer-facing AI layer of Microsoft, shaping how hundreds of millions of individuals interact personally with AI assistants on Windows and mobile devices."
+        },
+        {
+          "rank": 13,
+          "name": "Alexandr Wang",
+          "role": "CEO, Scale AI",
+          "justification": "His infrastructure processes the RLHF (Reinforcement Learning from Human Feedback) data pipelines essential for the US military's decision-making models and major private labs."
+        },
+        {
+          "rank": 14,
+          "name": "Zhao Haijun",
+          "role": "Co-CEO, SMIC",
+          "justification": "He leads China's premier foundry, successfully pushing domestic fabrication capabilities to the 5nm threshold to service Huawei and the Chinese military-industrial complex."
+        },
+        {
+          "rank": 15,
+          "name": "Michael Intrator",
+          "role": "CEO, CoreWeave",
+          "justification": "As the head of the largest specialized GPU cloud provider, he controls the 'rentable' compute capacity that determines which startups and mid-sized labs can compete with the giants."
+        },
+        {
+          "rank": 16,
+          "name": "Johny Srouji",
+          "role": "SVP of Hardware Technologies, Apple",
+          "justification": "His design decisions on Apple Silicon neural engines determine the viability of local, on-device AI for billions of users, dictating privacy standards and edge compute capabilities."
+        },
+        {
+          "rank": 17,
+          "name": "Arthur Mensch",
+          "role": "CEO, Mistral AI",
+          "justification": "He stands as the champion of European sovereign AI, shaping EU regulatory policy and providing the continent with open-weight models independent of US big tech."
+        },
+        {
+          "rank": 18,
+          "name": "Thomas Kurian",
+          "role": "CEO, Google Cloud",
+          "justification": "He drives the enterprise adoption of Vertex AI, effectively controlling the infrastructure backbone for Global 2000 companies transitioning to automated workflows."
+        },
+        {
+          "rank": 19,
+          "name": "Nat Friedman",
+          "role": "Principal, Andromeda/AI Investor",
+          "justification": "Through massive compute cluster aggregation and investment, he acts as the de facto CTO for the open-source and independent AI startup ecosystem."
+        },
+        {
+          "rank": 20,
+          "name": "Clem Delangue",
+          "role": "CEO, Hugging Face",
+          "justification": "He controls the 'GitHub of AI,' the central repository where the global open-source community collaborates to reduce the moat of proprietary mega-labs."
+        }
+      ]
+    },
+    "stage_2_peer_reviews": {
+      "claude": {
+        "rankings": [
+          {
+            "model": "Model C",
+            "rank": 1,
+            "reasoning": "Model C offers the most distinctive and forward-looking justifications grounded in structural power dynamics (e.g., C.C. Wei's manufacturing chokepoint, Liang Rubo's role in China's consumer AI). It uniquely identifies figures like C.C. Wei and Liang Rubo who are likely missing from Forbes lists despite enormous influence and probable billionaire-level wealth. The reasoning emphasizes geopolitical and supply-chain realities, which is highly relevant for a March 2026 assessment. Some claims (e.g., 'Orion class models,' specific contract details for Amodei) are speculative but directionally plausible.",
+            "actual_model": "gemini"
+          },
+          {
+            "model": "Model B",
+            "rank": 2,
+            "reasoning": "Model B provides solid, concise justifications and includes important figures like Ilya Sutskever (new AGI lab) and Mustafa Suleyman (Microsoft AI integration) who are highly relevant. The inclusion of Dario Amodei high on the list is well-justified. However, it omits hardware/semiconductor leaders and non-Western figures, which limits its global scope. Justifications are accurate but somewhat generic compared to Model C's structural analysis.",
+            "actual_model": "grok"
+          },
+          {
+            "model": "Model A",
+            "rank": 3,
+            "reasoning": "Model A is competent and accurate with strong justifications for each pick, particularly Lisa Su and Satya Nadella. However, the visible top 5 is heavily weighted toward well-known Western tech CEOs already prominent on Forbes lists, and it lacks the identification of less obvious but highly influential figures (private AI lab leaders, non-Western executives, semiconductor manufacturing leaders) that the category definition specifically calls for. It reads more like a conventional tech power list than a nuanced influence assessment.",
+            "actual_model": "chatgpt"
+          }
+        ]
+      },
+      "chatgpt": {
+        "rankings": [
+          {
+            "model": "Model B",
+            "rank": 1,
+            "reasoning": "Best balance of accuracy and category fit: includes key frontier AI executives beyond OpenAI (Hassabis/Google DeepMind, Suleyman/Microsoft AI) and correctly flags non-Forbes-style wealth dynamics (e.g., Sutskever’s post-OpenAI lab funding/talent gravity). Justifications are generally grounded (partnerships, deployment surface area, policy influence) without overclaiming specific chokepoint powers.",
+            "actual_model": "grok"
+          },
+          {
+            "model": "Model A",
+            "rank": 2,
+            "reasoning": "Strong on core power centers (Altman, Amodei, Nadella, TSMC/Wei) and semiconductor realism, but it leans on potentially stale/over-specific valuations and under-represents other top-tier global AI execs (e.g., Google/DeepMind leadership) in the visible portion. The Forbes-missing-billionaire angle is less explicitly addressed than in Model B.",
+            "actual_model": "claude"
+          },
+          {
+            "model": "Model C",
+            "rank": 3,
+            "reasoning": "Most rhetorically strong but least accurate/grounded: uses speculative or non-standard claims (e.g., “Orion class” dominance, Altman as a geopolitical broker allocating AGI-level access; Wei having near-‘veto power’ framing) and asserts government/defense contract positioning without clear support. While it broadens to China (Liang Rubo) and highlights chokepoints, it drifts from executive influence into geopolitical dramatization, weakening accuracy and reasoning quality.",
+            "actual_model": "gemini"
+          }
+        ]
+      },
+      "grok": {
+        "rankings": [
+          {
+            "model": "Model A",
+            "rank": 1,
+            "reasoning": "Highest accuracy with current valuations/products (e.g., OpenAI $150B+, Anthropic $60B+); superior reasoning on AI labs, infra, semis; strong category fit with private CEOs like Amodei; identifies key non-Forbes figures.",
+            "actual_model": "claude"
+          },
+          {
+            "model": "Model B",
+            "rank": 2,
+            "reasoning": "Accurate on leaders (Altman, Nadella, Google); solid reasoning on distribution/compute; good category adherence but misses private AI CEOs like Amodei and semis choke points in top 5.",
+            "actual_model": "chatgpt"
+          },
+          {
+            "model": "Model C",
+            "rank": 3,
+            "reasoning": "Some accurate elements (Orion, Constitutional AI) but hyperbolic (AGI-level, veto power); reasoning quality lower; good global inclusion (Liang) but ranks semis/China over core AI labs/execs; weaker Forbes-miss identification.",
+            "actual_model": "gemini"
+          }
+        ]
+      },
+      "gemini": {
+        "rankings": [
+          {
+            "model": "Model A",
+            "rank": 1,
+            "reasoning": "This response best anticipates the March 2026 landscape by providing realistic valuation projections ($150B/$60B) and correctly prioritizing private lab CEOs (Amodei) and critical hardware supply chain heads (C.C. Wei) who hold immense, often under-reported influence.",
+            "actual_model": "claude"
+          },
+          {
+            "model": "Model B",
+            "rank": 2,
+            "reasoning": "A strong, safe list that accurately identifies key figures in Big Tech (Pichai, Nadella). However, it relies more on traditional public company hierarchy and misses the specific forward-looking valuation context and the critical importance of the semiconductor supply chain (TSMC) found in Model A.",
+            "actual_model": "chatgpt"
+          },
+          {
+            "model": "Model C",
+            "rank": 3,
+            "reasoning": "This model suffers from a flawed power hierarchy. By ranking a divisional CEO (Suleyman) and a startup founder (Sutskever) in the top 5 while excluding the ultimate decision-makers (Nadella, Pichai) and hardware titans (Huang), it confuses AI research celebrity with actual global executive influence.",
+            "actual_model": "grok"
+          }
+        ]
+      }
+    },
+    "stage_3_final_list": [
+      {
+        "rank": 1,
+        "name": "Sam Altman",
+        "role": "CEO, OpenAI",
+        "justification": "Leads the world's most prominent AI lab whose GPT-series models and ChatGPT product set the global pace for frontier AI deployment, policy discourse, and commercial adoption, with OpenAI valued at $150B+.",
+        "consensus_notes": "Unanimous #1 across all four models; universally recognized as the single most influential AI executive."
+      },
+      {
+        "rank": 2,
+        "name": "C.C. Wei",
+        "role": "Chairman & CEO, TSMC",
+        "justification": "Controls the world's sole advanced-node semiconductor foundry manufacturing 90%+ of leading AI chips, making his capacity-allocation and geographic-expansion decisions a structural chokepoint for the entire AI industry and a lever of geopolitical power.",
+        "consensus_notes": "Ranked top-8 by all four models; Gemini ranked him #2 emphasizing chokepoint power; Claude and Grok placed him #5 and #8; universally acknowledged as irreplaceable."
+      },
+      {
+        "rank": 3,
+        "name": "Satya Nadella",
+        "role": "Chairman & CEO, Microsoft",
+        "justification": "Architects Microsoft's multi-hundred-billion-dollar AI integration across Azure, Copilot, and the OpenAI partnership, making Microsoft the dominant enterprise distribution channel and compute infrastructure backbone for the AI era.",
+        "consensus_notes": "Ranked top-4 by Claude, ChatGPT, and Gemini; Grok omitted him from the list but peer reviews flagged this as a significant gap."
+      },
+      {
+        "rank": 4,
+        "name": "Dario Amodei",
+        "role": "CEO & Co-Founder, Anthropic",
+        "justification": "Steers the leading safety-focused frontier AI lab valued at $60B+, whose Claude models are deeply embedded in enterprise and government adoption and represent the primary competitive check on OpenAI's dominance.",
+        "consensus_notes": "Ranked top-4 by Claude and Grok; ChatGPT ranked him #14 (unusually low, critiqued in peer reviews); Gemini ranked him #4; strong consensus on high placement."
+      },
+      {
+        "rank": 5,
+        "name": "Sundar Pichai",
+        "role": "CEO, Alphabet/Google",
+        "justification": "Oversees Google DeepMind's Gemini frontier models, the world's largest cloud AI infrastructure, custom TPU silicon production, and Search—wielding unparalleled capital allocation power and shaping AI access for billions of users.",
+        "consensus_notes": "Ranked top-9 by Claude, ChatGPT, and Gemini; Grok omitted him but peer reviews flagged this as a critical miss."
+      },
+      {
+        "rank": 6,
+        "name": "Demis Hassabis",
+        "role": "CEO, Google DeepMind",
+        "justification": "Leads the combined DeepMind research organization responsible for Gemini models, AlphaFold, and breakthrough AI-for-science work, with Nobel Prize-level recognition and direct influence over frontier model capabilities and alignment approaches.",
+        "consensus_notes": "Ranked top-6 by Claude, ChatGPT, Grok, and Gemini; strong universal consensus on his importance as a frontier research leader."
+      },
+      {
+        "rank": 7,
+        "name": "Lisa Su",
+        "role": "Chair & CEO, AMD",
+        "justification": "Leads AMD's aggressive push into AI accelerators (MI300 series and successors) that represent the most credible alternative to Nvidia's GPU dominance, directly shaping pricing, supply competition, and the competitive balance of AI compute globally.",
+        "consensus_notes": "Ranked top-5 by Claude and ChatGPT; Grok and Gemini omitted her but no peer review disputed her significance; strong inclusion based on hardware competitive dynamics."
+      },
+      {
+        "rank": 8,
+        "name": "Ren Zhengfei",
+        "role": "Founder & CEO, Huawei",
+        "justification": "Drives Huawei's push to build a self-sufficient Chinese AI chip and cloud ecosystem via the Ascend series, directly shaping the US-China technological decoupling and China's capacity to sustain AI development under export controls.",
+        "consensus_notes": "Included by Claude, ChatGPT, Grok, and Gemini (via Eric Xu as rotating chairman); universal recognition of Huawei's geopolitical significance; Ren remains the controlling figure."
+      },
+      {
+        "rank": 9,
+        "name": "Masayoshi Son",
+        "role": "Chairman & CEO, SoftBank Group",
+        "justification": "Mobilizing $100B+ for Project Stargate and other AI infrastructure investments, positioning SoftBank as the single largest private capital allocator in the global AI buildout with decisions that can accelerate or starve entire national AI ecosystems.",
+        "consensus_notes": "Ranked top-10 by Claude, ChatGPT, and Gemini (implicitly through capital allocation); Grok omitted him; peer reviews support his inclusion as a critical capital allocator."
+      },
+      {
+        "rank": 10,
+        "name": "Liang Wenfeng",
+        "role": "Founder & CEO, DeepSeek",
+        "justification": "Catapulted to global prominence by releasing highly efficient open-weight AI models that challenged Western AI labs' cost assumptions and demonstrated China's capacity for frontier AI despite chip export controls, reshaping the global AI competitive landscape.",
+        "consensus_notes": "Claude ranked him #7; other models did not include him explicitly but Gemini noted China's AI autonomy theme; his 2025 emergence makes him a defining figure of this period."
+      },
+      {
+        "rank": 11,
+        "name": "Liang Rubo",
+        "role": "CEO, ByteDance",
+        "justification": "Commands the world's most effective recommendation algorithms via TikTok/Douyin and the Doubao LLM family, serving as the central operational figure in China's consumer AI ecosystem influencing content consumption for over a billion users.",
+        "consensus_notes": "Ranked #5 by Gemini and #10 by Grok; Claude listed Zhang Yiming as founder with controlling influence; Liang Rubo is the active CEO making operational decisions as of March 2026."
+      },
+      {
+        "rank": 12,
+        "name": "Mustafa Suleyman",
+        "role": "CEO, Microsoft AI",
+        "justification": "Oversees the consumer-facing and enterprise AI integration layer of Microsoft, shaping how hundreds of millions interact with Copilot AI assistants across Windows, Office, and mobile—the largest-scale AI product deployment surface in enterprise computing.",
+        "consensus_notes": "Ranked #5 by Grok and #12 by Gemini; peer reviews debated whether divisional CEO role limits influence vs. Nadella, but the sheer deployment scale justifies inclusion."
+      },
+      {
+        "rank": 13,
+        "name": "Arthur Mensch",
+        "role": "Co-Founder & CEO, Mistral AI",
+        "justification": "Leads Europe's most important frontier AI lab, championing open-weight model strategies and sovereign AI initiatives that give the EU genuine leverage and independence in the global AI stack dominated by US and Chinese players.",
+        "consensus_notes": "Included by ChatGPT (#15), Grok (#11), and Gemini (#17); recognized as the key European AI sovereignty figure; Claude omitted him but no peer review disputed his relevance."
+      },
+      {
+        "rank": 14,
+        "name": "Robin Li",
+        "role": "Co-Founder, Chairman & CEO, Baidu",
+        "justification": "Spearheads China's most prominent large language model effort (ERNIE) and autonomous driving platform (Apollo), positioning Baidu as a national AI champion with major influence over domestic AI deployment and commercialization.",
+        "consensus_notes": "Included by Claude (#12), ChatGPT (#16), and Grok (#6); consistently recognized as a top Chinese AI executive."
+      },
+      {
+        "rank": 15,
+        "name": "Cristiano Amon",
+        "role": "President & CEO, Qualcomm",
+        "justification": "Drives the push for on-device AI processing across billions of smartphones and edge devices globally, shaping where AI inference happens beyond the data center and influencing privacy norms and model distribution at planetary scale.",
+        "consensus_notes": "Included by Claude (#16) and ChatGPT (#8); recognized for edge AI influence; Grok and Gemini omitted him but the edge/on-device AI shift supports his inclusion."
+      },
+      {
+        "rank": 16,
+        "name": "Christophe Fouquet",
+        "role": "CEO, ASML",
+        "justification": "Manages the global monopoly on EUV and High-NA EUV lithography machines, the singular hardware tool required to manufacture next-generation AI accelerators, wielding enormous supply chain and geopolitical leverage.",
+        "consensus_notes": "Gemini ranked him #8; Grok listed Roger Dassen (#15) in a similar role; ASML's monopoly position is universally acknowledged as a critical chokepoint; Fouquet is the current CEO."
+      },
+      {
+        "rank": 17,
+        "name": "Pony Ma (Ma Huateng)",
+        "role": "Chairman & CEO, Tencent",
+        "justification": "Leads Tencent's AI integration across WeChat's billion-plus users, gaming, cloud services, and enterprise AI, making him one of the most operationally powerful figures in Chinese tech with enormous reach despite regulatory pressures.",
+        "consensus_notes": "Claude ranked him #11; other models omitted him; his operational control over WeChat's ecosystem and Tencent's cloud/AI ambitions justify inclusion given the category's emphasis on non-US figures."
+      },
+      {
+        "rank": 18,
+        "name": "Alexandr Wang",
+        "role": "CEO, Scale AI",
+        "justification": "His data labeling and RLHF infrastructure underpins training pipelines for major frontier AI labs and the US military's AI decision-making systems, making Scale AI a critical behind-the-scenes enabler of the entire AI ecosystem.",
+        "consensus_notes": "Gemini ranked him #13; other models omitted him; his role in data infrastructure for both commercial and defense AI is structurally important and under-recognized."
+      },
+      {
+        "rank": 19,
+        "name": "Ilya Sutskever",
+        "role": "Co-Founder & CEO, Safe Superintelligence Inc. (SSI)",
+        "justification": "After departing OpenAI, founded SSI with $1B+ in funding and extraordinary talent-attraction power, representing a new force in AGI-focused research that commands outsized attention from investors, researchers, and policymakers.",
+        "consensus_notes": "Grok ranked him #4; other models omitted him; peer reviews debated whether startup-stage influence matches established executives, but his talent gravity and funding justify inclusion."
+      },
+      {
+        "rank": 20,
+        "name": "Daniela Amodei",
+        "role": "President & Co-Founder, Anthropic",
+        "justification": "As Anthropic's operational and business leader, she directs commercial strategy, enterprise partnerships, government engagement, and policy positioning for one of the world's most influential AI safety companies valued at $60B+.",
+        "consensus_notes": "Claude ranked her #17; other models omitted her; her role as the operational counterpart to Dario Amodei at a company of Anthropic's scale and policy influence warrants inclusion."
+      }
+    ]
+  }
+}

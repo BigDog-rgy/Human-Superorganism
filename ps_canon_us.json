@@ -1,0 +1,3167 @@
+{
+  "metadata": {
+    "date": "2026-03-03",
+    "scope": "US",
+    "models_queried": [
+      "claude",
+      "chatgpt",
+      "grok",
+      "gemini"
+    ],
+    "n_phase_sequences": 10,
+    "n_neurons_weighted": 518
+  },
+  "stage_1_proposals": {
+    "claude": [
+      {
+        "id": "DPS-01",
+        "name": "Executive Power Consolidation",
+        "definition": "The structural expansion of presidential authority through White House operational control, agency capture, and loyalty-based appointments, driven by the Trump administration's inner circle against institutional resistance and congressional acquiescence.",
+        "sector_bias": "Federal Executive"
+      },
+      {
+        "id": "DPS-02",
+        "name": "AI Supremacy Race",
+        "definition": "The competition among major technology firms and their leaders to dominate artificial intelligence infrastructure, models, and deployment, reshaping capital flows, talent markets, and the regulatory landscape across the US economy.",
+        "sector_bias": "AI/ML"
+      },
+      {
+        "id": "DPS-03",
+        "name": "Judiciary Ideological Entrenchment",
+        "definition": "The ongoing consolidation of a conservative supermajority on the Supreme Court and the strategic cultivation of the federal bench through Federalist Society networks, reshaping constitutional interpretation on executive power, regulation, and social policy.",
+        "sector_bias": "Judiciary"
+      },
+      {
+        "id": "DPS-04",
+        "name": "Techno-Oligarchic Alignment",
+        "definition": "The deepening entanglement between billionaire technology founders and the governing political coalition, where platform access, government contracts, and regulatory forbearance are exchanged for political support, capital, and narrative amplification.",
+        "sector_bias": "Cross-sector"
+      },
+      {
+        "id": "DPS-05",
+        "name": "Monetary-Fiscal Tension",
+        "definition": "The structural contest between Federal Reserve independence in setting monetary policy and executive-legislative fiscal ambitions — including tariffs, tax cuts, deficit spending, and crypto-asset integration — over the trajectory of US economic stability.",
+        "sector_bias": "Finance"
+      },
+      {
+        "id": "DPS-06",
+        "name": "Media Narrative Fragmentation",
+        "definition": "The accelerating breakup of centralized information gatekeeping as legacy broadcast networks, partisan cable outlets, independent podcasters, and social-platform algorithmic feeds compete to set the dominant interpretive frame for political reality.",
+        "sector_bias": "Media"
+      },
+      {
+        "id": "DPS-07",
+        "name": "Defense-Industrial Reorientation",
+        "definition": "The restructuring of US defense procurement and strategic posture as Silicon Valley insurgents like Anduril and Palantir challenge legacy primes, while political leaders debate the scope of American commitments and the militarization of emerging technologies.",
+        "sector_bias": "Defense"
+      },
+      {
+        "id": "DPS-08",
+        "name": "Energy Regime Competition",
+        "definition": "The ongoing struggle between fossil-fuel expansion interests and clean-energy transition advocates over permitting, subsidies, grid infrastructure, and climate regulation, with massive capital deployment on both sides shaping long-term US energy architecture.",
+        "sector_bias": "Energy"
+      },
+      {
+        "id": "DPS-09",
+        "name": "Democratic Opposition Reconstitution",
+        "definition": "The structural effort by Democratic elected officials, progressive legal organizations, donor networks, and allied media to rebuild a coherent counter-coalition capable of contesting executive overreach, winning elections, and defending institutional norms.",
+        "sector_bias": "Cross-sector"
+      },
+      {
+        "id": "DPS-10",
+        "name": "Culture War Institutionalization",
+        "definition": "The embedding of social-conservative and nationalist-populist cultural priorities — on education, gender, religion, immigration, and race — into law, regulation, and institutional practice through coordinated action by advocacy networks, state governors, and federal appointees.",
+        "sector_bias": "Cross-sector"
+      }
+    ],
+    "chatgpt": [
+      {
+        "id": "DPS-01",
+        "name": "Executive Control Stack",
+        "definition": "Competition over who effectively commands federal executive capacity (personnel, agencies, enforcement priorities, procurement, and rulemaking) and how aggressively it is used to reward allies and pressure opponents.",
+        "sector_bias": "Federal Executive"
+      },
+      {
+        "id": "DPS-02",
+        "name": "Congressional Gatekeeping",
+        "definition": "Ongoing bargaining and brinkmanship over budgets, investigations, confirmations, and legislative calendar control that determines what the federal government funds, forbids, or legitimizes.",
+        "sector_bias": "Cross-sector"
+      },
+      {
+        "id": "DPS-03",
+        "name": "Judicial Pipeline & Veto",
+        "definition": "Long-horizon contest to shape the courts (appointments, litigation selection, venue strategy, and compliance incentives) so that judicial review becomes a durable policy veto or accelerator.",
+        "sector_bias": "Judiciary"
+      },
+      {
+        "id": "DPS-04",
+        "name": "Central Bank vs Treasury",
+        "definition": "Tension between monetary policy and fiscal/issuance strategy over inflation, growth, debt servicing, and financial stability that reallocates power among households, firms, and asset holders.",
+        "sector_bias": "Finance"
+      },
+      {
+        "id": "DPS-05",
+        "name": "AI Compute & Model Power",
+        "definition": "Race to control frontier AI capability via compute supply chains, model deployment, safety/standards, and enterprise adoption, determining which firms and regulators set the effective rules of AI.",
+        "sector_bias": "AI/ML"
+      },
+      {
+        "id": "DPS-06",
+        "name": "Platform Speech Governance",
+        "definition": "Struggle over the practical rules of public discourse—content moderation, algorithmic amplification, deplatforming, and regulatory pressure—across major digital platforms and adjacent media.",
+        "sector_bias": "Media"
+      },
+      {
+        "id": "DPS-07",
+        "name": "Defense Tech Procurement Shift",
+        "definition": "Reallocation of defense influence from legacy primes toward software, autonomy, and data-centric contractors through contracting pathways, requirements setting, and wartime/contingency demand signals.",
+        "sector_bias": "Defense"
+      },
+      {
+        "id": "DPS-08",
+        "name": "Energy Permitting & Transition",
+        "definition": "Persistent conflict over permitting, infrastructure buildout, and subsidies that determines the pace and geography of fossil expansion, grid upgrades, and clean-energy deployment.",
+        "sector_bias": "Energy"
+      },
+      {
+        "id": "DPS-09",
+        "name": "Election Legitimacy Machinery",
+        "definition": "Arms race in election administration, litigation, messaging, and enforcement that shapes voter access, vote counting rules, fraud narratives, and post-election dispute pathways.",
+        "sector_bias": "Cross-sector"
+      },
+      {
+        "id": "DPS-10",
+        "name": "Antitrust & Industrial Policy",
+        "definition": "Ongoing push-pull between concentrated corporate power and state intervention via antitrust, trade controls, subsidies, and procurement that picks winners, constrains platforms, and rewires supply chains.",
+        "sector_bias": "Technology"
+      }
+    ],
+    "grok": [
+      {
+        "id": "DPS-01",
+        "name": "Supreme Court Battles",
+        "definition": "Ongoing ideological clashes in Supreme Court rulings on regulation, rights, and elections led by justices like Thomas, Kavanaugh, and Sotomayor.",
+        "sector_bias": "Judiciary"
+      },
+      {
+        "id": "DPS-02",
+        "name": "Monetary Policy Shifts",
+        "definition": "Federal Reserve interest rate and quantitative easing decisions impacting inflation and growth under Powell and Treasury Secretary Bessent.",
+        "sector_bias": "Finance"
+      },
+      {
+        "id": "DPS-03",
+        "name": "Big Tech Antitrust",
+        "definition": "Regulatory scrutiny and lawsuits against platform monopolies involving CEOs like Cook, Pichai, and Jassy.",
+        "sector_bias": "Technology"
+      },
+      {
+        "id": "DPS-04",
+        "name": "AI Safety Regulation",
+        "definition": "Debates over AI governance, development risks, and national security led by Altman, Nadella, and Hassabis.",
+        "sector_bias": "AI/ML"
+      },
+      {
+        "id": "DPS-05",
+        "name": "Executive Agenda Execution",
+        "definition": "Trump administration policy implementations on immigration, health, and deregulation driven by Trump, Wiles, and RFK Jr.",
+        "sector_bias": "Federal Executive"
+      },
+      {
+        "id": "DPS-06",
+        "name": "Defense Spending Reforms",
+        "definition": "Military budget allocations, procurement, and strategy shifts under Hegseth and congressional defense hawks.",
+        "sector_bias": "Defense"
+      },
+      {
+        "id": "DPS-07",
+        "name": "Conservative Media Wars",
+        "definition": "Narrative dominance battles through right-wing commentary by Hannity, Rogan, and Carlson.",
+        "sector_bias": "Media"
+      },
+      {
+        "id": "DPS-08",
+        "name": "Energy Transition Conflicts",
+        "definition": "Fossil fuel promotion versus green energy subsidies backed by Koch, Musk, and Adelson networks.",
+        "sector_bias": "Energy"
+      },
+      {
+        "id": "DPS-09",
+        "name": "Congressional Gridlock Dynamics",
+        "definition": "Budget, debt ceiling, and legislative negotiations between leaders like Schumer, Thune, and McConnell.",
+        "sector_bias": "Cross-sector"
+      }
+    ],
+    "gemini": [
+      {
+        "id": "DPS-01",
+        "name": "Executive Centralization & Bureaucratic Overhaul",
+        "definition": "The systematic effort to dismantle the career civil service, reduce federal agency independence, and consolidate decision-making power directly within the White House inner circle.",
+        "sector_bias": "Federal Executive"
+      },
+      {
+        "id": "DPS-02",
+        "name": "Sovereign AI & Compute Infrastructure",
+        "definition": "The intense race to secure American dominance in Artificial General Intelligence via massive physical build-outs of data centers, chip supply chains, and energy resources.",
+        "sector_bias": "AI/ML"
+      },
+      {
+        "id": "DPS-03",
+        "name": "Judicial Deconstruction of the Administrative State",
+        "definition": "The ongoing Supreme Court-led dismantling of federal regulatory power, transferring authority from executive agencies back to the judiciary and state legislatures.",
+        "sector_bias": "Judiciary"
+      },
+      {
+        "id": "DPS-04",
+        "name": "Defense Industrial Base Realignment",
+        "definition": "The shift of Pentagon procurement and strategy away from legacy prime contractors toward Silicon Valley-backed defense technology firms specializing in autonomous systems and software.",
+        "sector_bias": "Defense"
+      },
+      {
+        "id": "DPS-05",
+        "name": "Algorithmic Narrative Dominance",
+        "definition": "The competition between decentralized social platforms and legacy media conglomerates to control public consensus and the flow of political information.",
+        "sector_bias": "Media"
+      },
+      {
+        "id": "DPS-06",
+        "name": "Financial Deregulation & Crypto Integration",
+        "definition": "The structural merging of traditional Wall Street capital markets with digital asset ecosystems, supported by a lighter regulatory framework.",
+        "sector_bias": "Finance"
+      },
+      {
+        "id": "DPS-07",
+        "name": "Strategic Energy Expansion",
+        "definition": "The dual-track push to deregulate fossil fuel extraction while simultaneously accelerating nuclear and renewable capabilities to meet the soaring power demands of AI and electrification.",
+        "sector_bias": "Energy"
+      },
+      {
+        "id": "DPS-08",
+        "name": "Bio-Political Restructuring",
+        "definition": "The top-down reorientation of national health and agricultural policy, challenging established pharmaceutical and food industry norms under the banner of health sovereignty.",
+        "sector_bias": "Federal Executive"
+      },
+      {
+        "id": "DPS-09",
+        "name": "Federalist Fracture & State Autonomy",
+        "definition": "The escalating legal and political conflict between the federal government and state governors regarding the enforcement of immigration, environmental, and social policies.",
+        "sector_bias": "Cross-sector"
+      }
+    ]
+  },
+  "stage_2_peer_reviews": {
+    "claude": {
+      "rankings": [
+        {
+          "model": "Model C",
+          "rank": 1,
+          "reasoning": "Best balance of all four criteria. Each sequence names a structurally distinct power contest (executive centralization, sovereign AI buildout, judicial deconstruction of admin state, defense realignment, algorithmic narrative control, crypto integration, energy expansion) with sharp, specific framings that map directly onto trackable weekly events. Minimal overlap between sequences—e.g., AI compute is separated from algorithmic narrative, and judicial action is separated from executive action. The framings capture actual 2024-2025 prime movers (DOGE/Schedule F, SCOTUS Chevron reversal, data center buildout race, defense tech pivot) rather than generic institutional categories. Highly operationalizable because each names concrete material flows and decision points.",
+          "actual_model": "gemini"
+        },
+        {
+          "model": "Model A",
+          "rank": 2,
+          "reasoning": "Strongest on analytical precision and institutional coverage. The Executive Control Stack, Congressional Gatekeeping, Judicial Pipeline, and Central Bank vs Treasury sequences are well-delineated and capture enduring structural tensions. AI Compute & Model Power and Defense Tech Procurement Shift are sharp and distinct. However, the framings are slightly more abstract and institutional-generic than Model C's—they read more like a political science taxonomy than a tracker of live power contests. Platform Speech Governance partially overlaps with broader narrative dynamics. Still excellent on distinctiveness and operationalizability, but slightly less attuned to the specific 2025 moment and its prime movers.",
+          "actual_model": "chatgpt"
+        },
+        {
+          "model": "Model B",
+          "rank": 3,
+          "reasoning": "Weakest on distinctiveness and analytical depth. Several sequences are named by institution or topic area rather than by the underlying power dynamic (e.g., 'Supreme Court Battles,' 'Monetary Policy Shifts,' 'Defense Spending Reforms' are descriptive labels, not structurally defined contests). Naming specific individuals (Hannity, Rogan, Carlson) adds color but reduces durability and analytical rigor. 'Conservative Media Wars' is narrowly framed and partially overlaps with broader narrative/platform dynamics. 'Big Tech Antitrust' and 'AI Safety Regulation' have significant overlap in actors and terrain. Coverage is adequate but conventional—it reads more like a news desk beat assignment than a structural power-dynamics map. Least operationalizable as distinct trackable sequences because the boundaries between them blur.",
+          "actual_model": "grok"
+        }
+      ]
+    },
+    "chatgpt": {
+      "rankings": [
+        {
+          "model": "Model C",
+          "rank": 1,
+          "reasoning": "Best overall coverage of core US power dynamics (executive centralization, administrative-state rollback, AI/compute/energy buildout, defense base shift, narrative control, finance/crypto). Sequences are relatively distinct yet interlocking, and each is readily trackable in weekly news (EOs/personnel moves, SCOTUS/regulatory rulings, chip/data-center/utility projects, Pentagon contract awards, platform policy shifts, SEC/CFTC/banking actions, energy permitting). Prime movers are framed structurally (White House, SCOTUS, DoD, Big Tech/compute, energy/finance) rather than overly person-dependent.",
+          "actual_model": "gemini"
+        },
+        {
+          "model": "Model A",
+          "rank": 2,
+          "reasoning": "Strong and fairly distinctive set with good operationalizability (executive consolidation, judiciary entrenchment, AI race, defense-industrial reorientation, media fragmentation, Fed–fiscal tension). Slightly narrower/less complete than C (e.g., energy/compute physical constraints and explicit crypto/financial integration are less developed), and some categories overlap conceptually (AI supremacy + techno-oligarchic alignment + media fragmentation) though still separable.",
+          "actual_model": "claude"
+        },
+        {
+          "model": "Model B",
+          "rank": 3,
+          "reasoning": "Covers several important arenas but is less distinctive (AI safety vs antitrust vs media wars overlap as 'tech/media politics'), more event/personality-driven, and less structurally framed. Some items are narrower or episodic (e.g., 'Supreme Court battles' without the administrative-state throughline), reducing coherence and relevance to the highest-leverage systemic dynamics compared with A/C, though still trackable weekly.",
+          "actual_model": "grok"
+        }
+      ]
+    },
+    "grok": {
+      "rankings": [
+        {
+          "model": "Model B",
+          "rank": 1,
+          "reasoning": "Broadest coverage of institutional power centers (executive, Congress, judiciary) plus key sectors like AI and defense; highly distinct, trackable via budgets/confirmations/contracts; most relevant to systemic prime movers.",
+          "actual_model": "chatgpt"
+        },
+        {
+          "model": "Model A",
+          "rank": 2,
+          "reasoning": "Strong coverage of executive, judiciary, AI, media, and alignments; distinct and news-trackable, but Trump-centric framing slightly reduces generality vs. B.",
+          "actual_model": "claude"
+        },
+        {
+          "model": "Model C",
+          "rank": 3,
+          "reasoning": "Good on executive/judiciary/AI/defense but misses Congress/monetary tensions; adds niche energy/crypto; less comprehensive coverage of core dynamics.",
+          "actual_model": "gemini"
+        }
+      ]
+    }
+  },
+  "phase_sequences": [
+    {
+      "id": "DPS-01",
+      "name": "Executive Power Consolidation",
+      "definition": "The structural expansion of presidential authority through White House centralization of agency control, loyalty-based personnel installation, civil-service dismantlement, and selective enforcement — tracked via executive orders, appointments, firings, and DOGE-style restructuring actions.",
+      "sector_bias": "Federal Executive"
+    },
+    {
+      "id": "DPS-02",
+      "name": "Judicial Deconstruction of the Administrative State",
+      "definition": "The Supreme Court conservative supermajority's systematic transfer of regulatory power from federal agencies to courts and legislatures — tracked via major rulings, cert grants, lower-court injunctions, Federalist Society pipeline appointments, and strategic litigation campaigns.",
+      "sector_bias": "Judiciary"
+    },
+    {
+      "id": "DPS-03",
+      "name": "Congressional Gatekeeping & Fiscal Brinkmanship",
+      "definition": "The ongoing bargaining over budgets, debt ceilings, confirmations, investigations, and legislative calendar control that determines what the federal government funds, forbids, or legitimizes — tracked via floor votes, committee actions, shutdown deadlines, and caucus fractures.",
+      "sector_bias": "Cross-sector"
+    },
+    {
+      "id": "DPS-04",
+      "name": "AI Compute & Model Supremacy",
+      "definition": "The race among frontier AI firms, hyperscalers, and sovereign actors to control the full stack of artificial intelligence — chips, data centers, energy supply, foundation models, and deployment platforms — tracked via capital commitments, supply-chain moves, model releases, and regulatory proposals.",
+      "sector_bias": "AI/ML"
+    },
+    {
+      "id": "DPS-05",
+      "name": "Monetary-Fiscal-Financial Regime Tension",
+      "definition": "The structural contest between Federal Reserve independence, Treasury issuance strategy, executive fiscal ambitions (tariffs, tax cuts, deficit spending), and financial deregulation including crypto integration — tracked via rate decisions, bond auctions, SEC/CFTC actions, and banking policy shifts.",
+      "sector_bias": "Finance"
+    },
+    {
+      "id": "DPS-06",
+      "name": "Defense Industrial Base Realignment",
+      "definition": "The reallocation of Pentagon procurement, strategy, and influence from legacy prime contractors toward software-defined, autonomy-centric, and data-driven defense firms — tracked via contract awards, budget line items, acquisition reform moves, and wartime/contingency demand signals.",
+      "sector_bias": "Defense"
+    },
+    {
+      "id": "DPS-07",
+      "name": "Algorithmic Narrative Dominance",
+      "definition": "The competition among legacy media, partisan outlets, podcasters, and social-platform algorithms to control public consensus through content moderation, amplification, deplatforming, and political information flow — tracked via platform policy changes, audience shifts, advertiser moves, and regulatory pressure.",
+      "sector_bias": "Media"
+    },
+    {
+      "id": "DPS-08",
+      "name": "Energy Permitting & Regime Competition",
+      "definition": "The conflict over permitting, subsidies, grid buildout, and climate regulation that determines the pace of fossil-fuel expansion, nuclear revival, and clean-energy deployment — intensified by soaring AI and electrification demand — tracked via permit decisions, utility filings, legislative riders, and project announcements.",
+      "sector_bias": "Energy"
+    },
+    {
+      "id": "DPS-09",
+      "name": "Techno-Oligarchic Entanglement",
+      "definition": "The deepening exchange of government contracts, regulatory forbearance, and political access for billionaire capital, platform amplification, and policy alignment between technology founders and the governing coalition — tracked via procurement awards, lobbying disclosures, executive meetings, and campaign finance flows.",
+      "sector_bias": "Cross-sector"
+    },
+    {
+      "id": "DPS-10",
+      "name": "Election Legitimacy & Democratic Counter-Mobilization",
+      "definition": "The parallel arms race over election administration, voter access, fraud narratives, and post-election dispute machinery alongside the opposition's effort to reconstitute a counter-coalition through legal challenges, donor realignment, and institutional defense — tracked via litigation, legislation, registration data, and organizational launches.",
+      "sector_bias": "Cross-sector"
+    }
+  ],
+  "initial_neuron_weights": {
+    "Elon Musk": {
+      "DPS-01": 0.9,
+      "DPS-04": 0.8,
+      "DPS-06": 0.8,
+      "DPS-07": 0.8,
+      "DPS-08": 0.5,
+      "DPS-09": 1.0,
+      "DPS-10": 0.5
+    },
+    "Mark Zuckerberg": {
+      "DPS-04": 0.7,
+      "DPS-07": 0.9,
+      "DPS-09": 0.7,
+      "DPS-10": 0.5
+    },
+    "Jerome H. Powell": {
+      "DPS-05": 1.0,
+      "DPS-03": 0.4
+    },
+    "Clarence Thomas": {
+      "DPS-02": 0.9,
+      "DPS-01": 0.5,
+      "DPS-09": 0.4,
+      "DPS-10": 0.5
+    },
+    "Jeff Bezos": {
+      "DPS-04": 0.6,
+      "DPS-06": 0.5,
+      "DPS-07": 0.5,
+      "DPS-08": 0.4,
+      "DPS-09": 0.7
+    },
+    "Susie Wiles": {
+      "DPS-01": 0.9,
+      "DPS-03": 0.7,
+      "DPS-09": 0.5,
+      "DPS-10": 0.6
+    },
+    "Donald Trump": {
+      "DPS-01": 1.0,
+      "DPS-02": 0.6,
+      "DPS-03": 0.8,
+      "DPS-05": 0.8,
+      "DPS-06": 0.6,
+      "DPS-07": 0.7,
+      "DPS-08": 0.8,
+      "DPS-09": 0.9,
+      "DPS-10": 0.9
+    },
+    "Brett M. Kavanaugh": {
+      "DPS-02": 0.8,
+      "DPS-01": 0.4,
+      "DPS-10": 0.4
+    },
+    "Neil M. Gorsuch": {
+      "DPS-02": 0.9,
+      "DPS-01": 0.5,
+      "DPS-08": 0.5
+    },
+    "Tim Cook": {
+      "DPS-04": 0.5,
+      "DPS-09": 0.6,
+      "DPS-07": 0.2
+    },
+    "Scott Bessent": {
+      "DPS-05": 0.9,
+      "DPS-01": 0.5,
+      "DPS-03": 0.6,
+      "DPS-08": 0.4,
+      "DPS-09": 0.4
+    },
+    "Andy Jassy": {
+      "DPS-04": 0.7,
+      "DPS-06": 0.5,
+      "DPS-08": 0.5,
+      "DPS-09": 0.5
+    },
+    "Sundar Pichai": {
+      "DPS-04": 0.8,
+      "DPS-07": 0.7,
+      "DPS-06": 0.4,
+      "DPS-09": 0.6
+    },
+    "Satya Nadella": {
+      "DPS-04": 0.9,
+      "DPS-06": 0.5,
+      "DPS-09": 0.6
+    },
+    "Robert F. Kennedy Jr.": {
+      "DPS-01": 0.5,
+      "DPS-07": 0.4,
+      "DPS-10": 0.3
+    },
+    "Stephen Schwarzman": {
+      "DPS-05": 0.5,
+      "DPS-09": 0.7,
+      "DPS-04": 0.4,
+      "DPS-08": 0.4,
+      "DPS-03": 0.3
+    },
+    "Leonard Leo": {
+      "DPS-02": 1.0,
+      "DPS-01": 0.7,
+      "DPS-10": 0.7,
+      "DPS-08": 0.5,
+      "DPS-09": 0.6,
+      "DPS-07": 0.5
+    },
+    "Christopher A. Coons": {
+      "DPS-01": 0.3,
+      "DPS-02": 0.2,
+      "DPS-03": 0.5,
+      "DPS-05": 0.3,
+      "DPS-10": 0.4
+    },
+    "Nathan Blecharczyk": {
+      "DPS-04": 0.2,
+      "DPS-09": 0.2
+    },
+    "John Menard, Jr.": {
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Elisabeth DeLuca & family": {
+      "DPS-05": 0.2
+    },
+    "Jon Ossoff": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-07": 0.2,
+      "DPS-10": 0.5
+    },
+    "George Kurtz": {
+      "DPS-04": 0.4,
+      "DPS-06": 0.4,
+      "DPS-09": 0.3
+    },
+    "Mark R. Warner": {
+      "DPS-01": 0.4,
+      "DPS-03": 0.5,
+      "DPS-04": 0.5,
+      "DPS-05": 0.3,
+      "DPS-06": 0.4,
+      "DPS-07": 0.5,
+      "DPS-09": 0.4,
+      "DPS-10": 0.4
+    },
+    "Abigail Johnson": {
+      "DPS-05": 0.5,
+      "DPS-09": 0.3
+    },
+    "Ayanna Pressley": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.3,
+      "DPS-05": 0.2,
+      "DPS-10": 0.4
+    },
+    "Charles E. Schumer": {
+      "DPS-01": 0.6,
+      "DPS-02": 0.5,
+      "DPS-03": 0.9,
+      "DPS-04": 0.4,
+      "DPS-05": 0.5,
+      "DPS-07": 0.4,
+      "DPS-09": 0.4,
+      "DPS-10": 0.6
+    },
+    "Palmer Luckey": {
+      "DPS-04": 0.5,
+      "DPS-06": 0.8,
+      "DPS-09": 0.6
+    },
+    "Jack Dorsey": {
+      "DPS-04": 0.3,
+      "DPS-05": 0.4,
+      "DPS-07": 0.5,
+      "DPS-09": 0.4
+    },
+    "Rashida Tlaib": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.3,
+      "DPS-07": 0.3,
+      "DPS-10": 0.4
+    },
+    "Stewart Resnick": {
+      "DPS-08": 0.4,
+      "DPS-09": 0.3
+    },
+    "Len Blavatnik": {
+      "DPS-05": 0.3,
+      "DPS-07": 0.3,
+      "DPS-08": 0.3,
+      "DPS-09": 0.4
+    },
+    "Lisa Murkowski": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.3,
+      "DPS-03": 0.5,
+      "DPS-06": 0.3,
+      "DPS-08": 0.6,
+      "DPS-10": 0.3
+    },
+    "Rob Walton & family": {
+      "DPS-05": 0.3,
+      "DPS-08": 0.2,
+      "DPS-09": 0.3
+    },
+    "Mike Podhorzer": {
+      "DPS-07": 0.4,
+      "DPS-10": 0.8
+    },
+    "Jean (Gigi) Pritzker": {
+      "DPS-07": 0.2,
+      "DPS-09": 0.2
+    },
+    "Paul A. Gosar": {
+      "DPS-01": 0.4,
+      "DPS-03": 0.3,
+      "DPS-07": 0.3,
+      "DPS-08": 0.3,
+      "DPS-10": 0.4
+    },
+    "Mark Cuban": {
+      "DPS-04": 0.3,
+      "DPS-05": 0.3,
+      "DPS-07": 0.4,
+      "DPS-09": 0.3,
+      "DPS-10": 0.4
+    },
+    "Ralph Reed": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.3,
+      "DPS-07": 0.5,
+      "DPS-10": 0.7
+    },
+    "Fatih Ozmen": {
+      "DPS-06": 0.5,
+      "DPS-09": 0.3
+    },
+    "Jensen Huang": {
+      "DPS-04": 1.0,
+      "DPS-06": 0.5,
+      "DPS-08": 0.5,
+      "DPS-09": 0.6
+    },
+    "Robert Barron": {
+      "DPS-07": 0.3,
+      "DPS-10": 0.3
+    },
+    "Bernie Moreno": {
+      "DPS-01": 0.4,
+      "DPS-03": 0.3,
+      "DPS-04": 0.3,
+      "DPS-05": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Tom Fitton": {
+      "DPS-01": 0.6,
+      "DPS-02": 0.5,
+      "DPS-07": 0.4,
+      "DPS-10": 0.6
+    },
+    "Anthony Pritzker": {
+      "DPS-09": 0.2
+    },
+    "Carl Cook": {
+      "DPS-08": 0.3,
+      "DPS-09": 0.2
+    },
+    "Marc Elias": {
+      "DPS-02": 0.45,
+      "DPS-10": 0.9
+    },
+    "Ali Ghodsi": {
+      "DPS-04": 0.6,
+      "DPS-09": 0.3
+    },
+    "Timothy Dolan": {
+      "DPS-07": 0.3,
+      "DPS-10": 0.2,
+      "DPS-01": 0.2
+    },
+    "Jason Crow": {
+      "DPS-06": 0.5,
+      "DPS-03": 0.35,
+      "DPS-01": 0.2,
+      "DPS-10": 0.2
+    },
+    "David Tepper": {
+      "DPS-05": 0.4,
+      "DPS-09": 0.2
+    },
+    "Israel Englander": {
+      "DPS-05": 0.35,
+      "DPS-09": 0.2
+    },
+    "Pam Bondi": {
+      "DPS-01": 0.85,
+      "DPS-02": 0.5,
+      "DPS-10": 0.5,
+      "DPS-09": 0.4,
+      "DPS-07": 0.3
+    },
+    "Jeff Miller": {
+      "DPS-09": 0.6,
+      "DPS-01": 0.45,
+      "DPS-06": 0.35,
+      "DPS-03": 0.35,
+      "DPS-10": 0.3
+    },
+    "Tony Perkins": {
+      "DPS-10": 0.5,
+      "DPS-01": 0.4,
+      "DPS-07": 0.45,
+      "DPS-02": 0.35,
+      "DPS-03": 0.3
+    },
+    "Sanford D. Bishop, Jr.": {
+      "DPS-03": 0.35,
+      "DPS-06": 0.3,
+      "DPS-10": 0.25
+    },
+    "Richard J. Durbin": {
+      "DPS-03": 0.7,
+      "DPS-02": 0.55,
+      "DPS-01": 0.5,
+      "DPS-10": 0.45
+    },
+    "Thomas Peterffy": {
+      "DPS-05": 0.35,
+      "DPS-09": 0.3,
+      "DPS-10": 0.25
+    },
+    "Ty Warner": {
+      "DPS-09": 0.2
+    },
+    "Alexandr Wang": {
+      "DPS-04": 0.65,
+      "DPS-06": 0.7,
+      "DPS-09": 0.55,
+      "DPS-01": 0.25
+    },
+    "Laurel M. Lee": {
+      "DPS-01": 0.35,
+      "DPS-10": 0.4,
+      "DPS-03": 0.3,
+      "DPS-07": 0.25
+    },
+    "Amy Coney Barrett": {
+      "DPS-02": 0.85,
+      "DPS-01": 0.45,
+      "DPS-10": 0.45,
+      "DPS-05": 0.3
+    },
+    "Alexis McGill Johnson": {
+      "DPS-10": 0.55,
+      "DPS-07": 0.35,
+      "DPS-02": 0.3,
+      "DPS-01": 0.25
+    },
+    "James Comer": {
+      "DPS-01": 0.55,
+      "DPS-03": 0.6,
+      "DPS-09": 0.35,
+      "DPS-10": 0.4,
+      "DPS-07": 0.3
+    },
+    "Robert Pera": {
+      "DPS-04": 0.35,
+      "DPS-06": 0.3,
+      "DPS-09": 0.25
+    },
+    "Robert Sands": {
+      "DPS-05": 0.2,
+      "DPS-09": 0.2
+    },
+    "Joni Ernst": {
+      "DPS-03": 0.55,
+      "DPS-06": 0.5,
+      "DPS-01": 0.45,
+      "DPS-10": 0.3,
+      "DPS-08": 0.3
+    },
+    "Jerry Moran": {
+      "DPS-03": 0.5,
+      "DPS-06": 0.45,
+      "DPS-05": 0.3,
+      "DPS-08": 0.3
+    },
+    "Arthur Blank": {
+      "DPS-09": 0.25,
+      "DPS-10": 0.2
+    },
+    "Zoe Lofgren": {
+      "DPS-04": 0.4,
+      "DPS-10": 0.5,
+      "DPS-01": 0.4,
+      "DPS-03": 0.4,
+      "DPS-07": 0.35
+    },
+    "Cory A. Booker": {
+      "DPS-01": 0.45,
+      "DPS-03": 0.5,
+      "DPS-10": 0.55,
+      "DPS-02": 0.35,
+      "DPS-09": 0.3,
+      "DPS-07": 0.35
+    },
+    "Ashley Moody": {
+      "DPS-01": 0.4,
+      "DPS-03": 0.4,
+      "DPS-02": 0.3,
+      "DPS-10": 0.35
+    },
+    "Valerie Mars": {
+      "DPS-09": 0.2
+    },
+    "Bret Baier": {
+      "DPS-01": 0.3,
+      "DPS-07": 0.7,
+      "DPS-10": 0.5
+    },
+    "Chris LaCivita": {
+      "DPS-01": 0.5,
+      "DPS-03": 0.3,
+      "DPS-07": 0.5,
+      "DPS-10": 0.8
+    },
+    "John Hagee": {
+      "DPS-07": 0.4,
+      "DPS-10": 0.4
+    },
+    "Bruce Kovner": {
+      "DPS-05": 0.3,
+      "DPS-09": 0.3
+    },
+    "Bennie G. Thompson": {
+      "DPS-01": 0.3,
+      "DPS-10": 0.5
+    },
+    "Arthur Dantchik": {
+      "DPS-02": 0.4,
+      "DPS-09": 0.5,
+      "DPS-10": 0.4
+    },
+    "John Boozman": {
+      "DPS-03": 0.5,
+      "DPS-06": 0.4,
+      "DPS-08": 0.3
+    },
+    "Amy Klobuchar": {
+      "DPS-03": 0.5,
+      "DPS-04": 0.3,
+      "DPS-07": 0.4,
+      "DPS-09": 0.4,
+      "DPS-10": 0.5
+    },
+    "Raphael G. Warnock": {
+      "DPS-03": 0.4,
+      "DPS-10": 0.6
+    },
+    "Daniela Amodei": {
+      "DPS-04": 0.8,
+      "DPS-09": 0.4
+    },
+    "Antony Ressler": {
+      "DPS-05": 0.3,
+      "DPS-09": 0.2
+    },
+    "Christopher Rufo": {
+      "DPS-01": 0.5,
+      "DPS-02": 0.4,
+      "DPS-07": 0.7,
+      "DPS-10": 0.4
+    },
+    "Melinda French Gates": {
+      "DPS-09": 0.3,
+      "DPS-10": 0.4
+    },
+    "Jeff Skoll": {
+      "DPS-08": 0.3,
+      "DPS-10": 0.3
+    },
+    "John Doerr": {
+      "DPS-04": 0.4,
+      "DPS-08": 0.5,
+      "DPS-09": 0.4
+    },
+    "Pete Hegseth": {
+      "DPS-01": 0.7,
+      "DPS-06": 0.8,
+      "DPS-09": 0.4
+    },
+    "Vinod Khosla": {
+      "DPS-04": 0.5,
+      "DPS-08": 0.5,
+      "DPS-09": 0.4
+    },
+    "Brian Schatz": {
+      "DPS-03": 0.4,
+      "DPS-04": 0.3,
+      "DPS-08": 0.4,
+      "DPS-10": 0.3
+    },
+    "Leon Black": {
+      "DPS-05": 0.4,
+      "DPS-09": 0.4
+    },
+    "Thomas Kurian": {
+      "DPS-04": 0.7,
+      "DPS-06": 0.4,
+      "DPS-09": 0.4
+    },
+    "James E. Risch": {
+      "DPS-03": 0.5,
+      "DPS-06": 0.4
+    },
+    "Martin Heinrich": {
+      "DPS-03": 0.4,
+      "DPS-04": 0.3,
+      "DPS-06": 0.5,
+      "DPS-08": 0.4
+    },
+    "Carl Icahn": {
+      "DPS-05": 0.5,
+      "DPS-08": 0.3,
+      "DPS-09": 0.5
+    },
+    "Tim Kaine": {
+      "DPS-03": 0.5,
+      "DPS-06": 0.4,
+      "DPS-10": 0.4
+    },
+    "Michael Moritz": {
+      "DPS-04": 0.4,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "John Thune": {
+      "DPS-01": 0.5,
+      "DPS-02": 0.3,
+      "DPS-03": 0.9,
+      "DPS-05": 0.4,
+      "DPS-06": 0.3,
+      "DPS-08": 0.4,
+      "DPS-10": 0.4
+    },
+    "Suzanne Clark": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.5,
+      "DPS-05": 0.5,
+      "DPS-08": 0.4,
+      "DPS-09": 0.5
+    },
+    "Stanley Kroenke": {
+      "DPS-07": 0.2,
+      "DPS-09": 0.2
+    },
+    "Jan Koum": {
+      "DPS-04": 0.3,
+      "DPS-07": 0.2,
+      "DPS-09": 0.3
+    },
+    "Samuel A. Alito Jr.": {
+      "DPS-01": 0.5,
+      "DPS-02": 0.9,
+      "DPS-05": 0.3,
+      "DPS-08": 0.4,
+      "DPS-10": 0.5
+    },
+    "Abigail Dillen": {
+      "DPS-02": 0.5,
+      "DPS-08": 0.7,
+      "DPS-10": 0.3
+    },
+    "Jeff Yass": {
+      "DPS-04": 0.4,
+      "DPS-05": 0.5,
+      "DPS-07": 0.3,
+      "DPS-09": 0.5,
+      "DPS-10": 0.4
+    },
+    "Jimmy Haslam": {
+      "DPS-08": 0.3,
+      "DPS-09": 0.3
+    },
+    "Joe Rogan": {
+      "DPS-07": 0.8,
+      "DPS-10": 0.4
+    },
+    "Charles Butt": {
+      "DPS-10": 0.3
+    },
+    "Andrew Beal": {
+      "DPS-05": 0.3,
+      "DPS-09": 0.2
+    },
+    "Robert F. Smith": {
+      "DPS-04": 0.3,
+      "DPS-05": 0.2,
+      "DPS-09": 0.3
+    },
+    "Josh Harris": {
+      "DPS-05": 0.4,
+      "DPS-06": 0.5,
+      "DPS-09": 0.5
+    },
+    "Barry Diller": {
+      "DPS-07": 0.5,
+      "DPS-09": 0.3
+    },
+    "Darren Walker": {
+      "DPS-10": 0.5,
+      "DPS-09": 0.3
+    },
+    "Steve Cohen": {
+      "DPS-05": 0.4,
+      "DPS-09": 0.3,
+      "DPS-10": 0.2
+    },
+    "Ken Calvert": {
+      "DPS-03": 0.4,
+      "DPS-06": 0.5,
+      "DPS-08": 0.3
+    },
+    "Daniel Gilbert": {
+      "DPS-05": 0.2,
+      "DPS-09": 0.2
+    },
+    "George Soros": {
+      "DPS-05": 0.3,
+      "DPS-07": 0.4,
+      "DPS-09": 0.5,
+      "DPS-10": 0.7
+    },
+    "David Shaw": {
+      "DPS-04": 0.3,
+      "DPS-05": 0.3
+    },
+    "Thomas Tull": {
+      "DPS-04": 0.3,
+      "DPS-06": 0.3,
+      "DPS-09": 0.2
+    },
+    "Mike Johnson": {
+      "DPS-01": 0.6,
+      "DPS-02": 0.3,
+      "DPS-03": 0.9,
+      "DPS-05": 0.5,
+      "DPS-06": 0.4,
+      "DPS-08": 0.4,
+      "DPS-10": 0.5
+    },
+    "Peter Thiel": {
+      "DPS-01": 0.6,
+      "DPS-04": 0.6,
+      "DPS-06": 0.7,
+      "DPS-09": 0.85,
+      "DPS-10": 0.4
+    },
+    "Chip Roy": {
+      "DPS-01": 0.4,
+      "DPS-03": 0.6,
+      "DPS-05": 0.3,
+      "DPS-08": 0.3
+    },
+    "Mitchell Morgan & family": {
+      "DPS-05": 0.2,
+      "DPS-09": 0.2
+    },
+    "Raja Krishnamoorthi": {
+      "DPS-03": 0.3,
+      "DPS-04": 0.3,
+      "DPS-10": 0.3
+    },
+    "Marilyn Simons & family": {
+      "DPS-04": 0.2,
+      "DPS-10": 0.3
+    },
+    "Dan Friedkin": {
+      "DPS-06": 0.2,
+      "DPS-09": 0.2
+    },
+    "Laurene Powell Jobs": {
+      "DPS-07": 0.5,
+      "DPS-09": 0.4,
+      "DPS-10": 0.5
+    },
+    "Heather Cox Richardson": {
+      "DPS-07": 0.5,
+      "DPS-10": 0.5
+    },
+    "Jonathan Haidt": {
+      "DPS-04": 0.3,
+      "DPS-07": 0.5,
+      "DPS-10": 0.3
+    },
+    "Darin LaHood": {
+      "DPS-01": 0.2,
+      "DPS-03": 0.35,
+      "DPS-07": 0.2,
+      "DPS-10": 0.2
+    },
+    "Elaine Marshall & family": {
+      "DPS-05": 0.2,
+      "DPS-08": 0.2
+    },
+    "Rakesh Gangwal": {
+      "DPS-04": 0.2,
+      "DPS-06": 0.2
+    },
+    "George Roberts": {
+      "DPS-05": 0.5,
+      "DPS-06": 0.3,
+      "DPS-09": 0.35
+    },
+    "Markwayne Mullin": {
+      "DPS-01": 0.35,
+      "DPS-03": 0.5,
+      "DPS-06": 0.4,
+      "DPS-08": 0.5,
+      "DPS-09": 0.3
+    },
+    "Elise M. Stefanik": {
+      "DPS-01": 0.6,
+      "DPS-02": 0.3,
+      "DPS-03": 0.5,
+      "DPS-07": 0.4,
+      "DPS-10": 0.5
+    },
+    "Roger Williams": {
+      "DPS-03": 0.4,
+      "DPS-05": 0.35,
+      "DPS-08": 0.3,
+      "DPS-10": 0.2
+    },
+    "Stacey E. Plaskett": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.35,
+      "DPS-07": 0.3,
+      "DPS-10": 0.4
+    },
+    "Ted Lieu": {
+      "DPS-01": 0.35,
+      "DPS-04": 0.4,
+      "DPS-07": 0.4,
+      "DPS-09": 0.3,
+      "DPS-10": 0.35
+    },
+    "Ray Davis": {
+      "DPS-05": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Guy Reschenthaler": {
+      "DPS-01": 0.35,
+      "DPS-03": 0.4,
+      "DPS-06": 0.3,
+      "DPS-07": 0.3,
+      "DPS-10": 0.2
+    },
+    "Ron DeSantis": {
+      "DPS-01": 0.6,
+      "DPS-02": 0.4,
+      "DPS-07": 0.5,
+      "DPS-08": 0.4,
+      "DPS-09": 0.35,
+      "DPS-10": 0.65
+    },
+    "Richard Kinder": {
+      "DPS-05": 0.35,
+      "DPS-08": 0.7,
+      "DPS-09": 0.3
+    },
+    "Cindy Hyde-Smith": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-06": 0.3,
+      "DPS-08": 0.35
+    },
+    "Meg Whitman": {
+      "DPS-04": 0.3,
+      "DPS-09": 0.35,
+      "DPS-10": 0.2
+    },
+    "Michael T. McCaul": {
+      "DPS-03": 0.5,
+      "DPS-04": 0.4,
+      "DPS-06": 0.6,
+      "DPS-07": 0.2,
+      "DPS-09": 0.3
+    },
+    "Nancy Pelosi": {
+      "DPS-01": 0.5,
+      "DPS-03": 0.8,
+      "DPS-05": 0.4,
+      "DPS-07": 0.5,
+      "DPS-09": 0.4,
+      "DPS-10": 0.6
+    },
+    "Kim Schrier": {
+      "DPS-03": 0.3,
+      "DPS-08": 0.3,
+      "DPS-10": 0.25
+    },
+    "Judy Chu": {
+      "DPS-01": 0.25,
+      "DPS-03": 0.3,
+      "DPS-10": 0.3
+    },
+    "Stanley Druckenmiller": {
+      "DPS-05": 0.65,
+      "DPS-03": 0.3,
+      "DPS-09": 0.35
+    },
+    "Anderson Cooper": {
+      "DPS-07": 0.6,
+      "DPS-01": 0.3,
+      "DPS-10": 0.4
+    },
+    "Brian J. Mast": {
+      "DPS-01": 0.25,
+      "DPS-03": 0.3,
+      "DPS-06": 0.4
+    },
+    "Maria Elvira Salazar": {
+      "DPS-03": 0.35,
+      "DPS-07": 0.25,
+      "DPS-10": 0.35
+    },
+    "Seth Moulton": {
+      "DPS-04": 0.35,
+      "DPS-06": 0.5,
+      "DPS-03": 0.35,
+      "DPS-10": 0.25
+    },
+    "Ernest Garcia, III": {
+      "DPS-05": 0.25,
+      "DPS-09": 0.2
+    },
+    "Anthony Romero": {
+      "DPS-01": 0.6,
+      "DPS-02": 0.6,
+      "DPS-07": 0.4,
+      "DPS-10": 0.7
+    },
+    "Eric Lefkofsky": {
+      "DPS-04": 0.3,
+      "DPS-09": 0.2
+    },
+    "Eric Yuan & family": {
+      "DPS-04": 0.4,
+      "DPS-07": 0.25,
+      "DPS-09": 0.2
+    },
+    "Nicole Malliotakis": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-05": 0.2,
+      "DPS-08": 0.3,
+      "DPS-10": 0.2
+    },
+    "William Conway, Jr.": {
+      "DPS-05": 0.4,
+      "DPS-06": 0.5,
+      "DPS-09": 0.3
+    },
+    "Eric Kessler": {
+      "DPS-07": 0.5,
+      "DPS-09": 0.6,
+      "DPS-10": 0.7
+    },
+    "Dan Crenshaw": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-06": 0.5,
+      "DPS-07": 0.4,
+      "DPS-08": 0.3,
+      "DPS-10": 0.3
+    },
+    "Cass Sunstein": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.7,
+      "DPS-04": 0.3,
+      "DPS-07": 0.3
+    },
+    "Marc Rowan": {
+      "DPS-05": 0.6,
+      "DPS-09": 0.5,
+      "DPS-04": 0.2
+    },
+    "Katherine M. Clark": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.6,
+      "DPS-10": 0.5,
+      "DPS-07": 0.3
+    },
+    "André Carson": {
+      "DPS-03": 0.3,
+      "DPS-06": 0.3,
+      "DPS-10": 0.2
+    },
+    "Jim Davis": {
+      "DPS-09": 0.2
+    },
+    "Scott Cook": {
+      "DPS-04": 0.2,
+      "DPS-09": 0.2
+    },
+    "Jim Walton & family": {
+      "DPS-05": 0.3,
+      "DPS-08": 0.2,
+      "DPS-09": 0.3,
+      "DPS-10": 0.2
+    },
+    "John Barrasso": {
+      "DPS-01": 0.5,
+      "DPS-03": 0.7,
+      "DPS-08": 0.8,
+      "DPS-05": 0.4,
+      "DPS-02": 0.3,
+      "DPS-10": 0.3
+    },
+    "Joseph Grendys": {
+      "DPS-09": 0.2
+    },
+    "Leonard Stern": {
+      "DPS-05": 0.2,
+      "DPS-09": 0.2
+    },
+    "Ronald Lauder": {
+      "DPS-07": 0.3,
+      "DPS-09": 0.4,
+      "DPS-10": 0.4
+    },
+    "Lauren Underwood": {
+      "DPS-03": 0.3,
+      "DPS-10": 0.3,
+      "DPS-05": 0.2
+    },
+    "Chrissy Houlahan": {
+      "DPS-03": 0.3,
+      "DPS-06": 0.3,
+      "DPS-10": 0.4
+    },
+    "Jonathan Gray": {
+      "DPS-05": 0.5,
+      "DPS-08": 0.4,
+      "DPS-09": 0.5,
+      "DPS-04": 0.3
+    },
+    "Gavin Newsom": {
+      "DPS-01": 0.5,
+      "DPS-04": 0.4,
+      "DPS-08": 0.6,
+      "DPS-10": 0.7,
+      "DPS-07": 0.5,
+      "DPS-02": 0.3,
+      "DPS-03": 0.3
+    },
+    "Tom Cole": {
+      "DPS-01": 0.4,
+      "DPS-03": 0.8,
+      "DPS-05": 0.5,
+      "DPS-06": 0.4,
+      "DPS-08": 0.3
+    },
+    "John Kennedy": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.4,
+      "DPS-03": 0.6,
+      "DPS-05": 0.5,
+      "DPS-08": 0.4,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Henry Cuellar": {
+      "DPS-03": 0.4,
+      "DPS-08": 0.3,
+      "DPS-10": 0.2
+    },
+    "Alexander Karp": {
+      "DPS-04": 0.6,
+      "DPS-06": 0.8,
+      "DPS-09": 0.7,
+      "DPS-01": 0.4,
+      "DPS-07": 0.3
+    },
+    "Arturo Moreno": {
+      "DPS-09": 0.2,
+      "DPS-07": 0.2
+    },
+    "Don Hankey": {
+      "DPS-05": 0.2,
+      "DPS-09": 0.2
+    },
+    "Douglas Leone": {
+      "DPS-04": 0.4,
+      "DPS-09": 0.4,
+      "DPS-05": 0.2
+    },
+    "Nancy Walton Laurie": {
+      "DPS-09": 0.2,
+      "DPS-10": 0.2
+    },
+    "Mustafa Suleyman": {
+      "DPS-04": 0.8,
+      "DPS-07": 0.4,
+      "DPS-09": 0.5,
+      "DPS-08": 0.3,
+      "DPS-02": 0.2
+    },
+    "Dirk Ziff": {
+      "DPS-05": 0.2
+    },
+    "Ro Khanna": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-04": 0.5,
+      "DPS-06": 0.3,
+      "DPS-07": 0.3,
+      "DPS-09": 0.4,
+      "DPS-10": 0.3
+    },
+    "Hakeem S. Jeffries": {
+      "DPS-01": 0.6,
+      "DPS-03": 0.8,
+      "DPS-07": 0.4,
+      "DPS-10": 0.7
+    },
+    "Micky Arison": {
+      "DPS-05": 0.2,
+      "DPS-09": 0.2
+    },
+    "Tyler Cowen": {
+      "DPS-02": 0.3,
+      "DPS-04": 0.4,
+      "DPS-05": 0.4,
+      "DPS-07": 0.3
+    },
+    "Stephen Ross": {
+      "DPS-05": 0.3,
+      "DPS-08": 0.2,
+      "DPS-09": 0.3,
+      "DPS-10": 0.2
+    },
+    "Charlamagne tha God": {
+      "DPS-07": 0.5,
+      "DPS-10": 0.4
+    },
+    "Rachel Maddow": {
+      "DPS-01": 0.4,
+      "DPS-07": 0.7,
+      "DPS-09": 0.3,
+      "DPS-10": 0.5
+    },
+    "Henry Samueli": {
+      "DPS-04": 0.3,
+      "DPS-06": 0.3,
+      "DPS-08": 0.2
+    },
+    "Thom Tillis": {
+      "DPS-01": 0.3,
+      "DPS-02": 0.3,
+      "DPS-03": 0.5,
+      "DPS-05": 0.3,
+      "DPS-06": 0.3,
+      "DPS-08": 0.3,
+      "DPS-10": 0.3
+    },
+    "Robert Rich, Jr.": {
+      "DPS-05": 0.2
+    },
+    "Bernard Marcus": {
+      "DPS-09": 0.4,
+      "DPS-10": 0.3,
+      "DPS-01": 0.3
+    },
+    "Richard Hudson": {
+      "DPS-03": 0.4,
+      "DPS-06": 0.5,
+      "DPS-01": 0.2,
+      "DPS-10": 0.2
+    },
+    "James Lankford": {
+      "DPS-01": 0.3,
+      "DPS-02": 0.3,
+      "DPS-03": 0.5,
+      "DPS-05": 0.3,
+      "DPS-08": 0.3,
+      "DPS-10": 0.4
+    },
+    "Maya Wiley": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.4,
+      "DPS-07": 0.3,
+      "DPS-10": 0.7
+    },
+    "Pete Aguilar": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.6,
+      "DPS-10": 0.4
+    },
+    "Stephen Bisciotti": {
+      "DPS-06": 0.3,
+      "DPS-09": 0.2
+    },
+    "Eric Swalwell": {
+      "DPS-01": 0.4,
+      "DPS-03": 0.3,
+      "DPS-04": 0.3,
+      "DPS-07": 0.3,
+      "DPS-10": 0.3
+    },
+    "Kelcy Warren": {
+      "DPS-08": 0.7,
+      "DPS-09": 0.5,
+      "DPS-01": 0.3,
+      "DPS-05": 0.3
+    },
+    "Isaac Perlmutter": {
+      "DPS-01": 0.4,
+      "DPS-06": 0.3,
+      "DPS-09": 0.5
+    },
+    "David Geffen": {
+      "DPS-07": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Susan M. Collins": {
+      "DPS-01": 0.5,
+      "DPS-02": 0.4,
+      "DPS-03": 0.6,
+      "DPS-05": 0.4,
+      "DPS-06": 0.3,
+      "DPS-10": 0.4
+    },
+    "Jim Kennedy": {
+      "DPS-07": 0.4,
+      "DPS-09": 0.2
+    },
+    "Bernard Sanders": {
+      "DPS-01": 0.5,
+      "DPS-03": 0.6,
+      "DPS-05": 0.5,
+      "DPS-07": 0.4,
+      "DPS-08": 0.3,
+      "DPS-09": 0.5,
+      "DPS-10": 0.4
+    },
+    "Ken Fisher": {
+      "DPS-05": 0.3,
+      "DPS-07": 0.2
+    },
+    "James Clark": {
+      "DPS-04": 0.2,
+      "DPS-05": 0.2
+    },
+    "John W. Hickenlooper": {
+      "DPS-03": 0.4,
+      "DPS-04": 0.3,
+      "DPS-05": 0.3,
+      "DPS-08": 0.5,
+      "DPS-10": 0.3
+    },
+    "Dario Amodei": {
+      "DPS-04": 0.9,
+      "DPS-02": 0.3,
+      "DPS-06": 0.4,
+      "DPS-07": 0.3,
+      "DPS-08": 0.3,
+      "DPS-09": 0.5
+    },
+    "Diane Hendricks": {
+      "DPS-01": 0.2,
+      "DPS-08": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Robert Kraft": {
+      "DPS-07": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.2
+    },
+    "Andrew S. Clyde": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-05": 0.2,
+      "DPS-10": 0.2
+    },
+    "José Horacio Gomez": {
+      "DPS-07": 0.3,
+      "DPS-10": 0.2
+    },
+    "Tom McClintock": {
+      "DPS-01": 0.3,
+      "DPS-02": 0.2,
+      "DPS-03": 0.5,
+      "DPS-05": 0.3,
+      "DPS-08": 0.3
+    },
+    "J. Hyatt Brown": {
+      "DPS-05": 0.2,
+      "DPS-09": 0.2,
+      "DPS-10": 0.2
+    },
+    "Dorothy Chao Jenkins & family": {
+      "DPS-09": 0.2,
+      "DPS-10": 0.2
+    },
+    "Laura Ingraham": {
+      "DPS-01": 0.5,
+      "DPS-07": 0.7,
+      "DPS-09": 0.3,
+      "DPS-10": 0.5
+    },
+    "Pramila Jayapal": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.5,
+      "DPS-05": 0.3,
+      "DPS-07": 0.3,
+      "DPS-10": 0.5
+    },
+    "Larry Page": {
+      "DPS-04": 0.7,
+      "DPS-07": 0.5,
+      "DPS-08": 0.3,
+      "DPS-09": 0.5
+    },
+    "Christopher Murphy": {
+      "DPS-01": 0.4,
+      "DPS-03": 0.5,
+      "DPS-06": 0.3,
+      "DPS-07": 0.3,
+      "DPS-10": 0.5
+    },
+    "Philip Anschutz": {
+      "DPS-07": 0.4,
+      "DPS-08": 0.5,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Joe Neguse": {
+      "DPS-01": 0.2,
+      "DPS-03": 0.4,
+      "DPS-04": 0.2,
+      "DPS-10": 0.3
+    },
+    "Angie Craig": {
+      "DPS-03": 0.4,
+      "DPS-08": 0.2,
+      "DPS-10": 0.3
+    },
+    "Alex Padilla": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.3,
+      "DPS-03": 0.5,
+      "DPS-08": 0.3,
+      "DPS-10": 0.5
+    },
+    "Judy Love & family": {
+      "DPS-08": 0.3,
+      "DPS-09": 0.2,
+      "DPS-10": 0.2
+    },
+    "Austen Cargill, II.": {
+      "DPS-05": 0.2,
+      "DPS-08": 0.2
+    },
+    "William Wrigley, Jr.": {
+      "DPS-05": 0.2
+    },
+    "Dustin Moskovitz": {
+      "DPS-04": 0.4,
+      "DPS-09": 0.3,
+      "DPS-10": 0.4
+    },
+    "Elena Kagan": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.8,
+      "DPS-05": 0.3,
+      "DPS-10": 0.4
+    },
+    "Jeff Greene": {
+      "DPS-05": 0.2,
+      "DPS-10": 0.2
+    },
+    "Leonard Lauder": {
+      "DPS-09": 0.2,
+      "DPS-10": 0.2
+    },
+    "Pat Stryker": {
+      "DPS-10": 0.4,
+      "DPS-08": 0.2
+    },
+    "Gabe Newell": {
+      "DPS-04": 0.3,
+      "DPS-07": 0.2
+    },
+    "Eric Schmitt": {
+      "DPS-01": 0.5,
+      "DPS-02": 0.4,
+      "DPS-03": 0.5,
+      "DPS-04": 0.3,
+      "DPS-06": 0.3,
+      "DPS-07": 0.4,
+      "DPS-09": 0.3,
+      "DPS-10": 0.5
+    },
+    "Marijke Mars": {
+      "DPS-05": 0.2
+    },
+    "Jeremy Jacobs, Sr. & family": {
+      "DPS-09": 0.2,
+      "DPS-10": 0.2
+    },
+    "James Chao & family": {
+      "DPS-09": 0.3,
+      "DPS-10": 0.2
+    },
+    "Sonia Sotomayor": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.8,
+      "DPS-10": 0.5
+    },
+    "Carrie Severino (121)": {
+      "DPS-02": 0.8,
+      "DPS-10": 0.5
+    },
+    "Jesús G. 'Chuy' García": {
+      "DPS-03": 0.2,
+      "DPS-10": 0.2
+    },
+    "Charles Schwab": {
+      "DPS-05": 0.4,
+      "DPS-09": 0.3
+    },
+    "Ruben Gallego": {
+      "DPS-03": 0.35,
+      "DPS-06": 0.25,
+      "DPS-10": 0.4
+    },
+    "Greg Laurie": {
+      "DPS-07": 0.3,
+      "DPS-10": 0.25
+    },
+    "Bill Maher": {
+      "DPS-07": 0.5,
+      "DPS-10": 0.3
+    },
+    "Donald Bren": {
+      "DPS-08": 0.25,
+      "DPS-09": 0.2
+    },
+    "Michael Saylor": {
+      "DPS-04": 0.3,
+      "DPS-05": 0.5,
+      "DPS-09": 0.3
+    },
+    "Thomas Massie": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.5,
+      "DPS-05": 0.35,
+      "DPS-08": 0.3
+    },
+    "Elizabeth Warren": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.4,
+      "DPS-03": 0.6,
+      "DPS-05": 0.7,
+      "DPS-09": 0.6,
+      "DPS-10": 0.4
+    },
+    "Steve Scalise": {
+      "DPS-01": 0.5,
+      "DPS-03": 0.7,
+      "DPS-06": 0.3,
+      "DPS-10": 0.3
+    },
+    "Franklin Graham": {
+      "DPS-07": 0.5,
+      "DPS-10": 0.45
+    },
+    "Jim Banks": {
+      "DPS-01": 0.45,
+      "DPS-03": 0.5,
+      "DPS-06": 0.4,
+      "DPS-10": 0.3
+    },
+    "Jen O'Malley Dillon": {
+      "DPS-10": 0.8,
+      "DPS-07": 0.35
+    },
+    "George Kaiser": {
+      "DPS-05": 0.2,
+      "DPS-08": 0.3,
+      "DPS-09": 0.25
+    },
+    "Stephen Miller": {
+      "DPS-01": 0.85,
+      "DPS-02": 0.4,
+      "DPS-07": 0.5,
+      "DPS-09": 0.4,
+      "DPS-10": 0.6
+    },
+    "Brian Ballard": {
+      "DPS-01": 0.5,
+      "DPS-09": 0.7,
+      "DPS-03": 0.35,
+      "DPS-08": 0.3
+    },
+    "John Henry": {
+      "DPS-07": 0.35,
+      "DPS-09": 0.25
+    },
+    "Charles B. Johnson": {
+      "DPS-09": 0.35,
+      "DPS-10": 0.3
+    },
+    "Bill Hagerty": {
+      "DPS-03": 0.45,
+      "DPS-05": 0.5,
+      "DPS-06": 0.3,
+      "DPS-09": 0.3
+    },
+    "Dan Cathy": {
+      "DPS-09": 0.2,
+      "DPS-07": 0.2
+    },
+    "Carrie Severino (267)": {
+      "DPS-02": 0.8,
+      "DPS-10": 0.5
+    },
+    "Brian Hooks": {
+      "DPS-01": 0.35,
+      "DPS-02": 0.4,
+      "DPS-03": 0.45,
+      "DPS-08": 0.35,
+      "DPS-09": 0.5,
+      "DPS-10": 0.35
+    },
+    "J. Luis Correa": {
+      "DPS-03": 0.2,
+      "DPS-10": 0.2
+    },
+    "Cristiano Amon": {
+      "DPS-04": 0.6,
+      "DPS-06": 0.35,
+      "DPS-09": 0.3
+    },
+    "Julia Koch & family": {
+      "DPS-09": 0.4,
+      "DPS-10": 0.3,
+      "DPS-03": 0.25
+    },
+    "Pierre Omidyar": {
+      "DPS-07": 0.45,
+      "DPS-09": 0.35,
+      "DPS-10": 0.4,
+      "DPS-04": 0.25
+    },
+    "Nydia M. Velázquez": {
+      "DPS-01": 0.2,
+      "DPS-03": 0.35,
+      "DPS-10": 0.3
+    },
+    "Lisa Su": {
+      "DPS-04": 0.8,
+      "DPS-06": 0.4,
+      "DPS-08": 0.2,
+      "DPS-09": 0.35
+    },
+    "Edward J. Markey": {
+      "DPS-01": 0.2,
+      "DPS-03": 0.35,
+      "DPS-04": 0.3,
+      "DPS-07": 0.25,
+      "DPS-08": 0.5,
+      "DPS-10": 0.3
+    },
+    "Eren Ozmen": {
+      "DPS-06": 0.55,
+      "DPS-09": 0.3
+    },
+    "Victoria Spartz": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.35,
+      "DPS-05": 0.25
+    },
+    "Eric Schmidt": {
+      "DPS-04": 0.8,
+      "DPS-06": 0.65,
+      "DPS-08": 0.35,
+      "DPS-09": 0.7
+    },
+    "Paul Krugman": {
+      "DPS-01": 0.25,
+      "DPS-05": 0.5,
+      "DPS-07": 0.4,
+      "DPS-10": 0.3
+    },
+    "Hamilton James & family": {
+      "DPS-05": 0.35,
+      "DPS-09": 0.3
+    },
+    "Betty McCollum": {
+      "DPS-03": 0.3,
+      "DPS-06": 0.3,
+      "DPS-10": 0.2
+    },
+    "Rajiv Shah": {
+      "DPS-01": 0.2,
+      "DPS-04": 0.25,
+      "DPS-08": 0.35,
+      "DPS-09": 0.3
+    },
+    "Greg Abbott": {
+      "DPS-01": 0.5,
+      "DPS-02": 0.4,
+      "DPS-08": 0.5,
+      "DPS-10": 0.55
+    },
+    "David Duffield": {
+      "DPS-09": 0.2
+    },
+    "Victoria Mars": {
+      "DPS-09": 0.2
+    },
+    "John Hoeven": {
+      "DPS-03": 0.4,
+      "DPS-08": 0.5
+    },
+    "Kirsten E. Gillibrand": {
+      "DPS-01": 0.25,
+      "DPS-03": 0.4,
+      "DPS-04": 0.3,
+      "DPS-06": 0.35,
+      "DPS-10": 0.35
+    },
+    "Salud O. Carbajal": {
+      "DPS-03": 0.25,
+      "DPS-06": 0.25,
+      "DPS-08": 0.3
+    },
+    "Paul Tudor Jones, II.": {
+      "DPS-05": 0.45,
+      "DPS-09": 0.3
+    },
+    "Matthew J. Kacsmaryk": {
+      "DPS-01": 0.5,
+      "DPS-02": 0.7,
+      "DPS-08": 0.35,
+      "DPS-10": 0.4
+    },
+    "Rick Scott": {
+      "DPS-01": 0.4,
+      "DPS-03": 0.55,
+      "DPS-05": 0.45,
+      "DPS-10": 0.35
+    },
+    "Gary Rollins & family": {
+      "DPS-09": 0.2
+    },
+    "Jayshree Ullal": {
+      "DPS-04": 0.5,
+      "DPS-09": 0.25
+    },
+    "Al Sharpton": {
+      "DPS-07": 0.5,
+      "DPS-10": 0.55
+    },
+    "Christy Walton": {
+      "DPS-09": 0.2
+    },
+    "Michael Dell": {
+      "DPS-04": 0.6,
+      "DPS-06": 0.35,
+      "DPS-09": 0.45
+    },
+    "Brian Armstrong": {
+      "DPS-05": 0.65,
+      "DPS-09": 0.5
+    },
+    "Cecilia Rouse": {
+      "DPS-05": 0.4,
+      "DPS-01": 0.2,
+      "DPS-04": 0.25
+    },
+    "Ken Langone": {
+      "DPS-01": 0.3,
+      "DPS-05": 0.3,
+      "DPS-09": 0.4,
+      "DPS-10": 0.3
+    },
+    "Paul Singer": {
+      "DPS-01": 0.3,
+      "DPS-02": 0.4,
+      "DPS-03": 0.3,
+      "DPS-05": 0.6,
+      "DPS-09": 0.5,
+      "DPS-10": 0.4
+    },
+    "Mitch McConnell": {
+      "DPS-01": 0.5,
+      "DPS-02": 0.7,
+      "DPS-03": 0.8,
+      "DPS-05": 0.4,
+      "DPS-06": 0.3,
+      "DPS-10": 0.6
+    },
+    "Roger Marshall": {
+      "DPS-03": 0.4,
+      "DPS-05": 0.2,
+      "DPS-08": 0.4
+    },
+    "Maxine Waters": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-05": 0.6,
+      "DPS-09": 0.3,
+      "DPS-10": 0.5
+    },
+    "John H. Rutherford": {
+      "DPS-03": 0.2,
+      "DPS-06": 0.2
+    },
+    "Chris Van Hollen": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.5,
+      "DPS-05": 0.4,
+      "DPS-06": 0.3,
+      "DPS-10": 0.4
+    },
+    "Ron Johnson": {
+      "DPS-01": 0.5,
+      "DPS-03": 0.5,
+      "DPS-05": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.4
+    },
+    "Sri Srinivasan": {
+      "DPS-01": 0.5,
+      "DPS-02": 0.7,
+      "DPS-04": 0.3,
+      "DPS-05": 0.3,
+      "DPS-08": 0.4
+    },
+    "Jeffrey Lurie & family": {
+      "DPS-07": 0.2,
+      "DPS-09": 0.2
+    },
+    "Les Wexner & family": {
+      "DPS-09": 0.2,
+      "DPS-10": 0.2
+    },
+    "Chase Coleman, III.": {
+      "DPS-04": 0.5,
+      "DPS-05": 0.4,
+      "DPS-09": 0.3
+    },
+    "Rick Cohen & family": {
+      "DPS-09": 0.2
+    },
+    "Daniel Ziff": {
+      "DPS-05": 0.3,
+      "DPS-08": 0.3
+    },
+    "Sean Hannity": {
+      "DPS-01": 0.6,
+      "DPS-07": 0.8,
+      "DPS-09": 0.4,
+      "DPS-10": 0.6
+    },
+    "Tim Scott": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-05": 0.4,
+      "DPS-09": 0.3,
+      "DPS-10": 0.4
+    },
+    "Maria Cantwell": {
+      "DPS-03": 0.4,
+      "DPS-04": 0.5,
+      "DPS-07": 0.4,
+      "DPS-08": 0.4,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Warren Buffett": {
+      "DPS-05": 0.7,
+      "DPS-08": 0.4,
+      "DPS-09": 0.4
+    },
+    "Thomas Frist, Jr. & family": {
+      "DPS-03": 0.3,
+      "DPS-05": 0.3,
+      "DPS-09": 0.3
+    },
+    "David Siegel": {
+      "DPS-04": 0.6,
+      "DPS-05": 0.4,
+      "DPS-09": 0.3
+    },
+    "Bruce Westerman": {
+      "DPS-03": 0.3,
+      "DPS-08": 0.6
+    },
+    "Ken Griffin": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.3,
+      "DPS-05": 0.7,
+      "DPS-09": 0.6,
+      "DPS-10": 0.5
+    },
+    "Thai Lee": {
+      "DPS-04": 0.3,
+      "DPS-06": 0.3,
+      "DPS-09": 0.3
+    },
+    "Phil Knight & family": {
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Lance Wallnau": {
+      "DPS-01": 0.4,
+      "DPS-07": 0.5,
+      "DPS-10": 0.6
+    },
+    "C. Dean Metropoulos": {
+      "DPS-05": 0.2,
+      "DPS-09": 0.2
+    },
+    "Ezra Klein": {
+      "DPS-01": 0.3,
+      "DPS-04": 0.3,
+      "DPS-07": 0.6,
+      "DPS-10": 0.5
+    },
+    "Patty Murray": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.6,
+      "DPS-05": 0.3,
+      "DPS-06": 0.3,
+      "DPS-08": 0.3,
+      "DPS-10": 0.4
+    },
+    "Mark Walter": {
+      "DPS-05": 0.3,
+      "DPS-09": 0.2
+    },
+    "Martha Ingram & family": {
+      "DPS-07": 0.2,
+      "DPS-09": 0.2
+    },
+    "Kevin Cramer": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-06": 0.3,
+      "DPS-08": 0.5
+    },
+    "James P. McGovern": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-07": 0.3,
+      "DPS-10": 0.3
+    },
+    "Randa Duncan Williams": {
+      "DPS-08": 0.5,
+      "DPS-09": 0.3
+    },
+    "Shelley Moore Capito": {
+      "DPS-03": 0.5,
+      "DPS-08": 0.5,
+      "DPS-06": 0.3,
+      "DPS-01": 0.2
+    },
+    "David Brock": {
+      "DPS-07": 0.7,
+      "DPS-10": 0.7,
+      "DPS-01": 0.3,
+      "DPS-09": 0.3
+    },
+    "Janai Nelson": {
+      "DPS-02": 0.6,
+      "DPS-10": 0.7,
+      "DPS-01": 0.4
+    },
+    "Rand Paul": {
+      "DPS-01": 0.5,
+      "DPS-03": 0.6,
+      "DPS-05": 0.4,
+      "DPS-06": 0.4,
+      "DPS-02": 0.3,
+      "DPS-10": 0.2
+    },
+    "Peggy Cherng": {
+      "DPS-09": 0.2
+    },
+    "Jeff T. Green": {
+      "DPS-04": 0.3,
+      "DPS-07": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Philippe Laffont": {
+      "DPS-04": 0.4,
+      "DPS-05": 0.3,
+      "DPS-09": 0.2
+    },
+    "Dan Sullivan": {
+      "DPS-03": 0.4,
+      "DPS-06": 0.5,
+      "DPS-08": 0.4,
+      "DPS-01": 0.3
+    },
+    "Karen Pritzker": {
+      "DPS-10": 0.3,
+      "DPS-09": 0.2
+    },
+    "David Bonderman": {
+      "DPS-04": 0.3,
+      "DPS-05": 0.3,
+      "DPS-06": 0.3,
+      "DPS-08": 0.3,
+      "DPS-09": 0.3
+    },
+    "Rosa L. DeLauro": {
+      "DPS-03": 0.6,
+      "DPS-01": 0.3,
+      "DPS-10": 0.3,
+      "DPS-06": 0.3
+    },
+    "Michael Milken": {
+      "DPS-05": 0.4,
+      "DPS-09": 0.4,
+      "DPS-04": 0.2
+    },
+    "Ralph Lauren": {
+      "DPS-09": 0.2
+    },
+    "Joe Mansueto": {
+      "DPS-05": 0.3,
+      "DPS-09": 0.2
+    },
+    "Thomas Pritzker": {
+      "DPS-05": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.2
+    },
+    "Jason Smith": {
+      "DPS-03": 0.7,
+      "DPS-05": 0.5,
+      "DPS-01": 0.4,
+      "DPS-08": 0.3,
+      "DPS-02": 0.3
+    },
+    "Vincent Viola": {
+      "DPS-06": 0.4,
+      "DPS-05": 0.3,
+      "DPS-09": 0.3
+    },
+    "Roger F. Wicker": {
+      "DPS-06": 0.7,
+      "DPS-03": 0.5,
+      "DPS-01": 0.3,
+      "DPS-08": 0.3
+    },
+    "Kash Patel": {
+      "DPS-01": 0.85,
+      "DPS-10": 0.5,
+      "DPS-07": 0.4,
+      "DPS-02": 0.4,
+      "DPS-09": 0.3
+    },
+    "Bari Weiss": {
+      "DPS-07": 0.6,
+      "DPS-10": 0.3,
+      "DPS-04": 0.2
+    },
+    "Jared F. Golden": {
+      "DPS-03": 0.4,
+      "DPS-06": 0.3,
+      "DPS-10": 0.3
+    },
+    "Heather Podesta": {
+      "DPS-09": 0.6,
+      "DPS-03": 0.5,
+      "DPS-08": 0.4,
+      "DPS-04": 0.4,
+      "DPS-06": 0.4,
+      "DPS-01": 0.3
+    },
+    "Roger Penske": {
+      "DPS-08": 0.3,
+      "DPS-09": 0.2
+    },
+    "Scott Duncan": {
+      "DPS-05": 0.2,
+      "DPS-08": 0.3,
+      "DPS-09": 0.2
+    },
+    "Richard Peery": {
+      "DPS-08": 0.2,
+      "DPS-09": 0.2
+    },
+    "Neil Bluhm": {
+      "DPS-05": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Michael Rubin": {
+      "DPS-07": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.2
+    },
+    "Doug Meijer & family": {
+      "DPS-03": 0.2,
+      "DPS-10": 0.2
+    },
+    "Penny Pritzker": {
+      "DPS-01": 0.2,
+      "DPS-04": 0.3,
+      "DPS-05": 0.3,
+      "DPS-09": 0.4,
+      "DPS-10": 0.4
+    },
+    "Elissa Slotkin": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-06": 0.4,
+      "DPS-10": 0.5
+    },
+    "Alice Walton": {
+      "DPS-05": 0.2,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Larry Ellison": {
+      "DPS-04": 0.7,
+      "DPS-06": 0.5,
+      "DPS-08": 0.4,
+      "DPS-09": 0.8
+    },
+    "Byron Trott": {
+      "DPS-05": 0.3,
+      "DPS-09": 0.2
+    },
+    "Tom Emmer": {
+      "DPS-03": 0.6,
+      "DPS-04": 0.3,
+      "DPS-05": 0.4,
+      "DPS-07": 0.2,
+      "DPS-10": 0.3
+    },
+    "Tony Fabrizio": {
+      "DPS-01": 0.5,
+      "DPS-07": 0.5,
+      "DPS-09": 0.4,
+      "DPS-10": 0.7
+    },
+    "John A. Sobrato & family": {
+      "DPS-08": 0.2,
+      "DPS-09": 0.2
+    },
+    "Ketanji Brown Jackson": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.7,
+      "DPS-10": 0.5
+    },
+    "Brett Guthrie": {
+      "DPS-03": 0.5,
+      "DPS-08": 0.4,
+      "DPS-07": 0.3
+    },
+    "Brian Acton": {
+      "DPS-04": 0.3,
+      "DPS-07": 0.4
+    },
+    "José E. Feliciano": {
+      "DPS-05": 0.3,
+      "DPS-09": 0.3
+    },
+    "Paula White-Cain": {
+      "DPS-01": 0.4,
+      "DPS-07": 0.4,
+      "DPS-09": 0.3,
+      "DPS-10": 0.5
+    },
+    "Herbert Wertheim": {
+      "DPS-08": 0.2,
+      "DPS-09": 0.2
+    },
+    "Virginia Foxx": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.5,
+      "DPS-04": 0.3,
+      "DPS-10": 0.3
+    },
+    "Dusty Johnson": {
+      "DPS-03": 0.5,
+      "DPS-08": 0.5,
+      "DPS-04": 0.3
+    },
+    "Grover Norquist": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.4,
+      "DPS-03": 0.6,
+      "DPS-05": 0.6,
+      "DPS-08": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Lisa Blunt Rochester": {
+      "DPS-03": 0.4,
+      "DPS-08": 0.3,
+      "DPS-10": 0.4
+    },
+    "Chuck Grassley": {
+      "DPS-01": 0.5,
+      "DPS-02": 0.4,
+      "DPS-03": 0.6,
+      "DPS-05": 0.3,
+      "DPS-10": 0.4
+    },
+    "Robert E. Latta": {
+      "DPS-03": 0.4,
+      "DPS-07": 0.4,
+      "DPS-08": 0.5
+    },
+    "Carl Thoma": {
+      "DPS-04": 0.3,
+      "DPS-05": 0.2,
+      "DPS-09": 0.2
+    },
+    "Steven Law": {
+      "DPS-03": 0.7,
+      "DPS-09": 0.5,
+      "DPS-10": 0.8
+    },
+    "Mike Lee": {
+      "DPS-01": 0.6,
+      "DPS-02": 0.7,
+      "DPS-03": 0.5,
+      "DPS-05": 0.4,
+      "DPS-08": 0.4,
+      "DPS-10": 0.4
+    },
+    "Bonnie Watson Coleman": {
+      "DPS-01": 0.2,
+      "DPS-03": 0.3,
+      "DPS-10": 0.3
+    },
+    "Lindsey Graham": {
+      "DPS-01": 0.5,
+      "DPS-02": 0.3,
+      "DPS-03": 0.7,
+      "DPS-06": 0.6,
+      "DPS-07": 0.3,
+      "DPS-10": 0.4
+    },
+    "Alexandria Ocasio-Cortez": {
+      "DPS-01": 0.5,
+      "DPS-03": 0.5,
+      "DPS-04": 0.3,
+      "DPS-05": 0.4,
+      "DPS-07": 0.7,
+      "DPS-08": 0.5,
+      "DPS-09": 0.6,
+      "DPS-10": 0.6
+    },
+    "Josh Hawley": {
+      "DPS-01": 0.5,
+      "DPS-02": 0.4,
+      "DPS-03": 0.5,
+      "DPS-04": 0.4,
+      "DPS-07": 0.5,
+      "DPS-09": 0.5,
+      "DPS-10": 0.5
+    },
+    "Darrell Issa": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.3,
+      "DPS-03": 0.4,
+      "DPS-04": 0.3,
+      "DPS-06": 0.4
+    },
+    "Henry Kravis": {
+      "DPS-05": 0.6,
+      "DPS-06": 0.4,
+      "DPS-09": 0.5
+    },
+    "Hank Meijer & family": {
+      "DPS-05": 0.2,
+      "DPS-09": 0.2
+    },
+    "Frank Pallone, Jr.": {
+      "DPS-03": 0.4,
+      "DPS-04": 0.3,
+      "DPS-07": 0.3,
+      "DPS-08": 0.5
+    },
+    "Jim Davis & family": {
+      "DPS-09": 0.2
+    },
+    "Linda T. Sánchez": {
+      "DPS-03": 0.3,
+      "DPS-05": 0.3,
+      "DPS-10": 0.3
+    },
+    "Sam Altman": {
+      "DPS-04": 1.0,
+      "DPS-06": 0.4,
+      "DPS-08": 0.5,
+      "DPS-09": 0.7
+    },
+    "Marcy Kaptur": {
+      "DPS-03": 0.4,
+      "DPS-06": 0.3,
+      "DPS-08": 0.3
+    },
+    "Charles Koch & family": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.6,
+      "DPS-05": 0.5,
+      "DPS-07": 0.4,
+      "DPS-08": 0.6,
+      "DPS-09": 0.6,
+      "DPS-10": 0.4
+    },
+    "Megyn Kelly": {
+      "DPS-01": 0.3,
+      "DPS-07": 0.6,
+      "DPS-10": 0.4
+    },
+    "Jack Reed": {
+      "DPS-03": 0.5,
+      "DPS-05": 0.3,
+      "DPS-06": 0.6
+    },
+    "Steven Spielberg": {
+      "DPS-07": 0.3,
+      "DPS-10": 0.3
+    },
+    "Harriet M. Hageman": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.4,
+      "DPS-03": 0.3,
+      "DPS-08": 0.4,
+      "DPS-10": 0.3
+    },
+    "MacKenzie Scott": {
+      "DPS-10": 0.4,
+      "DPS-09": 0.2
+    },
+    "Tucker Carlson": {
+      "DPS-01": 0.5,
+      "DPS-07": 0.8,
+      "DPS-09": 0.4,
+      "DPS-10": 0.5
+    },
+    "Angus S. King, Jr.": {
+      "DPS-03": 0.4,
+      "DPS-04": 0.3,
+      "DPS-06": 0.4,
+      "DPS-08": 0.4,
+      "DPS-10": 0.3
+    },
+    "John Cornyn": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.4,
+      "DPS-03": 0.6,
+      "DPS-06": 0.5,
+      "DPS-10": 0.4
+    },
+    "Tina Smith": {
+      "DPS-03": 0.4,
+      "DPS-05": 0.3,
+      "DPS-08": 0.4,
+      "DPS-10": 0.3
+    },
+    "Brian Chesky": {
+      "DPS-04": 0.3,
+      "DPS-09": 0.3
+    },
+    "Kristen Waggoner": {
+      "DPS-02": 0.7,
+      "DPS-07": 0.4,
+      "DPS-10": 0.5
+    },
+    "Rupert Murdoch & family": {
+      "DPS-01": 0.5,
+      "DPS-07": 0.9,
+      "DPS-09": 0.6,
+      "DPS-10": 0.6
+    },
+    "Mitchell Rales": {
+      "DPS-05": 0.2,
+      "DPS-06": 0.3
+    },
+    "Mark Suzman": {
+      "DPS-04": 0.3,
+      "DPS-08": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Judy Faulkner": {
+      "DPS-04": 0.3,
+      "DPS-09": 0.2
+    },
+    "Jacqueline Mars": {
+      "DPS-09": 0.2
+    },
+    "Charlie Kirk | Founder and President, Turning Point USA": {
+      "DPS-01": 0.5,
+      "DPS-07": 0.7,
+      "DPS-10": 0.6
+    },
+    "Steven Udvar-Hazy": {
+      "DPS-06": 0.3
+    },
+    "Cynthia M. Lummis": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-05": 0.6,
+      "DPS-08": 0.2,
+      "DPS-10": 0.2
+    },
+    "Thomas H. Kean, Jr.": {
+      "DPS-03": 0.3,
+      "DPS-10": 0.2
+    },
+    "Reed Hastings": {
+      "DPS-04": 0.3,
+      "DPS-07": 0.4,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Richard Uihlein": {
+      "DPS-01": 0.5,
+      "DPS-09": 0.5,
+      "DPS-10": 0.6
+    },
+    "Robert Johnson & family": {
+      "DPS-07": 0.2,
+      "DPS-09": 0.2
+    },
+    "Catherine Cortez Masto": {
+      "DPS-03": 0.35,
+      "DPS-05": 0.2,
+      "DPS-08": 0.25,
+      "DPS-10": 0.4
+    },
+    "H. Ross Perot, Jr.": {
+      "DPS-06": 0.4,
+      "DPS-08": 0.2,
+      "DPS-09": 0.25
+    },
+    "J. Joe Ricketts & family": {
+      "DPS-01": 0.3,
+      "DPS-07": 0.3,
+      "DPS-09": 0.4,
+      "DPS-10": 0.4
+    },
+    "Katie Boyd Britt": {
+      "DPS-01": 0.35,
+      "DPS-03": 0.4,
+      "DPS-06": 0.25,
+      "DPS-10": 0.3
+    },
+    "Greg Gutfeld": {
+      "DPS-01": 0.3,
+      "DPS-07": 0.7,
+      "DPS-10": 0.4
+    },
+    "Ted Cruz": {
+      "DPS-01": 0.5,
+      "DPS-02": 0.4,
+      "DPS-03": 0.55,
+      "DPS-04": 0.25,
+      "DPS-07": 0.4,
+      "DPS-08": 0.35,
+      "DPS-09": 0.3,
+      "DPS-10": 0.5
+    },
+    "Margaret Wood Hassan": {
+      "DPS-03": 0.35,
+      "DPS-05": 0.25,
+      "DPS-10": 0.3
+    },
+    "Harold Hamm & family": {
+      "DPS-01": 0.35,
+      "DPS-08": 0.8,
+      "DPS-09": 0.5
+    },
+    "Ray Dalio": {
+      "DPS-05": 0.6,
+      "DPS-04": 0.2,
+      "DPS-09": 0.3
+    },
+    "Marsha Blackburn": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.25,
+      "DPS-03": 0.4,
+      "DPS-04": 0.3,
+      "DPS-07": 0.35,
+      "DPS-09": 0.25,
+      "DPS-10": 0.35
+    },
+    "Michael Bloomberg": {
+      "DPS-05": 0.4,
+      "DPS-07": 0.5,
+      "DPS-08": 0.5,
+      "DPS-09": 0.4,
+      "DPS-10": 0.5
+    },
+    "John James": {
+      "DPS-03": 0.25,
+      "DPS-06": 0.3,
+      "DPS-10": 0.2
+    },
+    "Lynda Resnick": {
+      "DPS-08": 0.3,
+      "DPS-09": 0.2
+    },
+    "Charlie Kirk | Founder, Turning Point USA; Host, The Charlie Kirk Show": {
+      "DPS-01": 0.5,
+      "DPS-07": 0.7,
+      "DPS-10": 0.6
+    },
+    "Lorenzo Fertitta": {
+      "DPS-09": 0.3
+    },
+    "Tom Cotton": {
+      "DPS-01": 0.55,
+      "DPS-02": 0.3,
+      "DPS-03": 0.5,
+      "DPS-04": 0.3,
+      "DPS-06": 0.55,
+      "DPS-09": 0.3,
+      "DPS-10": 0.35
+    },
+    "Bill Haslam": {
+      "DPS-09": 0.2,
+      "DPS-10": 0.2
+    },
+    "Steve Ballmer": {
+      "DPS-04": 0.4,
+      "DPS-09": 0.3
+    },
+    "Byron Donalds": {
+      "DPS-01": 0.45,
+      "DPS-03": 0.35,
+      "DPS-05": 0.25,
+      "DPS-07": 0.3,
+      "DPS-10": 0.4
+    },
+    "Robert Bass": {
+      "DPS-05": 0.25,
+      "DPS-08": 0.3,
+      "DPS-09": 0.25
+    },
+    "Ben Shapiro": {
+      "DPS-01": 0.3,
+      "DPS-02": 0.3,
+      "DPS-07": 0.7,
+      "DPS-10": 0.5
+    },
+    "Richard Blumenthal": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.3,
+      "DPS-03": 0.4,
+      "DPS-04": 0.4,
+      "DPS-07": 0.3,
+      "DPS-09": 0.4,
+      "DPS-10": 0.4
+    },
+    "Mark Levin": {
+      "DPS-01": 0.4,
+      "DPS-02": 0.5,
+      "DPS-07": 0.6,
+      "DPS-10": 0.4
+    },
+    "Suzan K. DelBene": {
+      "DPS-03": 0.3,
+      "DPS-04": 0.3,
+      "DPS-10": 0.2
+    },
+    "Richard E. Neal": {
+      "DPS-03": 0.6,
+      "DPS-05": 0.4
+    },
+    "John G. Roberts Jr.": {
+      "DPS-01": 0.6,
+      "DPS-02": 1.0,
+      "DPS-05": 0.4,
+      "DPS-10": 0.7
+    },
+    "Lukas Walton": {
+      "DPS-08": 0.3,
+      "DPS-09": 0.2
+    },
+    "Mat Ishbia": {
+      "DPS-05": 0.3,
+      "DPS-09": 0.2
+    },
+    "Bill Gates": {
+      "DPS-04": 0.5,
+      "DPS-08": 0.5,
+      "DPS-09": 0.5
+    },
+    "Tilman Fertitta": {
+      "DPS-05": 0.2,
+      "DPS-08": 0.2,
+      "DPS-09": 0.3
+    },
+    "Travis Kalanick": {
+      "DPS-04": 0.3,
+      "DPS-09": 0.3
+    },
+    "Jerry Jones & family": {
+      "DPS-07": 0.2,
+      "DPS-09": 0.3
+    },
+    "Raj Chetty": {
+      "DPS-05": 0.2,
+      "DPS-10": 0.2
+    },
+    "Mike Crapo": {
+      "DPS-03": 0.6,
+      "DPS-05": 0.7,
+      "DPS-09": 0.3
+    },
+    "John Malone": {
+      "DPS-07": 0.5,
+      "DPS-08": 0.2,
+      "DPS-09": 0.4
+    },
+    "Terrence Pegula": {
+      "DPS-08": 0.3,
+      "DPS-09": 0.2
+    },
+    "Samuel Rodriguez": {
+      "DPS-01": 0.2,
+      "DPS-07": 0.3,
+      "DPS-10": 0.4
+    },
+    "Nancy Mace": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.3,
+      "DPS-06": 0.2,
+      "DPS-10": 0.3
+    },
+    "Stephen Feinberg": {
+      "DPS-01": 0.4,
+      "DPS-06": 0.7,
+      "DPS-09": 0.6
+    },
+    "Ritchie Torres": {
+      "DPS-03": 0.3,
+      "DPS-04": 0.3,
+      "DPS-05": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.3
+    },
+    "Maxwell Frost": {
+      "DPS-07": 0.3,
+      "DPS-10": 0.4
+    },
+    "Miriam Adelson & family": {
+      "DPS-01": 0.4,
+      "DPS-09": 0.6,
+      "DPS-10": 0.5
+    },
+    "Jeanne Shaheen": {
+      "DPS-03": 0.4,
+      "DPS-06": 0.3,
+      "DPS-10": 0.3
+    },
+    "Bennett Dorrance": {
+      "DPS-09": 0.2
+    },
+    "David McCormick": {
+      "DPS-03": 0.4,
+      "DPS-05": 0.5,
+      "DPS-06": 0.4,
+      "DPS-09": 0.4
+    },
+    "Patrick Soon-Shiong": {
+      "DPS-04": 0.3,
+      "DPS-07": 0.4,
+      "DPS-09": 0.4
+    },
+    "Michael F. Bennet": {
+      "DPS-03": 0.4,
+      "DPS-04": 0.4,
+      "DPS-10": 0.3
+    },
+    "Adam B. Schiff": {
+      "DPS-01": 0.5,
+      "DPS-03": 0.4,
+      "DPS-07": 0.4,
+      "DPS-09": 0.4,
+      "DPS-10": 0.5
+    },
+    "Sheldon Whitehouse": {
+      "DPS-02": 0.7,
+      "DPS-03": 0.4,
+      "DPS-05": 0.3,
+      "DPS-09": 0.5,
+      "DPS-10": 0.4
+    },
+    "Todd Young": {
+      "DPS-01": 0.2,
+      "DPS-03": 0.5,
+      "DPS-04": 0.4,
+      "DPS-06": 0.4,
+      "DPS-08": 0.2
+    },
+    "Todd Boehly": {
+      "DPS-05": 0.3,
+      "DPS-07": 0.2,
+      "DPS-09": 0.2
+    },
+    "Debbie Dingell": {
+      "DPS-01": 0.2,
+      "DPS-03": 0.4,
+      "DPS-06": 0.2,
+      "DPS-08": 0.3,
+      "DPS-10": 0.3
+    },
+    "Jim Jordan": {
+      "DPS-01": 0.7,
+      "DPS-02": 0.4,
+      "DPS-03": 0.7,
+      "DPS-07": 0.5,
+      "DPS-09": 0.3,
+      "DPS-10": 0.6
+    },
+    "Jon Stryker": {
+      "DPS-10": 0.4,
+      "DPS-09": 0.2
+    },
+    "Gayle Benson": {
+      "DPS-09": 0.2
+    },
+    "H. Fisk Johnson": {
+      "DPS-08": 0.2,
+      "DPS-09": 0.2
+    },
+    "Raphael Warnock": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-07": 0.3,
+      "DPS-10": 0.6
+    },
+    "Wesley Hunt": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-06": 0.5,
+      "DPS-08": 0.3,
+      "DPS-10": 0.2
+    },
+    "William Ackman": {
+      "DPS-05": 0.4,
+      "DPS-07": 0.5,
+      "DPS-09": 0.5,
+      "DPS-10": 0.3,
+      "DPS-04": 0.2
+    },
+    "Charles Dolan & family": {
+      "DPS-07": 0.4,
+      "DPS-09": 0.2
+    },
+    "Herb Simon": {
+      "DPS-09": 0.2
+    },
+    "John Fetterman": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.5,
+      "DPS-07": 0.3,
+      "DPS-10": 0.4
+    },
+    "Frank VanderSloot": {
+      "DPS-01": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.4
+    },
+    "Fred Smith": {
+      "DPS-01": 0.3,
+      "DPS-06": 0.4,
+      "DPS-08": 0.3,
+      "DPS-09": 0.4
+    },
+    "Aravind Srinivas": {
+      "DPS-04": 0.6,
+      "DPS-07": 0.4,
+      "DPS-09": 0.3
+    },
+    "Ann Walton Kroenke": {
+      "DPS-09": 0.2
+    },
+    "James E. Clyburn": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.5,
+      "DPS-10": 0.7,
+      "DPS-07": 0.3
+    },
+    "Rocco Commisso": {
+      "DPS-05": 0.2,
+      "DPS-07": 0.2,
+      "DPS-09": 0.2
+    },
+    "Albert Mohler": {
+      "DPS-02": 0.3,
+      "DPS-07": 0.4,
+      "DPS-10": 0.5
+    },
+    "Tammy Baldwin": {
+      "DPS-01": 0.2,
+      "DPS-03": 0.5,
+      "DPS-05": 0.3,
+      "DPS-09": 0.3,
+      "DPS-10": 0.4
+    },
+    "Lauren Boebert": {
+      "DPS-01": 0.4,
+      "DPS-03": 0.4,
+      "DPS-07": 0.3,
+      "DPS-08": 0.3,
+      "DPS-10": 0.3
+    },
+    "Denise York & family": {
+      "DPS-09": 0.2
+    },
+    "John Mars": {
+      "DPS-09": 0.2
+    },
+    "Josh Kushner": {
+      "DPS-04": 0.3,
+      "DPS-05": 0.2,
+      "DPS-09": 0.5
+    },
+    "Bret Taylor": {
+      "DPS-04": 0.7,
+      "DPS-09": 0.4
+    },
+    "Archie Aldis Emmerson & family": {
+      "DPS-08": 0.3,
+      "DPS-09": 0.2
+    },
+    "Jake Tapper": {
+      "DPS-01": 0.3,
+      "DPS-07": 0.7,
+      "DPS-10": 0.4
+    },
+    "Jonathan Nelson": {
+      "DPS-05": 0.3,
+      "DPS-09": 0.2
+    },
+    "David Rubenstein": {
+      "DPS-05": 0.5,
+      "DPS-06": 0.3,
+      "DPS-09": 0.4
+    },
+    "J.B. Pritzker": {
+      "DPS-01": 0.3,
+      "DPS-08": 0.3,
+      "DPS-10": 0.6,
+      "DPS-09": 0.3
+    },
+    "Ted Budd": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-08": 0.3,
+      "DPS-10": 0.3
+    },
+    "Arvind Krishna": {
+      "DPS-04": 0.5,
+      "DPS-06": 0.4,
+      "DPS-09": 0.3
+    },
+    "Bob Parsons": {
+      "DPS-09": 0.2
+    },
+    "Donald Newhouse": {
+      "DPS-07": 0.4
+    },
+    "Edward Johnson, IV.": {
+      "DPS-05": 0.3
+    },
+    "Tim Sweeney": {
+      "DPS-04": 0.4,
+      "DPS-07": 0.3,
+      "DPS-09": 0.2
+    },
+    "Alex Karp": {
+      "DPS-04": 0.6,
+      "DPS-06": 0.8,
+      "DPS-09": 0.7,
+      "DPS-01": 0.3
+    },
+    "Cleta Mitchell": {
+      "DPS-10": 0.85,
+      "DPS-01": 0.4,
+      "DPS-07": 0.3
+    },
+    "Tom Gores": {
+      "DPS-05": 0.2,
+      "DPS-09": 0.2
+    },
+    "Tom Golisano": {
+      "DPS-03": 0.2,
+      "DPS-10": 0.2
+    },
+    "Russell M. Nelson": {
+      "DPS-10": 0.3,
+      "DPS-07": 0.2
+    },
+    "Michael Jordan": {
+      "DPS-09": 0.2
+    },
+    "Andy Kim": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.35,
+      "DPS-10": 0.5,
+      "DPS-09": 0.3
+    },
+    "Lynn Schusterman & family": {
+      "DPS-10": 0.2
+    },
+    "Marc Benioff": {
+      "DPS-04": 0.5,
+      "DPS-07": 0.4,
+      "DPS-09": 0.4
+    },
+    "Elizabeth Uihlein": {
+      "DPS-01": 0.4,
+      "DPS-03": 0.3,
+      "DPS-09": 0.5,
+      "DPS-10": 0.5
+    },
+    "Janice McNair & family": {
+      "DPS-08": 0.2,
+      "DPS-09": 0.2
+    },
+    "Sergey Brin": {
+      "DPS-04": 0.85,
+      "DPS-07": 0.4,
+      "DPS-08": 0.3,
+      "DPS-09": 0.5
+    },
+    "Tommy Tuberville": {
+      "DPS-01": 0.35,
+      "DPS-03": 0.4,
+      "DPS-06": 0.4,
+      "DPS-10": 0.3
+    },
+    "Kevin Roberts": {
+      "DPS-01": 0.85,
+      "DPS-02": 0.7,
+      "DPS-03": 0.5,
+      "DPS-07": 0.5,
+      "DPS-09": 0.4,
+      "DPS-10": 0.6
+    },
+    "Demis Hassabis": {
+      "DPS-04": 0.85,
+      "DPS-06": 0.3
+    },
+    "John Paulson": {
+      "DPS-05": 0.4,
+      "DPS-09": 0.5,
+      "DPS-01": 0.3
+    },
+    "Jon Husted": {
+      "DPS-01": 0.3,
+      "DPS-03": 0.4,
+      "DPS-04": 0.3,
+      "DPS-10": 0.4,
+      "DPS-08": 0.3
+    }
+  }
+}

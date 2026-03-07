@@ -1,0 +1,18 @@
+Billionaires (forbes- US): https://www.forbes.com/forbesapi/person/forbes-400/2024/position/true.json?fields=personName,rank&limit=400
+Billionaires (forbes- Global): https://www.forbes.com/forbesapi/person/billionaires/2024/position/true.json?fields=personName,rank&limit=2500
+US Congress: https://github.com/unitedstates/congress-legislators.git
+World Leaders:
+    SPARQL_ENDPOINT = "https://query.wikidata.org/sparql"
+    COMBINED_QUERY = """
+    SELECT DISTINCT ?country ?countryLabel ?countryISO ?person ?personLabel ?personDesc ?wikidata_id
+    WHERE {
+    ?country wdt:P31 wd:Q3624078 .
+    ?country wdt:P35 ?person .
+    OPTIONAL { ?country wdt:P297 ?countryISO . }
+    ?person wdt:P31 wd:Q5 .
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . }
+    BIND(STRAFTER(STR(?person), "http://www.wikidata.org/entity/") AS ?wikidata_id)
+    }
+    ORDER BY ?countryLabel
+    """
+For plugging gaps in US and Global lists: see other_candidates_us_council.py and other_candidates_global_council.py

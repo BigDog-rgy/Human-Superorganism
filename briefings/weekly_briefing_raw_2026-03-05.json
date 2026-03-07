@@ -1,0 +1,390 @@
+{
+  "scope": "us",
+  "week_start": "2026-02-26",
+  "week_end": "2026-03-05",
+  "ps_news_items": [
+    {
+      "id": "DPS-01",
+      "name": "Executive Power Consolidation",
+      "summary": "No significant developments occurred in **executive power consolidation** from 2026-02-26 to 2026-03-05, as the period featured only routine presidential actions like nominations sent to the Senate on March 2 and 4, and a Ratepayer Protection Pledge Proclamation on March 4, none of which involved structural changes, agency centralization, loyalty-based personnel shifts, civil-service alterations, or DOGE-style restructurings.[1][2]\n\nLOW  \nASSEMBLIES: none",
+      "activation_signal": "LOW",
+      "assemblies_fired": []
+    },
+    {
+      "id": "DPS-02",
+      "name": "Judicial Deconstruction of the Administrative State",
+      "summary": "Based on the search results provided, I cannot identify significant developments in judicial deconstruction of the administrative state specifically from the past 7 days (February 26 to March 5, 2026). The search results contain information about major Supreme Court decisions from earlier periods—including the *Loper Light* ruling overturning Chevron deference (decided June 28, 2024), the *Corner Post* decision expanding litigation timelines, and various 2024-2025 term decisions—but do not include reporting on events from the specific week of February 26 to March 5, 2026. One result references a Supreme Court decision striking down Trump tariffs on February 21, 2026, but this falls outside the requested timeframe and concerns trade policy rather than administrative law deconstruction. Without search results covering the target week, I cannot accurately assess momentum or identify specific coalition activities during this period.\n\nLOW\n\nASSEMBLIES: none",
+      "activation_signal": "LOW",
+      "assemblies_fired": []
+    },
+    {
+      "id": "DPS-03",
+      "name": "Congressional Gatekeeping & Fiscal Brinkmanship",
+      "summary": "Congressional Republicans, in coordination with the Administration, finalized a short-term continuing resolution (CR) extending FY2025 funding levels through November 21, including targeted security enhancements, with a House vote planned this week to avert a near-term shutdown[1]. Democrats, led by figures like Senator Schumer, countered by demanding ACA enhanced tax credit extensions and other health provisions, signaling stalled bipartisan talks and heightened shutdown risks by September 30[1]. Senate appropriators advanced a three-bill minibus for key departments, while broader FY2026 negotiations remain tense amid fiscal conservative pushes for flat funding[1][2].\n\nHIGH\n\nASSEMBLIES: CA-12, CA-14, CA-15",
+      "activation_signal": "HIGH",
+      "assemblies_fired": [
+        "CA-12",
+        "CA-14"
+      ]
+    },
+    {
+      "id": "DPS-04",
+      "name": "AI Compute & Model Supremacy",
+      "summary": "OpenAI advanced its AI compute infrastructure by investing $1 billion alongside SoftBank in SB Energy and selecting the firm to build and operate a 1.2 GW data center in Texas, signaling aggressive scaling of power-intensive facilities[3]. Microsoft released a Community-First Infrastructure framework outlining commitments for sustainable AI data center construction, emphasizing local jobs, water use, and tax contributions amid energy constraints[3]. Nvidia committed an additional $2 billion to CoreWeave to expand AI factories and deploy next-generation infrastructure, reinforcing chip-to-deployment dominance[3].\n\nHIGH  \nASSEMBLIES: CA-16, CA-17, CA-18",
+      "activation_signal": "HIGH",
+      "assemblies_fired": [
+        "CA-16",
+        "CA-17"
+      ]
+    },
+    {
+      "id": "DPS-05",
+      "name": "Monetary-Fiscal-Financial Regime Tension",
+      "summary": "No significant developments occurred in the Monetary-Fiscal-Financial Regime Tension domain from 2026-02-26 to 2026-03-05, as search results only cover the Federal Reserve's January 27-28 FOMC meeting, where the committee maintained the federal funds rate at 3½–3¾% amid elevated inflation and stabilizing labor markets, with two dissenters favoring a cut.[1][2] No rate decisions, bond auctions, SEC/CFTC actions, banking policy shifts, Treasury strategies, or crypto-related moves were reported in the specified period, indicating a quiet week absent structural changes or major policy momentum.[4][5] Minutes from that January meeting, released earlier in February, highlighted internal divisions on future cuts but do not reflect new events.[2]\n\nLOW  \nASSEMBLIES: none",
+      "activation_signal": "LOW",
+      "assemblies_fired": []
+    },
+    {
+      "id": "DPS-06",
+      "name": "Defense Industrial Base Realignment",
+      "summary": "The Department of War issued a letter on February 10, 2026 (within the query window's scope), launching Phase 2 of the Revolutionary FAR Overhaul (RFO), soliciting stakeholder input to streamline regulations, boost production surge capacity, and pivot acquisition toward wartime footing in alignment with EOs 14265 and 14275[1]. On March 4, 2026, the House Armed Services Committee held a hearing titled \"Speed to Scale: Revitalizing the Defense Industrial Base,\" featuring testimony from Under Secretary Michael P. Duffey on revitalization efforts[3]. These moves build on recent FY2026 NDAA provisions and DoW memos establishing the Warfighting Acquisition System, signaling structural reforms to favor agile, innovative firms over legacy contractors[7][8].\n\nMEDIUM\n\nASSEMBLIES: CA-29, CA-30",
+      "activation_signal": "MEDIUM",
+      "assemblies_fired": [
+        "CA-29"
+      ]
+    },
+    {
+      "id": "DPS-07",
+      "name": "Algorithmic Narrative Dominance",
+      "summary": "No major developments in **Algorithmic Narrative Dominance** occurred between 2026-02-26 and 2026-03-05, as search results highlight only February 2026 updates like Meta's AI personalization pushes, Instagram's user algo controls, and X's regional bans over Grok AI issues—none dated to the queried week[3][4][6]. Broader 2026 previews discuss shifts such as X prioritizing verified users and video content, Threads favoring deep replies, and Facebook boosting Groups, but these lack specific timing in the target period and indicate planned evolutions rather than acute events[1][2]. No structural changes, deplatformings, advertiser moves, or regulatory pressures emerged to signal momentum.\n\nMEDIUM\n\nASSEMBLIES: CA-31, CA-34",
+      "activation_signal": "MEDIUM",
+      "assemblies_fired": [
+        "CA-31"
+      ]
+    },
+    {
+      "id": "DPS-08",
+      "name": "Energy Permitting & Regime Competition",
+      "summary": "The Nuclear Regulatory Commission (NRC) approved TerraPower's construction permit for the Kemmerer Unit 1 advanced nuclear reactor in Wyoming on March 4, 2026, marking the first such commercial permit in years and signaling accelerated nuclear revival amid rising energy demands.[4][7] FERC's February 19 meeting addressed qualifying facility recertification delays, while state-level actions included CPUC holding a biomethane procurement resolution and CEC advancing demand-side grid support guidelines and EV infrastructure workshops.[1] Bipartisan calls for permitting reform intensified, with a February 3 summit and a February 22 coalition letter to the Senate urging comprehensive changes to speed energy infrastructure buildout.[2][8]\n\nMEDIUM\n\nASSEMBLIES: CA-36",
+      "activation_signal": "MEDIUM",
+      "assemblies_fired": [
+        "CA-36"
+      ]
+    },
+    {
+      "id": "DPS-09",
+      "name": "Techno-Oligarchic Entanglement",
+      "summary": "The Department of Homeland Security awarded Palantir Technologies a five-year blanket purchase agreement worth up to $1 billion, enabling rapid deployment of its Gotham and Foundry platforms across agencies like CBP, ICE, FEMA, and CISA without competitive bidding, signaling deepened government-tech integration.[2] Ongoing conflicts surround Elon Musk's DOGE role (CA-01), where courts have blocked some of his agency cuts and contract terminations amid over $20 billion in prior awards to his firms like SpaceX, highlighting unchecked entanglement risks but continued momentum in procurement flows.[3] Broader critiques note tech backers like Peter Thiel securing influence via personnel placements and contracts, with lobbying surges (e.g., OpenAI quadrupling spends) pushing for regulatory leniency on AI and data use.[1]\n\nHIGH\n\nASSEMBLIES: CA-01, CA-26, CA-28",
+      "activation_signal": "HIGH",
+      "assemblies_fired": [
+        "CA-01",
+        "CA-26"
+      ]
+    },
+    {
+      "id": "DPS-10",
+      "name": "Election Legitimacy & Democratic Counter-Mobilization",
+      "summary": "During the week of February 26–March 5, 2026, the Trump administration and congressional Republicans intensified efforts to reshape election administration through federal intervention and restrictive voting legislation. Congressional Republicans introduced two sweeping election bills drawing from Trump's agenda, including provisions that would allow the attorney general and private citizens to sue election officials for noncompliance—a significant expansion of federal power over state election administration.[2] The administration continued its litigation strategy, with the FBI seizing 2020 ballots from Fulton County, Georgia, as part of what appears to be an ongoing investigation into alleged election malfeasance, while Trump himself called for the federal government to \"take over\" state elections and reiterated unsubstantiated claims about widespread fraud and undocumented immigrant voting.[2][4] Meanwhile, courts have begun pushing back: key provisions of Trump's March 2025 executive order on elections have been struck down in court, with a federal judge ruling that the President lacks constitutional authority to mandate proof-of-citizenship requirements.[4] The week underscores an accelerating structural conflict between executive/congressional efforts to centralize election control and judicial constraints on those powers, with state election officials warning that federal mandates risk disenfranchising voters and ignoring resource constraints.[2]\n\nHIGH\n\nASSEMBLIES: CA-45, CA-46, CA-48",
+      "activation_signal": "HIGH",
+      "assemblies_fired": [
+        "CA-45",
+        "CA-46"
+      ]
+    }
+  ],
+  "news_items": [
+    {
+      "name": "John Thune",
+      "domain": "Senate (SD, Republican)",
+      "raw_news": "**1. Thune accused Senate Democrats of using procedural tactics, including a partial government shutdown over Department of Homeland Security (DHS) funding, to keep Republican senators in Washington and hinder their midterm campaigning.**[1]  \nThis positions Thune as a key defender of **Congressional Gatekeeping & Fiscal Brinkmanship**, amplifying his influence as Senate Majority Leader by framing Democrats as obstructing GOP electoral success amid ongoing fiscal standoffs.[1]\n\n**2. On March 3, Thune publicly criticized Democrats for causing an 18-day shutdown of the DHS—the agency responsible for homeland defense and TSA operations—urging them to negotiate and reopen it amid global dangers.**[2]  \nThis reinforces Thune's leadership in **Congressional Gatekeeping & Fiscal Brinkmanship**, highlighting his role in high-stakes funding battles that test Republican control and national security priorities.[2]\n\n**3. Thune highlighted the Senate's 84-6 cloture vote on the bipartisan ROAD to Housing bill, which cuts red tape, boosts housing supply, and restricts institutional investors from single-family home ownership, aligning with presidential priorities.**[2]  \nBy advancing this legislation, Thune demonstrates his gatekeeping power over housing policy, potentially bridging to **Energy Permitting & Regime Competition** through regulatory reforms that enhance his bipartisan deal-making influence.[2]\n\n**4. On February 24, Thune tied Democrats' procedural delays to sabotaging GOP midterm campaigns by forcing hard votes and shutdowns, citing the ongoing DHS impasse as a \"weapon of attrition.\"**[1]  \nThis public statement bolsters Thune's stature in **Election Legitimacy & Democratic Counter-Mobilization**, portraying him as a vigilant leader countering perceived Democratic tactics that threaten Republican incumbents' reelection.[1]"
+    },
+    {
+      "name": "Susan M. Collins",
+      "domain": "Senate (ME, Republican)",
+      "raw_news": "**Sen. Susan Collins (R-ME) officially announced her bid for a sixth Senate term on Tuesday, March 3, 2026, launching her 2026 re-election campaign amid intense national scrutiny.[1][2]**\n\n- **Announcement of re-election bid:** Collins formally declared her candidacy for re-election in 2026, emphasizing her independence from party lines and support for Maine-specific issues. This matters for her influence as it positions her as a key moderate Republican defender in a blue-leaning state, potentially bolstering her gatekeeping role in Congress amid fiscal brinkmanship and regime tensions.[1][2]\n- **Response to Democratic challengers:** Collins shrugged off attacks from Gov. Janet Mills and Graham Platner, who criticized her as enabling Trump-era policies, while highlighting Maine voters' independence. This underscores her strategic positioning to retain cross-party support, critical for maintaining her sway in judicial and executive power debates within the GOP Senate majority.[1][2]\n- **Defense of independent voting record:** In interviews, Collins justified breaking with Trump on issues like war powers and impeachment, framing it as principled centrism that appeals to independents. This reinforces her position as a congressional gatekeeper, influencing defense realignment and counter-mobilization efforts by differentiating her from party hardliners.[2]"
+    },
+    {
+      "name": "Mitch McConnell",
+      "domain": "Senate (KY, Republican)",
+      "raw_news": "**1. McConnell publicly supported the U.S.-Israel joint military strikes on Iran, which targeted missile capabilities, navy assets, and resulted in the death of Ayatollah Ali Khamenei, stating he stands fully behind President Trump and the military.**[1]  \n**This positions McConnell as a key Republican ally to the Trump administration on **Defense Industrial Base Realignment** amid escalating geopolitical tensions, reinforcing his influence in shaping Senate consensus on executive military actions.**[1]\n\n**2. McConnell delivered Senate floor remarks opposing the Kaine War Powers Resolution (S.J.Res.104) ahead of a procedural vote, arguing it undermines the President's authority to defend U.S. interests against Iran's long-standing aggression.**[2][3][6]  \n**His stance asserts traditional Republican support for **Executive Power Consolidation**, potentially swaying the vote and solidifying his role as a gatekeeper on **Congressional Gatekeeping** over war powers during a major conflict.**[2][3]\n\n**3. A video emerged announcing that McConnell will not seek reelection to the Senate in 2026, marking the end of his seven-term tenure.**[8]  \n**This decision reshapes Kentucky's political landscape and national Republican dynamics, amplifying focus on his lame-duck influence over **Election Legitimacy** and ongoing fiscal brinkmanship in his final year.**[5][7][8]"
+    },
+    {
+      "name": "Sam Altman",
+      "domain": "CEO, OpenAI",
+      "raw_news": "**OpenAI struck a deal with the Pentagon on February 28, 2026, to deploy its AI models on classified networks after Anthropic rejected similar terms over restrictions on uses like autonomous weapons and domestic surveillance.[1][2]**\n\nThis positions OpenAI as the primary AI supplier to the US military amid Trump administration pressure on rivals, bolstering Altman's influence in **AI Compute & Model Supremacy** and **Defense Industrial Base Realignment** by securing government access over competitors.[1][2][3]\n\n**President Trump ordered federal agencies to cut ties with Anthropic, and Defense Secretary Pete Hegseth designated it a supply-chain risk, hours before OpenAI announced its Pentagon deal.[1][2]**\n\nThe move elevates OpenAI's strategic role in national security, enhancing Altman's leverage in **Defense Industrial Base Realignment** and **regime competition** by filling the gap left by Anthropic's exclusion from government contracts.[2][3]\n\n**Altman publicly admitted on March 2 that OpenAI rushed the Pentagon deal, amended the agreement to explicitly prohibit domestic surveillance of US persons, and shared the update in an internal message posted on X.[1][2]**\n\nThese concessions amid backlash demonstrate Altman's adaptability in navigating ethical and public scrutiny, reinforcing his position in **AI Compute & Model Supremacy** while addressing concerns in defense applications.[1][2]\n\n**During a March 3 all-hands meeting, Altman told employees OpenAI cannot make operational decisions on Pentagon uses of its tech, citing examples like potential Iran strikes or Venezuela operations.[2]**\n\nThis statement underscores Altman's pragmatic alignment with government authority over AI deployment, amplifying his influence in **Defense Industrial Base Realignment** and **Techno-Oligarchic Entanglement** by prioritizing national security partnerships.[2]\n\n**Altman stated at the Morgan Stanley conference that governments must remain more powerful than private AI companies and warned against firms abandoning democratic processes due to leadership disagreements, subtly rebuking Anthropic's CEO.[3]**\n\nThe remarks highlight Altman's philosophy of cooperation with the state, strengthening his stature in **Techno-Oligarchic Entanglement** and **regime competition** amid intensifying AI industry rivalries.[3]"
+    },
+    {
+      "name": "Jensen Huang",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Nvidia GTC 2026 Announcement (March 3, 2026):** Jensen Huang announced GTC 2026 for March 16-19 in San Jose, expecting over 30,000 attendees, with his keynote unveiling advancements across the AI stack from compute and AI factories to models and physical AI.[2][3][4]\n  - This positions Huang as the central figure defining the AI industrial era, reinforcing Nvidia's dominance in **AI Compute & Model Supremacy** and **Energy Permitting & Regime Competition** through infrastructure scaling.[2][4]\n\n- **Mystery Chip Tease (Recent Interview):** Huang stated Nvidia will reveal a \"chip that will surprise the world\" plus other unseen chips at GTC 2026, amid partnerships like SK Hynix for HBM4 and references to Vera Rubin challenges.[1]\n  - The bold claim amplifies Huang's influence in driving **AI Compute & Model Supremacy**, signaling Nvidia's push beyond current limits in AI data centers and computing power.[1]\n\n- **OpenAI Investment Rejection (March 5, 2026):** Huang declared Nvidia unlikely to invest $100 billion in OpenAI, citing restraint amid shifting AI investment dynamics.[8]\n  - This decision highlights Huang's strategic control over **Techno-Oligarchic Entanglement**, prioritizing Nvidia's independence and resource allocation in a maturing AI market over massive funding commitments.[8]\n\n- **AI Investment Era Signal (March 5, 2026):** Huang indicated an end to massive private AI investments while affirming relentless demand for Blackwell chips and H200 GPUs, amid energy sector shifts and CapEx volatility.[5]\n  - It underscores his pivotal role in **AI Compute & Model Supremacy** and **Energy Permitting & Regime Competition**, navigating infrastructure bottlenecks to sustain Nvidia's market leadership.[5]"
+    },
+    {
+      "name": "Bret Taylor",
+      "domain": "Co-Founder, Sierra; Chairman, OpenAI Board",
+      "raw_news": "**Bret Taylor made two key public statements on AI advancements and governance at major events within the past week.**\n\n1. On March 5, 2026, at Mobile World Congress in Barcelona, OpenAI Chairman Bret Taylor stated that the cost of running state-of-the-art AI models has dropped 100-fold in 18 months while quality improved 50 percent, predicting customer service calls could cost near one cent.[3] This underscores his influence in driving **AI compute efficiency** and model supremacy, positioning Sierra and OpenAI to dominate enterprise AI agents by reshaping telecom and software markets from cost centers to value drivers.[3]\n\n2. In the same March 5 speech, Taylor announced that AI agents for complex cases have improved 10-fold to 100-fold in the past year due to reasoning models, urging businesses to deploy them for most information tasks within a year and predicting a shift from SaaS platforms to discrete AI agents.[3] It bolsters his techno-oligarchic role by accelerating Sierra's enterprise adoption—exemplified by Singtel's deployment—and challenging incumbents, amplifying OpenAI's strategic oversight in AI infrastructure.[3]\n\n3. On the Uncapped podcast (aired around late February 2026), Taylor directed OpenAI board members to avoid using AI for meeting preparation, favoring concise written documents to foster clearer thinking and substantive discussions.[1][2] This policy sets a governance standard at OpenAI, reinforcing his authority to balance AI optimism with human-centric controls amid regulatory pressures he anticipates for AI oversight.[1][2]"
+    },
+    {
+      "name": "Lisa Su",
+      "domain": "Chair & CEO, AMD",
+      "raw_news": "**1. AMD secured a $100 billion deal with Meta for six gigawatts of AI computing power, potentially giving Meta up to 10% ownership of AMD's stock.**[1]  \n**This positions Lisa Su as a direct challenger to Nvidia in the AI chip market, enhancing her influence in securing major hyperscaler partnerships and elevating AMD's role in AI compute supremacy.**[1]\n\n**2. Lisa Su delivered the CES 2026 keynote in Las Vegas, unveiling the MI500 series AI accelerators on 2nm process with HBM4e memory, promising a 1000X performance increase over four years by 2027.**[2][3][7]  \n**The announcement reinforces her leadership in advancing AI hardware architectures, strengthening AMD's competitive edge in high-performance computing and model training/inference workloads.**[2]\n\n**3. Lisa Su appeared on CNBC's 'Squawk on the Street' on February 4, 2026, discussing AMD's quarterly earnings, AI demand surge, 2026 outlook, and partnership with OpenAI.**[4]  \n**Her public statements on robust AI growth and key relationships signal sustained market confidence, bolstering her position as a pivotal figure in the AI compute ecosystem amid intensifying competition.**[4]"
+    },
+    {
+      "name": "Elon Musk",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Elon Musk testified in a San Francisco federal court fraud trial on March 4-5, 2026, defending 2022 tweets that allegedly drove down Twitter's stock price to renegotiate or escape his $44 billion acquisition deal, with investors seeking up to $1 billion in damages.**[1][2][3][4][5]  \n  This legal battle tests Musk's accountability for **algorithmic narrative dominance** via X (formerly Twitter), potentially imposing major financial penalties that could constrain his control over the platform's influence operations.[1][2]\n\nNo other significant hard news—such as policy decisions, business moves, geopolitical events, or major public statements—on Musk's key areas (Executive Power Consolidation, AI Compute & Model Supremacy, Defense Industrial Base Realignment, Energy Permitting & Regime Competition, Techno-Oligarchic Entanglement, Election Legitimacy & Democratic Counter-Mobilization) appeared in the past 7 days based on available results. A vague Fourth Circuit reference lacks details on substance or outcome.[6]"
+    },
+    {
+      "name": "John Malone",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "# John Malone: Recent Significant Developments\n\n**1. Stepped down as chairman of Liberty Global and Liberty Media**\n\nJohn Malone, 84, is transitioning to chairman emeritus of both Liberty Global (effective January 1, 2026) and Liberty Media, with Mike Fries succeeding him at Liberty Global and Robert Bennett taking over Liberty Media.[1] This consolidation of his formal leadership positions reflects Malone's continued simplification of his corporate architecture while maintaining substantial shareholder stakes and influence over strategic direction.\n\n**2. Continued portfolio restructuring and asset disposition**\n\nLiberty Global has been aggressively managing its portfolio, including selling a 5% stake in ITV Plc and slashing hundreds of jobs to reduce operating costs.[1] These moves demonstrate Malone's ongoing effort to streamline his sprawling media and telecommunications empire while maintaining control over high-value assets like Formula One and the Atlanta Braves.\n\n**3. Apple secured exclusive U.S. television rights to Formula One**\n\nTwo weeks prior to this announcement, Apple Inc. struck a five-year deal with Liberty Media for exclusive television rights to Formula One races in the U.S.[1] This represents a significant monetization event for one of Malone's most valuable assets and signals his strategic pivot toward licensing premium content rather than direct distribution control."
+    },
+    {
+      "name": "Donald Trump",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**President Trump fired Homeland Security Secretary Kristi Noem and nominated Sen. Markwayne Mullin (R-Okla.) as replacement amid controversies over the immigration crackdown.[3][4]** This cabinet shakeup demonstrates Trump's executive authority to realign leadership in key security roles, potentially strengthening his consolidation of power by installing a loyal Senate ally.[3][4]\n\n**Trump stated that U.S. operations against Iran under Operation Epic Fury are \"far ahead of schedule,\" warning the regime is crumbling as strikes with Israel widen, risking regional escalation and energy disruptions.[3][4][5][6][7]** The assertive military posture advances defense realignment and geopolitical dominance, bolstering Trump's image as a decisive leader amid monetary-fiscal tensions from rising oil prices.[3][4][6]\n\n**The Justice Department released Epstein files containing unsubstantiated sexual assault allegations against Trump, which the White House dismissed as baseless from a source with criminal history, noting no charges or evidence of involvement in trafficking.[2]** While lacking legal impact, the release tests Trump's narrative dominance and election legitimacy, potentially fueling Democratic counter-mobilization despite White House rebuttals.[2]\n\n**Trump's endorsements in Texas primaries yielded mixed results, with most backed candidates advancing but key losses like Agriculture Commissioner Sid Miller and others heading to runoffs against Abbott-supported rivals.[1]** These outcomes highlight limits to Trump's congressional gatekeeping influence within the GOP, pressuring him to intervene further in runoffs to maintain factional control.[1]"
+    },
+    {
+      "name": "Alex Karp",
+      "domain": "Co-Founder & CEO, Palantir",
+      "raw_news": "- **Palantir Q4 earnings report on February 4, 2026, revealed 70% year-over-year revenue growth to $1.41 billion, with U.S. commercial up 137%, U.S. government up 66%, a $448 million U.S. Navy contract for shipbuilding supply chain modernization, and 2026 revenue guidance of $7.19 billion (61% growth).** This underscores Karp's success in **Defense Industrial Base Realignment** and **AI Compute & Model Supremacy**, solidifying Palantir's dominance in AI-driven defense contracts and commercial adoption, enhancing his influence as a key architect of U.S. techno-strategic power.[2][4]\n\n- **At the a16z American Dynamism Summit (early March 2026), Karp warned Silicon Valley CEOs that pursuing AI-driven white-collar job cuts while opposing military ties would lead to government nationalization of their technology, calling doubters \"retarded.\"** The statement amplifies Karp's **Executive Power Consolidation** and **Techno-Oligarchic Entanglement** stance, positioning him as a confrontational advocate for defense-AI alignment and pressuring peers to integrate with national security priorities.[1][3][5]\n\n- **During the Q4 earnings call (February 4, 2026), Karp criticized Europe and Canada for hesitance in AI adoption, framing a global divide between \"AI haves\" (like U.S. clients) and \"have-nots,\" while highlighting Palantir's U.S.-centric growth (93% YoY, 77% of revenue).** This geopolitical broadside bolsters Karp's role in **AI Compute & Model Supremacy**, justifying Palantir's U.S. focus amid surging defense demand and elevating his voice in international AI policy debates.[4]"
+    },
+    {
+      "name": "Ron DeSantis",
+      "domain": "Governor of Florida",
+      "raw_news": "1. **Medical Freedom Bill Support**: On March 5, 2026, Gov. Ron DeSantis publicly endorsed SB 1756, a bill advancing through the Florida Senate that expands vaccine exemptions for schoolchildren based on parental conscience, mandates CDC information disclosure before pediatric vaccinations, allows pharmacists to dispense ivermectin to adults with prescriptions, and grants legal immunity to practitioners prescribing it.[1]  \n   This endorsement reinforces DeSantis's influence in consolidating executive power through health policy advocacy, positioning him as a national leader in challenging federal vaccine mandates and administrative health regulations.[1]\n\n2. **Federal Judge Blocks Terrorist Designation**: On March 4, 2026, U.S. District Judge Mark E. Walker issued a preliminary injunction blocking enforcement of DeSantis's prior executive order designating CAIR and the Muslim Brotherhood as foreign terrorist organizations, citing First Amendment violations and federal preemption over such designations.[2][5]  \n   The ruling limits DeSantis's executive authority in national security matters, potentially weakening his judicial deconstruction efforts against perceived administrative overreach while highlighting tensions with federal courts.[2]\n\n3. **Four Judicial Appointments**: On March 3, 2026, Gov. DeSantis announced four new judicial appointments to Florida courts.[4][6]  \n   These appointments enhance his long-term influence over the state's judiciary, advancing efforts to reshape judicial interpretations in line with priorities like administrative state challenges and executive power.[4]"
+    },
+    {
+      "name": "Chuck Grassley",
+      "domain": "Senate (IA, Republican)",
+      "raw_news": "**Senator Chuck Grassley issued a video statement on Monday supporting President Trump's upcoming Iowa visit and praising Republican delivery on 2024 campaign promises like lowering costs, securing the border, and reducing crime.[1]**\n\nThis endorsement reinforces Grassley's role in **Congressional Gatekeeping & Fiscal Brinkmanship** by aligning with Trump on fiscal and security priorities, bolstering his influence within the GOP amid ongoing regime tensions.\n\n**Grassley expressed cautious support for a bipartisan Senate health care proposal emerging from an 11th-hour meeting on Monday night, insisting it must include an income eligibility cap and anti-fraud measures to address quadrupling premiums for Iowans.[2]**\n\nHis conditions highlight his gatekeeping power in health policy negotiations, potentially shaping **Monetary-Fiscal-Financial Regime Tension** by curbing ACA subsidy costs as they near expiration.\n\n**Grassley indicated that Republicans may consider extending Affordable Care Act subsidies when health care debates resume next month, following opposition during the recent 43-day government shutdown centered on the issue.[3]**\n\nThis shift signals his pivotal sway in **Congressional Gatekeeping & Fiscal Brinkmanship**, influencing fiscal outcomes and ACA reforms under Trump administration pressures.\n\n**Grassley met recently with Turning Point USA CEO Erika Kirk, widow of Charlie Kirk, in his D.C. office and reaffirmed his long-held support for cameras in federal courts to enhance judicial transparency, as stated in a November Senate speech.[4]**\n\nThe meeting advances his leadership in **Judicial Deconstruction of the Administrative State** by promoting judiciary reforms, strengthening his position as Senate Judiciary chair on election legitimacy and public trust issues."
+    },
+    {
+      "name": "Cynthia M. Lummis",
+      "domain": "Senate (WY, Republican)",
+      "raw_news": "**Senator Cynthia Lummis announced on December 19, 2025, that she will not seek re-election to the U.S. Senate in 2026 after serving one term.[1][2][3]**\n\n- **Announcement of retirement:** U.S. Senator Cynthia Lummis (R-WY) stated she will not run for re-election in 2026, citing exhaustion from intense legislative sessions and a self-described mismatch as a \"sprinter in a marathon.\"[1][2][3]  \n  **Significance:** This decision diminishes her direct influence on key areas like **Monetary-Fiscal-Financial Regime Tension** (e.g., her \"Crypto Queen\" advocacy) and **Energy Permitting & Regime Competition**, as she exits after just one term despite Trump's endorsement, potentially shifting Wyoming's Senate seat to successors like Rep. Harriet Hageman.[2][3]\n\nNo other hard news items—such as policy decisions, legal actions, business moves, geopolitical events, or significant public statements—on Lummis appeared in the past 7 days matching her key activity areas.[1][2][3][4]"
+    },
+    {
+      "name": "Brett M. Kavanaugh",
+      "domain": "Associate Justice, US Supreme Court",
+      "raw_news": "**1. On March 2, 2026, the Supreme Court issued a split emergency ruling siding with parents challenging California school policies on transgender student gender identity disclosure, restoring a district court injunction blocking the policies on Free Exercise and Due Process grounds.**  \nJustice Kavanaugh joined Justice Barrett's concurrence, joined by Chief Justice Roberts, defending the majority's interim relief as a measured response to irreparable harm to parental rights rather than a merits decision, reinforcing his role in conservative efforts to prioritize religious liberties over state administrative mandates.[1][2][3][4][6]\n\n**2. During oral arguments in a case on whether federal law preempts state negligent hiring claims against freight brokers, Justice Kavanaugh on approximately March 3-4, 2026, questioned the practicalities of broker liability, including driver vetting for English proficiency and drug use.**  \nHis emphasis on \"common sense\" and real-world burdens highlights his influence in judicial deconstruction of regulatory overreach, potentially limiting state claims against businesses under federal transportation law.[1]\n\n**3. In a dissent in the Learning Resources tariff refunds case (decided around early March 2026), Justice Kavanaugh criticized the refund process for Trump's tariffs as a \"mess,\" arguing against broad remedies after the Court's prior curbs on universal injunctions in Trump v. CASA.**  \nThis stance underscores his commitment to restraining judicial interference in executive actions, aligning with consolidation of executive power by prioritizing separation-of-powers concerns over retroactive fiscal disruptions.[5]"
+    },
+    {
+      "name": "Russell M. Nelson",
+      "domain": "President of The Church of Jesus Christ of Latter-day Saints",
+      "raw_news": "**No significant hard news items about Russell M. Nelson from February 26 to March 5, 2026, matching the criteria of policy decisions, business moves, legal actions, geopolitical events, or significant public statements.**\n\nSearch results confirm Nelson's death on September 27, 2025[1], with subsequent leadership by Dallin H. Oaks, including a BYU devotional on February 10, 2026, referencing Nelson's past warnings[4][5], and an Oaks invitation video recalling Nelson's earlier call for young adults to attend institute[3]. These fall outside the 7-day window or involve routine references rather than new actions by Nelson. No items align with algorithmic narrative dominance or election legitimacy themes."
+    },
+    {
+      "name": "Gavin Newsom",
+      "domain": "Governor of California",
+      "raw_news": "1. **CARE Court Accountability Measures and Funding Announcement**: On March 2, 2026, Governor Newsom announced new statewide accountability tools for counties implementing the CARE Act (CARE Court) to accelerate services for the chronically mentally ill, alongside $291 million in funding for homelessness, mental health services, and housing including Homekey Plus awards.[1][3]  \n   This reinforces Newsom's executive authority over local governments by imposing performance metrics and tying funding to outcomes, strengthening his position as a decisive leader on California's persistent homelessness crisis amid his final months in office.[1][3]\n\n2. **Small Business Innovation Funding**: On March 5, 2026, Newsom announced over $2 million in state funding for small businesses innovating in California.[3]  \n   The move bolsters his influence in fostering economic competitiveness and technological advancement, aligning with priorities like AI compute supremacy and energy innovation while countering narratives of over-regulation.[3]\n\n3. **Public Criticism of Trump on Jimmy Kimmel Live**: On March 4, 2026, Newsom appeared on Jimmy Kimmel Live, detailing personal phone calls with Trump, accusing him of federalizing the National Guard in Los Angeles and deploying military assets to suppress voting, and predicting Trump would be \"crushed\" in the midterms due to unpopularity.[2][4]  \n   These statements elevate Newsom's national profile in Democratic counter-mobilization against Trump, positioning him as a key antagonist in election legitimacy debates and potential 2028 contender through high-visibility media confrontations.[2][4]\n\n4. **Housing and Regulatory Reforms Highlighted**: During his March 4 Kimmel appearance and March 2 event, Newsom touted a 9% drop in unsheltered homelessness—the first in 15 years—significant housing and mental health reforms, land use changes, and 28 executive orders to cut regulatory barriers, including accelerated permitting post-LA fires.[1][2]  \n   These policy achievements and executive actions demonstrate tangible progress on fiscal brinkmanship and energy permitting, enhancing his gubernatorial legacy and appeal as a pragmatic reformer capable of delivering results.[1][2]"
+    },
+    {
+      "name": "Ken Langone",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news about Ken Langone matching the specified criteria (policy decisions, business moves, legal actions, geopolitical events, or significant public statements) appears in the search results from the past 7 days (approximately February 26 to March 5, 2026).[1][2][3] The available results cover outdated events, such as his 2014 Forbes ranking and past philanthropy, none of which fall within the timeframe or qualify as hard news in his key areas of activity.[1][2][3]"
+    },
+    {
+      "name": "Abigail Johnson",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**No significant hard news items matching the criteria (policy decisions, business moves, legal actions, geopolitical events, or significant public statements by Abigail Johnson) were found in the past 7 days (2026-02-26 to 2026-03-05).** Recent search results only reference her longstanding Wikipedia entry, including a 2026 mention of Les Wexner naming her in an Epstein-related deposition (not dated to the query window), and her 2025 Forbes 400 ranking as Massachusetts' richest person with $35-35.7 billion net worth tied to Fidelity's crypto expansions.[1][2][3] These do not qualify as new events within the specified timeframe or categories."
+    },
+    {
+      "name": "Alice Walton",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items matching the criteria—policy decisions, business moves, legal actions, geopolitical events, or significant public statements by Alice Walton—were found in the past 7 days (approximately 2026-02-26 to 2026-03-05).[1][2]\n\nThe available search results only reference the Forbes 400 list for 2025, noting her status as America's richest woman with a $106 billion net worth (up from $89.2 billion), alongside mentions of her ongoing philanthropy like the Alice L. Walton School of Medicine, but this appears to be an annual recap without dated events in the specified timeframe.[1][2]"
+    },
+    {
+      "name": "Pam Bondi",
+      "domain": "US Attorney General",
+      "raw_news": "1. **House Oversight Committee subpoenaed AG Pam Bondi** on March 5, 2026, to testify in a closed-door deposition about the DOJ's handling of Jeffrey Epstein files, passing with bipartisan support including five Republicans.[1][2]  \n   This legal action challenges Bondi's authority over DOJ operations, potentially exposing internal decisions to congressional scrutiny and testing her ability to consolidate executive power amid high-profile investigations.[1][2]\n\n2. **AG Bondi signed a draft rule** on March 4, 2026, proposing limits on state ethics probes into DOJ lawyers, allowing AG review and suspension of such investigations to shield them from bar association scrutiny.[5]  \n   The move advances **judicial deconstruction of the administrative state** by protecting DOJ attorneys pursuing Trump-era policies from external accountability, bolstering Bondi's influence in insulating executive legal actions.[5]\n\n3. **AG Bondi rescinded a policy** on March 4, 2026, banning politically appointed DOJ employees from attending campaign events or fundraisers, reversing restrictions from the prior administration while affirming Hatch Act compliance.[6]  \n   This policy shift enhances **executive power consolidation** by freeing political appointees for partisan activities, strengthening Bondi's position in aligning DOJ with administration goals on election legitimacy and counter-mobilization.[6]\n\n4. **House Oversight Committee sent a letter** to AG Bondi on March 2, 2026, demanding a briefing by March 9 on DOJ assessments of funding sources for social unrest obstructing ICE operations, including potential foreign influence and nonprofit fraud laundering.[3]  \n   It underscores Bondi's role in probing **election legitimacy & democratic counter-mobilization** through investigations of organized resistance, amplifying her influence in framing unrest as foreign-tied threats to law enforcement.[3]"
+    },
+    {
+      "name": "J.B. Pritzker",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Pritzker launched his campaign for a third term as Illinois governor on June 26, 2025, criticizing the Trump administration's policies on tariffs and chaos while positioning himself as a strong Democratic leader.** This solidifies his **executive power consolidation** in a deep blue state without term limits, enhancing his national profile amid presidential speculation and self-funding capability.[1]\n\n- **Pritzker officially filed petitions with over thousands of signatures for the 2026 Illinois primary on the petition deadline, committing to fight for education, healthcare, and jobs without pledging a full term.** The move advances his **election legitimacy** efforts and **democratic counter-mobilization** against Republicans, signaling potential national ambitions in a race overshadowed by a GOP candidate's family tragedy.[2]\n\n- **In his 2026 State of the State address, Pritzker demanded federal funds withheld by the Trump administration, touted 10 credit upgrades since 2018, a record $48.5 billion budget, and new renewable/nuclear energy initiatives including lifting a nuclear moratorium and pressuring PJM grid operator.** These actions underscore his **energy permitting & regime competition** push for nuclear and renewables, alongside **techno-oligarchic entanglement** via economic growth at O'Hare and fiscal responsibility claims.[3]\n\n- **Pritzker announced the negotiation of $1 billion in medical debt elimination for 520,000 Illinoisans and proposed continuing the program, while decrying high healthcare costs exacerbated by Trump's budget.** This policy decision bolsters his influence on healthcare affordability, countering federal policies and appealing to working families in his **democratic counter-mobilization** strategy.[3]"
+    },
+    {
+      "name": "Lukas Walton",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items matching the criteria—policy decisions, business moves, legal actions, geopolitical events, or significant public statements by Lukas Walton—were found in the past 7 days (approximately 2026-02-26 to 2026-03-05). Search results only reference a Forbes state-level wealth ranking released Wednesday (likely March 4, 2026), naming Walton as Illinois' richest person at $39B net worth tied to Walmart stakes and Builders Vision, but this is a routine annual list update without new events or actions[1]. Global billionaire lists also lack recent Walton-specific developments[2]."
+    },
+    {
+      "name": "Pierre Omidyar",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**No significant hard news about Pierre Omidyar from approximately February 26 to March 5, 2026, was found in the search results matching the specified criteria of policy decisions, business moves, legal actions, geopolitical events, or significant public statements in his key areas.**\n\n- The only item dated within the timeframe is an **eBay stalking scandal civil suit** that settled days before trial on **February 25, 2026**, ending a 5-year legal fight while leaving key questions unanswered[8]. This settlement minimally affects Omidyar's influence or position, as it involves eBay operations rather than his personal philanthropy, AI, or political activities."
+    },
+    {
+      "name": "Henry Kravis",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **KKR sells nearly 20 million shares in BrightSpring Health Services.** On March 2, 2026, KKR Phoenix Aggregator L.P. agreed to sell 19,715,000 shares at $40.961 per share in a secondary offering that closed March 4, retaining about 21.8% ownership with a 60-day lock-up.[2]\n\n  This business move allows KKR to realize significant liquidity from a healthcare investment while maintaining substantial influence over the company, underscoring Kravis's ongoing control in alternative asset strategies.[2]\n\n- **Henry Kravis warns against politicizing the Federal Reserve amid Trump pressure.** Kravis stated in an interview that central bank independence is essential, citing admiration for Fed Chair Powell and Turkey as a cautionary example of political interference.[3]\n\n  The public statement positions Kravis as a defender of monetary policy autonomy, amplifying his influence in debates over **Monetary-Fiscal-Financial Regime Tension** during a period of potential rate cuts.[3]\n\n- **KKR commits to deploying $20 billion in India over the next decade.** In a recent interview, Kravis announced plans to invest heavily in India, praising its business quality and advocating private credit to finance small and medium enterprises.[1]\n\n  This pledge expands KKR's global footprint into high-growth emerging markets, enhancing Kravis's position in international private equity and infrastructure amid **Defense Industrial Base Realignment** opportunities.[1]\n\n- **KKR director purchases $4.72 million in company stock.** On March 5, 2026, a KKR & Co. Inc. director bought shares worth $4,723,500, signaling internal confidence amid strong quarterly revenue growth.[4]\n\n  The insider transaction reinforces stability in KKR's leadership structure, bolstering Kravis's authority as co-founder in a firm navigating **Techno-Oligarchic Entanglement** through private markets expansion.[4]"
+    },
+    {
+      "name": "Tom Cotton",
+      "domain": "Senate (AR, Republican)",
+      "raw_news": "**1. Senator Tom Cotton announced his campaign for reelection to the U.S. Senate on March 5, 2026, via posts on X, pledging to secure the border, lower prices, and keep America safe while highlighting endorsements from Arkansas statewide officials, the congressional delegation, and most Republican state legislators.[1]**\n\nThis early launch as the third-ranking Senate Republican and Intelligence Committee Chairman solidifies his position within the party ahead of the general election, enhancing his influence on national security and fiscal policies.[1]\n\n**2. The Associated Press projected on March 4, 2026, that Tom Cotton won the Arkansas Republican Primary for U.S. Senate with 82% of the vote reported, defeating challengers Micah Ashby and Jeb Little.[2]**\n\nThe dominant primary victory positions Cotton strongly for the November general election, reinforcing his gatekeeping role in Congress and leverage on defense realignment and executive power issues.[2]\n\n**3. On March 5, 2026, Senator Cotton appeared on Fox News with Sean Hannity to praise U.S. surgical strikes eliminating Iranian leaders, including Ali Hami and security council members, as part of President Trump's strategy to prevent Iran from acquiring nuclear weapons without ground troops.[3]**\n\nCotton's public endorsement of these precision operations amplifies his voice on defense industrial base realignment and geopolitical deterrence, bolstering his stature as a key Republican hawk on Intelligence and foreign policy.[3]"
+    },
+    {
+      "name": "Jeremy Jacobs, Sr. & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items matching the criteria—policy decisions, business moves, legal actions, geopolitical events, or significant public statements by Jeremy Jacobs Sr. or family in the key areas of **Techno-Oligarchic Entanglement**, **Election Legitimacy**, or **Democratic Counter-Mobilization**—appear in the search results from approximately February 26 to March 5, 2026.\n\nThe available results consist solely of older profiles (e.g., 2025 Influence 125 list[1], Wikipedia career summary[2]) and a 2026 hockey power ranking that highlights Jacobs' longstanding NHL governance role without referencing recent events[3]."
+    }
+  ],
+  "social_signals": "",
+  "neurons_conscious": [
+    "John Thune",
+    "Susan M. Collins",
+    "Mitch McConnell",
+    "Sam Altman",
+    "Jensen Huang",
+    "Bret Taylor",
+    "Lisa Su",
+    "Elon Musk",
+    "John Malone",
+    "Donald Trump",
+    "Alex Karp",
+    "Ron DeSantis",
+    "Chuck Grassley",
+    "Cynthia M. Lummis"
+  ],
+  "neurons_spontaneous": [
+    "Brett M. Kavanaugh",
+    "Russell M. Nelson",
+    "Gavin Newsom",
+    "Ken Langone",
+    "Abigail Johnson",
+    "Alice Walton",
+    "Pam Bondi",
+    "J.B. Pritzker",
+    "Lukas Walton",
+    "Pierre Omidyar",
+    "Henry Kravis",
+    "Tom Cotton",
+    "Jeremy Jacobs, Sr. & family"
+  ],
+  "neurons_skipped": [
+    "Mark Zuckerberg",
+    "Jerome H. Powell",
+    "Clarence Thomas",
+    "Jeff Bezos",
+    "Susie Wiles",
+    "Neil M. Gorsuch",
+    "Tim Cook",
+    "Scott Bessent",
+    "Andy Jassy",
+    "Sundar Pichai",
+    "Satya Nadella",
+    "Robert F. Kennedy Jr.",
+    "Stephen Schwarzman",
+    "Leonard Leo",
+    "Pete Hegseth",
+    "Sonia Sotomayor",
+    "Peter Thiel",
+    "Larry Ellison",
+    "Marc Rowan",
+    "Miriam Adelson & family",
+    "Michael Bloomberg",
+    "Kash Patel",
+    "Amy Coney Barrett",
+    "Charles Koch & family",
+    "Ketanji Brown Jackson",
+    "Ken Griffin",
+    "Sean Hannity",
+    "Samuel A. Alito Jr.",
+    "Thomas Kurian",
+    "Mustafa Suleyman",
+    "Terrence Pegula",
+    "John G. Roberts Jr.",
+    "Rob Walton & family",
+    "Richard Uihlein",
+    "Laurene Powell Jobs",
+    "Stephen Ross",
+    "Judy Faulkner",
+    "Jerry Jones & family",
+    "Bob Parsons",
+    "Jim Walton & family",
+    "David Geffen",
+    "Bill Gates",
+    "Eric Schmidt",
+    "Stanley Druckenmiller",
+    "David Rubenstein",
+    "Fred Smith",
+    "David Tepper",
+    "Ray Dalio",
+    "Brian Armstrong",
+    "Paul Tudor Jones, II.",
+    "Elena Kagan",
+    "Michael Rubin",
+    "Jeff Yass",
+    "Marijke Mars",
+    "Julia Koch & family",
+    "Kelcy Warren",
+    "Leon Black",
+    "Paul Singer",
+    "Lynda Resnick",
+    "Ronald Lauder",
+    "Philip Anschutz",
+    "George Roberts",
+    "Brian Chesky",
+    "Brian Ballard",
+    "Ann Walton Kroenke",
+    "MacKenzie Scott",
+    "Charles E. Schumer",
+    "Charles Schwab",
+    "Michael Dell",
+    "Steve Scalise",
+    "Joe Rogan",
+    "Ted Cruz",
+    "Mitchell Rales",
+    "Melinda French Gates",
+    "Marc Benioff",
+    "Suzanne Clark",
+    "David Bonderman",
+    "Warren Buffett",
+    "Rupert Murdoch & family",
+    "Josh Harris",
+    "Larry Page",
+    "Greg Abbott",
+    "Stephen Feinberg",
+    "Mike Lee",
+    "Sergey Brin",
+    "Steve Cohen",
+    "Phil Knight & family",
+    "Carl Icahn",
+    "Thomas Peterffy",
+    "William Ackman",
+    "Victoria Mars",
+    "Patty Murray",
+    "John Mars",
+    "Hakeem S. Jeffries",
+    "Matthew J. Kacsmaryk",
+    "Rick Scott",
+    "Carrie Severino",
+    "Christopher Murphy",
+    "Charlie Kirk",
+    "Kevin Roberts",
+    "Richard J. Durbin",
+    "George Soros",
+    "Thomas Frist, Jr. & family",
+    "Jonathan Gray",
+    "Stewart Resnick",
+    "Edward Johnson, IV.",
+    "Thomas Pritzker",
+    "Palmer Luckey",
+    "Lynn Schusterman & family",
+    "Josh Hawley",
+    "Alexander Karp",
+    "Len Blavatnik",
+    "Demis Hassabis",
+    "Lindsey Graham",
+    "Alexandria Ocasio-Cortez",
+    "Antony Ressler",
+    "Elise M. Stefanik",
+    "Mark Walter",
+    "Dario Amodei",
+    "Daniela Amodei",
+    "Christy Walton",
+    "Donald Newhouse",
+    "Ernest Garcia, III"
+  ],
+  "spontaneous_cap": 13
+}

@@ -1,0 +1,876 @@
+{
+  "version": 1,
+  "created": "2026-03-07",
+  "last_updated": "2026-03-07",
+  "week_count": 1,
+  "last_briefing_applied": "weekly_briefing_raw_2026-03-05.json",
+  "config": {
+    "decay_rate": 0.1,
+    "learning_rate": 0.15,
+    "disruption_rate": 0.08,
+    "cooperative_boost": 0.05,
+    "adversarial_drop": 0.06,
+    "dps_decay_rate": 0.05,
+    "dps_momentum_step": 0.08,
+    "prune_threshold": 0.04,
+    "edge_display_threshold": 0.15
+  },
+  "neuron_dps_weights": {
+    "Elon Musk": {
+      "DPS-01": 0.81,
+      "DPS-04": 0.72,
+      "DPS-06": 0.72,
+      "DPS-07": 0.72,
+      "DPS-08": 0.45,
+      "DPS-09": 0.9,
+      "DPS-10": 0.45
+    },
+    "Mark Zuckerberg": {
+      "DPS-04": 0.63,
+      "DPS-07": 0.81,
+      "DPS-09": 0.63,
+      "DPS-10": 0.45
+    },
+    "Jerome H. Powell": {
+      "DPS-05": 0.9,
+      "DPS-03": 0.36
+    },
+    "Clarence Thomas": {
+      "DPS-02": 0.81,
+      "DPS-01": 0.45,
+      "DPS-09": 0.36,
+      "DPS-10": 0.45
+    },
+    "Jeff Bezos": {
+      "DPS-04": 0.54,
+      "DPS-06": 0.45,
+      "DPS-07": 0.45,
+      "DPS-08": 0.36,
+      "DPS-09": 0.63
+    },
+    "Susie Wiles": {
+      "DPS-01": 0.81,
+      "DPS-03": 0.63,
+      "DPS-09": 0.45,
+      "DPS-10": 0.54
+    },
+    "Donald Trump": {
+      "DPS-01": 0.9,
+      "DPS-02": 0.54,
+      "DPS-03": 0.72,
+      "DPS-05": 0.72,
+      "DPS-06": 0.54,
+      "DPS-07": 0.63,
+      "DPS-08": 0.72,
+      "DPS-09": 0.81,
+      "DPS-10": 0.81
+    },
+    "Brett M. Kavanaugh": {
+      "DPS-02": 0.72,
+      "DPS-01": 0.36,
+      "DPS-10": 0.36
+    },
+    "Neil M. Gorsuch": {
+      "DPS-02": 0.81,
+      "DPS-01": 0.45,
+      "DPS-08": 0.45
+    },
+    "Tim Cook": {
+      "DPS-04": 0.45,
+      "DPS-09": 0.54,
+      "DPS-07": 0.18
+    },
+    "Scott Bessent": {
+      "DPS-05": 0.81,
+      "DPS-01": 0.45,
+      "DPS-03": 0.54,
+      "DPS-08": 0.36,
+      "DPS-09": 0.36
+    },
+    "Andy Jassy": {
+      "DPS-04": 0.63,
+      "DPS-06": 0.45,
+      "DPS-08": 0.45,
+      "DPS-09": 0.45
+    },
+    "Sundar Pichai": {
+      "DPS-04": 0.72,
+      "DPS-07": 0.63,
+      "DPS-06": 0.36,
+      "DPS-09": 0.54
+    },
+    "Satya Nadella": {
+      "DPS-04": 0.81,
+      "DPS-06": 0.45,
+      "DPS-09": 0.54
+    },
+    "Robert F. Kennedy Jr.": {
+      "DPS-01": 0.45,
+      "DPS-07": 0.36,
+      "DPS-10": 0.27
+    },
+    "Stephen Schwarzman": {
+      "DPS-05": 0.45,
+      "DPS-09": 0.63,
+      "DPS-04": 0.36,
+      "DPS-08": 0.36,
+      "DPS-03": 0.27
+    },
+    "Leonard Leo": {
+      "DPS-02": 0.9,
+      "DPS-01": 0.63,
+      "DPS-10": 0.63,
+      "DPS-08": 0.45,
+      "DPS-09": 0.54,
+      "DPS-07": 0.45
+    },
+    "Pete Hegseth": {
+      "DPS-01": 0.63,
+      "DPS-06": 0.72,
+      "DPS-09": 0.36
+    },
+    "Sonia Sotomayor": {
+      "DPS-01": 0.36,
+      "DPS-02": 0.72,
+      "DPS-10": 0.45
+    },
+    "Sam Altman": {
+      "DPS-04": 0.9,
+      "DPS-06": 0.36,
+      "DPS-08": 0.45,
+      "DPS-09": 0.63
+    },
+    "Peter Thiel": {
+      "DPS-01": 0.54,
+      "DPS-04": 0.54,
+      "DPS-06": 0.63,
+      "DPS-09": 0.765,
+      "DPS-10": 0.36
+    },
+    "Larry Ellison": {
+      "DPS-04": 0.63,
+      "DPS-06": 0.45,
+      "DPS-08": 0.36,
+      "DPS-09": 0.72
+    },
+    "Marc Rowan": {
+      "DPS-05": 0.54,
+      "DPS-09": 0.45,
+      "DPS-04": 0.18
+    },
+    "Russell M. Nelson": {
+      "DPS-10": 0.27,
+      "DPS-07": 0.18
+    },
+    "Miriam Adelson & family": {
+      "DPS-01": 0.36,
+      "DPS-09": 0.54,
+      "DPS-10": 0.45
+    },
+    "Michael Bloomberg": {
+      "DPS-05": 0.36,
+      "DPS-07": 0.45,
+      "DPS-08": 0.45,
+      "DPS-09": 0.36,
+      "DPS-10": 0.45
+    },
+    "Jensen Huang": {
+      "DPS-04": 0.9,
+      "DPS-06": 0.45,
+      "DPS-08": 0.45,
+      "DPS-09": 0.54
+    },
+    "Kash Patel": {
+      "DPS-01": 0.765,
+      "DPS-10": 0.45,
+      "DPS-07": 0.36,
+      "DPS-02": 0.36,
+      "DPS-09": 0.27
+    },
+    "Amy Coney Barrett": {
+      "DPS-02": 0.765,
+      "DPS-01": 0.405,
+      "DPS-10": 0.405,
+      "DPS-05": 0.27
+    },
+    "Charles Koch & family": {
+      "DPS-01": 0.36,
+      "DPS-02": 0.54,
+      "DPS-05": 0.45,
+      "DPS-07": 0.36,
+      "DPS-08": 0.54,
+      "DPS-09": 0.54,
+      "DPS-10": 0.36
+    },
+    "Ketanji Brown Jackson": {
+      "DPS-01": 0.36,
+      "DPS-02": 0.63,
+      "DPS-10": 0.45
+    },
+    "Ken Griffin": {
+      "DPS-01": 0.27,
+      "DPS-03": 0.27,
+      "DPS-05": 0.63,
+      "DPS-09": 0.54,
+      "DPS-10": 0.45
+    },
+    "Gavin Newsom": {
+      "DPS-01": 0.45,
+      "DPS-04": 0.36,
+      "DPS-08": 0.54,
+      "DPS-10": 0.63,
+      "DPS-07": 0.45,
+      "DPS-02": 0.27,
+      "DPS-03": 0.27
+    },
+    "Sean Hannity": {
+      "DPS-01": 0.54,
+      "DPS-07": 0.72,
+      "DPS-09": 0.36,
+      "DPS-10": 0.54
+    },
+    "Samuel A. Alito Jr.": {
+      "DPS-01": 0.45,
+      "DPS-02": 0.81,
+      "DPS-05": 0.27,
+      "DPS-08": 0.36,
+      "DPS-10": 0.45
+    },
+    "Thomas Kurian": {
+      "DPS-04": 0.63,
+      "DPS-06": 0.36,
+      "DPS-09": 0.36
+    },
+    "John Thune": {
+      "DPS-01": 0.45,
+      "DPS-02": 0.27,
+      "DPS-03": 0.81,
+      "DPS-05": 0.36,
+      "DPS-06": 0.27,
+      "DPS-08": 0.36,
+      "DPS-10": 0.36
+    },
+    "Mustafa Suleyman": {
+      "DPS-04": 0.72,
+      "DPS-07": 0.36,
+      "DPS-09": 0.45,
+      "DPS-08": 0.27,
+      "DPS-02": 0.18
+    },
+    "Terrence Pegula": {
+      "DPS-08": 0.27,
+      "DPS-09": 0.18
+    },
+    "John G. Roberts Jr.": {
+      "DPS-01": 0.54,
+      "DPS-02": 0.9,
+      "DPS-05": 0.36,
+      "DPS-10": 0.63
+    },
+    "Ken Langone": {
+      "DPS-01": 0.27,
+      "DPS-05": 0.27,
+      "DPS-09": 0.36,
+      "DPS-10": 0.27
+    },
+    "Rob Walton & family": {
+      "DPS-05": 0.27,
+      "DPS-08": 0.18,
+      "DPS-09": 0.27
+    },
+    "Richard Uihlein": {
+      "DPS-01": 0.45,
+      "DPS-09": 0.45,
+      "DPS-10": 0.54
+    },
+    "Laurene Powell Jobs": {
+      "DPS-07": 0.45,
+      "DPS-09": 0.36,
+      "DPS-10": 0.45
+    },
+    "Susan M. Collins": {
+      "DPS-01": 0.45,
+      "DPS-02": 0.36,
+      "DPS-03": 0.54,
+      "DPS-05": 0.36,
+      "DPS-06": 0.27,
+      "DPS-10": 0.36
+    },
+    "Stephen Ross": {
+      "DPS-05": 0.27,
+      "DPS-08": 0.18,
+      "DPS-09": 0.27,
+      "DPS-10": 0.18
+    },
+    "Abigail Johnson": {
+      "DPS-05": 0.45,
+      "DPS-09": 0.27
+    },
+    "Judy Faulkner": {
+      "DPS-04": 0.27,
+      "DPS-09": 0.18
+    },
+    "Jerry Jones & family": {
+      "DPS-07": 0.18,
+      "DPS-09": 0.27
+    },
+    "Bob Parsons": {
+      "DPS-09": 0.18
+    },
+    "Jim Walton & family": {
+      "DPS-05": 0.27,
+      "DPS-08": 0.18,
+      "DPS-09": 0.27,
+      "DPS-10": 0.18
+    },
+    "David Geffen": {
+      "DPS-07": 0.27,
+      "DPS-09": 0.27,
+      "DPS-10": 0.27
+    },
+    "Bill Gates": {
+      "DPS-04": 0.45,
+      "DPS-08": 0.45,
+      "DPS-09": 0.45
+    },
+    "Eric Schmidt": {
+      "DPS-04": 0.72,
+      "DPS-06": 0.585,
+      "DPS-08": 0.315,
+      "DPS-09": 0.63
+    },
+    "Stanley Druckenmiller": {
+      "DPS-05": 0.585,
+      "DPS-03": 0.27,
+      "DPS-09": 0.315
+    },
+    "Chuck Grassley": {
+      "DPS-01": 0.45,
+      "DPS-02": 0.36,
+      "DPS-03": 0.54,
+      "DPS-05": 0.27,
+      "DPS-10": 0.36
+    },
+    "David Rubenstein": {
+      "DPS-05": 0.45,
+      "DPS-06": 0.27,
+      "DPS-09": 0.36
+    },
+    "Fred Smith": {
+      "DPS-01": 0.27,
+      "DPS-06": 0.36,
+      "DPS-08": 0.27,
+      "DPS-09": 0.36
+    },
+    "David Tepper": {
+      "DPS-05": 0.36,
+      "DPS-09": 0.18
+    },
+    "Alice Walton": {
+      "DPS-05": 0.18,
+      "DPS-09": 0.27,
+      "DPS-10": 0.27
+    },
+    "Ray Dalio": {
+      "DPS-05": 0.54,
+      "DPS-04": 0.18,
+      "DPS-09": 0.27
+    },
+    "Brian Armstrong": {
+      "DPS-05": 0.585,
+      "DPS-09": 0.45
+    },
+    "Paul Tudor Jones, II.": {
+      "DPS-05": 0.405,
+      "DPS-09": 0.27
+    },
+    "Pam Bondi": {
+      "DPS-01": 0.765,
+      "DPS-02": 0.45,
+      "DPS-10": 0.45,
+      "DPS-09": 0.36,
+      "DPS-07": 0.27
+    },
+    "J.B. Pritzker": {
+      "DPS-01": 0.27,
+      "DPS-08": 0.27,
+      "DPS-10": 0.54,
+      "DPS-09": 0.27
+    },
+    "Elena Kagan": {
+      "DPS-01": 0.36,
+      "DPS-02": 0.72,
+      "DPS-05": 0.27,
+      "DPS-10": 0.36
+    },
+    "Lukas Walton": {
+      "DPS-08": 0.27,
+      "DPS-09": 0.18
+    },
+    "Pierre Omidyar": {
+      "DPS-07": 0.405,
+      "DPS-09": 0.315,
+      "DPS-10": 0.36,
+      "DPS-04": 0.225
+    },
+    "Michael Rubin": {
+      "DPS-07": 0.27,
+      "DPS-09": 0.27,
+      "DPS-10": 0.18
+    },
+    "Henry Kravis": {
+      "DPS-05": 0.54,
+      "DPS-06": 0.36,
+      "DPS-09": 0.45
+    },
+    "Jeff Yass": {
+      "DPS-04": 0.36,
+      "DPS-05": 0.45,
+      "DPS-07": 0.27,
+      "DPS-09": 0.45,
+      "DPS-10": 0.36
+    },
+    "Marijke Mars": {
+      "DPS-05": 0.18
+    },
+    "Julia Koch & family": {
+      "DPS-09": 0.36,
+      "DPS-10": 0.27,
+      "DPS-03": 0.225
+    },
+    "John Malone": {
+      "DPS-07": 0.45,
+      "DPS-08": 0.18,
+      "DPS-09": 0.36
+    },
+    "Kelcy Warren": {
+      "DPS-08": 0.63,
+      "DPS-09": 0.45,
+      "DPS-01": 0.27,
+      "DPS-05": 0.27
+    },
+    "Leon Black": {
+      "DPS-05": 0.36,
+      "DPS-09": 0.36
+    },
+    "Paul Singer": {
+      "DPS-01": 0.27,
+      "DPS-02": 0.36,
+      "DPS-03": 0.27,
+      "DPS-05": 0.54,
+      "DPS-09": 0.45,
+      "DPS-10": 0.36
+    },
+    "Lynda Resnick": {
+      "DPS-08": 0.27,
+      "DPS-09": 0.18
+    },
+    "Tom Cotton": {
+      "DPS-01": 0.495,
+      "DPS-02": 0.27,
+      "DPS-03": 0.45,
+      "DPS-04": 0.27,
+      "DPS-06": 0.495,
+      "DPS-09": 0.27,
+      "DPS-10": 0.315
+    },
+    "Ronald Lauder": {
+      "DPS-07": 0.27,
+      "DPS-09": 0.36,
+      "DPS-10": 0.36
+    },
+    "Philip Anschutz": {
+      "DPS-07": 0.36,
+      "DPS-08": 0.45,
+      "DPS-09": 0.27,
+      "DPS-10": 0.27
+    },
+    "George Roberts": {
+      "DPS-05": 0.45,
+      "DPS-06": 0.27,
+      "DPS-09": 0.315
+    },
+    "Brian Chesky": {
+      "DPS-04": 0.27,
+      "DPS-09": 0.27
+    },
+    "Jeremy Jacobs, Sr. & family": {
+      "DPS-09": 0.18,
+      "DPS-10": 0.18
+    },
+    "Brian Ballard": {
+      "DPS-01": 0.45,
+      "DPS-09": 0.63,
+      "DPS-03": 0.315,
+      "DPS-08": 0.27
+    },
+    "Ann Walton Kroenke": {
+      "DPS-09": 0.18
+    },
+    "MacKenzie Scott": {
+      "DPS-10": 0.36,
+      "DPS-09": 0.18
+    },
+    "Charles E. Schumer": {
+      "DPS-01": 0.54,
+      "DPS-02": 0.45,
+      "DPS-03": 0.81,
+      "DPS-04": 0.36,
+      "DPS-05": 0.45,
+      "DPS-07": 0.36,
+      "DPS-09": 0.36,
+      "DPS-10": 0.54
+    },
+    "Charles Schwab": {
+      "DPS-05": 0.36,
+      "DPS-09": 0.27
+    },
+    "Michael Dell": {
+      "DPS-04": 0.54,
+      "DPS-06": 0.315,
+      "DPS-09": 0.405
+    },
+    "Steve Scalise": {
+      "DPS-01": 0.45,
+      "DPS-03": 0.63,
+      "DPS-06": 0.27,
+      "DPS-10": 0.27
+    },
+    "Joe Rogan": {
+      "DPS-07": 0.72,
+      "DPS-10": 0.36
+    },
+    "Ted Cruz": {
+      "DPS-01": 0.45,
+      "DPS-02": 0.36,
+      "DPS-03": 0.495,
+      "DPS-04": 0.225,
+      "DPS-07": 0.36,
+      "DPS-08": 0.315,
+      "DPS-09": 0.27,
+      "DPS-10": 0.45
+    },
+    "Mitchell Rales": {
+      "DPS-05": 0.18,
+      "DPS-06": 0.27
+    },
+    "Ron DeSantis": {
+      "DPS-01": 0.54,
+      "DPS-02": 0.36,
+      "DPS-07": 0.45,
+      "DPS-08": 0.36,
+      "DPS-09": 0.315,
+      "DPS-10": 0.585
+    },
+    "Melinda French Gates": {
+      "DPS-09": 0.27,
+      "DPS-10": 0.36
+    },
+    "Marc Benioff": {
+      "DPS-04": 0.45,
+      "DPS-07": 0.36,
+      "DPS-09": 0.36
+    },
+    "Suzanne Clark": {
+      "DPS-01": 0.27,
+      "DPS-03": 0.45,
+      "DPS-05": 0.45,
+      "DPS-08": 0.36,
+      "DPS-09": 0.45
+    },
+    "Mitch McConnell": {
+      "DPS-01": 0.45,
+      "DPS-02": 0.63,
+      "DPS-03": 0.72,
+      "DPS-05": 0.36,
+      "DPS-06": 0.27,
+      "DPS-10": 0.54
+    },
+    "David Bonderman": {
+      "DPS-04": 0.27,
+      "DPS-05": 0.27,
+      "DPS-06": 0.27,
+      "DPS-08": 0.27,
+      "DPS-09": 0.27
+    },
+    "Warren Buffett": {
+      "DPS-05": 0.63,
+      "DPS-08": 0.36,
+      "DPS-09": 0.36
+    },
+    "Rupert Murdoch & family": {
+      "DPS-01": 0.45,
+      "DPS-07": 0.81,
+      "DPS-09": 0.54,
+      "DPS-10": 0.54
+    },
+    "Josh Harris": {
+      "DPS-05": 0.36,
+      "DPS-06": 0.45,
+      "DPS-09": 0.45
+    },
+    "Larry Page": {
+      "DPS-04": 0.63,
+      "DPS-07": 0.45,
+      "DPS-08": 0.27,
+      "DPS-09": 0.45
+    },
+    "Greg Abbott": {
+      "DPS-01": 0.45,
+      "DPS-02": 0.36,
+      "DPS-08": 0.45,
+      "DPS-10": 0.495
+    },
+    "Stephen Feinberg": {
+      "DPS-01": 0.36,
+      "DPS-06": 0.63,
+      "DPS-09": 0.54
+    },
+    "Mike Lee": {
+      "DPS-01": 0.54,
+      "DPS-02": 0.63,
+      "DPS-03": 0.45,
+      "DPS-05": 0.36,
+      "DPS-08": 0.36,
+      "DPS-10": 0.36
+    },
+    "Sergey Brin": {
+      "DPS-04": 0.765,
+      "DPS-07": 0.36,
+      "DPS-08": 0.27,
+      "DPS-09": 0.45
+    },
+    "Steve Cohen": {
+      "DPS-05": 0.36,
+      "DPS-09": 0.27,
+      "DPS-10": 0.18
+    },
+    "Phil Knight & family": {
+      "DPS-09": 0.27,
+      "DPS-10": 0.27
+    },
+    "Carl Icahn": {
+      "DPS-05": 0.45,
+      "DPS-08": 0.27,
+      "DPS-09": 0.45
+    },
+    "Thomas Peterffy": {
+      "DPS-05": 0.315,
+      "DPS-09": 0.27,
+      "DPS-10": 0.225
+    },
+    "William Ackman": {
+      "DPS-05": 0.36,
+      "DPS-07": 0.45,
+      "DPS-09": 0.45,
+      "DPS-10": 0.27,
+      "DPS-04": 0.18
+    },
+    "Victoria Mars": {
+      "DPS-09": 0.18
+    },
+    "Patty Murray": {
+      "DPS-01": 0.27,
+      "DPS-03": 0.54,
+      "DPS-05": 0.27,
+      "DPS-06": 0.27,
+      "DPS-08": 0.27,
+      "DPS-10": 0.36
+    },
+    "John Mars": {
+      "DPS-09": 0.18
+    },
+    "Hakeem S. Jeffries": {
+      "DPS-01": 0.54,
+      "DPS-03": 0.72,
+      "DPS-07": 0.36,
+      "DPS-10": 0.63
+    },
+    "Matthew J. Kacsmaryk": {
+      "DPS-01": 0.45,
+      "DPS-02": 0.63,
+      "DPS-08": 0.315,
+      "DPS-10": 0.36
+    },
+    "Rick Scott": {
+      "DPS-01": 0.36,
+      "DPS-03": 0.495,
+      "DPS-05": 0.405,
+      "DPS-10": 0.315
+    },
+    "Cynthia M. Lummis": {
+      "DPS-01": 0.27,
+      "DPS-03": 0.36,
+      "DPS-05": 0.54,
+      "DPS-08": 0.18,
+      "DPS-10": 0.18
+    },
+    "Christopher Murphy": {
+      "DPS-01": 0.36,
+      "DPS-03": 0.45,
+      "DPS-06": 0.27,
+      "DPS-07": 0.27,
+      "DPS-10": 0.45
+    },
+    "Kevin Roberts": {
+      "DPS-01": 0.765,
+      "DPS-02": 0.63,
+      "DPS-03": 0.45,
+      "DPS-07": 0.45,
+      "DPS-09": 0.36,
+      "DPS-10": 0.54
+    },
+    "Richard J. Durbin": {
+      "DPS-03": 0.63,
+      "DPS-02": 0.495,
+      "DPS-01": 0.45,
+      "DPS-10": 0.405
+    },
+    "George Soros": {
+      "DPS-05": 0.27,
+      "DPS-07": 0.36,
+      "DPS-09": 0.45,
+      "DPS-10": 0.63
+    },
+    "Thomas Frist, Jr. & family": {
+      "DPS-03": 0.27,
+      "DPS-05": 0.27,
+      "DPS-09": 0.27
+    },
+    "Bret Taylor": {
+      "DPS-04": 0.63,
+      "DPS-09": 0.36
+    },
+    "Jonathan Gray": {
+      "DPS-05": 0.45,
+      "DPS-08": 0.36,
+      "DPS-09": 0.45,
+      "DPS-04": 0.27
+    },
+    "Stewart Resnick": {
+      "DPS-08": 0.36,
+      "DPS-09": 0.27
+    },
+    "Edward Johnson, IV.": {
+      "DPS-05": 0.27
+    },
+    "Thomas Pritzker": {
+      "DPS-05": 0.27,
+      "DPS-09": 0.27,
+      "DPS-10": 0.18
+    },
+    "Palmer Luckey": {
+      "DPS-04": 0.45,
+      "DPS-06": 0.72,
+      "DPS-09": 0.54
+    },
+    "Lynn Schusterman & family": {
+      "DPS-10": 0.18
+    },
+    "Josh Hawley": {
+      "DPS-01": 0.45,
+      "DPS-02": 0.36,
+      "DPS-03": 0.45,
+      "DPS-04": 0.36,
+      "DPS-07": 0.45,
+      "DPS-09": 0.45,
+      "DPS-10": 0.45
+    },
+    "Alex Karp": {
+      "DPS-04": 0.54,
+      "DPS-06": 0.72,
+      "DPS-09": 0.63,
+      "DPS-01": 0.27
+    },
+    "Lisa Su": {
+      "DPS-04": 0.72,
+      "DPS-06": 0.36,
+      "DPS-08": 0.18,
+      "DPS-09": 0.315
+    },
+    "Alexander Karp": {
+      "DPS-04": 0.54,
+      "DPS-06": 0.72,
+      "DPS-09": 0.63,
+      "DPS-01": 0.36,
+      "DPS-07": 0.27
+    },
+    "Len Blavatnik": {
+      "DPS-05": 0.27,
+      "DPS-07": 0.27,
+      "DPS-08": 0.27,
+      "DPS-09": 0.36
+    },
+    "Demis Hassabis": {
+      "DPS-04": 0.765,
+      "DPS-06": 0.27
+    },
+    "Lindsey Graham": {
+      "DPS-01": 0.45,
+      "DPS-02": 0.27,
+      "DPS-03": 0.63,
+      "DPS-06": 0.54,
+      "DPS-07": 0.27,
+      "DPS-10": 0.36
+    },
+    "Alexandria Ocasio-Cortez": {
+      "DPS-01": 0.45,
+      "DPS-03": 0.45,
+      "DPS-04": 0.27,
+      "DPS-05": 0.36,
+      "DPS-07": 0.63,
+      "DPS-08": 0.45,
+      "DPS-09": 0.54,
+      "DPS-10": 0.54
+    },
+    "Antony Ressler": {
+      "DPS-05": 0.27,
+      "DPS-09": 0.18
+    },
+    "Elise M. Stefanik": {
+      "DPS-01": 0.54,
+      "DPS-02": 0.27,
+      "DPS-03": 0.45,
+      "DPS-07": 0.36,
+      "DPS-10": 0.45
+    },
+    "Mark Walter": {
+      "DPS-05": 0.27,
+      "DPS-09": 0.18
+    },
+    "Dario Amodei": {
+      "DPS-04": 0.81,
+      "DPS-02": 0.27,
+      "DPS-06": 0.36,
+      "DPS-07": 0.27,
+      "DPS-08": 0.27,
+      "DPS-09": 0.45
+    },
+    "Daniela Amodei": {
+      "DPS-04": 0.72,
+      "DPS-09": 0.36
+    },
+    "Christy Walton": {
+      "DPS-09": 0.18
+    },
+    "Donald Newhouse": {
+      "DPS-07": 0.36
+    },
+    "Ernest Garcia, III": {
+      "DPS-05": 0.225,
+      "DPS-09": 0.18
+    }
+  },
+  "dps_dominance": {
+    "DPS-01": 0.475,
+    "DPS-02": 0.475,
+    "DPS-03": 0.475,
+    "DPS-04": 0.475,
+    "DPS-05": 0.475,
+    "DPS-06": 0.475,
+    "DPS-07": 0.475,
+    "DPS-08": 0.475,
+    "DPS-09": 0.475,
+    "DPS-10": 0.475
+  }
+}
