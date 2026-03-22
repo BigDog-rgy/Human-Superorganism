@@ -8,9 +8,10 @@ Usage:
     python weekly_briefing.py --scope global           # Global run
 
 Firing model:
-    Conscious layer  — PS news fetched first; active PSes recruit neurons via fired
-                       cell assemblies → weighted sampling from assembly members.
-                       Fallback: direct PS membership sampling if no assemblies fired.
+    Conscious layer  — PS news scored 1–10; top-ranked PSes fire assemblies via network
+                       membership (probabilistic, dampened by member count). Neuron scores
+                       accumulate across all firing (assembly, PS) pairs weighted by
+                       Hebbian strength; top scorers sampled up to CONSCIOUS_NEURON_CAP.
     Spontaneous layer — Skip-counter probability (10% base + 10%/skipped week), sorted by
                         most-overdue first, capped at sqrt(n). No rank-based guarantees.
     Together they determine which neurons get individual news fetched this week.
@@ -41,40 +42,44 @@ BRIEFINGS_DIR = SCRIPT_DIR / "briefings"
 
 SCOPE_CONFIG = {
     "us": {
-        "label":               "US",
-        "model_file":          "us_superorganism_model.json",
-        "state_file":          "superorganism_state.json",
-        "fetch_state_file":    "fetch_state.json",
-        "briefing_prefix":     "weekly_briefing",
-        "md_title":            "Weekly Prime Mover Briefing",
-        "synthesis_scope":     "US superorganism",
-        "news_system_prompt":  "You are a concise news analyst. Report factual recent events only.",
+        "label":                    "US",
+        "model_file":               "us_superorganism_model.json",
+        "fetch_state_file":         "fetch_state.json",
+        "coactivation_state_file":  "us_coactivation_state.json",
+        "briefing_prefix":          "weekly_briefing",
+        "md_title":                 "Weekly Prime Mover Briefing",
+        "synthesis_scope":          "US superorganism",
+        "news_system_prompt":       "You are a concise news analyst. Report factual recent events only.",
         "news_hard_categories": (
             "policy decisions, business moves, legal actions, "
             "geopolitical events, significant public statements"
         ),
-        "ps_system_prompt":    "You are a concise US policy and power analyst.",
+        "ps_system_prompt":         "You are a concise US policy and power analyst.",
     },
     "global": {
-        "label":               "Global",
-        "model_file":          "superorganism_model.json",
-        "state_file":          "global_superorganism_state.json",
-        "fetch_state_file":    "global_fetch_state.json",
-        "briefing_prefix":     "global_weekly_briefing",
-        "md_title":            "Global Prime Mover Briefing",
-        "synthesis_scope":     "global superorganism",
-        "news_system_prompt":  "You are a concise geopolitical analyst. Report factual recent events only.",
+        "label":                    "Global",
+        "model_file":               "superorganism_model.json",
+        "fetch_state_file":         "global_fetch_state.json",
+        "coactivation_state_file":  "global_coactivation_state.json",
+        "briefing_prefix":          "global_weekly_briefing",
+        "md_title":                 "Global Prime Mover Briefing",
+        "synthesis_scope":          "global superorganism",
+        "news_system_prompt":       "You are a concise geopolitical analyst. Report factual recent events only.",
         "news_hard_categories": (
             "policy decisions, geopolitical moves, military actions, "
             "economic initiatives, diplomatic events, significant public statements"
         ),
-        "ps_system_prompt":    "You are a concise geopolitical and power analyst.",
+        "ps_system_prompt":         "You are a concise geopolitical and power analyst.",
     },
 }
 
-# Assembly-aware conscious selection: assemblies and neurons recruited per PS activation level
-ASSEMBLIES_PER_ACTIVATION = {"HIGH": 2, "MEDIUM": 1, "LOW": 0}
-NEURONS_PER_ACTIVATION    = {"HIGH": 3, "MEDIUM": 1, "LOW": 0}
+ASSEMBLIES_FOR_TOP_PS    = 5    # assemblies fired for highest-scoring PS
+ASSEMBLIES_FOR_OTHER_PS  = 3    # assemblies fired for each of up to 3 other PSes
+MAX_ASSEMBLY_PS_COUNT    = 4    # max PSes that can fire assemblies
+CONSCIOUS_NEURON_CAP     = 10   # max neurons selected via conscious layer
+ASSEMBLY_MEMBER_WEIGHT   = 0.5  # member-count influence on probabilistic assembly selection
+BASE_WEIGHT              = 1.0  # base selection weight for CAs and neurons (ensures chance for all)
+NEURON_MEMBERSHIP_WEIGHT = 0.5  # per-fired-CA membership bonus for neuron base score
 
 
 # ---------------------------------------------------------------------------
@@ -101,14 +106,6 @@ def load_superorganism(path: Path) -> dict:
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-
-def load_hebbian_state(path: Path) -> dict:
-    """Load Hebbian state. Returns empty dicts if file missing (graceful degradation)."""
-    if not path.exists():
-        print(f"  ! Hebbian state not found at {path.name} — conscious selection will use default weights.")
-        return {"neuron_dps_weights": {}, "dps_dominance": {}}
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
 
 
 # ---------------------------------------------------------------------------
@@ -165,29 +162,31 @@ def ps_ids_for_person(person: dict) -> list:
     return [ps["id"] for ps in person.get("superorganism", {}).get("phase_sequences", [])]
 
 
+def pair_key(a: str, b: str) -> str:
+    """Canonical sorted key so A|||B == B|||A."""
+    return "|||".join(sorted([a, b]))
+
+
+def load_coactivation_state(path: Path) -> dict:
+    """Load coactivation state file; return empty state if file doesn't exist."""
+    if not path.exists():
+        return {}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 # ---------------------------------------------------------------------------
 # STAGE 1A: PS news via Perplexity
 # ---------------------------------------------------------------------------
 
 def fetch_news_for_ps(
-    client: OpenAI, ps: dict, ps_assemblies: list, week_start: str, week_end: str, cfg: dict
+    client: OpenAI, ps: dict, week_start: str, week_end: str, cfg: dict
 ) -> dict:
     """
     One Perplexity call per phase sequence.
-    Asks Perplexity which known cell assemblies were implicated in this week's events.
-    Returns summary + activation signal + assemblies_fired.
+    Returns summary + integer activation score 1-10.
+    Assembly selection is handled downstream by the network, not by Perplexity.
     """
-    assembly_block = ""
-    if ps_assemblies:
-        lines = "\n".join(f"  - {ca['id']}: {ca['name']}" for ca in ps_assemblies)
-        assembly_block = (
-            f"\n\nKnown active coalitions/organizations in this domain:\n{lines}\n\n"
-            f"After your summary and activation signal, on a new line list the IDs of any "
-            f"coalitions clearly implicated in this week's events (comma-separated).\n"
-            f"Format: ASSEMBLIES: CA-01, CA-05\n"
-            f"If none were clearly implicated, write: ASSEMBLIES: none"
-        )
-
     prompt = (
         f"Summarize the most significant developments in the following domain from the past 7 days "
         f"({week_start} to {week_end}).\n\n"
@@ -195,11 +194,10 @@ def fetch_news_for_ps(
         f"Definition: {ps['definition']}\n\n"
         f"Focus on: structural changes, major decisions, policy moves, business actions, or events "
         f"that indicate momentum in this area. 3-5 sentences.\n\n"
-        f"After your summary, on a new line, write exactly one of: HIGH, MEDIUM, or LOW\n"
-        f"HIGH = major developments, clear momentum, multiple significant events this week\n"
-        f"MEDIUM = some activity, moderate developments, normal background level\n"
-        f"LOW = quiet week, minimal developments, no major changes"
-        f"{assembly_block}"
+        f"After your summary, on a new line write a single integer from 1 to 10:\n"
+        f"1-3 = quiet week, minimal activity, no major changes\n"
+        f"4-6 = moderate activity, some notable developments\n"
+        f"7-10 = high activity, major developments, clear momentum"
     )
 
     print(f"  [{ps['id']}: {ps['name']}]...")
@@ -214,32 +212,19 @@ def fetch_news_for_ps(
 
     raw = response.choices[0].message.content.strip()
 
-    # Parse activation signal and assemblies_fired from response lines
-    activation_signal = "MEDIUM"
-    assemblies_fired = []
-
-    for line in raw.splitlines():
+    # Parse activation score from last non-empty line
+    activation_score = 5  # default to middle
+    for line in reversed(raw.splitlines()):
         stripped = line.strip()
-        upper = stripped.upper()
-        if upper in ("HIGH", "MEDIUM", "LOW"):
-            activation_signal = upper
-        elif upper.startswith("ASSEMBLIES:"):
-            rest = stripped[11:].strip()  # len("ASSEMBLIES:") == 11
-            assemblies_fired = (
-                [] if rest.upper() == "NONE"
-                else [a.strip() for a in rest.split(",") if a.strip()]
-            )
-
-    # Cap assemblies to maximum allowed for this activation level
-    max_a = ASSEMBLIES_PER_ACTIVATION.get(activation_signal, 0)
-    assemblies_fired = assemblies_fired[:max_a]
+        if stripped.isdigit():
+            activation_score = max(1, min(10, int(stripped)))
+            break
 
     return {
-        "id":                ps["id"],
-        "name":              ps["name"],
-        "summary":           raw,
-        "activation_signal": activation_signal,
-        "assemblies_fired":  assemblies_fired,
+        "id":               ps["id"],
+        "name":             ps["name"],
+        "summary":          raw,
+        "activation_score": activation_score,
     }
 
 
@@ -284,61 +269,143 @@ def fetch_news_for_assembly(
 
 
 # ---------------------------------------------------------------------------
-# STAGE 1B: Conscious neuron selection (assembly-aware, PS-driven)
+# STAGE 1B: Coactivation-guided assembly sequence building
 # ---------------------------------------------------------------------------
 
-def select_neurons_from_assemblies(
-    ps_news_items: list,
-    individuals: list,
-    assembly_to_neurons: dict,
-    neuron_dps_weights: dict,
+def build_ca_sequence_for_ps(
+    candidates: list,
+    ca_coactivation: dict,
+    cap: int,
 ) -> list:
     """
-    For each active PS (HIGH/MEDIUM), route through fired assemblies to recruit neurons.
-    Fallback: if no assemblies fired or no members found, sample directly from PS members.
-    Returns deduplicated list of person dicts.
+    Build an ordered sequence of up to `cap` CAs to fire for a given PS.
+    Seed: uniform random from candidates.
+    Subsequent CAs: BASE_WEIGHT + |coactivation score| bonus.
+      - Step 2: 100% bonus from seed.
+      - Step 3+, reinforcing/neutral prev: 2/3 * |cov(t-1)| + 1/3 * |cov(t-2)|.
+      - Step 3+, adversarial prev (score < 0): 100% bonus from CA[t-1] only (memory reset).
+    Returns list of selected CA dicts in firing order.
     """
-    selected_names = set()
-    selected = []
+    if not candidates or cap <= 0:
+        return []
 
-    for ps_item in ps_news_items:
-        signal = ps_item["activation_signal"]
-        k = NEURONS_PER_ACTIVATION.get(signal, 0)
-        if k == 0:
+    cap  = min(cap, len(candidates))
+    pool = list(candidates)
+
+    seed = random.choice(pool)
+    sequence = [seed]
+    pool.remove(seed)
+
+    while len(sequence) < cap and pool:
+        prev1_id = sequence[-1]["id"]
+        prev2_id = sequence[-2]["id"] if len(sequence) >= 2 else None
+
+        if prev2_id is not None:
+            score_p1_p2 = ca_coactivation.get(pair_key(prev1_id, prev2_id), {}).get("score", 0.0)
+            adversarial_break = score_p1_p2 < 0
+        else:
+            adversarial_break = False
+
+        weights = []
+        for ca in pool:
+            ca_id        = ca["id"]
+            abs_prev1    = abs(ca_coactivation.get(pair_key(ca_id, prev1_id), {}).get("score", 0.0))
+            if prev2_id is None or adversarial_break:
+                bonus = abs_prev1
+            else:
+                abs_prev2 = abs(ca_coactivation.get(pair_key(ca_id, prev2_id), {}).get("score", 0.0))
+                bonus     = (2 / 3) * abs_prev1 + (1 / 3) * abs_prev2
+            weights.append(BASE_WEIGHT + bonus)
+
+        selected = weighted_sample_without_replacement(pool, weights, 1)
+        if not selected:
+            break
+        sequence.append(selected[0])
+        pool.remove(selected[0])
+
+    return sequence
+
+
+def build_fired_assemblies(
+    ps_news_items: list,
+    ps_assemblies_map: dict,
+    ca_coactivation: dict,
+) -> tuple[list, dict]:
+    """
+    Build fired CA sequences for each active PS using coactivation-guided selection.
+    Returns:
+      fired_ordered  — list of (ca_id, ps_id) in firing sequence order across all PSes
+      ps_to_fired    — dict of ps_id -> [ca_id, ...] in sequence order
+    """
+    ranked     = sorted(ps_news_items, key=lambda x: x["activation_score"], reverse=True)
+    fired_ordered: list = []
+    seen_ca_ids: set    = set()
+    ps_to_fired: dict   = {}
+
+    for rank, ps_item in enumerate(ranked[:MAX_ASSEMBLY_PS_COUNT]):
+        ps_id      = ps_item["id"]
+        cap        = ASSEMBLIES_FOR_TOP_PS if rank == 0 else ASSEMBLIES_FOR_OTHER_PS
+        candidates = [ca for ca in ps_assemblies_map.get(ps_id, []) if ca["id"] not in seen_ca_ids]
+        if not candidates:
             continue
 
-        ps_id = ps_item["id"]
-        assemblies_fired = ps_item.get("assemblies_fired", [])
+        sequence = build_ca_sequence_for_ps(candidates, ca_coactivation, cap)
+        for ca in sequence:
+            seen_ca_ids.add(ca["id"])
+            fired_ordered.append((ca["id"], ps_id))
+            ps_to_fired.setdefault(ps_id, []).append(ca["id"])
 
-        # Collect candidates: from fired assemblies (preferred)
-        candidates = []
-        if assemblies_fired:
-            seen_in_batch = set()
-            for ca_id in assemblies_fired:
-                for p in assembly_to_neurons.get(ca_id, []):
-                    if p["name"] not in seen_in_batch:
-                        seen_in_batch.add(p["name"])
-                        candidates.append(p)
+    return fired_ordered, ps_to_fired
 
-        # Fallback: direct PS membership if no assembly candidates found
-        if not candidates:
-            candidates = [p for p in individuals if ps_id in ps_ids_for_person(p)]
 
-        if not candidates:
-            continue
+def select_neurons_conscious(
+    fired_assemblies_ordered: list,
+    individuals: list,
+    assembly_to_neurons: dict,
+    neuron_coactivation: dict,
+) -> list:
+    """
+    Select conscious neurons by traversing the ordered CA firing sequence.
+    Base weight = BASE_WEIGHT + membership_count * NEURON_MEMBERSHIP_WEIGHT.
+    At each selection step, a cumulative |N-N score| bonus is added against all
+    already-selected neurons. Returns up to CONSCIOUS_NEURON_CAP neurons.
+    """
+    if not fired_assemblies_ordered:
+        return []
 
-        weights = [
-            max(neuron_dps_weights.get(p["name"], {}).get(ps_id, 0.05), 0.01)
-            for p in candidates
-        ]
+    membership_count: dict = {}
+    for ca_id, _ in fired_assemblies_ordered:
+        for person in assembly_to_neurons.get(ca_id, []):
+            name = person["name"]
+            membership_count[name] = membership_count.get(name, 0) + 1
 
-        drawn = weighted_sample_without_replacement(candidates, weights, k)
-        for person in drawn:
-            if person["name"] not in selected_names:
-                selected_names.add(person["name"])
-                selected.append(person)
+    if not membership_count:
+        return []
 
-    return selected
+    name_to_person  = {p["name"]: p for p in individuals}
+    remaining       = [n for n in membership_count if n in name_to_person]
+    selected_names: list = []
+    cap             = min(CONSCIOUS_NEURON_CAP, len(remaining))
+
+    for _ in range(cap):
+        if not remaining:
+            break
+        weights = []
+        for name in remaining:
+            base     = BASE_WEIGHT + membership_count[name] * NEURON_MEMBERSHIP_WEIGHT
+            nn_bonus = sum(
+                abs(neuron_coactivation.get(pair_key(name, sel), {}).get("score", 0.0))
+                for sel in selected_names
+            )
+            weights.append(base + nn_bonus)
+
+        chosen = weighted_sample_without_replacement(remaining, weights, 1)
+        if not chosen:
+            break
+        selected_names.append(chosen[0])
+        remaining.remove(chosen[0])
+
+    return [name_to_person[n] for n in selected_names]
 
 
 # ---------------------------------------------------------------------------
@@ -428,6 +495,7 @@ def build_synthesis_prompt(
     assembly_news_items: list,
     news_items: list,
     phase_sequences: list,
+    ps_to_fired_assemblies: dict,
     week_start: str,
     week_end: str,
     cfg: dict,
@@ -440,8 +508,9 @@ def build_synthesis_prompt(
 
     ps_news_block = "\n\n".join(
         (
-            f"### {item['id']}: {item['name']} [{item['activation_signal']}]"
-            + (f" — assemblies: {', '.join(item['assemblies_fired'])}" if item.get("assemblies_fired") else "")
+            f"### {item['id']}: {item['name']} [score: {item['activation_score']}/10]"
+            + (f" — assemblies: {', '.join(ps_to_fired_assemblies.get(item['id'], []))}"
+               if ps_to_fired_assemblies.get(item['id']) else "")
             + f"\n{item['summary']}"
         )
         for item in ps_news_items
@@ -468,14 +537,13 @@ def build_synthesis_prompt(
     all_asm_ids = [item["id"] for item in valid_asm]
 
     if all_asm_ids:
-        asm_schema = f"""  "assembly_updates": [
-    {{
+        asm_schema = """  "assembly_updates": [
+    {
       "id": "CA-01",
       "name": "Assembly name",
       "signal": "active|quiet",
-      "summary": "1-2 sentences on what this organization did this week and why it matters",
-      "ps_ids": ["{all_ps_ids[0] if all_ps_ids else 'PS-01'}"]
-    }}
+      "summary": "1-2 sentences on what this organization did this week and why it matters"
+    }
   ],"""
         asm_rules = (
             f"- assembly_updates must include ALL of these: {json.dumps(all_asm_ids)}\n"
@@ -510,21 +578,11 @@ Synthesize the above into a structured weekly briefing JSON object. Schema:
   "person_updates": [
     {{
       "name": "Full Name",
-      "signal": "notable|quiet|concerning",
-      "summary": "2-3 sentences on their most significant actions or events this week",
-      "ps_impacts": ["{all_ps_ids[0] if all_ps_ids else 'PS-01'}"]
+      "signal": "active|quiet",
+      "summary": "2-3 sentences on their most significant actions or events this week"
     }}
   ],
   {asm_schema}
-  "phase_sequence_updates": [
-    {{
-      "id": "{all_ps_ids[0] if all_ps_ids else 'PS-01'}",
-      "name": "Phase sequence name",
-      "momentum": "accelerating|stable|decelerating",
-      "summary": "1-2 sentences on key developments for this phase sequence this week",
-      "assemblies_fired": ["CA-01"]
-    }}
-  ],
   "top_stories": [
     {{
       "headline": "Brief headline",
@@ -533,29 +591,40 @@ Synthesize the above into a structured weekly briefing JSON object. Schema:
       "valence": "adversarial|cooperative|neutral",
       "significance": "One sentence on why this matters for power dynamics"
     }}
-  ],
-  "edge_signals": [
-    {{
-      "person_a": "Name1",
-      "person_b": "Name2",
-      "ps_id": "{all_ps_ids[0] if all_ps_ids else 'PS-01'}",
-      "valence": "adversarial|cooperative|neutral",
-      "evidence": "One sentence citing the specific event or dynamic between these two people"
-    }}
   ]
 }}
 
 Rules:
 - person_updates must include ALL of these people (even if quiet): {json.dumps(all_names)}
-- phase_sequence_updates must include ALL of these: {json.dumps(all_ps_ids)}
-- signal definitions: "notable" = significant positive action or influence gain; "concerning" = meaningful setback, loss of influence, or serious threat to position; "quiet" = no major developments
-- ps_impacts: only list PS IDs concretely activated by this person's actions this week
-- assemblies_fired: list only assembly IDs (from the PS news above) that were clearly active; omit the field or use [] if none fired
+- signal definitions: "active" = default; assign unless there is genuinely no notable activity at all this week; "quiet" = reserve for members with no meaningful news whatsoever
 - top_stories: 3-5 items only, the genuinely most significant
 - top_stories valence: "adversarial" = direct conflict, legal opposition, or zero-sum competition; "cooperative" = explicit partnership, deal, or aligned action; "neutral" = informational update or parallel action without direct interaction between the named persons
-- edge_signals: derived from top_stories entries that name exactly 2 persons; include only "adversarial" and "cooperative" entries (omit neutral); one entry per qualifying story; if a story names only 1 person, omit it from edge_signals
 {asm_rules}
 - Return only the JSON object, no preamble or explanation"""
+
+
+def build_phase_sequence_updates(
+    ps_news_items: list,
+    ps_to_fired_assemblies: dict,
+) -> list:
+    """
+    Auto-build phase_sequence_updates from Perplexity PS news.
+    Momentum is derived from activation score: 7-10 = accelerating, 4-6 = stable, 1-3 = decelerating.
+    Summary is the Perplexity-written PS summary (first paragraph, stripped of the score line).
+    assemblies_fired comes from the firing model.
+    """
+    updates = []
+    for item in ps_news_items:
+        # Strip the trailing activation score line Perplexity appends
+        lines   = [l for l in item["summary"].splitlines() if not l.strip().isdigit()]
+        summary = "\n".join(lines).strip()
+        updates.append({
+            "id":               item["id"],
+            "name":             item["name"],
+            "summary":          summary,
+            "assemblies_fired": ps_to_fired_assemblies.get(item["id"], []),
+        })
+    return updates
 
 
 def synthesize_briefing(
@@ -564,13 +633,14 @@ def synthesize_briefing(
     assembly_news_items: list,
     news_items: list,
     phase_sequences: list,
+    ps_to_fired_assemblies: dict,
     week_start: str,
     week_end: str,
     cfg: dict,
 ) -> dict:
     prompt = build_synthesis_prompt(
         ps_news_items, assembly_news_items, news_items,
-        phase_sequences, week_start, week_end, cfg,
+        phase_sequences, ps_to_fired_assemblies, week_start, week_end, cfg,
     )
     message = client.messages.create(
         model=CLAUDE_MODEL,
@@ -581,7 +651,12 @@ def synthesize_briefing(
     response_text = message.content[0].text
     json_start = response_text.find("{")
     json_end   = response_text.rfind("}") + 1
-    return json.loads(response_text[json_start:json_end])
+    briefing   = json.loads(response_text[json_start:json_end])
+
+    briefing["phase_sequence_updates"] = build_phase_sequence_updates(
+        ps_news_items, ps_to_fired_assemblies
+    )
+    return briefing
 
 
 # ---------------------------------------------------------------------------
@@ -595,36 +670,26 @@ def save_json(briefing: dict, path: Path):
 
 
 def save_markdown(briefing: dict, ps_news_items: list, path: Path, cfg: dict):
-    signal_icon   = {"notable": "▲", "quiet": "—", "concerning": "▼"}
-    momentum_icon = {"accelerating": "↑", "stable": "→", "decelerating": "↓"}
-    activation_icon = {"HIGH": "▲", "MEDIUM": "→", "LOW": "▼"}
+    signal_icon = {"active": "▲", "quiet": "—"}
 
     md  = f"# {cfg['md_title']} — {briefing['week_ending']}\n\n"
     md += f"## Executive Summary\n\n{briefing['executive_summary']}\n\n---\n\n"
 
     md += "## Phase Sequence Pulse\n\n"
     for ps in briefing.get("phase_sequence_updates", []):
-        icon = momentum_icon.get(ps["momentum"], "→")
         ps_news = next((n for n in ps_news_items if n["id"] == ps["id"]), None)
-        activation = (
-            f" [{activation_icon.get(ps_news['activation_signal'], '')} {ps_news['activation_signal']}]"
-            if ps_news else ""
-        )
-        # Show assemblies fired (from briefing first, fall back to ps_news)
-        fired = ps.get("assemblies_fired") or (ps_news.get("assemblies_fired") if ps_news else [])
+        score_str = f" [{ps_news['activation_score']}/10]" if ps_news else ""
+        fired = ps.get("assemblies_fired") or []
         assemblies_str = f" — *{', '.join(fired)}*" if fired else ""
-        md += f"**{icon} {ps['id']}: {ps['name']}** `{ps['momentum']}`{activation}{assemblies_str}  \n"
+        md += f"**{ps['id']}: {ps['name']}**{score_str}{assemblies_str}  \n"
         md += f"{ps['summary']}\n\n"
 
     if briefing.get("assembly_updates"):
         md += "---\n\n## Cell Assembly Activity\n\n"
         for au in briefing.get("assembly_updates", []):
-            sig      = "▲" if au.get("signal") == "active" else "—"
-            ps_tags  = " ".join(f"`{pid}`" for pid in au.get("ps_ids", []))
+            sig = "▲" if au.get("signal") == "active" else "—"
             md += f"### {sig} {au['name']}\n\n"
             md += f"{au['summary']}\n\n"
-            if ps_tags:
-                md += f"**Phase sequences:** {ps_tags}\n\n"
             md += "---\n\n"
 
     md += "---\n\n## Top Stories\n\n"
@@ -638,12 +703,9 @@ def save_markdown(briefing: dict, ps_news_items: list, path: Path, cfg: dict):
 
     md += "---\n\n## Individual Updates\n\n"
     for p in briefing.get("person_updates", []):
-        icon    = signal_icon.get(p["signal"], "—")
-        ps_tags = " ".join(f"`{ps}`" for ps in p.get("ps_impacts", []))
+        icon = signal_icon.get(p["signal"], "—")
         md += f"### {icon} {p['name']}\n\n"
         md += f"{p['summary']}\n\n"
-        if ps_tags:
-            md += f"**Phase sequences:** {ps_tags}\n\n"
         md += "---\n\n"
 
     with open(path, "w", encoding="utf-8") as f:
@@ -652,7 +714,7 @@ def save_markdown(briefing: dict, ps_news_items: list, path: Path, cfg: dict):
 
 
 def print_console_summary(briefing: dict, fetched_count: int, skipped_count: int, cfg: dict):
-    signal_icon = {"notable": "▲", "quiet": "—", "concerning": "▼"}
+    signal_icon = {"active": "▲", "quiet": "—"}
     print("\n" + "=" * 60)
     print(f"{cfg['label'].upper()} BRIEFING SUMMARY")
     print("=" * 60)
@@ -675,7 +737,6 @@ def run(scope: str = "us"):
     week_start = (date.today() - timedelta(days=7)).isoformat()
 
     model_path       = SCRIPT_DIR / cfg["model_file"]
-    state_path       = SCRIPT_DIR / cfg["state_file"]
     fetch_state_path = SCRIPT_DIR / cfg["fetch_state_file"]
 
     BRIEFINGS_DIR.mkdir(exist_ok=True)
@@ -716,9 +777,16 @@ def run(scope: str = "us"):
 
     print(f"  {len(cell_assemblies)} cell assemblies ({len(assembly_to_neurons)} with members)")
 
-    hebbian         = load_hebbian_state(state_path)
-    neuron_weights  = hebbian.get("neuron_dps_weights", {})
     fetch_state     = load_fetch_state(fetch_state_path)
+
+    coactivation_path  = SCRIPT_DIR / cfg["coactivation_state_file"]
+    coactivation_state = load_coactivation_state(coactivation_path)
+    ca_coactivation    = coactivation_state.get("ca_coactivation", {})
+    neuron_coactivation = coactivation_state.get("neuron_coactivation", {})
+    if coactivation_state:
+        print(f"  Coactivation state loaded ({len(ca_coactivation)} CA pairs, {len(neuron_coactivation)} N-N pairs)")
+    else:
+        print(f"  No coactivation state found — selection will be random (run coactivation_updater.py --bootstrap --scope {scope})")
 
     # Stage 1A: PS news
     print(f"\nStage 1A: Fetching PS news via Perplexity ({len(phase_sequences)} calls)...")
@@ -726,42 +794,39 @@ def run(scope: str = "us"):
     ps_news_items = []
     for ps in phase_sequences:
         try:
-            ps_assemblies = ps_assemblies_map.get(ps["id"], [])
-            result = fetch_news_for_ps(perplexity, ps, ps_assemblies, week_start, week_end, cfg)
+            result = fetch_news_for_ps(perplexity, ps, week_start, week_end, cfg)
             ps_news_items.append(result)
         except Exception as e:
             print(f"  ! {ps['id']}: {e}")
             ps_news_items.append({
                 "id": ps["id"], "name": ps["name"],
-                "summary": "No data retrieved.", "activation_signal": "LOW",
-                "assemblies_fired": [],
+                "summary": "No data retrieved.", "activation_score": 0,
             })
 
-    active_counts = {s: sum(1 for p in ps_news_items if p["activation_signal"] == s)
-                     for s in ("HIGH", "MEDIUM", "LOW")}
-    print(f"  ✓ PS activation: {active_counts['HIGH']} HIGH, {active_counts['MEDIUM']} MEDIUM, {active_counts['LOW']} LOW")
+    scores = [p["activation_score"] for p in ps_news_items]
+    print(f"  ✓ PS activation scores: min={min(scores)}, max={max(scores)}, mean={sum(scores)/len(scores):.1f}")
 
-    # Stage 1B: Conscious neuron selection (assembly-aware)
-    conscious_neurons = select_neurons_from_assemblies(
-        ps_news_items, individuals, assembly_to_neurons, neuron_weights
+    # Stage 1B: Coactivation-guided assembly sequence building
+    fired_assemblies_ordered, ps_to_fired_assemblies = build_fired_assemblies(
+        ps_news_items, ps_assemblies_map, ca_coactivation
     )
-    print(f"\nStage 1B: Conscious selection — {len(conscious_neurons)} neurons via assemblies:")
-    for ps_item in ps_news_items:
-        if ps_item.get("assemblies_fired"):
-            print(f"  [{ps_item['id']}] assemblies fired: {', '.join(ps_item['assemblies_fired'])}")
+
+    print(f"\nStage 1B: Assembly sequences — {len(fired_assemblies_ordered)} assemblies fired:")
+    for ps_id, ca_ids in ps_to_fired_assemblies.items():
+        print(f"  [{ps_id}] → {', '.join(ca_ids)}")
+
+    # Stage 1B→C: Conscious neuron selection via CA sequence + cumulative N-N scores
+    conscious_neurons = select_neurons_conscious(
+        fired_assemblies_ordered, individuals, assembly_to_neurons, neuron_coactivation
+    )
+    print(f"\nStage 1B→C: Conscious selection — {len(conscious_neurons)} neurons:")
     for p in conscious_neurons:
         print(f"  • {p['name']}")
 
-    # Stage 1.5: Assembly news for fired assemblies
+    # Stage 1.5: Assembly news for network-selected assemblies
     ca_lookup   = {ca["id"]: ca for ca in cell_assemblies}
     ps_name_map = {ps["id"]: ps["name"] for ps in phase_sequences}
-    fired_ca_ids: list = []
-    seen_ca_ids:  set  = set()
-    for ps_item in ps_news_items:
-        for ca_id in ps_item.get("assemblies_fired", []):
-            if ca_id not in seen_ca_ids and ca_id in ca_lookup:
-                seen_ca_ids.add(ca_id)
-                fired_ca_ids.append(ca_id)
+    fired_ca_ids = [ca_id for ca_id, _ in fired_assemblies_ordered if ca_id in ca_lookup]
 
     assembly_news_items: list = []
     if fired_ca_ids:
@@ -826,16 +891,17 @@ def run(scope: str = "us"):
     # Save raw data so synthesis can be retried without re-running Perplexity
     raw_path = BRIEFINGS_DIR / f"{cfg['briefing_prefix']}_raw_{week_end}.json"
     raw_data = {
-        "scope":               scope,
-        "week_start":          week_start,
-        "week_end":            week_end,
-        "ps_news_items":       ps_news_items,
-        "assembly_news_items": assembly_news_items,
-        "news_items":          news_items,
-        "neurons_conscious":   [p["name"] for p in conscious_neurons],
-        "neurons_spontaneous": [p["name"] for p in spontaneous_neurons],
-        "neurons_skipped":     [p["name"] for p in all_skipped],
-        "spontaneous_cap":     spontaneous_cap,
+        "scope":                  scope,
+        "week_start":             week_start,
+        "week_end":               week_end,
+        "ps_news_items":          ps_news_items,
+        "assembly_news_items":    assembly_news_items,
+        "news_items":             news_items,
+        "ps_assemblies_fired":    ps_to_fired_assemblies,
+        "neurons_conscious":      [p["name"] for p in conscious_neurons],
+        "neurons_spontaneous":    [p["name"] for p in spontaneous_neurons],
+        "neurons_skipped":        [p["name"] for p in all_skipped],
+        "spontaneous_cap":        spontaneous_cap,
     }
     with open(raw_path, "w", encoding="utf-8") as f:
         json.dump(raw_data, f, indent=2, ensure_ascii=False)
@@ -853,7 +919,7 @@ def run(scope: str = "us"):
         claude   = get_anthropic_client()
         briefing = synthesize_briefing(
             claude, ps_news_items, assembly_news_items, synthesis_items,
-            phase_sequences, week_start, week_end, cfg,
+            phase_sequences, ps_to_fired_assemblies, week_start, week_end, cfg,
         )
     except Exception as e:
         print(f"  ! Synthesis failed: {e}")
@@ -871,8 +937,8 @@ def run(scope: str = "us"):
         "neurons_spontaneous":    [p["name"] for p in spontaneous_neurons],
         "neurons_skipped":        [p["name"] for p in all_skipped],
         "spontaneous_cap":        spontaneous_cap,
-        "ps_activation_signals":  {p["id"]: p["activation_signal"] for p in ps_news_items},
-        "ps_assemblies_fired":    {p["id"]: p.get("assemblies_fired", []) for p in ps_news_items if p.get("assemblies_fired")},
+        "ps_activation_scores":   {p["id"]: p["activation_score"] for p in ps_news_items},
+        "ps_assemblies_fired":    ps_to_fired_assemblies,
         "assemblies_fetched":     [a["id"] for a in assembly_news_items],
     }
 
@@ -907,11 +973,12 @@ def run_synthesis_only(scope: str = "us"):
     with open(raw_path, "r", encoding="utf-8") as f:
         raw = json.load(f)
 
-    ps_news_items       = raw["ps_news_items"]
-    assembly_news_items = raw.get("assembly_news_items", [])
-    news_items          = raw["news_items"]
-    week_start     = raw["week_start"]
-    week_end       = raw["week_end"]
+    ps_news_items          = raw["ps_news_items"]
+    assembly_news_items    = raw.get("assembly_news_items", [])
+    news_items             = raw["news_items"]
+    ps_to_fired_assemblies = raw.get("ps_assemblies_fired", {})
+    week_start             = raw["week_start"]
+    week_end               = raw["week_end"]
 
     # Load model just for phase_sequences vocabulary
     model_path = SCRIPT_DIR / cfg["model_file"]
@@ -928,7 +995,7 @@ def run_synthesis_only(scope: str = "us"):
         claude   = get_anthropic_client()
         briefing = synthesize_briefing(
             claude, ps_news_items, assembly_news_items, synthesis_items,
-            phase_sequences, week_start, week_end, cfg,
+            phase_sequences, ps_to_fired_assemblies, week_start, week_end, cfg,
         )
     except Exception as e:
         print(f"  ! Synthesis failed: {e}")
@@ -946,8 +1013,8 @@ def run_synthesis_only(scope: str = "us"):
         "neurons_spontaneous":     raw.get("neurons_spontaneous", []),
         "neurons_skipped":         raw.get("neurons_skipped", []),
         "spontaneous_cap":         raw.get("spontaneous_cap", 0),
-        "ps_activation_signals":   {p["id"]: p["activation_signal"] for p in ps_news_items},
-        "ps_assemblies_fired":     {p["id"]: p.get("assemblies_fired", []) for p in ps_news_items if p.get("assemblies_fired")},
+        "ps_activation_scores":    {p["id"]: p["activation_score"] for p in ps_news_items},
+        "ps_assemblies_fired":     ps_to_fired_assemblies,
         "assemblies_fetched":      [a["id"] for a in assembly_news_items],
         "synthesize_only":         True,
     }

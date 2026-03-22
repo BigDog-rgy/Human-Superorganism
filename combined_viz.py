@@ -51,6 +51,7 @@ FONT_COLOR = "#e6edf3"
 # ---------------------------------------------------------------------------
 
 TOOLTIP_CSS = """<style>
+#loadingBar { display: none !important; }
 #custom-tooltip {
   display: none;
   position: fixed;
@@ -132,8 +133,8 @@ def compute_hebbian_edge_weight(
     return sum(wa.get(ps_id, 0.0) * wb.get(ps_id, 0.0) for ps_id in shared_ids)
 
 
-def build_global_legend_html(ps_dominance: dict | None = None) -> str:
-    """Global legend with optional PS dominance bar chart."""
+def build_global_legend_html() -> str:
+    """Global legend."""
     html = """<div id="legend" style="
     position:fixed; top:20px; right:20px; z-index:9999;
     background:rgba(13,17,23,0.92); border:1px solid #30363d;
@@ -154,26 +155,9 @@ def build_global_legend_html(ps_dominance: dict | None = None) -> str:
     Node color = hemisphere<br>
     Edge width = Hebbian connection strength<br>
     Hover nodes &amp; edges for detail
-  </div>"""
-
-    if ps_dominance:
-        html += (
-            "\n  <hr style='border-color:#30363d;margin:10px 0'>"
-            "\n  <div style='font-size:12px;font-weight:700;margin-bottom:8px'>"
-            "Phase Sequence Dominance</div>"
-        )
-        for ps_id, score in sorted(ps_dominance.items(), key=lambda x: -x[1]):
-            bar_w = int(score * 80)
-            color = "#4caf50" if score > 0.6 else "#f5a623" if score > 0.4 else "#8b949e"
-            html += (
-                f"\n  <div style='margin-top:5px'>"
-                f"<span style='font-size:10px;color:#58a6ff;font-weight:600'>{ps_id}</span>"
-                f"<div style='height:4px;background:#21262d;border-radius:2px;margin-top:3px'>"
-                f"<div style='height:4px;width:{bar_w}px;max-width:100%;background:{color};"
-                f"border-radius:2px'></div></div></div>"
-            )
-
-    html += "\n</div>\n"
+  </div>
+</div>
+"""
     return html
 
 
@@ -211,6 +195,7 @@ def global_node_size(rank: int, n_total: int) -> int:
 def build_network(
     global_data: dict,
     hebbian_state: dict | None = None,
+    coactivation_state: dict | None = None,
 ):
     """
     Build the pyvis network for the global superorganism model.
@@ -281,70 +266,37 @@ def build_network(
             borderWidth=2,
         )
 
-    # --- Hebbian state setup ---
-    hebbian_weights = None
-    edge_threshold  = 0.0
-    hebbian_week    = 0
-    if hebbian_state:
-        hebbian_weights = hebbian_state.get("neuron_dps_weights", {})
-        edge_threshold  = hebbian_state.get("config", {}).get("edge_display_threshold", 0.0)
-        hebbian_week    = hebbian_state.get("week_count", 0)
-
-    # --- Edges ---
-    for i, a in enumerate(people):
-        for b in people[i + 1:]:
-            ps_a = {ps["id"] for ps in a["superorganism"].get("phase_sequences", [])}
-            ps_b = {ps["id"] for ps in b["superorganism"].get("phase_sequences", [])}
-            shared_ids = ps_a & ps_b
-            if not shared_ids:
+    # --- Edges from coactivation state (no fallback — no state = no edges) ---
+    name_set = {p["name"] for p in people}
+    if coactivation_state:
+        threshold = coactivation_state.get("config", {}).get("edge_display_threshold", 0.15)
+        for key, entry in coactivation_state.get("neuron_coactivation", {}).items():
+            if abs(entry["score"]) < threshold:
                 continue
-
-            if hebbian_weights is not None:
-                edge_weight = compute_hebbian_edge_weight(
-                    a["name"], b["name"], shared_ids, hebbian_weights
-                )
-                if edge_weight < edge_threshold:
-                    continue
-                edge_value = edge_weight
-            else:
-                edge_weight = None
-                edge_value  = len(shared_ids)
-
-            # Global edges are all excitatory by default (no briefing-driven valences yet)
-            ecolor = EXCITATORY_COLOR
-            count  = len(shared_ids)
-
-            if edge_weight is not None:
-                strength_html = (
-                    f"<div style='color:#8b949e;font-size:11px;margin-bottom:2px'>"
-                    f"Hebbian strength: <span style='color:#e6edf3'>{edge_weight:.3f}</span>"
-                    f" &nbsp;·&nbsp; week {hebbian_week}</div>"
-                )
-            else:
-                strength_html = ""
-
-            ps_lines = "".join(
-                f"<div style='margin-top:5px'>"
-                f"<span style='font-size:14px;color:#4caf50'>&#8853;</span>"
-                f"&nbsp;<span style='color:#8b949e;font-size:11px'>{ps_id}</span>"
-                f"</div>"
-                for ps_id in sorted(shared_ids)
-            )
-
-            edge_key = f"{a['name']}|||{b['name']}"
+            parts = key.split("|||")
+            if len(parts) != 2:
+                continue
+            name_a, name_b = parts
+            if name_a not in name_set or name_b not in name_set:
+                continue
+            score  = entry["score"]
+            ecolor = EXCITATORY_COLOR if score > 0 else INHIBITORY_COLOR
+            last_ps = ", ".join(entry.get("last_ps", []))
+            label_str = entry["label"].capitalize()
+            label_color = EXCITATORY_COLOR if score > 0 else INHIBITORY_COLOR
+            edge_key = f"{name_a}|||{name_b}"
             edge_tooltips[edge_key] = (
-                f"<div style='font-family:sans-serif;font-size:13px;"
-                f"color:#e6edf3;max-width:320px'>"
-                f"<div style='font-weight:600;margin-bottom:4px'>"
-                f"Shared phase sequences ({count})</div>"
-                f"{strength_html}"
-                f"{ps_lines}"
+                f"<div style='font-family:sans-serif;font-size:13px;color:#e6edf3;max-width:280px'>"
+                f"<div style='font-weight:600;margin-bottom:6px'>"
+                f"<span style='color:{label_color}'>{label_str}</span></div>"
+                f"<div style='color:#8b949e;font-size:11px'>Score: {score:.3f}</div>"
+                + (f"<div style='color:#8b949e;font-size:11px'>Last PS: {last_ps}</div>" if last_ps else "")
+                + f"<div style='color:#8b949e;font-size:11px'>Observations: {entry.get('observations', 0)}</div>"
                 f"</div>"
             )
-
             net.add_edge(
-                a["name"], b["name"],
-                value=edge_value,
+                name_a, name_b,
+                value=abs(score),
                 color={"color": ecolor, "highlight": "#ffffff", "opacity": 0.75},
             )
 
@@ -386,16 +338,6 @@ def build_network(
 # US-SPECIFIC CONSTANTS
 # ---------------------------------------------------------------------------
 
-SIGNAL_BORDER_COLOR = {
-    "concerning": "#cf6679",
-    "notable":    "#f5a623",
-}
-
-SIGNAL_ICON = {
-    "concerning": ("▼", "#cf6679"),
-    "notable":    ("▲", "#f5a623"),
-    "quiet":      ("—", "#8b949e"),
-}
 
 
 def us_node_size(rank: int, n_total: int) -> int:
@@ -424,16 +366,6 @@ def load_latest_briefing(script_dir: str) -> dict | None:
         return json.load(f)
 
 
-def build_edge_signals_map(briefing: dict) -> dict:
-    result = {}
-    for sig in briefing.get("edge_signals", []):
-        key = frozenset({sig["person_a"], sig["person_b"]})
-        if key not in result:
-            result[key] = {}
-        result[key][sig["ps_id"]] = (sig["valence"], sig.get("evidence", ""))
-    return result
-
-
 def load_hebbian_state(script_dir: str) -> dict | None:
     path = os.path.join(script_dir, "superorganism_state.json")
     if not os.path.exists(path):
@@ -450,17 +382,67 @@ def load_global_hebbian_state(script_dir: str) -> dict | None:
         return json.load(f)
 
 
+def load_coactivation_state(script_dir: str, scope: str = "us") -> dict | None:
+    filename = "us_coactivation_state.json" if scope == "us" else "global_coactivation_state.json"
+    path = os.path.join(script_dir, filename)
+    if not os.path.exists(path):
+        return None
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def build_ps_membership_edges(model_data: dict) -> dict:
+    """
+    Build {ps_id: [{from, to, color, value}, ...]} for the PS co-membership selector.
+    Edges are structural (from model CA membership), not from coactivation scores.
+    """
+    people   = model_data["superorganism_list"]
+    raw_asm  = model_data.get("canonical_vocabulary", {}).get("cell_assemblies", [])
+
+    ps_to_cas: dict = {}
+    for ca in raw_asm:
+        if isinstance(ca, str):
+            continue
+        ca_id = ca.get("id") or ca.get("name", "")
+        for ps_id in ca.get("ps_memberships", []):
+            ps_to_cas.setdefault(ps_id, set()).add(ca_id)
+
+    ca_to_neurons: dict = {}
+    for person in people:
+        for ca in person.get("superorganism", {}).get("cell_assemblies", []):
+            ca_id = ca.get("id") or ca.get("name", "")
+            if ca_id:
+                ca_to_neurons.setdefault(ca_id, set()).add(person["name"])
+
+    result = {}
+    for ps_id, ca_ids in ps_to_cas.items():
+        neurons_in_ps = set()
+        for ca_id in ca_ids:
+            neurons_in_ps |= ca_to_neurons.get(ca_id, set())
+        neuron_list = sorted(neurons_in_ps)
+        edges = [
+            {"from": a, "to": b,
+             "color": {"color": "#ffffff", "opacity": 0.4},
+             "value": 1}
+            for i, a in enumerate(neuron_list)
+            for b in neuron_list[i + 1:]
+        ]
+        if edges:
+            result[ps_id] = edges
+    return result
+
+
 # ---------------------------------------------------------------------------
 # LEGEND BUILDERS
 # ---------------------------------------------------------------------------
 
-def build_us_legend_html(dps_dominance: dict | None = None) -> str:
+def build_us_legend_html(briefing: dict | None = None) -> str:
     html = """<div id="us-legend" style="
     display:none;
     position:fixed; top:20px; right:20px; z-index:9999;
     background:rgba(13,17,23,0.92); border:1px solid #30363d;
     border-radius:8px; padding:14px 18px; font-family:sans-serif;
-    font-size:13px; color:#e6edf3; min-width:220px; line-height:1.8">
+    font-size:13px; color:#e6edf3; min-width:260px; max-width:320px; line-height:1.8">
   <div style="font-size:14px;font-weight:700;margin-bottom:8px">US View</div>
   <div><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#4a90d9;margin-right:8px;vertical-align:middle"></span>All nodes: West (US)</div>
   <hr style="border-color:#30363d;margin:10px 0">
@@ -475,25 +457,210 @@ def build_us_legend_html(dps_dominance: dict | None = None) -> str:
     Hover nodes &amp; edges for detail
   </div>"""
 
-    if dps_dominance:
-        html += (
-            "\n  <hr style='border-color:#30363d;margin:10px 0'>"
-            "\n  <div style='font-size:12px;font-weight:700;margin-bottom:8px'>"
-            "Phase Sequence Dominance</div>"
-        )
-        for dps_id, score in sorted(dps_dominance.items(), key=lambda x: -x[1]):
-            bar_w = int(score * 80)
-            color = "#4caf50" if score > 0.6 else "#f5a623" if score > 0.4 else "#8b949e"
+    if briefing:
+        meta = briefing.get("_metadata", {})
+        conscious_set = set(meta.get("neurons_conscious", []))
+        spontaneous_set = set(meta.get("neurons_spontaneous", []))
+
+        # Phase Sequences
+        ps_updates = briefing.get("phase_sequence_updates", [])
+        # Cell Assemblies — active only
+        ca_updates = [a for a in briefing.get("assembly_updates", []) if a.get("signal", "active") == "active"]
+        # Neurons split by type — active only
+        person_updates = briefing.get("person_updates", [])
+        conscious_updates = [
+            p for p in person_updates
+            if p["name"] in conscious_set and p.get("signal", "active") == "active"
+        ]
+        spontaneous_updates = [
+            p for p in person_updates
+            if p["name"] in spontaneous_set and p.get("signal", "active") == "active"
+        ]
+
+        def news_item(label: str, summary: str) -> str:
+            safe_label   = label.replace('"', "&quot;").replace("'", "&#39;") if label else ""
+            safe_summary = summary.replace('"', "&quot;").replace("'", "&#39;") if summary else ""
+            preview  = summary[:120] + ("…" if len(summary) > 120 else "") if summary else ""
+            clickable = bool(summary)
+            cursor   = "pointer" if clickable else "default"
+            onclick  = ' onclick="openNewsModal(this)"' if clickable else ""
+            hover_style = (
+                " onmouseover=\"this.style.background='rgba(88,166,255,0.06)'\" "
+                "onmouseout=\"this.style.background='rgba(255,255,255,0.03)'\""
+                if clickable else ""
+            )
+            return (
+                f"<div style='margin-bottom:6px;padding:4px 6px;border-left:3px solid #58a6ff;"
+                f"border-radius:0 4px 4px 0;background:rgba(255,255,255,0.03);cursor:{cursor}'"
+                f"{hover_style}{onclick}"
+                f" data-label=\"{safe_label}\" data-summary=\"{safe_summary}\" data-color=\"#58a6ff\">"
+                f"<span style='font-weight:600;font-size:11px;color:#e6edf3'>{label}</span>"
+                + (f"<div style='font-size:10px;color:#8b949e;margin-top:2px'>{preview}</div>" if preview else "")
+                + "</div>"
+            )
+
+        feed_html = ""
+
+        if ps_updates:
+            feed_html += "<div style='font-size:11px;font-weight:700;color:#58a6ff;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px'>Phase Sequences</div>"
+            for ps in ps_updates:
+                ps_id  = ps.get("id", "")
+                ps_name = ps.get("name", ps_id)
+                safe_name = ps_name.replace('"', "&quot;").replace("'", "&#39;")
+                safe_id   = ps_id.replace('"', "&quot;").replace("'", "&#39;")
+                feed_html += (
+                    f"<div style='margin-bottom:6px;padding:4px 6px;border-left:3px solid #58a6ff;"
+                    f"border-radius:0 4px 4px 0;background:rgba(255,255,255,0.03);cursor:pointer'"
+                    f" onmouseover=\"this.style.background='rgba(88,166,255,0.06)'\""
+                    f" onmouseout=\"this.style.background='rgba(255,255,255,0.03)'\""
+                    f" onclick=\"selectPS('{safe_id}')\">"
+                    f"<span style='font-weight:600;font-size:11px;color:#e6edf3'>{ps_name}</span>"
+                    f"<span style='font-size:10px;color:#58a6ff;margin-left:6px'>{ps_id}</span>"
+                    f"</div>"
+                )
+
+        if conscious_updates:
+            feed_html += "<div style='font-size:11px;font-weight:700;color:#f0c040;margin-top:8px;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px'>Conscious Neurons</div>"
+            for p in conscious_updates:
+                feed_html += news_item(p["name"], p.get("summary", ""))
+
+        if spontaneous_updates:
+            feed_html += "<div style='font-size:11px;font-weight:700;color:#8b949e;margin-top:8px;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px'>Spontaneous Neurons</div>"
+            for p in spontaneous_updates:
+                feed_html += news_item(p["name"], p.get("summary", ""))
+
+        if feed_html:
+            week = briefing.get("week_ending", "")
+            week_label = f" — {week}" if week else ""
             html += (
-                f"\n  <div style='margin-top:5px'>"
-                f"<span style='font-size:10px;color:#58a6ff;font-weight:600'>{dps_id}</span>"
-                f"<div style='height:4px;background:#21262d;border-radius:2px;margin-top:3px'>"
-                f"<div style='height:4px;width:{bar_w}px;max-width:100%;background:{color};"
-                f"border-radius:2px'></div></div></div>"
+                "\n  <hr style='border-color:#30363d;margin:10px 0'>"
+                f"\n  <div style='font-size:12px;font-weight:700;margin-bottom:8px'>Weekly News{week_label}</div>"
+                f"\n  <div style='max-height:380px;overflow-y:auto;padding-right:4px'>{feed_html}</div>"
             )
 
     html += "\n</div>\n"
     return html
+
+
+def build_us_asm_legend_html(briefing: dict | None = None) -> str:
+    """Assembly-view sidebar: static legend + PS and CA news feed."""
+    html = """<div id="us-asm-legend" style="
+    display:none;
+    position:fixed; top:20px; right:20px; z-index:9999;
+    background:rgba(13,17,23,0.92); border:1px solid #30363d;
+    border-radius:8px; padding:14px 18px; font-family:sans-serif;
+    font-size:13px; color:#e6edf3; min-width:260px; max-width:320px; line-height:1.8">
+  <div style="font-size:14px;font-weight:700;margin-bottom:8px">US &middot; Assemblies</div>
+  <div><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#4a90d9;margin-right:8px;vertical-align:middle"></span>All nodes: West (US)</div>
+  <hr style="border-color:#30363d;margin:10px 0">
+  <div style="color:#8b949e;font-size:11px">
+    Node size = member count<br>
+    Edge = shared phase sequences<br>
+    Hover for members &amp; news
+  </div>"""
+
+    if briefing:
+        def news_item(label: str, summary: str) -> str:
+            safe_label   = label.replace('"', "&quot;").replace("'", "&#39;") if label else ""
+            safe_summary = summary.replace('"', "&quot;").replace("'", "&#39;") if summary else ""
+            preview  = summary[:120] + ("…" if len(summary) > 120 else "") if summary else ""
+            clickable = bool(summary)
+            cursor   = "pointer" if clickable else "default"
+            onclick  = ' onclick="openNewsModal(this)"' if clickable else ""
+            hover_style = (
+                " onmouseover=\"this.style.background='rgba(88,166,255,0.06)'\" "
+                "onmouseout=\"this.style.background='rgba(255,255,255,0.03)'\""
+                if clickable else ""
+            )
+            return (
+                f"<div style='margin-bottom:6px;padding:4px 6px;border-left:3px solid #58a6ff;"
+                f"border-radius:0 4px 4px 0;background:rgba(255,255,255,0.03);cursor:{cursor}'"
+                f"{hover_style}{onclick}"
+                f" data-label=\"{safe_label}\" data-summary=\"{safe_summary}\" data-color=\"#58a6ff\">"
+                f"<span style='font-weight:600;font-size:11px;color:#e6edf3'>{label}</span>"
+                + (f"<div style='font-size:10px;color:#8b949e;margin-top:2px'>{preview}</div>" if preview else "")
+                + "</div>"
+            )
+
+        ps_updates = briefing.get("phase_sequence_updates", [])
+        ca_updates = [a for a in briefing.get("assembly_updates", []) if a.get("signal", "active") == "active"]
+        feed_html  = ""
+
+        if ps_updates:
+            feed_html += "<div style='font-size:11px;font-weight:700;color:#58a6ff;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px'>Phase Sequences</div>"
+            for ps in ps_updates:
+                ps_id  = ps.get("id", "")
+                ps_name = ps.get("name", ps_id)
+                safe_id   = ps_id.replace('"', "&quot;").replace("'", "&#39;")
+                feed_html += (
+                    f"<div style='margin-bottom:6px;padding:4px 6px;border-left:3px solid #58a6ff;"
+                    f"border-radius:0 4px 4px 0;background:rgba(255,255,255,0.03);cursor:pointer'"
+                    f" onmouseover=\"this.style.background='rgba(88,166,255,0.06)'\""
+                    f" onmouseout=\"this.style.background='rgba(255,255,255,0.03)'\""
+                    f" onclick=\"selectPS('{safe_id}')\">"
+                    f"<span style='font-weight:600;font-size:11px;color:#e6edf3'>{ps_name}</span>"
+                    f"<span style='font-size:10px;color:#58a6ff;margin-left:6px'>{ps_id}</span>"
+                    f"</div>"
+                )
+
+        if ca_updates:
+            feed_html += "<div style='font-size:11px;font-weight:700;color:#a78bfa;margin-top:8px;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px'>Cell Assemblies</div>"
+            for ca in ca_updates:
+                feed_html += news_item(ca.get("name", ca.get("id", "")), ca.get("summary", ""))
+
+        if feed_html:
+            week = briefing.get("week_ending", "")
+            week_label = f" — {week}" if week else ""
+            html += (
+                "\n  <hr style='border-color:#30363d;margin:10px 0'>"
+                f"\n  <div style='font-size:12px;font-weight:700;margin-bottom:8px'>Weekly News{week_label}</div>"
+                f"\n  <div style='max-height:380px;overflow-y:auto;padding-right:4px'>{feed_html}</div>"
+            )
+
+    html += "\n</div>\n"
+    return html
+
+
+NEWS_MODAL_HTML = """
+<div id="news-modal" onclick="if(event.target===this)closeNewsModal()" style="
+    display:none; position:fixed; inset:0; z-index:19999;
+    background:rgba(0,0,0,0.6); align-items:center; justify-content:center">
+  <div style="
+      background:#161b22; border:1px solid #30363d; border-radius:10px;
+      padding:20px 24px; max-width:480px; width:90%; font-family:sans-serif;
+      color:#e6edf3; position:relative; box-shadow:0 8px 32px rgba(0,0,0,0.6)">
+    <div id="news-modal-border" style="
+        position:absolute; left:0; top:0; bottom:0; width:4px; border-radius:10px 0 0 10px"></div>
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px">
+      <div id="news-modal-label" style="font-size:14px;font-weight:700;line-height:1.4;flex:1"></div>
+      <button onclick="closeNewsModal()" style="
+          background:none;border:none;color:#8b949e;font-size:18px;cursor:pointer;
+          padding:0;line-height:1;flex-shrink:0" title="Close">&times;</button>
+    </div>
+    <div id="news-modal-body" style="
+        font-size:13px;color:#c9d1d9;margin-top:12px;line-height:1.7;
+        max-height:60vh;overflow-y:auto"></div>
+  </div>
+</div>
+<script>
+function openNewsModal(el) {
+  var label   = el.getAttribute('data-label')   || '';
+  var summary = el.getAttribute('data-summary') || '';
+  var color   = el.getAttribute('data-color')   || '#8b949e';
+  document.getElementById('news-modal-label').textContent  = label;
+  document.getElementById('news-modal-body').textContent   = summary;
+  document.getElementById('news-modal-border').style.background = color;
+  var modal = document.getElementById('news-modal');
+  modal.style.display = 'flex';
+}
+function closeNewsModal() {
+  document.getElementById('news-modal').style.display = 'none';
+}
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeNewsModal();
+});
+</script>
+"""
 
 
 # ---------------------------------------------------------------------------
@@ -526,22 +693,40 @@ GLOBAL_ASM_LEGEND_HTML = """<div id="global-asm-legend" style="
 </div>
 """
 
-US_ASM_LEGEND_HTML = """<div id="us-asm-legend" style="
+
+# ---------------------------------------------------------------------------
+# PS DETAIL PANEL
+# ---------------------------------------------------------------------------
+
+PS_DETAIL_PANEL_HTML = """<div id="ps-detail-panel" style="
     display:none;
-    position:fixed; top:20px; right:20px; z-index:9999;
-    background:rgba(13,17,23,0.92); border:1px solid #30363d;
+    position:fixed; bottom:20px; right:20px; z-index:10000;
+    background:rgba(13,17,23,0.97); border:1px solid #58a6ff;
     border-radius:8px; padding:14px 18px; font-family:sans-serif;
-    font-size:13px; color:#e6edf3; min-width:200px; line-height:1.8">
-  <div style="font-size:14px;font-weight:700;margin-bottom:8px">US &middot; Assemblies</div>
-  <div><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#4a90d9;margin-right:8px;vertical-align:middle"></span>All nodes: West (US)</div>
-  <hr style="border-color:#30363d;margin:10px 0">
-  <div style="color:#8b949e;font-size:11px">
-    Node size = member count<br>
-    Edge = shared phase sequences<br>
-    Hover for members &amp; news
+    font-size:13px; color:#e6edf3; min-width:280px; max-width:420px;
+    max-height:65vh; overflow-y:auto;
+    box-shadow:0 4px 20px rgba(88,166,255,0.25)">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+    <span style="font-size:11px;color:#58a6ff;font-weight:600;letter-spacing:0.5px">PHASE SEQUENCE</span>
+    <button onclick="hidePSPanel()" style="background:none;border:none;color:#8b949e;
+      cursor:pointer;font-size:18px;padding:0;line-height:1">&times;</button>
   </div>
+  <div id="ps-detail-content"></div>
 </div>
 """
+
+
+def build_ps_panel_data(briefing: dict | None) -> dict:
+    """Build {ps_id: {name, summary}} from briefing phase_sequence_updates."""
+    if not briefing:
+        return {}
+    result = {}
+    for upd in briefing.get("phase_sequence_updates", []):
+        result[upd["id"]] = {
+            "name":    upd.get("name", upd["id"]),
+            "summary": upd.get("summary", ""),
+        }
+    return result
 
 
 def make_controls_html(
@@ -593,30 +778,11 @@ def make_controls_html(
 # US NETWORK BUILDER
 # ---------------------------------------------------------------------------
 
-def compute_us_ps_valences(
-    person_a: dict, person_b: dict, shared_ids: set,
-    edge_signals_map: dict | None = None,
-) -> list:
-    pair_key     = frozenset({person_a["name"], person_b["name"]})
-    pair_signals = (edge_signals_map or {}).get(pair_key, {})
-    ps_map       = {ps["id"]: ps["name"]
-                    for ps in person_a["superorganism"].get("phase_sequences", [])}
-    result = []
-    for dps_id in sorted(shared_ids):
-        name = ps_map.get(dps_id, dps_id)
-        if dps_id in pair_signals:
-            valence_str, _ = pair_signals[dps_id]
-            v = -1 if valence_str == "adversarial" else +1
-        else:
-            v = +1
-        result.append((dps_id, name, v))
-    return result
-
-
 def build_us_network(
     us_data: dict,
     briefing: dict | None = None,
     hebbian_state: dict | None = None,
+    coactivation_state: dict | None = None,
 ):
     """
     Build the pyvis network for the US superorganism model.
@@ -636,24 +802,17 @@ def build_us_network(
     color  = HEMISPHERE_COLORS["West"]
     border = HEMISPHERE_BORDER["West"]
 
-    edge_signals_map  = build_edge_signals_map(briefing) if briefing else {}
-    person_signals    = {}
     person_summaries  = {}
     person_top_stories: dict = {}
-    ps_updates_map: dict     = {}
     briefing_week    = ""
     if briefing:
         briefing_week = briefing.get("week_ending", "")
         for pu in briefing.get("person_updates", []):
-            person_signals[pu["name"]]   = pu.get("signal", "quiet")
-            person_summaries[pu["name"]] = pu.get("summary", "")
+            if pu.get("signal", "active") == "active":
+                person_summaries[pu["name"]] = pu.get("summary", "")
         for story in briefing.get("top_stories", []):
             for name in story.get("persons", []):
                 person_top_stories.setdefault(name, []).append(story)
-        ps_updates_map = {u["id"]: u for u in briefing.get("phase_sequence_updates", [])}
-
-    _m_icon  = {"accelerating": "↑", "stable": "→", "decelerating": "↓"}
-    _m_color = {"accelerating": "#4caf50", "stable": "#8b949e", "decelerating": "#cf6679"}
 
     # --- Nodes ---
     for person in people:
@@ -661,16 +820,10 @@ def build_us_network(
         size = us_node_size(person["rank"], n_total)
         ps_rows = ""
         for ps in so.get("phase_sequences", []):
-            ps_upd   = ps_updates_map.get(ps["id"], {})
-            momentum = ps_upd.get("momentum", "")
-            mom_html = (
-                f" <span style='color:{_m_color[momentum]}'>{_m_icon[momentum]}</span>"
-                if momentum in _m_icon else ""
-            )
             ps_rows += (
                 f"<div style='margin-top:6px'>"
                 f"<span style='color:#58a6ff;font-weight:600;font-size:11px'>{ps['id']}</span>"
-                f"&nbsp;<span style='color:#e6edf3'>{ps['name']}</span>{mom_html}<br>"
+                f"&nbsp;<span style='color:#e6edf3'>{ps['name']}</span><br>"
                 f"<span style='color:#8b949e;font-size:11px'>{ps.get('role','')}</span>"
                 f"</div>"
             )
@@ -683,18 +836,14 @@ def build_us_network(
             for a in so.get("cell_assemblies", [])
         )
 
-        sig         = person_signals.get(person["name"], "quiet")
-        node_border = SIGNAL_BORDER_COLOR.get(sig, border)
-        sig_icon, sig_color = SIGNAL_ICON.get(sig, ("—", "#8b949e"))
-
         weekly_html    = ""
         weekly_summary = person_summaries.get(person["name"], "")
         if weekly_summary:
             week_label  = f"This Week ({briefing_week})" if briefing_week else "This Week"
             weekly_html = (
                 f"<hr style='border-color:#30363d;margin:10px 0'>"
-                f"<div style='font-size:12px;font-weight:600;color:{sig_color};"
-                f"margin-bottom:4px'>{sig_icon} {week_label}</div>"
+                f"<div style='font-size:12px;font-weight:600;color:#e6edf3;"
+                f"margin-bottom:4px'>{week_label}</div>"
                 f"<div style='color:#8b949e;font-size:11px'>{weekly_summary}</div>"
             )
         elif briefing:
@@ -751,106 +900,46 @@ def build_us_network(
         net.add_node(
             person["name"],
             label=person["name"],
-            color={"background": color, "border": node_border,
+            color={"background": color, "border": border,
                    "highlight": {"background": color, "border": "#ffffff"}},
             size=size,
             font={"size": 13, "color": FONT_COLOR, "face": "sans-serif"},
-            borderWidth=3 if sig in ("concerning", "notable") else 2,
+            borderWidth=2,
         )
 
-    # --- Hebbian state setup ---
-    hebbian_weights = None
-    edge_threshold  = 0.0
-    hebbian_week    = 0
-    if hebbian_state:
-        hebbian_weights = hebbian_state.get("neuron_dps_weights", {})
-        edge_threshold  = hebbian_state.get("config", {}).get("edge_display_threshold", 0.0)
-        hebbian_week    = hebbian_state.get("week_count", 0)
-
-    # --- Edges ---
-    for i, a in enumerate(people):
-        for b in people[i + 1:]:
-            ps_a = {ps["id"] for ps in a["superorganism"].get("phase_sequences", [])}
-            ps_b = {ps["id"] for ps in b["superorganism"].get("phase_sequences", [])}
-            shared_ids = ps_a & ps_b
-            if not shared_ids:
+    # --- Edges from coactivation state ---
+    name_set   = {p["name"] for p in people}
+    threshold  = 0.0
+    if coactivation_state:
+        threshold = coactivation_state.get("config", {}).get("edge_display_threshold", 0.15)
+        for key, entry in coactivation_state.get("neuron_coactivation", {}).items():
+            if abs(entry["score"]) < threshold:
                 continue
+            parts = key.split("|||")
+            if len(parts) != 2:
+                continue
+            name_a, name_b = parts
+            if name_a not in name_set or name_b not in name_set:
+                continue
+            score  = entry["score"]
+            ecolor = EXCITATORY_COLOR if score > 0 else INHIBITORY_COLOR
+            last_ps = ", ".join(entry.get("last_ps", []))
+            label_str = entry["label"].capitalize()
+            label_color = EXCITATORY_COLOR if score > 0 else INHIBITORY_COLOR
 
-            if hebbian_weights is not None:
-                edge_weight = compute_hebbian_edge_weight(
-                    a["name"], b["name"], shared_ids, hebbian_weights
-                )
-                if edge_weight < edge_threshold:
-                    continue
-                edge_value = edge_weight
-            else:
-                edge_weight = None
-                edge_value  = len(shared_ids)
-
-            valences    = compute_us_ps_valences(a, b, shared_ids, edge_signals_map)
-            ecolor      = edge_color_from_valences(valences)
-            count       = len(valences)
-            excit_count = sum(1 for _, _, v in valences if v > 0)
-            inhib_count = sum(1 for _, _, v in valences if v < 0)
-
-            pair_key          = frozenset({a["name"], b["name"]})
-            pair_signals_data = edge_signals_map.get(pair_key, {})
-
-            if edge_weight is not None:
-                strength_html = (
-                    f"<div style='color:#8b949e;font-size:11px;margin-bottom:2px'>"
-                    f"Hebbian strength: "
-                    f"<span style='color:#e6edf3'>{edge_weight:.3f}</span>"
-                    f" &nbsp;·&nbsp; week {hebbian_week}</div>"
-                )
-            else:
-                strength_html = ""
-
-            if inhib_count == 0:
-                valence_label = "<span style='color:#4caf50'>All excitatory</span>"
-            elif excit_count == 0:
-                valence_label = "<span style='color:#cf6679'>All inhibitory</span>"
-            else:
-                valence_label = (
-                    f"<span style='color:#4caf50'>{excit_count} excitatory</span>"
-                    f" &nbsp;·&nbsp; "
-                    f"<span style='color:#cf6679'>{inhib_count} inhibitory</span>"
-                )
-
-            ps_lines = ""
-            for pid, name, v in valences:
-                evidence = pair_signals_data.get(pid, (None, ""))[1]
-                ev_html  = (
-                    f"<div style='color:#8b949e;font-size:10px;font-style:italic;"
-                    f"padding-left:18px;margin-top:1px'>{evidence}</div>"
-                    if evidence else ""
-                )
-                sym = "&#8853;" if v > 0 else "&#8854;"
-                c   = "#4caf50" if v > 0 else "#cf6679"
-                ps_lines += (
-                    f"<div style='margin-top:5px'>"
-                    f"<span style='font-size:14px;color:{c}'>{sym}</span>"
-                    f"&nbsp;<span style='color:#8b949e;font-size:11px'>{pid}</span>"
-                    f"&nbsp;{name}"
-                    f"{ev_html}"
-                    f"</div>"
-                )
-
-            edge_key = f"{a['name']}|||{b['name']}"
+            edge_key = f"{name_a}|||{name_b}"
             edge_tooltips[edge_key] = (
-                f"<div style='font-family:sans-serif;font-size:13px;color:#e6edf3;"
-                f"max-width:320px'>"
-                f"<div style='font-weight:600;margin-bottom:4px'>"
-                f"Shared phase sequences ({count})</div>"
-                f"{strength_html}"
-                f"<div style='font-size:11px;margin-bottom:8px'>{valence_label}</div>"
-                f"{ps_lines}"
+                f"<div style='font-family:sans-serif;font-size:13px;color:#e6edf3;max-width:280px'>"
+                f"<div style='font-weight:600;margin-bottom:6px'>"
+                f"<span style='color:{label_color}'>{label_str}</span></div>"
+                f"<div style='color:#8b949e;font-size:11px'>Score: {score:.3f}</div>"
+                + (f"<div style='color:#8b949e;font-size:11px'>Last PS: {last_ps}</div>" if last_ps else "")
+                + f"<div style='color:#8b949e;font-size:11px'>Observations: {entry.get('observations', 0)}</div>"
                 f"</div>"
             )
-
             net.add_edge(
-                a["name"], b["name"],
-                value=edge_value,
+                name_a, name_b,
+                value=abs(score),
                 color={"color": ecolor, "highlight": "#ffffff", "opacity": 0.75},
             )
 
@@ -896,6 +985,7 @@ def build_assembly_network(
     model_data: dict,
     briefing: dict | None = None,
     is_us: bool = True,
+    coactivation_state: dict | None = None,
 ):
     """
     Build a pyvis network where nodes are cell assemblies.
@@ -1008,45 +1098,38 @@ def build_assembly_network(
             borderWidth=2,
         )
 
-    # Edges: shared PS memberships
-    for i, ca_a in enumerate(assemblies):
-        for ca_b in assemblies[i + 1:]:
-            ps_a   = set(ca_a.get("ps_memberships", []))
-            ps_b   = set(ca_b.get("ps_memberships", []))
-            shared = ps_a & ps_b
-            if not shared:
+    # Edges: coactivation scores only (no fallback — no state = no edges)
+    ca_id_set = {ca["id"] for ca in assemblies}
+    if coactivation_state:
+        threshold = coactivation_state.get("config", {}).get("edge_display_threshold", 0.15)
+        for key, entry in coactivation_state.get("ca_coactivation", {}).items():
+            if abs(entry["score"]) < threshold:
                 continue
-
-            shared_members = (
-                {p["name"] for p in ca_members.get(ca_a["id"], [])} &
-                {p["name"] for p in ca_members.get(ca_b["id"], [])}
-            )
-            ps_lines = "".join(
-                f"<div style='margin-top:4px'>"
-                f"<span style='color:#58a6ff;font-size:11px'>{pid}</span></div>"
-                for pid in sorted(shared)
-            )
-            mem_lines = "".join(
-                f"<div style='color:#8b949e;font-size:11px;margin-top:2px'>"
-                f"&middot; {n}</div>"
-                for n in sorted(shared_members)
-            )
-            edge_key = f"{ca_a['id']}|||{ca_b['id']}"
+            parts = key.split("|||")
+            if len(parts) != 2:
+                continue
+            ca_a_id, ca_b_id = parts
+            if ca_a_id not in ca_id_set or ca_b_id not in ca_id_set:
+                continue
+            score  = entry["score"]
+            ecolor = EXCITATORY_COLOR if score > 0 else INHIBITORY_COLOR
+            last_ps = ", ".join(entry.get("last_ps", []))
+            label_str = entry["label"].capitalize()
+            label_color = EXCITATORY_COLOR if score > 0 else INHIBITORY_COLOR
+            edge_key = f"{ca_a_id}|||{ca_b_id}"
             edge_tooltips[edge_key] = (
-                f"<div style='font-family:sans-serif;font-size:13px;"
-                f"color:#e6edf3;max-width:280px'>"
-                f"<div style='font-weight:600;margin-bottom:4px'>"
-                f"Shared phase sequences ({len(shared)})</div>"
-                f"{ps_lines}"
-                + (f"<div style='font-weight:600;margin-top:8px;margin-bottom:4px'>"
-                   f"Shared members</div>{mem_lines}" if mem_lines else "")
-                + f"</div>"
+                f"<div style='font-family:sans-serif;font-size:13px;color:#e6edf3;max-width:280px'>"
+                f"<div style='font-weight:600;margin-bottom:6px'>"
+                f"<span style='color:{label_color}'>{label_str}</span></div>"
+                f"<div style='color:#8b949e;font-size:11px'>Score: {score:.3f}</div>"
+                + (f"<div style='color:#8b949e;font-size:11px'>Last PS: {last_ps}</div>" if last_ps else "")
+                + f"<div style='color:#8b949e;font-size:11px'>Observations: {entry.get('observations', 0)}</div>"
+                f"</div>"
             )
-
             net.add_edge(
-                ca_a["id"], ca_b["id"],
-                value=len(shared),
-                color={"color": EXCITATORY_COLOR, "highlight": "#ffffff", "opacity": 0.75},
+                ca_a_id, ca_b_id,
+                value=abs(score),
+                color={"color": ecolor, "highlight": "#ffffff", "opacity": 0.75},
             )
 
     net.set_options("""
@@ -1081,6 +1164,32 @@ def build_assembly_network(
     """)
 
     return net, node_tooltips, edge_tooltips
+
+
+# ---------------------------------------------------------------------------
+# PS PANEL JS BUILDER
+# ---------------------------------------------------------------------------
+
+def _build_ps_panel_js(ps_panel_data: dict) -> str:
+    """Return a <script> block that defines psPanelData, showPSPanel, hidePSPanel."""
+    data_json = json.dumps(ps_panel_data, ensure_ascii=False)
+    return (
+        "<script type=\"text/javascript\">\n"
+        f"var psPanelData = {data_json};\n"
+        "window.showPSPanel = function(psId) {\n"
+        "  var ps = psPanelData[psId];\n"
+        "  if (!ps) return;\n"
+        "  var html = \"<div style='font-size:15px;font-weight:700;margin-bottom:6px'>\" + ps.name + \"<span style='color:#58a6ff;font-size:10px;margin-left:8px'>\" + psId + \"</span></div>\"\n"
+        "    + \"<hr style='border-color:#30363d;margin:10px 0'>\"\n"
+        "    + \"<div style='color:#8b949e;font-size:12px;line-height:1.7'>\" + (ps.summary || 'No synthesis available.') + \"</div>\";\n"
+        "  document.getElementById('ps-detail-content').innerHTML = html;\n"
+        "  document.getElementById('ps-detail-panel').style.display = 'block';\n"
+        "};\n"
+        "window.hidePSPanel = function() {\n"
+        "  document.getElementById('ps-detail-panel').style.display = 'none';\n"
+        "};\n"
+        "</script>\n"
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -1136,6 +1245,10 @@ def build_combined_html(
     # Counts for control labels
     n_global=None, n_us=None, n_global_asm=None, n_us_asm=None,
     has_global: bool = True,
+    # PS detail panel data
+    ps_panel_data=None,
+    # PS co-membership edges for PS selector
+    ps_membership_edges=None,
 ):
     """
     Write combined HTML supporting up to 4 views via two toggles:
@@ -1273,6 +1386,11 @@ def build_combined_html(
     if (pollCount > 100) clearInterval(poll);
   }, 50);
   function attachListeners() {
+    // Remove pyvis loading-bar handlers so the bar never appears
+    network.off('stabilizationProgress');
+    network.off('stabilizationIterationsDone');
+    var lb = document.getElementById('loadingBar');
+    if (lb) lb.style.display = 'none';
     network.on('hoverNode', function(p) {
       if (pinnedNodeId !== null) return;
       var html = window.getActiveNodeTooltips()[p.node];
@@ -1319,8 +1437,33 @@ def build_combined_html(
 </script>
 """
 
+    ps_selector_js = (
+        "<script type=\"text/javascript\">\n"
+        f"var psMembershipEdges = {json.dumps(ps_membership_edges or {}, ensure_ascii=False)};\n"
+        "var selectedPS = null;\n"
+        "window.selectPS = function(psId) {\n"
+        "  if (selectedPS === psId) {\n"
+        "    selectedPS = null;\n"
+        "    network.setData({nodes: usNeuronNodes, edges: usNeuronEdges});\n"
+        "    window.updateTooltipMap('us', 'neuron');\n"
+        "    hidePSPanel();\n"
+        "  } else {\n"
+        "    selectedPS = psId;\n"
+        "    var rawEdges = psMembershipEdges[psId] || [];\n"
+        "    var tempEdges = new vis.DataSet(rawEdges.map(function(e, i) {\n"
+        "      return {id: 'ps_' + i, from: e.from, to: e.to, color: e.color, value: e.value};\n"
+        "    }));\n"
+        "    network.setData({nodes: usNeuronNodes, edges: tempEdges});\n"
+        "    showPSPanel(psId);\n"
+        "  }\n"
+        "};\n"
+        "</script>\n"
+    )
+
     switch_view_js = """<script type="text/javascript">
 window.switchView = function(scope, viewType) {
+  selectedPS = null;
+  hidePSPanel();
   currentScope    = scope;
   currentViewType = viewType;
   var key = scope + '_' + viewType;
@@ -1382,14 +1525,18 @@ window.switchView = function(scope, viewType) {
     body_injection = (
         TOOLTIP_DIV
         + controls_html
-        + (us_legend_html     or "")
-        + (global_legend_html or LEGEND_HTML)
+        + (us_legend_html         or "")
+        + (global_legend_html     or LEGEND_HTML)
         + (global_asm_legend_html or GLOBAL_ASM_LEGEND_HTML)
-        + (us_asm_legend_html     or US_ASM_LEGEND_HTML)
+        + (us_asm_legend_html     or build_us_asm_legend_html())
         + COMBINED_TITLE_HTML
+        + PS_DETAIL_PANEL_HTML
+        + NEWS_MODAL_HTML
         + tooltip_dicts_js
         + tooltip_listener_js
         + switch_view_js
+        + _build_ps_panel_js(ps_panel_data or {})
+        + ps_selector_js
     )
     html = html.replace("</body>", body_injection + "</body>", 1)
 
@@ -1442,50 +1589,51 @@ def main():
     global_legend = None
 
     if global_data:
-        print("\nLoading global Hebbian state...")
-        global_hebbian = load_global_hebbian_state(script_dir)
-        if global_hebbian:
-            print(f"  State: week {global_hebbian.get('week_count', 0)}, "
-                  f"last updated {global_hebbian.get('last_updated', '?')}")
+        print("\nLoading global coactivation state...")
+        global_coactivation = load_coactivation_state(script_dir, "global")
+        if global_coactivation:
+            print(f"  State: week {global_coactivation.get('week_count', 0)}, "
+                  f"last updated {global_coactivation.get('last_updated', '?')}")
         else:
-            print("  No state — run: python hebbian_updater.py --bootstrap --scope global")
+            print("  No global coactivation state — edges default to PS co-membership")
 
         print("Building global network...")
         global_net, global_node_tooltips, global_edge_tooltips = build_network(
-            global_data, hebbian_state=global_hebbian
+            global_data, coactivation_state=global_coactivation
         )
-        ps_dom       = global_hebbian.get("dps_dominance") if global_hebbian else None
-        global_legend = build_global_legend_html(ps_dom)
+        global_legend = build_global_legend_html()
 
     # --- US network ---
     print("\nLoading latest US briefing...")
     briefing = load_latest_briefing(script_dir)
     if briefing:
-        n_sig = len(briefing.get("edge_signals", []))
-        print(f"  Week ending {briefing.get('week_ending','?')} "
-              f"({n_sig} edge signal{'s' if n_sig != 1 else ''})")
+        print(f"  Week ending {briefing.get('week_ending', '?')}")
     else:
-        print("  No briefing found — edges default to excitatory")
+        print("  No briefing found")
 
-    print("Loading US Hebbian state...")
-    hebbian_state = load_hebbian_state(script_dir)
-    if hebbian_state:
-        print(f"  State: week {hebbian_state.get('week_count', 0)}, "
-              f"last updated {hebbian_state.get('last_updated', '?')}")
+    print("Loading US coactivation state...")
+    coactivation_state = load_coactivation_state(script_dir, "us")
+    if coactivation_state:
+        print(f"  State: week {coactivation_state.get('week_count', 0)}, "
+              f"last updated {coactivation_state.get('last_updated', '?')}")
     else:
-        print("  No state — run: python hebbian_updater.py --bootstrap --scope us")
+        print("  No state — run: python coactivation_updater.py --bootstrap --scope us")
 
     print("Building US neuron network...")
     us_net, us_node_tooltips, us_edge_tooltips = build_us_network(
-        us_data, briefing=briefing, hebbian_state=hebbian_state
+        us_data, briefing=briefing, coactivation_state=coactivation_state
     )
-    dps_dom   = hebbian_state.get("dps_dominance") if hebbian_state else None
-    us_legend = build_us_legend_html(dps_dom)
+    us_legend     = build_us_legend_html(briefing)
+    us_asm_legend = build_us_asm_legend_html(briefing)
+    ps_panel_data = build_ps_panel_data(briefing)
 
     # --- Assembly networks ---
+    ps_membership_edges = build_ps_membership_edges(us_data)
+    print(f"  Built PS membership edges for {len(ps_membership_edges)} phase sequences")
+
     print("Building US assembly network...")
     us_asm_net, us_asm_node_tooltips, us_asm_edge_tooltips = build_assembly_network(
-        us_data, briefing=briefing, is_us=True
+        us_data, briefing=briefing, is_us=True, coactivation_state=coactivation_state
     )
     n_us_asm = len(us_data.get("canonical_vocabulary", {}).get("cell_assemblies", []))
 
@@ -1518,15 +1666,19 @@ def main():
             us_asm_edge_tooltips=us_asm_edge_tooltips,
             global_legend_html=global_legend,
             us_legend_html=us_legend,
+            us_asm_legend_html=us_asm_legend,
             n_global=n_global,
             n_us=n_us,
             n_global_asm=n_global_asm,
             n_us_asm=n_us_asm,
             has_global=True,
+            ps_panel_data=ps_panel_data,
+            ps_membership_edges=ps_membership_edges,
         )
     else:
         # US-only: scope toggle hidden, view type toggle still shown
-        us_legend_visible = us_legend.replace('display:none;', '', 1)
+        us_legend_visible     = us_legend.replace('display:none;', '', 1)
+        us_asm_legend_visible = us_asm_legend.replace('display:none;', '', 1)
         build_combined_html(
             global_net=us_net,
             global_node_tooltips=us_node_tooltips,
@@ -1536,9 +1688,12 @@ def main():
             us_asm_node_tooltips=us_asm_node_tooltips,
             us_asm_edge_tooltips=us_asm_edge_tooltips,
             global_legend_html=us_legend_visible,
+            us_asm_legend_html=us_asm_legend_visible,
             n_global=n_us,
             n_us_asm=n_us_asm,
             has_global=False,
+            ps_panel_data=ps_panel_data,
+            ps_membership_edges=ps_membership_edges,
         )
 
     print(f"Written to {output_path}")

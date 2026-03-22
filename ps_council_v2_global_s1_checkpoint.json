@@ -1,0 +1,520 @@
+{
+  "all_proposals": {
+    "claude": [
+      {
+        "id": "PS-01",
+        "name": "US-China Systemic Rivalry",
+        "definition": "The ongoing structural competition between the United States and China across military posture, diplomatic alignment, economic leverage, and technological supremacy, tracked through bilateral policy moves, alliance realignments, sanctions, and flashpoint escalations in Taiwan, the South China Sea, and beyond.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-02",
+        "name": "NATO-Russia Confrontation Arc",
+        "definition": "The sustained adversarial dynamic between NATO's collective defense architecture and Russia's military-political power projection, operationalized through the Ukraine war's battlefield trajectory, Western weapons transfers, sanctions enforcement, and Russian hybrid operations against alliance members.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-03",
+        "name": "Global Semiconductor Control Race",
+        "definition": "The intensifying contest among states and corporations to dominate the design, fabrication, and equipment layers of the semiconductor supply chain, tracked through export controls, fab investment decisions, TSMC and ASML policy shifts, and allied chip sovereignty initiatives.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-04",
+        "name": "AI Frontier Power Struggle",
+        "definition": "The race among leading technology corporations and state actors to achieve and exploit decisive advantages in frontier artificial intelligence, tracked through model releases, compute access battles, regulatory moves, sovereign AI programs, and the strategic positioning of labs, cloud platforms, and national AI initiatives.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-05",
+        "name": "Dollar-Centric Financial Order Stress",
+        "definition": "The structural tension between the incumbent US dollar-denominated global financial system and challengers seeking monetary multipolarity, tracked through Federal Reserve and central bank policy divergence, IMF governance disputes, renminbi internationalization efforts, sanctions weaponization, and sovereign debt restructuring dynamics.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-06",
+        "name": "Global Energy Transition Contestation",
+        "definition": "The overlapping struggle between incumbent fossil fuel powers and renewable energy challengers to shape energy supply, pricing, and infrastructure investment globally, tracked through OPEC+ production decisions, Gulf sovereign fund deployments, green industrial policy competition, and critical minerals supply chain control.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-07",
+        "name": "Information Environment Weaponization",
+        "definition": "The systematic use of social media platforms, state media, algorithmic curation, and influence operations by state and non-state actors to shape public opinion, destabilize adversaries, and control political narratives, tracked through platform policy changes, disinformation campaigns, regulatory battles, and ownership shifts at major information nodes.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-08",
+        "name": "Indo-Pacific Security Architecture Build-Out",
+        "definition": "The accelerating construction of overlapping security frameworks — Quad, AUKUS, bilateral US alliances, and regional partnerships — designed to balance Chinese military expansion in the Indo-Pacific, tracked through joint exercises, basing agreements, arms transfers, and diplomatic signaling among India, Japan, Australia, and the United States.",
+        "hemisphere_bias": "Bridge"
+      },
+      {
+        "id": "PS-09",
+        "name": "Authoritarian Axis Consolidation",
+        "definition": "The deepening coordination among Russia, China, Iran, and aligned states to build parallel institutions, share military technology, and mutually reinforce regime stability against Western pressure, tracked through bilateral agreements, joint military exercises, sanctions circumvention networks, and multilateral forums such as SCO and CSTO.",
+        "hemisphere_bias": "East"
+      },
+      {
+        "id": "PS-10",
+        "name": "Global South Realignment",
+        "definition": "The strategic repositioning of major emerging economies and regional powers — including India, Gulf states, Turkey, Brazil, Mexico, and African blocs — between Western and Eastern poles, tracked through hedging diplomacy, BRICS expansion dynamics, trade diversification, and selective multilateral engagement.",
+        "hemisphere_bias": "Bridge"
+      },
+      {
+        "id": "PS-11",
+        "name": "Western Democratic Institutional Strain",
+        "definition": "The internal erosion and contestation of liberal democratic norms, multilateral commitments, and institutional authority within Western states, tracked through executive power consolidation, transatlantic alliance friction, populist electoral outcomes, and the retrenchment of US engagement with international institutions under successive administrations.",
+        "hemisphere_bias": "West"
+      },
+      {
+        "id": "PS-12",
+        "name": "Critical Infrastructure & Supply Chain Securitization",
+        "definition": "The accelerating state-driven effort to audit, restrict, and re-shore control over strategically vital infrastructure — including telecoms, ports, energy grids, and digital networks — against foreign penetration, tracked through Huawei exclusion campaigns, foreign investment screening decisions, subsea cable disputes, and allied industrial policy mandates.",
+        "hemisphere_bias": "Global"
+      }
+    ],
+    "chatgpt": [
+      {
+        "id": "PS-01",
+        "name": "Bloc Security Postures",
+        "definition": "Ongoing alignment and readiness changes in alliance and partner security architectures (force posture, basing, exercises, access agreements, defense consultations) trackable via NATO/Quad/SCO/CSTO communiqués, deployments, and joint drills.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-02",
+        "name": "Warfighting Adaptation Loops",
+        "definition": "Continuous battlefield-driven innovation cycles (doctrine, procurement, training, ISR, drones, EW, munitions, mobilization) trackable through aid packages, production contracts, after-action reporting, and operational tempo updates.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-03",
+        "name": "Nuclear Deterrence Signaling",
+        "definition": "Persistent signaling and posture management around strategic and theater nuclear forces (exercises, declaratory policy, arms control moves, basing, modernization) trackable through official statements, force alerts, and treaty/verification actions.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-04",
+        "name": "Sanctions and Countersanctions",
+        "definition": "Iterative coercion-and-evasion dynamics using sanctions, export bans, asset freezes, secondary sanctions, and retaliation trackable via new designations, enforcement actions, compliance guidance, and workaround networks.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-05",
+        "name": "Monetary Tightening and Liquidity",
+        "definition": "Cross-border monetary and liquidity regime shifts (rates, QT/QE, swap lines, reserve management, crisis facilities) trackable through central bank decisions, IMF programs, and BIS/G7 coordination outcomes.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-06",
+        "name": "Industrial Policy and Re-shoring",
+        "definition": "State-directed capacity building and supply-chain relocation (subsidies, procurement mandates, local-content rules, strategic stockpiles) trackable through legislation, grants, corporate capex announcements, and trade-dispute filings.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-07",
+        "name": "Semiconductor Chokepoints",
+        "definition": "Ongoing contest over advanced compute capability (EUV tools, foundry capacity, chip design access, export controls, fab buildouts) trackable via licensing decisions, equipment shipments, node roadmaps, and major fab/packaging projects.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-08",
+        "name": "AI Governance and Compute",
+        "definition": "Continuous struggle to control frontier AI development and deployment (model releases, safety regimes, compute access, cloud concentration, national AI strategies) trackable via regulatory actions, partnership governance, and compute procurement/export rules.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-09",
+        "name": "Information and Narrative Control",
+        "definition": "Persistent competition over public perception and social cohesion (platform policy, state media campaigns, influence ops, censorship, election integrity) trackable via platform rule changes, takedown reports, propaganda themes, and legal actions.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-10",
+        "name": "Energy Market Statecraft",
+        "definition": "Ongoing use of energy supply, pricing, and infrastructure as leverage (OPEC+ coordination, LNG deals, pipeline politics, strategic reserves, sanctions on energy) trackable via production targets, contract announcements, and shipping/price movements.",
+        "hemisphere_bias": "Bridge"
+      },
+      {
+        "id": "PS-11",
+        "name": "Sovereign Capital and Influence",
+        "definition": "Strategic deployment of sovereign wealth, development finance, and cross-border M&A for geopolitical positioning (stakes, bailouts, tech/infra investments) trackable via fund allocations, mega-deals, and investment screening outcomes.",
+        "hemisphere_bias": "Bridge"
+      },
+      {
+        "id": "PS-12",
+        "name": "Middle-Power Hedging Alignments",
+        "definition": "Recurring realignment behavior by pivotal middle powers (issue-by-issue coalition shifts, autonomy bids, regional integration) trackable via summit diplomacy, voting patterns, defense/economic MOUs, and corridor/trade initiatives.",
+        "hemisphere_bias": "Bridge"
+      }
+    ],
+    "grok": [
+      {
+        "id": "PS-01",
+        "name": "NATO Defense Posture",
+        "definition": "Ongoing enhancements to NATO's collective defense capabilities and support for Ukraine, tracked via military aid announcements, exercises, and summit communiques from SHAPE, NSC, and Ukraine Defense Contact Group.",
+        "hemisphere_bias": "West"
+      },
+      {
+        "id": "PS-02",
+        "name": "US-China Tech Restrictions",
+        "definition": "Escalating export controls and supply chain decoupling in semiconductors and AI hardware, tracked through policy announcements, waivers, and compliance from TSMC, ASML, and US Commerce Department actions.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-03",
+        "name": "Global Monetary Coordination",
+        "definition": "Synchronization or divergence in central bank interest rates and financial stability measures, tracked via FOMC, PBOC MPC, BOJ Policy Board, and BIS meetings.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-04",
+        "name": "Ukraine War Sustainment",
+        "definition": "Continuous flow of military aid, training, and operational coordination against Russia, tracked by Ramstein Group decisions, Stavka directives, and Zelenskyy-Rutte engagements.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-05",
+        "name": "OPEC+ Production Quotas",
+        "definition": "Adjustments to global oil supply and pricing strategies amid geopolitical tensions, tracked through OPEC+ ministerial meetings, Rosneft outputs, and Saudi Supreme Council decrees.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-06",
+        "name": "CCP Policy Centralization",
+        "definition": "Xi Jinping's consolidation of authority across military, economic, and foreign affairs, tracked via Politburo Standing Committee directives, CMC orders, and CNSC risk assessments.",
+        "hemisphere_bias": "East"
+      },
+      {
+        "id": "PS-07",
+        "name": "Indo-Pacific Alliance Building",
+        "definition": "Strengthening of Quad and partner networks to counter China, tracked through foreign ministers' meetings, Jaishankar's engagements, and US-India security pacts.",
+        "hemisphere_bias": "Bridge"
+      },
+      {
+        "id": "PS-08",
+        "name": "Frontier AI Governance",
+        "definition": "Competition and regulation in advanced AI development and deployment, tracked by OpenAI oversight, xAI advancements, G42 partnerships, and Microsoft board strategies.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-09",
+        "name": "Gulf Investment Deployments",
+        "definition": "Strategic sovereign wealth fund allocations into tech, energy, and infrastructure, tracked via ADIA/Mubadala/G42 board decisions and MBZ-Tahnoun directives.",
+        "hemisphere_bias": "Bridge"
+      },
+      {
+        "id": "PS-10",
+        "name": "Digital Platform Influence",
+        "definition": "Shaping of global information flows and censorship regimes, tracked through Meta/Tencent/X Corp policies, Zuckerberg-Musk statements, and CCP United Front integrations.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-11",
+        "name": "Siloviki Hard Power Enforcement",
+        "definition": "Russian security apparatus mobilization for energy coercion and military sustainment, tracked by FSB/Siloviki actions, Sechin's OPEC+ role, and Putin Security Council edicts.",
+        "hemisphere_bias": "East"
+      },
+      {
+        "id": "PS-12",
+        "name": "Transatlantic Policy Alignment",
+        "definition": "Harmonization of EU-US strategies on trade, tech, and security, tracked via G7 summits, von der Leyen-Rubio diplomacy, and NATO North Atlantic Council resolutions.",
+        "hemisphere_bias": "West"
+      }
+    ],
+    "gemini": [
+      {
+        "id": "PS-01",
+        "name": "Technological Sovereignty Race",
+        "definition": "Tracks the ongoing structural competition for supremacy in frontier AI, semiconductor supply chains, and advanced computing hardware via export controls, state subsidies, and corporate consolidation.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-02",
+        "name": "Global Financial Architecture Contestation",
+        "definition": "Tracks the tension between Western-led monetary dominance (US Dollar, Federal Reserve, IMF) and efforts by Eastern and Global South blocs to build alternative financial, central banking, and trade settlement mechanisms.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-03",
+        "name": "Euro-Atlantic Security Integration",
+        "definition": "Tracks the cohesion, expansion, and collective defense posture of NATO, the EU, and allied Western institutions against peer adversaries, particularly focusing on European theater deterrence and military aid.",
+        "hemisphere_bias": "West"
+      },
+      {
+        "id": "PS-04",
+        "name": "Eurasian Axis Consolidation",
+        "definition": "Tracks the deepening strategic, military, and economic alignment between China, Russia, Iran, and their partners through bilateral ties and multilateral forums like the SCO and CSTO.",
+        "hemisphere_bias": "East"
+      },
+      {
+        "id": "PS-05",
+        "name": "Global Energy System Rebalancing",
+        "definition": "Tracks the ongoing manipulation of fossil fuel supplies by cartels like OPEC+ and the parallel geopolitical race to secure critical minerals and manufacturing capacity for the green energy transition.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-06",
+        "name": "Critical Sovereign Infrastructure Deployment",
+        "definition": "Tracks the physical rollout and monopolization of foundational dual-use infrastructure, including satellite internet constellations, global 5G/6G networks, subsea cables, and transnational data centers.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-07",
+        "name": "Indo-Pacific Strategic Posturing",
+        "definition": "Tracks military buildups, maritime operations, and shifting security alliances (e.g., the Quad) aimed at shaping the balance of power, deterring conflict, and securing trade routes in the Asian theater.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-08",
+        "name": "Global Information Ecosystem Control",
+        "definition": "Tracks the ongoing structural struggle over content moderation, algorithmic influence, censorship, and state narrative projection across transnational digital platforms and social media conglomerates.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-09",
+        "name": "Geoeconomic Decoupling and Industrial Policy",
+        "definition": "Tracks the systemic restructuring of global supply chains through tariffs, sanctions, 'friendshoring,' and state-directed industrial policies meant to decouple rival economies and protect domestic manufacturing.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-10",
+        "name": "Middle East Multipolar Hedging",
+        "definition": "Tracks the strategic maneuvering of Gulf states and regional powers as they balance traditional Western security guarantees against deepening economic, energy, and technological ties with China and Russia.",
+        "hemisphere_bias": "Bridge"
+      },
+      {
+        "id": "PS-11",
+        "name": "Global South Institutional Ascendancy",
+        "definition": "Tracks the coordination and rising diplomatic leverage of non-aligned middle powers utilizing forums like BRICS+, CELAC, and regional blocs to reshape global trade, security, and political norms.",
+        "hemisphere_bias": "Bridge"
+      }
+    ]
+  },
+  "anchor_neurons": [
+    {
+      "name": "Donald Trump",
+      "title": "Head Of State, United States"
+    },
+    {
+      "name": "Christopher Cavoli",
+      "title": "United States-NATO / Supreme Allied Commander Europe (SACEUR)"
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "title": "Billionaire (Forbes Global)"
+    },
+    {
+      "name": "Ursula von der Leyen",
+      "title": "European Union / President of the European Commission"
+    },
+    {
+      "name": "Satya Nadella",
+      "title": "Chairman & CEO, Microsoft"
+    },
+    {
+      "name": "Vladimir Putin",
+      "title": "Head Of State, Russia"
+    },
+    {
+      "name": "Igor Sechin",
+      "title": "Russia / Rosneft CEO and leader of the Siloviki faction"
+    },
+    {
+      "name": "Ren Zhengfei",
+      "title": "Founder & CEO, Huawei"
+    },
+    {
+      "name": "Mark Rutte",
+      "title": "NATO / Secretary General"
+    },
+    {
+      "name": "Volodymyr Zelenskyy",
+      "title": "Head Of State, Ukraine"
+    },
+    {
+      "name": "C.C. Wei",
+      "title": "Chairman & CEO, TSMC"
+    },
+    {
+      "name": "Cai Qi",
+      "title": "China / First Secretary of the CPC Central Committee Secretariat"
+    },
+    {
+      "name": "Johann Rupert & family",
+      "title": "Billionaire (Forbes Global)"
+    },
+    {
+      "name": "Zhang Youxia",
+      "title": "China / Vice Chairman of the Central Military Commission"
+    },
+    {
+      "name": "Mohammed Bin Zayed Al Nahyan",
+      "title": "Head Of State, United Arab Emirates"
+    },
+    {
+      "name": "Pan Gongsheng",
+      "title": "China / Governor of the People's Bank of China"
+    },
+    {
+      "name": "Mohan Bhagwat",
+      "title": "India / Sarsanghchalak (Chief) of the Rashtriya Swayamsevak Sangh (RSS)"
+    },
+    {
+      "name": "Wang Yi",
+      "title": "China / Director of the CPC Central Foreign Affairs Commission & Foreign Minister"
+    },
+    {
+      "name": "Sundar Pichai",
+      "title": "CEO, Alphabet/Google"
+    },
+    {
+      "name": "Li Qiang",
+      "title": "China / Premier of the State Council"
+    },
+    {
+      "name": "Elon Musk",
+      "title": "Billionaire (Forbes Global)"
+    },
+    {
+      "name": "Kazuo Ueda",
+      "title": "Japan / Governor of the Bank of Japan"
+    },
+    {
+      "name": "Ali Khamenei",
+      "title": "Head Of State, Iran"
+    },
+    {
+      "name": "Xi Jinping",
+      "title": "Head Of State, People's Republic of China"
+    },
+    {
+      "name": "Salman bin Abdulaziz Al Saud",
+      "title": "Head Of State, Saudi Arabia"
+    },
+    {
+      "name": "Jerome Powell",
+      "title": "United States / Chair of the Federal Reserve"
+    },
+    {
+      "name": "Scott Bessent",
+      "title": "United States / Secretary of the Treasury"
+    },
+    {
+      "name": "Tahnoun bin Zayed Al Nahyan",
+      "title": "UAE / National Security Adviser, sovereign wealth and intelligence power broker"
+    },
+    {
+      "name": "Marco Rubio",
+      "title": "United States / Secretary of State"
+    },
+    {
+      "name": "Christophe Fouquet",
+      "title": "CEO, ASML"
+    },
+    {
+      "name": "Pete Hegseth",
+      "title": "United States / Secretary of Defense"
+    },
+    {
+      "name": "Subrahmanyam Jaishankar",
+      "title": "India / Minister of External Affairs"
+    },
+    {
+      "name": "Claudia Sheinbaum",
+      "title": "Head Of State, Mexico"
+    },
+    {
+      "name": "Amancio Ortega",
+      "title": "Billionaire (Forbes Global)"
+    },
+    {
+      "name": "Pony Ma (Ma Huateng)",
+      "title": "Chairman & CEO, Tencent"
+    }
+  ],
+  "anchor_context": "Donald Trump — Head Of State, United States\n  • [CA-002] Executive Office of the President of the United States: The central administrative apparatus of the US presidency, encompassing the NSC, OMB, and key advisory bodies, through which Trump exercises executive authority over the world's preeminent military and economic power.\n  • [CA-008] United States National Security Council (NSC): The principal forum for coordinating US foreign policy, intelligence, and military strategy, chaired by the President and constituting the apex node of American hard power projection globally.\n  • [CA-081] Republican National Committee (RNC): The governing body of the Republican Party, which Trump effectively controls as its dominant figure, serving as the organizational infrastructure for his domestic political coalition and electoral machinery.\n\nChristopher Cavoli — United States-NATO / Supreme Allied Commander Europe (SACEUR)\n  • [CA-052] Supreme Headquarters Allied Powers Europe (SHAPE): The operational military headquarters of NATO's Allied Command Operations, which Cavoli commands as SACEUR, directing the collective defense posture of 32 allied nations.\n  • [CA-086] United States European Command (USEUCOM): The U.S. combatant command responsible for all American military operations and force posture across Europe and parts of the Middle East, co-commanded by Cavoli as dual-hatted SACEUR.\n  • [CA-087] Ukraine Defense Contact Group (Ramstein Format): The U.S.-led multinational forum of over 50 defense ministers and military chiefs that coordinates weapons transfers, training, and military aid to Ukraine, in which SACEUR plays a central coordinating role.\n\nMark Zuckerberg — Billionaire (Forbes Global)\n  • [CA-265] Meta Platforms Board of Directors: The governing board of the world's largest social media company, on which Andreessen sits as a long-tenured director with influence over platform policy and strategic direction.\n  • [CA-350] Chan Zuckerberg Initiative (CZI): Zuckerberg and Priscilla Chan's philanthropic LLC deploying billions toward science, education, and justice reform, extending his structural influence beyond the technology sector.\n\nUrsula von der Leyen — European Union / President of the European Commission\n  • [CA-014] European Commission College of Commissioners: The executive cabinet of the European Union, which von der Leyen chairs and which holds legislative initiative and enforcement power over 27 member states.\n  • [CA-015] European Council: The body of EU heads of state and government that sets the Union's strategic political direction, in which von der Leyen participates as a principal institutional actor.\n  • [CA-027] G7 Leaders Summit: The annual gathering of leaders from the world's seven largest advanced economies coordinating macroeconomic, security, and geopolitical policy, where von der Leyen represents the EU.\n\nSatya Nadella — Chairman & CEO, Microsoft\n  • [CA-133] Microsoft Board of Directors: The governing board of one of the world's two largest companies by market capitalization, over which Nadella presides as both Chairman and CEO.\n  • [CA-189] OpenAI Partnership & Oversight Board: The formal governance structure through which Microsoft's multi-billion-dollar strategic investment in OpenAI gives Nadella structural influence over the leading frontier AI laboratory.\n  • [CA-252] Business Roundtable: An association of CEOs of America's largest corporations that shapes US economic and technology policy, providing Pichai a formal seat in elite domestic corporate governance advocacy.\n\nVladimir Putin — Head Of State, Russia\n  • [CA-065] Security Council of the Russian Federation: Russia's supreme national security deliberative body, where Belousov coordinates defense and economic security policy at the highest state level.\n  • [CA-058] FSB/Siloviki Network: The informal but structurally decisive coalition of Russian security and intelligence veterans surrounding Putin, of which Sechin is a principal architect and enforcer of hard-power policy.\n  • [CA-223] Collective Security Treaty Organization (CSTO): The apex decision-making council of the Russian-led mutual defense alliance, in which Lukashenko participates as a head of state, anchoring Belarus within Moscow's post-Soviet security architecture.\n\nIgor Sechin — Russia / Rosneft CEO and leader of the Siloviki faction\n  • [CA-196] Rosneft Management Board: Executive governing body of Russia's state-controlled oil giant, the world's largest publicly traded oil producer, through which Sechin controls a critical node of Russian state energy power.\n  • [CA-058] FSB/Siloviki Network: The informal but structurally decisive coalition of Russian security and intelligence veterans surrounding Putin, of which Sechin is a principal architect and enforcer of hard-power policy.\n  • [CA-090] OPEC+ Russian Delegation: Russia's representative bloc within the OPEC+ production agreement framework, through which Sechin exercises direct influence over global oil supply decisions and petro-state diplomacy.\n\nRen Zhengfei — Founder & CEO, Huawei\n  • [CA-132] Huawei Technologies Board & Executive Management Team: The internal governing and operational leadership of Huawei, the world's largest telecommunications equipment maker, through which Ren directs global 5G infrastructure deployment.\n  • [CA-188] CCP United Front Work Department (affiliated network): The Chinese Communist Party organ that coordinates overseas Chinese business and political influence, with which Huawei's global operations are structurally intertwined.\n\nMark Rutte — NATO / Secretary General\n  • [CA-040] NATO Military Committee: NATO's highest military authority, providing strategic military guidance to the Secretary General and the North Atlantic Council.\n  • [CA-176] NATO Nuclear Planning Group: The alliance body overseeing nuclear posture and deterrence policy, in which the Secretary General plays a central coordinating role.\n  • [CA-080] NATO North Atlantic Council: The principal political decision-making body of NATO, where Erdoğan leverages Turkey's strategic position to extract concessions and shape alliance policy.\n\nVolodymyr Zelenskyy — Head Of State, Ukraine\n  • [CA-011] National Security and Defense Council of Ukraine (RNBO): Ukraine's constitutional body coordinating defense, intelligence, and national security policy, chaired by Zelenskyy as commander-in-chief during wartime.\n  • [CA-178] Stavka of the Supreme Commander-in-Chief: Ukraine's wartime supreme military command headquarters, through which Zelenskyy exercises direct operational authority over the armed forces.\n  • [CA-179] NATO-Ukraine Council: The joint consultative body established in 2023 enabling Ukraine to meet with all NATO allies as a partner, with Zelenskyy as Ukraine's principal representative.\n\nC.C. Wei — Chairman & CEO, TSMC\n  • [CA-108] TSMC Board of Directors: The supreme governing body of the world's dominant semiconductor foundry, where Wei exercises direct authority over global chip manufacturing strategy.\n  • [CA-112] Semiconductor Industry Association (SIA): The principal US trade body coordinating semiconductor industry policy, export controls, and government relations across the global chip supply chain.\n  • [CA-247] SEMI (Semiconductor Equipment and Materials International): The global industry association linking equipment makers, materials suppliers, and foundries, shaping international semiconductor manufacturing standards.\n\nCai Qi — China / First Secretary of the CPC Central Committee Secretariat\n  • [CA-001] CCP Politburo Standing Committee: China's supreme ruling body of seven members, of which Cai Qi is the sixth-ranked, making him one of the most powerful individuals in the Chinese state.\n  • [CA-024] CPC Central Committee Secretariat: The administrative nerve center of the CPC that Cai Qi heads as First Secretary, managing party communications, personnel, and Xi Jinping's policy directives.\n\nJohann Rupert & family — Billionaire (Forbes Global)\n  • [CA-282] Compagnie Financière Richemont SA Board: Governing board of the Swiss luxury conglomerate controlling Cartier, Van Cleef & Arpels, and a portfolio of premier maisons, where Rupert serves as chairman and holds decisive family voting control.\n  • [CA-332] Remgro Limited Board: Board of the South African diversified holding company through which the Rupert family exercises control over banking, healthcare, infrastructure, and consumer assets across the African continent.\n\nZhang Youxia — China / Vice Chairman of the Central Military Commission\n  • [CA-007] PLA Central Military Commission: The supreme command authority over China's armed forces, chaired by Xi Jinping, integrating military strategy, nuclear command, and force modernization.\n  • [CA-003] CCP Politburo: The 24-member apex collective leadership body of the Chinese Communist Party, of which Wang Yi is a member, responsible for setting all major national and international policy.\n\nMohammed Bin Zayed Al Nahyan — Head Of State, United Arab Emirates\n  • [CA-013] Federal Supreme Council of the United Arab Emirates: The UAE's highest constitutional body, composed of the seven emirate rulers, which sets national policy and from which MBZ derives sovereign authority as President.\n  • [CA-185] Abu Dhabi Investment Authority (ADIA) Oversight Board: Governing body of one of the world's largest sovereign wealth funds, through which MBZ directs Abu Dhabi's multi-trillion-dollar global investment strategy.\n  • [CA-186] Mubadala Investment Company Board: Board overseeing Abu Dhabi's strategic sovereign investment arm, deploying capital across technology, energy, and infrastructure globally under MBZ's direction.\n\nPan Gongsheng — China / Governor of the People's Bank of China\n  • [CA-035] People's Bank of China Monetary Policy Committee: China's central bank governing body, through which Pan sets interest rates, manages the renminbi, and directs the monetary policy of the world's second-largest economy.\n  • [CA-172] Financial Stability and Development Committee (FSDC): The State Council's apex financial regulatory coordination body, positioning Pan at the intersection of China's banking, securities, and insurance oversight architecture.\n  • [CA-036] Bank for International Settlements (BIS) Board of Directors: The central bank of central banks' governing board, through which Pan projects Chinese monetary influence into global financial stability deliberations.\n\nMohan Bhagwat — India / Sarsanghchalak (Chief) of the Rashtriya Swayamsevak Sangh (RSS)\n  • [CA-066] Rashtriya Swayamsevak Sangh (RSS): India's largest Hindu nationalist volunteer organization, of which Bhagwat is the supreme chief (Sarsanghchalak), giving him ideological authority over the broader Sangh Parivar ecosystem.\n\nWang Yi — China / Director of the CPC Central Foreign Affairs Commission & Foreign Minister\n  • [CA-028] CPC Central Foreign Affairs Commission: The Communist Party's supreme body for foreign policy direction, which Wang Yi heads as Director, making it the ultimate authority over China's entire diplomatic and international strategy.\n  • [CA-003] CCP Politburo: The 24-member apex collective leadership body of the Chinese Communist Party, of which Wang Yi is a member, responsible for setting all major national and international policy.\n  • [CA-208] Shanghai Cooperation Organisation (SCO) Council of Foreign Ministers: The foreign ministers' council of the Eurasian security and political bloc, where Wang Yi plays a central coordinating role in advancing China's multilateral strategic partnerships.\n\nSundar Pichai — CEO, Alphabet/Google\n  • [CA-038] Alphabet Inc. Board of Directors: The supreme governing body of Alphabet Inc., parent company of Google, where Pichai serves as CEO and director, overseeing one of the world's largest technology and AI conglomerates.\n  • [CA-252] Business Roundtable: An association of CEOs of America's largest corporations that shapes US economic and technology policy, providing Pichai a formal seat in elite domestic corporate governance advocacy.\n\nLi Qiang — China / Premier of the State Council\n  • [CA-001] CCP Politburo Standing Committee: China's supreme ruling body of seven members, of which Cai Qi is the sixth-ranked, making him one of the most powerful individuals in the Chinese state.\n  • [CA-025] State Council of the People's Republic of China: China's chief administrative authority and cabinet, which Li Qiang chairs as Premier, directing national economic policy and government operations.\n  • [CA-026] Central Financial Commission: The CCP's top-level body overseeing financial regulation, monetary policy, and systemic risk across China's entire financial system.\n\nElon Musk — Billionaire (Forbes Global)\n  • [CA-092] SpaceX / Starlink Executive Board: The governing body of SpaceX, operator of the Starlink constellation providing global internet infrastructure, giving Musk unparalleled leverage over sovereign communications worldwide.\n  • [CA-016] Department of Government Efficiency (DOGE): The US federal advisory body led by Musk tasked with restructuring federal agencies and expenditure, representing his direct insertion into the executive apparatus of the United States government.\n  • [CA-200] xAI / X Corp. Executive Team: The combined leadership structure of Musk's AI research company and global social media platform, controlling a dominant public information and AI development node.\n\nKazuo Ueda — Japan / Governor of the Bank of Japan\n  • [CA-097] Bank of Japan Policy Board: The supreme decision-making body of Japan's central bank, chaired by Ueda, which sets monetary policy for the world's third-largest economy.\n  • [CA-036] Bank for International Settlements (BIS) Board of Directors: The central bank of central banks' governing board, through which Pan projects Chinese monetary influence into global financial stability deliberations.\n  • [CA-091] G7 Finance Ministers and Central Bank Governors: The coordinating forum of the world's leading advanced economies where Lagarde represents ECB monetary policy and shapes consensus on global financial stability and sanctions regimes.\n\nAli Khamenei — Head Of State, Iran\n  • [CA-022] Office of the Supreme Leader (Beyt-e Rahbar): The institutional command center of Iran's Supreme Leader, coordinating all branches of state power, the IRGC, judiciary, and foreign policy under a single authority.\n  • [CA-023] Supreme National Security Council of Iran (SNSC): Iran's highest national security decision-making body, to which the Quds Force commander reports and which coordinates military, intelligence, and foreign policy at the state's apex.\n  • [CA-050] Assembly of Experts (Iran): The constitutionally empowered clerical body that appoints and supervises the Supreme Leader, representing the theological-political legitimation structure of the Islamic Republic.\n\nXi Jinping — Head Of State, People's Republic of China\n  • [CA-001] CCP Politburo Standing Committee: China's supreme ruling body of seven members, of which Cai Qi is the sixth-ranked, making him one of the most powerful individuals in the Chinese state.\n  • [CA-007] PLA Central Military Commission: The supreme command authority over China's armed forces, chaired by Xi Jinping, integrating military strategy, nuclear command, and force modernization.\n  • [CA-031] Central National Security Commission (CNSC): The CCP's top coordinating body for internal and external security policy, established under Xi to centralize intelligence, law enforcement, and strategic risk management.\n\nSalman bin Abdulaziz Al Saud — Head Of State, Saudi Arabia\n  • [CA-056] Saudi Council of Ministers: The supreme executive and legislative body of Saudi Arabia, formally chaired by the King, through which royal decrees and national policy are promulgated.\n  • [CA-057] Gulf Cooperation Council (GCC) Supreme Council: The apex decision-making body of the six-member Gulf political and economic union, where Saudi Arabia holds structural leadership as the dominant member state.\n  • [CA-089] Supreme Council of Petroleum and Mineral Affairs: Saudi Arabia's highest authority over oil and energy policy, overseeing Saudi Aramco and coordinating the kingdom's pivotal role within OPEC+.\n\nJerome Powell — United States / Chair of the Federal Reserve\n  • [CA-005] Federal Open Market Committee (FOMC): The statutory committee chaired by Powell that sets U.S. monetary policy and interest rates, making it the single most systemically influential financial decision-making body in the world.\n  • [CA-204] Financial Stability Oversight Council (FSOC): The U.S. inter-agency council chaired by the Treasury Secretary on which Powell sits, coordinating systemic risk oversight across all major American financial institutions.\n  • [CA-036] Bank for International Settlements (BIS) Board of Directors: The central bank of central banks' governing board, through which Pan projects Chinese monetary influence into global financial stability deliberations.\n\nScott Bessent — United States / Secretary of the Treasury\n  • [CA-204] Financial Stability Oversight Council (FSOC): The U.S. inter-agency council chaired by the Treasury Secretary on which Powell sits, coordinating systemic risk oversight across all major American financial institutions.\n  • [CA-091] G7 Finance Ministers and Central Bank Governors: The coordinating forum of the world's leading advanced economies where Lagarde represents ECB monetary policy and shapes consensus on global financial stability and sanctions regimes.\n  • [CA-020] Board of Governors of the International Monetary Fund (IMF): The supreme decision-making body of the IMF, on which the U.S. Treasury Secretary holds the largest single voting share, giving Bessent decisive influence over global lending and monetary policy.\n\nTahnoun bin Zayed Al Nahyan — UAE / National Security Adviser, sovereign wealth and intelligence power broker\n  • [CA-061] UAE Supreme Council for National Security: The apex intelligence and national security body of the UAE, which Tahnoun leads as National Security Adviser, integrating military, intelligence, and strategic foreign policy.\n  • [CA-203] ADQ (Abu Dhabi Developmental Holding Company) Board: The board of Abu Dhabi's fast-growing sovereign holding company spanning food, pharma, and logistics, through which Tahnoun exercises direct control over critical economic infrastructure.\n  • [CA-062] G42 Board of Directors: The governing board of the UAE's premier AI and data intelligence conglomerate, where Tahnoun's chairmanship fuses sovereign surveillance capability with global technology partnerships.\n\nMarco Rubio — United States / Secretary of State\n  • [CA-033] U.S. Department of State: The primary federal agency for U.S. foreign policy, which Rubio leads as Secretary of State, directing diplomacy and international relations.\n  • [CA-006] National Security Council (NSC): The principal interagency forum for national security and foreign policy coordination, where Rubio sits as a statutory member.\n  • [CA-080] NATO North Atlantic Council: The principal political decision-making body of NATO, where Erdoğan leverages Turkey's strategic position to extract concessions and shape alliance policy.\n\nChristophe Fouquet — CEO, ASML\n  • [CA-060] ASML Board of Management: The executive board of ASML, the sole global supplier of extreme ultraviolet lithography machines essential to advanced semiconductor manufacturing, making Fouquet a structural chokepoint in the global chip supply chain.\n  • [CA-335] EU Chips Act Industrial Advisory Group: The European Commission's high-level industry advisory body guiding implementation of the EU Chips Act, where ASML's leadership directly shapes continental semiconductor sovereignty policy.\n\nPete Hegseth — United States / Secretary of Defense\n  • [CA-030] Office of the Secretary of Defense (OSD): The principal staff and policy apparatus of the U.S. Secretary of Defense, through which Hegseth exercises civilian authority over the entire U.S. military establishment.\n  • [CA-008] United States National Security Council (NSC): The principal forum for coordinating US foreign policy, intelligence, and military strategy, chaired by the President and constituting the apex node of American hard power projection globally.\n  • [CA-094] NATO Defense Ministers Council: The ministerial-level body of the NATO alliance through which Hegseth represents U.S. defense posture and shapes collective Western military strategy.\n\nSubrahmanyam Jaishankar — India / Minister of External Affairs\n  • [CA-021] Cabinet Committee on Security (India): India's apex executive body for national security and strategic decisions, of which Jaishankar is a core member alongside the Prime Minister and Defence Minister.\n  • [CA-098] Quadrilateral Security Dialogue (Quad) Foreign Ministers: The ministerial-level forum of India, the U.S., Japan, and Australia coordinating Indo-Pacific security strategy, where Jaishankar is India's principal representative.\n  • [CA-208] Shanghai Cooperation Organisation (SCO) Council of Foreign Ministers: The foreign ministers' council of the Eurasian security and political bloc, where Wang Yi plays a central coordinating role in advancing China's multilateral strategic partnerships.\n\nClaudia Sheinbaum — Head Of State, Mexico\n  • [CA-077] Cabinet of Mexico (Gabinete Legal y Ampliado): The executive governing body of the Mexican federal government, chaired by Sheinbaum as President, through which all federal policy and state power is formally exercised.\n  • [CA-216] MORENA National Executive Committee: The ruling party apparatus of Movimiento Regeneración Nacional, the dominant political force in Mexico, through which Sheinbaum maintains her electoral coalition and legislative agenda.\n  • [CA-260] CELAC (Community of Latin American and Caribbean States): The Community of Latin American and Caribbean States' principal political forum, in which Mexico under Sheinbaum plays a leading role shaping regional integration and foreign policy.\n\nAmancio Ortega — Billionaire (Forbes Global)\n  • [CA-254] Inditex Board of Directors: The governing board of the world's largest fashion retailer, which Ortega founded and in which he retains a majority stake, anchoring his global commercial influence.\n\nPony Ma (Ma Huateng) — Chairman & CEO, Tencent\n  • [CA-071] Tencent Holdings Limited Board of Directors: The governing board of China's largest technology and media conglomerate, the primary node through which Ma controls vast digital infrastructure, payments, and social communications globally.\n  • [CA-255] All-China Federation of Industry and Commerce (ACFIC): The CCP-linked peak body for private Chinese business, through which Liu maintains sanctioned political access and coordinates with party leadership.\n  • [CA-107] China Internet Investment Fund (CIIF): A state-backed investment vehicle co-managed with Chinese regulators that aligns major internet platform operators with CCP industrial policy directives.\n",
+  "ca_ids_shown": [
+    "CA-203",
+    "CA-056",
+    "CA-081",
+    "CA-185",
+    "CA-252",
+    "CA-350",
+    "CA-025",
+    "CA-008",
+    "CA-022",
+    "CA-133",
+    "CA-001",
+    "CA-112",
+    "CA-038",
+    "CA-097",
+    "CA-028",
+    "CA-015",
+    "CA-066",
+    "CA-057",
+    "CA-071",
+    "CA-265",
+    "CA-035",
+    "CA-108",
+    "CA-002",
+    "CA-024",
+    "CA-208",
+    "CA-026",
+    "CA-050",
+    "CA-087",
+    "CA-254",
+    "CA-065",
+    "CA-090",
+    "CA-003",
+    "CA-005",
+    "CA-006",
+    "CA-030",
+    "CA-178",
+    "CA-247",
+    "CA-007",
+    "CA-062",
+    "CA-060",
+    "CA-061",
+    "CA-091",
+    "CA-204",
+    "CA-216",
+    "CA-107",
+    "CA-052",
+    "CA-036",
+    "CA-027",
+    "CA-023",
+    "CA-014",
+    "CA-186",
+    "CA-031",
+    "CA-058",
+    "CA-016",
+    "CA-020",
+    "CA-021",
+    "CA-176",
+    "CA-092",
+    "CA-086",
+    "CA-196",
+    "CA-013",
+    "CA-332",
+    "CA-189",
+    "CA-094",
+    "CA-335",
+    "CA-188",
+    "CA-077",
+    "CA-172",
+    "CA-200",
+    "CA-098",
+    "CA-223",
+    "CA-132",
+    "CA-033",
+    "CA-040",
+    "CA-080",
+    "CA-260",
+    "CA-255",
+    "CA-179",
+    "CA-282",
+    "CA-089",
+    "CA-011"
+  ]
+}

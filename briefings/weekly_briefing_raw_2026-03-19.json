@@ -1,0 +1,484 @@
+{
+  "scope": "us",
+  "week_start": "2026-03-12",
+  "week_end": "2026-03-19",
+  "ps_news_items": [
+    {
+      "id": "DPS-01",
+      "name": "Executive Power Consolidation",
+      "summary": "**No significant developments occurred in executive power consolidation from March 12-19, 2026.** The White House issued actions like establishing a Task Force to Eliminate Fraud on March 16 and adjusting Defense Production Act delegations on March 13, but these focus on fraud reduction and defense authorities rather than bureaucracy reduction, agency reorganizations, personnel purges, DOGE initiatives, or OMB directives[5]. Earlier 2025 executive orders on bureaucracy cuts (e.g., EO 14238) drove prior momentum, but search results show no matching activity, legal challenges, or departmental responses in the queried week[1][2].\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-02",
+      "name": "AI Dominance Race",
+      "summary": "No significant developments occurred in the AI Dominance Race from March 12-19, 2026, as available sources report on longer-term geopolitical trends like China's advances in physical AI robotics and energy infrastructure for AI data centers, rather than new model releases, compute deals, funding, partnerships, safety governance, or U.S. federal policy actions within the specified week.[1][2][3] These analyses highlight structural momentum favoring China in hardware scalability and clean energy supply chains, but lack evidence of acute events or decisions driving weekly shifts.[1][2] The period appears quiet amid ongoing U.S.-China competition.\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-03",
+      "name": "Judicial Pipeline & Doctrinal Shift",
+      "summary": "Based on the search results, the most significant judicial development during March 12-19, 2026 was the **Supreme Court's 6-3 decision in *Mirabelli v. Bonta*** (March 2, 2026, though reported through March 12), which struck down California's policies requiring schools to conceal children's gender transitions from parents[1]. The ruling represents a landmark assertion of parental rights under the Free Exercise Clause and Due Process Clause, with the Court finding that California's policies violated parents' \"primary authority\" over their children's upbringing and mental health decisions[1]. This decision signals a significant doctrinal shift toward heightened constitutional protection of parental rights and religious liberty, establishing precedent that will likely dismantle similar policies nationwide[1]. Additionally, the Court issued a **unanimous decision in *Urias-Orellana v. Bondi*** (March 4, 2026), applying a deferential standard of review to immigration appeals, demonstrating continued judicial deference to executive agency determinations[4]. The Court also granted emergency relief on its shadow docket in the parental rights case, expanding its use of expedited procedures to overturn lower court decisions[5].\n\n**8**",
+      "activation_score": 5
+    },
+    {
+      "id": "DPS-04",
+      "name": "Fiscal-Monetary Stress Cycle",
+      "summary": "The Federal Reserve's FOMC meeting on March 17-18 concluded with a decision to maintain the federal funds rate at 3.5%-3.75%, marking the second consecutive pause after 2025 rate cuts, amid elevated uncertainty from Middle East conflicts and rising oil prices impacting inflation assessments.[1][2][3] The updated Summary of Economic Projections showed minor tweaks, including an unchanged near-term forecast of one 2026 rate cut but a slightly higher longer-run federal funds rate projection of 3.1%, signaling a cautious \"wait-and-see\" stance on monetary policy.[1][2] FOMC statement changes acknowledged low job gains and little change in unemployment without prior \"stabilization\" language, while one member dissented for a rate cut, highlighting internal tensions but no broader fiscal-monetary friction evident this week.[1][2]\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-05",
+      "name": "Capital Allocation & Private Power",
+      "summary": "Private equity dealmaking surged during the week of March 12-19, 2026, with major transactions reshaping capital allocation across multiple sectors. **Tilman Fertitta entered exclusive talks to acquire Caesars Entertainment for approximately $7 billion at $34 per share**, topping a competing bid from Carl Icahn's firm and signaling aggressive competition for large-cap assets[1]. **Papa John's received a take-private bid from Qatari-backed Irth Capital Management at $47 per share, valuing the pizza chain at $1.5 billion with a 50% premium**, demonstrating international capital's appetite for U.S. consumer brands undergoing turnarounds[1]. **Monte Paschi agreed to merger terms with Mediobanca, offering 2.45 of its own shares per remaining Mediobanca share**, completing the Italian bank's consolidation strategy with expected delisting by end-2026[1]. These developments reflect the broader \"Great Unlocking\" trend, where dealmaker confidence has reached a six-year high of 86% as the valuation gap between buyers and sellers has finally closed, enabling large-cap firms to actively bid for high-quality, cash-flow-positive companies[2].\n\n**8**",
+      "activation_score": 5
+    },
+    {
+      "id": "DPS-06",
+      "name": "Big Tech Regulatory Arbitrage",
+      "summary": "No major developments in **Big Tech regulatory arbitrage** occurred between March 12-19, 2026, as search results highlight ongoing implementations of 2026 state laws on AI safety, data privacy, and children's online protections (e.g., California's AI disclosure rules and Colorado's high-risk AI measures, effective earlier or later in the year) alongside federal pushback via Trump's executive order against state AI regulations.[1] International updates, such as the UK's CMA drafting conduct requirements for **Google** (consultation ongoing through March 19) and Australia's smart device cybersecurity rules effective March 4, indicate steady but pre-existing momentum without acute US-focused FTC/DOJ actions, hearings, litigation, or contracts in the queried window.[2] Fintech and digital assets reports (e.g., GENIUS Act implementation) remain tangential to core antitrust, privacy, or AI liability dynamics for dominant platforms.[3][6]\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-07",
+      "name": "Defense-Industrial Expansion",
+      "summary": "**Palantir Technologies announced a major multi-year AI contract expansion with global defense agencies on March 17, 2026, enhancing real-time decision-making and operational efficiency via its Artificial Intelligence Platform (AIP), solidifying its integration into defense infrastructure.[2]** The Pentagon issued significant contract awards on March 12, 2026, including a $266.9 million modification to Raytheon for restarting SM-3 Block IB missile production and over $27 million each for Air Force sustainment and maintenance efforts.[5] These moves align with broader momentum from Trump's proposed $1 trillion FY2026 defense budget and ongoing SpaceX-Palantir-Anduril collaboration on the Golden Dome missile defense satellite constellation, though no new milestones emerged this week.[1][3]\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "DPS-08",
+      "name": "Information Environment Contestation",
+      "summary": "**California advanced Senate Bills 886 and 887, requiring AI data centers to undergo CEQA environmental reviews and shielding energy consumers from associated costs, amid community pushback and disputes in San Diego and Imperial Counties.** [1] President Trump formalized the Ratepayer Protection Pledge, securing commitments from tech giants like Amazon, Google, Meta, Microsoft, OpenAI, Oracle, and xAI to self-fund power generation, grid upgrades, and reliability measures for data centers without burdening households. [2] Similar regulatory momentum emerged in Pennsylvania (data center reporting bills), a California watchdog report urging data rules, local moratoriums (e.g., Monterey Park, Birmingham), and a Washington State bill defeat. [1][2]\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-09",
+      "name": "Energy Transition & Security",
+      "summary": "No major developments in US energy transition and security occurred between March 12 and March 19, 2026, based on available sources, which instead highlight 2025's policy shifts like the OBBBA's phaseout of renewable tax credits, support for nuclear and fossil fuels, and record 48GW of zero-emission capacity additions (including 27GW solar and 15GW storage).[1][2][3] Ongoing trends include strong private-sector renewable demand despite policy headwinds, increased hydrogen project activity (24 announcements in Q4 2025), and expectations for 54GW of new gas generation through 2030.[2][3][5] No regulatory approvals, DOE funding, capex announcements, permitting actions, or legislative moves specific to this weekly period were reported.[8]\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-10",
+      "name": "Coalition Machinery & Electoral Infrastructure",
+      "summary": "During the week of March 12-19, 2026, progressive coalition machinery demonstrated significant mobilization activity centered on the 2026 midterm elections. The **Battleground Alliance PAC**, a coalition of dozens of labor groups and progressive organizations including SEIU, Working Families Party, Planned Parenthood Votes, Indivisible, and MoveOn, announced a **$50 million initiative** to flip at least 35 Republican-held House districts by targeting working-class voters angered by Trump administration policies on social safety nets and civil liberties[1]. This effort builds on the successful Battleground New York model from 2024, indicating a deliberate scaling of proven electoral infrastructure nationally[1]. Concurrently, a coalition of 19 state attorneys general, led by Illinois Attorney General Kwame Raoul, mobilized legal infrastructure to challenge FTC actions against the American Academy of Pediatrics, signaling coordinated resistance to administration pressure on professional organizations[4]. Additionally, housing advocacy networks began organizing voter mobilization strategies ahead of the midterms through campaigns like \"Our Homes, Our Votes,\" demonstrating multi-sector coalition coordination on electoral engagement[5].\n\n**8**",
+      "activation_score": 5
+    }
+  ],
+  "assembly_news_items": [
+    {
+      "id": "CA-024",
+      "name": "SpaceX",
+      "ps_memberships": [
+        "DPS-07"
+      ],
+      "raw_news": "**SpaceX secured a $739 million Pentagon contract from the U.S. Space Force for nine exclusive National Security Space Launch (NSSL) Phase 3 Lane 1 missions.** Announced last Friday, this clean sweep over competitors awards SpaceX all launches for Space Development Agency missile-tracking satellites (by L3Harris, Lockheed Martin, and Boeing subsidiaries) and classified National Reconnaissance Office payloads, scheduled from late 2026 through 2028.[1][3][6] The deal bolsters SpaceX's dominance in military launches, supporting resilient low-Earth orbit networks for threat detection amid its prior sweeps of similar contracts.[1][2] In a separate development, SpaceX is poised for a potential $2 billion DoD contract tied to the Golden Dome missile defense project, enhancing its role in secure communications and tracking constellations.[5]"
+    },
+    {
+      "id": "CA-051",
+      "name": "Anduril Industries",
+      "ps_memberships": [
+        "DPS-07"
+      ],
+      "raw_news": "**The US Army awarded Anduril Industries a firm-fixed-price contract worth up to $20 billion on March 13, 2026, consolidating over 120 prior procurement actions into a single 10-year enterprise agreement (5-year base plus 5-year option) for its AI-enabled Lattice platform, integrated hardware, data infrastructure, and support services.** This deal streamlines counter-unmanned aerial systems (C-UAS) procurement and enhances interoperability amid the escalating war with Iran, where Iranian drones and missiles have targeted US, Israeli, and Gulf forces.[1][2][3][5] The agreement reflects the Army's modernization push toward software-defined capabilities from agile defense tech firms, mirroring a similar $10 billion pact with Palantir, and bolsters Anduril's role in US defense-industrial expansion.[3][4]"
+    },
+    {
+      "id": "CA-013",
+      "name": "Senate Appropriations Committee",
+      "ps_memberships": [
+        "DPS-04",
+        "DPS-07"
+      ],
+      "raw_news": "No significant decisions, actions, positions, alliances, or organizational moves by the Senate Appropriations Committee occurred between March 12 and March 19, 2026, based on available reports.[1][2][3][4] The most recent activity was a Subcommittee on Education and Higher Education hearing on March 12, discussing funding adjustments like a $1.38 million increase and capital outlay redirects, but it involved no formal votes or policy outcomes.[3] Broader FY2026 appropriations efforts, including Labor-HHS-Education funding finalized in early February and ongoing 302(b) allocations, predate the queried period and show no new developments tied to fiscal-monetary stress or defense-industrial expansion.[1][2]"
+    },
+    {
+      "id": "CA-058",
+      "name": "Cerberus Capital Management",
+      "ps_memberships": [
+        "DPS-05",
+        "DPS-07"
+      ],
+      "raw_news": "**Cerberus Capital Management secured a $350 million real estate separate account from the Teacher Retirement System of Texas on March 13, 2026.** This capital allocation move bolsters Cerberus's firepower for opportunistic investments in distressed commercial real estate, aligning with its strategy amid market dislocations.[6] No significant defense-industrial actions, such as expansions or alliances, were reported in the March 12-19 window.[1][2][3][4]"
+    },
+    {
+      "id": "CA-071",
+      "name": "Senate Foreign Relations Committee",
+      "ps_memberships": [
+        "DPS-07"
+      ],
+      "raw_news": "**Senate Foreign Relations Committee Ranking Member Jeanne Shaheen, alongside Senators Warren and Schumer, issued a statement on March 18 criticizing the Trump Administration's further weakening of Russia sanctions amid escalating costs from Trump's Iran War.** [1][3] This bipartisan action underscores Democratic pushback on foreign policy shifts affecting arms oversight and national security. No other major decisions, hearings, or alliances on defense-industrial expansion emerged in the March 12-19 window.[1][2][3][6]"
+    },
+    {
+      "id": "CA-016",
+      "name": "Fox Corporation",
+      "ps_memberships": [
+        "DPS-08"
+      ],
+      "raw_news": "**Fox Corporation announced it will match the U.S. government's $1,000 contribution to the \"Trump Accounts\" children's retirement program, a significant financial and political alignment with Trump administration policy.** This organizational move, listed in recent Fox Corporation press releases, positions the company as a key supporter of federal initiatives amid its role as the Murdoch family's primary U.S. influence vehicle[3]. No other major decisions, legal actions, or alliances affecting power dynamics—such as executive hires, acquisitions, or geopolitical statements—appear in Fox Corporation's updates from March 12-19, 2026[1][3]."
+    },
+    {
+      "id": "CA-038",
+      "name": "Bloomberg L.P.",
+      "ps_memberships": [
+        "DPS-08"
+      ],
+      "raw_news": "No significant hard news on decisions, actions, positions, alliances, or organizational moves by **Bloomberg L.P.** emerged in the past week (March 12-19, 2026) within the information environment contestation domain.[1][2] Search results feature Bloomberg's media programming, such as *Surveillance TV* on March 12 discussing geopolitical oil disruptions in the Persian Gulf, SPR releases, and market volatility amid Middle East conflict, but these reflect hosted analysis rather than company-initiated power dynamics shifts.[1] Similarly, BNN Bloomberg's *The Street* on March 12 covered supply chain issues and energy prices tied to Iran, without Bloomberg L.P. announcing policies, legal actions, or alliances.[2]"
+    },
+    {
+      "id": "CA-110",
+      "name": "The Washington Post",
+      "ps_memberships": [
+        "DPS-08"
+      ],
+      "raw_news": "**No significant hard news on decisions, actions, positions, alliances, or organizational moves by The Washington Post affecting power dynamics emerged from March 12-19, 2026.** A January 23, 2026, Washington Post podcast discussed Trump's Greenland deal announcement and Democrats' midterm optimism, but it falls outside the queried timeframe and involves routine political analysis rather than WaPo-specific policy, business, legal, or structural shifts.[1] Search results yielded no reports of executive decisions, ownership changes, or influential stances altering the information environment in the past week."
+    },
+    {
+      "id": "CA-009",
+      "name": "US Senate",
+      "ps_memberships": [
+        "DPS-03",
+        "DPS-04"
+      ],
+      "raw_news": "The Senate passed **H.R. 6644**, a bipartisan housing bill, 89-10 on March 12, addressing the housing affordability crisis through regulatory relief and incentives for state and local governments to ease land-use restrictions, though the measure faces uncertain prospects in the House due to conservative opposition and President Trump's stated lack of interest.[1][3] The Senate failed to invoke cloture on the motion to proceed to **H.R. 7147**, the Homeland Security Department appropriations bill for fiscal year 2026, with a 51-46 vote on March 12, stalling efforts to advance consolidated appropriations legislation.[1][2] Majority Leader Thune filed cloture on the nomination of **Anna St. John** to be United States District Judge for the Eastern District of Louisiana, advancing the judicial confirmation pipeline with debate scheduled for March 16.[1][2] The housing bill's passage reflects shifting power dynamics within the Republican caucus, as the measure includes a Trump-demanded ban on large investors purchasing single-family homes—a provision that divided conservatives and drew criticism from free-market Republicans who view it as departing from conservative principles.[3]"
+    },
+    {
+      "id": "CA-030",
+      "name": "US Department of Justice",
+      "ps_memberships": [
+        "DPS-01",
+        "DPS-03"
+      ],
+      "raw_news": "**On March 10, 2026, the DOJ released its first department-wide Corporate Enforcement and Voluntary Self-Disclosure Policy (CEP), superseding prior component-specific guidelines to standardize criminal enforcement (excluding antitrust) and incentivize corporate transparency through reduced penalties for self-disclosure and cooperation.** [3][8] This organizational move under Deputy AG Todd Blanche centralizes prosecutorial discretion, potentially consolidating executive power by overriding U.S. Attorneys' Offices' autonomy in corporate cases.[3] Amid reported DOJ staffing crises and judicial rebukes for immigration enforcement failures, including contempt proceedings against U.S. Attorney Daniel Rosen on March 5, the policy shift highlights efforts to streamline operations despite internal turmoil.[2]"
+    },
+    {
+      "id": "CA-034",
+      "name": "Senate Republican Conference",
+      "ps_memberships": [
+        "DPS-03",
+        "DPS-10"
+      ],
+      "raw_news": "On March 17, 2026, Senate Republican leadership, including Majority Leader John Thune, held a press conference to outline plans for a vigorous floor debate on the **SAVE America Act**, following its passage in the House, positioning it as a core priority amid public support and after recent bipartisan wins like the housing bill.[1][4] Leaders emphasized military progress in Iran operations and readiness for related legislation such as a farm or highway bill, while expressing frustration with Democrats' refusal to negotiate on homeland security funding.[1] This move highlights internal GOP alignment behind Trump-backed electoral legislation, despite private concerns over midterm risks if it fails, as Thune warned against tying endorsements like Sen. Cornyn's Texas race to its passage.[3]"
+    },
+    {
+      "id": "CA-107",
+      "name": "Point72 Asset Management",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "**Point72 Asset Management announced on March 19, 2026, plans to launch a private credit fund targeting at least $1 billion from external investors, managed by Todd Hirsch (ex-Blackstone), as Steve Cohen expands beyond liquid markets into private credit.[2]** This evergreen fund, still in preliminary investor discussions, aligns with industry trends and follows Point72's January 1, 2026, restructuring of equities operations into separate brands—Point72 Equities and Valist—both reporting to co-CIO Harry Schwefel to enhance sell-side access while sharing infrastructure.[1] These moves bolster capital allocation flexibility and diversification, capping AUM at $41.5 billion after prior redemptions.[1][2]"
+    },
+    {
+      "id": "CA-116",
+      "name": "Bridgewater Associates",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "**No significant hard news on Bridgewater Associates' decisions, actions, positions, alliances, or organizational moves affecting power dynamics appears in the past 7 days (March 12-19, 2026).** The most recent items are an Institutional Investor article on January 8, 2026, detailing past leadership restructuring and AI advancements like AIA Labs[1][2], and a March 6 warning from co-CIO Greg Jensen on the AI capex boom entering a \"dangerous phase,\" with hyperscalers projected to spend $650 billion amid funding risks[3][4][5]. These predate the timeframe and focus on analysis rather than new capital allocation or private power shifts."
+    },
+    {
+      "id": "CA-136",
+      "name": "Related Companies",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "Based on the search results provided, I can confirm that **Related Companies** is the major real estate development firm referenced, with a groundbreaking event for a privately funded $750 million soccer stadium for the Chicago Fire on a vacant site announced on March 4, 2026[5]. However, the search results do not contain significant news about Related Companies from the specific timeframe you requested (approximately March 12-19, 2026) that would qualify as hard news regarding capital allocation decisions, power dynamics, or organizational moves. The only recent mention is the stadium groundbreaking announcement from early March, which represents a capital commitment but predates your target window. To provide the 3-4 sentence analysis of recent major developments you're seeking, more current search results focused on Related Companies' recent announcements would be needed."
+    }
+  ],
+  "news_items": [
+    {
+      "name": "Michael Bloomberg",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "Based on the search results provided, I cannot identify significant news about Michael Bloomberg (the billionaire) from March 12-19, 2026 that relates to his key areas of activity in information environment contestation or coalition machinery and electoral infrastructure.\n\nThe search results primarily contain Bloomberg Television and Bloomberg News coverage of Federal Reserve decisions, the U.S.-Iran conflict, and energy markets during this period. While one result references \"Mike Bloomberg\" in connection with Bloomberg Philanthropies' mayors initiative (dated February 24, 2026), this falls outside your specified timeframe and does not address the policy, business, legal, or geopolitical developments you're seeking.\n\nTo provide the 3-5 items you requested with substantive hard news in Bloomberg's areas of influence, I would need search results that specifically cover his recent activities, statements, or business decisions during March 12-19, 2026. The current results do not contain this information."
+    },
+    {
+      "name": "Lindsey Graham",
+      "domain": "Senate (SC, Republican)",
+      "raw_news": "- **Senate Budget Committee hearing on sanctuary cities (March 11):** Chairman Lindsey Graham led a heated hearing examining financial and public safety impacts of sanctuary city policies while pushing his “End Sanctuary Cities Act of 2026.”[1]  \n  This asserts Graham's leadership in immigration enforcement debates, potentially amplifying his influence on federal policy amid fiscal tensions from non-cooperation with ICE.[1]\n\n- **Senate passage of 21st Century ROAD to Housing Act (March 12):** Graham voted for and praised the bipartisan 89-10 approval of legislation removing housing regulations to lower costs.[2]  \n  His support bolsters his position on **fiscal-monetary stress** by addressing housing affordability, a key economic pressure point, through deregulation.[2]\n\n- **Filing for re-election (March 16, approximate):** Graham officially filed for a new Senate term, pledging to advance President Trump’s agenda with endorsements from Trump, state leaders, and conservative groups.[3][6]  \n  Securing high-profile backing solidifies his Republican influence and continuity in key areas like judicial and fiscal policy pipelines.[3][6]"
+    },
+    {
+      "name": "Palmer Luckey",
+      "domain": "Founder & CEO, Anduril Industries",
+      "raw_news": "**US Army awards Anduril a 10-year enterprise contract potentially worth up to $20 billion, consolidating 120 prior small contracts into a streamlined deal for hardware, drones, software, and infrastructure.** This significantly bolsters Anduril's position as a core U.S. military supplier amid software-defined warfare and US-Iran tensions, enhancing Luckey's influence in defense-industrial expansion.[3][5]\n\n**Anduril is raising approximately $4-8 billion in a new funding round targeting a $60 billion valuation, led by Thrive Capital and Andreessen Horowitz with participation from Founders Fund and Lux Capital.** The rapid doubling of valuation from last year's $30 billion round underscores investor confidence in Anduril's growth, amplifying Luckey's leverage for scaling defense tech amid geopolitical conflicts.[1][2]\n\n**Anduril agrees to acquire ExoAnalytic Solutions, an Orange County firm with the world's largest commercial optical telescope network for space surveillance.** This move expands Anduril's capabilities into space domain awareness, positioning Luckey to compete for major contracts like the Trump administration's $175 billion Golden Dome missile defense system.[4]"
+    },
+    {
+      "name": "Charles E. Schumer",
+      "domain": "Senate (NY, Democrat)",
+      "raw_news": "**Schumer announced on March 19 he would vote for a House GOP funding bill to avert a government shutdown deadline at midnight on March 20.**[2][3]  \nThis pragmatic concession despite calling the bill \"deeply partisan\" underscores his prioritization of avoiding disruptions that could empower Trump administration cuts via DOGE, bolstering his influence as a dealmaker in the minority while shielding Democratic fiscal priorities amid **Fiscal-Monetary Stress Cycle** tensions.[2][3]\n\n**Schumer delivered multiple floor speeches from March 17-19 fiercely opposing the Trump-backed SAVE Act, vowing Democrats would block it to prevent voter suppression through DHS data sharing and potential removal of millions from rolls.**[1][3]  \nHis sustained attacks frame the bill as a democratic threat tied to Elon Musk's initiatives, rallying his caucus and base to fortify **Coalition Machinery & Electoral Infrastructure** against GOP efforts, enhancing his leadership in election integrity battles.[1][3]\n\n**On March 19, Schumer spoke on the Senate floor slamming Trump’s escalating war in Iran, highlighting a $200 billion White House funding request and demanding sworn testimony from administration officials.**[3]  \nThis amplifies pressure on Republicans during geopolitical strain, positioning Schumer as a key voice checking executive overreach and linking foreign policy costs to domestic **Fiscal-Monetary Stress Cycle** burdens, sustaining Democratic opposition leverage.[3]\n\n**Schumer repeatedly blasted Republicans on March 19 for blocking TSA worker funding five times, urging unanimous consent for a clean Democratic bill amid shutdown brinkmanship.**[3]  \nBy spotlighting GOP obstruction harming frontline workers, he shifts blame in funding fights, reinforcing his command over **Fiscal-Monetary Stress Cycle** narratives and Democratic unity against partisan tactics.[3]"
+    },
+    {
+      "name": "Cynthia M. Lummis",
+      "domain": "Senate (WY, Republican)",
+      "raw_news": "**Sen. Cynthia Lummis announced she will not seek reelection to her U.S. Senate seat in 2026, opting to retire at the end of her first term in 2027.[1][2][3][4]**\n\n- **Announcement of retirement:** Lummis, 71, stated on Friday that after an exhausting fall session, she lacks the energy for another six-year term despite earlier plans and a Trump endorsement.[1][3]  \n  This decision diminishes her long-term influence in the Senate on key areas like fiscal-monetary policy and judicial matters, as she shifts focus to final-term legislation and Republican Senate retention efforts.[1][2]\n\nNo other significant hard news—such as policy decisions, legal actions, business moves, geopolitical events, or major public statements—on Lummis appeared in the past 7 days matching her activity areas of Judicial Pipeline & Doctrinal Shift or Fiscal-Monetary Stress Cycle.[1][2][3][4]"
+    },
+    {
+      "name": "Tom Cotton",
+      "domain": "Senate (AR, Republican)",
+      "raw_news": "**1. On March 12, Senator Tom Cotton, as Senate Intelligence Committee chairman, publicly advocated for fully funding the Department of Homeland Security (DHS) after a test vote on its funding bill failed, emphasizing its role in border security, immigration enforcement, cyber defense, and preventing attacks amid recent incidents like a synagogue assault in Michigan.[1]**\n\nThis stance reinforces Cotton's influence on **fiscal-monetary stress cycle** debates by highlighting DHS underfunding risks during heightened threats, positioning him as a key Republican voice pushing for immediate appropriations to bolster national security infrastructure.[1]\n\n**2. On March 11, Cotton defended the U.S. military campaign against Iran on Fox News, stating it has reduced Iranian ballistic missile fire by nearly 90%, is methodically destroying their missile, drone, and nuclear capabilities, and warned Russia and China against assisting Tehran.[2][3]**\n\nAs Intelligence Committee chair, this bolsters his **coalition machinery** role by publicly aligning with Trump administration goals, countering Democratic critics, and signaling U.S. resolve to deter adversaries, enhancing his geopolitical clout.[2][3]\n\n**3. On March 11, Cotton sent a letter to the Department of Energy demanding answers on the Biden administration's 2021-2022 drawdown of the Strategic Petroleum Reserve (SPR), criticizing it as a politically motivated move that left reserves depleted amid current Iran-related energy threats.[2]**\n\nThis action amplifies Cotton's sway in the **fiscal-monetary stress cycle** by scrutinizing past Democratic energy policies, linking them to vulnerabilities in global oil markets strained by the Iran conflict, and advocating for Republican fiscal accountability.[2]"
+    },
+    {
+      "name": "Christopher Murphy",
+      "domain": "Senate (CT, Democrat)",
+      "raw_news": "**Senator Chris Murphy issued a statement celebrating the Senate's 89-10 passage of the 21st Century ROAD to Housing Act on March 12, 2026.** This bipartisan victory on housing affordability highlights his influence in pushing fiscal policy amid economic pressures from tariffs and energy costs, potentially bolstering his position as a key Democratic voice on **Fiscal-Monetary Stress Cycle** issues.[1][4]\n\n**On March 17, 2026, Murphy and Rep. Greg Casar introduced legislation to ban insider betting in prediction markets.** The bill targets potential market manipulations, demonstrating his proactive role in financial regulation and reinforcing his credibility on **Fiscal-Monetary Stress Cycle** reforms through hard policy action.[1][7][9]\n\n**Murphy publicly vowed on March 10, 2026, to stall Senate business by forcing daily debates and votes on the war in Iran until addressed.** This aggressive tactic underscores his leverage in foreign policy debates, amplifying his opposition to unauthorized conflicts and tying into **Defense-Industrial Expansion** critiques.[6]\n\n**No significant news items from the past 7 days directly addressed Murphy's key areas of Judicial Pipeline & Doctrinal Shift or explicit Defense-Industrial Expansion beyond the Iran war stance.** Earlier DHS funding objections (pre-March 12) fell outside the timeframe despite relevance to geopolitical tensions.[2][5]"
+    },
+    {
+      "name": "Susan M. Collins",
+      "domain": "Senate (ME, Republican)",
+      "raw_news": "Based on the search results provided, there is limited hard news from the specific 7-day window (March 12-19, 2026). Here is what is available:\n\n**March 13, 2026: Community Development Project Visit in Hartland**\nSenator Collins visited the Town of Hartland to tour local community development projects.[3] This represents routine constituent engagement rather than significant policy activity in her key areas.\n\n**March 11, 2026: IRS Tax Assistance Centers Demand**\nCollins, along with Senators King and Representative Golden, called on the IRS to immediately reverse the closure of Bangor and Augusta tax assistance centers.[3] This addresses fiscal-monetary stress affecting Maine constituents but does not represent a major policy decision or legislative action.\n\n**March 4, 2026: Judicial Nomination Advancement**\nThe Senate Judiciary Committee advanced the nomination of David St. Pierre to serve as U.S. Marshal for the District of Maine, with Collins' announcement of this action.[3] This represents activity in the judicial pipeline, though a U.S. Marshal nomination is a lower-level judicial appointment compared to federal judgeships.\n\nThe search results do not contain substantive hard news from March 12-19 specifically addressing defense-industrial expansion or major fiscal-monetary policy decisions. Most recent coverage focuses on her 2026 re-election campaign announcement (made earlier in March) and polling challenges rather than legislative or policy activity."
+    },
+    {
+      "name": "Elon Musk",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **SpaceX acquires xAI, integrating AI with space ambitions.** Last week, Elon Musk announced SpaceX's acquisition of his AI company xAI, which had previously purchased the X platform, to form a vertically integrated entity combining AI, rockets, space internet, and real-time information systems[1]. This bolsters Musk's **AI dominance** by merging xAI's Grok technology with SpaceX's infrastructure, accelerating innovation in embodied AI for space applications and enhancing his competitive edge in the AI race[1].\n\n- **SpaceX pivots to prioritize Moon city over Mars colonization.** On Sunday, Musk posted on X that SpaceX is shifting primary focus from a 2026 Mars landing to building a \"self-growing city\" on the Moon due to faster 10-day launch cycles versus Mars' 26-month windows[1]. The move advances Musk's **defense-industrial expansion** through rapid lunar base development, positioning SpaceX as a leader in off-world infrastructure critical for long-term civilization security and U.S. space dominance[1].\n\n- **Tesla ends Model S and X production to ramp up Optimus robots.** On Wednesday's Q4 2025 earnings call, Musk confirmed Tesla will cease Model S and X production in 2026, repurposing Fremont factory space for up to 1 million Optimus humanoid robots annually amid declining EV sales[2]. This pivot intensifies Musk's **AI dominance race** by dedicating massive resources to mass-produced robotics, potentially transforming Tesla into an AI-robotics powerhouse and diversifying revenue beyond vehicles[2].\n\n- **Pentagon selects xAI for sensitive government and military workflows.** The U.S. Pentagon tapped Musk's xAI to enhance sensitive government operations and support military activities, as noted in recent coverage[2]. The contract expands Musk's **defense-industrial expansion** and **executive power consolidation** by embedding his AI directly into national security, amplifying his geopolitical influence through critical DoD integrations[2].\n\n- **Musk donates heavily to Republicans ahead of 2026 midterms.** Musk made significant 2026 contributions to Republicans, warned against the \"radical left\" on X, and pledged more funding after feuding with Trump over policy, building on his $290 million in 2024 donations[5]. These moves strengthen Musk's **information environment contestation** and **executive power consolidation** by shaping U.S. politics, securing favorable policies for his companies, and leveraging his platform for conservative influence[5]."
+    },
+    {
+      "name": "Rick Scott",
+      "domain": "Senate (FL, Republican)",
+      "raw_news": "Based on recent activity, here are Senator Rick Scott's most significant actions from March 12-19, 2026:\n\n1. **Sanctuary Cities Legislation (March 18)**: Senator Scott announced legislation cracking down on sanctuary cities and prioritizing Americans first.[3][4] This action reinforces his influence over immigration enforcement policy and signals alignment with the Trump administration's priorities on border security.\n\n2. **Federal Taxpayer Funds Protection and Clawback Act (March 10)**: Scott introduced a bill allowing the federal government to recover funds distributed to states engaged in fraudulent activity, citing waste in Democrat-run states like Minnesota and California.[1] This positions Scott as a fiscal hawk addressing the $38 trillion national debt and strengthens his credibility on government accountability within Republican fiscal policy debates.\n\n3. **SAVE America Act Push (March 16)**: Scott reiterated his support for the SAVE America Act, which requires voter ID and proof of citizenship to register, stating he would \"do everything I can to get the SAVE America Act passed next week.\"[1] This demonstrates Scott's active role in shaping electoral infrastructure and voting requirements, directly impacting the mechanics of future elections.\n\n4. **Anti-Fraud Task Force Coordination (March 11)**: Scott urged Vice President JD Vance's anti-fraud task force to investigate California's use of federal wildfire prevention funds.[1] This action illustrates Scott's influence within the administration's oversight machinery and his leverage in directing executive branch investigations."
+    },
+    {
+      "name": "Susie Wiles",
+      "domain": "Senior Republican strategist and White House Chief of Staff",
+      "raw_news": "**1. White House Chief of Staff Susie Wiles raised alarms about soaring gas prices amid the Iran war, directing her team to urgently explore solutions like a temporary gasoline tax holiday and U.S. military protection for Middle East energy infrastructure.[1]**  \nThis demonstrates Wiles' central role in **executive power consolidation** by steering crisis response and messaging on affordability, a key vulnerability as midterms approach, thereby reinforcing her influence over Trump's domestic agenda.[1]\n\n**2. Wiles and deputy James Blair intensified efforts to keep President Trump focused on affordability issues, countering the narrative of rising energy costs that Trump has emphasized in major speeches throughout the year.[1]**  \nHer proactive coalition machinery bolsters Republican **electoral infrastructure** by mitigating a politically toxic issue, positioning her as indispensable in maintaining party unity and midterm strategy amid geopolitical pressures.[1]\n\n**3. The White House, under Wiles' oversight, entered damage control in the Texas Senate GOP primary runoff between Ken Paxton and John Cornyn, with Trump signaling an imminent endorsement likely favoring Cornyn.[1]**  \nThis intervention highlights Wiles' command of **coalition machinery** and **electoral infrastructure**, enabling targeted endorsements to shape competitive races and avert intra-party conflicts that could weaken Republican midterm prospects.[1]"
+    },
+    {
+      "name": "Tim Cook",
+      "domain": "CEO, Apple",
+      "raw_news": "**Tim Cook dismissed retirement rumors in a March 17, 2026, Good Morning America interview, stating he cannot imagine life without Apple amid executive departures and preparations for a high-stakes 2026 AI product roadmap.[1][2][3]**\nThis reaffirms Cook's leadership stability during Apple's shift to AI hardware like foldable iPhones and AI glasses, bolstering investor confidence and delaying potential succession risks as the company navigates executive turnover and competitive pressures.[1][3]\n\n**Cook addressed ongoing trade policy costs, noting Apple has paid about $3.3 billion under recent tariffs and will monitor the situation for potential legal challenges.[1]**\nThis highlights Cook's role in managing **Big Tech regulatory arbitrage** through geopolitical trade dynamics, preserving Apple's global supply chain influence while cautiously positioning for policy shifts that impact hardware production costs.[1]\n\n**Cook published a letter on March 12, 2026, celebrating Apple's \"50 Years of Thinking Different\" ahead of its April 1 anniversary, teasing internal and public commemorations.[4][7]**\nThe statement underscores Cook's stewardship of Apple's legacy during a pivotal year of product launches and regulatory battles, reinforcing his position as the diplomat defending the company's closed ecosystem against antitrust scrutiny in the EU and US.[3]"
+    },
+    {
+      "name": "Scott Bessent",
+      "domain": "US Secretary of the Treasury",
+      "raw_news": "**Scott Bessent made three significant public statements and announcements on economic policy amid geopolitical tensions from March 12-19, 2026.**\n\n- **Trump Accounts push at Financial Literacy Commission (March 12):** Bessent chaired the commission's public meeting to promote Trump Accounts, announcing $1,000 federal seed investments in U.S. stocks for children, major private donations like $6.25 billion from the Dells and Ray Dalio's 50 State Challenge, and calls for employer and state involvement[2]. This bolsters his influence by driving a flagship Trump policy on generational wealth-building, fostering bipartisan coalitions and positioning Treasury as a leader in financial education and investment incentives.\n\n- **Meeting with Chinese officials on trade and tariffs (March 16):** Bessent discussed U.S.-China trade talks, Trump's tariff agenda, and responses to the Iran war's market impacts during a CNBC 'Squawk Box' appearance following his Beijing meeting[4]. It underscores his central role in trade negotiations and tariff strategies, enhancing his authority in managing U.S.-China economic relations amid global disruptions.\n\n- **Oil market stabilization plan amid Iran war (March 19):** Bessent unveiled a plan to flood global oil markets with supply in a Fox Business interview, addressing surging prices, Strait of Hormuz tensions, and U.S. strategy during the Iran conflict[3]. This demonstrates his command over energy policy and fiscal tools to counter geopolitical shocks, directly impacting monetary stability and reinforcing Treasury's influence on inflation and market volatility."
+    },
+    {
+      "name": "Miriam Adelson & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items matching the criteria—policy decisions, business moves, legal actions, geopolitical events, or significant public statements in Miriam Adelson's key areas of **coalition machinery & electoral infrastructure**—emerged from the past 7 days (approximately March 12-19, 2026).\n\nSearch results yielded:\n- A January 2026 panel discussion on her philanthropy approach, outside the timeframe and not hard news[1].\n- Aggregated JPost tag page with older items (e.g., grove planting, Iranian criticism, Hanukkah pledge, Knesset appearance, birthday honors), none dated to March 12-19, 2026, or tied to specified activity areas[2].\n- November 2024 analysis of her diplomatic influence, predating the period[3]."
+    },
+    {
+      "name": "Amy Coney Barrett",
+      "domain": "Associate Justice, US Supreme Court",
+      "raw_news": "- **March 17 (approx.): Supreme Court grants stay allowing New York to use existing congressional map for 2026 elections.** The Court, over liberal dissent, paused a state trial court order to redraw the map for more Black and Latino voters, enabling Republican-backed voters and officials to proceed[1]. This reinforces Barrett's influence in the conservative majority on **Judicial Pipeline** matters, shaping election maps ahead of midterms without doctrinal expansion.\n\n- **March 10: Court denies review in Alabama panhandling case, upholding First Amendment protections.** Justices, including Barrett, declined Alabama's petition to rule begging unprotected speech, leaving intact a lower court win for a homeless challenger backed by 19 GOP AGs[1]. It sustains Barrett's position in free speech precedents, avoiding a potential **doctrinal shift** toward restricting public expression.\n\n- **March 10: Court declines Jan. 6 convict's bid to challenge pardon post-conviction vacatur.** Barrett joined in rejecting Glenn Brooks' appeal to clear his name judicially rather than accept Trump's pardon for Capitol riot role[3]. This limits **Judicial Pipeline** access for politically charged cases, signaling Barrett's restraint on revisiting executive clemency effects.\n\n- **March 3: Barrett questions ayahuasca's reality during Second Amendment oral arguments in US v. Hemani.** In debate over gun bans for illegal drug users, Barrett admitted unfamiliarity with the hallucinogen in Justice Kagan's hypothetical, prompting courtroom laughter[1]. The remark humanizes her but underscores her textualist approach in gun rights cases, potentially previewing a **doctrinal shift** on historical analogues."
+    },
+    {
+      "name": "Sean Hannity",
+      "domain": "Host, Hannity (Fox News) and nationally syndicated radio show",
+      "raw_news": "- **March 17 Hannity show monologue and interviews on Iran conflict (Operation Epic Fury):** Sean Hannity delivered a monologue criticizing media coverage of the U.S.-Iran war, highlighted President Trump's claims of Iran's decimated military and desperation for a deal, and interviewed guests on targeting Iran's leadership and assets like Kharg Island.[1] This reinforces Hannity's role as a key amplifier of Trump administration narratives on geopolitical events, sustaining his influence in shaping conservative views amid contested information environments.[1]\n\n- **March 17-18 shows pushing the SAVE Act amid Capitol Hill battle:** Hannity hosted discussions with guests like Rep. Eric Burlison on Republican efforts to advance the SAVE America Act for secure elections, emphasizing public support and potential filibuster fights against Democratic opposition.[1][2] By framing it as a critical priority for election integrity, Hannity bolsters his position as a leading voice in domestic policy debates, rallying his audience against perceived threats to Republican goals.[1][2]\n\n- **March 18 show addressing intelligence community cover-up of Chinese voter data access:** Hannity featured Just the News founder John Solomon reporting that U.S. intelligence hid Chinese infiltration of voter registration data from Trump, based on newly public memos.[2] This segment enhances Hannity's prominence in exposing alleged deep-state actions, amplifying distrust in institutions and solidifying his sway over narratives of election interference.[2]\n\n- **March 17-18 defenses of U.S. military action in Iran against critics:** Hannity countered resignations like Joe Kent's from the National Counterterrorism Center and isolationist claims by noting strong MAGA support (91% approval) and advocating to \"defang\" Iran for Middle East peace.[1][2] His consistent pro-Trump framing amid internal GOP dissent underscores his influence in unifying the conservative base on foreign policy during high-stakes geopolitical contests.[1][2]"
+    },
+    {
+      "name": "Mustafa Suleyman",
+      "domain": "CEO, Microsoft AI",
+      "raw_news": "**Microsoft AI CEO Mustafa Suleyman confirmed in a Financial Times interview that the company is prioritizing in-house AI models to achieve \"true AI self-sufficiency,\" reducing dependence on OpenAI despite their restructured partnership.[1]**\n\nThis strategic shift strengthens Suleyman's influence by positioning Microsoft as a leader in the **AI dominance race**, enabling independent pursuit of superintelligence with gigawatt-scale compute and top talent, while addressing investor concerns over OpenAI exposure.[1]\n\n**Suleyman predicted that AI will fully automate most white-collar tasks—such as accounting, legal, marketing, and project management—within 12-18 months, reaching human-level performance across professional work.[3][4][6]**\n\nThe bold forecast elevates his position as a visionary in **AI dominance**, signaling Microsoft's aggressive push toward professional-grade AGI and AI agents, potentially reshaping enterprise markets and accelerating industry-wide automation.[3]\n\n**Suleyman warned that competing at the AI frontier will require \"hundreds of billions\" in spending over 5-10 years on infrastructure and talent, while drawing a \"red line\" against uncontrollable AI projects.[5]**\n\nThis statement underscores his strategic role in navigating **Big Tech regulatory arbitrage** and geopolitical tensions, advocating safety and governance to justify massive investments and differentiate Microsoft in a capital-intensive race dominated by well-funded giants.[5]"
+    },
+    {
+      "name": "Terrence Pegula",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "I cannot find significant news about Terry Pegula from March 12-19, 2026 in the provided search results. The search results contain only information from January 21, 2026, regarding his decision to fire Bills head coach Sean McDermott and his defense of GM Brandon Beane—content that falls outside your requested timeframe.\n\nTo provide the 3-5 hard news items you've requested about Pegula's activities in energy transition and security from the past week, I would need search results covering that specific period. The current results do not contain reporting on his business moves, policy decisions, or significant statements from March 12-19, 2026."
+    },
+    {
+      "name": "Laurene Powell Jobs",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items about Laurene Powell Jobs from March 12-19, 2026, in the areas of policy decisions, business moves, legal actions, geopolitical events, or significant public statements.\n\nSearch results reference her ownership of Amplify (an edtech firm promoting \"high-quality instructional materials\" rated by EdReports) in a December 19, 2025, article critiquing billionaire influence on education curriculum, but this predates the queried period by over three months and lacks any new developments[1]. No other results provide relevant recent events."
+    },
+    {
+      "name": "Jerry Jones & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**1. Jerry Jones announced on March 16, 2026, at the Grand Prix of Arlington that the Dallas Cowboys are undertaking a major defensive overhaul through free agency signings and veteran additions to the roster.[4]**\nThis aggressive roster rebuilding reinforces Jones's influence as a hands-on NFL owner by positioning the Cowboys for improved competitiveness after two playoff-less seasons, potentially elevating the team's valuation and his Forbes 400 status.[2][3]\n\n**2. On March 14, 2026, reports confirmed the Cowboys are spending $91.1 million in 2026—23% more than the prior year's $73.9 million—on defensive players like safety Jalen Thompson and cornerback Cobie Durant, fulfilling Jones's pledge to \"bust the budget.\"[5]**\nThe increased spending signals a strategic shift from cost-cutting to high-impact acquisitions, strengthening Jones's position as a decisive business leader in professional sports amid salary cap constraints.[3][5]\n\n**3. Jerry Jones stated the Cowboys' early free agency moves after one week provide \"a lot of promise,\" highlighting optimism about new defensive talent addressing the team's 30th-ranked total defense and last-place passing defense from 2025.[6]**\nThese moves enhance Jones's executive clout by demonstrating effective resource allocation, which could boost franchise revenue and his personal wealth through heightened team performance and market appeal.[2][5]\n\n**4. Jones emphasized the team's aggressive free agency approach, including contract restructurings for players like Dak Prescott and CeeDee Lamb to create cap space from a $56 million overage, targeting edge rushers and other defensive needs.[3][7]**\nBy borrowing against future cap space for immediate gains, Jones asserts his financial risk-taking prowess, safeguarding his billionaire influence in NFL economics and Cowboys' long-term dominance.[2][3]"
+    },
+    {
+      "name": "David Geffen",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "Based on the search results provided, there is **no significant news about David Geffen from the past 7 days (March 12-19, 2026)**. The most recent information available is from October 2025, when Armstrong's civil lawsuit was dismissed, which is outside your requested timeframe.\n\nThe search results do not contain any hard news items—policy decisions, business moves, legal actions, or significant public statements—from David Geffen during the week of March 12-19, 2026."
+    },
+    {
+      "name": "Eric Schmidt",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**1. Bolt, Eric Schmidt's data center firm co-founded last year, is negotiating a major deal with Google to anchor a large campus in West Texas with a potential 250-megawatt commitment.**[1]  \n**This positions Schmidt at the center of Big Tech's AI infrastructure race, leveraging his Google ties to secure massive power and land resources amid record 2026 spending on AI data centers.**[1]\n\n**2. Eric Schmidt became CEO of Relativity Space this week, acquiring a controlling stake in the reusable rocket company.**[3]  \n**The move expands Schmidt's influence into defense-industrial and space sectors, aligning with national security priorities from his prior AI policy work and enabling AI synergies in aerospace manufacturing.**[3]\n\n**3. Eric Schmidt warned that America is running out of electricity, needing an additional 92 gigawatts to support AI data center growth amid massive cooling and operational demands.**[5]  \n**His public statement underscores energy bottlenecks in the AI dominance race, amplifying calls for infrastructure reforms and highlighting risks to Big Tech's expansion plans.**[5]\n\n**4. In a Fortune interview, Eric Schmidt advocated that Big Tech should self-power its AI data centers to avoid grid strain and rising utility bills, as power projects lag behind 16 gigawatts of 2026 demand.**[2]  \n**This reinforces Schmidt's strategic influence in shaping AI policy debates, pushing for industry-led solutions amid regulatory pushback like state moratoriums on data centers.**[2]"
+    },
+    {
+      "name": "David Tepper",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Appaloosa Management disclosed a $285 million stake in Micron Technology (MU), elevating it to nearly 6% of the fund's $6.93 billion portfolio as per the latest 13F filing.**[1]  \n  This major bet on AI memory infrastructure reinforces Tepper's influence in **capital allocation** by shifting focus from compute chips like AMD toward high-conviction AI plumbing plays amid booming demand.[1]\n\nNo other hard news items on policy decisions, business moves, legal actions, geopolitical events, or significant public statements by David Tepper appear in the past 7 days; earlier 13F-related reports from January 2026 predate the queried period.[2][3][4]"
+    }
+  ],
+  "ps_assemblies_fired": {
+    "DPS-07": [
+      "CA-024",
+      "CA-051",
+      "CA-013",
+      "CA-058",
+      "CA-071"
+    ],
+    "DPS-08": [
+      "CA-016",
+      "CA-038",
+      "CA-110"
+    ],
+    "DPS-03": [
+      "CA-009",
+      "CA-030",
+      "CA-034"
+    ],
+    "DPS-05": [
+      "CA-107",
+      "CA-116",
+      "CA-136"
+    ]
+  },
+  "neurons_conscious": [
+    "Michael Bloomberg",
+    "Lindsey Graham",
+    "Palmer Luckey",
+    "Charles E. Schumer",
+    "Cynthia M. Lummis",
+    "Tom Cotton",
+    "Christopher Murphy",
+    "Susan M. Collins",
+    "Elon Musk",
+    "Rick Scott"
+  ],
+  "neurons_spontaneous": [
+    "Susie Wiles",
+    "Tim Cook",
+    "Scott Bessent",
+    "Miriam Adelson & family",
+    "Amy Coney Barrett",
+    "Sean Hannity",
+    "Mustafa Suleyman",
+    "Terrence Pegula",
+    "Laurene Powell Jobs",
+    "Jerry Jones & family",
+    "David Geffen",
+    "Eric Schmidt",
+    "David Tepper"
+  ],
+  "neurons_skipped": [
+    "Mark Zuckerberg",
+    "Jerome H. Powell",
+    "Clarence Thomas",
+    "Jeff Bezos",
+    "Donald Trump",
+    "Brett M. Kavanaugh",
+    "Neil M. Gorsuch",
+    "Andy Jassy",
+    "Sundar Pichai",
+    "Satya Nadella",
+    "Robert F. Kennedy Jr.",
+    "Stephen Schwarzman",
+    "Leonard Leo",
+    "Pete Hegseth",
+    "Sonia Sotomayor",
+    "Sam Altman",
+    "Peter Thiel",
+    "Larry Ellison",
+    "Marc Rowan",
+    "Russell M. Nelson",
+    "Jensen Huang",
+    "Kash Patel",
+    "Charles Koch & family",
+    "Ketanji Brown Jackson",
+    "Ken Griffin",
+    "Gavin Newsom",
+    "Samuel A. Alito Jr.",
+    "Thomas Kurian",
+    "John Thune",
+    "John G. Roberts Jr.",
+    "Ken Langone",
+    "Rob Walton & family",
+    "Richard Uihlein",
+    "Stephen Ross",
+    "Abigail Johnson",
+    "Judy Faulkner",
+    "Bob Parsons",
+    "Jim Walton & family",
+    "Bill Gates",
+    "Stanley Druckenmiller",
+    "Chuck Grassley",
+    "David Rubenstein",
+    "Fred Smith",
+    "Alice Walton",
+    "Ray Dalio",
+    "Brian Armstrong",
+    "Paul Tudor Jones, II.",
+    "Pam Bondi",
+    "J.B. Pritzker",
+    "Elena Kagan",
+    "Lukas Walton",
+    "Pierre Omidyar",
+    "Michael Rubin",
+    "Henry Kravis",
+    "Jeff Yass",
+    "Marijke Mars",
+    "Julia Koch & family",
+    "John Malone",
+    "Kelcy Warren",
+    "Leon Black",
+    "Paul Singer",
+    "Lynda Resnick",
+    "Ronald Lauder",
+    "Philip Anschutz",
+    "George Roberts",
+    "Brian Chesky",
+    "Jeremy Jacobs, Sr. & family",
+    "Brian Ballard",
+    "Ann Walton Kroenke",
+    "MacKenzie Scott",
+    "Charles Schwab",
+    "Michael Dell",
+    "Steve Scalise",
+    "Joe Rogan",
+    "Ted Cruz",
+    "Mitchell Rales",
+    "Ron DeSantis",
+    "Melinda French Gates",
+    "Marc Benioff",
+    "Suzanne Clark",
+    "Mitch McConnell",
+    "David Bonderman",
+    "Warren Buffett",
+    "Rupert Murdoch & family",
+    "Josh Harris",
+    "Larry Page",
+    "Greg Abbott",
+    "Stephen Feinberg",
+    "Mike Lee",
+    "Sergey Brin",
+    "Steve Cohen",
+    "Phil Knight & family",
+    "Carl Icahn",
+    "Thomas Peterffy",
+    "William Ackman",
+    "Victoria Mars",
+    "Patty Murray",
+    "John Mars",
+    "Hakeem S. Jeffries",
+    "Matthew J. Kacsmaryk",
+    "Carrie Severino",
+    "Charlie Kirk",
+    "Kevin Roberts",
+    "Richard J. Durbin",
+    "George Soros",
+    "Thomas Frist, Jr. & family",
+    "Bret Taylor",
+    "Jonathan Gray",
+    "Stewart Resnick",
+    "Edward Johnson, IV.",
+    "Thomas Pritzker",
+    "Lynn Schusterman & family",
+    "Josh Hawley",
+    "Alex Karp",
+    "Lisa Su",
+    "Alexander Karp",
+    "Len Blavatnik",
+    "Demis Hassabis",
+    "Alexandria Ocasio-Cortez",
+    "Antony Ressler",
+    "Elise M. Stefanik",
+    "Mark Walter",
+    "Dario Amodei",
+    "Daniela Amodei",
+    "Christy Walton",
+    "Donald Newhouse",
+    "Ernest Garcia, III"
+  ],
+  "spontaneous_cap": 13
+}

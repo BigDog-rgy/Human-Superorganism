@@ -1,0 +1,4982 @@
+{
+  "players": {
+    "Ballard Partners": {
+      "name": "Ballard Partners",
+      "description": "A top-tier Washington lobbying firm founded by Ballard that serves as his primary power node connecting corporate and foreign clients to federal policymakers.",
+      "elo": 1486.5112254993714,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Brian Ballard"
+      ],
+      "played_against": [
+        "Cato Institute",
+        "Cerberus Capital Management",
+        "Citadel LLC",
+        "Elliott Investment Management",
+        "Point72 Asset Management",
+        "Republican Governors Association",
+        "Republican Jewish Coalition",
+        "Senate Republican Conference",
+        "The Washington Post",
+        "US Senate"
+      ]
+    },
+    "US Senate": {
+      "name": "US Senate",
+      "description": "The upper chamber of Congress in which Cotton serves as a senator from Arkansas and exercises legislative and confirmation power.",
+      "elo": 1583.9123557365426,
+      "wins": 7,
+      "losses": 2,
+      "matches": 9,
+      "neurons": [
+        "Charles E. Schumer",
+        "Christopher Murphy",
+        "Chuck Grassley",
+        "Cynthia M. Lummis",
+        "John Thune",
+        "Josh Hawley",
+        "Lindsey Graham",
+        "Mike Lee",
+        "Mitch McConnell",
+        "Patty Murray",
+        "Richard J. Durbin",
+        "Rick Scott",
+        "Susan M. Collins",
+        "Ted Cruz",
+        "Tom Cotton"
+      ],
+      "played_against": [
+        "Amazon",
+        "Ballard Partners",
+        "Blackstone",
+        "Elliott Investment Management",
+        "Salesforce",
+        "Senate Republican Conference",
+        "Supreme Court of the United States",
+        "Trump White House",
+        "US Department of Justice",
+        "US House of Representatives"
+      ]
+    },
+    "Senate Republican Conference": {
+      "name": "Senate Republican Conference",
+      "description": "The caucus coordinating body for all Senate Republicans, shaping unified legislative strategy and leadership priorities.",
+      "elo": 1547.8242553261048,
+      "wins": 6,
+      "losses": 3,
+      "matches": 9,
+      "neurons": [
+        "John Thune",
+        "Mitch McConnell",
+        "Rick Scott",
+        "Ted Cruz",
+        "Tom Cotton"
+      ],
+      "played_against": [
+        "Ballard Partners",
+        "Blackstone",
+        "Citadel LLC",
+        "Citadel Securities",
+        "Elliott Investment Management",
+        "Epic Systems",
+        "NVIDIA",
+        "Office of the Governor of Texas",
+        "US House of Representatives",
+        "US Senate"
+      ]
+    },
+    "Elliott Investment Management": {
+      "name": "Elliott Investment Management",
+      "description": "The activist hedge fund Singer founded and leads, one of the most aggressive and influential investment firms in global finance.",
+      "elo": 1519.1842110515256,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Paul Singer"
+      ],
+      "played_against": [
+        "Airbnb",
+        "Ballard Partners",
+        "Berkshire Hathaway",
+        "Citadel Securities",
+        "Founders Fund",
+        "Oracle Corporation",
+        "Salesforce",
+        "Senate Republican Conference",
+        "The Washington Post",
+        "US Senate"
+      ]
+    },
+    "Republican Jewish Coalition": {
+      "name": "Republican Jewish Coalition",
+      "description": "A major donor-network and advocacy organization bridging Republican politics and the Jewish community, where Singer is a leading financial backer.",
+      "elo": 1453.6975248274982,
+      "wins": 3,
+      "losses": 6,
+      "matches": 9,
+      "neurons": [
+        "Miriam Adelson & family",
+        "Paul Singer"
+      ],
+      "played_against": [
+        "Airbnb",
+        "Ballard Partners",
+        "Bridgewater Associates",
+        "Citadel LLC",
+        "Citadel Securities",
+        "Point72 Asset Management",
+        "Republican Governors Association",
+        "Tepper Sports & Entertainment",
+        "The Washington Post",
+        "Time"
+      ]
+    },
+    "Citadel LLC": {
+      "name": "Citadel LLC",
+      "description": "The flagship hedge fund Griffin founded, one of the most profitable investment firms in the world and the center of his financial empire.",
+      "elo": 1517.2234808795831,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Ken Griffin"
+      ],
+      "played_against": [
+        "Ballard Partners",
+        "Bridgewater Associates",
+        "Office of the Governor of Texas",
+        "Oracle Corporation",
+        "Republican Jewish Coalition",
+        "Salesforce",
+        "Senate Judiciary Committee",
+        "Senate Republican Conference",
+        "The Washington Post",
+        "US House of Representatives"
+      ]
+    },
+    "Citadel Securities": {
+      "name": "Citadel Securities",
+      "description": "A separate market-making firm co-founded by Griffin that is a dominant force in US equity and options trading infrastructure.",
+      "elo": 1545.9881977479793,
+      "wins": 6,
+      "losses": 3,
+      "matches": 9,
+      "neurons": [
+        "Ken Griffin"
+      ],
+      "played_against": [
+        "Alphabet Inc.",
+        "Blackstone",
+        "Danaher Corporation",
+        "Elliott Investment Management",
+        "House Democratic Caucus",
+        "Mars, Incorporated",
+        "Republican Jewish Coalition",
+        "Senate Republican Conference",
+        "Supreme Court of the United States",
+        "US House of Representatives"
+      ]
+    },
+    "US House of Representatives": {
+      "name": "US House of Representatives",
+      "description": "The lower chamber of Congress in which Jeffries serves as House Minority Leader, the top-ranking Democrat in the chamber.",
+      "elo": 1548.5320961481063,
+      "wins": 6,
+      "losses": 3,
+      "matches": 9,
+      "neurons": [
+        "Alexandria Ocasio-Cortez",
+        "Elise M. Stefanik",
+        "Hakeem S. Jeffries",
+        "Steve Scalise"
+      ],
+      "played_against": [
+        "Blackstone",
+        "Citadel LLC",
+        "Citadel Securities",
+        "Federalist Society",
+        "Microsoft",
+        "NVIDIA",
+        "Office of the Governor of Texas",
+        "Senate Republican Conference",
+        "The Washington Post",
+        "US Senate"
+      ]
+    },
+    "House Democratic Caucus": {
+      "name": "House Democratic Caucus",
+      "description": "The formal organization of all House Democrats, which Jeffries leads and uses to coordinate legislative strategy and messaging.",
+      "elo": 1499.2989451717813,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Hakeem S. Jeffries"
+      ],
+      "played_against": [
+        "Bridgewater Associates",
+        "Citadel Securities",
+        "Epic Systems",
+        "Federalist Society",
+        "Geffen Records",
+        "Microsoft",
+        "New York Mets",
+        "Office of the Governor of Texas",
+        "Point72 Asset Management",
+        "Republican Governors Association"
+      ]
+    },
+    "Office of the Governor of Texas": {
+      "name": "Office of the Governor of Texas",
+      "description": "The executive office Abbott holds as the chief executive of the second-largest US state, wielding broad administrative, budgetary, and military authority.",
+      "elo": 1547.9385198131279,
+      "wins": 6,
+      "losses": 3,
+      "matches": 9,
+      "neurons": [
+        "Greg Abbott"
+      ],
+      "played_against": [
+        "Blackstone",
+        "Bridgewater Associates",
+        "Citadel LLC",
+        "Epic Systems",
+        "House Democratic Caucus",
+        "Microsoft",
+        "Oracle Corporation",
+        "Republican Governors Association",
+        "Senate Republican Conference",
+        "US House of Representatives"
+      ]
+    },
+    "Republican Governors Association": {
+      "name": "Republican Governors Association",
+      "description": "The national organization coordinating Republican governors across states, where Abbott is a prominent figure and major fundraiser.",
+      "elo": 1482.193858241275,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Greg Abbott",
+        "Ron DeSantis"
+      ],
+      "played_against": [
+        "Ballard Partners",
+        "Bridgewater Associates",
+        "Epic Systems",
+        "Geffen Records",
+        "House Democratic Caucus",
+        "Microsoft",
+        "Office of the Governor of Texas",
+        "Republican Jewish Coalition",
+        "Robin Hood Foundation",
+        "eBay"
+      ]
+    },
+    "Bridgewater Associates": {
+      "name": "Bridgewater Associates",
+      "description": "The world's largest hedge fund, which Dalio founded and built into a globally influential macroeconomic investment and research institution.",
+      "elo": 1484.6729142135493,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Ray Dalio"
+      ],
+      "played_against": [
+        "Airbnb",
+        "Apollo Global Management",
+        "Citadel LLC",
+        "Epic Systems",
+        "Glenstone Foundation",
+        "House Democratic Caucus",
+        "Office of the Governor of Texas",
+        "Republican Governors Association",
+        "Republican Jewish Coalition",
+        "Time"
+      ]
+    },
+    "Epic Systems": {
+      "name": "Epic Systems",
+      "description": "The dominant electronic health records company Faulkner founded and leads, whose software underpins the clinical data infrastructure of most major US health systems.",
+      "elo": 1514.6891942589102,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Judy Faulkner"
+      ],
+      "played_against": [
+        "Bridgewater Associates",
+        "Federalist Society",
+        "House Democratic Caucus",
+        "Mars, Incorporated",
+        "Microsoft",
+        "Office of the Governor of Texas",
+        "Republican Governors Association",
+        "Senate Republican Conference",
+        "Supreme Court of the United States",
+        "Tudor Investment Corp"
+      ]
+    },
+    "Supreme Court of the United States": {
+      "name": "Supreme Court of the United States",
+      "description": "The highest federal court, on which Gorsuch serves as an Associate Justice with lifetime tenure and final authority on constitutional interpretation.",
+      "elo": 1581.2846583038229,
+      "wins": 7,
+      "losses": 2,
+      "matches": 9,
+      "neurons": [
+        "Amy Coney Barrett",
+        "Brett M. Kavanaugh",
+        "Clarence Thomas",
+        "Elena Kagan",
+        "John G. Roberts Jr.",
+        "Ketanji Brown Jackson",
+        "Neil M. Gorsuch",
+        "Samuel A. Alito Jr.",
+        "Sonia Sotomayor"
+      ],
+      "played_against": [
+        "Alphabet Inc.",
+        "Citadel Securities",
+        "Epic Systems",
+        "Federal Reserve",
+        "Federalist Society",
+        "Microsoft",
+        "NVIDIA",
+        "Trump White House",
+        "US Department of Justice",
+        "US Senate"
+      ]
+    },
+    "Federalist Society": {
+      "name": "Federalist Society",
+      "description": "The influential conservative legal network whose pipeline and vetting process was central to Gorsuch's nomination and whose judicial philosophy he embodies.",
+      "elo": 1545.8995517758042,
+      "wins": 6,
+      "losses": 3,
+      "matches": 9,
+      "neurons": [
+        "Amy Coney Barrett",
+        "Brett M. Kavanaugh",
+        "Carrie Severino",
+        "Clarence Thomas",
+        "Leonard Leo",
+        "Matthew J. Kacsmaryk",
+        "Mike Lee",
+        "Neil M. Gorsuch",
+        "Samuel A. Alito Jr."
+      ],
+      "played_against": [
+        "Apollo Global Management",
+        "Danaher Corporation",
+        "Epic Systems",
+        "House Democratic Caucus",
+        "Microsoft",
+        "Oracle Corporation",
+        "Pershing Square Capital Management",
+        "Supreme Court of the United States",
+        "US House of Representatives",
+        "eBay"
+      ]
+    },
+    "Microsoft": {
+      "name": "Microsoft",
+      "description": "Global technology corporation where Suleyman serves as CEO of Microsoft AI, directing the company's artificial intelligence strategy and products.",
+      "elo": 1499.9371926563815,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Mustafa Suleyman",
+        "Satya Nadella"
+      ],
+      "played_against": [
+        "Apollo Global Management",
+        "Epic Systems",
+        "Federalist Society",
+        "House Democratic Caucus",
+        "Nike",
+        "Office of the Governor of Texas",
+        "Oracle Corporation",
+        "Republican Governors Association",
+        "Supreme Court of the United States",
+        "US House of Representatives"
+      ]
+    },
+    "Oracle Corporation": {
+      "name": "Oracle Corporation",
+      "description": "Enterprise software and cloud infrastructure giant that Ellison co-founded and where he serves as Chairman and CTO, anchoring his primary power base.",
+      "elo": 1517.5189001878337,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Larry Ellison"
+      ],
+      "played_against": [
+        "Amazon",
+        "Apollo Global Management",
+        "Blackstone",
+        "Citadel LLC",
+        "Elliott Investment Management",
+        "Federalist Society",
+        "Google",
+        "Microsoft",
+        "NVIDIA",
+        "Office of the Governor of Texas"
+      ]
+    },
+    "Blackstone": {
+      "name": "Blackstone",
+      "description": "The world's largest alternative asset management firm, where Gray serves as President and COO, overseeing its vast real estate and private equity portfolios.",
+      "elo": 1514.9517299160493,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Jonathan Gray",
+        "Stephen Schwarzman"
+      ],
+      "played_against": [
+        "Apollo Global Management",
+        "Citadel Securities",
+        "NVIDIA",
+        "Office of the Governor of Texas",
+        "Oracle Corporation",
+        "Robin Hood Foundation",
+        "Senate Republican Conference",
+        "Tudor Investment Corp",
+        "US House of Representatives",
+        "US Senate"
+      ]
+    },
+    "Apollo Global Management": {
+      "name": "Apollo Global Management",
+      "description": "Major alternative investment firm that Black co-founded and built into a global private equity and credit powerhouse, remaining his primary institutional legacy.",
+      "elo": 1498.626940126548,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Josh Harris",
+        "Leon Black",
+        "Marc Rowan"
+      ],
+      "played_against": [
+        "Airbnb",
+        "Blackstone",
+        "Bridgewater Associates",
+        "Federalist Society",
+        "Glenstone Foundation",
+        "Microsoft",
+        "NVIDIA",
+        "Oracle Corporation",
+        "Robin Hood Foundation",
+        "The Washington Post"
+      ]
+    },
+    "NVIDIA": {
+      "name": "NVIDIA",
+      "description": "Semiconductor and AI computing company that Huang co-founded and leads as CEO, now central to global AI infrastructure and the dominant supplier of GPU accelerators.",
+      "elo": 1577.4639274752376,
+      "wins": 7,
+      "losses": 2,
+      "matches": 9,
+      "neurons": [
+        "Jensen Huang"
+      ],
+      "played_against": [
+        "Apollo Global Management",
+        "Blackstone",
+        "Danaher Corporation",
+        "Judicial Conference of the United States",
+        "Mars, Incorporated",
+        "Oracle Corporation",
+        "Senate Appropriations Committee",
+        "Senate Republican Conference",
+        "Supreme Court of the United States",
+        "US House of Representatives"
+      ]
+    },
+    "Tudor Investment Corp": {
+      "name": "Tudor Investment Corp",
+      "description": "Global macro hedge fund founded and led by Jones, serving as his primary vehicle for financial market influence and capital allocation.",
+      "elo": 1485.2842561980556,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Paul Tudor Jones, II."
+      ],
+      "played_against": [
+        "Advance Publications",
+        "Blackstone",
+        "Danaher Corporation",
+        "Epic Systems",
+        "Geffen Records",
+        "Judicial Conference of the United States",
+        "Mars, Incorporated",
+        "Omidyar Network",
+        "Pershing Square Capital Management",
+        "Robin Hood Foundation"
+      ]
+    },
+    "Robin Hood Foundation": {
+      "name": "Robin Hood Foundation",
+      "description": "Major New York-based anti-poverty nonprofit that Jones co-founded, functioning as his principal philanthropic and civic influence platform.",
+      "elo": 1485.8393254134683,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Paul Tudor Jones, II."
+      ],
+      "played_against": [
+        "Apollo Global Management",
+        "Blackstone",
+        "Danaher Corporation",
+        "David Geffen Foundation",
+        "Glenstone Foundation",
+        "Republican Governors Association",
+        "Tepper Sports & Entertainment",
+        "The Washington Post",
+        "Tudor Investment Corp",
+        "eBay"
+      ]
+    },
+    "Judicial Conference of the United States": {
+      "name": "Judicial Conference of the United States",
+      "description": "The principal policy-making body for the federal court system, which Roberts chairs by statute, setting rules and administrative standards for all federal courts.",
+      "elo": 1564.6098896789706,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "John G. Roberts Jr."
+      ],
+      "played_against": [
+        "Advance Publications",
+        "Alphabet Inc.",
+        "Bloomberg L.P.",
+        "Danaher Corporation",
+        "Mars, Incorporated",
+        "NVIDIA",
+        "Senate Appropriations Committee",
+        "Trump Organization",
+        "Tudor Investment Corp",
+        "eBay"
+      ]
+    },
+    "Danaher Corporation": {
+      "name": "Danaher Corporation",
+      "description": "Industrial and life sciences conglomerate that Rales co-founded and helped build through decades of acquisitions, remaining a key architect of its strategic direction.",
+      "elo": 1501.953411871992,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Mitchell Rales"
+      ],
+      "played_against": [
+        "Citadel Securities",
+        "Emerson Collective",
+        "Federalist Society",
+        "Geffen Records",
+        "Judicial Conference of the United States",
+        "NVIDIA",
+        "Robin Hood Foundation",
+        "Trump Organization",
+        "Tudor Investment Corp",
+        "eBay"
+      ]
+    },
+    "Glenstone Foundation": {
+      "name": "Glenstone Foundation",
+      "description": "Private contemporary art museum and foundation in Potomac, Maryland, that Rales established as a significant cultural and philanthropic institution.",
+      "elo": 1409.1361360676874,
+      "wins": 2,
+      "losses": 8,
+      "matches": 10,
+      "neurons": [
+        "Mitchell Rales"
+      ],
+      "played_against": [
+        "Airbnb",
+        "Apollo Global Management",
+        "Bridgewater Associates",
+        "Buffalo Sabres",
+        "Geffen Records",
+        "Helion Energy",
+        "Mars, Incorporated",
+        "Robin Hood Foundation",
+        "Tepper Sports & Entertainment",
+        "YAM Worldwide"
+      ]
+    },
+    "Mars, Incorporated": {
+      "name": "Mars, Incorporated",
+      "description": "The privately held global food and confectionery conglomerate (Snickers, Pedigree, Wrigley) that John Mars co-owns and has shaped as a principal family heir.",
+      "elo": 1486.0442936335387,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "John Mars",
+        "Marijke Mars",
+        "Victoria Mars"
+      ],
+      "played_against": [
+        "Citadel Securities",
+        "Epic Systems",
+        "Geffen Records",
+        "Glenstone Foundation",
+        "Judicial Conference of the United States",
+        "NVIDIA",
+        "Point72 Asset Management",
+        "Senate Appropriations Committee",
+        "Trump Organization",
+        "Tudor Investment Corp"
+      ]
+    },
+    "Senate Appropriations Committee": {
+      "name": "Senate Appropriations Committee",
+      "description": "The powerful Senate committee Collins chairs, controlling the allocation of federal discretionary spending.",
+      "elo": 1564.6141755944634,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Patty Murray",
+        "Susan M. Collins"
+      ],
+      "played_against": [
+        "Alphabet Inc.",
+        "Bloomberg L.P.",
+        "Department of Defense",
+        "Geffen Records",
+        "Government of Florida",
+        "Judicial Conference of the United States",
+        "Mars, Incorporated",
+        "Meta Platforms",
+        "NVIDIA",
+        "Republican National Committee"
+      ]
+    },
+    "Geffen Records": {
+      "name": "Geffen Records",
+      "description": "The influential music label Geffen founded, which defined his legacy as a major force in the American entertainment industry.",
+      "elo": 1440.035063169644,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "David Geffen"
+      ],
+      "played_against": [
+        "Airbnb",
+        "Buffalo Bills",
+        "Danaher Corporation",
+        "David Geffen Foundation",
+        "Glenstone Foundation",
+        "House Democratic Caucus",
+        "Mars, Incorporated",
+        "Republican Governors Association",
+        "Senate Appropriations Committee",
+        "Tudor Investment Corp"
+      ]
+    },
+    "David Geffen Foundation": {
+      "name": "David Geffen Foundation",
+      "description": "His primary philanthropic vehicle, directing hundreds of millions toward arts, health, and education causes.",
+      "elo": 1404.083019594094,
+      "wins": 2,
+      "losses": 8,
+      "matches": 10,
+      "neurons": [
+        "David Geffen"
+      ],
+      "played_against": [
+        "Chelsea FC",
+        "Clarity Media Group",
+        "Geffen Records",
+        "GoDaddy",
+        "Omidyar Network",
+        "Pershing Square Foundation",
+        "Premiere Networks",
+        "Robin Hood Foundation",
+        "YAM Worldwide",
+        "eBay"
+      ]
+    },
+    "eBay": {
+      "name": "eBay",
+      "description": "The e-commerce marketplace Omidyar founded, the source of his fortune and his original organizational footprint.",
+      "elo": 1437.433706403333,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Pierre Omidyar"
+      ],
+      "played_against": [
+        "Alphabet Inc.",
+        "Danaher Corporation",
+        "David Geffen Foundation",
+        "Federalist Society",
+        "GoDaddy",
+        "Judicial Conference of the United States",
+        "Omidyar Network",
+        "Pershing Square Foundation",
+        "Republican Governors Association",
+        "Robin Hood Foundation"
+      ]
+    },
+    "Omidyar Network": {
+      "name": "Omidyar Network",
+      "description": "His philanthropic investment firm that funds democracy, journalism, and technology initiatives globally.",
+      "elo": 1468.0593353471452,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Pierre Omidyar"
+      ],
+      "played_against": [
+        "Advance Publications",
+        "David Geffen Foundation",
+        "Emerson Collective",
+        "Everytown for Gun Safety",
+        "GoDaddy",
+        "Pershing Square Foundation",
+        "Premiere Networks",
+        "The Atlantic",
+        "Tudor Investment Corp",
+        "eBay"
+      ]
+    },
+    "GoDaddy": {
+      "name": "GoDaddy",
+      "description": "The domain registrar and web-hosting company Parsons founded, which made him a billionaire and remains his signature enterprise.",
+      "elo": 1436.0,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Bob Parsons"
+      ],
+      "played_against": [
+        "Advance Publications",
+        "Charles and Lynn Schusterman Family Philanthropies",
+        "David Geffen Foundation",
+        "Emerson Collective",
+        "Harris Blitzer Sports & Entertainment",
+        "Omidyar Network",
+        "Pershing Square Foundation",
+        "Restoration PAC",
+        "The Atlantic",
+        "eBay"
+      ]
+    },
+    "YAM Worldwide": {
+      "name": "YAM Worldwide",
+      "description": "His holding company for post-GoDaddy ventures spanning real estate, motorsports, and other investments.",
+      "elo": 1374.768216659066,
+      "wins": 1,
+      "losses": 9,
+      "matches": 10,
+      "neurons": [
+        "Bob Parsons"
+      ],
+      "played_against": [
+        "Alphabet Inc.",
+        "Boston Bruins",
+        "Buffalo Sabres",
+        "David Geffen Foundation",
+        "Emerson Collective",
+        "Glenstone Foundation",
+        "Pershing Square Foundation",
+        "REFORM Alliance",
+        "Tepper Sports & Entertainment",
+        "Time"
+      ]
+    },
+    "Alphabet Inc.": {
+      "name": "Alphabet Inc.",
+      "description": "The parent holding company Page co-founded and led, encompassing Google and all subsidiary ventures as its apex organizational structure.",
+      "elo": 1565.4650840353095,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Larry Page",
+        "Sergey Brin",
+        "Sundar Pichai"
+      ],
+      "played_against": [
+        "Advance Publications",
+        "Citadel Securities",
+        "Department of Defense",
+        "Fox Corporation",
+        "Judicial Conference of the United States",
+        "Senate Appropriations Committee",
+        "Supreme Court of the United States",
+        "Trump White House",
+        "YAM Worldwide",
+        "eBay"
+      ]
+    },
+    "Advance Publications": {
+      "name": "Advance Publications",
+      "description": "The privately held media conglomerate Newhouse controls, owning Condé Nast, a portfolio of newspapers, and major cable interests.",
+      "elo": 1532.0548702655838,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Donald Newhouse"
+      ],
+      "played_against": [
+        "Alphabet Inc.",
+        "Bloomberg L.P.",
+        "Bloomberg Philanthropies",
+        "Emerson Collective",
+        "GoDaddy",
+        "Judicial Conference of the United States",
+        "Omidyar Network",
+        "Pershing Square Capital Management",
+        "Trump Organization",
+        "Tudor Investment Corp"
+      ]
+    },
+    "Emerson Collective": {
+      "name": "Emerson Collective",
+      "description": "Her hybrid LLC/philanthropic organization that is her primary vehicle for investments and advocacy in education, immigration, and media.",
+      "elo": 1484.0,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Laurene Powell Jobs"
+      ],
+      "played_against": [
+        "Advance Publications",
+        "Bloomberg Philanthropies",
+        "Danaher Corporation",
+        "GoDaddy",
+        "Omidyar Network",
+        "Republican National Committee",
+        "The Atlantic",
+        "Trump Organization",
+        "Uline",
+        "YAM Worldwide"
+      ]
+    },
+    "The Atlantic": {
+      "name": "The Atlantic",
+      "description": "The storied American magazine in which Powell Jobs holds a majority ownership stake, giving her direct influence over a major media institution.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Laurene Powell Jobs"
+      ],
+      "played_against": [
+        "Emerson Collective",
+        "GoDaddy",
+        "Omidyar Network",
+        "Pershing Square Capital Management",
+        "Pershing Square Foundation",
+        "Pivotal Ventures",
+        "Restoration PAC",
+        "Trump Organization",
+        "Trump White House",
+        "Uline"
+      ]
+    },
+    "Trump White House": {
+      "name": "Trump White House",
+      "description": "The executive office of the US presidency that Trump currently occupies, representing the apex of his governmental power.",
+      "elo": 1655.8434509522622,
+      "wins": 10,
+      "losses": 0,
+      "matches": 10,
+      "neurons": [
+        "Donald Trump",
+        "Susie Wiles"
+      ],
+      "played_against": [
+        "Alphabet Inc.",
+        "Bloomberg L.P.",
+        "Department of Defense",
+        "Federal Reserve",
+        "Government of Florida",
+        "Meta Platforms",
+        "Republican National Committee",
+        "Supreme Court of the United States",
+        "The Atlantic",
+        "US Senate"
+      ]
+    },
+    "Trump Organization": {
+      "name": "Trump Organization",
+      "description": "His privately held real estate and branding conglomerate that constitutes his primary business identity and financial base.",
+      "elo": 1500.0294361140423,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Donald Trump"
+      ],
+      "played_against": [
+        "Advance Publications",
+        "Danaher Corporation",
+        "Emerson Collective",
+        "Everytown for Gun Safety",
+        "Judicial Conference of the United States",
+        "Mars, Incorporated",
+        "News Corp",
+        "Pershing Square Capital Management",
+        "Republican National Committee",
+        "The Atlantic"
+      ]
+    },
+    "Republican National Committee": {
+      "name": "Republican National Committee",
+      "description": "The national party apparatus that Trump has effectively reshaped in his image and that serves as the organizational backbone of his political movement.",
+      "elo": 1564.0661884982403,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Donald Trump"
+      ],
+      "played_against": [
+        "Bloomberg L.P.",
+        "Bloomberg Philanthropies",
+        "Emerson Collective",
+        "Fox Corporation",
+        "KKR & Co.",
+        "Meta Platforms",
+        "Senate Appropriations Committee",
+        "Trump Organization",
+        "Trump White House",
+        "Uline"
+      ]
+    },
+    "Pershing Square Capital Management": {
+      "name": "Pershing Square Capital Management",
+      "description": "Ackman's activist hedge fund and primary vehicle for his high-profile public market investments and corporate influence campaigns.",
+      "elo": 1484.702537688995,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "William Ackman"
+      ],
+      "played_against": [
+        "Advance Publications",
+        "Bloomberg L.P.",
+        "Bloomberg Philanthropies",
+        "Charles and Lynn Schusterman Family Philanthropies",
+        "Everytown for Gun Safety",
+        "Federalist Society",
+        "Pershing Square Foundation",
+        "The Atlantic",
+        "Trump Organization",
+        "Tudor Investment Corp"
+      ]
+    },
+    "Pershing Square Foundation": {
+      "name": "Pershing Square Foundation",
+      "description": "His philanthropic arm funding education, public health, and civic initiatives, extending his influence beyond finance.",
+      "elo": 1404.000193473856,
+      "wins": 2,
+      "losses": 8,
+      "matches": 10,
+      "neurons": [
+        "William Ackman"
+      ],
+      "played_against": [
+        "Bloomberg Philanthropies",
+        "Builders Vision",
+        "David Geffen Foundation",
+        "GoDaddy",
+        "Omidyar Network",
+        "Pershing Square Capital Management",
+        "Premiere Networks",
+        "The Atlantic",
+        "YAM Worldwide",
+        "eBay"
+      ]
+    },
+    "Bloomberg L.P.": {
+      "name": "Bloomberg L.P.",
+      "description": "The financial data and media empire Bloomberg founded and controls, the primary source of his wealth and global business influence.",
+      "elo": 1532.0320849728012,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Michael Bloomberg"
+      ],
+      "played_against": [
+        "Advance Publications",
+        "Appaloosa Management",
+        "Bloomberg Philanthropies",
+        "Judicial Conference of the United States",
+        "Pershing Square Capital Management",
+        "Republican National Committee",
+        "Senate Appropriations Committee",
+        "Senate Judiciary Committee",
+        "Trump White House",
+        "Uline"
+      ]
+    },
+    "Bloomberg Philanthropies": {
+      "name": "Bloomberg Philanthropies",
+      "description": "His philanthropic organization directing billions toward public health, climate, arts, and government innovation globally.",
+      "elo": 1500.0026488532894,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Michael Bloomberg"
+      ],
+      "played_against": [
+        "Advance Publications",
+        "Bloomberg L.P.",
+        "Emerson Collective",
+        "Everytown for Gun Safety",
+        "Harris Blitzer Sports & Entertainment",
+        "News Corp",
+        "Pershing Square Capital Management",
+        "Pershing Square Foundation",
+        "Republican National Committee",
+        "Restoration PAC"
+      ]
+    },
+    "Everytown for Gun Safety": {
+      "name": "Everytown for Gun Safety",
+      "description": "The gun-control advocacy organization Bloomberg funds and champions, his primary vehicle for political influence on firearms policy.",
+      "elo": 1500.0,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Michael Bloomberg"
+      ],
+      "played_against": [
+        "Appaloosa Management",
+        "Bloomberg Philanthropies",
+        "Charles and Lynn Schusterman Family Philanthropies",
+        "Interactive Brokers",
+        "Omidyar Network",
+        "Pershing Square Capital Management",
+        "Restoration PAC",
+        "Senate Judiciary Committee",
+        "Trump Organization",
+        "Uline"
+      ]
+    },
+    "Uline": {
+      "name": "Uline",
+      "description": "The privately held industrial packaging and shipping supply company Uihlein co-owns and runs, the source of his wealth and business identity.",
+      "elo": 1484.0,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Richard Uihlein"
+      ],
+      "played_against": [
+        "Appaloosa Management",
+        "Bloomberg L.P.",
+        "Emerson Collective",
+        "Everytown for Gun Safety",
+        "Government of Florida",
+        "Harris Blitzer Sports & Entertainment",
+        "Interactive Brokers",
+        "Republican National Committee",
+        "Senate Judiciary Committee",
+        "The Atlantic"
+      ]
+    },
+    "Restoration PAC": {
+      "name": "Restoration PAC",
+      "description": "The conservative super PAC he funds as one of the Republican Party's largest individual donors, channeling his political influence into elections and causes.",
+      "elo": 1500.0,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Richard Uihlein"
+      ],
+      "played_against": [
+        "Bloomberg Philanthropies",
+        "Charles and Lynn Schusterman Family Philanthropies",
+        "Everytown for Gun Safety",
+        "GoDaddy",
+        "Harris Blitzer Sports & Entertainment",
+        "Interactive Brokers",
+        "Premiere Networks",
+        "Senate Judiciary Committee",
+        "Tepper Sports & Entertainment",
+        "The Atlantic"
+      ]
+    },
+    "Senate Judiciary Committee": {
+      "name": "Senate Judiciary Committee",
+      "description": "The committee central to Hawley's legislative identity, where he exercises significant influence on judicial nominations and constitutional issues.",
+      "elo": 1484.059063062984,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Chuck Grassley",
+        "Josh Hawley",
+        "Lindsey Graham"
+      ],
+      "played_against": [
+        "Appaloosa Management",
+        "Bill & Melinda Gates Foundation",
+        "Bloomberg L.P.",
+        "Citadel LLC",
+        "Everytown for Gun Safety",
+        "Government of Florida",
+        "News Corp",
+        "Pivotal Ventures",
+        "Restoration PAC",
+        "Uline"
+      ]
+    },
+    "Charles and Lynn Schusterman Family Philanthropies": {
+      "name": "Charles and Lynn Schusterman Family Philanthropies",
+      "description": "The family's primary philanthropic organization directing major funding toward Jewish identity, Israel, and education initiatives in the US and globally.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Lynn Schusterman & family"
+      ],
+      "played_against": [
+        "Anschutz Entertainment Group (AEG)",
+        "Appaloosa Management",
+        "Clarity Media Group",
+        "Everytown for Gun Safety",
+        "GoDaddy",
+        "Harris Blitzer Sports & Entertainment",
+        "Interactive Brokers",
+        "Pershing Square Capital Management",
+        "Premiere Networks",
+        "Restoration PAC"
+      ]
+    },
+    "Harris Blitzer Sports & Entertainment": {
+      "name": "Harris Blitzer Sports & Entertainment",
+      "description": "His sports ownership group controlling the Philadelphia 76ers and New Jersey Devils, extending his influence into media and entertainment.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Josh Harris"
+      ],
+      "played_against": [
+        "Appaloosa Management",
+        "Bloomberg Philanthropies",
+        "Charles and Lynn Schusterman Family Philanthropies",
+        "Clarity Media Group",
+        "GoDaddy",
+        "Government of Florida",
+        "Pivotal Ventures",
+        "Premiere Networks",
+        "Restoration PAC",
+        "Uline"
+      ]
+    },
+    "Government of Florida": {
+      "name": "Government of Florida",
+      "description": "The state executive apparatus DeSantis leads as governor, his primary institutional base of political and administrative power.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Ron DeSantis"
+      ],
+      "played_against": [
+        "AMD",
+        "Appaloosa Management",
+        "Fox Corporation",
+        "Harris Blitzer Sports & Entertainment",
+        "News Corp",
+        "Senate Appropriations Committee",
+        "Senate Judiciary Committee",
+        "The Carlyle Group",
+        "Trump White House",
+        "Uline"
+      ]
+    },
+    "Appaloosa Management": {
+      "name": "Appaloosa Management",
+      "description": "Tepper's hedge fund and primary vehicle for his market-moving investment activity and accumulation of wealth.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "David Tepper"
+      ],
+      "played_against": [
+        "AMD",
+        "Anschutz Entertainment Group (AEG)",
+        "Bloomberg L.P.",
+        "Charles and Lynn Schusterman Family Philanthropies",
+        "Everytown for Gun Safety",
+        "Government of Florida",
+        "Harris Blitzer Sports & Entertainment",
+        "Pivotal Ventures",
+        "Senate Judiciary Committee",
+        "Uline"
+      ]
+    },
+    "Tepper Sports & Entertainment": {
+      "name": "Tepper Sports & Entertainment",
+      "description": "His sports ownership entity controlling the Carolina Panthers and Charlotte FC, representing his influence in professional sports and regional media.",
+      "elo": 1436.9603157968306,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "David Tepper"
+      ],
+      "played_against": [
+        "Boston Bruins",
+        "Fox Corporation",
+        "Glenstone Foundation",
+        "Interactive Brokers",
+        "Pivotal Ventures",
+        "Premiere Networks",
+        "Republican Jewish Coalition",
+        "Restoration PAC",
+        "Robin Hood Foundation",
+        "YAM Worldwide"
+      ]
+    },
+    "Fox Corporation": {
+      "name": "Fox Corporation",
+      "description": "The publicly traded media company controlling Fox News and Fox Broadcasting, the Murdoch family's dominant vehicle for US political and cultural influence.",
+      "elo": 1564.0,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Rupert Murdoch & family",
+        "Sean Hannity"
+      ],
+      "played_against": [
+        "AMD",
+        "Alphabet Inc.",
+        "Bill & Melinda Gates Foundation",
+        "Department of Defense",
+        "Government of Florida",
+        "KKR & Co.",
+        "News Corp",
+        "Republican National Committee",
+        "Senate Democratic Caucus",
+        "Tepper Sports & Entertainment"
+      ]
+    },
+    "News Corp": {
+      "name": "News Corp",
+      "description": "The separately traded Murdoch-controlled conglomerate encompassing The Wall Street Journal, HarperCollins, and global news properties.",
+      "elo": 1532.001421023704,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Rupert Murdoch & family"
+      ],
+      "played_against": [
+        "AMD",
+        "Bill & Melinda Gates Foundation",
+        "Bloomberg Philanthropies",
+        "Fox Corporation",
+        "Government of Florida",
+        "Interactive Brokers",
+        "Premiere Networks",
+        "Senate Democratic Caucus",
+        "Senate Judiciary Committee",
+        "Trump Organization"
+      ]
+    },
+    "Premiere Networks": {
+      "name": "Premiere Networks",
+      "description": "The syndication company distributing Hannity's nationally syndicated radio show, extending his reach beyond television to tens of millions of radio listeners.",
+      "elo": 1436.006862822011,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Sean Hannity"
+      ],
+      "played_against": [
+        "AMD",
+        "Builders Vision",
+        "Charles and Lynn Schusterman Family Philanthropies",
+        "David Geffen Foundation",
+        "Harris Blitzer Sports & Entertainment",
+        "News Corp",
+        "Omidyar Network",
+        "Pershing Square Foundation",
+        "Restoration PAC",
+        "Tepper Sports & Entertainment"
+      ]
+    },
+    "Interactive Brokers": {
+      "name": "Interactive Brokers",
+      "description": "The publicly traded electronic brokerage firm Peterffy founded and chairs, through which he holds the majority of his wealth and influence in US financial markets.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Thomas Peterffy"
+      ],
+      "played_against": [
+        "AMD",
+        "Anschutz Corporation",
+        "Charles and Lynn Schusterman Family Philanthropies",
+        "Council on Foreign Relations",
+        "Everytown for Gun Safety",
+        "News Corp",
+        "Pivotal Ventures",
+        "Restoration PAC",
+        "Tepper Sports & Entertainment",
+        "Uline"
+      ]
+    },
+    "AMD": {
+      "name": "AMD",
+      "description": "Advanced Micro Devices, the semiconductor company Su chairs and leads as CEO, driving its competitive position in CPUs and GPUs against Intel and NVIDIA.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Lisa Su"
+      ],
+      "played_against": [
+        "Appaloosa Management",
+        "Bill & Melinda Gates Foundation",
+        "Chan Zuckerberg Initiative",
+        "Fox Corporation",
+        "Government of Florida",
+        "Interactive Brokers",
+        "Marble Freedom Trust",
+        "News Corp",
+        "Premiere Networks",
+        "Senate Democratic Caucus"
+      ]
+    },
+    "Pivotal Ventures": {
+      "name": "Pivotal Ventures",
+      "description": "Her independent investment and incubation company focused on social progress initiatives, operating separately from the Gates Foundation after her departure.",
+      "elo": 1436.0,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Melinda French Gates"
+      ],
+      "played_against": [
+        "Anschutz Entertainment Group (AEG)",
+        "Appaloosa Management",
+        "Bill & Melinda Gates Foundation",
+        "Builders Vision",
+        "Chan Zuckerberg Initiative",
+        "Harris Blitzer Sports & Entertainment",
+        "Interactive Brokers",
+        "Senate Judiciary Committee",
+        "Tepper Sports & Entertainment",
+        "The Atlantic"
+      ]
+    },
+    "Bill & Melinda Gates Foundation": {
+      "name": "Bill & Melinda Gates Foundation",
+      "description": "The world's largest private charitable foundation, which she co-founded and continues to be associated with as a major force in global health and development funding.",
+      "elo": 1516.0,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Bill Gates",
+        "Melinda French Gates"
+      ],
+      "played_against": [
+        "AMD",
+        "Anschutz Corporation",
+        "Council on Foreign Relations",
+        "Fox Corporation",
+        "KKR & Co.",
+        "News Corp",
+        "Pivotal Ventures",
+        "Senate Democratic Caucus",
+        "Senate Judiciary Committee",
+        "The Carlyle Group"
+      ]
+    },
+    "Anschutz Corporation": {
+      "name": "Anschutz Corporation",
+      "description": "The private holding company through which Anschutz controls his diversified empire spanning energy, entertainment, sports, and media assets.",
+      "elo": 1484.0,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Philip Anschutz"
+      ],
+      "played_against": [
+        "Anschutz Entertainment Group (AEG)",
+        "Bill & Melinda Gates Foundation",
+        "CRC Advisors",
+        "Chan Zuckerberg Initiative",
+        "Clarity Media Group",
+        "Council on Foreign Relations",
+        "Interactive Brokers",
+        "Meta Platforms",
+        "Senate Democratic Caucus",
+        "Walton Family Foundation"
+      ]
+    },
+    "Anschutz Entertainment Group (AEG)": {
+      "name": "Anschutz Entertainment Group (AEG)",
+      "description": "The major live entertainment and venue management company owned by Anschutz, one of the largest concert promotion and sports facility operators in the world.",
+      "elo": 1500.0,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Philip Anschutz"
+      ],
+      "played_against": [
+        "Anschutz Corporation",
+        "Appaloosa Management",
+        "Chan Zuckerberg Initiative",
+        "Charles and Lynn Schusterman Family Philanthropies",
+        "Clarity Media Group",
+        "Pivotal Ventures",
+        "Related Companies",
+        "Senate Banking, Housing, and Urban Affairs Committee",
+        "The Carlyle Group",
+        "Walton Family Foundation"
+      ]
+    },
+    "Clarity Media Group": {
+      "name": "Clarity Media Group",
+      "description": "Anschutz's conservative media holding company, owner of outlets including The Weekly Standard's successor properties and regional newspapers.",
+      "elo": 1436.0040077575686,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Philip Anschutz"
+      ],
+      "played_against": [
+        "Anschutz Corporation",
+        "Anschutz Entertainment Group (AEG)",
+        "Builders Vision",
+        "Chan Zuckerberg Initiative",
+        "Charles and Lynn Schusterman Family Philanthropies",
+        "David Geffen Foundation",
+        "Harris Blitzer Sports & Entertainment",
+        "Miami Dolphins",
+        "REFORM Alliance",
+        "Senate Democratic Caucus"
+      ]
+    },
+    "Senate Democratic Caucus": {
+      "name": "Senate Democratic Caucus",
+      "description": "The coordinating body for all Senate Democrats, in which Durbin has held senior leadership roles including Assistant Majority Leader.",
+      "elo": 1516.0,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Charles E. Schumer",
+        "Richard J. Durbin"
+      ],
+      "played_against": [
+        "AMD",
+        "Anschutz Corporation",
+        "Bill & Melinda Gates Foundation",
+        "Clarity Media Group",
+        "Council on Foreign Relations",
+        "Department of Defense",
+        "Fox Corporation",
+        "Meta Platforms",
+        "News Corp",
+        "Walton Family Foundation"
+      ]
+    },
+    "Meta Platforms": {
+      "name": "Meta Platforms",
+      "description": "The parent company of Facebook, Instagram, and WhatsApp, which Zuckerberg co-founded and controls as chairman and CEO, making it the dominant social media conglomerate in the US.",
+      "elo": 1597.3710846780232,
+      "wins": 8,
+      "losses": 2,
+      "matches": 10,
+      "neurons": [
+        "Mark Zuckerberg"
+      ],
+      "played_against": [
+        "Anschutz Corporation",
+        "Chan Zuckerberg Initiative",
+        "Department of Defense",
+        "KKR & Co.",
+        "Republican National Committee",
+        "Senate Appropriations Committee",
+        "Senate Democratic Caucus",
+        "SpaceX",
+        "The Carlyle Group",
+        "Trump White House"
+      ]
+    },
+    "Chan Zuckerberg Initiative": {
+      "name": "Chan Zuckerberg Initiative",
+      "description": "The philanthropic LLC co-founded by Zuckerberg and Priscilla Chan to advance education, science, and justice reform through investments and grants.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Mark Zuckerberg"
+      ],
+      "played_against": [
+        "AMD",
+        "Anschutz Corporation",
+        "Anschutz Entertainment Group (AEG)",
+        "Clarity Media Group",
+        "Council on Foreign Relations",
+        "Meta Platforms",
+        "Pivotal Ventures",
+        "Senate Banking, Housing, and Urban Affairs Committee",
+        "The Carlyle Group",
+        "Walton Family Foundation"
+      ]
+    },
+    "Department of Defense": {
+      "name": "Department of Defense",
+      "description": "The executive cabinet department responsible for the US military and national defense, which Hegseth leads as Secretary of Defense under President Trump.",
+      "elo": 1596.0296491932359,
+      "wins": 8,
+      "losses": 2,
+      "matches": 10,
+      "neurons": [
+        "Pete Hegseth"
+      ],
+      "played_against": [
+        "Alphabet / Google",
+        "Alphabet Inc.",
+        "Federal Reserve",
+        "Fox Corporation",
+        "Meta Platforms",
+        "Senate Appropriations Committee",
+        "Senate Democratic Caucus",
+        "SpaceX",
+        "The Carlyle Group",
+        "Trump White House"
+      ]
+    },
+    "The Carlyle Group": {
+      "name": "The Carlyle Group",
+      "description": "Global private equity firm Rubenstein co-founded and built into one of the world's largest alternative asset managers.",
+      "elo": 1564.0,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "David Rubenstein"
+      ],
+      "played_against": [
+        "Anschutz Entertainment Group (AEG)",
+        "Bill & Melinda Gates Foundation",
+        "Chan Zuckerberg Initiative",
+        "Council on Foreign Relations",
+        "Department of Defense",
+        "Government of Florida",
+        "KKR & Co.",
+        "Marble Freedom Trust",
+        "Meta Platforms",
+        "Walton Family Foundation"
+      ]
+    },
+    "Council on Foreign Relations": {
+      "name": "Council on Foreign Relations",
+      "description": "Preeminent US foreign policy think tank where Rubenstein serves as co-chairman, shaping elite consensus on international affairs.",
+      "elo": 1484.0,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "David Rubenstein",
+        "Henry Kravis"
+      ],
+      "played_against": [
+        "Anschutz Corporation",
+        "Bill & Melinda Gates Foundation",
+        "Builders Vision",
+        "Chan Zuckerberg Initiative",
+        "Interactive Brokers",
+        "KKR & Co.",
+        "Senate Banking, Housing, and Urban Affairs Committee",
+        "Senate Democratic Caucus",
+        "The Carlyle Group",
+        "Walton Family Foundation"
+      ]
+    },
+    "KKR & Co.": {
+      "name": "KKR & Co.",
+      "description": "Global investment firm Kravis co-founded that pioneered leveraged buyouts and manages hundreds of billions in alternative assets.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "George Roberts",
+        "Henry Kravis"
+      ],
+      "played_against": [
+        "Bill & Melinda Gates Foundation",
+        "Council on Foreign Relations",
+        "Fox Corporation",
+        "Meta Platforms",
+        "Palantir Technologies",
+        "Republican National Committee",
+        "SpaceX",
+        "The Carlyle Group",
+        "Walton Family Foundation",
+        "X Corp"
+      ]
+    },
+    "Builders Vision": {
+      "name": "Builders Vision",
+      "description": "Walton's impact investment and philanthropy platform directing his inherited Walmart wealth toward sustainable food, energy, and ocean systems.",
+      "elo": 1436.0000093399194,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Lukas Walton"
+      ],
+      "played_against": [
+        "Clarity Media Group",
+        "Club for Growth",
+        "Council on Foreign Relations",
+        "Fanatics",
+        "Miami Dolphins",
+        "Pershing Square Foundation",
+        "Pivotal Ventures",
+        "Premiere Networks",
+        "Senate Banking, Housing, and Urban Affairs Committee",
+        "Walton Family Foundation"
+      ]
+    },
+    "Walton Family Foundation": {
+      "name": "Walton Family Foundation",
+      "description": "The primary philanthropic vehicle of the Walton family, funding education reform, conservation, and community development at scale.",
+      "elo": 1484.0,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Christy Walton",
+        "Lukas Walton",
+        "Rob Walton & family"
+      ],
+      "played_against": [
+        "Anschutz Corporation",
+        "Anschutz Entertainment Group (AEG)",
+        "Builders Vision",
+        "Chan Zuckerberg Initiative",
+        "Council on Foreign Relations",
+        "Department of Government Efficiency (DOGE)",
+        "KKR & Co.",
+        "Marble Freedom Trust",
+        "Senate Democratic Caucus",
+        "The Carlyle Group"
+      ]
+    },
+    "Senate Banking, Housing, and Urban Affairs Committee": {
+      "name": "Senate Banking, Housing, and Urban Affairs Committee",
+      "description": "The Senate committee central to Lummis's power as the leading congressional voice on cryptocurrency and digital asset regulation.",
+      "elo": 1500.0,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Cynthia M. Lummis"
+      ],
+      "played_against": [
+        "Anschutz Entertainment Group (AEG)",
+        "Builders Vision",
+        "CRC Advisors",
+        "Chan Zuckerberg Initiative",
+        "Club for Growth",
+        "Council on Foreign Relations",
+        "Marble Freedom Trust",
+        "Miami Dolphins",
+        "Related Companies",
+        "The Wonderful Company"
+      ]
+    },
+    "Marble Freedom Trust": {
+      "name": "Marble Freedom Trust",
+      "description": "Leo's flagship dark-money vehicle, receiving and deploying hundreds of millions of dollars to advance conservative legal and political causes.",
+      "elo": 1500.0,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Leonard Leo"
+      ],
+      "played_against": [
+        "AMD",
+        "Americans for Prosperity",
+        "CRC Advisors",
+        "Department of Government Efficiency (DOGE)",
+        "Palantir Technologies",
+        "Senate Banking, Housing, and Urban Affairs Committee",
+        "The Carlyle Group",
+        "The Wonderful Company",
+        "Walton Family Foundation",
+        "X Corp"
+      ]
+    },
+    "CRC Advisors": {
+      "name": "CRC Advisors",
+      "description": "Leo's consulting and strategy firm that coordinates funding flows and campaign infrastructure across his broader network of conservative organizations.",
+      "elo": 1516.0,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Leonard Leo"
+      ],
+      "played_against": [
+        "Americans for Prosperity",
+        "Anschutz Corporation",
+        "Koch Industries",
+        "Marble Freedom Trust",
+        "Palantir Technologies",
+        "Related Companies",
+        "Senate Banking, Housing, and Urban Affairs Committee",
+        "Susquehanna International Group (SIG)",
+        "The Wonderful Company",
+        "xAI"
+      ]
+    },
+    "Palantir Technologies": {
+      "name": "Palantir Technologies",
+      "description": "The data analytics and AI company Karp co-founded and leads as CEO, whose platforms serve US intelligence agencies, the military, and allied governments.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Alex Karp",
+        "Alexander Karp",
+        "Peter Thiel"
+      ],
+      "played_against": [
+        "Alphabet / Google",
+        "Americans for Prosperity",
+        "CRC Advisors",
+        "Department of Government Efficiency (DOGE)",
+        "KKR & Co.",
+        "Koch Industries",
+        "Marble Freedom Trust",
+        "SpaceX",
+        "The Wonderful Company",
+        "X Corp"
+      ]
+    },
+    "Related Companies": {
+      "name": "Related Companies",
+      "description": "The major real estate development firm Ross founded and chairs, responsible for large-scale projects including Hudson Yards in New York City.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Stephen Ross"
+      ],
+      "played_against": [
+        "Anschutz Entertainment Group (AEG)",
+        "CRC Advisors",
+        "Club for Growth",
+        "Department of Government Efficiency (DOGE)",
+        "Fanatics",
+        "Miami Dolphins",
+        "Senate Banking, Housing, and Urban Affairs Committee",
+        "Special Competitive Studies Project (SCSP)",
+        "The Wonderful Company",
+        "xAI"
+      ]
+    },
+    "Miami Dolphins": {
+      "name": "Miami Dolphins",
+      "description": "The NFL franchise Ross owns, giving him a prominent platform in professional sports and the broader South Florida business ecosystem.",
+      "elo": 1436.0,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Stephen Ross"
+      ],
+      "played_against": [
+        "Builders Vision",
+        "Clarity Media Group",
+        "Club for Growth",
+        "NYU Langone Health",
+        "REFORM Alliance",
+        "Related Companies",
+        "Senate Banking, Housing, and Urban Affairs Committee",
+        "Sierra",
+        "The Wonderful Company",
+        "xAI"
+      ]
+    },
+    "The Wonderful Company": {
+      "name": "The Wonderful Company",
+      "description": "The privately held agricultural and consumer goods conglomerate Resnick controls, making him the largest landowner of irrigated farmland in the United States.",
+      "elo": 1500.0,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Lynda Resnick",
+        "Stewart Resnick"
+      ],
+      "played_against": [
+        "CRC Advisors",
+        "Department of Government Efficiency (DOGE)",
+        "Marble Freedom Trust",
+        "Miami Dolphins",
+        "NYU Langone Health",
+        "Palantir Technologies",
+        "Related Companies",
+        "Senate Banking, Housing, and Urban Affairs Committee",
+        "Turning Point USA",
+        "X Corp"
+      ]
+    },
+    "Department of Government Efficiency (DOGE)": {
+      "name": "Department of Government Efficiency (DOGE)",
+      "description": "White House advisory entity led by Musk tasked with cutting federal spending and restructuring government agencies.",
+      "elo": 1564.0,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Elon Musk"
+      ],
+      "played_against": [
+        "Koch Industries",
+        "Make America Great Again Inc. (MAGA Inc.)",
+        "Marble Freedom Trust",
+        "OpenAI",
+        "Palantir Technologies",
+        "Related Companies",
+        "SpaceX",
+        "The Wonderful Company",
+        "Walton Family Foundation",
+        "X Corp"
+      ]
+    },
+    "SpaceX": {
+      "name": "SpaceX",
+      "description": "Musk's aerospace and defense contractor, the dominant private launch provider for US government and commercial payloads.",
+      "elo": 1564.0,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Elon Musk"
+      ],
+      "played_against": [
+        "Alphabet / Google",
+        "Department of Defense",
+        "Department of Government Efficiency (DOGE)",
+        "KKR & Co.",
+        "Koch Industries",
+        "Meta Platforms",
+        "OpenAI",
+        "Palantir Technologies",
+        "Susquehanna International Group (SIG)",
+        "X Corp"
+      ]
+    },
+    "X Corp": {
+      "name": "X Corp",
+      "description": "Musk's social media platform, a major node in US political communication and information distribution.",
+      "elo": 1564.0,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Elon Musk"
+      ],
+      "played_against": [
+        "Department of Government Efficiency (DOGE)",
+        "KKR & Co.",
+        "Koch Industries",
+        "Marble Freedom Trust",
+        "Palantir Technologies",
+        "SpaceX",
+        "Susquehanna International Group (SIG)",
+        "The Wonderful Company",
+        "Warner Bros. Discovery",
+        "xAI"
+      ]
+    },
+    "xAI": {
+      "name": "xAI",
+      "description": "Musk's independent AI research company, a direct competitor to OpenAI and Google DeepMind.",
+      "elo": 1484.0,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Elon Musk"
+      ],
+      "played_against": [
+        "Americans for Prosperity",
+        "CRC Advisors",
+        "Club for Growth",
+        "Koch Industries",
+        "Make America Great Again Inc. (MAGA Inc.)",
+        "Miami Dolphins",
+        "Related Companies",
+        "Susquehanna International Group (SIG)",
+        "Turning Point USA",
+        "X Corp"
+      ]
+    },
+    "Koch Industries": {
+      "name": "Koch Industries",
+      "description": "One of the largest privately held US conglomerates, the primary source of Koch family wealth and economic influence.",
+      "elo": 1564.0,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Charles Koch & family",
+        "Julia Koch & family"
+      ],
+      "played_against": [
+        "CRC Advisors",
+        "Club for Growth",
+        "Department of Government Efficiency (DOGE)",
+        "Home Depot",
+        "House Republican Conference",
+        "Palantir Technologies",
+        "SpaceX",
+        "Special Competitive Studies Project (SCSP)",
+        "X Corp",
+        "xAI"
+      ]
+    },
+    "Americans for Prosperity": {
+      "name": "Americans for Prosperity",
+      "description": "Koch-network political advocacy organization that funds and coordinates free-market and limited-government policy campaigns nationwide.",
+      "elo": 1516.0,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Charles Koch & family",
+        "Julia Koch & family"
+      ],
+      "played_against": [
+        "Alphabet / Google",
+        "CRC Advisors",
+        "Liberty Media",
+        "Make America Great Again Inc. (MAGA Inc.)",
+        "Marble Freedom Trust",
+        "Palantir Technologies",
+        "Special Competitive Studies Project (SCSP)",
+        "Susquehanna International Group (SIG)",
+        "Warner Bros. Discovery",
+        "xAI"
+      ]
+    },
+    "Susquehanna International Group (SIG)": {
+      "name": "Susquehanna International Group (SIG)",
+      "description": "Yass's quantitative trading and financial services firm, one of the largest market makers in the US and a major source of his political funding capacity.",
+      "elo": 1516.0,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Jeff Yass"
+      ],
+      "played_against": [
+        "Americans for Prosperity",
+        "CRC Advisors",
+        "Club for Growth",
+        "Fanatics",
+        "Las Vegas Sands",
+        "Make America Great Again Inc. (MAGA Inc.)",
+        "SpaceX",
+        "Warner Bros. Discovery",
+        "X Corp",
+        "xAI"
+      ]
+    },
+    "Club for Growth": {
+      "name": "Club for Growth",
+      "description": "Free-market political action organization that Yass heavily funds, focused on electing fiscally conservative candidates to Congress.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Jeff Yass"
+      ],
+      "played_against": [
+        "Alphabet / Google",
+        "Builders Vision",
+        "Fanatics",
+        "Koch Industries",
+        "Miami Dolphins",
+        "REFORM Alliance",
+        "Related Companies",
+        "Senate Banking, Housing, and Urban Affairs Committee",
+        "Susquehanna International Group (SIG)",
+        "xAI"
+      ]
+    },
+    "Alphabet / Google": {
+      "name": "Alphabet / Google",
+      "description": "The parent company Schmidt led as CEO and executive chairman, the dominant US search, advertising, and cloud technology corporation.",
+      "elo": 1596.0,
+      "wins": 8,
+      "losses": 2,
+      "matches": 10,
+      "neurons": [
+        "Eric Schmidt"
+      ],
+      "played_against": [
+        "Americans for Prosperity",
+        "Club for Growth",
+        "Department of Defense",
+        "Federal Reserve",
+        "Fidelity Investments",
+        "House Republican Conference",
+        "Make America Great Again Inc. (MAGA Inc.)",
+        "OpenAI",
+        "Palantir Technologies",
+        "SpaceX"
+      ]
+    },
+    "Special Competitive Studies Project (SCSP)": {
+      "name": "Special Competitive Studies Project (SCSP)",
+      "description": "Schmidt's policy initiative advising the US government on maintaining technological and AI competitiveness against China.",
+      "elo": 1516.0,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Eric Schmidt"
+      ],
+      "played_against": [
+        "Americans for Prosperity",
+        "Fanatics",
+        "Icahn Enterprises",
+        "Koch Industries",
+        "Liberty Media",
+        "Make America Great Again Inc. (MAGA Inc.)",
+        "NYU Langone Health",
+        "REFORM Alliance",
+        "Related Companies",
+        "Turning Point Action"
+      ]
+    },
+    "Make America Great Again Inc. (MAGA Inc.)": {
+      "name": "Make America Great Again Inc. (MAGA Inc.)",
+      "description": "The primary super PAC supporting Trump's political operation, which Wiles helped build and direct as a senior strategist.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Susie Wiles"
+      ],
+      "played_against": [
+        "Alphabet / Google",
+        "Americans for Prosperity",
+        "Department of Government Efficiency (DOGE)",
+        "Fanatics",
+        "Home Depot",
+        "Liberty Media",
+        "Special Competitive Studies Project (SCSP)",
+        "Susquehanna International Group (SIG)",
+        "Warner Bros. Discovery",
+        "xAI"
+      ]
+    },
+    "Fanatics": {
+      "name": "Fanatics",
+      "description": "Rubin's sports merchandise and commerce conglomerate, the dominant licensed sports retail platform in the US.",
+      "elo": 1436.0,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Michael Rubin"
+      ],
+      "played_against": [
+        "Builders Vision",
+        "Club for Growth",
+        "Icahn Enterprises",
+        "Make America Great Again Inc. (MAGA Inc.)",
+        "NYU Langone Health",
+        "REFORM Alliance",
+        "Related Companies",
+        "Special Competitive Studies Project (SCSP)",
+        "Susquehanna International Group (SIG)",
+        "Turning Point USA"
+      ]
+    },
+    "REFORM Alliance": {
+      "name": "REFORM Alliance",
+      "description": "Criminal justice reform advocacy organization co-founded by Rubin, focused on changing probation and parole laws.",
+      "elo": 1406.80352239678,
+      "wins": 2,
+      "losses": 8,
+      "matches": 10,
+      "neurons": [
+        "Michael Rubin"
+      ],
+      "played_against": [
+        "Atlanta Hawks",
+        "Buffalo Sabres",
+        "Chelsea FC",
+        "Clarity Media Group",
+        "Club for Growth",
+        "Fanatics",
+        "Miami Dolphins",
+        "Special Competitive Studies Project (SCSP)",
+        "YAM Worldwide"
+      ]
+    },
+    "Liberty Media": {
+      "name": "Liberty Media",
+      "description": "Malone's media and entertainment holding company, with controlling stakes in Formula 1, SiriusXM, and the Atlanta Braves.",
+      "elo": 1484.0,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "John Malone"
+      ],
+      "played_against": [
+        "Americans for Prosperity",
+        "Home Depot",
+        "Icahn Enterprises",
+        "Las Vegas Sands",
+        "Make America Great Again Inc. (MAGA Inc.)",
+        "NYU Langone Health",
+        "Special Competitive Studies Project (SCSP)",
+        "Turning Point Action",
+        "Turning Point USA",
+        "Warner Bros. Discovery"
+      ]
+    },
+    "Warner Bros. Discovery": {
+      "name": "Warner Bros. Discovery",
+      "description": "Major US media conglomerate in which Malone holds significant board influence through Liberty's stake, encompassing CNN, HBO, and Warner Bros.",
+      "elo": 1500.0,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "John Malone"
+      ],
+      "played_against": [
+        "Americans for Prosperity",
+        "Home Depot",
+        "Icahn Enterprises",
+        "Las Vegas Sands",
+        "Liberty Media",
+        "Make America Great Again Inc. (MAGA Inc.)",
+        "OpenAI",
+        "Susquehanna International Group (SIG)",
+        "Turning Point Action",
+        "X Corp"
+      ]
+    },
+    "Home Depot": {
+      "name": "Home Depot",
+      "description": "The home improvement retail giant Langone co-founded and helped finance, one of the largest US corporations by revenue.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Ken Langone"
+      ],
+      "played_against": [
+        "Koch Industries",
+        "Las Vegas Sands",
+        "Liberty Media",
+        "Make America Great Again Inc. (MAGA Inc.)",
+        "NYU Langone Health",
+        "OpenAI",
+        "Soros Fund Management",
+        "Turning Point Action",
+        "Walmart",
+        "Warner Bros. Discovery"
+      ]
+    },
+    "NYU Langone Health": {
+      "name": "NYU Langone Health",
+      "description": "Major New York academic medical center bearing Langone's name following his transformative philanthropic investment, a flagship institution of his civic influence.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Ken Langone"
+      ],
+      "played_against": [
+        "Boston Bruins",
+        "Delaware North",
+        "Fanatics",
+        "Home Depot",
+        "Liberty Media",
+        "Miami Dolphins",
+        "Sierra",
+        "Special Competitive Studies Project (SCSP)",
+        "The Wonderful Company",
+        "Turning Point USA"
+      ]
+    },
+    "Las Vegas Sands": {
+      "name": "Las Vegas Sands",
+      "description": "The casino and resort corporation founded by Sheldon Adelson and now controlled by Miriam Adelson, the primary source of family wealth and political funding capacity.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Miriam Adelson & family"
+      ],
+      "played_against": [
+        "Coinbase",
+        "Home Depot",
+        "Liberty Media",
+        "Open Society Foundations",
+        "OpenAI",
+        "Senate Foreign Relations Committee",
+        "Susquehanna International Group (SIG)",
+        "Turning Point USA",
+        "Walmart",
+        "Warner Bros. Discovery"
+      ]
+    },
+    "Turning Point USA": {
+      "name": "Turning Point USA",
+      "description": "Kirk's nonprofit organization building a conservative activist network on high school and college campuses across the United States.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Charlie Kirk"
+      ],
+      "played_against": [
+        "Delaware North",
+        "Fanatics",
+        "Las Vegas Sands",
+        "Liberty Media",
+        "NYU Langone Health",
+        "Senate Foreign Relations Committee",
+        "Sierra",
+        "The Wonderful Company",
+        "Turning Point Action",
+        "xAI"
+      ]
+    },
+    "Turning Point Action": {
+      "name": "Turning Point Action",
+      "description": "Kirk's affiliated political 501(c)(4) and super PAC arm conducting voter mobilization and electoral campaigns in support of MAGA-aligned candidates.",
+      "elo": 1484.0,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Charlie Kirk"
+      ],
+      "played_against": [
+        "Home Depot",
+        "Icahn Enterprises",
+        "Kroenke Sports & Entertainment",
+        "Liberty Media",
+        "OpenAI",
+        "Senate Foreign Relations Committee",
+        "Sierra",
+        "Special Competitive Studies Project (SCSP)",
+        "Turning Point USA",
+        "Warner Bros. Discovery"
+      ]
+    },
+    "OpenAI": {
+      "name": "OpenAI",
+      "description": "The leading AI research and deployment company, whose board Taylor chairs, giving him governance authority over one of the most consequential AI organizations in the world.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Bret Taylor",
+        "Sam Altman"
+      ],
+      "played_against": [
+        "Alphabet / Google",
+        "Department of Government Efficiency (DOGE)",
+        "Guggenheim Partners",
+        "Home Depot",
+        "House Republican Conference",
+        "Las Vegas Sands",
+        "Soros Fund Management",
+        "SpaceX",
+        "Turning Point Action",
+        "Warner Bros. Discovery"
+      ]
+    },
+    "Sierra": {
+      "name": "Sierra",
+      "description": "The AI-native customer service platform Taylor co-founded and leads as CEO, his primary entrepreneurial venture.",
+      "elo": 1404.0,
+      "wins": 2,
+      "losses": 8,
+      "matches": 10,
+      "neurons": [
+        "Bret Taylor"
+      ],
+      "played_against": [
+        "Arvest Bank",
+        "Boston Bruins",
+        "Chelsea FC",
+        "Delaware North",
+        "Icahn Enterprises",
+        "Miami Dolphins",
+        "NYU Langone Health",
+        "Senate Foreign Relations Committee",
+        "Turning Point Action",
+        "Turning Point USA"
+      ]
+    },
+    "Icahn Enterprises": {
+      "name": "Icahn Enterprises",
+      "description": "The diversified holding company through which Icahn exercises control over his activist investment portfolio spanning energy, automotive, and other sectors.",
+      "elo": 1484.0,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Carl Icahn"
+      ],
+      "played_against": [
+        "Delaware North",
+        "Fanatics",
+        "Guggenheim Partners",
+        "House Republican Conference",
+        "Liberty Media",
+        "Senate Foreign Relations Committee",
+        "Sierra",
+        "Special Competitive Studies Project (SCSP)",
+        "Turning Point Action",
+        "Warner Bros. Discovery"
+      ]
+    },
+    "Senate Foreign Relations Committee": {
+      "name": "Senate Foreign Relations Committee",
+      "description": "The Senate committee central to Murphy's national profile, through which he exercises influence over US foreign policy and arms sales oversight.",
+      "elo": 1516.0,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Christopher Murphy"
+      ],
+      "played_against": [
+        "House Republican Conference",
+        "Icahn Enterprises",
+        "Kroenke Sports & Entertainment",
+        "Las Vegas Sands",
+        "Open Society Foundations",
+        "Sierra",
+        "Soros Fund Management",
+        "Turning Point Action",
+        "Turning Point USA",
+        "Walmart"
+      ]
+    },
+    "House Republican Conference": {
+      "name": "House Republican Conference",
+      "description": "The caucus coordinating body for House Republicans, which Scalise has led and through which he organizes GOP legislative strategy.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Elise M. Stefanik",
+        "Steve Scalise"
+      ],
+      "played_against": [
+        "Alphabet / Google",
+        "Apple Inc.",
+        "Fidelity Investments",
+        "Icahn Enterprises",
+        "Koch Industries",
+        "OpenAI",
+        "Senate Foreign Relations Committee",
+        "The Church of Jesus Christ of Latter-day Saints",
+        "Walmart",
+        "Walton Enterprises"
+      ]
+    },
+    "Delaware North": {
+      "name": "Delaware North",
+      "description": "The privately held hospitality and food-service conglomerate owned by the Jacobs family, operating venues, stadiums, and resorts across the US and internationally.",
+      "elo": 1436.0,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Jeremy Jacobs, Sr. & family"
+      ],
+      "played_against": [
+        "Boston Bruins",
+        "Crystal Bridges Museum of American Art",
+        "Hyatt Hotels Corporation",
+        "Icahn Enterprises",
+        "Kroenke Sports & Entertainment",
+        "Los Angeles Dodgers",
+        "NYU Langone Health",
+        "Sierra",
+        "Turning Point USA",
+        "Walmart"
+      ]
+    },
+    "Boston Bruins": {
+      "name": "Boston Bruins",
+      "description": "The NHL franchise owned by the Jacobs family, representing their most prominent public-facing asset and a major node in US professional sports.",
+      "elo": 1404.1734576310262,
+      "wins": 2,
+      "losses": 8,
+      "matches": 10,
+      "neurons": [
+        "Jeremy Jacobs, Sr. & family"
+      ],
+      "played_against": [
+        "Chelsea FC",
+        "Children's Health Defense",
+        "Crystal Bridges Museum of American Art",
+        "Delaware North",
+        "Kroenke Sports & Entertainment",
+        "NYU Langone Health",
+        "Sierra",
+        "Stand With Crypto",
+        "Tepper Sports & Entertainment",
+        "YAM Worldwide"
+      ]
+    },
+    "Walmart": {
+      "name": "Walmart",
+      "description": "The world's largest retailer, in which Ann Walton Kroenke holds a major inherited ownership stake as a Walton family heir.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Alice Walton",
+        "Ann Walton Kroenke",
+        "Jim Walton & family",
+        "Rob Walton & family"
+      ],
+      "played_against": [
+        "Delaware North",
+        "Fidelity Investments",
+        "Guggenheim Partners",
+        "HCA Healthcare",
+        "Home Depot",
+        "House Republican Conference",
+        "Kroenke Sports & Entertainment",
+        "Las Vegas Sands",
+        "Senate Foreign Relations Committee",
+        "Walton Enterprises"
+      ]
+    },
+    "Kroenke Sports & Entertainment": {
+      "name": "Kroenke Sports & Entertainment",
+      "description": "The sports and entertainment conglomerate she co-owns with her husband Stan Kroenke, controlling franchises including the LA Rams and Colorado Avalanche.",
+      "elo": 1500.0,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Ann Walton Kroenke"
+      ],
+      "played_against": [
+        "Boston Bruins",
+        "Crystal Bridges Museum of American Art",
+        "Delaware North",
+        "Guggenheim Partners",
+        "Los Angeles Dodgers",
+        "Senate Foreign Relations Committee",
+        "TPG Inc.",
+        "The Pritzker Organization",
+        "Turning Point Action",
+        "Walmart"
+      ]
+    },
+    "Crystal Bridges Museum of American Art": {
+      "name": "Crystal Bridges Museum of American Art",
+      "description": "The nationally significant art museum Alice Walton founded and funds in Bentonville, Arkansas, representing her primary independent institutional legacy.",
+      "elo": 1436.0,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Alice Walton"
+      ],
+      "played_against": [
+        "Arvest Bank",
+        "Boston Bruins",
+        "Chelsea FC",
+        "Delaware North",
+        "Estée Lauder Companies",
+        "Guggenheim Partners",
+        "Kroenke Sports & Entertainment",
+        "Los Angeles Dodgers",
+        "Soros Fund Management",
+        "Stand With Crypto"
+      ]
+    },
+    "Guggenheim Partners": {
+      "name": "Guggenheim Partners",
+      "description": "Global investment and financial services firm that Walter leads as CEO, representing his primary financial power base.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Mark Walter"
+      ],
+      "played_against": [
+        "Crystal Bridges Museum of American Art",
+        "Fidelity Investments",
+        "Icahn Enterprises",
+        "Kroenke Sports & Entertainment",
+        "Los Angeles Dodgers",
+        "Office of the Governor of Illinois",
+        "Open Society Foundations",
+        "OpenAI",
+        "Stand With Crypto",
+        "Walmart"
+      ]
+    },
+    "Los Angeles Dodgers": {
+      "name": "Los Angeles Dodgers",
+      "description": "MLB franchise of which Walter is the controlling owner, anchoring his sports and media influence.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Mark Walter"
+      ],
+      "played_against": [
+        "Chelsea FC",
+        "Council for National Policy",
+        "Crystal Bridges Museum of American Art",
+        "Delaware North",
+        "Guggenheim Partners",
+        "Kroenke Sports & Entertainment",
+        "Open Society Foundations",
+        "Soros Fund Management",
+        "Stand With Crypto",
+        "TPG Inc."
+      ]
+    },
+    "Chelsea FC": {
+      "name": "Chelsea FC",
+      "description": "English Premier League football club of which Walter is the lead owner, extending his sports ownership internationally.",
+      "elo": 1403.9392796381967,
+      "wins": 2,
+      "losses": 8,
+      "matches": 10,
+      "neurons": [
+        "Mark Walter"
+      ],
+      "played_against": [
+        "Atlanta Hawks",
+        "Boston Bruins",
+        "Crystal Bridges Museum of American Art",
+        "David Geffen Foundation",
+        "Los Angeles Dodgers",
+        "REFORM Alliance",
+        "Sierra",
+        "Soros Fund Management",
+        "Stand With Crypto",
+        "Ultimate Fighting Championship (UFC)"
+      ]
+    },
+    "Open Society Foundations": {
+      "name": "Open Society Foundations",
+      "description": "Global philanthropic network founded by Soros that funds democracy, civil liberties, and progressive political causes worldwide.",
+      "elo": 1516.0,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "George Soros"
+      ],
+      "played_against": [
+        "Anthropic",
+        "Fidelity Investments",
+        "Guggenheim Partners",
+        "Las Vegas Sands",
+        "Los Angeles Dodgers",
+        "Senate Foreign Relations Committee",
+        "Soros Fund Management",
+        "TPG Inc.",
+        "The Heritage Foundation",
+        "Walton Enterprises"
+      ]
+    },
+    "Soros Fund Management": {
+      "name": "Soros Fund Management",
+      "description": "Soros's private investment firm and family office, the financial engine behind his wealth and philanthropic capacity.",
+      "elo": 1500.0,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "George Soros"
+      ],
+      "played_against": [
+        "Anthropic",
+        "Chelsea FC",
+        "Council for National Policy",
+        "Crystal Bridges Museum of American Art",
+        "HCA Healthcare",
+        "Home Depot",
+        "Los Angeles Dodgers",
+        "Open Society Foundations",
+        "OpenAI",
+        "Senate Foreign Relations Committee"
+      ]
+    },
+    "Anthropic": {
+      "name": "Anthropic",
+      "description": "AI safety company co-founded and led by Amodei as CEO, developing the Claude family of large language models.",
+      "elo": 1516.0,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Daniela Amodei",
+        "Dario Amodei"
+      ],
+      "played_against": [
+        "Coinbase",
+        "Council for National Policy",
+        "Estée Lauder Companies",
+        "Fidelity Investments",
+        "HCA Healthcare",
+        "Hyatt Hotels Corporation",
+        "Open Society Foundations",
+        "Soros Fund Management",
+        "TPG Inc.",
+        "Walton Enterprises"
+      ]
+    },
+    "Fidelity Investments": {
+      "name": "Fidelity Investments",
+      "description": "One of the largest privately held asset management and financial services firms in the US, which Johnson chairs and leads as CEO.",
+      "elo": 1563.9999286709642,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Abigail Johnson",
+        "Edward Johnson, IV."
+      ],
+      "played_against": [
+        "Alphabet / Google",
+        "Anthropic",
+        "Apple Inc.",
+        "Business Roundtable",
+        "Department of Health and Human Services",
+        "Guggenheim Partners",
+        "House Republican Conference",
+        "Open Society Foundations",
+        "Walmart",
+        "Walton Enterprises"
+      ]
+    },
+    "Federal Reserve": {
+      "name": "Federal Reserve",
+      "description": "The central bank of the United States, which Powell chairs and which sets monetary policy and regulates the financial system.",
+      "elo": 1627.2901081098219,
+      "wins": 9,
+      "losses": 1,
+      "matches": 10,
+      "neurons": [
+        "Jerome H. Powell"
+      ],
+      "played_against": [
+        "Alphabet / Google",
+        "Apple Inc.",
+        "Department of Defense",
+        "HCA Healthcare",
+        "Supreme Court of the United States",
+        "TPG Inc.",
+        "The Church of Jesus Christ of Latter-day Saints",
+        "Trump White House",
+        "US Treasury",
+        "Walton Enterprises"
+      ]
+    },
+    "TPG Inc.": {
+      "name": "TPG Inc.",
+      "description": "Global alternative asset management firm co-founded by Bonderman, one of the largest private equity firms in the world.",
+      "elo": 1484.0,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "David Bonderman"
+      ],
+      "played_against": [
+        "Anthropic",
+        "Coinbase",
+        "Federal Reserve",
+        "HCA Healthcare",
+        "Hyatt Hotels Corporation",
+        "Kroenke Sports & Entertainment",
+        "Los Angeles Dodgers",
+        "Open Society Foundations",
+        "The Heritage Foundation",
+        "Walton Enterprises"
+      ]
+    },
+    "HCA Healthcare": {
+      "name": "HCA Healthcare",
+      "description": "The largest for-profit hospital operator in the United States, co-founded by Frist and still substantially family-owned and influenced.",
+      "elo": 1564.0,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Thomas Frist, Jr. & family"
+      ],
+      "played_against": [
+        "Anthropic",
+        "Coinbase",
+        "Council for National Policy",
+        "Federal Reserve",
+        "Hyatt Hotels Corporation",
+        "Senate Commerce Committee",
+        "Soros Fund Management",
+        "Stand With Crypto",
+        "TPG Inc.",
+        "Walmart"
+      ]
+    },
+    "Coinbase": {
+      "name": "Coinbase",
+      "description": "The largest publicly traded cryptocurrency exchange in the United States, co-founded and led by Armstrong as CEO.",
+      "elo": 1500.0,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Brian Armstrong"
+      ],
+      "played_against": [
+        "Anthropic",
+        "Council for National Policy",
+        "Estée Lauder Companies",
+        "HCA Healthcare",
+        "Hyatt Hotels Corporation",
+        "Las Vegas Sands",
+        "Stand With Crypto",
+        "TPG Inc.",
+        "The Heritage Foundation",
+        "The Pritzker Organization"
+      ]
+    },
+    "Stand With Crypto": {
+      "name": "Stand With Crypto",
+      "description": "Nonprofit advocacy organization founded by Armstrong to mobilize pro-crypto political engagement and lobbying in the US.",
+      "elo": 1436.0,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Brian Armstrong"
+      ],
+      "played_against": [
+        "Arvest Bank",
+        "Boston Bruins",
+        "Chelsea FC",
+        "Coinbase",
+        "Council for National Policy",
+        "Crystal Bridges Museum of American Art",
+        "Guggenheim Partners",
+        "HCA Healthcare",
+        "Los Angeles Dodgers",
+        "Walton Enterprises"
+      ]
+    },
+    "Walton Enterprises": {
+      "name": "Walton Enterprises",
+      "description": "The private family holding company through which the Walton family manages its collective wealth, investments, and philanthropic strategy.",
+      "elo": 1564.0,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Rob Walton & family"
+      ],
+      "played_against": [
+        "Anthropic",
+        "Business Roundtable",
+        "Federal Reserve",
+        "Fidelity Investments",
+        "House Republican Conference",
+        "Open Society Foundations",
+        "Stand With Crypto",
+        "TPG Inc.",
+        "The Heritage Foundation",
+        "Walmart"
+      ]
+    },
+    "The Heritage Foundation": {
+      "name": "The Heritage Foundation",
+      "description": "The preeminent conservative policy think tank in Washington, which Roberts leads as president and which authored Project 2025.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Kevin Roberts"
+      ],
+      "played_against": [
+        "Business Roundtable",
+        "Coinbase",
+        "Council for National Policy",
+        "Hyatt Hotels Corporation",
+        "Office of the Governor of California",
+        "Open Society Foundations",
+        "TPG Inc.",
+        "The Church of Jesus Christ of Latter-day Saints",
+        "Walton Enterprises",
+        "World Jewish Congress"
+      ]
+    },
+    "Council for National Policy": {
+      "name": "Council for National Policy",
+      "description": "An influential private network of conservative leaders, donors, and activists that coordinates strategy across the American right.",
+      "elo": 1516.0,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Kevin Roberts"
+      ],
+      "played_against": [
+        "Anthropic",
+        "Coinbase",
+        "HCA Healthcare",
+        "Los Angeles Dodgers",
+        "Senate Commerce Committee",
+        "Soros Fund Management",
+        "Stand With Crypto",
+        "The Heritage Foundation",
+        "The Joe Rogan Experience",
+        "The Pritzker Organization"
+      ]
+    },
+    "Hyatt Hotels Corporation": {
+      "name": "Hyatt Hotels Corporation",
+      "description": "A global hospitality company of which Pritzker serves as executive chairman, representing the family's flagship public enterprise.",
+      "elo": 1484.0,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "J.B. Pritzker",
+        "Thomas Pritzker"
+      ],
+      "played_against": [
+        "Anthropic",
+        "Arvest Bank",
+        "Coinbase",
+        "Delaware North",
+        "Estée Lauder Companies",
+        "HCA Healthcare",
+        "TPG Inc.",
+        "The Heritage Foundation",
+        "The Pritzker Organization",
+        "World Jewish Congress"
+      ]
+    },
+    "The Pritzker Organization": {
+      "name": "The Pritzker Organization",
+      "description": "The private family investment and management firm through which Thomas Pritzker oversees the broader Pritzker family business interests.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Thomas Pritzker"
+      ],
+      "played_against": [
+        "Arvest Bank",
+        "Coinbase",
+        "Council for National Policy",
+        "Estée Lauder Companies",
+        "Hyatt Hotels Corporation",
+        "Kroenke Sports & Entertainment",
+        "The Church of Jesus Christ of Latter-day Saints",
+        "Ultimate Fighting Championship (UFC)",
+        "Warner Music Group",
+        "World Jewish Congress"
+      ]
+    },
+    "The Church of Jesus Christ of Latter-day Saints": {
+      "name": "The Church of Jesus Christ of Latter-day Saints",
+      "description": "A global religious institution with over 17 million members, which Nelson leads as its highest authority, the President and Prophet.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Russell M. Nelson"
+      ],
+      "played_against": [
+        "Apple Inc.",
+        "Business Roundtable",
+        "Estée Lauder Companies",
+        "FedEx Corporation",
+        "Federal Reserve",
+        "House Republican Conference",
+        "Senate Commerce Committee",
+        "The Heritage Foundation",
+        "The Joe Rogan Experience",
+        "The Pritzker Organization"
+      ]
+    },
+    "Estée Lauder Companies": {
+      "name": "Estée Lauder Companies",
+      "description": "A global prestige beauty conglomerate co-founded by his mother, in which Ronald Lauder holds a significant ownership stake and board influence.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Ronald Lauder"
+      ],
+      "played_against": [
+        "Anthropic",
+        "Arvest Bank",
+        "Coinbase",
+        "Crystal Bridges Museum of American Art",
+        "Hyatt Hotels Corporation",
+        "Office of the Governor of Illinois",
+        "The Church of Jesus Christ of Latter-day Saints",
+        "The Joe Rogan Experience",
+        "The Pritzker Organization",
+        "World Jewish Congress"
+      ]
+    },
+    "World Jewish Congress": {
+      "name": "World Jewish Congress",
+      "description": "An international federation of Jewish communities and organizations, which Lauder leads as president and uses as a platform for global Jewish advocacy.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Ronald Lauder"
+      ],
+      "played_against": [
+        "Access Industries",
+        "Arvest Bank",
+        "Breakthrough Energy Ventures",
+        "Estée Lauder Companies",
+        "Hyatt Hotels Corporation",
+        "The Heritage Foundation",
+        "The Joe Rogan Experience",
+        "The Pritzker Organization",
+        "Ultimate Fighting Championship (UFC)",
+        "Warner Music Group"
+      ]
+    },
+    "Arvest Bank": {
+      "name": "Arvest Bank",
+      "description": "A regional bank holding company owned and operated by Jim Walton, representing his distinct sphere of financial and commercial influence.",
+      "elo": 1436.0,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Jim Walton & family"
+      ],
+      "played_against": [
+        "Crystal Bridges Museum of American Art",
+        "Estée Lauder Companies",
+        "Hyatt Hotels Corporation",
+        "Office of the Governor of Illinois",
+        "Sierra",
+        "Stand With Crypto",
+        "The Pritzker Organization",
+        "Ultimate Fighting Championship (UFC)",
+        "Warner Music Group",
+        "World Jewish Congress"
+      ]
+    },
+    "The Joe Rogan Experience": {
+      "name": "The Joe Rogan Experience",
+      "description": "The most-listened-to podcast in the world, hosted by Rogan and distributed via Spotify, functioning as a dominant independent media platform.",
+      "elo": 1484.0,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Joe Rogan"
+      ],
+      "played_against": [
+        "Access Industries",
+        "Apple Inc.",
+        "Business Roundtable",
+        "Charles Schwab Corporation",
+        "Council for National Policy",
+        "Estée Lauder Companies",
+        "Senate Commerce Committee",
+        "The Church of Jesus Christ of Latter-day Saints",
+        "Ultimate Fighting Championship (UFC)",
+        "World Jewish Congress"
+      ]
+    },
+    "Ultimate Fighting Championship (UFC)": {
+      "name": "Ultimate Fighting Championship (UFC)",
+      "description": "The world's premier mixed martial arts promotion, for which Rogan serves as a longtime color commentator and public face.",
+      "elo": 1436.0,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Joe Rogan"
+      ],
+      "played_against": [
+        "Arvest Bank",
+        "Breakthrough Energy Ventures",
+        "Business Roundtable",
+        "Chelsea FC",
+        "East Resources",
+        "Schwarzman College of Computing (MIT)",
+        "The Joe Rogan Experience",
+        "The Pritzker Organization",
+        "Warner Music Group",
+        "World Jewish Congress"
+      ]
+    },
+    "Apple Inc.": {
+      "name": "Apple Inc.",
+      "description": "The world's largest consumer technology company by market cap, which Cook leads as CEO and primary decision-maker.",
+      "elo": 1595.9393630765771,
+      "wins": 8,
+      "losses": 2,
+      "matches": 10,
+      "neurons": [
+        "Tim Cook"
+      ],
+      "played_against": [
+        "Business Roundtable",
+        "Federal Reserve",
+        "Fidelity Investments",
+        "House Republican Conference",
+        "Office of the Governor of Illinois",
+        "Senate Commerce Committee",
+        "The Church of Jesus Christ of Latter-day Saints",
+        "The Joe Rogan Experience",
+        "US Department of Justice",
+        "US Treasury"
+      ]
+    },
+    "Business Roundtable": {
+      "name": "Business Roundtable",
+      "description": "The association of CEOs of leading US companies that shapes federal economic and regulatory policy through collective lobbying.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Tim Cook"
+      ],
+      "played_against": [
+        "Access Industries",
+        "Apple Inc.",
+        "Fidelity Investments",
+        "Office of the Governor of Illinois",
+        "Senate Commerce Committee",
+        "The Church of Jesus Christ of Latter-day Saints",
+        "The Heritage Foundation",
+        "The Joe Rogan Experience",
+        "Ultimate Fighting Championship (UFC)",
+        "Walton Enterprises"
+      ]
+    },
+    "Senate Commerce Committee": {
+      "name": "Senate Commerce Committee",
+      "description": "The Senate committee with jurisdiction over trade, communications, and technology, which Cruz chairs.",
+      "elo": 1484.0,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Ted Cruz"
+      ],
+      "played_against": [
+        "Access Industries",
+        "Apple Inc.",
+        "Business Roundtable",
+        "Council for National Policy",
+        "Democratic Governors Association",
+        "FedEx Corporation",
+        "HCA Healthcare",
+        "Office of the Governor of California",
+        "The Church of Jesus Christ of Latter-day Saints",
+        "The Joe Rogan Experience"
+      ]
+    },
+    "Access Industries": {
+      "name": "Access Industries",
+      "description": "Blavatnik's privately held industrial and investment conglomerate spanning media, chemicals, real estate, and technology.",
+      "elo": 1484.0,
+      "wins": 4,
+      "losses": 5,
+      "matches": 9,
+      "neurons": [
+        "Len Blavatnik"
+      ],
+      "played_against": [
+        "Business Roundtable",
+        "Charles Schwab Corporation",
+        "Congressional Progressive Caucus",
+        "Democratic Governors Association",
+        "FedEx Corporation",
+        "Senate Commerce Committee",
+        "The Joe Rogan Experience",
+        "US District Court for the Northern District of Texas",
+        "Warner Music Group",
+        "World Jewish Congress"
+      ]
+    },
+    "Warner Music Group": {
+      "name": "Warner Music Group",
+      "description": "A major global recorded-music and publishing company that Blavatnik owns through Access Industries.",
+      "elo": 1436.0,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Len Blavatnik"
+      ],
+      "played_against": [
+        "Access Industries",
+        "Arvest Bank",
+        "Breakthrough Energy Ventures",
+        "Charles Schwab Corporation",
+        "Democratic Governors Association",
+        "Office of the Governor of Illinois",
+        "Schwarzman College of Computing (MIT)",
+        "The Pritzker Organization",
+        "Ultimate Fighting Championship (UFC)",
+        "World Jewish Congress"
+      ]
+    },
+    "Charles Schwab Corporation": {
+      "name": "Charles Schwab Corporation",
+      "description": "The publicly traded brokerage and financial-services firm that Schwab founded and which bears his name.",
+      "elo": 1516.0,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Charles Schwab"
+      ],
+      "played_against": [
+        "Access Industries",
+        "Breakthrough Energy Ventures",
+        "Democratic Governors Association",
+        "Office of the Governor of Illinois",
+        "The Joe Rogan Experience",
+        "US District Court for the Northern District of Texas",
+        "US Treasury",
+        "Walmart Inc.",
+        "Warner Music Group",
+        "Yield Giving"
+      ]
+    },
+    "US Treasury": {
+      "name": "US Treasury",
+      "description": "The federal department responsible for economic policy, tax collection, and fiscal management, which Bessent leads as Secretary.",
+      "elo": 1595.9061117746503,
+      "wins": 8,
+      "losses": 2,
+      "matches": 10,
+      "neurons": [
+        "Scott Bessent"
+      ],
+      "played_against": [
+        "Amazon",
+        "Apple Inc.",
+        "Charles Schwab Corporation",
+        "Department of Health and Human Services",
+        "Federal Bureau of Investigation",
+        "Federal Reserve",
+        "Office of the Governor of California",
+        "Office of the Governor of Illinois",
+        "US Department of Justice",
+        "Walmart Inc."
+      ]
+    },
+    "Office of the Governor of Illinois": {
+      "name": "Office of the Governor of Illinois",
+      "description": "The executive office through which Pritzker exercises gubernatorial authority over Illinois state government.",
+      "elo": 1500.0,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "J.B. Pritzker"
+      ],
+      "played_against": [
+        "Apple Inc.",
+        "Arvest Bank",
+        "Business Roundtable",
+        "Charles Schwab Corporation",
+        "Congressional Progressive Caucus",
+        "Estée Lauder Companies",
+        "Google Cloud",
+        "Guggenheim Partners",
+        "US Treasury",
+        "Warner Music Group"
+      ]
+    },
+    "Democratic Governors Association": {
+      "name": "Democratic Governors Association",
+      "description": "The organization that recruits, funds, and coordinates Democratic gubernatorial candidates and sitting governors nationwide.",
+      "elo": 1500.0,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Gavin Newsom",
+        "J.B. Pritzker"
+      ],
+      "played_against": [
+        "Access Industries",
+        "Ares Management",
+        "Charles Schwab Corporation",
+        "Congressional Progressive Caucus",
+        "Dell Technologies",
+        "FedEx Corporation",
+        "Office of the Governor of California",
+        "Senate Commerce Committee",
+        "Warner Music Group",
+        "Yield Giving"
+      ]
+    },
+    "Office of the Governor of California": {
+      "name": "Office of the Governor of California",
+      "description": "The executive office through which Newsom governs the most populous US state and projects national Democratic political influence.",
+      "elo": 1564.0,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Gavin Newsom"
+      ],
+      "played_against": [
+        "Democratic Governors Association",
+        "Department of Health and Human Services",
+        "FedEx Corporation",
+        "Federal Bureau of Investigation",
+        "Google Cloud",
+        "Senate Commerce Committee",
+        "The Heritage Foundation",
+        "U.S. Chamber of Commerce",
+        "US Treasury",
+        "Walmart Inc."
+      ]
+    },
+    "FedEx Corporation": {
+      "name": "FedEx Corporation",
+      "description": "The global express-shipping and logistics company that Smith founded and built into a dominant force in US and international commerce.",
+      "elo": 1500.0,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Fred Smith"
+      ],
+      "played_against": [
+        "Access Industries",
+        "Breakthrough Energy Ventures",
+        "Congressional Progressive Caucus",
+        "Dell Technologies",
+        "Democratic Governors Association",
+        "Google Cloud",
+        "Office of the Governor of California",
+        "Senate Commerce Committee",
+        "The Church of Jesus Christ of Latter-day Saints",
+        "Walmart Inc."
+      ]
+    },
+    "Congressional Progressive Caucus": {
+      "name": "Congressional Progressive Caucus",
+      "description": "The organized bloc of left-progressive House and Senate members that coordinates legislative strategy and messaging on the Democratic left flank.",
+      "elo": 1500.0,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Alexandria Ocasio-Cortez"
+      ],
+      "played_against": [
+        "Access Industries",
+        "Dell Technologies",
+        "Democratic Governors Association",
+        "Energy Transfer LP",
+        "FedEx Corporation",
+        "Federal Bureau of Investigation",
+        "Google Cloud",
+        "Office of the Governor of Illinois",
+        "Schwarzman College of Computing (MIT)",
+        "US District Court for the Northern District of Texas"
+      ]
+    },
+    "Breakthrough Energy Ventures": {
+      "name": "Breakthrough Energy Ventures",
+      "description": "Gates-led investment coalition funding early-stage clean energy technologies to address climate change.",
+      "elo": 1500.0,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Bill Gates"
+      ],
+      "played_against": [
+        "Charles Schwab Corporation",
+        "Duquesne Family Office",
+        "FedEx Corporation",
+        "Google Cloud",
+        "Schwarzman College of Computing (MIT)",
+        "Ultimate Fighting Championship (UFC)",
+        "Walmart Inc.",
+        "Warner Music Group",
+        "World Jewish Congress",
+        "Yield Giving"
+      ]
+    },
+    "Schwarzman College of Computing (MIT)": {
+      "name": "Schwarzman College of Computing (MIT)",
+      "description": "A $350M MIT institution endowed by Schwarzman to advance AI and computing education, serving as his primary legacy academic influence node.",
+      "elo": 1436.0,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Stephen Schwarzman"
+      ],
+      "played_against": [
+        "Atlanta Hawks",
+        "Breakthrough Energy Ventures",
+        "Children's Health Defense",
+        "Congressional Progressive Caucus",
+        "Duquesne Family Office",
+        "MSD Partners",
+        "Swoosh LLC",
+        "Ultimate Fighting Championship (UFC)",
+        "Warner Music Group",
+        "Yield Giving"
+      ]
+    },
+    "Google Cloud": {
+      "name": "Google Cloud",
+      "description": "Alphabet's enterprise cloud computing division, which Kurian leads as CEO and has grown into a major competitor in the cloud market.",
+      "elo": 1499.9997583509323,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Thomas Kurian"
+      ],
+      "played_against": [
+        "Breakthrough Energy Ventures",
+        "Carvana",
+        "Congressional Progressive Caucus",
+        "Dell Technologies",
+        "FedEx Corporation",
+        "MSD Partners",
+        "Office of the Governor of California",
+        "Office of the Governor of Illinois",
+        "US District Court for the Northern District of Texas",
+        "Yield Giving"
+      ]
+    },
+    "Yield Giving": {
+      "name": "Yield Giving",
+      "description": "Scott's philanthropic organization through which she has donated billions directly to nonprofits, operating with a distinctive no-strings-attached model.",
+      "elo": 1436.0,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "MacKenzie Scott"
+      ],
+      "played_against": [
+        "Breakthrough Energy Ventures",
+        "Charles Schwab Corporation",
+        "Children's Health Defense",
+        "Democratic Governors Association",
+        "East Resources",
+        "Google Cloud",
+        "MSD Partners",
+        "Schwarzman College of Computing (MIT)",
+        "Swoosh LLC",
+        "US District Court for the Northern District of Texas"
+      ]
+    },
+    "Walmart Inc.": {
+      "name": "Walmart Inc.",
+      "description": "The world's largest retailer, founded by her late husband's family, through which Christy Walton holds a substantial inherited ownership stake.",
+      "elo": 1564.0,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Christy Walton"
+      ],
+      "played_against": [
+        "Anduril Industries",
+        "Breakthrough Energy Ventures",
+        "Charles Schwab Corporation",
+        "Dell Technologies",
+        "Department of Health and Human Services",
+        "FedEx Corporation",
+        "Federal Bureau of Investigation",
+        "Office of the Governor of California",
+        "US District Court for the Northern District of Texas",
+        "US Treasury"
+      ]
+    },
+    "US District Court for the Northern District of Texas": {
+      "name": "US District Court for the Northern District of Texas",
+      "description": "The federal trial court where Kacsmaryk serves as a judge, making it the institutional node through which his nationally consequential rulings are issued.",
+      "elo": 1516.0,
+      "wins": 5,
+      "losses": 4,
+      "matches": 9,
+      "neurons": [
+        "Matthew J. Kacsmaryk"
+      ],
+      "played_against": [
+        "Access Industries",
+        "Cerberus Capital Management",
+        "Charles Schwab Corporation",
+        "Children's Health Defense",
+        "Congressional Progressive Caucus",
+        "Dell Technologies",
+        "Google Cloud",
+        "MSD Partners",
+        "Walmart Inc.",
+        "Yield Giving"
+      ]
+    },
+    "Dell Technologies": {
+      "name": "Dell Technologies",
+      "description": "The multinational technology corporation Dell founded and leads as chairman and CEO, spanning PCs, servers, and enterprise infrastructure.",
+      "elo": 1500.0,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Michael Dell"
+      ],
+      "played_against": [
+        "Congressional Progressive Caucus",
+        "Democratic Governors Association",
+        "Department of Health and Human Services",
+        "Energy Transfer LP",
+        "FedEx Corporation",
+        "Federal Bureau of Investigation",
+        "Google Cloud",
+        "MSD Partners",
+        "US District Court for the Northern District of Texas",
+        "Walmart Inc."
+      ]
+    },
+    "MSD Partners": {
+      "name": "MSD Partners",
+      "description": "Dell's personal investment firm managing his family's capital across private equity, real estate, and public markets.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Michael Dell"
+      ],
+      "played_against": [
+        "Anduril Industries",
+        "Ares Management",
+        "Dell Technologies",
+        "Duquesne Family Office",
+        "Energy Transfer LP",
+        "Google Cloud",
+        "Schwarzman College of Computing (MIT)",
+        "Swoosh LLC",
+        "US District Court for the Northern District of Texas",
+        "Yield Giving"
+      ]
+    },
+    "Federal Bureau of Investigation": {
+      "name": "Federal Bureau of Investigation",
+      "description": "The principal federal law enforcement and domestic intelligence agency, which Patel leads as Director under the Trump administration.",
+      "elo": 1563.9972799371585,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Kash Patel"
+      ],
+      "played_against": [
+        "Anduril Industries",
+        "Children's Health Defense",
+        "Congressional Progressive Caucus",
+        "Dell Technologies",
+        "Department of Health and Human Services",
+        "Google DeepMind",
+        "Office of the Governor of California",
+        "U.S. Chamber of Commerce",
+        "US Treasury",
+        "Walmart Inc."
+      ]
+    },
+    "U.S. Chamber of Commerce": {
+      "name": "U.S. Chamber of Commerce",
+      "description": "The largest US business lobbying federation, representing the interests of millions of companies before Congress, the executive branch, and the courts.",
+      "elo": 1531.971829650337,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Suzanne Clark"
+      ],
+      "played_against": [
+        "Anduril Industries",
+        "Berkshire Hathaway",
+        "Cato Institute",
+        "Cerberus Capital Management",
+        "Department of Health and Human Services",
+        "Energy Transfer LP",
+        "Federal Bureau of Investigation",
+        "National Football League (NFL)",
+        "Nike",
+        "Office of the Governor of California"
+      ]
+    },
+    "Energy Transfer LP": {
+      "name": "Energy Transfer LP",
+      "description": "One of the largest US midstream energy companies, operating an extensive network of pipelines and terminals for crude oil, natural gas, and refined products.",
+      "elo": 1531.9661588501401,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Kelcy Warren"
+      ],
+      "played_against": [
+        "Anduril Industries",
+        "Cerberus Capital Management",
+        "Children's Health Defense",
+        "Congressional Progressive Caucus",
+        "Dell Technologies",
+        "Department of Health and Human Services",
+        "Founders Fund",
+        "MSD Partners",
+        "National Football League (NFL)",
+        "U.S. Chamber of Commerce"
+      ]
+    },
+    "Department of Health and Human Services": {
+      "name": "Department of Health and Human Services",
+      "description": "The principal federal cabinet agency responsible for public health, medical research, food and drug safety, and social services programs.",
+      "elo": 1595.9985224387055,
+      "wins": 8,
+      "losses": 2,
+      "matches": 10,
+      "neurons": [
+        "Robert F. Kennedy Jr."
+      ],
+      "played_against": [
+        "Amazon",
+        "Berkshire Hathaway",
+        "Dell Technologies",
+        "Energy Transfer LP",
+        "Federal Bureau of Investigation",
+        "Fidelity Investments",
+        "Office of the Governor of California",
+        "U.S. Chamber of Commerce",
+        "US Treasury",
+        "Walmart Inc."
+      ]
+    },
+    "Children's Health Defense": {
+      "name": "Children's Health Defense",
+      "description": "The nonprofit advocacy organization Kennedy founded that campaigns against vaccine mandates and environmental toxins, serving as his primary ideological platform prior to government service.",
+      "elo": 1435.809013422019,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Robert F. Kennedy Jr."
+      ],
+      "played_against": [
+        "Boston Bruins",
+        "Buffalo Bills",
+        "Buffalo Sabres",
+        "Cerberus Capital Management",
+        "Duquesne Family Office",
+        "Energy Transfer LP",
+        "Federal Bureau of Investigation",
+        "Schwarzman College of Computing (MIT)",
+        "US District Court for the Northern District of Texas",
+        "Yield Giving"
+      ]
+    },
+    "Cerberus Capital Management": {
+      "name": "Cerberus Capital Management",
+      "description": "A major private equity firm specializing in distressed assets and defense-related investments, which Feinberg co-founded and leads.",
+      "elo": 1531.3479090231156,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Stephen Feinberg"
+      ],
+      "played_against": [
+        "Anduril Industries",
+        "Ares Management",
+        "Ballard Partners",
+        "Children's Health Defense",
+        "Duquesne Family Office",
+        "Energy Transfer LP",
+        "Google DeepMind",
+        "National Football League (NFL)",
+        "U.S. Chamber of Commerce",
+        "US District Court for the Northern District of Texas"
+      ]
+    },
+    "Duquesne Family Office": {
+      "name": "Duquesne Family Office",
+      "description": "The private investment vehicle through which Druckenmiller manages his personal fortune, successor to his former hedge fund and a significant force in global macro investing.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Stanley Druckenmiller"
+      ],
+      "played_against": [
+        "Anduril Industries",
+        "Atlanta Hawks",
+        "Breakthrough Energy Ventures",
+        "Cerberus Capital Management",
+        "Children's Health Defense",
+        "Dallas Cowboys",
+        "East Resources",
+        "MSD Partners",
+        "Schwarzman College of Computing (MIT)",
+        "Swoosh LLC"
+      ]
+    },
+    "Anduril Industries": {
+      "name": "Anduril Industries",
+      "description": "A defense technology company Luckey founded that develops autonomous weapons systems, surveillance infrastructure, and AI-driven military hardware for the US and allied governments.",
+      "elo": 1532.0,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Palmer Luckey"
+      ],
+      "played_against": [
+        "Amazon",
+        "Cerberus Capital Management",
+        "DriveTime Automotive Group",
+        "Duquesne Family Office",
+        "Energy Transfer LP",
+        "Federal Bureau of Investigation",
+        "MSD Partners",
+        "Nike",
+        "U.S. Chamber of Commerce",
+        "Walmart Inc."
+      ]
+    },
+    "Berkshire Hathaway": {
+      "name": "Berkshire Hathaway",
+      "description": "The multinational conglomerate holding company Buffett chairs and built into one of the world's largest corporations, serving as the primary vehicle for his capital allocation and business control.",
+      "elo": 1563.3511044833247,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Warren Buffett"
+      ],
+      "played_against": [
+        "Amazon",
+        "Ares Management",
+        "Atlanta Hawks",
+        "Department of Health and Human Services",
+        "Elliott Investment Management",
+        "Google",
+        "Google DeepMind",
+        "National Football League (NFL)",
+        "U.S. Chamber of Commerce",
+        "US Department of Justice"
+      ]
+    },
+    "Amazon": {
+      "name": "Amazon",
+      "description": "The global e-commerce and cloud computing giant Jassy leads as CEO, encompassing AWS, retail, and all other divisions under one top-level corporate entity.",
+      "elo": 1562.6621739187485,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Andy Jassy",
+        "Jeff Bezos"
+      ],
+      "played_against": [
+        "Anduril Industries",
+        "Ares Management",
+        "Berkshire Hathaway",
+        "Department of Health and Human Services",
+        "Google",
+        "Oracle Corporation",
+        "Salesforce",
+        "US Department of Justice",
+        "US Senate",
+        "US Treasury"
+      ]
+    },
+    "Ares Management": {
+      "name": "Ares Management",
+      "description": "The alternative investment management firm Ressler co-founded and leads, operating across credit, private equity, and real estate at institutional scale.",
+      "elo": 1500.0,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Antony Ressler"
+      ],
+      "played_against": [
+        "Amazon",
+        "Atlanta Hawks",
+        "Berkshire Hathaway",
+        "Cerberus Capital Management",
+        "Democratic Governors Association",
+        "MSD Partners",
+        "National Football League (NFL)",
+        "Nike",
+        "Swoosh LLC",
+        "Worldcoin / Tools for Humanity"
+      ]
+    },
+    "Atlanta Hawks": {
+      "name": "Atlanta Hawks",
+      "description": "The NBA franchise Ressler owns as controlling partner, representing his principal sports and entertainment asset.",
+      "elo": 1370.6593606032723,
+      "wins": 1,
+      "losses": 9,
+      "matches": 10,
+      "neurons": [
+        "Antony Ressler"
+      ],
+      "played_against": [
+        "Ares Management",
+        "Berkshire Hathaway",
+        "Buffalo Sabres",
+        "Chelsea FC",
+        "Dallas Cowboys",
+        "Duquesne Family Office",
+        "East Resources",
+        "REFORM Alliance",
+        "Schwarzman College of Computing (MIT)"
+      ]
+    },
+    "Nike": {
+      "name": "Nike",
+      "description": "The global athletic apparel and footwear corporation Knight co-founded and built, in which the Knight family retains significant ownership and board influence.",
+      "elo": 1500.0,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Phil Knight & family"
+      ],
+      "played_against": [
+        "Anduril Industries",
+        "Ares Management",
+        "Dallas Cowboys",
+        "DriveTime Automotive Group",
+        "Helion Energy",
+        "Microsoft",
+        "National Football League (NFL)",
+        "Swoosh LLC",
+        "U.S. Chamber of Commerce",
+        "Worldcoin / Tools for Humanity"
+      ]
+    },
+    "Swoosh LLC": {
+      "name": "Swoosh LLC",
+      "description": "The Knight family's private holding entity that controls their Nike stake and other investments, functioning as the family's primary financial and governance vehicle.",
+      "elo": 1468.0,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Phil Knight & family"
+      ],
+      "played_against": [
+        "Ares Management",
+        "Dallas Cowboys",
+        "DriveTime Automotive Group",
+        "Duquesne Family Office",
+        "Founders Fund",
+        "MSD Partners",
+        "National Football League (NFL)",
+        "Nike",
+        "Schwarzman College of Computing (MIT)",
+        "Yield Giving"
+      ]
+    },
+    "Dallas Cowboys": {
+      "name": "Dallas Cowboys",
+      "description": "The NFL franchise Jones owns and operates as owner-general manager, one of the most valuable sports franchises in the world and the center of the Jones family's business empire.",
+      "elo": 1499.9997350740377,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Jerry Jones & family"
+      ],
+      "played_against": [
+        "Atlanta Hawks",
+        "Blue Origin",
+        "Carvana",
+        "Duquesne Family Office",
+        "Helion Energy",
+        "Judicial Crisis Network",
+        "National Football League (NFL)",
+        "Nike",
+        "Swoosh LLC",
+        "Worldcoin / Tools for Humanity"
+      ]
+    },
+    "National Football League (NFL)": {
+      "name": "National Football League (NFL)",
+      "description": "The professional football league whose ownership council Jones sits on as a prominent and influential member-owner shaping league policy and governance.",
+      "elo": 1500.0,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Jerry Jones & family"
+      ],
+      "played_against": [
+        "Ares Management",
+        "Berkshire Hathaway",
+        "Cerberus Capital Management",
+        "Dallas Cowboys",
+        "DriveTime Automotive Group",
+        "Energy Transfer LP",
+        "Google DeepMind",
+        "Nike",
+        "Swoosh LLC",
+        "U.S. Chamber of Commerce"
+      ]
+    },
+    "Google DeepMind": {
+      "name": "Google DeepMind",
+      "description": "The consolidated AI research and deployment division of Alphabet that Hassabis leads as CEO, representing the primary organizational unit through which his scientific and strategic influence operates.",
+      "elo": 1531.9729598762226,
+      "wins": 6,
+      "losses": 4,
+      "matches": 10,
+      "neurons": [
+        "Demis Hassabis"
+      ],
+      "played_against": [
+        "Berkshire Hathaway",
+        "Cato Institute",
+        "Cerberus Capital Management",
+        "Federal Bureau of Investigation",
+        "Founders Fund",
+        "Google",
+        "Helion Energy",
+        "National Football League (NFL)",
+        "US Department of Justice",
+        "Worldcoin / Tools for Humanity"
+      ]
+    },
+    "Worldcoin / Tools for Humanity": {
+      "name": "Worldcoin / Tools for Humanity",
+      "description": "The biometric identity and cryptocurrency project Altman co-founded, operating as a distinct company separate from OpenAI pursuing global digital identity infrastructure.",
+      "elo": 1467.8770196494231,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Sam Altman"
+      ],
+      "played_against": [
+        "Ares Management",
+        "Buffalo Bills",
+        "Carvana",
+        "Dallas Cowboys",
+        "DriveTime Automotive Group",
+        "Google DeepMind",
+        "Helion Energy",
+        "Judicial Crisis Network",
+        "Nike",
+        "Time"
+      ]
+    },
+    "Helion Energy": {
+      "name": "Helion Energy",
+      "description": "The nuclear fusion energy startup in which Altman is the lead investor and board member, representing a major separate strategic bet distinct from his AI work.",
+      "elo": 1466.704698169629,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Sam Altman"
+      ],
+      "played_against": [
+        "Buffalo Bills",
+        "Carvana",
+        "Dallas Cowboys",
+        "DriveTime Automotive Group",
+        "Founders Fund",
+        "Glenstone Foundation",
+        "Google DeepMind",
+        "New York Mets",
+        "Nike",
+        "Worldcoin / Tools for Humanity"
+      ]
+    },
+    "Founders Fund": {
+      "name": "Founders Fund",
+      "description": "The venture capital firm Thiel founded and leads, serving as his primary vehicle for early-stage technology investment and ideological influence over Silicon Valley.",
+      "elo": 1499.298988821795,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Peter Thiel"
+      ],
+      "played_against": [
+        "Blue Origin",
+        "Elliott Investment Management",
+        "Energy Transfer LP",
+        "Google",
+        "Google DeepMind",
+        "Helion Energy",
+        "Judicial Crisis Network",
+        "Point72 Asset Management",
+        "Salesforce",
+        "Swoosh LLC"
+      ]
+    },
+    "Judicial Crisis Network": {
+      "name": "Judicial Crisis Network",
+      "description": "The conservative legal advocacy organization Severino leads as president, functioning as a primary dark-money and communications vehicle for shaping federal judicial nominations and confirmations.",
+      "elo": 1499.9128962786576,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Carrie Severino"
+      ],
+      "played_against": [
+        "Carvana",
+        "Cato Institute",
+        "Dallas Cowboys",
+        "DriveTime Automotive Group",
+        "Founders Fund",
+        "New York Mets",
+        "Point72 Asset Management",
+        "Salesforce",
+        "US Department of Justice",
+        "Worldcoin / Tools for Humanity"
+      ]
+    },
+    "DriveTime Automotive Group": {
+      "name": "DriveTime Automotive Group",
+      "description": "The privately held used-car dealership chain Garcia controls as majority owner, forming the foundation of his business empire.",
+      "elo": 1500.0,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Ernest Garcia, III"
+      ],
+      "played_against": [
+        "Anduril Industries",
+        "Buffalo Bills",
+        "Buffalo Sabres",
+        "East Resources",
+        "Helion Energy",
+        "Judicial Crisis Network",
+        "National Football League (NFL)",
+        "Nike",
+        "Swoosh LLC",
+        "Worldcoin / Tools for Humanity"
+      ]
+    },
+    "Carvana": {
+      "name": "Carvana",
+      "description": "The publicly traded online used-car retailer he co-founded and in which he holds a controlling stake as its largest shareholder.",
+      "elo": 1467.9949943062336,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Ernest Garcia, III"
+      ],
+      "played_against": [
+        "Blue Origin",
+        "Buffalo Bills",
+        "Dallas Cowboys",
+        "East Resources",
+        "Google",
+        "Google Cloud",
+        "Helion Energy",
+        "Judicial Crisis Network",
+        "New York Mets",
+        "Worldcoin / Tools for Humanity"
+      ]
+    },
+    "Buffalo Bills": {
+      "name": "Buffalo Bills",
+      "description": "The NFL franchise Pegula owns, giving him a major platform in professional football and the Buffalo regional economy.",
+      "elo": 1434.64836045246,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Terrence Pegula"
+      ],
+      "played_against": [
+        "Blue Origin",
+        "Carvana",
+        "Children's Health Defense",
+        "DriveTime Automotive Group",
+        "Geffen Records",
+        "Google",
+        "Helion Energy",
+        "New York Mets",
+        "Time",
+        "Worldcoin / Tools for Humanity"
+      ]
+    },
+    "Buffalo Sabres": {
+      "name": "Buffalo Sabres",
+      "description": "The NHL franchise Pegula owns, pairing with the Bills to make him the dominant sports owner in western New York.",
+      "elo": 1400.0485519415656,
+      "wins": 2,
+      "losses": 8,
+      "matches": 10,
+      "neurons": [
+        "Terrence Pegula"
+      ],
+      "played_against": [
+        "Airbnb",
+        "Atlanta Hawks",
+        "Children's Health Defense",
+        "DriveTime Automotive Group",
+        "East Resources",
+        "Glenstone Foundation",
+        "Google",
+        "REFORM Alliance",
+        "Time",
+        "YAM Worldwide"
+      ]
+    },
+    "East Resources": {
+      "name": "East Resources",
+      "description": "The natural gas company Pegula founded and sold for $4.7 billion, the original source of his wealth and a node in US energy markets.",
+      "elo": 1404.0,
+      "wins": 2,
+      "losses": 8,
+      "matches": 10,
+      "neurons": [
+        "Terrence Pegula"
+      ],
+      "played_against": [
+        "Atlanta Hawks",
+        "Buffalo Sabres",
+        "Carvana",
+        "DriveTime Automotive Group",
+        "Duquesne Family Office",
+        "New York Mets",
+        "Time",
+        "US Department of Justice",
+        "Ultimate Fighting Championship (UFC)",
+        "Yield Giving"
+      ]
+    },
+    "US Department of Justice": {
+      "name": "US Department of Justice",
+      "description": "The federal executive department Bondi leads as Attorney General, overseeing federal law enforcement and prosecution across the United States.",
+      "elo": 1562.7439165574294,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Pam Bondi"
+      ],
+      "played_against": [
+        "Amazon",
+        "Apple Inc.",
+        "Berkshire Hathaway",
+        "East Resources",
+        "Google",
+        "Google DeepMind",
+        "Judicial Crisis Network",
+        "Supreme Court of the United States",
+        "US Senate",
+        "US Treasury"
+      ]
+    },
+    "Google": {
+      "name": "Google",
+      "description": "The core search, advertising, and cloud subsidiary of Alphabet that Pichai also directly oversees and that generates the vast majority of Alphabet's revenue.",
+      "elo": 1563.2387607385906,
+      "wins": 7,
+      "losses": 3,
+      "matches": 10,
+      "neurons": [
+        "Sundar Pichai"
+      ],
+      "played_against": [
+        "Amazon",
+        "Berkshire Hathaway",
+        "Buffalo Bills",
+        "Buffalo Sabres",
+        "Carvana",
+        "Cato Institute",
+        "Founders Fund",
+        "Google DeepMind",
+        "Oracle Corporation",
+        "US Department of Justice"
+      ]
+    },
+    "Point72 Asset Management": {
+      "name": "Point72 Asset Management",
+      "description": "The hedge fund Cohen founded and runs, managing roughly $35 billion and serving as his primary vehicle for financial market influence.",
+      "elo": 1498.7761865684943,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Steve Cohen"
+      ],
+      "played_against": [
+        "Ballard Partners",
+        "Blue Origin",
+        "Cato Institute",
+        "Founders Fund",
+        "House Democratic Caucus",
+        "Judicial Crisis Network",
+        "Mars, Incorporated",
+        "New York Mets",
+        "Republican Jewish Coalition",
+        "The Washington Post"
+      ]
+    },
+    "New York Mets": {
+      "name": "New York Mets",
+      "description": "The MLB franchise Cohen owns, giving him a prominent public platform and significant influence in New York sports and media.",
+      "elo": 1467.9367237288668,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Steve Cohen"
+      ],
+      "played_against": [
+        "Blue Origin",
+        "Buffalo Bills",
+        "Carvana",
+        "Cato Institute",
+        "East Resources",
+        "Helion Energy",
+        "House Democratic Caucus",
+        "Judicial Crisis Network",
+        "Point72 Asset Management",
+        "Time"
+      ]
+    },
+    "The Washington Post": {
+      "name": "The Washington Post",
+      "description": "The nationally influential newspaper Bezos owns personally, giving him direct control over a major US media institution.",
+      "elo": 1496.790308696584,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Jeff Bezos"
+      ],
+      "played_against": [
+        "Apollo Global Management",
+        "Ballard Partners",
+        "Blue Origin",
+        "Citadel LLC",
+        "Elliott Investment Management",
+        "Point72 Asset Management",
+        "Republican Jewish Coalition",
+        "Robin Hood Foundation",
+        "Salesforce",
+        "US House of Representatives"
+      ]
+    },
+    "Blue Origin": {
+      "name": "Blue Origin",
+      "description": "The aerospace and space-tourism company Bezos founded and funds, a distinct organization from Amazon competing in the commercial space sector.",
+      "elo": 1499.9101341417202,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Jeff Bezos"
+      ],
+      "played_against": [
+        "Airbnb",
+        "Buffalo Bills",
+        "Carvana",
+        "Cato Institute",
+        "Dallas Cowboys",
+        "Founders Fund",
+        "New York Mets",
+        "Point72 Asset Management",
+        "Salesforce",
+        "The Washington Post"
+      ]
+    },
+    "Salesforce": {
+      "name": "Salesforce",
+      "description": "The enterprise cloud software company Benioff co-founded and leads as CEO, making him one of the most powerful figures in US enterprise technology.",
+      "elo": 1498.043906612008,
+      "wins": 4,
+      "losses": 4,
+      "matches": 8,
+      "neurons": [
+        "Marc Benioff"
+      ],
+      "played_against": [
+        "Amazon",
+        "Blue Origin",
+        "Cato Institute",
+        "Citadel LLC",
+        "Elliott Investment Management",
+        "Founders Fund",
+        "Judicial Crisis Network",
+        "The Washington Post",
+        "Time",
+        "US Senate"
+      ]
+    },
+    "Time": {
+      "name": "Time",
+      "description": "The iconic US news magazine Benioff owns personally, giving him direct control over a historically influential American media brand.",
+      "elo": 1433.4624088566966,
+      "wins": 3,
+      "losses": 7,
+      "matches": 10,
+      "neurons": [
+        "Marc Benioff"
+      ],
+      "played_against": [
+        "Airbnb",
+        "Bridgewater Associates",
+        "Buffalo Bills",
+        "Buffalo Sabres",
+        "East Resources",
+        "New York Mets",
+        "Republican Jewish Coalition",
+        "Salesforce",
+        "Worldcoin / Tools for Humanity",
+        "YAM Worldwide"
+      ]
+    },
+    "Cato Institute": {
+      "name": "Cato Institute",
+      "description": "The libertarian think tank the Kochs co-founded and have long funded, shaping US policy discourse on free markets, civil liberties, and limited government.",
+      "elo": 1499.4164583469862,
+      "wins": 5,
+      "losses": 5,
+      "matches": 10,
+      "neurons": [
+        "Charles Koch & family"
+      ],
+      "played_against": [
+        "Airbnb",
+        "Ballard Partners",
+        "Blue Origin",
+        "Google",
+        "Google DeepMind",
+        "Judicial Crisis Network",
+        "New York Mets",
+        "Point72 Asset Management",
+        "Salesforce",
+        "U.S. Chamber of Commerce"
+      ]
+    },
+    "Airbnb": {
+      "name": "Airbnb",
+      "description": "The global short-term rental marketplace Chesky co-founded and leads as CEO, making him the central node of a platform that has reshaped US and global hospitality markets.",
+      "elo": 1463.5686916896832,
+      "wins": 4,
+      "losses": 6,
+      "matches": 10,
+      "neurons": [
+        "Brian Chesky"
+      ],
+      "played_against": [
+        "Apollo Global Management",
+        "Blue Origin",
+        "Bridgewater Associates",
+        "Buffalo Sabres",
+        "Cato Institute",
+        "Elliott Investment Management",
+        "Geffen Records",
+        "Glenstone Foundation",
+        "Republican Jewish Coalition",
+        "Time"
+      ]
+    }
+  },
+  "neuron_ca_map": {
+    "Brian Ballard": [
+      "Ballard Partners"
+    ],
+    "Tom Cotton": [
+      "US Senate",
+      "Senate Republican Conference"
+    ],
+    "Paul Singer": [
+      "Elliott Investment Management",
+      "Republican Jewish Coalition"
+    ],
+    "Ken Griffin": [
+      "Citadel LLC",
+      "Citadel Securities"
+    ],
+    "Mitch McConnell": [
+      "US Senate",
+      "Senate Republican Conference"
+    ],
+    "Hakeem S. Jeffries": [
+      "US House of Representatives",
+      "House Democratic Caucus"
+    ],
+    "Greg Abbott": [
+      "Office of the Governor of Texas",
+      "Republican Governors Association"
+    ],
+    "Ray Dalio": [
+      "Bridgewater Associates"
+    ],
+    "Judy Faulkner": [
+      "Epic Systems"
+    ],
+    "Neil M. Gorsuch": [
+      "Supreme Court of the United States",
+      "Federalist Society"
+    ],
+    "Mustafa Suleyman": [
+      "Microsoft"
+    ],
+    "Larry Ellison": [
+      "Oracle Corporation"
+    ],
+    "Jonathan Gray": [
+      "Blackstone"
+    ],
+    "Ketanji Brown Jackson": [
+      "Supreme Court of the United States"
+    ],
+    "Leon Black": [
+      "Apollo Global Management"
+    ],
+    "Marc Rowan": [
+      "Apollo Global Management"
+    ],
+    "Jensen Huang": [
+      "NVIDIA"
+    ],
+    "Paul Tudor Jones, II.": [
+      "Tudor Investment Corp",
+      "Robin Hood Foundation"
+    ],
+    "John G. Roberts Jr.": [
+      "Supreme Court of the United States",
+      "Judicial Conference of the United States"
+    ],
+    "Mitchell Rales": [
+      "Danaher Corporation",
+      "Glenstone Foundation"
+    ],
+    "John Mars": [
+      "Mars, Incorporated"
+    ],
+    "Susan M. Collins": [
+      "US Senate",
+      "Senate Appropriations Committee"
+    ],
+    "David Geffen": [
+      "Geffen Records",
+      "David Geffen Foundation"
+    ],
+    "Pierre Omidyar": [
+      "eBay",
+      "Omidyar Network"
+    ],
+    "Bob Parsons": [
+      "GoDaddy",
+      "YAM Worldwide"
+    ],
+    "Mike Lee": [
+      "US Senate",
+      "Federalist Society"
+    ],
+    "Larry Page": [
+      "Alphabet Inc."
+    ],
+    "Donald Newhouse": [
+      "Advance Publications"
+    ],
+    "Laurene Powell Jobs": [
+      "Emerson Collective",
+      "The Atlantic"
+    ],
+    "Donald Trump": [
+      "Trump White House",
+      "Trump Organization",
+      "Republican National Committee"
+    ],
+    "William Ackman": [
+      "Pershing Square Capital Management",
+      "Pershing Square Foundation"
+    ],
+    "Michael Bloomberg": [
+      "Bloomberg L.P.",
+      "Bloomberg Philanthropies",
+      "Everytown for Gun Safety"
+    ],
+    "Richard Uihlein": [
+      "Uline",
+      "Restoration PAC"
+    ],
+    "Josh Hawley": [
+      "US Senate",
+      "Senate Judiciary Committee"
+    ],
+    "Lynn Schusterman & family": [
+      "Charles and Lynn Schusterman Family Philanthropies"
+    ],
+    "Josh Harris": [
+      "Apollo Global Management",
+      "Harris Blitzer Sports & Entertainment"
+    ],
+    "Ron DeSantis": [
+      "Government of Florida",
+      "Republican Governors Association"
+    ],
+    "David Tepper": [
+      "Appaloosa Management",
+      "Tepper Sports & Entertainment"
+    ],
+    "Rupert Murdoch & family": [
+      "Fox Corporation",
+      "News Corp"
+    ],
+    "Sean Hannity": [
+      "Premiere Networks",
+      "Fox Corporation"
+    ],
+    "Thomas Peterffy": [
+      "Interactive Brokers"
+    ],
+    "Chuck Grassley": [
+      "US Senate",
+      "Senate Judiciary Committee"
+    ],
+    "Lisa Su": [
+      "AMD"
+    ],
+    "Melinda French Gates": [
+      "Pivotal Ventures",
+      "Bill & Melinda Gates Foundation"
+    ],
+    "Rick Scott": [
+      "US Senate",
+      "Senate Republican Conference"
+    ],
+    "Philip Anschutz": [
+      "Anschutz Corporation",
+      "Anschutz Entertainment Group (AEG)",
+      "Clarity Media Group"
+    ],
+    "Richard J. Durbin": [
+      "US Senate",
+      "Senate Democratic Caucus"
+    ],
+    "Mark Zuckerberg": [
+      "Meta Platforms",
+      "Chan Zuckerberg Initiative"
+    ],
+    "Sergey Brin": [
+      "Alphabet Inc."
+    ],
+    "Pete Hegseth": [
+      "Department of Defense"
+    ],
+    "David Rubenstein": [
+      "The Carlyle Group",
+      "Council on Foreign Relations"
+    ],
+    "Henry Kravis": [
+      "KKR & Co.",
+      "Council on Foreign Relations"
+    ],
+    "Lukas Walton": [
+      "Builders Vision",
+      "Walton Family Foundation"
+    ],
+    "Cynthia M. Lummis": [
+      "US Senate",
+      "Senate Banking, Housing, and Urban Affairs Committee"
+    ],
+    "Clarence Thomas": [
+      "Supreme Court of the United States",
+      "Federalist Society"
+    ],
+    "Leonard Leo": [
+      "Federalist Society",
+      "Marble Freedom Trust",
+      "CRC Advisors"
+    ],
+    "Marijke Mars": [
+      "Mars, Incorporated"
+    ],
+    "Alex Karp": [
+      "Palantir Technologies"
+    ],
+    "Stephen Ross": [
+      "Related Companies",
+      "Miami Dolphins"
+    ],
+    "Stewart Resnick": [
+      "The Wonderful Company"
+    ],
+    "Elon Musk": [
+      "Department of Government Efficiency (DOGE)",
+      "SpaceX",
+      "X Corp",
+      "xAI"
+    ],
+    "Julia Koch & family": [
+      "Koch Industries",
+      "Americans for Prosperity"
+    ],
+    "Jeff Yass": [
+      "Susquehanna International Group (SIG)",
+      "Club for Growth"
+    ],
+    "Eric Schmidt": [
+      "Alphabet / Google",
+      "Special Competitive Studies Project (SCSP)"
+    ],
+    "Susie Wiles": [
+      "Trump White House",
+      "Make America Great Again Inc. (MAGA Inc.)"
+    ],
+    "Michael Rubin": [
+      "Fanatics",
+      "REFORM Alliance"
+    ],
+    "John Malone": [
+      "Liberty Media",
+      "Warner Bros. Discovery"
+    ],
+    "Ken Langone": [
+      "Home Depot",
+      "NYU Langone Health"
+    ],
+    "Miriam Adelson & family": [
+      "Las Vegas Sands",
+      "Republican Jewish Coalition"
+    ],
+    "Charlie Kirk": [
+      "Turning Point USA",
+      "Turning Point Action"
+    ],
+    "Elena Kagan": [
+      "Supreme Court of the United States"
+    ],
+    "Lindsey Graham": [
+      "US Senate",
+      "Senate Judiciary Committee"
+    ],
+    "Bret Taylor": [
+      "OpenAI",
+      "Sierra"
+    ],
+    "Carl Icahn": [
+      "Icahn Enterprises"
+    ],
+    "Christopher Murphy": [
+      "US Senate",
+      "Senate Foreign Relations Committee"
+    ],
+    "Steve Scalise": [
+      "US House of Representatives",
+      "House Republican Conference"
+    ],
+    "Alexander Karp": [
+      "Palantir Technologies"
+    ],
+    "Jeremy Jacobs, Sr. & family": [
+      "Delaware North",
+      "Boston Bruins"
+    ],
+    "Ann Walton Kroenke": [
+      "Walmart",
+      "Kroenke Sports & Entertainment"
+    ],
+    "Alice Walton": [
+      "Walmart",
+      "Crystal Bridges Museum of American Art"
+    ],
+    "Mark Walter": [
+      "Guggenheim Partners",
+      "Los Angeles Dodgers",
+      "Chelsea FC"
+    ],
+    "George Soros": [
+      "Open Society Foundations",
+      "Soros Fund Management"
+    ],
+    "Dario Amodei": [
+      "Anthropic"
+    ],
+    "Abigail Johnson": [
+      "Fidelity Investments"
+    ],
+    "Jerome H. Powell": [
+      "Federal Reserve"
+    ],
+    "John Thune": [
+      "US Senate",
+      "Senate Republican Conference"
+    ],
+    "David Bonderman": [
+      "TPG Inc."
+    ],
+    "Thomas Frist, Jr. & family": [
+      "HCA Healthcare"
+    ],
+    "Edward Johnson, IV.": [
+      "Fidelity Investments"
+    ],
+    "Brian Armstrong": [
+      "Coinbase",
+      "Stand With Crypto"
+    ],
+    "Rob Walton & family": [
+      "Walmart",
+      "Walton Enterprises",
+      "Walton Family Foundation"
+    ],
+    "Amy Coney Barrett": [
+      "Supreme Court of the United States",
+      "Federalist Society"
+    ],
+    "Kevin Roberts": [
+      "The Heritage Foundation",
+      "Council for National Policy"
+    ],
+    "Victoria Mars": [
+      "Mars, Incorporated"
+    ],
+    "Thomas Pritzker": [
+      "Hyatt Hotels Corporation",
+      "The Pritzker Organization"
+    ],
+    "Brett M. Kavanaugh": [
+      "Supreme Court of the United States",
+      "Federalist Society"
+    ],
+    "Russell M. Nelson": [
+      "The Church of Jesus Christ of Latter-day Saints"
+    ],
+    "Ronald Lauder": [
+      "Estée Lauder Companies",
+      "World Jewish Congress"
+    ],
+    "Jim Walton & family": [
+      "Walmart",
+      "Arvest Bank"
+    ],
+    "Joe Rogan": [
+      "The Joe Rogan Experience",
+      "Ultimate Fighting Championship (UFC)"
+    ],
+    "Tim Cook": [
+      "Apple Inc.",
+      "Business Roundtable"
+    ],
+    "Ted Cruz": [
+      "US Senate",
+      "Senate Commerce Committee",
+      "Senate Republican Conference"
+    ],
+    "Len Blavatnik": [
+      "Access Industries",
+      "Warner Music Group"
+    ],
+    "Daniela Amodei": [
+      "Anthropic"
+    ],
+    "Charles Schwab": [
+      "Charles Schwab Corporation"
+    ],
+    "Scott Bessent": [
+      "US Treasury"
+    ],
+    "J.B. Pritzker": [
+      "Office of the Governor of Illinois",
+      "Hyatt Hotels Corporation",
+      "Democratic Governors Association"
+    ],
+    "Gavin Newsom": [
+      "Office of the Governor of California",
+      "Democratic Governors Association"
+    ],
+    "Fred Smith": [
+      "FedEx Corporation"
+    ],
+    "Alexandria Ocasio-Cortez": [
+      "US House of Representatives",
+      "Congressional Progressive Caucus"
+    ],
+    "Bill Gates": [
+      "Bill & Melinda Gates Foundation",
+      "Breakthrough Energy Ventures"
+    ],
+    "Stephen Schwarzman": [
+      "Schwarzman College of Computing (MIT)",
+      "Blackstone"
+    ],
+    "Thomas Kurian": [
+      "Google Cloud"
+    ],
+    "MacKenzie Scott": [
+      "Yield Giving"
+    ],
+    "Christy Walton": [
+      "Walton Family Foundation",
+      "Walmart Inc."
+    ],
+    "Patty Murray": [
+      "US Senate",
+      "Senate Appropriations Committee"
+    ],
+    "Matthew J. Kacsmaryk": [
+      "US District Court for the Northern District of Texas",
+      "Federalist Society"
+    ],
+    "Michael Dell": [
+      "Dell Technologies",
+      "MSD Partners"
+    ],
+    "Kash Patel": [
+      "Federal Bureau of Investigation"
+    ],
+    "Charles E. Schumer": [
+      "US Senate",
+      "Senate Democratic Caucus"
+    ],
+    "Sonia Sotomayor": [
+      "Supreme Court of the United States"
+    ],
+    "Suzanne Clark": [
+      "U.S. Chamber of Commerce"
+    ],
+    "Kelcy Warren": [
+      "Energy Transfer LP"
+    ],
+    "Robert F. Kennedy Jr.": [
+      "Department of Health and Human Services",
+      "Children's Health Defense"
+    ],
+    "George Roberts": [
+      "KKR & Co."
+    ],
+    "Stephen Feinberg": [
+      "Cerberus Capital Management"
+    ],
+    "Stanley Druckenmiller": [
+      "Duquesne Family Office"
+    ],
+    "Palmer Luckey": [
+      "Anduril Industries"
+    ],
+    "Satya Nadella": [
+      "Microsoft"
+    ],
+    "Samuel A. Alito Jr.": [
+      "Supreme Court of the United States",
+      "Federalist Society"
+    ],
+    "Warren Buffett": [
+      "Berkshire Hathaway"
+    ],
+    "Andy Jassy": [
+      "Amazon"
+    ],
+    "Antony Ressler": [
+      "Ares Management",
+      "Atlanta Hawks"
+    ],
+    "Lynda Resnick": [
+      "The Wonderful Company"
+    ],
+    "Phil Knight & family": [
+      "Nike",
+      "Swoosh LLC"
+    ],
+    "Jerry Jones & family": [
+      "Dallas Cowboys",
+      "National Football League (NFL)"
+    ],
+    "Demis Hassabis": [
+      "Google DeepMind"
+    ],
+    "Sam Altman": [
+      "OpenAI",
+      "Worldcoin / Tools for Humanity",
+      "Helion Energy"
+    ],
+    "Peter Thiel": [
+      "Founders Fund",
+      "Palantir Technologies"
+    ],
+    "Carrie Severino": [
+      "Judicial Crisis Network",
+      "Federalist Society"
+    ],
+    "Ernest Garcia, III": [
+      "DriveTime Automotive Group",
+      "Carvana"
+    ],
+    "Terrence Pegula": [
+      "Buffalo Bills",
+      "Buffalo Sabres",
+      "East Resources"
+    ],
+    "Elise M. Stefanik": [
+      "US House of Representatives",
+      "House Republican Conference"
+    ],
+    "Pam Bondi": [
+      "US Department of Justice"
+    ],
+    "Sundar Pichai": [
+      "Alphabet Inc.",
+      "Google"
+    ],
+    "Steve Cohen": [
+      "Point72 Asset Management",
+      "New York Mets"
+    ],
+    "Jeff Bezos": [
+      "Amazon",
+      "The Washington Post",
+      "Blue Origin"
+    ],
+    "Marc Benioff": [
+      "Salesforce",
+      "Time"
+    ],
+    "Charles Koch & family": [
+      "Koch Industries",
+      "Americans for Prosperity",
+      "Cato Institute"
+    ],
+    "Brian Chesky": [
+      "Airbnb"
+    ]
+  },
+  "dedup_log": [
+    {
+      "pass": "2a_alpha",
+      "ca_count_before": 190,
+      "windows_processed": 6,
+      "merge_suggestions": 8,
+      "merges_applied": 2,
+      "ca_count_after": 188
+    },
+    {
+      "pass": "2b_embedding",
+      "ca_count_before": 188,
+      "similar_pairs": 0,
+      "clusters_found": 0,
+      "clusters_confirmed": 0,
+      "clusters_rejected": 0,
+      "merges_applied": 0,
+      "ca_count_after": 188
+    }
+  ]
+}

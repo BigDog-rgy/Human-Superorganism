@@ -1,21 +1,18 @@
 """
 Superorganism Assembler
 
-Lightweight (no-LLM) replacement for superorganism_mapper.py and
-us_superorganism_mapper.py.
-
-Reads final_ranked_{scope}.json + ps_canon_{scope}.json + ca_canon_{scope}.json
+Reads final_ranked_{scope}.json + ps_canon_v2_{scope}.json + ca_canon_v2_{scope}.json
 and assembles the superorganism model consumed by combined_viz.py,
 hebbian_updater.py, and weekly_briefing.py.
 
-No API calls — pure data assembly. PS and weights are produced by
-ps_council.py; cell assemblies are produced by ca_council.py.
-ca_canon is optional — if absent, cell_assemblies fields are left empty.
+No API calls — pure data assembly.
+  - Neuron → CA memberships come from ca_canon_v2 (neuron_ca_map)
+  - CA → PS memberships come from ps_canon_v2 (ca_ps_map)
+  - Neuron → PS memberships are derived by chaining neuron → CAs → PSes
 
 Usage:
     python superorganism_assembler.py --scope us
     python superorganism_assembler.py --scope global
-    python superorganism_assembler.py --scope us --weight-threshold 0.1
 """
 
 import json
@@ -25,16 +22,12 @@ from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent
 
-# Weight below which a PS assignment is excluded from superorganism.phase_sequences.
-# 0.0 means "include everything non-zero" (ps_council already skips true zeros).
-DEFAULT_WEIGHT_THRESHOLD = 0.0
-
 SCOPE_CONFIG = {
     "us": {
         "label": "US",
         "input_file": "final_ranked_us.json",
-        "ps_canon_file": "ps_canon_us.json",
-        "ca_canon_file": "ca_canon_us.json",
+        "ps_canon_file": "ps_canon_v2_us.json",
+        "ca_canon_file": "ca_canon_v2_us.json",
         "output_file": "us_superorganism_model.json",
         "default_hemisphere": "West",
         "top_n": 150,   # Only top-ranked neurons enter the model; full list kept in input file
@@ -87,11 +80,11 @@ SCOPE_CONFIG = {
     "global": {
         "label": "Global",
         "input_file": "final_ranked_global.json",
-        "ps_canon_file": "ps_canon_global.json",
-        "ca_canon_file": "ca_canon_global.json",
+        "ps_canon_file": "ps_canon_v2_global.json",
+        "ca_canon_file": "ca_canon_v2_global.json",
         "output_file": "superorganism_model.json",
         "default_hemisphere": "West",   # fallback; hemisphere coloring not yet in ranked list
-        "top_n": None,   # No limit for global
+        "top_n": 300,    # Match ps_council_v2 anchor set size
         "sectors": {},
     },
 }
@@ -142,36 +135,37 @@ def derive_cell_assemblies(name: str, memberships: dict, ca_lookup: dict) -> lis
 
 
 def derive_phase_sequences(
-    person_weights: dict,
+    neuron_ca_ids: list,
+    ca_ps_map: dict,
     ps_lookup: dict,
-    threshold: float,
 ) -> list:
     """
-    Convert a neuron's {ps_id: weight} dict into the list of
-    {"id": ..., "name": ..., "role": ...} objects that combined_viz.py
-    expects under superorganism.phase_sequences.
+    Derive a neuron's PS memberships by chaining neuron → CAs → PSes.
+    neuron_ca_ids: [ca_id, ...] from neuron_ca_map
+    ca_ps_map:     {ca_id: [ps_id, ...]} from ps_canon_v2
+    ps_lookup:     {ps_id: {name, definition, ...}}
 
-    `role` is left intentionally sparse here — it is accessed by the
-    tooltip renderer (combined_viz.py line 287) so the key must exist.
-    The PS definition is used as a concise stand-in until richer
-    role annotations are added.
+    Returns deduplicated list of {"id", "name", "role"} in PS id order.
+    `role` must be present — tooltip renderer (combined_viz.py) accesses it.
     """
+    seen: set = set()
     result = []
-    for ps_id, weight in sorted(person_weights.items()):
-        if weight <= threshold:
-            continue
-        ps_meta = ps_lookup.get(ps_id, {})
-        name = ps_meta.get("name", ps_id)
-        definition = ps_meta.get("definition", "")
-        result.append({
-            "id": ps_id,
-            "name": name,
-            "role": definition,       # tooltip renders this — must be present
-        })
+    for ca_id in neuron_ca_ids:
+        for ps_id in ca_ps_map.get(ca_id, []):
+            if ps_id in seen:
+                continue
+            seen.add(ps_id)
+            ps_meta = ps_lookup.get(ps_id, {})
+            result.append({
+                "id":   ps_id,
+                "name": ps_meta.get("name", ps_id),
+                "role": ps_meta.get("definition", ""),
+            })
+    result.sort(key=lambda x: x["id"])
     return result
 
 
-def assemble(scope: str, weight_threshold: float = DEFAULT_WEIGHT_THRESHOLD, top_n_override: int = None):
+def assemble(scope: str, top_n_override: int = None):
     cfg = SCOPE_CONFIG[scope]
     input_path  = SCRIPT_DIR / cfg["input_file"]
     canon_path  = SCRIPT_DIR / cfg["ps_canon_file"]
@@ -187,7 +181,7 @@ def assemble(scope: str, weight_threshold: float = DEFAULT_WEIGHT_THRESHOLD, top
         return
     if not canon_path.exists():
         print(f"ERROR: {canon_path.name} not found.")
-        print(f"  Run: python ps_council.py --scope {scope}")
+        print(f"  Run: python ps_council_v2.py --scope {scope}")
         return
 
     print(f"\nLoading prime movers from {input_path.name}...")
@@ -201,11 +195,11 @@ def assemble(scope: str, weight_threshold: float = DEFAULT_WEIGHT_THRESHOLD, top
         print(f"  {total} individuals loaded")
 
     print(f"Loading phase sequences from {canon_path.name}...")
-    ps_canon       = load_ps_canon(canon_path)
+    ps_canon        = load_ps_canon(canon_path)
     phase_sequences = ps_canon.get("phase_sequences", [])
-    weights_map     = ps_canon.get("initial_neuron_weights", {})
+    ca_ps_map       = ps_canon.get("ca_ps_map", {})
     print(f"  {len(phase_sequences)} phase sequences")
-    print(f"  Weights for {len(weights_map)} neurons")
+    print(f"  CA-PS links for {len(ca_ps_map)} assemblies")
 
     if not phase_sequences:
         print("ERROR: ps_canon has no phase_sequences.")
@@ -217,28 +211,33 @@ def assemble(scope: str, weight_threshold: float = DEFAULT_WEIGHT_THRESHOLD, top
     print(f"Loading cell assemblies from {ca_path.name}...")
     ca_canon = load_ca_canon(ca_path)
     if ca_canon:
-        cell_assemblies      = ca_canon.get("cell_assemblies", [])
-        ca_memberships       = ca_canon.get("neuron_assembly_memberships", {})
-        ca_lookup            = {ca["id"]: ca for ca in cell_assemblies}
+        cell_assemblies = ca_canon.get("cell_assemblies", [])
+        ca_memberships  = ca_canon.get("neuron_ca_map", ca_canon.get("neuron_assembly_memberships", {}))
+        ca_lookup       = {ca["id"]: ca for ca in cell_assemblies}
+        # Inject ps_memberships onto each CA from ca_ps_map
+        for ca_id, ca in ca_lookup.items():
+            ca["ps_memberships"] = ca_ps_map.get(ca_id, [])
+        assigned_cas = sum(1 for ca_id in ca_lookup if ca_ps_map.get(ca_id))
         print(f"  {len(cell_assemblies)} cell assemblies, {len(ca_memberships)} neurons assigned")
+        print(f"  {assigned_cas}/{len(cell_assemblies)} CAs have PS memberships")
     else:
-        print(f"  Not found — cell_assemblies will be empty (run ca_council.py --scope {scope})")
+        print(f"  Not found — cell_assemblies will be empty (run ca_council_v2.py --scope {scope})")
         cell_assemblies = []
         ca_memberships  = {}
         ca_lookup       = {}
 
-    print(f"\nAssembling (weight threshold > {weight_threshold})...")
+    print(f"\nAssembling...")
     unmatched = []
     superorganism_list = []
 
     for person in people:
-        name = person["name"]
-        person_weights = weights_map.get(name, {})
+        name       = person["name"]
+        ca_ids     = ca_memberships.get(name, [])
 
-        if not person_weights:
+        if not ca_ids:
             unmatched.append(name)
 
-        ps_list = derive_phase_sequences(person_weights, ps_lookup, weight_threshold)
+        ps_list = derive_phase_sequences(ca_ids, ca_ps_map, ps_lookup)
         ca_list = derive_cell_assemblies(name, ca_memberships, ca_lookup)
 
         superorganism = {
@@ -257,10 +256,10 @@ def assemble(scope: str, weight_threshold: float = DEFAULT_WEIGHT_THRESHOLD, top
         print(f"  + {name}: {len(ps_list)} PS, {len(ca_list)} assemblies")
 
     if unmatched:
-        print(f"\n  ! No weights found for {len(unmatched)} individuals:")
+        print(f"\n  ! No CA memberships found for {len(unmatched)} individuals:")
         for n in unmatched:
             print(f"      {n}")
-        print("    Re-run ps_council.py to generate weights for all neurons.")
+        print("    Re-run ca_council_v2.py to generate CA memberships for all neurons.")
 
     # Build output — structure must match what combined_viz.py + hebbian_updater.py expect
     output = {
@@ -273,11 +272,10 @@ def assemble(scope: str, weight_threshold: float = DEFAULT_WEIGHT_THRESHOLD, top
             "focus": f"{cfg['label']} prime movers",
             "assembled_by": "superorganism_assembler.py",
             "top_n": top_n,
-            "weight_threshold": weight_threshold,
             "methodology": (
-                f"Lightweight assembly: phase_sequences from ps_canon weights "
-                f"(threshold > {weight_threshold}), cell_assemblies from ca_canon "
-                f"neuron_assembly_memberships. No LLM calls."
+                "V2 assembly: cell_assemblies from ca_canon_v2 neuron_ca_map; "
+                "phase_sequences derived by chaining neuron → CA → PS via ca_ps_map. "
+                "No LLM calls."
             ),
         },
         "canonical_vocabulary": {
@@ -303,22 +301,18 @@ def assemble(scope: str, weight_threshold: float = DEFAULT_WEIGHT_THRESHOLD, top
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Assemble superorganism model from ps_canon and ranked list"
+        description="Assemble superorganism model from ps_canon_v2 and ca_canon_v2"
     )
     parser.add_argument(
         "--scope", choices=["us", "global"], default="us",
         help="Which model to assemble: 'us' (default) or 'global'"
     )
     parser.add_argument(
-        "--weight-threshold", type=float, default=DEFAULT_WEIGHT_THRESHOLD,
-        help=f"Minimum weight to include a PS assignment (default: {DEFAULT_WEIGHT_THRESHOLD})"
-    )
-    parser.add_argument(
         "--top-n", type=int, default=None,
         help="Override the per-scope top_n cap (e.g. --top-n 200)"
     )
     args = parser.parse_args()
-    assemble(args.scope, args.weight_threshold, top_n_override=args.top_n)
+    assemble(args.scope, top_n_override=args.top_n)
 
 
 if __name__ == "__main__":

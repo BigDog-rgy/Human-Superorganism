@@ -7,7 +7,6 @@ Each weekly briefing updates neuron × DPS weights according to Hebbian rules:
   - Neurons that are quiet decay toward zero
   - Co-activation (cooperative edge_signals) boosts both parties
   - Anti-correlated firing (adversarial edge_signals) disrupts both
-  - Phase sequence dominance tracks assembly-level activation over time
 
 Usage:
     python hebbian_updater.py --bootstrap  # initialise state from model
@@ -35,20 +34,15 @@ LEARNING_RATE        = 0.15   # boost for notable + activated DPS
 DISRUPTION_RATE      = 0.08   # weight reduction for concerning signal
 COOPERATIVE_BOOST    = 0.05   # both parties boosted on cooperative edge_signal
 ADVERSARIAL_DROP     = 0.06   # both parties reduced on adversarial edge_signal
-DPS_DECAY_RATE       = 0.05   # weekly DPS dominance decay
-DPS_MOMENTUM_STEP    = 0.08   # dominance change per accelerating/decelerating step
 
 WEIGHT_MIN           = -1.0   # allow negative weights (opposing a DPS)
 WEIGHT_MAX           =  1.0
-DPS_DOMINANCE_MIN    =  0.0
-DPS_DOMINANCE_MAX    =  1.0
 
 PRUNE_THRESHOLD      = 0.04   # weights below this magnitude are dropped (sparsity)
 EDGE_DISPLAY_THRESHOLD = 0.15 # minimum computed edge weight to draw in viz
 
 BASE_WEIGHT_RANK1    = 0.70   # initial weight for rank-1 individual
 BASE_WEIGHT_RANK_N   = 0.50   # initial weight for lowest-ranked individual
-DPS_INITIAL_DOMINANCE = 0.50  # neutral prior for all phase sequences
 
 
 # ---------------------------------------------------------------------------
@@ -116,9 +110,6 @@ def bootstrap(model_path: Path, state_path: Path, ps_canon_path: Path = None):
             if assigned:
                 neuron_dps_weights[person["name"]] = assigned
 
-    # All DPS start at neutral dominance
-    dps_dominance = {ps["id"]: DPS_INITIAL_DOMINANCE for ps in phase_sequences}
-
     state = {
         "version": 1,
         "created":      date.today().isoformat(),
@@ -131,20 +122,16 @@ def bootstrap(model_path: Path, state_path: Path, ps_canon_path: Path = None):
             "disruption_rate":        DISRUPTION_RATE,
             "cooperative_boost":      COOPERATIVE_BOOST,
             "adversarial_drop":       ADVERSARIAL_DROP,
-            "dps_decay_rate":         DPS_DECAY_RATE,
-            "dps_momentum_step":      DPS_MOMENTUM_STEP,
             "prune_threshold":        PRUNE_THRESHOLD,
             "edge_display_threshold": EDGE_DISPLAY_THRESHOLD,
         },
         "neuron_dps_weights": neuron_dps_weights,
-        "dps_dominance":      dps_dominance,
     }
 
     with open(state_path, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2, ensure_ascii=False)
 
     print(f"  {len(neuron_dps_weights)} neurons initialised")
-    print(f"  {len(dps_dominance)} phase sequences at dominance {DPS_INITIAL_DOMINANCE}")
     print(f"  Saved → {state_path.name}")
 
 
@@ -205,16 +192,10 @@ def update_from_briefing(state: dict, briefing: dict) -> dict:
     """
     cfg = state["config"]
     ndw = state["neuron_dps_weights"]   # name → {dps_id → float}
-    dom = state["dps_dominance"]         # dps_id → float [0, 1]
 
     # 1. Decay all weights
     for name in ndw:
         ndw[name] = apply_decay(ndw[name], cfg["decay_rate"])
-
-    # Decay DPS dominance (slower rate) — snapshot pre-decay values so stable PSes can restore
-    pre_decay_dom = dict(dom)
-    for dps_id in dom:
-        dom[dps_id] = round(dom[dps_id] * (1.0 - cfg["dps_decay_rate"]), 6)
 
     # 2. Per-person activation updates
     for pu in briefing.get("person_updates", []):
@@ -272,29 +253,7 @@ def update_from_briefing(state: dict, briefing: dict) -> dict:
                 clamp(current + delta, WEIGHT_MIN, WEIGHT_MAX), 6
             )
 
-    # 4. DPS dominance from phase_sequence_updates
-    for ps_update in briefing.get("phase_sequence_updates", []):
-        dps_id   = ps_update["id"]
-        momentum = ps_update.get("momentum", "stable")
-
-        if dps_id not in dom:
-            dom[dps_id] = DPS_INITIAL_DOMINANCE
-
-        if momentum == "accelerating":
-            dom[dps_id] = round(
-                clamp(dom[dps_id] + cfg["dps_momentum_step"],
-                      DPS_DOMINANCE_MIN, DPS_DOMINANCE_MAX), 6
-            )
-        elif momentum == "decelerating":
-            dom[dps_id] = round(
-                clamp(dom[dps_id] - cfg["dps_momentum_step"],
-                      DPS_DOMINANCE_MIN, DPS_DOMINANCE_MAX), 6
-            )
-        elif momentum == "stable":
-            # Stable means hold — restore the value that existed before decay was applied
-            dom[dps_id] = pre_decay_dom[dps_id]
-
-    # 5. Prune near-zero weights (maintain sparsity)
+    # 4. Prune near-zero weights (maintain sparsity)
     for name in ndw:
         ndw[name] = {
             dps_id: w
@@ -313,18 +272,11 @@ def update_from_briefing(state: dict, briefing: dict) -> dict:
 
 def print_status(state: dict):
     ndw = state["neuron_dps_weights"]
-    dom = state["dps_dominance"]
 
     print(f"\nState: week {state.get('week_count', 0)}, "
           f"last updated {state.get('last_updated', '?')}")
     if state.get("last_briefing_applied"):
         print(f"Last briefing: {state['last_briefing_applied']}")
-
-    print("\nDPS Dominance:")
-    for dps_id, score in sorted(dom.items(), key=lambda x: -x[1]):
-        filled = int(score * 25)
-        bar    = "█" * filled + "░" * (25 - filled)
-        print(f"  {dps_id}  {bar}  {score:.3f}")
 
     print("\nNeuron DPS Weights (non-zero):")
     for name, weights in sorted(ndw.items()):

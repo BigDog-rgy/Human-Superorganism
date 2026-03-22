@@ -1,0 +1,76 @@
+{
+  "phase_sequences": [
+    {
+      "id": "PS-01",
+      "name": "NATO-Russia Confrontation Arc",
+      "definition": "The sustained adversarial dynamic between NATO's collective defense architecture and Russia's military-political apparatus, tracked weekly through Ukraine battlefield developments, Western arms transfers and Ramstein coordination, alliance force posture adjustments, nuclear signaling, sanctions enforcement, and Russian hybrid operations against alliance members.",
+      "hemisphere_bias": "Split"
+    },
+    {
+      "id": "PS-02",
+      "name": "US-China Strategic Rivalry",
+      "definition": "The overarching structural competition between the United States and China across military posture, diplomatic alignment, and economic leverage, tracked through bilateral policy moves, Taiwan Strait and South China Sea escalation indicators, alliance signaling, trade actions, and high-level diplomatic engagements.",
+      "hemisphere_bias": "Split"
+    },
+    {
+      "id": "PS-03",
+      "name": "Indo-Pacific Security Architecture Build-Out",
+      "definition": "The accelerating construction of overlapping security frameworks — Quad, AUKUS, bilateral alliances, and regional partnerships — designed to shape the balance of power in the Asian theater, tracked through joint exercises, basing agreements, arms transfers, maritime operations, and diplomatic coordination among India, Japan, Australia, the US, and partners.",
+      "hemisphere_bias": "Bridge"
+    },
+    {
+      "id": "PS-04",
+      "name": "Semiconductor and Compute Chokepoint Control",
+      "definition": "The intensifying contest among states and corporations to dominate the design, fabrication, and equipment layers of the semiconductor and advanced compute supply chain, tracked through export control decisions, EUV equipment licensing, foundry investment announcements, chip sovereignty legislation, and TSMC/ASML strategic moves.",
+      "hemisphere_bias": "Split"
+    },
+    {
+      "id": "PS-05",
+      "name": "Frontier AI Power Struggle",
+      "definition": "The race among leading technology corporations, sovereign AI programs, and regulatory bodies to achieve and govern decisive advantages in frontier artificial intelligence, tracked through model releases, compute access battles, partnership governance shifts, national AI strategies, and safety or export regulation actions.",
+      "hemisphere_bias": "Global"
+    },
+    {
+      "id": "PS-06",
+      "name": "Global Monetary Order and Financial Architecture Stress",
+      "definition": "The structural tension between the incumbent dollar-centric financial system and challengers seeking monetary multipolarity, tracked through central bank rate decisions and liquidity operations, IMF and BIS governance moves, renminbi internationalization efforts, swap-line activations, sanctions weaponization, and sovereign debt restructuring dynamics.",
+      "hemisphere_bias": "Global"
+    },
+    {
+      "id": "PS-07",
+      "name": "Energy Market Statecraft and Transition Contestation",
+      "definition": "The overlapping struggle among fossil fuel incumbents, OPEC+ coordination mechanisms, and green industrial policy advocates to control energy supply, pricing, and infrastructure investment globally, tracked through production quota decisions, sovereign fund energy deployments, critical minerals supply moves, LNG contract shifts, and climate-industrial legislation.",
+      "hemisphere_bias": "Global"
+    },
+    {
+      "id": "PS-08",
+      "name": "Sanctions, Countersanctions, and Geoeconomic Decoupling",
+      "definition": "The iterative coercion-and-evasion dynamics reshaping global supply chains through sanctions regimes, export bans, secondary sanctions, tariffs, friend-shoring mandates, and industrial re-shoring policies, tracked through new designations, enforcement actions, compliance shifts, workaround networks, and state-directed reshoring investments.",
+      "hemisphere_bias": "Split"
+    },
+    {
+      "id": "PS-09",
+      "name": "Information Ecosystem and Narrative Control",
+      "definition": "The persistent competition over public perception and political cohesion waged through platform governance decisions, algorithmic curation, state media campaigns, influence operations, and censorship regimes, tracked through content policy changes, takedown reports, regulatory actions, and ownership or structural shifts at major information nodes.",
+      "hemisphere_bias": "Global"
+    },
+    {
+      "id": "PS-10",
+      "name": "Authoritarian Axis Consolidation",
+      "definition": "The deepening strategic, military, and economic coordination among Russia, China, Iran, and aligned states to build parallel institutions and mutually reinforce regime stability, tracked through bilateral defense agreements, joint exercises, sanctions circumvention networks, technology transfers, and multilateral forum activity in the SCO, CSTO, and similar bodies.",
+      "hemisphere_bias": "East"
+    },
+    {
+      "id": "PS-11",
+      "name": "Middle-Power and Global South Realignment",
+      "definition": "The strategic repositioning of major emerging economies, Gulf states, and regional powers between Western and Eastern poles, tracked through hedging diplomacy, BRICS+ expansion dynamics, sovereign wealth fund deployments, regional bloc coordination in CELAC and GCC, trade diversification moves, and selective multilateral engagement.",
+      "hemisphere_bias": "Bridge"
+    },
+    {
+      "id": "PS-12",
+      "name": "Western Institutional Cohesion and Democratic Strain",
+      "definition": "The internal contestation of liberal democratic norms, transatlantic policy alignment, and multilateral institutional authority within Western states, tracked through executive power consolidation moves, EU-US trade and regulatory friction, populist electoral outcomes, alliance burden-sharing disputes, and retrenchment from or reform of international institutions.",
+      "hemisphere_bias": "West"
+    }
+  ]
+}

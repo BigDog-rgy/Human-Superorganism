@@ -1,0 +1,92 @@
+{
+  "peer_reviews": {
+    "claude": {
+      "rankings": [
+        {
+          "model": "Model A",
+          "rank": 1,
+          "reasoning": "Model A achieves the strongest balance across all four criteria. Coverage is comprehensive, spanning executive control, fiscal-monetary dynamics, judicial power, AI, surveillance, information, defense, energy, capital allocation, and electoral machinery — the full actor pool including Congress, Fed, courts, corporates, and political infrastructure. Distinctiveness is high: each sequence has a clearly bounded domain with minimal overlap (e.g., DPS-02 fiscal-monetary vs DPS-09 capital allocation are genuinely separate). Operationalizability is strong because each sequence names specific trackable signals (OMB actions, FOMC signals, procurement awards, fundraising flows). Breadth is excellent — sequences are defined at a structural level rather than anchored to specific named actors or companies, making them durable beyond any single news cycle or administration.",
+          "actual_model": "chatgpt"
+        },
+        {
+          "model": "Model C",
+          "rank": 2,
+          "reasoning": "Model C is conceptually clean and structurally sound, with well-named sequences that capture most major power domains. It correctly identifies cloud infrastructure consolidation (DPS-07) as a distinct sequence that Model B misses. However, it shows moderate overlap between DPS-02 (AI Capability Scaling) and DPS-07 (Cloud Infrastructure Consolidation), and between DPS-05 (Defense/Space Privatization) and DPS-09 (Techno-Capital Political Realignment). Coverage is slightly weaker than Model A — electoral machinery and surveillance/identity systems are absent. Breadth is good but some sequences (DPS-09 especially) lean toward current-moment actors rather than structural dynamics, slightly reducing durability.",
+          "actual_model": "gemini"
+        },
+        {
+          "model": "Model B",
+          "rank": 3,
+          "reasoning": "Model B is the weakest of the three primarily on breadth and distinctiveness. Several sequences are anchored too tightly to specific named entities (Helion Energy, DOGE, SpaceX, Marble Freedom Trust), making them narrow trackers of particular actors rather than structural power dynamics. DPS-08 (Fusion Energy Acceleration) is far too narrow to constitute a major US power sequence at this time. Coverage gaps are notable: no electoral/coalition machinery sequence, no surveillance/identity sequence, and fiscal-monetary and capital allocation are conflated. Overlap between DPS-02 (AI Supremacy) and DPS-05 (Big Tech Regulation) is significant. Operationalizability is adequate but the actor-specific framing limits generalizability beyond the current moment.",
+          "actual_model": "grok"
+        }
+      ]
+    },
+    "chatgpt": {
+      "rankings": [
+        {
+          "model": "Model A",
+          "rank": 1,
+          "reasoning": "Best overall coverage and operationalizability: it spans executive power, courts, tech regulation, capital, defense, monetary/fiscal tension, information environment, and energy transition, plus a cross-cutting “institutional norm erosion” lens. Sequences are mostly distinct and trackable weekly via clear indicators (EOs, rulings, contracts, Fed/Treasury signals, platform policy changes, regulatory actions). Breadth is strong because categories generalize beyond the named anchor actors.",
+          "actual_model": "claude"
+        },
+        {
+          "model": "Model C",
+          "rank": 2,
+          "reasoning": "Strong breadth and decent distinctiveness, adding useful structural lenses (cloud infrastructure consolidation; techno-capital political realignment) that generalize beyond specific firms. However, it has more overlap/entanglement among tech-related tracks (AI scaling, platform information control, cloud consolidation, techno-capital realignment) and its “macroeconomic capital allocation” bundles multiple dynamics (Fed, Treasury, private capital) that can be harder to disentangle week-to-week than A’s more separated tracks.",
+          "actual_model": "gemini"
+        },
+        {
+          "model": "Model B",
+          "rank": 3,
+          "reasoning": "Good operationalizability and reasonable coverage, but weaker distinctiveness and breadth: “Conservative funding networks” substantially overlaps with “Judicial doctrine evolution,” and “Fusion energy acceleration” is narrower than broader energy-transition/advanced-energy power struggles. It also omits some cross-cutting institutional dynamics (e.g., norm erosion) and has less general framing beyond the specific anchor entities compared with A and C.",
+          "actual_model": "grok"
+        }
+      ]
+    },
+    "grok": {
+      "rankings": [
+        {
+          "model": "Model B",
+          "rank": 1,
+          "reasoning": "Best coverage with unique additions like surveillance and elections; highly distinct, operational via policy signals and deals; broadest neutrality beyond current anchors.",
+          "actual_model": "chatgpt"
+        },
+        {
+          "model": "Model A",
+          "rank": 2,
+          "reasoning": "Strong coverage of key dynamics, very explicit weekly trackers, distinct; slightly less broad due to admin-specific references reducing generality.",
+          "actual_model": "claude"
+        },
+        {
+          "model": "Model C",
+          "rank": 3,
+          "reasoning": "Good core coverage but narrower tech focus (e.g., cloud, fusion), only 9 sequences, some overlaps (capital/techno), less operational for weekly shifts.",
+          "actual_model": "gemini"
+        }
+      ]
+    },
+    "gemini": {
+      "rankings": [
+        {
+          "model": "Model B",
+          "rank": 1,
+          "reasoning": "Offers the best structural abstraction. The sequences are politically and temporally neutral (e.g., 'Judicial Pipeline' rather than 'Conservative Entrenchment'), providing excellent breadth and durability while remaining highly operationalizable for weekly tracking across the full actor pool.",
+          "actual_model": "chatgpt"
+        },
+        {
+          "model": "Model A",
+          "rank": 2,
+          "reasoning": "Strong coverage and operational tracking metrics, but embeds specific factions and current administrations directly into the core definitions (e.g., 'Trump White House', 'Conservative Judicial Entrenchment'), making it less structurally durable and broad than Model B.",
+          "actual_model": "claude"
+        },
+        {
+          "model": "Model C",
+          "rank": 3,
+          "reasoning": "Weakest breadth and durability. The sequences are highly over-fitted to current anchor neurons, specific individuals, and niche industries (e.g., naming Helion Energy, Pete Hegseth, and Scott Bessent directly), failing to establish generalized structural dynamics.",
+          "actual_model": "grok"
+        }
+      ]
+    }
+  }
+}

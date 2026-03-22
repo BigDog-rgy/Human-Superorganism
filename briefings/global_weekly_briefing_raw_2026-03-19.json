@@ -1,0 +1,684 @@
+{
+  "scope": "global",
+  "week_start": "2026-03-12",
+  "week_end": "2026-03-19",
+  "ps_news_items": [
+    {
+      "id": "PS-01",
+      "name": "NATO-Russia Confrontation Arc",
+      "summary": "No major structural changes, policy decisions, or high-momentum events occurred in the NATO-Russia confrontation arc from March 12-19, 2026, with search results highlighting only ongoing Russian preparations for a potential 2026 Kaliningrad land corridor provocation against Poland and Lithuania as a pretext for escalation.[1] Ukrainian battlefield actions remained routine, including mid-range strikes on Russian assets in occupied Luhansk and limited Russian offensives in Donetsk without confirmed advances, per earlier March assessments.[2][3] NATO signaling awareness of Russian plans serves as a deterrent, but no new alliance force posture adjustments, Ramstein coordination, nuclear moves, or sanctions enforcement were reported in the queried period.[1][6]\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "PS-02",
+      "name": "US-China Strategic Rivalry",
+      "summary": "No major developments indicating structural changes, policy moves, or escalations in US-China strategic rivalry occurred between March 12-19, 2026. China's National People's Congress plans, unveiled earlier and set for endorsement around March 20, reiterated tech self-reliance in semiconductors, AI, and aviation like the C919 amid ongoing US restrictions, but lacked new bilateral actions or high-level engagements[4]. Speculative analyses on Trump-era pathways, trade war outlooks, and expert surveys highlighted continued decoupling momentum via rare earths and supply chains, without fresh events[1][2][6]. US President Trump's March 16 suggestion to delay a China trip was clarified as unrelated to Taiwan Strait pressures[4].\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "PS-03",
+      "name": "Indo-Pacific Security Architecture Build-Out",
+      "summary": "No major structural changes, policy decisions, or events indicating momentum in Indo-Pacific security architecture build-out occurred between March 12-19, 2026, based on available sources[1][2][3][6][8]. Reports from this period focused on China's increased defense spending and rhetoric toward Taiwan, alongside previews of US deterrence strategies emphasizing the Indo-Pacific, but lacked specifics on new Quad, AUKUS, or bilateral exercises, basing agreements, or arms transfers[3][6][8]. Broader outlooks highlighted ongoing Taiwan-Japan maritime cooperation and past exercises like Malabar, without fresh developments in the queried timeframe[1].\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "PS-04",
+      "name": "Semiconductor and Compute Chokepoint Control",
+      "summary": "Based on the available search results, the semiconductor supply chain faced mounting geopolitical and operational pressures during March 12-19, 2026. **Iran war risks** emerged as a critical threat, with analysis warning that Middle East instability could disrupt the memory chip market through energy cost spikes and disruptions to materials like helium and bromine essential for fabrication[1]. On the policy front, **SEMI outlined its 2026 U.S. strategy** (announced January 28 but actively promoted during this period) emphasizing balanced trade policy, workforce development, and international coordination to secure semiconductor supply chain resilience amid AI competition[3]. The industry simultaneously grappled with **structural consolidation driven by AI demand**, exemplified by Texas Instruments' acquisition of Silicon Labs to vertically integrate advanced packaging and reduce reliance on external foundries—a move reflecting broader industry shifts toward capability-driven rather than capacity-driven models[2][4]. **China prioritized semiconductor supply chain stability** amid growing global tensions, signaling defensive positioning in the intensifying great-power competition for chip sovereignty[7]. These developments collectively underscore how geopolitical fragmentation, export controls, and vertical integration are reshaping the semiconductor ecosystem's architecture.\n\n**7**",
+      "activation_score": 5
+    },
+    {
+      "id": "PS-05",
+      "name": "Frontier AI Power Struggle",
+      "summary": "Mistral unveiled **Forge** on March 18, a platform enabling enterprises and governments to train custom frontier AI models from scratch on proprietary data, emphasizing control, domain-specific reinforcement learning, and reduced reliance on third-party providers.[1] AWS partnered with Cerebras on March 16 to deploy CS-3 systems via Bedrock, introducing a disaggregated architecture that boosts AI inference throughput 5x by pairing Trainium for prefill with Cerebras WSE for decode, intensifying compute access battles.[1] NVIDIA released the open **Nemotron 3 Super** model on March 12 and secured a multiyear deal to supply at least 1 GW of Vera Rubin systems for Thinking Machines Lab's (founded by ex-OpenAI CTO Mira Murati) frontier training, signaling major shifts in hardware partnerships and model transparency.[1]\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "PS-06",
+      "name": "Global Monetary Order and Financial Architecture Stress",
+      "summary": "**Major central banks held interest rates steady amid heightened uncertainty from the US-Iran conflict and soaring oil prices.** The US Federal Reserve maintained its federal funds rate at 3.5-3.75% on March 18, citing a softening labor market, persistent inflation above 2%, and unclear Middle East impacts, while projecting one rate cut for 2026 and noting a more unified FOMC vote (11-1).[1][4][5] The ECB kept its key rates unchanged on March 19, emphasizing the war's upside inflation risks via energy prices and downside growth threats.[3] The Bank of England faced a divided MPC ahead of its March 19 decision on whether to hold at 3.75% or cut to 3.50%, reflecting easing inflation but softening labor markets.[2]\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "PS-07",
+      "name": "Energy Market Statecraft and Transition Contestation",
+      "summary": "OPEC+ maintained the bulk of its 5.86 million bpd production cuts through 2026 while confirming a flexible, gradual unwinding starting April 2026, contingent on market conditions, amid ongoing compliance challenges from Russia and quota frictions with the UAE.[1][2][3] On March 1, eight key members (Saudi Arabia, Russia, Iraq, UAE, Kuwait, Kazakhstan, Algeria, Oman) agreed to a modest 206,000 bpd production increase for April—led by Saudi Arabia and Russia at 62,000 bpd each—to resume unwinding prior voluntary adjustments while retaining options to pause or reverse.[2][3] No production hikes occurred in March due to seasonal factors, underscoring OPEC+'s cautious statecraft to balance prices amid global demand uncertainties.[1][5][7]\n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "PS-08",
+      "name": "Sanctions, Countersanctions, and Geoeconomic Decoupling",
+      "summary": "**The US issued General License 134 on March 12, temporarily authorizing global purchases of stranded Russian oil at sea for 30 days to stabilize energy markets amid the Iran conflict, expanding prior India-specific relief and drawing sharp EU criticism for undermining the G7 price cap.** [1][2] **EU extended its Russia financial sanctions regime until September 15 and endorsed new designations against 19 Iranian officials for human rights abuses on March 11.** [1][2] **OFAC amended Venezuela-related licenses on March 13, sanctioned North Korean IT worker facilitators on March 12, and delisted several Russian cyber-related entities, while UK updated guidance on Russian sanctions evasion.** [1][2][5] These moves signal pragmatic US adjustments to sanctions enforcement under market pressures, contrasting with Europe's hardening stance.\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "PS-09",
+      "name": "Information Ecosystem and Narrative Control",
+      "summary": "India amended its IT Rules on March 2, 2026, imposing a stringent 3-hour takedown deadline for unlawful AI-generated content like deepfakes, defining \"synthetically generated information,\" and mandating labeling with provenance markers, significantly tightening platform liability and compliance.[1] YouTube expanded deepfake detection tools on March 10 for political figures and journalists to request removals of unauthorized AI content, while X announced strengthened policies against harmful AI content alongside Grok integration, and Instagram enhanced user algorithm controls for Reels and feeds.[3][4] These moves reflect accelerating global momentum in platform governance to combat synthetic media and boost transparency amid rising AI influence operations.[2][3]\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "PS-10",
+      "name": "Authoritarian Axis Consolidation",
+      "summary": "Iranian Foreign Minister Abbas Araghchi publicly confirmed on March 15-16 ongoing military cooperation with Russia and China, describing them as strategic partners amid escalating US-Israeli strikes on Iran since late February, marking the first official Tehran acknowledgment of such support during the conflict.[1][2][3][5] Reports highlighted Russia's intelligence sharing, including real-time data on US warships and aircraft in the Gulf, enabling precise Iranian responses, while China provides diplomatic backing, missile components, and technological aid like radar systems without direct intervention.[1][4][5] This verbal affirmation and disclosed assistance indicate deepening defense coordination within the Authoritarian Axis, reinforcing mutual regime support against Western pressure.[2][3][4]\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "PS-11",
+      "name": "Middle-Power and Global South Realignment",
+      "summary": "No major developments indicating structural changes, policy moves, or significant momentum in Middle-Power and Global South realignment occurred between March 12-19, 2026, based on available sources[1][2][3]. Discussions at Davos 2026 (January) highlighted middle powers' shift toward resilience-focused sovereignty and coalition-building, such as Egypt's industrial strategies and Singapore's plurilateral alliances, but these predate the queried period[1]. Broader trends like Brazil's EU-Mercosur deal approval (early March) and BRICS+ naval drills (January) underscore hedging diplomacy and trade diversification, yet lack events in the specified week[2][3].\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "PS-12",
+      "name": "Western Institutional Cohesion and Democratic Strain",
+      "summary": "The V-Dem Institute's 2026 Democracy Report, released on March 17, highlighted unprecedented democratic backsliding in Western democracies, identifying the US, UK, and Italy among ten new autocratizing countries, with the US showing the sharpest decline via rapid presidential power concentration, erosion of checks and balances, politicization of civil service, and attacks on press and judiciary under Trump's second term.[2][4] Analyses from early 2026 noted this as an \"institutional escalation,\" normalizing executive-first decision-making that outpaces institutional resistance and constricts civic space, marking one year into Trump's return.[3] No major EU-US trade frictions, populist elections, or alliance disputes were reported in the period, though broader retrenchment from international institutions aligns with ongoing US disengagement trends.[5]\n\n8",
+      "activation_score": 8
+    }
+  ],
+  "assembly_news_items": [
+    {
+      "id": "CA-113",
+      "name": "Russian Union of Industrialists and Entrepreneurs (RSPP)",
+      "ps_memberships": [
+        "PS-01",
+        "PS-07",
+        "PS-08",
+        "PS-10"
+      ],
+      "raw_news": "On March 18, 2026, during the RSPP annual congress plenary attended by President Vladimir Putin, RSPP head Alexander Shokhin requested formalization of business proposals from the February Russian Business Week forums, urging Putin to instruct the government for joint review to resolve issues within a year.[1] Putin praised RSPP's role in strengthening economic sovereignty and directed alignment of state economic policy, including monetary measures, with business demands to boost production and technological independence, while announcing a government plan expecting RSPP's active involvement.[1] In direct follow-up, RSPP established a Temporary Working Group on March 18 to develop conditions for foreign companies' return to Russia, incorporating Russian firms and foreign associations to address geoeconomic re-entry amid sanctions.[3]"
+    },
+    {
+      "id": "CA-311",
+      "name": "Surgutneftegas Executive Leadership",
+      "ps_memberships": [
+        "PS-07",
+        "PS-08"
+      ],
+      "raw_news": "I cannot provide news from March 12-19, 2026, as the search results provided contain only information from January and February 2025. The most recent reporting available discusses sanctions imposed on Surgutneftegas in January 2025, when the U.S. and UK designated the company and over two dozen of its subsidiaries, targeting Russia's oil production and exports as part of efforts to disrupt Moscow's war financing.[1][3] These sanctions included blocking Surgutneftegas's financial services subsidiary and restricting its ability to export oil above the $60-per-barrel price cap.[3] To obtain current reporting on Surgutneftegas executive leadership decisions from the past week, you would need access to more recent news sources covering Russian energy sector developments and sanctions enforcement."
+    },
+    {
+      "id": "CA-132",
+      "name": "Huawei Technologies Board & Executive Management Team",
+      "ps_memberships": [
+        "PS-02",
+        "PS-04",
+        "PS-08"
+      ],
+      "raw_news": "No significant hard news on Huawei Technologies Board & Executive Management Team decisions, actions, or organizational moves emerged in the past 7 days (March 12-19, 2026) directly impacting US-China rivalry, semiconductors, sanctions, or geoeconomic decoupling.[1][2][3][4][5] Earlier announcements, such as Meng Wanzhou's rotating chairmanship extension through March 31, 2026 (designated from October 2025), persist without updates, maintaining Ren Zhengfei's indirect oversight of 5G deployment amid ongoing self-sufficiency drives post-US Entity List sanctions.[1][2] MWC 2026 activities (March 2-3) featured executive statements from figures like Jason Cao and Chen Hao on AI-finance resilience and China Unicom AI alliances, but these predate the queried period and lack new board-level power shifts.[3][4]"
+    },
+    {
+      "id": "CA-112",
+      "name": "Semiconductor Industry Association (SIA)",
+      "ps_memberships": [
+        "PS-04",
+        "PS-08"
+      ],
+      "raw_news": "**Semiconductor Industry Association (SIA)** is the principal US trade body coordinating semiconductor industry policy, export controls, and government relations across the global chip supply chain.\n\nOn March 6, 2026, SIA announced global semiconductor sales increased 3.7% month-to-month in January 2026, signaling continued market strength amid AI-driven demand.[5][8] SIA applauded the US Department of Commerce's final CHIPS Act award to Polar Semiconductor, a key milestone boosting US-based production and urging more awards to enhance economic and national security.[1] SIA also issued a statement on the Chip Security Act on March 2, 2026, advancing policy coordination on semiconductor safeguards amid geoeconomic tensions.[3][7] These moves reinforce US compute chokepoint control and decoupling efforts by accelerating domestic capacity projected to triple by 2032.[1]"
+    },
+    {
+      "id": "CA-025",
+      "name": "State Council of the People's Republic of China",
+      "ps_memberships": [
+        "PS-02",
+        "PS-04",
+        "PS-07",
+        "PS-08"
+      ],
+      "raw_news": "On March 13, 2026, the State Council, chaired by Premier Li Qiang, approved its **key work division plan for 2026**, emphasizing proactive policy measures to implement the government work report and ensure a strong start to the 15th Five-Year Plan (2026-2030), including differentiated regional guidance to leverage comparative advantages.[3][4] The executive meeting studied a **negative list mechanism for local fiscal subsidies** to prohibit unauthorized grants, tightening fiscal discipline amid geoeconomic pressures.[3][4][5] On March 16, Li urged the 11th plenary meeting to maintain strategic resolve and take decisive actions for Chinese modernization, aligning with broader economic coordination to counter external uncertainties.[1]"
+    },
+    {
+      "id": "CA-016",
+      "name": "Department of Government Efficiency (DOGE)",
+      "ps_memberships": [
+        "PS-12"
+      ],
+      "raw_news": "**DOGE operatives have embedded deeply into federal agencies, bypassing traditional procedures to enforce cuts and access systems, straining institutional norms.** Reports from early March 2026 detail DOGE's aggressive tactics at the National Endowment for the Humanities (NEH), where over 1,000 grantees received cancellation notices via unauthorized Microsoft emails on April 2 (from prior actions persisting), leading to 75% staff reductions from 215 to 57 employees and agency reorganization from seven to four divisions[4]. This \"tick-like\" integration, discussed openly in DOGE all-hands meetings, granted high-level system access across agencies like NEH and GSA, enabling rapid contract terminations and layoffs while sparking legal challenges and chaos[4][2]. Such moves, aligned with Executive Order mandates, have broken data silos for potential efficiency gains but heightened **democratic strain** through politicized enforcement[2][3]."
+    },
+    {
+      "id": "CA-002",
+      "name": "Executive Office of the President of the United States",
+      "ps_memberships": [
+        "PS-01",
+        "PS-02",
+        "PS-03",
+        "PS-08",
+        "PS-12"
+      ],
+      "raw_news": "Based on the search results provided, the most significant recent Executive Office actions fall outside the specified domains. Between March 12-19, 2026, the White House issued executive orders on domestic priorities: **Adjusting Certain Delegations Under the Defense Production Act** (March 13), **Removing Regulatory Barriers to Affordable Home Construction** (March 13), **Promoting Access to Mortgage Credit** (March 13), and **Ensuring Truthful Advertising of Products Claiming to be Made in America** (March 13).[1][2] A White House press briefing on March 10 referenced **Operation Epic Fury**, described as a military campaign achieving objectives \"at an even faster pace than anticipated,\" though specific geopolitical context was not detailed in available materials.[4] The search results do not contain substantive reporting on NATO-Russia confrontation, US-China strategic rivalry, Indo-Pacific security architecture, sanctions regimes, or Western institutional cohesion during this seven-day window."
+    },
+    {
+      "id": "CA-032",
+      "name": "NATO Heads of State and Government Summit",
+      "ps_memberships": [
+        "PS-01",
+        "PS-12"
+      ],
+      "raw_news": "**NATO Secretary General Mark Rutte emphasized accelerated defense production and innovation at the BEDEX 2026 conference in Brussels on March 12, announcing visible progress as Europe and Canada step up spending to equalize with the US, enhancing Western institutional cohesion amid NATO-Russia tensions.[2][4]**\n\n**This aligns with pre-summit shifts reported on March 5 toward prioritizing drones and AI over tanks for the July 2026 Turkey summit, aiming to bolster Europe's security role under US pressure.[1]**\n\n**On March 17, the US Defense Secretary skipped a critical NATO summit amid alliance restructuring, signaling potential strains in transatlantic unity.[8]**"
+    },
+    {
+      "id": "CA-001",
+      "name": "CCP Politburo Standing Committee",
+      "ps_memberships": [
+        "PS-02",
+        "PS-10"
+      ],
+      "raw_news": "No significant hard news on decisions, actions, positions, alliances, or power dynamics involving the CCP Politburo Standing Committee emerged from March 12-19, 2026, within the specified active domains.[1][2][3][4][5][6][7][8][9][10] Earlier sessions of the CPPCC Standing Committee, presided over by Politburo Standing Committee member Wang Huning on March 1-3, focused on preparations for the CPPCC's annual session starting March 4 and directing proposals toward the 15th Five-Year Plan (2026-2030), but these predate the queried period and constitute routine organizational moves.[1][3][4][5][6] A February 24 Party-building meeting chaired by Cai Qi with Li Xi emphasized tighter political standards and loyalty mechanisms, signaling internal consolidation but outside the 7-day window.[2] Absences of senior officials at CPPCC events noted around March 1-7 hint at potential shifts, yet lack confirmed impacts on Standing Committee power dynamics in the target timeframe.[8][10]"
+    },
+    {
+      "id": "CA-065",
+      "name": "Security Council of the Russian Federation",
+      "ps_memberships": [
+        "PS-01",
+        "PS-10"
+      ],
+      "raw_news": "I cannot provide the requested information based on the available search results. The search results contain only UN Security Council proceedings from March 11-12, 2026, regarding Middle East conflicts—they do not include any reporting on the Russian Federation's Security Council (the domestic national security body you're asking about) or news about Belousov's activities during the March 12-19 period.\n\nTo answer your query accurately, I would need search results specifically covering the Russian Security Council's meetings, decisions, and policy announcements from that timeframe, particularly regarding NATO-Russia confrontation or authoritarian axis consolidation initiatives."
+    },
+    {
+      "id": "CA-153",
+      "name": "Holy Synod of the Russian Orthodox Church",
+      "ps_memberships": [
+        "PS-09",
+        "PS-10"
+      ],
+      "raw_news": "On March 12, 2026, the **Holy Synod of the Russian Orthodox Church**, chaired by Patriarch Kirill, approved extensive **leadership changes** and **structural reforms** to consolidate ecclesiastical authority, including reassigning Metropolitan Mark as Patriarchal Exarch of Western Europe and dismissing key figures like Bishop Seraphim of Istra and Archimandrite Filaret (Bulekov) from youth and external relations roles[1][2][4]. These moves shuffled diocesan heads across Ryazan, Novosibirsk, and other regions while updating statutes for dioceses, parishes, monasteries, and missionary departments to standardize operations in Russia and abroad, enhancing centralized control[1]. The Synod also ratified decisions from exarchates in Belarus, Kazakhstan, and Central Asia, and established a new parish in Abu Dhabi, signaling expanded global organizational reach amid authoritarian consolidation[1]."
+    },
+    {
+      "id": "CA-103",
+      "name": "Amazon Board of Directors",
+      "ps_memberships": [
+        "PS-05"
+      ],
+      "raw_news": "**No significant news on Amazon's Board of Directors from March 12-19, 2026, matching the specified criteria.**\n\nSearch results yield no reports of board decisions, actions, positions, alliances, or organizational moves affecting power dynamics in the past week, particularly in **Frontier AI power struggles**.[1][2][3][4][5] Available coverage focuses on January 2026 events, including CEO Andy Jassy's Davos comments on potential OpenAI ties and internal restructuring via layoffs to cut bureaucracy, but these predate the query window and involve executive—not board—actions.[1][2][4] Board composition lists Andy Jassy as a director with longstanding influence under Executive Chair Jeff Bezos, unchanged recently.[5]"
+    },
+    {
+      "id": "CA-043",
+      "name": "Google DeepMind Executive Leadership",
+      "ps_memberships": [
+        "PS-05"
+      ],
+      "raw_news": "Google CEO **Sundar Pichai announced a major restructuring** on March 18, 2026, integrating the Gemini app team—led by Sissie Hsiao—directly into **Google DeepMind under Demis Hassabis**, to accelerate AI model deployment, enhance feedback loops, and streamline post-training efficiency.[1] This move consolidates frontier AI development under Hassabis's leadership, positioning DeepMind as the central hub for Google's AGI push amid intensifying competition.[1] Additional shifts include Prabhakar Raghavan's transition to Chief Technologist and Nick Fox's appointment as SVP of Knowledge & Information, aligning resources to bolster DeepMind's dominance in the AI power struggle.[1]"
+    },
+    {
+      "id": "CA-307",
+      "name": "UK AI Safety Institute Advisory Network",
+      "ps_memberships": [
+        "PS-05"
+      ],
+      "raw_news": "**No significant news on the UK AI Safety Institute Advisory Network from March 12-19, 2026.**\n\nThe most recent relevant development is the International AI Safety Report 2026, released on February 3, 2026, led by Yoshua Bengio with over 100 experts from 30+ countries, assessing AI capabilities, risks like biological misuse and cyberattacks, and safeguards such as layered technical measures[1][2][5][6]. It highlights escalating concerns, including AI matching expert performance in virology and cybersecurity threats from AI-generated code, informing global discussions without specific policy decisions[1][2]. Earlier UK AISI activities, like the Frontier AI Trends Report from December 2024, note safeguard improvements in biological misuse but predate the queried period[4]."
+    }
+  ],
+  "news_items": [
+    {
+      "name": "Andrei Guryev & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No significant hard news matching the criteria—policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements involving Andrei Guryev or his family—occurred in the past 7 days (approximately March 12-19, 2026). Search results provide only historical background on Guryev's PhosAgro leadership, past sanctions (e.g., UK, New Zealand 2022; Japan 2023), and wealth updates from 2022[1][2][3], with nothing recent or relevant to the specified timeframe or key activity areas."
+    },
+    {
+      "name": "Vladimir Bogdanov",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No significant hard news items matching the criteria—policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements by Vladimir Bogdanov in the specified key areas—were found in the past 7 days (approximately March 12-19, 2026). Search results only cover the Forbes 2026 Billionaires List release (dated March 11 and 18), which mentions Russian billionaires generally but provides no specific details, mentions, or updates on Vladimir Bogdanov himself[1][2][3]."
+    },
+    {
+      "name": "Cai Qi",
+      "domain": "China / First Secretary of the CPC Central Committee Secretariat",
+      "raw_news": "- **March 6, 2026: Accompanied Xi Jinping to CPPCC joint group meeting.** Cai Qi, as director of the General Office of the CPC Central Committee, accompanied Xi during his visit to CPPCC members from medicine, health, welfare, and other sectors at the fourth session of the 14th CPPCC National Committee.[1]  \n  This exclusive accompaniment alongside Wang Huning underscores Cai Qi's central role in coordinating Xi's schedule and reinforces his position as a key enforcer of top-level party directives.[1][9]\n\n- **March 6, 2026: Spoke at CPPCC joint group meeting on Chinese modernization.** Cai Qi addressed political advisors from the China Democratic League, Communist Youth League, All-China Youth Federation, and All-China Women's Federation, urging them to pursue Chinese modernization under CPC leadership and contribute ideas for the 15th Five-Year Plan.[2][3][4][5]  \n  The statement emphasizes Cai's oversight of the party secretariat's narrative control, aligning diverse groups with central priorities and bolstering his influence in shaping party consensus.[2][3]\n\nNo other significant hard news involving policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or major public statements by Cai Qi appears in the past 7 days; available reports are limited to these CPPCC session activities.[1][2][3][4][5][6]"
+    },
+    {
+      "name": "Elon Musk",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "1. **Pentagon selects xAI for sensitive government workflows and military operations support.**  \n   Elon Musk's xAI was tapped by the Pentagon to enhance critical government and military functions, marking a major defense contract.[1]  \n   This bolsters Musk's geopolitical influence by embedding his **Frontier AI** directly into U.S. military infrastructure, amplifying his role in national security amid AI power struggles.\n\n2. **Tesla announces end of Model S and Model X production in 2026 to pivot to Optimus robots.**  \n   During Tesla's Q4 2025 earnings call on March 18, Musk confirmed winding down production of the flagship vehicles at Fremont, repurposing the factory for up to 1 million Optimus humanoid robots annually.[1]  \n   The shift prioritizes **Frontier AI** and robotics over traditional EVs, strengthening Musk's economic position in autonomous tech while signaling declining reliance on legacy auto revenue.\n\n3. **Musk declares entry into the AI singularity, projecting 2026 as inflection point.**  \n   In recent X posts, Musk stated \"We have entered the singularity\" and emphasized 2026 as the pivotal year, tied to xAI's Grok 5 release, massive data centers, and robot integration.[2]  \n   This significant public statement shapes the global **Information Ecosystem and Narrative Control** on AI trajectories, positioning Musk as a visionary leader influencing tech policy and investor sentiment in the AI race."
+    },
+    {
+      "name": "Patriarch Kirill (Vladimir Gundyayev)",
+      "domain": "Russia / Patriarch of Moscow and All Rus'",
+      "raw_news": "1. **Holy Synod's first 2026 meeting**: On March 12, Patriarch Kirill presided over the first Holy Synod meeting of 2026 at the Danilov Monastery in Moscow, delivering a brief opening greeting before proceeding with the agenda.[1]  \n   This reinforces Kirill's central leadership role in the Russian Orthodox Church's governance, consolidating his authority over ecclesiastical decisions amid ongoing geopolitical tensions.[1]\n\n2. **Meeting with President Putin**: Around March 17, Patriarch Kirill met with Vladimir Putin, who congratulated him on the 17th anniversary of his enthronement, praising his managerial reforms in the church while Kirill lauded the unique state-church relationship under Putin as a model of spiritual support for the nation.[2]  \n   The exchange underscores Kirill's deepening alignment with the Russian state, enhancing his influence in the authoritarian axis by framing the church as a pillar of national strength and sovereignty.[2]\n\n3. **Wreath-laying on Defender of the Fatherland Day**: Although dated February 23, recent coverage on March 18 highlighted Patriarch Kirill's wreath-laying at the Tomb of the Unknown Soldier, where he praised Russian servicemen's heroism, urged spiritual support for the Armed Forces, and emphasized the church's historical proximity to the military.[4]  \n   This public endorsement of military service bolsters Kirill's role in narrative control, linking Orthodoxy to patriotism and justifying Russia's defense posture in the NATO-Russia confrontation.[4]"
+    },
+    {
+      "name": "William Alexander of the Netherlands",
+      "domain": "Head Of State, Kingdom of the Netherlands",
+      "raw_news": "Based on the search results provided, there is **one significant news item** from the past 7 days (March 12-19, 2026) involving King Willem-Alexander:\n\n**Dutch Royal Family Participates in NLdoet Volunteer Activity (March 13, 2026)**\n\nKing Willem-Alexander, Queen Máxima, and Princess Beatrix volunteered at a residential care facility in Hoofddorp on March 13, 2026, helping to tidy and improve gardens while Princess Beatrix assisted with animal care at a children's farm.[1] While this demonstrates the monarchy's commitment to civil society engagement, it is a routine ceremonial appearance rather than hard news affecting geopolitical influence or institutional cohesion.\n\nThe search results do not contain additional hard news from the specified timeframe (March 12-19) related to King Willem-Alexander's involvement in NATO-Russia confrontation, Western institutional cohesion, or democratic strain. The most recent substantive geopolitical news in the results concerns the swearing-in of Prime Minister Rob Jetten's minority coalition government on February 23, 2026—outside the requested 7-day window—which does relate to democratic strain given the government's lack of parliamentary majority and need for opposition support on legislation."
+    },
+    {
+      "name": "Vladimir Lisin",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "I cannot provide the requested news summary because the search results do not contain information about Vladimir Lisin's activities from March 12-19, 2026. The most recent result is from March 6, 2026, which reports that Lisin became the richest Russian according to Forbes with a net worth above $19 billion[1]. However, this single item does not meet your requirement for 3-5 significant news items from the specified week, and it represents a wealth ranking rather than hard news in the geopolitical categories you specified (NATO-Russia confrontation, energy statecraft, sanctions, geoeconomic decoupling, or authoritarian axis consolidation).\n\nThe other search results are substantially older (from 2022 and 2025) and fall outside your requested timeframe. To fulfill your query, you would need search results specifically covering Lisin's activities during March 12-19, 2026, in the policy, diplomatic, military, or economic domains you outlined."
+    },
+    {
+      "name": "Leonid Mikhelson & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No significant hard news items matching the criteria (policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements by Leonid Mikhelson or family) were found in the past 7 days (approximately March 12-19, 2026).[1][3][4][5]\n\nForbes published its 2026 World's Billionaires List on March 11, 2026 (Tuesday), ranking Mikhelson and family fourth among Russians with a net worth of $28.3 billion, up from prior years but behind Alexey Mordashov ($37-39 billion).[3][4][5]\n\nThis reflects Novatek's ongoing Arctic LNG success amid energy market pressures, signaling Mikhelson's sustained influence in Russia's geoeconomic push via Yamal LNG exports despite sanctions, but lacks direct new events in the timeframe.[2][5]"
+    },
+    {
+      "name": "Cristiano Amon",
+      "domain": "President & CEO, Qualcomm",
+      "raw_news": "1. On March 17, 2026, at Qualcomm's Annual Meeting of Stockholders, CEO Cristiano Amon outlined the company's diversification strategy into AI-enabled PCs, automotive, industrial IoT, robotics, and data centers, projecting a $900 billion total addressable market by 2030 and $22 billion in automotive/IoT revenues by fiscal 2029.[1]  \nThis positions Qualcomm to expand U.S.-centric edge AI compute influence amid semiconductor chokepoints, reducing reliance on handset markets vulnerable to US-China decoupling pressures.[1]\n\n2. Amon highlighted Qualcomm's entry into data centers with NPU-based AI inference accelerators and custom SoCs, leveraging edge expertise for high-density, low-power solutions competitive against GPU incumbents.[1]  \nThis move strengthens Qualcomm's role in compute chokepoint control, offering alternatives to dominant architectures and bolstering U.S. semiconductor leadership in AI inference decoupling from China-restricted supply chains.[1]\n\nNo other hard news items matching the criteria (policy decisions, geopolitical moves, sanctions, or significant statements on US-China rivalry) involving Cristiano Amon appeared in the past 7 days; earlier events like the March 4 MWC keynote on 6G for AI predate the timeframe.[2]"
+    },
+    {
+      "name": "Vladimir Putin",
+      "domain": "Head Of State, Russia",
+      "raw_news": "- **Putin claimed Russian troops are advancing across Ukraine's front lines and vowed to seize remaining territories by force if diplomacy fails.** This bolsters his domestic image as a resolute wartime leader amid NATO-Russia tensions, reinforcing Moscow's upper hand in stalled US-brokered talks.[1][2][6]\n\n- **Putin warned of \"severe consequences\" for the EU if it uses frozen Russian assets to fund Ukraine's defense.** The threat escalates NATO-Russia confrontation by deterring Western financial support for Kyiv, preserving Russia's economic leverage under sanctions.[1][2]\n\n- **Putin reiterated demands for Ukraine to recognize annexed territories including Crimea as Russian, abandon NATO aspirations, and limit its military.** These unyielding conditions in response to Trump's peace efforts consolidate Putin's position by rejecting compromises, signaling no retreat in the authoritarian stance against Western alliances.[2]\n\n- **Putin instructed preparation of a Hero of Russia award for soldier Sergei Yarashev, who held a position alone for 68 days in Donetsk.** Honoring frontline heroism publicly sustains military morale and propaganda in the Ukraine conflict, enhancing Putin's influence over the armed forces amid ongoing advances.[3]"
+    },
+    {
+      "name": "Christopher Cavoli",
+      "domain": "United States-NATO / Supreme Allied Commander Europe (SACEUR)",
+      "raw_news": "1. **SACEUR Change of Command Ceremony (March 16, 2026):** General Christopher Cavoli handed over the Supreme Allied Commander Europe (SACEUR) role to US Air Force General Alexus Grynkewich during a ceremony in Mons, Belgium, attended by NATO Secretary General Mark Rutte.[1][5]\n\n   This transition marks the end of Cavoli's three-year tenure, during which he shaped NATO's response to Russian aggression, potentially diminishing his direct operational influence while cementing his legacy in alliance modernization.[2][5]\n\n2. **NATO Secretary General's Commendation (March 16, 2026):** Mark Rutte praised Cavoli for modernizing NATO’s collective defense, responding to Russia’s invasion of Ukraine, strengthening Baltic Sea presence against undersea threats, and establishing a new NATO command in Germany to support Ukraine.[2][5]\n\n   Rutte's public recognition underscores Cavoli's pivotal role in NATO-Russia confrontation, enhancing his stature as a key architect of deterrence strategies even as he exits the SACEUR position.[2][5]\n\nNo other hard news items—such as policy decisions, geopolitical moves, military actions, diplomatic events, or significant public statements by Cavoli—appear in the past 7 days; earlier results (e.g., April 2025 testimony on SACEUR tradition[3][4]) fall outside this timeframe.[1][2][5]"
+    },
+    {
+      "name": "Ivan Glasenberg",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No significant hard news about Ivan Glasenberg matching the criteria (policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements in energy market statecraft, sanctions, countersanctions, or geoeconomic decoupling) appears in the past 7 days from March 12-19, 2026.\n\nThe provided search result [1] references Glasenberg's resignation from Rusal's board and Glencore's force majeure declaration on aluminium supply, but this stems from 2018 U.S. sanctions on Rusal and is not recent news from the queried period."
+    },
+    {
+      "name": "Prabowo Subianto",
+      "domain": "Head Of State, Indonesia",
+      "raw_news": "1. **Prabowo expressed optimism about the Board of Peace initiative for Gaza following the summit in Washington.**[1] This diplomatic engagement positions Indonesia as a committed player in Middle East peace efforts, enhancing Prabowo's stature as a mediator for Global South interests in international forums.[1]\n\n2. **Prabowo signed a new government regulation introducing a formula for 2026 provincial minimum wage increases, combining inflation, economic growth, and an alpha coefficient ranging from 0.5 to 0.9.**[2] The policy asserts Prabowo's economic leadership amid labor disputes, signaling Indonesia's push for balanced growth that could attract investment while navigating domestic pressures.[2]\n\n3. **Prabowo rallied former presidents and party chiefs amid mounting global tensions, briefing them on recent developments including military escalations.**[6] This move consolidates domestic political support during international crises, bolstering Prabowo's influence as a unifying figure in Indonesia's response to Indo-Pacific and global realignments.[6]\n\n4. **Prabowo attended discussions on the Board of Peace, though Foreign Ministry noted temporary suspension amid Middle East turmoil.**[3] It underscores Indonesia's active diplomacy in volatile regions, reinforcing Prabowo's role in middle-power initiatives bridging Muslim-majority nations and Western-led peace efforts.[1][3]"
+    },
+    {
+      "name": "Yuri Kovalchuk & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No significant hard news items matching the criteria (policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements by Yuri Kovalchuk or his family in the specified key areas) were found in the past 7 days. The available search results cover the Forbes 2026 Billionaires List released around March 11, which notes a record 155 Russian billionaires but does not mention Yuri Kovalchuk, his family, or any related activities.[1]"
+    },
+    {
+      "name": "Gautam Adani",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "Based on the search results provided, I cannot identify significant news about Gautam Adani from the past 7 days (March 12-19, 2026). The most recent developments in the search results are from late January 2026, when the SEC arranged to serve civil fraud litigation papers on Gautam and Sagar Adani through their US legal counsel[3]. \n\nTo provide the 3-5 hard news items you've requested covering his energy market statecraft, transition contestation, and Global South realignment activities from March 12-19, 2026, I would need search results with more current reporting from that specific timeframe. The available results do not contain news from the requested week."
+    },
+    {
+      "name": "Jeff Bezos",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "**Jeff Bezos ordered drastic layoffs and restructuring at The Washington Post, shuttering its Sports and Books sections, suspending key podcasts, and sharply reducing international and Metro desks amid $177 million in losses.** This move enforces Amazon-style efficiency and data-driven operations on the newsroom, signaling Bezos's direct intervention to halve costs while doubling productivity.[1][2][5]\n\n**The restructuring narrows the Post's editorial scope toward federal power coverage, raising questions about its independence after prior decisions like blocking a pro-Harris editorial to align with Trump.** It bolsters Bezos's position in **Information Ecosystem and Narrative Control** by reshaping a key Washington outlet amid perceived ties to Trump, potentially aiding his businesses' federal contracts and **Western Institutional Cohesion**.[2][3][4]\n\n**Internal newsroom turmoil preceded the cuts, including reversals on Winter Olympics coverage and union warnings of a 'decimated' local desk.** These reflect Bezos's pivot from expansion since 2013 to aggressive cost-cutting, underscoring financial pressures from declining subscriptions post-Trump era.[1][2]\n\n**Publisher Will Lewis, overseeing the changes, faces scrutiny for excluding senior editors and accelerating AI adoption without stemming tens-of-millions annual losses.** This enhances Bezos's influence in **Information Ecosystem** by testing AI-led media models, positioning him amid **Frontier AI Power Struggle** trends in efficiency-driven journalism.[2]"
+    },
+    {
+      "name": "Klaus-Michael Kuehne",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "1. **Kuehne + Nagel announced a planned dividend payout of 14 Swiss francs per share, a 40% increase from the prior year, positioning Klaus-Michael Kuehne to receive approximately $4.5 billion from his 53% stake, plus additional dividends from Hapag-Lloyd and potential Lufthansa payouts.**[1]  \n   This substantial windfall strengthens Kuehne's financial position as Germany's richest individual with a $39.1 billion fortune, enabling further expansion of his global transport empire amid competitive logistics investments.[1]\n\nNo other hard news items—such as policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements—about Klaus-Michael Kuehne appear in the past 7 days; remaining results cover net worth estimates, biographies, or older events like his Signa investment loss.[2][3][4][5]"
+    },
+    {
+      "name": "Len Blavatnik",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "**1. Len Blavatnik, controlling shareholder of Israel's Channel 13, agreed to sell his shares to cable tycoon Patrick Drahi despite a higher bid from a tech consortium, amid reports of regulatory and political pressure from Prime Minister Benjamin Netanyahu's circle to fast-track the deal.[1]**\n\nThis transaction reinforces Blavatnik's historical ties to Netanyahu—stemming from the prime minister's 2015 urging of the Channel 10 acquisition as a \"national mission\"—potentially amplifying his geopolitical influence in Israel's media sector through a buyer perceived as politically aligned.[1]\n\nNo other hard news items matching the criteria (policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements) involving Len Blavatnik appeared in the past 7 days; remaining results cover philanthropy awards and arts support from early March.[2][3][4]"
+    },
+    {
+      "name": "Euisun Chung",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "1. **Kia disclosed in its 2025 business report on March 12 that Hyundai Motor Group Chairman Chung Eui-sun received 5.4 billion won in compensation (2.7 billion won each in salary and bonus) for the first time, following the company's record sales.**[1]  \n   This marks a shift from his prior unpaid management of Kia since 2020, signaling strengthened responsible leadership amid global trade tensions and competition in future mobility, thereby bolstering his executive authority within the group.[1]\n\n2. **Chairman Chung tested mid-level autonomous driving technology at Hyundai Motor and directed accelerated development toward mass-produced software-defined vehicles (SDVs), while endorsing AI robotics initiatives like Boston Dynamics' demonstrations.**[2]  \n   These directives stabilize organizational momentum post-leadership changes and position Hyundai as a leader in AI-driven mobility and robotics, enhancing Chung's influence in high-stakes tech innovation sectors.[2]\n\n3. **U.S. strikes on Iran, reported around March 4, threaten major Hyundai Motor Group projects in the Middle East, with Executive Chair Euisun Chung recently visiting the Hyundai Motor Manufacturing Middle East site in Saudi Arabia.**[5]  \n   Geopolitical escalation risks disrupting Korea Inc.'s infrastructure investments, underscoring Chung's vulnerability in expanding Hyundai's global economic footprint and testing his strategic adaptability in volatile regions.[5]"
+    },
+    {
+      "name": "George Roberts",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "I cannot provide the requested information. The search results contain only general biographical information about George Roberts (co-founder of KKR and philanthropist) and do not include any news from the past 7 days (March 12-19, 2026) related to the specified geopolitical and economic areas: US-China strategic rivalry, semiconductor control, frontier AI, or global monetary order.\n\nTo answer your query accurately, I would need search results from recent news sources covering George Roberts' activities and statements during that specific timeframe in these domains. The current results lack the hard news—policy decisions, geopolitical moves, economic initiatives, or significant public statements—necessary to fulfill your request."
+    },
+    {
+      "name": "Leon Black",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "**No significant hard news on Leon Black from March 12-19, 2026, aligns with his key areas of US-China strategic rivalry or global monetary order stress; all recent developments center on his Epstein-related legal proceedings.**\n\n- **Court delays Leon Black's deposition to March 26 in Epstein victims' lawsuit against Bank of America, alleging his funds enabled sex-trafficking via the bank's accounts.** This sustains legal pressure on Black's reputation and Apollo ties, potentially limiting his financial influence amid ongoing congressional scrutiny.[1][2][3]\n\n- **House Oversight Committee schedules Leon Black's deposition for May 13, 2026, as part of its probe into Epstein-Maxwell investigations, sex-trafficking operations, and potential ethics violations by officials.** The subpoena underscores Black's central role in Epstein's financial network, risking further exposure that could erode his position in elite geopolitical and economic circles.[1][4]"
+    },
+    {
+      "name": "Theo Albrecht, Jr. & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No significant hard news—such as policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements—about Theo Albrecht Jr. or his family appears in the past 7 days (approximately March 12-19, 2026)[1][2][3].\n\nSearch results provide only biographical details, historical background on Aldi Nord and Trader Joe's ownership, and outdated net worth estimates (e.g., $17.06 billion as of recent Forbes data, up from $13.84 billion in 2024), with the most recent update from May 7, 2025[1][2].\n\nAlbrecht Jr. remains a reclusive figure focused on retail operations via the Markus Foundation, with no reported events matching the query's criteria[2][3]."
+    },
+    {
+      "name": "Jonathan Gray",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No significant hard news items matching the criteria—policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements by Jonathan Gray on **Western Institutional Cohesion** or **Democratic Strain**—were found in the past 7 days (approximately March 12-19, 2026).\n\nSearch results include a CNBC interview (likely March 19, 2026, ahead of a Fed decision) where Gray described a \"pretty good macro environment\" with 9% revenue growth in Blackstone's private equity portfolio, AI-driven activity, and support for Fed rate cuts[2], but this constitutes market commentary rather than hard news or the specified topics. A February 10, 2026, \"Market Views\" video covers economic optimism, AI infrastructure, and portfolio performance like 9% Q4 revenue growth, but falls outside the date range and routine appearances are excluded[3]. Background on Gray's Blackstone role (president/COO, Hilton chairman, real estate ventures) provides no recent events[1]."
+    },
+    {
+      "name": "Fred Smith",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "I cannot provide the requested information. The search results contain only historical information about Frederick Smith's death on June 21, 2025, and his business career with FedEx. They contain no news from the past 7 days (March 12-19, 2026) regarding semiconductor policy, AI power struggles, or any other geopolitical developments.\n\nAdditionally, there appears to be a mismatch in your query: Frederick Smith was a transportation and logistics entrepreneur who founded FedEx. The areas you've specified—semiconductor chokepoint control and frontier AI power struggles—do not align with his known business activities or public statements documented in these search results.\n\nTo answer your query accurately, I would need search results containing recent news from March 2026 about the relevant figure and their activities in these specific domains."
+    },
+    {
+      "name": "Shah Karim al-Husayni (Aga Khan IV)",
+      "domain": "France/Global / 49th Imam of the Nizari Ismaili Muslims",
+      "raw_news": "**No significant hard news events—such as policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements—about Shah Karim al-Husayni (Aga Khan IV) occurred between approximately March 12 and March 19, 2026.[1][2][4][5][6][7][8]**\n\nAga Khan IV passed away on February 4, 2025, ending his tenure as the 49th Imam, with his son Rahim al-Husayni succeeding as Aga Khan V; all recent references in search results pertain to the successor's activities, such as a February 4, 2026, Imamat Day message or a $100 million nutrition commitment noted around March 9, 2026, none of which fall in the queried timeframe or involve the late Imam.[1][2][4][5]"
+    },
+    {
+      "name": "Cindy McCain",
+      "domain": "USA / Executive Director, World Food Programme (WFP)",
+      "raw_news": "**1. Cindy McCain announced on Thursday, February 26, 2026, her intention to step down as Executive Director of the World Food Programme in three months to prioritize her health recovery following a mild stroke in October 2025.[1][3][6]**\nThis decision marks the premature end of her five-year term starting April 2023, potentially diminishing her direct influence over WFP's global hunger response amid ongoing crises like those in Gaza and Ukraine, while opening the leadership to geopolitical pressures such as U.S. funding shifts under the Trump administration.[2][3][7]\n\n**2. In her announcement statement, McCain highlighted WFP's achievements under her leadership, including overhauling global structure, streamlining operations, scaling digital technologies, and diversifying public-private partnerships to aid millions in over 120 countries.[1][6]**\nThese reforms strengthened WFP's operational efficiency and funding resilience despite U.S. cuts, underscoring her lasting impact on the organization's capacity to address conflicts, disasters, and climate-driven hunger for 150 million people annually.[3][4]\n\n**3. McCain kicked off WFP's 2026 Global Outlook priorities this week, addressing her global team on expanding funding, leveraging new technologies, and supporting frontline operations against rising extreme hunger affecting 318 million people due to conflicts, weather, and economic downturns.[5]**\nThis strategic push reinforces her influence in shaping WFP's agenda during her final months, emphasizing efficiency under the recently approved four-year Strategic Plan amid escalating humanitarian risks and resource constraints.[5]"
+    },
+    {
+      "name": "Paul Kagame",
+      "domain": "Head Of State, Rwanda",
+      "raw_news": "- **US sanctions on Rwanda Defence Force prompt Kagame's public response.** On March 6, 2026, President Paul Kagame addressed US sanctions on the Rwanda Defence Force and officials during a diplomatic dinner in Kigali, criticizing selective international pressure, defending Rwanda's security actions against FDLR threats from DRC, and warning of self-defense if needed[1][2]. This bolsters Kagame's image as a resolute middle-power leader resisting Western dominance, aligning with Global South narratives on sovereignty amid DRC tensions[1].\n\n- **Rwanda-DRC Washington talks yield de-escalation agreement.** On March 17-18, 2026, Rwandan and DRC representatives met in Washington and agreed to concrete steps, including Rwanda's disengagement of defensive forces, DRC neutralization of FDLR, and mutual sovereignty protections, following US-mediated 2025 accords[3]. The deal enhances Kagame's diplomatic leverage, positioning Rwanda as a pragmatic actor in regional peace while pressuring DRC, thereby strengthening his influence in East African geopolitics[3].\n\n- **Kagame conditions border troop withdrawal on DRC compliance.** During recent statements, Kagame affirmed Rwanda's readiness to scale back defensive measures along the DRC border if Kinshasa fulfills peace agreement obligations, particularly on armed groups like FDLR[2]. This strategic linkage underscores Kagame's control over escalation dynamics, reinforcing Rwanda's security posture and appeal as a reliable partner in Global South realignments against perceived threats[2].\n\n- **Kagame attends Nuclear Energy Summit in Paris.** On March 10, 2026, President Kagame participated in the 2nd Nuclear Energy Summit in Paris[8]. His involvement signals Rwanda's push into advanced energy partnerships, elevating Kagame's profile in global technology diplomacy and diversifying Rwanda's economic initiatives beyond regional conflicts[8]."
+    },
+    {
+      "name": "Stefano Pessina",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "**No significant hard news about Stefano Pessina from March 12-19, 2026, was found in the search results.** All provided results reference events from May 2025 or earlier, such as a reported $10 billion private equity takeover of Walgreens Boots Alliance by Sycamore Partners where Pessina increases his stake to nearly 50%[1][2][4][5], and a year-prior drop in his holding value to $2.2 billion[3]; these fall outside the queried timeframe and do not align with criteria like policy decisions, geopolitical moves, or diplomatic events. No other qualifying items emerged."
+    }
+  ],
+  "ps_assemblies_fired": {
+    "PS-08": [
+      "CA-113",
+      "CA-311",
+      "CA-132",
+      "CA-112",
+      "CA-025"
+    ],
+    "PS-12": [
+      "CA-016",
+      "CA-002",
+      "CA-032"
+    ],
+    "PS-10": [
+      "CA-001",
+      "CA-065",
+      "CA-153"
+    ],
+    "PS-05": [
+      "CA-103",
+      "CA-043",
+      "CA-307"
+    ]
+  },
+  "neurons_conscious": [
+    "Andrei Guryev & family",
+    "Vladimir Bogdanov",
+    "Cai Qi",
+    "Elon Musk",
+    "Patriarch Kirill (Vladimir Gundyayev)",
+    "William Alexander of the Netherlands",
+    "Vladimir Lisin",
+    "Leonid Mikhelson & family",
+    "Cristiano Amon",
+    "Vladimir Putin"
+  ],
+  "neurons_spontaneous": [
+    "Christopher Cavoli",
+    "Ivan Glasenberg",
+    "Prabowo Subianto",
+    "Yuri Kovalchuk & family",
+    "Gautam Adani",
+    "Jeff Bezos",
+    "Klaus-Michael Kuehne",
+    "Len Blavatnik",
+    "Euisun Chung",
+    "George Roberts",
+    "Leon Black",
+    "Theo Albrecht, Jr. & family",
+    "Jonathan Gray",
+    "Fred Smith",
+    "Shah Karim al-Husayni (Aga Khan IV)",
+    "Cindy McCain",
+    "Paul Kagame",
+    "Stefano Pessina"
+  ],
+  "neurons_skipped": [
+    "Xi Jinping",
+    "Donald Trump",
+    "Li Qiang",
+    "Ali Khamenei",
+    "Salman bin Abdulaziz Al Saud",
+    "Scott Bessent",
+    "Mark Rutte",
+    "Kazuo Ueda",
+    "Ursula von der Leyen",
+    "Mohammed Bin Zayed Al Nahyan",
+    "Jerome Powell",
+    "Tahnoun bin Zayed Al Nahyan",
+    "Zhang Youxia",
+    "Mohan Bhagwat",
+    "Mark Zuckerberg",
+    "Amancio Ortega",
+    "Pan Gongsheng",
+    "Johann Rupert & family",
+    "Volodymyr Zelenskyy",
+    "Subrahmanyam Jaishankar",
+    "Claudia Sheinbaum",
+    "Marco Rubio",
+    "Wang Yi",
+    "Satya Nadella",
+    "C.C. Wei",
+    "Pete Hegseth",
+    "Sundar Pichai",
+    "Igor Sechin",
+    "Pony Ma (Ma Huateng)",
+    "Christophe Fouquet",
+    "Ren Zhengfei",
+    "Yoweri Museveni",
+    "Robin Zeng",
+    "Hibatullah Akhundzada",
+    "Alexander Lukashenko",
+    "Pope Francis (Jorge Mario Bergoglio)",
+    "Larry Fink",
+    "Luiz Inácio Lula da Silva",
+    "Tamim bin Hamad Al",
+    "Valery Gerasimov",
+    "Recep Tayyip Erdoğan",
+    "Abigail Johnson",
+    "Jay Y. Lee",
+    "Stanley Druckenmiller",
+    "Rupert Murdoch & family",
+    "Ayatollah Ali Khamenei",
+    "Kim Jong-un",
+    "Mathias Cormann",
+    "Ajay Banga",
+    "Christine Lagarde",
+    "Shavkat Mirziyoyev",
+    "Charles Koch & family",
+    "Yuri Kovalchuk",
+    "Kristalina Georgieva",
+    "Henry Kravis",
+    "Khaldoon Khalifa Al Mubarak",
+    "António Guterres",
+    "Andrei Belousov",
+    "Bill Gates",
+    "Lisa Su",
+    "Tim Cook",
+    "Sergei Lavrov",
+    "Nikolai Patrushev",
+    "Droupadi Murmu",
+    "Jensen Huang",
+    "Bernard Arnault & family",
+    "Sam Altman",
+    "Ilham Aliyev",
+    "Abdel Fattah el-Sisi",
+    "Mustafa Suleyman",
+    "Demis Hassabis",
+    "Joseph Tsai",
+    "Frank-Walter Steinmeier",
+    "Larry Ellison",
+    "Frederik X of Denmark",
+    "Rupert Johnson, Jr.",
+    "Cyrus Poonawalla",
+    "Richard Liu",
+    "Thomas Pritzker",
+    "Tadashi Yanai & family",
+    "Bongbong Marcos",
+    "Félix Tshisekedi",
+    "Eric Yuan & family",
+    "Ken Griffin",
+    "Kumar Birla",
+    "Rafaela Aponte-Diamant",
+    "Bola Ahmed Tinubu",
+    "Alisher Usmanov",
+    "Jose Roberto Marinho",
+    "Alessandra Galloni",
+    "Wang Chuanfu",
+    "Jim Walton & family",
+    "Olivier Bouygues",
+    "Patrick Collison",
+    "Hakainde Hichilema",
+    "Francoise Bettencourt Meyers & family",
+    "Elvira Nabiullina",
+    "Warren Buffett",
+    "João Lourenço",
+    "Ma Huateng",
+    "Tô Lâm",
+    "Jamie Dimon",
+    "Andrew Bailey",
+    "Zhang Yiming",
+    "Larry Page",
+    "Ray Dalio",
+    "Morris Chang",
+    "Mukesh Ambani",
+    "Marc Andreessen",
+    "Paul Singer",
+    "David Rubenstein",
+    "Li Ka-shing",
+    "Vincent Bolloré & family",
+    "Ilya Sutskever",
+    "Ismail Omar Guelleh",
+    "Sunil Mittal",
+    "Taye Atske Selassie",
+    "Petr Pavel",
+    "Luis Abinader",
+    "Edward Johnson, IV.",
+    "Marc Benioff",
+    "Savitri Jindal & family",
+    "David Bonderman",
+    "Stephen Feinberg",
+    "Safra Catz",
+    "Hamad bin Jassim bin Jaber Al Thani",
+    "Sergey Brin",
+    "Grand Ayatollah Ali al-Sistani",
+    "Robin Li",
+    "Eric Schmidt",
+    "Shen Haixiong",
+    "Tedros Adhanom Ghebreyesus",
+    "Russell M. Nelson",
+    "Martin Lau",
+    "Mohammed VI of Morocco",
+    "William Ackman",
+    "Charles III",
+    "Gennady Timchenko",
+    "Lai Ching-te",
+    "William Ruto",
+    "Edir Macedo & family",
+    "Pavel Durov",
+    "Melinda French Gates",
+    "Charles Schwab",
+    "Jorge Paulo Lemann & family",
+    "Serdar Berdimuhamedow",
+    "Masayoshi Son",
+    "Michael Dell",
+    "Margarita Louis-Dreyfus & family",
+    "Salva Kiir Mayardit",
+    "Anthony Bamford & family",
+    "François Pinault & family",
+    "Rodolphe Saadé",
+    "Karl Albrecht Jr. & family",
+    "MacKenzie Scott",
+    "Sheikh Abdulaziz bin Abdullah Al ash-Sheikh",
+    "Miriam Adelson & family",
+    "Michael Froman",
+    "Leo XIV",
+    "Stephen Schwarzman",
+    "Germán Larrea Mota Velasco & family",
+    "Daniela Amodei",
+    "Terry Gou",
+    "John Malone",
+    "Evan Spiegel",
+    "Dhanin Chearavanont",
+    "Hamad II of Bahrain",
+    "Hasso Plattner & family",
+    "Alassane Ouattara",
+    "Laurene Powell Jobs & family",
+    "Thomas Frist, Jr. & family",
+    "Dieter Schwarz",
+    "Gianluigi Aponte",
+    "Abdullah II of Jordan",
+    "Donald Horton & family",
+    "Vajiralongkorn",
+    "Alexander Karp",
+    "Paul Tudor Jones, II.",
+    "Arkady Rotenberg",
+    "Abdelmadjid Tebboune",
+    "Emmerson Mnangagwa",
+    "Rob Walton & family",
+    "Hassanal Bolkiah I of Brunei",
+    "Asif Ali Zardari",
+    "Aziz Akhannouch & family",
+    "Sergio Mattarella",
+    "Brian Roberts",
+    "Michael Bloomberg",
+    "Naruhito",
+    "Samia Suluhu Hassan",
+    "Ngozi Okonjo-Iweala",
+    "Grand Imam Ahmed el-Tayeb",
+    "Javier Milei",
+    "Vladimir Potanin",
+    "Iris Fontbona & family",
+    "Esmail Qaani",
+    "Emmanuel Macron",
+    "Haitham bin Tarik Al Said",
+    "Carlos Slim Helu & family",
+    "Bidzina Ivanishvili & family",
+    "Gustavo Petro",
+    "Daniel Noboa",
+    "Charlene de Carvalho-Heineken & family",
+    "Gabriel Boric",
+    "Julia Koch & family",
+    "Ricardo Salinas Pliego & family",
+    "Dario Amodei",
+    "Alain Wertheimer",
+    "Oleg Deripaska",
+    "Pierre Omidyar",
+    "Gina Rinehart",
+    "Andrew Forrest & family",
+    "Hiroshi Mikitani",
+    "Onkar Kanwar",
+    "Isaias Afwerki",
+    "Anthony Wood",
+    "Patrick Drahi",
+    "Antonio Del Valle Ruiz & family",
+    "Susanne Klatten",
+    "Travis Kalanick",
+    "Reed Hastings",
+    "Marijke Mars",
+    "Kim Kardashian",
+    "Gong Hongjia & family",
+    "Jayshree Ullal",
+    "Miuccia Prada",
+    "Antony Ressler",
+    "Ronald Lauder",
+    "Howard Marks",
+    "Mochtar Riady & family",
+    "Micky Arison",
+    "Reinhold Wuerth & family",
+    "Wang Jianlin",
+    "Bassirou Diomaye Faye",
+    "William Ding",
+    "Aneel Bhusri",
+    "Nandan Nilekani",
+    "Mark Suzman",
+    "Fang Hongbo",
+    "Lim Kok Thay",
+    "Wang Xing",
+    "Alfredo Harp Helu & family",
+    "Adi Godrej",
+    "John Doerr",
+    "Liu Hanyuan",
+    "William Lauder",
+    "Nassef Sawiris",
+    "Steve Ballmer",
+    "Cyril Ramaphosa",
+    "Riley Bechtel & family",
+    "Brice Clotaire Oligui Nguema",
+    "Kais Saied",
+    "Phil Knight & family",
+    "John Mars",
+    "Yuri Milner",
+    "Karol Nawrocki",
+    "Prajogo Pangestu",
+    "Daniel Ortega",
+    "Thaksin Shinawatra",
+    "Uday Kotak",
+    "Xiang Guangda",
+    "Andrej Babis",
+    "Lei Jun",
+    "Sheryl Sandberg",
+    "Faisal Bin Qassim Al Thani",
+    "Jeff T. Green",
+    "Charles Liang",
+    "Jiang Rensheng & family",
+    "Liu Yongxing",
+    "Hansjoerg Wyss",
+    "Aliko Dangote",
+    "Changpeng Zhao"
+  ],
+  "spontaneous_cap": 18
+}

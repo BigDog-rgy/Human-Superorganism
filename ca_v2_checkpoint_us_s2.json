@@ -1,0 +1,2164 @@
+{
+  "ca_registry": {
+    "Ballard Partners": {
+      "name": "Ballard Partners",
+      "description": "A top-tier Washington lobbying firm founded by Ballard that serves as his primary power node connecting corporate and foreign clients to federal policymakers.",
+      "neurons": [
+        "Brian Ballard"
+      ],
+      "count": 1
+    },
+    "US Senate": {
+      "name": "US Senate",
+      "description": "The upper chamber of Congress in which Cotton serves as a senator from Arkansas and exercises legislative and confirmation power.",
+      "neurons": [
+        "Charles E. Schumer",
+        "Christopher Murphy",
+        "Chuck Grassley",
+        "Cynthia M. Lummis",
+        "John Thune",
+        "Josh Hawley",
+        "Lindsey Graham",
+        "Mike Lee",
+        "Mitch McConnell",
+        "Patty Murray",
+        "Richard J. Durbin",
+        "Rick Scott",
+        "Susan M. Collins",
+        "Ted Cruz",
+        "Tom Cotton"
+      ],
+      "count": 15
+    },
+    "Senate Republican Conference": {
+      "name": "Senate Republican Conference",
+      "description": "The caucus coordinating body for all Senate Republicans, shaping unified legislative strategy and leadership priorities.",
+      "neurons": [
+        "John Thune",
+        "Mitch McConnell",
+        "Rick Scott",
+        "Ted Cruz",
+        "Tom Cotton"
+      ],
+      "count": 5
+    },
+    "Elliott Investment Management": {
+      "name": "Elliott Investment Management",
+      "description": "The activist hedge fund Singer founded and leads, one of the most aggressive and influential investment firms in global finance.",
+      "neurons": [
+        "Paul Singer"
+      ],
+      "count": 1
+    },
+    "Republican Jewish Coalition": {
+      "name": "Republican Jewish Coalition",
+      "description": "A major donor-network and advocacy organization bridging Republican politics and the Jewish community, where Singer is a leading financial backer.",
+      "neurons": [
+        "Miriam Adelson & family",
+        "Paul Singer"
+      ],
+      "count": 2
+    },
+    "Citadel LLC": {
+      "name": "Citadel LLC",
+      "description": "The flagship hedge fund Griffin founded, one of the most profitable investment firms in the world and the center of his financial empire.",
+      "neurons": [
+        "Ken Griffin"
+      ],
+      "count": 1
+    },
+    "Citadel Securities": {
+      "name": "Citadel Securities",
+      "description": "A separate market-making firm co-founded by Griffin that is a dominant force in US equity and options trading infrastructure.",
+      "neurons": [
+        "Ken Griffin"
+      ],
+      "count": 1
+    },
+    "US House of Representatives": {
+      "name": "US House of Representatives",
+      "description": "The lower chamber of Congress in which Jeffries serves as House Minority Leader, the top-ranking Democrat in the chamber.",
+      "neurons": [
+        "Alexandria Ocasio-Cortez",
+        "Elise M. Stefanik",
+        "Hakeem S. Jeffries",
+        "Steve Scalise"
+      ],
+      "count": 4
+    },
+    "House Democratic Caucus": {
+      "name": "House Democratic Caucus",
+      "description": "The formal organization of all House Democrats, which Jeffries leads and uses to coordinate legislative strategy and messaging.",
+      "neurons": [
+        "Hakeem S. Jeffries"
+      ],
+      "count": 1
+    },
+    "Office of the Governor of Texas": {
+      "name": "Office of the Governor of Texas",
+      "description": "The executive office Abbott holds as the chief executive of the second-largest US state, wielding broad administrative, budgetary, and military authority.",
+      "neurons": [
+        "Greg Abbott"
+      ],
+      "count": 1
+    },
+    "Republican Governors Association": {
+      "name": "Republican Governors Association",
+      "description": "The national organization coordinating Republican governors across states, where Abbott is a prominent figure and major fundraiser.",
+      "neurons": [
+        "Greg Abbott",
+        "Ron DeSantis"
+      ],
+      "count": 2
+    },
+    "Bridgewater Associates": {
+      "name": "Bridgewater Associates",
+      "description": "The world's largest hedge fund, which Dalio founded and built into a globally influential macroeconomic investment and research institution.",
+      "neurons": [
+        "Ray Dalio"
+      ],
+      "count": 1
+    },
+    "Epic Systems": {
+      "name": "Epic Systems",
+      "description": "The dominant electronic health records company Faulkner founded and leads, whose software underpins the clinical data infrastructure of most major US health systems.",
+      "neurons": [
+        "Judy Faulkner"
+      ],
+      "count": 1
+    },
+    "Supreme Court of the United States": {
+      "name": "Supreme Court of the United States",
+      "description": "The highest federal court, on which Gorsuch serves as an Associate Justice with lifetime tenure and final authority on constitutional interpretation.",
+      "neurons": [
+        "Amy Coney Barrett",
+        "Brett M. Kavanaugh",
+        "Clarence Thomas",
+        "Elena Kagan",
+        "John G. Roberts Jr.",
+        "Ketanji Brown Jackson",
+        "Neil M. Gorsuch",
+        "Samuel A. Alito Jr.",
+        "Sonia Sotomayor"
+      ],
+      "count": 9
+    },
+    "Federalist Society": {
+      "name": "Federalist Society",
+      "description": "The influential conservative legal network whose pipeline and vetting process was central to Gorsuch's nomination and whose judicial philosophy he embodies.",
+      "neurons": [
+        "Amy Coney Barrett",
+        "Brett M. Kavanaugh",
+        "Carrie Severino",
+        "Clarence Thomas",
+        "Leonard Leo",
+        "Matthew J. Kacsmaryk",
+        "Mike Lee",
+        "Neil M. Gorsuch",
+        "Samuel A. Alito Jr."
+      ],
+      "count": 9
+    },
+    "Microsoft": {
+      "name": "Microsoft",
+      "description": "Global technology corporation where Suleyman serves as CEO of Microsoft AI, directing the company's artificial intelligence strategy and products.",
+      "neurons": [
+        "Mustafa Suleyman",
+        "Satya Nadella"
+      ],
+      "count": 2
+    },
+    "Oracle Corporation": {
+      "name": "Oracle Corporation",
+      "description": "Enterprise software and cloud infrastructure giant that Ellison co-founded and where he serves as Chairman and CTO, anchoring his primary power base.",
+      "neurons": [
+        "Larry Ellison"
+      ],
+      "count": 1
+    },
+    "Blackstone": {
+      "name": "Blackstone",
+      "description": "The world's largest alternative asset management firm, where Gray serves as President and COO, overseeing its vast real estate and private equity portfolios.",
+      "neurons": [
+        "Jonathan Gray",
+        "Stephen Schwarzman"
+      ],
+      "count": 2
+    },
+    "Apollo Global Management": {
+      "name": "Apollo Global Management",
+      "description": "Major alternative investment firm that Black co-founded and built into a global private equity and credit powerhouse, remaining his primary institutional legacy.",
+      "neurons": [
+        "Josh Harris",
+        "Leon Black",
+        "Marc Rowan"
+      ],
+      "count": 3
+    },
+    "NVIDIA": {
+      "name": "NVIDIA",
+      "description": "Semiconductor and AI computing company that Huang co-founded and leads as CEO, now central to global AI infrastructure and the dominant supplier of GPU accelerators.",
+      "neurons": [
+        "Jensen Huang"
+      ],
+      "count": 1
+    },
+    "Tudor Investment Corp": {
+      "name": "Tudor Investment Corp",
+      "description": "Global macro hedge fund founded and led by Jones, serving as his primary vehicle for financial market influence and capital allocation.",
+      "neurons": [
+        "Paul Tudor Jones, II."
+      ],
+      "count": 1
+    },
+    "Robin Hood Foundation": {
+      "name": "Robin Hood Foundation",
+      "description": "Major New York-based anti-poverty nonprofit that Jones co-founded, functioning as his principal philanthropic and civic influence platform.",
+      "neurons": [
+        "Paul Tudor Jones, II."
+      ],
+      "count": 1
+    },
+    "Judicial Conference of the United States": {
+      "name": "Judicial Conference of the United States",
+      "description": "The principal policy-making body for the federal court system, which Roberts chairs by statute, setting rules and administrative standards for all federal courts.",
+      "neurons": [
+        "John G. Roberts Jr."
+      ],
+      "count": 1
+    },
+    "Danaher Corporation": {
+      "name": "Danaher Corporation",
+      "description": "Industrial and life sciences conglomerate that Rales co-founded and helped build through decades of acquisitions, remaining a key architect of its strategic direction.",
+      "neurons": [
+        "Mitchell Rales"
+      ],
+      "count": 1
+    },
+    "Glenstone Foundation": {
+      "name": "Glenstone Foundation",
+      "description": "Private contemporary art museum and foundation in Potomac, Maryland, that Rales established as a significant cultural and philanthropic institution.",
+      "neurons": [
+        "Mitchell Rales"
+      ],
+      "count": 1
+    },
+    "Mars, Incorporated": {
+      "name": "Mars, Incorporated",
+      "description": "The privately held global food and confectionery conglomerate (Snickers, Pedigree, Wrigley) that John Mars co-owns and has shaped as a principal family heir.",
+      "neurons": [
+        "John Mars",
+        "Marijke Mars",
+        "Victoria Mars"
+      ],
+      "count": 3
+    },
+    "Senate Appropriations Committee": {
+      "name": "Senate Appropriations Committee",
+      "description": "The powerful Senate committee Collins chairs, controlling the allocation of federal discretionary spending.",
+      "neurons": [
+        "Patty Murray",
+        "Susan M. Collins"
+      ],
+      "count": 2
+    },
+    "Geffen Records": {
+      "name": "Geffen Records",
+      "description": "The influential music label Geffen founded, which defined his legacy as a major force in the American entertainment industry.",
+      "neurons": [
+        "David Geffen"
+      ],
+      "count": 1
+    },
+    "David Geffen Foundation": {
+      "name": "David Geffen Foundation",
+      "description": "His primary philanthropic vehicle, directing hundreds of millions toward arts, health, and education causes.",
+      "neurons": [
+        "David Geffen"
+      ],
+      "count": 1
+    },
+    "eBay": {
+      "name": "eBay",
+      "description": "The e-commerce marketplace Omidyar founded, the source of his fortune and his original organizational footprint.",
+      "neurons": [
+        "Pierre Omidyar"
+      ],
+      "count": 1
+    },
+    "Omidyar Network": {
+      "name": "Omidyar Network",
+      "description": "His philanthropic investment firm that funds democracy, journalism, and technology initiatives globally.",
+      "neurons": [
+        "Pierre Omidyar"
+      ],
+      "count": 1
+    },
+    "GoDaddy": {
+      "name": "GoDaddy",
+      "description": "The domain registrar and web-hosting company Parsons founded, which made him a billionaire and remains his signature enterprise.",
+      "neurons": [
+        "Bob Parsons"
+      ],
+      "count": 1
+    },
+    "YAM Worldwide": {
+      "name": "YAM Worldwide",
+      "description": "His holding company for post-GoDaddy ventures spanning real estate, motorsports, and other investments.",
+      "neurons": [
+        "Bob Parsons"
+      ],
+      "count": 1
+    },
+    "Alphabet Inc.": {
+      "name": "Alphabet Inc.",
+      "description": "The parent holding company Page co-founded and led, encompassing Google and all subsidiary ventures as its apex organizational structure.",
+      "neurons": [
+        "Larry Page",
+        "Sergey Brin",
+        "Sundar Pichai"
+      ],
+      "count": 3
+    },
+    "Advance Publications": {
+      "name": "Advance Publications",
+      "description": "The privately held media conglomerate Newhouse controls, owning Condé Nast, a portfolio of newspapers, and major cable interests.",
+      "neurons": [
+        "Donald Newhouse"
+      ],
+      "count": 1
+    },
+    "Emerson Collective": {
+      "name": "Emerson Collective",
+      "description": "Her hybrid LLC/philanthropic organization that is her primary vehicle for investments and advocacy in education, immigration, and media.",
+      "neurons": [
+        "Laurene Powell Jobs"
+      ],
+      "count": 1
+    },
+    "The Atlantic": {
+      "name": "The Atlantic",
+      "description": "The storied American magazine in which Powell Jobs holds a majority ownership stake, giving her direct influence over a major media institution.",
+      "neurons": [
+        "Laurene Powell Jobs"
+      ],
+      "count": 1
+    },
+    "Trump White House": {
+      "name": "Trump White House",
+      "description": "The executive office of the US presidency that Trump currently occupies, representing the apex of his governmental power.",
+      "neurons": [
+        "Donald Trump",
+        "Susie Wiles"
+      ],
+      "count": 2
+    },
+    "Trump Organization": {
+      "name": "Trump Organization",
+      "description": "His privately held real estate and branding conglomerate that constitutes his primary business identity and financial base.",
+      "neurons": [
+        "Donald Trump"
+      ],
+      "count": 1
+    },
+    "Republican National Committee": {
+      "name": "Republican National Committee",
+      "description": "The national party apparatus that Trump has effectively reshaped in his image and that serves as the organizational backbone of his political movement.",
+      "neurons": [
+        "Donald Trump"
+      ],
+      "count": 1
+    },
+    "Pershing Square Capital Management": {
+      "name": "Pershing Square Capital Management",
+      "description": "Ackman's activist hedge fund and primary vehicle for his high-profile public market investments and corporate influence campaigns.",
+      "neurons": [
+        "William Ackman"
+      ],
+      "count": 1
+    },
+    "Pershing Square Foundation": {
+      "name": "Pershing Square Foundation",
+      "description": "His philanthropic arm funding education, public health, and civic initiatives, extending his influence beyond finance.",
+      "neurons": [
+        "William Ackman"
+      ],
+      "count": 1
+    },
+    "Bloomberg L.P.": {
+      "name": "Bloomberg L.P.",
+      "description": "The financial data and media empire Bloomberg founded and controls, the primary source of his wealth and global business influence.",
+      "neurons": [
+        "Michael Bloomberg"
+      ],
+      "count": 1
+    },
+    "Bloomberg Philanthropies": {
+      "name": "Bloomberg Philanthropies",
+      "description": "His philanthropic organization directing billions toward public health, climate, arts, and government innovation globally.",
+      "neurons": [
+        "Michael Bloomberg"
+      ],
+      "count": 1
+    },
+    "Everytown for Gun Safety": {
+      "name": "Everytown for Gun Safety",
+      "description": "The gun-control advocacy organization Bloomberg funds and champions, his primary vehicle for political influence on firearms policy.",
+      "neurons": [
+        "Michael Bloomberg"
+      ],
+      "count": 1
+    },
+    "Uline": {
+      "name": "Uline",
+      "description": "The privately held industrial packaging and shipping supply company Uihlein co-owns and runs, the source of his wealth and business identity.",
+      "neurons": [
+        "Richard Uihlein"
+      ],
+      "count": 1
+    },
+    "Restoration PAC": {
+      "name": "Restoration PAC",
+      "description": "The conservative super PAC he funds as one of the Republican Party's largest individual donors, channeling his political influence into elections and causes.",
+      "neurons": [
+        "Richard Uihlein"
+      ],
+      "count": 1
+    },
+    "Senate Judiciary Committee": {
+      "name": "Senate Judiciary Committee",
+      "description": "The committee central to Hawley's legislative identity, where he exercises significant influence on judicial nominations and constitutional issues.",
+      "neurons": [
+        "Chuck Grassley",
+        "Josh Hawley",
+        "Lindsey Graham"
+      ],
+      "count": 3
+    },
+    "Charles and Lynn Schusterman Family Philanthropies": {
+      "name": "Charles and Lynn Schusterman Family Philanthropies",
+      "description": "The family's primary philanthropic organization directing major funding toward Jewish identity, Israel, and education initiatives in the US and globally.",
+      "neurons": [
+        "Lynn Schusterman & family"
+      ],
+      "count": 1
+    },
+    "Harris Blitzer Sports & Entertainment": {
+      "name": "Harris Blitzer Sports & Entertainment",
+      "description": "His sports ownership group controlling the Philadelphia 76ers and New Jersey Devils, extending his influence into media and entertainment.",
+      "neurons": [
+        "Josh Harris"
+      ],
+      "count": 1
+    },
+    "Government of Florida": {
+      "name": "Government of Florida",
+      "description": "The state executive apparatus DeSantis leads as governor, his primary institutional base of political and administrative power.",
+      "neurons": [
+        "Ron DeSantis"
+      ],
+      "count": 1
+    },
+    "Appaloosa Management": {
+      "name": "Appaloosa Management",
+      "description": "Tepper's hedge fund and primary vehicle for his market-moving investment activity and accumulation of wealth.",
+      "neurons": [
+        "David Tepper"
+      ],
+      "count": 1
+    },
+    "Tepper Sports & Entertainment": {
+      "name": "Tepper Sports & Entertainment",
+      "description": "His sports ownership entity controlling the Carolina Panthers and Charlotte FC, representing his influence in professional sports and regional media.",
+      "neurons": [
+        "David Tepper"
+      ],
+      "count": 1
+    },
+    "Fox Corporation": {
+      "name": "Fox Corporation",
+      "description": "The publicly traded media company controlling Fox News and Fox Broadcasting, the Murdoch family's dominant vehicle for US political and cultural influence.",
+      "neurons": [
+        "Rupert Murdoch & family",
+        "Sean Hannity"
+      ],
+      "count": 2
+    },
+    "News Corp": {
+      "name": "News Corp",
+      "description": "The separately traded Murdoch-controlled conglomerate encompassing The Wall Street Journal, HarperCollins, and global news properties.",
+      "neurons": [
+        "Rupert Murdoch & family"
+      ],
+      "count": 1
+    },
+    "Premiere Networks": {
+      "name": "Premiere Networks",
+      "description": "The syndication company distributing Hannity's nationally syndicated radio show, extending his reach beyond television to tens of millions of radio listeners.",
+      "neurons": [
+        "Sean Hannity"
+      ],
+      "count": 1
+    },
+    "Interactive Brokers": {
+      "name": "Interactive Brokers",
+      "description": "The publicly traded electronic brokerage firm Peterffy founded and chairs, through which he holds the majority of his wealth and influence in US financial markets.",
+      "neurons": [
+        "Thomas Peterffy"
+      ],
+      "count": 1
+    },
+    "AMD": {
+      "name": "AMD",
+      "description": "Advanced Micro Devices, the semiconductor company Su chairs and leads as CEO, driving its competitive position in CPUs and GPUs against Intel and NVIDIA.",
+      "neurons": [
+        "Lisa Su"
+      ],
+      "count": 1
+    },
+    "Pivotal Ventures": {
+      "name": "Pivotal Ventures",
+      "description": "Her independent investment and incubation company focused on social progress initiatives, operating separately from the Gates Foundation after her departure.",
+      "neurons": [
+        "Melinda French Gates"
+      ],
+      "count": 1
+    },
+    "Bill & Melinda Gates Foundation": {
+      "name": "Bill & Melinda Gates Foundation",
+      "description": "The world's largest private charitable foundation, which she co-founded and continues to be associated with as a major force in global health and development funding.",
+      "neurons": [
+        "Bill Gates",
+        "Melinda French Gates"
+      ],
+      "count": 2
+    },
+    "Anschutz Corporation": {
+      "name": "Anschutz Corporation",
+      "description": "The private holding company through which Anschutz controls his diversified empire spanning energy, entertainment, sports, and media assets.",
+      "neurons": [
+        "Philip Anschutz"
+      ],
+      "count": 1
+    },
+    "Anschutz Entertainment Group (AEG)": {
+      "name": "Anschutz Entertainment Group (AEG)",
+      "description": "The major live entertainment and venue management company owned by Anschutz, one of the largest concert promotion and sports facility operators in the world.",
+      "neurons": [
+        "Philip Anschutz"
+      ],
+      "count": 1
+    },
+    "Clarity Media Group": {
+      "name": "Clarity Media Group",
+      "description": "Anschutz's conservative media holding company, owner of outlets including The Weekly Standard's successor properties and regional newspapers.",
+      "neurons": [
+        "Philip Anschutz"
+      ],
+      "count": 1
+    },
+    "Senate Democratic Caucus": {
+      "name": "Senate Democratic Caucus",
+      "description": "The coordinating body for all Senate Democrats, in which Durbin has held senior leadership roles including Assistant Majority Leader.",
+      "neurons": [
+        "Charles E. Schumer",
+        "Richard J. Durbin"
+      ],
+      "count": 2
+    },
+    "Meta Platforms": {
+      "name": "Meta Platforms",
+      "description": "The parent company of Facebook, Instagram, and WhatsApp, which Zuckerberg co-founded and controls as chairman and CEO, making it the dominant social media conglomerate in the US.",
+      "neurons": [
+        "Mark Zuckerberg"
+      ],
+      "count": 1
+    },
+    "Chan Zuckerberg Initiative": {
+      "name": "Chan Zuckerberg Initiative",
+      "description": "The philanthropic LLC co-founded by Zuckerberg and Priscilla Chan to advance education, science, and justice reform through investments and grants.",
+      "neurons": [
+        "Mark Zuckerberg"
+      ],
+      "count": 1
+    },
+    "Department of Defense": {
+      "name": "Department of Defense",
+      "description": "The executive cabinet department responsible for the US military and national defense, which Hegseth leads as Secretary of Defense under President Trump.",
+      "neurons": [
+        "Pete Hegseth"
+      ],
+      "count": 1
+    },
+    "The Carlyle Group": {
+      "name": "The Carlyle Group",
+      "description": "Global private equity firm Rubenstein co-founded and built into one of the world's largest alternative asset managers.",
+      "neurons": [
+        "David Rubenstein"
+      ],
+      "count": 1
+    },
+    "Council on Foreign Relations": {
+      "name": "Council on Foreign Relations",
+      "description": "Preeminent US foreign policy think tank where Rubenstein serves as co-chairman, shaping elite consensus on international affairs.",
+      "neurons": [
+        "David Rubenstein",
+        "Henry Kravis"
+      ],
+      "count": 2
+    },
+    "KKR & Co.": {
+      "name": "KKR & Co.",
+      "description": "Global investment firm Kravis co-founded that pioneered leveraged buyouts and manages hundreds of billions in alternative assets.",
+      "neurons": [
+        "George Roberts",
+        "Henry Kravis"
+      ],
+      "count": 2
+    },
+    "Builders Vision": {
+      "name": "Builders Vision",
+      "description": "Walton's impact investment and philanthropy platform directing his inherited Walmart wealth toward sustainable food, energy, and ocean systems.",
+      "neurons": [
+        "Lukas Walton"
+      ],
+      "count": 1
+    },
+    "Walton Family Foundation": {
+      "name": "Walton Family Foundation",
+      "description": "The primary philanthropic vehicle of the Walton family, funding education reform, conservation, and community development at scale.",
+      "neurons": [
+        "Christy Walton",
+        "Lukas Walton",
+        "Rob Walton & family"
+      ],
+      "count": 3
+    },
+    "Senate Banking, Housing, and Urban Affairs Committee": {
+      "name": "Senate Banking, Housing, and Urban Affairs Committee",
+      "description": "The Senate committee central to Lummis's power as the leading congressional voice on cryptocurrency and digital asset regulation.",
+      "neurons": [
+        "Cynthia M. Lummis"
+      ],
+      "count": 1
+    },
+    "Marble Freedom Trust": {
+      "name": "Marble Freedom Trust",
+      "description": "Leo's flagship dark-money vehicle, receiving and deploying hundreds of millions of dollars to advance conservative legal and political causes.",
+      "neurons": [
+        "Leonard Leo"
+      ],
+      "count": 1
+    },
+    "CRC Advisors": {
+      "name": "CRC Advisors",
+      "description": "Leo's consulting and strategy firm that coordinates funding flows and campaign infrastructure across his broader network of conservative organizations.",
+      "neurons": [
+        "Leonard Leo"
+      ],
+      "count": 1
+    },
+    "Palantir Technologies": {
+      "name": "Palantir Technologies",
+      "description": "The data analytics and AI company Karp co-founded and leads as CEO, whose platforms serve US intelligence agencies, the military, and allied governments.",
+      "neurons": [
+        "Alex Karp",
+        "Alexander Karp",
+        "Peter Thiel"
+      ],
+      "count": 3
+    },
+    "Related Companies": {
+      "name": "Related Companies",
+      "description": "The major real estate development firm Ross founded and chairs, responsible for large-scale projects including Hudson Yards in New York City.",
+      "neurons": [
+        "Stephen Ross"
+      ],
+      "count": 1
+    },
+    "Miami Dolphins": {
+      "name": "Miami Dolphins",
+      "description": "The NFL franchise Ross owns, giving him a prominent platform in professional sports and the broader South Florida business ecosystem.",
+      "neurons": [
+        "Stephen Ross"
+      ],
+      "count": 1
+    },
+    "The Wonderful Company": {
+      "name": "The Wonderful Company",
+      "description": "The privately held agricultural and consumer goods conglomerate Resnick controls, making him the largest landowner of irrigated farmland in the United States.",
+      "neurons": [
+        "Lynda Resnick",
+        "Stewart Resnick"
+      ],
+      "count": 2
+    },
+    "Department of Government Efficiency (DOGE)": {
+      "name": "Department of Government Efficiency (DOGE)",
+      "description": "White House advisory entity led by Musk tasked with cutting federal spending and restructuring government agencies.",
+      "neurons": [
+        "Elon Musk"
+      ],
+      "count": 1
+    },
+    "SpaceX": {
+      "name": "SpaceX",
+      "description": "Musk's aerospace and defense contractor, the dominant private launch provider for US government and commercial payloads.",
+      "neurons": [
+        "Elon Musk"
+      ],
+      "count": 1
+    },
+    "X Corp": {
+      "name": "X Corp",
+      "description": "Musk's social media platform, a major node in US political communication and information distribution.",
+      "neurons": [
+        "Elon Musk"
+      ],
+      "count": 1
+    },
+    "xAI": {
+      "name": "xAI",
+      "description": "Musk's independent AI research company, a direct competitor to OpenAI and Google DeepMind.",
+      "neurons": [
+        "Elon Musk"
+      ],
+      "count": 1
+    },
+    "Koch Industries": {
+      "name": "Koch Industries",
+      "description": "One of the largest privately held US conglomerates, the primary source of Koch family wealth and economic influence.",
+      "neurons": [
+        "Charles Koch & family",
+        "Julia Koch & family"
+      ],
+      "count": 2
+    },
+    "Americans for Prosperity": {
+      "name": "Americans for Prosperity",
+      "description": "Koch-network political advocacy organization that funds and coordinates free-market and limited-government policy campaigns nationwide.",
+      "neurons": [
+        "Charles Koch & family",
+        "Julia Koch & family"
+      ],
+      "count": 2
+    },
+    "Susquehanna International Group (SIG)": {
+      "name": "Susquehanna International Group (SIG)",
+      "description": "Yass's quantitative trading and financial services firm, one of the largest market makers in the US and a major source of his political funding capacity.",
+      "neurons": [
+        "Jeff Yass"
+      ],
+      "count": 1
+    },
+    "Club for Growth": {
+      "name": "Club for Growth",
+      "description": "Free-market political action organization that Yass heavily funds, focused on electing fiscally conservative candidates to Congress.",
+      "neurons": [
+        "Jeff Yass"
+      ],
+      "count": 1
+    },
+    "Alphabet / Google": {
+      "name": "Alphabet / Google",
+      "description": "The parent company Schmidt led as CEO and executive chairman, the dominant US search, advertising, and cloud technology corporation.",
+      "neurons": [
+        "Eric Schmidt"
+      ],
+      "count": 1
+    },
+    "Special Competitive Studies Project (SCSP)": {
+      "name": "Special Competitive Studies Project (SCSP)",
+      "description": "Schmidt's policy initiative advising the US government on maintaining technological and AI competitiveness against China.",
+      "neurons": [
+        "Eric Schmidt"
+      ],
+      "count": 1
+    },
+    "Make America Great Again Inc. (MAGA Inc.)": {
+      "name": "Make America Great Again Inc. (MAGA Inc.)",
+      "description": "The primary super PAC supporting Trump's political operation, which Wiles helped build and direct as a senior strategist.",
+      "neurons": [
+        "Susie Wiles"
+      ],
+      "count": 1
+    },
+    "Fanatics": {
+      "name": "Fanatics",
+      "description": "Rubin's sports merchandise and commerce conglomerate, the dominant licensed sports retail platform in the US.",
+      "neurons": [
+        "Michael Rubin"
+      ],
+      "count": 1
+    },
+    "REFORM Alliance": {
+      "name": "REFORM Alliance",
+      "description": "Criminal justice reform advocacy organization co-founded by Rubin, focused on changing probation and parole laws.",
+      "neurons": [
+        "Michael Rubin"
+      ],
+      "count": 1
+    },
+    "Liberty Media": {
+      "name": "Liberty Media",
+      "description": "Malone's media and entertainment holding company, with controlling stakes in Formula 1, SiriusXM, and the Atlanta Braves.",
+      "neurons": [
+        "John Malone"
+      ],
+      "count": 1
+    },
+    "Warner Bros. Discovery": {
+      "name": "Warner Bros. Discovery",
+      "description": "Major US media conglomerate in which Malone holds significant board influence through Liberty's stake, encompassing CNN, HBO, and Warner Bros.",
+      "neurons": [
+        "John Malone"
+      ],
+      "count": 1
+    },
+    "Home Depot": {
+      "name": "Home Depot",
+      "description": "The home improvement retail giant Langone co-founded and helped finance, one of the largest US corporations by revenue.",
+      "neurons": [
+        "Ken Langone"
+      ],
+      "count": 1
+    },
+    "NYU Langone Health": {
+      "name": "NYU Langone Health",
+      "description": "Major New York academic medical center bearing Langone's name following his transformative philanthropic investment, a flagship institution of his civic influence.",
+      "neurons": [
+        "Ken Langone"
+      ],
+      "count": 1
+    },
+    "Las Vegas Sands": {
+      "name": "Las Vegas Sands",
+      "description": "The casino and resort corporation founded by Sheldon Adelson and now controlled by Miriam Adelson, the primary source of family wealth and political funding capacity.",
+      "neurons": [
+        "Miriam Adelson & family"
+      ],
+      "count": 1
+    },
+    "Turning Point USA": {
+      "name": "Turning Point USA",
+      "description": "Kirk's nonprofit organization building a conservative activist network on high school and college campuses across the United States.",
+      "neurons": [
+        "Charlie Kirk"
+      ],
+      "count": 1
+    },
+    "Turning Point Action": {
+      "name": "Turning Point Action",
+      "description": "Kirk's affiliated political 501(c)(4) and super PAC arm conducting voter mobilization and electoral campaigns in support of MAGA-aligned candidates.",
+      "neurons": [
+        "Charlie Kirk"
+      ],
+      "count": 1
+    },
+    "OpenAI": {
+      "name": "OpenAI",
+      "description": "The leading AI research and deployment company, whose board Taylor chairs, giving him governance authority over one of the most consequential AI organizations in the world.",
+      "neurons": [
+        "Bret Taylor",
+        "Sam Altman"
+      ],
+      "count": 2
+    },
+    "Sierra": {
+      "name": "Sierra",
+      "description": "The AI-native customer service platform Taylor co-founded and leads as CEO, his primary entrepreneurial venture.",
+      "neurons": [
+        "Bret Taylor"
+      ],
+      "count": 1
+    },
+    "Icahn Enterprises": {
+      "name": "Icahn Enterprises",
+      "description": "The diversified holding company through which Icahn exercises control over his activist investment portfolio spanning energy, automotive, and other sectors.",
+      "neurons": [
+        "Carl Icahn"
+      ],
+      "count": 1
+    },
+    "Senate Foreign Relations Committee": {
+      "name": "Senate Foreign Relations Committee",
+      "description": "The Senate committee central to Murphy's national profile, through which he exercises influence over US foreign policy and arms sales oversight.",
+      "neurons": [
+        "Christopher Murphy"
+      ],
+      "count": 1
+    },
+    "House Republican Conference": {
+      "name": "House Republican Conference",
+      "description": "The caucus coordinating body for House Republicans, which Scalise has led and through which he organizes GOP legislative strategy.",
+      "neurons": [
+        "Elise M. Stefanik",
+        "Steve Scalise"
+      ],
+      "count": 2
+    },
+    "Delaware North": {
+      "name": "Delaware North",
+      "description": "The privately held hospitality and food-service conglomerate owned by the Jacobs family, operating venues, stadiums, and resorts across the US and internationally.",
+      "neurons": [
+        "Jeremy Jacobs, Sr. & family"
+      ],
+      "count": 1
+    },
+    "Boston Bruins": {
+      "name": "Boston Bruins",
+      "description": "The NHL franchise owned by the Jacobs family, representing their most prominent public-facing asset and a major node in US professional sports.",
+      "neurons": [
+        "Jeremy Jacobs, Sr. & family"
+      ],
+      "count": 1
+    },
+    "Walmart": {
+      "name": "Walmart",
+      "description": "The world's largest retailer, in which Ann Walton Kroenke holds a major inherited ownership stake as a Walton family heir.",
+      "neurons": [
+        "Alice Walton",
+        "Ann Walton Kroenke",
+        "Jim Walton & family",
+        "Rob Walton & family"
+      ],
+      "count": 4
+    },
+    "Kroenke Sports & Entertainment": {
+      "name": "Kroenke Sports & Entertainment",
+      "description": "The sports and entertainment conglomerate she co-owns with her husband Stan Kroenke, controlling franchises including the LA Rams and Colorado Avalanche.",
+      "neurons": [
+        "Ann Walton Kroenke"
+      ],
+      "count": 1
+    },
+    "Crystal Bridges Museum of American Art": {
+      "name": "Crystal Bridges Museum of American Art",
+      "description": "The nationally significant art museum Alice Walton founded and funds in Bentonville, Arkansas, representing her primary independent institutional legacy.",
+      "neurons": [
+        "Alice Walton"
+      ],
+      "count": 1
+    },
+    "Guggenheim Partners": {
+      "name": "Guggenheim Partners",
+      "description": "Global investment and financial services firm that Walter leads as CEO, representing his primary financial power base.",
+      "neurons": [
+        "Mark Walter"
+      ],
+      "count": 1
+    },
+    "Los Angeles Dodgers": {
+      "name": "Los Angeles Dodgers",
+      "description": "MLB franchise of which Walter is the controlling owner, anchoring his sports and media influence.",
+      "neurons": [
+        "Mark Walter"
+      ],
+      "count": 1
+    },
+    "Chelsea FC": {
+      "name": "Chelsea FC",
+      "description": "English Premier League football club of which Walter is the lead owner, extending his sports ownership internationally.",
+      "neurons": [
+        "Mark Walter"
+      ],
+      "count": 1
+    },
+    "Open Society Foundations": {
+      "name": "Open Society Foundations",
+      "description": "Global philanthropic network founded by Soros that funds democracy, civil liberties, and progressive political causes worldwide.",
+      "neurons": [
+        "George Soros"
+      ],
+      "count": 1
+    },
+    "Soros Fund Management": {
+      "name": "Soros Fund Management",
+      "description": "Soros's private investment firm and family office, the financial engine behind his wealth and philanthropic capacity.",
+      "neurons": [
+        "George Soros"
+      ],
+      "count": 1
+    },
+    "Anthropic": {
+      "name": "Anthropic",
+      "description": "AI safety company co-founded and led by Amodei as CEO, developing the Claude family of large language models.",
+      "neurons": [
+        "Daniela Amodei",
+        "Dario Amodei"
+      ],
+      "count": 2
+    },
+    "Fidelity Investments": {
+      "name": "Fidelity Investments",
+      "description": "One of the largest privately held asset management and financial services firms in the US, which Johnson chairs and leads as CEO.",
+      "neurons": [
+        "Abigail Johnson",
+        "Edward Johnson, IV."
+      ],
+      "count": 2
+    },
+    "Federal Reserve": {
+      "name": "Federal Reserve",
+      "description": "The central bank of the United States, which Powell chairs and which sets monetary policy and regulates the financial system.",
+      "neurons": [
+        "Jerome H. Powell"
+      ],
+      "count": 1
+    },
+    "TPG Inc.": {
+      "name": "TPG Inc.",
+      "description": "Global alternative asset management firm co-founded by Bonderman, one of the largest private equity firms in the world.",
+      "neurons": [
+        "David Bonderman"
+      ],
+      "count": 1
+    },
+    "HCA Healthcare": {
+      "name": "HCA Healthcare",
+      "description": "The largest for-profit hospital operator in the United States, co-founded by Frist and still substantially family-owned and influenced.",
+      "neurons": [
+        "Thomas Frist, Jr. & family"
+      ],
+      "count": 1
+    },
+    "Coinbase": {
+      "name": "Coinbase",
+      "description": "The largest publicly traded cryptocurrency exchange in the United States, co-founded and led by Armstrong as CEO.",
+      "neurons": [
+        "Brian Armstrong"
+      ],
+      "count": 1
+    },
+    "Stand With Crypto": {
+      "name": "Stand With Crypto",
+      "description": "Nonprofit advocacy organization founded by Armstrong to mobilize pro-crypto political engagement and lobbying in the US.",
+      "neurons": [
+        "Brian Armstrong"
+      ],
+      "count": 1
+    },
+    "Walton Enterprises": {
+      "name": "Walton Enterprises",
+      "description": "The private family holding company through which the Walton family manages its collective wealth, investments, and philanthropic strategy.",
+      "neurons": [
+        "Rob Walton & family"
+      ],
+      "count": 1
+    },
+    "The Heritage Foundation": {
+      "name": "The Heritage Foundation",
+      "description": "The preeminent conservative policy think tank in Washington, which Roberts leads as president and which authored Project 2025.",
+      "neurons": [
+        "Kevin Roberts"
+      ],
+      "count": 1
+    },
+    "Council for National Policy": {
+      "name": "Council for National Policy",
+      "description": "An influential private network of conservative leaders, donors, and activists that coordinates strategy across the American right.",
+      "neurons": [
+        "Kevin Roberts"
+      ],
+      "count": 1
+    },
+    "Hyatt Hotels Corporation": {
+      "name": "Hyatt Hotels Corporation",
+      "description": "A global hospitality company of which Pritzker serves as executive chairman, representing the family's flagship public enterprise.",
+      "neurons": [
+        "J.B. Pritzker",
+        "Thomas Pritzker"
+      ],
+      "count": 2
+    },
+    "The Pritzker Organization": {
+      "name": "The Pritzker Organization",
+      "description": "The private family investment and management firm through which Thomas Pritzker oversees the broader Pritzker family business interests.",
+      "neurons": [
+        "Thomas Pritzker"
+      ],
+      "count": 1
+    },
+    "The Church of Jesus Christ of Latter-day Saints": {
+      "name": "The Church of Jesus Christ of Latter-day Saints",
+      "description": "A global religious institution with over 17 million members, which Nelson leads as its highest authority, the President and Prophet.",
+      "neurons": [
+        "Russell M. Nelson"
+      ],
+      "count": 1
+    },
+    "Estée Lauder Companies": {
+      "name": "Estée Lauder Companies",
+      "description": "A global prestige beauty conglomerate co-founded by his mother, in which Ronald Lauder holds a significant ownership stake and board influence.",
+      "neurons": [
+        "Ronald Lauder"
+      ],
+      "count": 1
+    },
+    "World Jewish Congress": {
+      "name": "World Jewish Congress",
+      "description": "An international federation of Jewish communities and organizations, which Lauder leads as president and uses as a platform for global Jewish advocacy.",
+      "neurons": [
+        "Ronald Lauder"
+      ],
+      "count": 1
+    },
+    "Arvest Bank": {
+      "name": "Arvest Bank",
+      "description": "A regional bank holding company owned and operated by Jim Walton, representing his distinct sphere of financial and commercial influence.",
+      "neurons": [
+        "Jim Walton & family"
+      ],
+      "count": 1
+    },
+    "The Joe Rogan Experience": {
+      "name": "The Joe Rogan Experience",
+      "description": "The most-listened-to podcast in the world, hosted by Rogan and distributed via Spotify, functioning as a dominant independent media platform.",
+      "neurons": [
+        "Joe Rogan"
+      ],
+      "count": 1
+    },
+    "Ultimate Fighting Championship (UFC)": {
+      "name": "Ultimate Fighting Championship (UFC)",
+      "description": "The world's premier mixed martial arts promotion, for which Rogan serves as a longtime color commentator and public face.",
+      "neurons": [
+        "Joe Rogan"
+      ],
+      "count": 1
+    },
+    "Apple Inc.": {
+      "name": "Apple Inc.",
+      "description": "The world's largest consumer technology company by market cap, which Cook leads as CEO and primary decision-maker.",
+      "neurons": [
+        "Tim Cook"
+      ],
+      "count": 1
+    },
+    "Business Roundtable": {
+      "name": "Business Roundtable",
+      "description": "The association of CEOs of leading US companies that shapes federal economic and regulatory policy through collective lobbying.",
+      "neurons": [
+        "Tim Cook"
+      ],
+      "count": 1
+    },
+    "Senate Commerce Committee": {
+      "name": "Senate Commerce Committee",
+      "description": "The Senate committee with jurisdiction over trade, communications, and technology, which Cruz chairs.",
+      "neurons": [
+        "Ted Cruz"
+      ],
+      "count": 1
+    },
+    "Access Industries": {
+      "name": "Access Industries",
+      "description": "Blavatnik's privately held industrial and investment conglomerate spanning media, chemicals, real estate, and technology.",
+      "neurons": [
+        "Len Blavatnik"
+      ],
+      "count": 1
+    },
+    "Warner Music Group": {
+      "name": "Warner Music Group",
+      "description": "A major global recorded-music and publishing company that Blavatnik owns through Access Industries.",
+      "neurons": [
+        "Len Blavatnik"
+      ],
+      "count": 1
+    },
+    "Charles Schwab Corporation": {
+      "name": "Charles Schwab Corporation",
+      "description": "The publicly traded brokerage and financial-services firm that Schwab founded and which bears his name.",
+      "neurons": [
+        "Charles Schwab"
+      ],
+      "count": 1
+    },
+    "US Treasury": {
+      "name": "US Treasury",
+      "description": "The federal department responsible for economic policy, tax collection, and fiscal management, which Bessent leads as Secretary.",
+      "neurons": [
+        "Scott Bessent"
+      ],
+      "count": 1
+    },
+    "Office of the Governor of Illinois": {
+      "name": "Office of the Governor of Illinois",
+      "description": "The executive office through which Pritzker exercises gubernatorial authority over Illinois state government.",
+      "neurons": [
+        "J.B. Pritzker"
+      ],
+      "count": 1
+    },
+    "Democratic Governors Association": {
+      "name": "Democratic Governors Association",
+      "description": "The organization that recruits, funds, and coordinates Democratic gubernatorial candidates and sitting governors nationwide.",
+      "neurons": [
+        "Gavin Newsom",
+        "J.B. Pritzker"
+      ],
+      "count": 2
+    },
+    "Office of the Governor of California": {
+      "name": "Office of the Governor of California",
+      "description": "The executive office through which Newsom governs the most populous US state and projects national Democratic political influence.",
+      "neurons": [
+        "Gavin Newsom"
+      ],
+      "count": 1
+    },
+    "FedEx Corporation": {
+      "name": "FedEx Corporation",
+      "description": "The global express-shipping and logistics company that Smith founded and built into a dominant force in US and international commerce.",
+      "neurons": [
+        "Fred Smith"
+      ],
+      "count": 1
+    },
+    "Congressional Progressive Caucus": {
+      "name": "Congressional Progressive Caucus",
+      "description": "The organized bloc of left-progressive House and Senate members that coordinates legislative strategy and messaging on the Democratic left flank.",
+      "neurons": [
+        "Alexandria Ocasio-Cortez"
+      ],
+      "count": 1
+    },
+    "Breakthrough Energy Ventures": {
+      "name": "Breakthrough Energy Ventures",
+      "description": "Gates-led investment coalition funding early-stage clean energy technologies to address climate change.",
+      "neurons": [
+        "Bill Gates"
+      ],
+      "count": 1
+    },
+    "Schwarzman College of Computing (MIT)": {
+      "name": "Schwarzman College of Computing (MIT)",
+      "description": "A $350M MIT institution endowed by Schwarzman to advance AI and computing education, serving as his primary legacy academic influence node.",
+      "neurons": [
+        "Stephen Schwarzman"
+      ],
+      "count": 1
+    },
+    "Google Cloud": {
+      "name": "Google Cloud",
+      "description": "Alphabet's enterprise cloud computing division, which Kurian leads as CEO and has grown into a major competitor in the cloud market.",
+      "neurons": [
+        "Thomas Kurian"
+      ],
+      "count": 1
+    },
+    "Yield Giving": {
+      "name": "Yield Giving",
+      "description": "Scott's philanthropic organization through which she has donated billions directly to nonprofits, operating with a distinctive no-strings-attached model.",
+      "neurons": [
+        "MacKenzie Scott"
+      ],
+      "count": 1
+    },
+    "Walmart Inc.": {
+      "name": "Walmart Inc.",
+      "description": "The world's largest retailer, founded by her late husband's family, through which Christy Walton holds a substantial inherited ownership stake.",
+      "neurons": [
+        "Christy Walton"
+      ],
+      "count": 1
+    },
+    "US District Court for the Northern District of Texas": {
+      "name": "US District Court for the Northern District of Texas",
+      "description": "The federal trial court where Kacsmaryk serves as a judge, making it the institutional node through which his nationally consequential rulings are issued.",
+      "neurons": [
+        "Matthew J. Kacsmaryk"
+      ],
+      "count": 1
+    },
+    "Dell Technologies": {
+      "name": "Dell Technologies",
+      "description": "The multinational technology corporation Dell founded and leads as chairman and CEO, spanning PCs, servers, and enterprise infrastructure.",
+      "neurons": [
+        "Michael Dell"
+      ],
+      "count": 1
+    },
+    "MSD Partners": {
+      "name": "MSD Partners",
+      "description": "Dell's personal investment firm managing his family's capital across private equity, real estate, and public markets.",
+      "neurons": [
+        "Michael Dell"
+      ],
+      "count": 1
+    },
+    "Federal Bureau of Investigation": {
+      "name": "Federal Bureau of Investigation",
+      "description": "The principal federal law enforcement and domestic intelligence agency, which Patel leads as Director under the Trump administration.",
+      "neurons": [
+        "Kash Patel"
+      ],
+      "count": 1
+    },
+    "U.S. Chamber of Commerce": {
+      "name": "U.S. Chamber of Commerce",
+      "description": "The largest US business lobbying federation, representing the interests of millions of companies before Congress, the executive branch, and the courts.",
+      "neurons": [
+        "Suzanne Clark"
+      ],
+      "count": 1
+    },
+    "Energy Transfer LP": {
+      "name": "Energy Transfer LP",
+      "description": "One of the largest US midstream energy companies, operating an extensive network of pipelines and terminals for crude oil, natural gas, and refined products.",
+      "neurons": [
+        "Kelcy Warren"
+      ],
+      "count": 1
+    },
+    "Department of Health and Human Services": {
+      "name": "Department of Health and Human Services",
+      "description": "The principal federal cabinet agency responsible for public health, medical research, food and drug safety, and social services programs.",
+      "neurons": [
+        "Robert F. Kennedy Jr."
+      ],
+      "count": 1
+    },
+    "Children's Health Defense": {
+      "name": "Children's Health Defense",
+      "description": "The nonprofit advocacy organization Kennedy founded that campaigns against vaccine mandates and environmental toxins, serving as his primary ideological platform prior to government service.",
+      "neurons": [
+        "Robert F. Kennedy Jr."
+      ],
+      "count": 1
+    },
+    "Cerberus Capital Management": {
+      "name": "Cerberus Capital Management",
+      "description": "A major private equity firm specializing in distressed assets and defense-related investments, which Feinberg co-founded and leads.",
+      "neurons": [
+        "Stephen Feinberg"
+      ],
+      "count": 1
+    },
+    "Duquesne Family Office": {
+      "name": "Duquesne Family Office",
+      "description": "The private investment vehicle through which Druckenmiller manages his personal fortune, successor to his former hedge fund and a significant force in global macro investing.",
+      "neurons": [
+        "Stanley Druckenmiller"
+      ],
+      "count": 1
+    },
+    "Anduril Industries": {
+      "name": "Anduril Industries",
+      "description": "A defense technology company Luckey founded that develops autonomous weapons systems, surveillance infrastructure, and AI-driven military hardware for the US and allied governments.",
+      "neurons": [
+        "Palmer Luckey"
+      ],
+      "count": 1
+    },
+    "Berkshire Hathaway": {
+      "name": "Berkshire Hathaway",
+      "description": "The multinational conglomerate holding company Buffett chairs and built into one of the world's largest corporations, serving as the primary vehicle for his capital allocation and business control.",
+      "neurons": [
+        "Warren Buffett"
+      ],
+      "count": 1
+    },
+    "Amazon": {
+      "name": "Amazon",
+      "description": "The global e-commerce and cloud computing giant Jassy leads as CEO, encompassing AWS, retail, and all other divisions under one top-level corporate entity.",
+      "neurons": [
+        "Andy Jassy",
+        "Jeff Bezos"
+      ],
+      "count": 2
+    },
+    "Ares Management": {
+      "name": "Ares Management",
+      "description": "The alternative investment management firm Ressler co-founded and leads, operating across credit, private equity, and real estate at institutional scale.",
+      "neurons": [
+        "Antony Ressler"
+      ],
+      "count": 1
+    },
+    "Atlanta Hawks": {
+      "name": "Atlanta Hawks",
+      "description": "The NBA franchise Ressler owns as controlling partner, representing his principal sports and entertainment asset.",
+      "neurons": [
+        "Antony Ressler"
+      ],
+      "count": 1
+    },
+    "Nike": {
+      "name": "Nike",
+      "description": "The global athletic apparel and footwear corporation Knight co-founded and built, in which the Knight family retains significant ownership and board influence.",
+      "neurons": [
+        "Phil Knight & family"
+      ],
+      "count": 1
+    },
+    "Swoosh LLC": {
+      "name": "Swoosh LLC",
+      "description": "The Knight family's private holding entity that controls their Nike stake and other investments, functioning as the family's primary financial and governance vehicle.",
+      "neurons": [
+        "Phil Knight & family"
+      ],
+      "count": 1
+    },
+    "Dallas Cowboys": {
+      "name": "Dallas Cowboys",
+      "description": "The NFL franchise Jones owns and operates as owner-general manager, one of the most valuable sports franchises in the world and the center of the Jones family's business empire.",
+      "neurons": [
+        "Jerry Jones & family"
+      ],
+      "count": 1
+    },
+    "National Football League (NFL)": {
+      "name": "National Football League (NFL)",
+      "description": "The professional football league whose ownership council Jones sits on as a prominent and influential member-owner shaping league policy and governance.",
+      "neurons": [
+        "Jerry Jones & family"
+      ],
+      "count": 1
+    },
+    "Google DeepMind": {
+      "name": "Google DeepMind",
+      "description": "The consolidated AI research and deployment division of Alphabet that Hassabis leads as CEO, representing the primary organizational unit through which his scientific and strategic influence operates.",
+      "neurons": [
+        "Demis Hassabis"
+      ],
+      "count": 1
+    },
+    "Worldcoin / Tools for Humanity": {
+      "name": "Worldcoin / Tools for Humanity",
+      "description": "The biometric identity and cryptocurrency project Altman co-founded, operating as a distinct company separate from OpenAI pursuing global digital identity infrastructure.",
+      "neurons": [
+        "Sam Altman"
+      ],
+      "count": 1
+    },
+    "Helion Energy": {
+      "name": "Helion Energy",
+      "description": "The nuclear fusion energy startup in which Altman is the lead investor and board member, representing a major separate strategic bet distinct from his AI work.",
+      "neurons": [
+        "Sam Altman"
+      ],
+      "count": 1
+    },
+    "Founders Fund": {
+      "name": "Founders Fund",
+      "description": "The venture capital firm Thiel founded and leads, serving as his primary vehicle for early-stage technology investment and ideological influence over Silicon Valley.",
+      "neurons": [
+        "Peter Thiel"
+      ],
+      "count": 1
+    },
+    "Judicial Crisis Network": {
+      "name": "Judicial Crisis Network",
+      "description": "The conservative legal advocacy organization Severino leads as president, functioning as a primary dark-money and communications vehicle for shaping federal judicial nominations and confirmations.",
+      "neurons": [
+        "Carrie Severino"
+      ],
+      "count": 1
+    },
+    "DriveTime Automotive Group": {
+      "name": "DriveTime Automotive Group",
+      "description": "The privately held used-car dealership chain Garcia controls as majority owner, forming the foundation of his business empire.",
+      "neurons": [
+        "Ernest Garcia, III"
+      ],
+      "count": 1
+    },
+    "Carvana": {
+      "name": "Carvana",
+      "description": "The publicly traded online used-car retailer he co-founded and in which he holds a controlling stake as its largest shareholder.",
+      "neurons": [
+        "Ernest Garcia, III"
+      ],
+      "count": 1
+    },
+    "Buffalo Bills": {
+      "name": "Buffalo Bills",
+      "description": "The NFL franchise Pegula owns, giving him a major platform in professional football and the Buffalo regional economy.",
+      "neurons": [
+        "Terrence Pegula"
+      ],
+      "count": 1
+    },
+    "Buffalo Sabres": {
+      "name": "Buffalo Sabres",
+      "description": "The NHL franchise Pegula owns, pairing with the Bills to make him the dominant sports owner in western New York.",
+      "neurons": [
+        "Terrence Pegula"
+      ],
+      "count": 1
+    },
+    "East Resources": {
+      "name": "East Resources",
+      "description": "The natural gas company Pegula founded and sold for $4.7 billion, the original source of his wealth and a node in US energy markets.",
+      "neurons": [
+        "Terrence Pegula"
+      ],
+      "count": 1
+    },
+    "US Department of Justice": {
+      "name": "US Department of Justice",
+      "description": "The federal executive department Bondi leads as Attorney General, overseeing federal law enforcement and prosecution across the United States.",
+      "neurons": [
+        "Pam Bondi"
+      ],
+      "count": 1
+    },
+    "Google": {
+      "name": "Google",
+      "description": "The core search, advertising, and cloud subsidiary of Alphabet that Pichai also directly oversees and that generates the vast majority of Alphabet's revenue.",
+      "neurons": [
+        "Sundar Pichai"
+      ],
+      "count": 1
+    },
+    "Point72 Asset Management": {
+      "name": "Point72 Asset Management",
+      "description": "The hedge fund Cohen founded and runs, managing roughly $35 billion and serving as his primary vehicle for financial market influence.",
+      "neurons": [
+        "Steve Cohen"
+      ],
+      "count": 1
+    },
+    "New York Mets": {
+      "name": "New York Mets",
+      "description": "The MLB franchise Cohen owns, giving him a prominent public platform and significant influence in New York sports and media.",
+      "neurons": [
+        "Steve Cohen"
+      ],
+      "count": 1
+    },
+    "The Washington Post": {
+      "name": "The Washington Post",
+      "description": "The nationally influential newspaper Bezos owns personally, giving him direct control over a major US media institution.",
+      "neurons": [
+        "Jeff Bezos"
+      ],
+      "count": 1
+    },
+    "Blue Origin": {
+      "name": "Blue Origin",
+      "description": "The aerospace and space-tourism company Bezos founded and funds, a distinct organization from Amazon competing in the commercial space sector.",
+      "neurons": [
+        "Jeff Bezos"
+      ],
+      "count": 1
+    },
+    "Salesforce": {
+      "name": "Salesforce",
+      "description": "The enterprise cloud software company Benioff co-founded and leads as CEO, making him one of the most powerful figures in US enterprise technology.",
+      "neurons": [
+        "Marc Benioff"
+      ],
+      "count": 1
+    },
+    "Time": {
+      "name": "Time",
+      "description": "The iconic US news magazine Benioff owns personally, giving him direct control over a historically influential American media brand.",
+      "neurons": [
+        "Marc Benioff"
+      ],
+      "count": 1
+    },
+    "Cato Institute": {
+      "name": "Cato Institute",
+      "description": "The libertarian think tank the Kochs co-founded and have long funded, shaping US policy discourse on free markets, civil liberties, and limited government.",
+      "neurons": [
+        "Charles Koch & family"
+      ],
+      "count": 1
+    },
+    "Airbnb": {
+      "name": "Airbnb",
+      "description": "The global short-term rental marketplace Chesky co-founded and leads as CEO, making him the central node of a platform that has reshaped US and global hospitality markets.",
+      "neurons": [
+        "Brian Chesky"
+      ],
+      "count": 1
+    }
+  },
+  "neuron_ca_map": {
+    "Brian Ballard": [
+      "Ballard Partners"
+    ],
+    "Tom Cotton": [
+      "US Senate",
+      "Senate Republican Conference"
+    ],
+    "Paul Singer": [
+      "Elliott Investment Management",
+      "Republican Jewish Coalition"
+    ],
+    "Ken Griffin": [
+      "Citadel LLC",
+      "Citadel Securities"
+    ],
+    "Mitch McConnell": [
+      "US Senate",
+      "Senate Republican Conference"
+    ],
+    "Hakeem S. Jeffries": [
+      "US House of Representatives",
+      "House Democratic Caucus"
+    ],
+    "Greg Abbott": [
+      "Office of the Governor of Texas",
+      "Republican Governors Association"
+    ],
+    "Ray Dalio": [
+      "Bridgewater Associates"
+    ],
+    "Judy Faulkner": [
+      "Epic Systems"
+    ],
+    "Neil M. Gorsuch": [
+      "Supreme Court of the United States",
+      "Federalist Society"
+    ],
+    "Mustafa Suleyman": [
+      "Microsoft"
+    ],
+    "Larry Ellison": [
+      "Oracle Corporation"
+    ],
+    "Jonathan Gray": [
+      "Blackstone"
+    ],
+    "Ketanji Brown Jackson": [
+      "Supreme Court of the United States"
+    ],
+    "Leon Black": [
+      "Apollo Global Management"
+    ],
+    "Marc Rowan": [
+      "Apollo Global Management"
+    ],
+    "Jensen Huang": [
+      "NVIDIA"
+    ],
+    "Paul Tudor Jones, II.": [
+      "Tudor Investment Corp",
+      "Robin Hood Foundation"
+    ],
+    "John G. Roberts Jr.": [
+      "Supreme Court of the United States",
+      "Judicial Conference of the United States"
+    ],
+    "Mitchell Rales": [
+      "Danaher Corporation",
+      "Glenstone Foundation"
+    ],
+    "John Mars": [
+      "Mars, Incorporated"
+    ],
+    "Susan M. Collins": [
+      "US Senate",
+      "Senate Appropriations Committee"
+    ],
+    "David Geffen": [
+      "Geffen Records",
+      "David Geffen Foundation"
+    ],
+    "Pierre Omidyar": [
+      "eBay",
+      "Omidyar Network"
+    ],
+    "Bob Parsons": [
+      "GoDaddy",
+      "YAM Worldwide"
+    ],
+    "Mike Lee": [
+      "US Senate",
+      "Federalist Society"
+    ],
+    "Larry Page": [
+      "Alphabet Inc."
+    ],
+    "Donald Newhouse": [
+      "Advance Publications"
+    ],
+    "Laurene Powell Jobs": [
+      "Emerson Collective",
+      "The Atlantic"
+    ],
+    "Donald Trump": [
+      "Trump White House",
+      "Trump Organization",
+      "Republican National Committee"
+    ],
+    "William Ackman": [
+      "Pershing Square Capital Management",
+      "Pershing Square Foundation"
+    ],
+    "Michael Bloomberg": [
+      "Bloomberg L.P.",
+      "Bloomberg Philanthropies",
+      "Everytown for Gun Safety"
+    ],
+    "Richard Uihlein": [
+      "Uline",
+      "Restoration PAC"
+    ],
+    "Josh Hawley": [
+      "US Senate",
+      "Senate Judiciary Committee"
+    ],
+    "Lynn Schusterman & family": [
+      "Charles and Lynn Schusterman Family Philanthropies"
+    ],
+    "Josh Harris": [
+      "Apollo Global Management",
+      "Harris Blitzer Sports & Entertainment"
+    ],
+    "Ron DeSantis": [
+      "Government of Florida",
+      "Republican Governors Association"
+    ],
+    "David Tepper": [
+      "Appaloosa Management",
+      "Tepper Sports & Entertainment"
+    ],
+    "Rupert Murdoch & family": [
+      "Fox Corporation",
+      "News Corp"
+    ],
+    "Sean Hannity": [
+      "Premiere Networks",
+      "Fox Corporation"
+    ],
+    "Thomas Peterffy": [
+      "Interactive Brokers"
+    ],
+    "Chuck Grassley": [
+      "US Senate",
+      "Senate Judiciary Committee"
+    ],
+    "Lisa Su": [
+      "AMD"
+    ],
+    "Melinda French Gates": [
+      "Pivotal Ventures",
+      "Bill & Melinda Gates Foundation"
+    ],
+    "Rick Scott": [
+      "US Senate",
+      "Senate Republican Conference"
+    ],
+    "Philip Anschutz": [
+      "Anschutz Corporation",
+      "Anschutz Entertainment Group (AEG)",
+      "Clarity Media Group"
+    ],
+    "Richard J. Durbin": [
+      "US Senate",
+      "Senate Democratic Caucus"
+    ],
+    "Mark Zuckerberg": [
+      "Meta Platforms",
+      "Chan Zuckerberg Initiative"
+    ],
+    "Sergey Brin": [
+      "Alphabet Inc."
+    ],
+    "Pete Hegseth": [
+      "Department of Defense"
+    ],
+    "David Rubenstein": [
+      "The Carlyle Group",
+      "Council on Foreign Relations"
+    ],
+    "Henry Kravis": [
+      "KKR & Co.",
+      "Council on Foreign Relations"
+    ],
+    "Lukas Walton": [
+      "Builders Vision",
+      "Walton Family Foundation"
+    ],
+    "Cynthia M. Lummis": [
+      "US Senate",
+      "Senate Banking, Housing, and Urban Affairs Committee"
+    ],
+    "Clarence Thomas": [
+      "Supreme Court of the United States",
+      "Federalist Society"
+    ],
+    "Leonard Leo": [
+      "Federalist Society",
+      "Marble Freedom Trust",
+      "CRC Advisors"
+    ],
+    "Marijke Mars": [
+      "Mars, Incorporated"
+    ],
+    "Alex Karp": [
+      "Palantir Technologies"
+    ],
+    "Stephen Ross": [
+      "Related Companies",
+      "Miami Dolphins"
+    ],
+    "Stewart Resnick": [
+      "The Wonderful Company"
+    ],
+    "Elon Musk": [
+      "Department of Government Efficiency (DOGE)",
+      "SpaceX",
+      "X Corp",
+      "xAI"
+    ],
+    "Julia Koch & family": [
+      "Koch Industries",
+      "Americans for Prosperity"
+    ],
+    "Jeff Yass": [
+      "Susquehanna International Group (SIG)",
+      "Club for Growth"
+    ],
+    "Eric Schmidt": [
+      "Alphabet / Google",
+      "Special Competitive Studies Project (SCSP)"
+    ],
+    "Susie Wiles": [
+      "Trump White House",
+      "Make America Great Again Inc. (MAGA Inc.)"
+    ],
+    "Michael Rubin": [
+      "Fanatics",
+      "REFORM Alliance"
+    ],
+    "John Malone": [
+      "Liberty Media",
+      "Warner Bros. Discovery"
+    ],
+    "Ken Langone": [
+      "Home Depot",
+      "NYU Langone Health"
+    ],
+    "Miriam Adelson & family": [
+      "Las Vegas Sands",
+      "Republican Jewish Coalition"
+    ],
+    "Charlie Kirk": [
+      "Turning Point USA",
+      "Turning Point Action"
+    ],
+    "Elena Kagan": [
+      "Supreme Court of the United States"
+    ],
+    "Lindsey Graham": [
+      "US Senate",
+      "Senate Judiciary Committee"
+    ],
+    "Bret Taylor": [
+      "OpenAI",
+      "Sierra"
+    ],
+    "Carl Icahn": [
+      "Icahn Enterprises"
+    ],
+    "Christopher Murphy": [
+      "US Senate",
+      "Senate Foreign Relations Committee"
+    ],
+    "Steve Scalise": [
+      "US House of Representatives",
+      "House Republican Conference"
+    ],
+    "Alexander Karp": [
+      "Palantir Technologies"
+    ],
+    "Jeremy Jacobs, Sr. & family": [
+      "Delaware North",
+      "Boston Bruins"
+    ],
+    "Ann Walton Kroenke": [
+      "Walmart",
+      "Kroenke Sports & Entertainment"
+    ],
+    "Alice Walton": [
+      "Walmart",
+      "Crystal Bridges Museum of American Art"
+    ],
+    "Mark Walter": [
+      "Guggenheim Partners",
+      "Los Angeles Dodgers",
+      "Chelsea FC"
+    ],
+    "George Soros": [
+      "Open Society Foundations",
+      "Soros Fund Management"
+    ],
+    "Dario Amodei": [
+      "Anthropic"
+    ],
+    "Abigail Johnson": [
+      "Fidelity Investments"
+    ],
+    "Jerome H. Powell": [
+      "Federal Reserve"
+    ],
+    "John Thune": [
+      "US Senate",
+      "Senate Republican Conference"
+    ],
+    "David Bonderman": [
+      "TPG Inc."
+    ],
+    "Thomas Frist, Jr. & family": [
+      "HCA Healthcare"
+    ],
+    "Edward Johnson, IV.": [
+      "Fidelity Investments"
+    ],
+    "Brian Armstrong": [
+      "Coinbase",
+      "Stand With Crypto"
+    ],
+    "Rob Walton & family": [
+      "Walmart",
+      "Walton Enterprises",
+      "Walton Family Foundation"
+    ],
+    "Amy Coney Barrett": [
+      "Supreme Court of the United States",
+      "Federalist Society"
+    ],
+    "Kevin Roberts": [
+      "The Heritage Foundation",
+      "Council for National Policy"
+    ],
+    "Victoria Mars": [
+      "Mars, Incorporated"
+    ],
+    "Thomas Pritzker": [
+      "Hyatt Hotels Corporation",
+      "The Pritzker Organization"
+    ],
+    "Brett M. Kavanaugh": [
+      "Supreme Court of the United States",
+      "Federalist Society"
+    ],
+    "Russell M. Nelson": [
+      "The Church of Jesus Christ of Latter-day Saints"
+    ],
+    "Ronald Lauder": [
+      "Estée Lauder Companies",
+      "World Jewish Congress"
+    ],
+    "Jim Walton & family": [
+      "Walmart",
+      "Arvest Bank"
+    ],
+    "Joe Rogan": [
+      "The Joe Rogan Experience",
+      "Ultimate Fighting Championship (UFC)"
+    ],
+    "Tim Cook": [
+      "Apple Inc.",
+      "Business Roundtable"
+    ],
+    "Ted Cruz": [
+      "US Senate",
+      "Senate Commerce Committee",
+      "Senate Republican Conference"
+    ],
+    "Len Blavatnik": [
+      "Access Industries",
+      "Warner Music Group"
+    ],
+    "Daniela Amodei": [
+      "Anthropic"
+    ],
+    "Charles Schwab": [
+      "Charles Schwab Corporation"
+    ],
+    "Scott Bessent": [
+      "US Treasury"
+    ],
+    "J.B. Pritzker": [
+      "Office of the Governor of Illinois",
+      "Hyatt Hotels Corporation",
+      "Democratic Governors Association"
+    ],
+    "Gavin Newsom": [
+      "Office of the Governor of California",
+      "Democratic Governors Association"
+    ],
+    "Fred Smith": [
+      "FedEx Corporation"
+    ],
+    "Alexandria Ocasio-Cortez": [
+      "US House of Representatives",
+      "Congressional Progressive Caucus"
+    ],
+    "Bill Gates": [
+      "Bill & Melinda Gates Foundation",
+      "Breakthrough Energy Ventures"
+    ],
+    "Stephen Schwarzman": [
+      "Schwarzman College of Computing (MIT)",
+      "Blackstone"
+    ],
+    "Thomas Kurian": [
+      "Google Cloud"
+    ],
+    "MacKenzie Scott": [
+      "Yield Giving"
+    ],
+    "Christy Walton": [
+      "Walton Family Foundation",
+      "Walmart Inc."
+    ],
+    "Patty Murray": [
+      "US Senate",
+      "Senate Appropriations Committee"
+    ],
+    "Matthew J. Kacsmaryk": [
+      "US District Court for the Northern District of Texas",
+      "Federalist Society"
+    ],
+    "Michael Dell": [
+      "Dell Technologies",
+      "MSD Partners"
+    ],
+    "Kash Patel": [
+      "Federal Bureau of Investigation"
+    ],
+    "Charles E. Schumer": [
+      "US Senate",
+      "Senate Democratic Caucus"
+    ],
+    "Sonia Sotomayor": [
+      "Supreme Court of the United States"
+    ],
+    "Suzanne Clark": [
+      "U.S. Chamber of Commerce"
+    ],
+    "Kelcy Warren": [
+      "Energy Transfer LP"
+    ],
+    "Robert F. Kennedy Jr.": [
+      "Department of Health and Human Services",
+      "Children's Health Defense"
+    ],
+    "George Roberts": [
+      "KKR & Co."
+    ],
+    "Stephen Feinberg": [
+      "Cerberus Capital Management"
+    ],
+    "Stanley Druckenmiller": [
+      "Duquesne Family Office"
+    ],
+    "Palmer Luckey": [
+      "Anduril Industries"
+    ],
+    "Satya Nadella": [
+      "Microsoft"
+    ],
+    "Samuel A. Alito Jr.": [
+      "Supreme Court of the United States",
+      "Federalist Society"
+    ],
+    "Warren Buffett": [
+      "Berkshire Hathaway"
+    ],
+    "Andy Jassy": [
+      "Amazon"
+    ],
+    "Antony Ressler": [
+      "Ares Management",
+      "Atlanta Hawks"
+    ],
+    "Lynda Resnick": [
+      "The Wonderful Company"
+    ],
+    "Phil Knight & family": [
+      "Nike",
+      "Swoosh LLC"
+    ],
+    "Jerry Jones & family": [
+      "Dallas Cowboys",
+      "National Football League (NFL)"
+    ],
+    "Demis Hassabis": [
+      "Google DeepMind"
+    ],
+    "Sam Altman": [
+      "OpenAI",
+      "Worldcoin / Tools for Humanity",
+      "Helion Energy"
+    ],
+    "Peter Thiel": [
+      "Founders Fund",
+      "Palantir Technologies"
+    ],
+    "Carrie Severino": [
+      "Judicial Crisis Network",
+      "Federalist Society"
+    ],
+    "Ernest Garcia, III": [
+      "DriveTime Automotive Group",
+      "Carvana"
+    ],
+    "Terrence Pegula": [
+      "Buffalo Bills",
+      "Buffalo Sabres",
+      "East Resources"
+    ],
+    "Elise M. Stefanik": [
+      "US House of Representatives",
+      "House Republican Conference"
+    ],
+    "Pam Bondi": [
+      "US Department of Justice"
+    ],
+    "Sundar Pichai": [
+      "Alphabet Inc.",
+      "Google"
+    ],
+    "Steve Cohen": [
+      "Point72 Asset Management",
+      "New York Mets"
+    ],
+    "Jeff Bezos": [
+      "Amazon",
+      "The Washington Post",
+      "Blue Origin"
+    ],
+    "Marc Benioff": [
+      "Salesforce",
+      "Time"
+    ],
+    "Charles Koch & family": [
+      "Koch Industries",
+      "Americans for Prosperity",
+      "Cato Institute"
+    ],
+    "Brian Chesky": [
+      "Airbnb"
+    ]
+  },
+  "dedup_log": [
+    {
+      "pass": "2a_alpha",
+      "ca_count_before": 190,
+      "windows_processed": 6,
+      "merge_suggestions": 8,
+      "merges_applied": 2,
+      "ca_count_after": 188
+    },
+    {
+      "pass": "2b_embedding",
+      "ca_count_before": 188,
+      "similar_pairs": 0,
+      "clusters_found": 0,
+      "clusters_confirmed": 0,
+      "clusters_rejected": 0,
+      "merges_applied": 0,
+      "ca_count_after": 188
+    }
+  ]
+}

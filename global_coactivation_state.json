@@ -1,0 +1,95 @@
+{
+  "week_count": 1,
+  "last_updated": "2026-03-19",
+  "scope": "Global",
+  "config": {
+    "decay_rate": 0.15,
+    "learning_rate": 0.25,
+    "edge_display_threshold": 0.15
+  },
+  "neuron_coactivation": {
+    "Cai Qi|||Patriarch Kirill (Vladimir Gundyayev)": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "PS-10"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "Cai Qi|||Vladimir Putin": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "PS-10"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "Patriarch Kirill (Vladimir Gundyayev)|||Vladimir Putin": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "PS-10"
+      ],
+      "last_updated": "2026-03-19"
+    }
+  },
+  "ca_coactivation": {
+    "CA-025|||CA-112": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "PS-08"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-025|||CA-113": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "PS-08"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-112|||CA-113": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "PS-08"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-002|||CA-016": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "PS-12"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-002|||CA-032": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "PS-12"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-016|||CA-032": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "PS-12"
+      ],
+      "last_updated": "2026-03-19"
+    }
+  }
+}

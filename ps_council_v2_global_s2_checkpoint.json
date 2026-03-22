@@ -1,0 +1,92 @@
+{
+  "peer_reviews": {
+    "claude": {
+      "rankings": [
+        {
+          "model": "Model A",
+          "rank": 1,
+          "reasoning": "Model A achieves the best balance across all four criteria. Its 12 sequences are genuinely distinct functional domains (warfighting adaptation, nuclear signaling, sanctions dynamics, monetary liquidity, industrial policy, semiconductor chokepoints, AI governance, narrative control, energy statecraft, sovereign capital, middle-power hedging) with minimal overlap. Each sequence is defined by trackable mechanisms and named data sources rather than actor-centric framing, making weekly operationalization straightforward. Coverage extends beyond US-China-Russia to include SCO, CSTO, Quad, Gulf SWFs, and middle powers. Breadth is strong because sequences describe structural processes rather than specific bilateral relationships, allowing them to absorb new actors and events without breaking the taxonomy.",
+          "actual_model": "chatgpt"
+        },
+        {
+          "model": "Model C",
+          "rank": 2,
+          "reasoning": "Model C offers well-conceived structural sequences with good breadth and reasonable distinctiveness. Its framing around systemic processes (financial architecture contestation, Eurasian axis consolidation, critical sovereign infrastructure, Global South institutional ascendancy) captures dynamics often missed by actor-centric models. However, it has 11 sequences versus Model A's 12 and leaves some gaps: warfighting adaptation loops and nuclear deterrence signaling are not cleanly represented. There is moderate overlap between PS-01 (Tech Sovereignty) and PS-09 (Geoeconomic Decoupling), and between PS-03 (Euro-Atlantic) and PS-07 (Indo-Pacific). Operationalizability is slightly weaker because some sequences (e.g., PS-06 Critical Sovereign Infrastructure) aggregate very heterogeneous weekly signals.",
+          "actual_model": "gemini"
+        },
+        {
+          "model": "Model B",
+          "rank": 3,
+          "reasoning": "Model B is the weakest on breadth and distinctiveness. Its sequences are heavily actor-specific and theater-specific (NATO Defense Posture, Ukraine War Sustainment, Siloviki Hard Power, CCP Policy Centralization, Gulf Investment Deployments), which makes them operationally trackable in the short term but structurally narrow. Several sequences overlap significantly: PS-01 and PS-04 both cover NATO-Ukraine military dynamics; PS-02 and PS-08 both cover tech competition. The framing around named individuals and institutions (Zuckerberg, Musk, Sechin, Tahnoun) reduces generalizability and makes sequences brittle to personnel changes. Global South, middle-power hedging, and nuclear deterrence dynamics are largely absent, reducing overall coverage.",
+          "actual_model": "grok"
+        }
+      ]
+    },
+    "chatgpt": {
+      "rankings": [
+        {
+          "model": "Model A",
+          "rank": 1,
+          "reasoning": "Strongest overall coverage across major theaters (US–China, NATO–Russia/Ukraine, Indo-Pacific, Global South, energy, finance, tech/AI/chips, information ops, supply-chain securitization) with mostly distinct, system-level sequences. Each item is readily trackable weekly via policy moves, sanctions, exercises, investment decisions, platform changes, etc. Breadth is good: sequences are framed as structural dynamics rather than tied to specific personalities or single institutions.",
+          "actual_model": "claude"
+        },
+        {
+          "model": "Model C",
+          "rank": 2,
+          "reasoning": "High-level, globally scoped set with good breadth and relatively low redundancy (tech sovereignty, finance architecture, Euro-Atlantic security, Eurasian axis, energy rebalancing, info control, decoupling/industrial policy, Global South, Gulf hedging). Operationalizable, though some sequences are more abstract and may require proxy indicators. Slightly weaker than A on granularity and on separating closely related economic/industrial themes (tech sovereignty vs decoupling) but still coherent and generalizable.",
+          "actual_model": "gemini"
+        },
+        {
+          "model": "Model B",
+          "rank": 3,
+          "reasoning": "More overlap and narrower framing: multiple NATO/Ukraine items (PS-01, PS-04) and overlapping alliance alignment (PS-12) reduce distinctiveness. Several sequences are anchored to specific actors/personnel or internal politics (e.g., CCP centralization, siloviki enforcement, Gulf directives), which hurts breadth/generalizability and can be less consistently trackable week-to-week. Coverage is decent but less balanced across the full actor pool and more event/organization-specific than system-dynamic.",
+          "actual_model": "grok"
+        }
+      ]
+    },
+    "grok": {
+      "rankings": [
+        {
+          "model": "Model A",
+          "rank": 1,
+          "reasoning": "Best coverage of key rivalries, actors (incl. Western internals, authoritarian axis, Global South), high distinctiveness with minimal overlaps, strongly operationalizable via specific indicators, broad scope.",
+          "actual_model": "claude"
+        },
+        {
+          "model": "Model B",
+          "rank": 2,
+          "reasoning": "Strong operationalizability and breadth in tactical processes (warfighting, nuclear, sanctions), good coverage and distinctiveness, but more abstract blocs miss some specific actor dynamics.",
+          "actual_model": "chatgpt"
+        },
+        {
+          "model": "Model C",
+          "rank": 3,
+          "reasoning": "Solid coverage but consolidated categories reduce distinctiveness (e.g., tech/AI/semis merged), fewer sequences, slightly less granular tracking and breadth.",
+          "actual_model": "gemini"
+        }
+      ]
+    },
+    "gemini": {
+      "rankings": [
+        {
+          "model": "Model B",
+          "rank": 1,
+          "reasoning": "Model B provides the best functional abstraction. By categorizing sequences by the mechanisms of statecraft (e.g., Sanctions, Monetary Tightening, Sovereign Capital, Industrial Policy) rather than specific geographic dyads, it achieves excellent breadth, minimal overlap, and highly operationalizable tracking criteria for weekly updates.",
+          "actual_model": "chatgpt"
+        },
+        {
+          "model": "Model A",
+          "rank": 2,
+          "reasoning": "Model A offers strong coverage of global dynamics but mixes geographic dyads (US-China, NATO-Russia) with functional domains (Semiconductors, AI, Energy). This creates structural overlap (e.g., US-China Rivalry bleeding into Indo-Pacific Security and Supply Chains) and limits generalizability compared to Model B.",
+          "actual_model": "claude"
+        },
+        {
+          "model": "Model C",
+          "rank": 3,
+          "reasoning": "Model C is too narrow and tied to specific current events and actors. Sequences like 'Ukraine War Sustainment', 'CCP Policy Centralization', and 'Siloviki Enforcement' act more like regional topics than overarching global phase sequences, resulting in poorer breadth and significant overlap (e.g., NATO Defense Posture and Ukraine War Sustainment).",
+          "actual_model": "grok"
+        }
+      ]
+    }
+  }
+}

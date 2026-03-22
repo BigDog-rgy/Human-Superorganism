@@ -1,0 +1,1482 @@
+{
+  "metadata": {
+    "date": "2026-03-16",
+    "scope": "global",
+    "label": "Global",
+    "source_neurons": "final_ranked_global.json",
+    "source_ca_canon": "ca_canon_v2_global.json",
+    "anchor_n": 35,
+    "total_n": 300,
+    "n_phase_sequences": 12,
+    "ca_ps_vote_threshold": 3,
+    "n_cas_assigned": 240,
+    "n_cas_unassigned": 160
+  },
+  "stage_1_proposals": {
+    "claude": [
+      {
+        "id": "PS-01",
+        "name": "US-China Systemic Rivalry",
+        "definition": "The ongoing structural competition between the United States and China across military posture, diplomatic alignment, economic leverage, and technological supremacy, tracked through bilateral policy moves, alliance realignments, sanctions, and flashpoint escalations in Taiwan, the South China Sea, and beyond.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-02",
+        "name": "NATO-Russia Confrontation Arc",
+        "definition": "The sustained adversarial dynamic between NATO's collective defense architecture and Russia's military-political power projection, operationalized through the Ukraine war's battlefield trajectory, Western weapons transfers, sanctions enforcement, and Russian hybrid operations against alliance members.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-03",
+        "name": "Global Semiconductor Control Race",
+        "definition": "The intensifying contest among states and corporations to dominate the design, fabrication, and equipment layers of the semiconductor supply chain, tracked through export controls, fab investment decisions, TSMC and ASML policy shifts, and allied chip sovereignty initiatives.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-04",
+        "name": "AI Frontier Power Struggle",
+        "definition": "The race among leading technology corporations and state actors to achieve and exploit decisive advantages in frontier artificial intelligence, tracked through model releases, compute access battles, regulatory moves, sovereign AI programs, and the strategic positioning of labs, cloud platforms, and national AI initiatives.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-05",
+        "name": "Dollar-Centric Financial Order Stress",
+        "definition": "The structural tension between the incumbent US dollar-denominated global financial system and challengers seeking monetary multipolarity, tracked through Federal Reserve and central bank policy divergence, IMF governance disputes, renminbi internationalization efforts, sanctions weaponization, and sovereign debt restructuring dynamics.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-06",
+        "name": "Global Energy Transition Contestation",
+        "definition": "The overlapping struggle between incumbent fossil fuel powers and renewable energy challengers to shape energy supply, pricing, and infrastructure investment globally, tracked through OPEC+ production decisions, Gulf sovereign fund deployments, green industrial policy competition, and critical minerals supply chain control.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-07",
+        "name": "Information Environment Weaponization",
+        "definition": "The systematic use of social media platforms, state media, algorithmic curation, and influence operations by state and non-state actors to shape public opinion, destabilize adversaries, and control political narratives, tracked through platform policy changes, disinformation campaigns, regulatory battles, and ownership shifts at major information nodes.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-08",
+        "name": "Indo-Pacific Security Architecture Build-Out",
+        "definition": "The accelerating construction of overlapping security frameworks — Quad, AUKUS, bilateral US alliances, and regional partnerships — designed to balance Chinese military expansion in the Indo-Pacific, tracked through joint exercises, basing agreements, arms transfers, and diplomatic signaling among India, Japan, Australia, and the United States.",
+        "hemisphere_bias": "Bridge"
+      },
+      {
+        "id": "PS-09",
+        "name": "Authoritarian Axis Consolidation",
+        "definition": "The deepening coordination among Russia, China, Iran, and aligned states to build parallel institutions, share military technology, and mutually reinforce regime stability against Western pressure, tracked through bilateral agreements, joint military exercises, sanctions circumvention networks, and multilateral forums such as SCO and CSTO.",
+        "hemisphere_bias": "East"
+      },
+      {
+        "id": "PS-10",
+        "name": "Global South Realignment",
+        "definition": "The strategic repositioning of major emerging economies and regional powers — including India, Gulf states, Turkey, Brazil, Mexico, and African blocs — between Western and Eastern poles, tracked through hedging diplomacy, BRICS expansion dynamics, trade diversification, and selective multilateral engagement.",
+        "hemisphere_bias": "Bridge"
+      },
+      {
+        "id": "PS-11",
+        "name": "Western Democratic Institutional Strain",
+        "definition": "The internal erosion and contestation of liberal democratic norms, multilateral commitments, and institutional authority within Western states, tracked through executive power consolidation, transatlantic alliance friction, populist electoral outcomes, and the retrenchment of US engagement with international institutions under successive administrations.",
+        "hemisphere_bias": "West"
+      },
+      {
+        "id": "PS-12",
+        "name": "Critical Infrastructure & Supply Chain Securitization",
+        "definition": "The accelerating state-driven effort to audit, restrict, and re-shore control over strategically vital infrastructure — including telecoms, ports, energy grids, and digital networks — against foreign penetration, tracked through Huawei exclusion campaigns, foreign investment screening decisions, subsea cable disputes, and allied industrial policy mandates.",
+        "hemisphere_bias": "Global"
+      }
+    ],
+    "chatgpt": [
+      {
+        "id": "PS-01",
+        "name": "Bloc Security Postures",
+        "definition": "Ongoing alignment and readiness changes in alliance and partner security architectures (force posture, basing, exercises, access agreements, defense consultations) trackable via NATO/Quad/SCO/CSTO communiqués, deployments, and joint drills.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-02",
+        "name": "Warfighting Adaptation Loops",
+        "definition": "Continuous battlefield-driven innovation cycles (doctrine, procurement, training, ISR, drones, EW, munitions, mobilization) trackable through aid packages, production contracts, after-action reporting, and operational tempo updates.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-03",
+        "name": "Nuclear Deterrence Signaling",
+        "definition": "Persistent signaling and posture management around strategic and theater nuclear forces (exercises, declaratory policy, arms control moves, basing, modernization) trackable through official statements, force alerts, and treaty/verification actions.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-04",
+        "name": "Sanctions and Countersanctions",
+        "definition": "Iterative coercion-and-evasion dynamics using sanctions, export bans, asset freezes, secondary sanctions, and retaliation trackable via new designations, enforcement actions, compliance guidance, and workaround networks.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-05",
+        "name": "Monetary Tightening and Liquidity",
+        "definition": "Cross-border monetary and liquidity regime shifts (rates, QT/QE, swap lines, reserve management, crisis facilities) trackable through central bank decisions, IMF programs, and BIS/G7 coordination outcomes.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-06",
+        "name": "Industrial Policy and Re-shoring",
+        "definition": "State-directed capacity building and supply-chain relocation (subsidies, procurement mandates, local-content rules, strategic stockpiles) trackable through legislation, grants, corporate capex announcements, and trade-dispute filings.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-07",
+        "name": "Semiconductor Chokepoints",
+        "definition": "Ongoing contest over advanced compute capability (EUV tools, foundry capacity, chip design access, export controls, fab buildouts) trackable via licensing decisions, equipment shipments, node roadmaps, and major fab/packaging projects.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-08",
+        "name": "AI Governance and Compute",
+        "definition": "Continuous struggle to control frontier AI development and deployment (model releases, safety regimes, compute access, cloud concentration, national AI strategies) trackable via regulatory actions, partnership governance, and compute procurement/export rules.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-09",
+        "name": "Information and Narrative Control",
+        "definition": "Persistent competition over public perception and social cohesion (platform policy, state media campaigns, influence ops, censorship, election integrity) trackable via platform rule changes, takedown reports, propaganda themes, and legal actions.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-10",
+        "name": "Energy Market Statecraft",
+        "definition": "Ongoing use of energy supply, pricing, and infrastructure as leverage (OPEC+ coordination, LNG deals, pipeline politics, strategic reserves, sanctions on energy) trackable via production targets, contract announcements, and shipping/price movements.",
+        "hemisphere_bias": "Bridge"
+      },
+      {
+        "id": "PS-11",
+        "name": "Sovereign Capital and Influence",
+        "definition": "Strategic deployment of sovereign wealth, development finance, and cross-border M&A for geopolitical positioning (stakes, bailouts, tech/infra investments) trackable via fund allocations, mega-deals, and investment screening outcomes.",
+        "hemisphere_bias": "Bridge"
+      },
+      {
+        "id": "PS-12",
+        "name": "Middle-Power Hedging Alignments",
+        "definition": "Recurring realignment behavior by pivotal middle powers (issue-by-issue coalition shifts, autonomy bids, regional integration) trackable via summit diplomacy, voting patterns, defense/economic MOUs, and corridor/trade initiatives.",
+        "hemisphere_bias": "Bridge"
+      }
+    ],
+    "grok": [
+      {
+        "id": "PS-01",
+        "name": "NATO Defense Posture",
+        "definition": "Ongoing enhancements to NATO's collective defense capabilities and support for Ukraine, tracked via military aid announcements, exercises, and summit communiques from SHAPE, NSC, and Ukraine Defense Contact Group.",
+        "hemisphere_bias": "West"
+      },
+      {
+        "id": "PS-02",
+        "name": "US-China Tech Restrictions",
+        "definition": "Escalating export controls and supply chain decoupling in semiconductors and AI hardware, tracked through policy announcements, waivers, and compliance from TSMC, ASML, and US Commerce Department actions.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-03",
+        "name": "Global Monetary Coordination",
+        "definition": "Synchronization or divergence in central bank interest rates and financial stability measures, tracked via FOMC, PBOC MPC, BOJ Policy Board, and BIS meetings.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-04",
+        "name": "Ukraine War Sustainment",
+        "definition": "Continuous flow of military aid, training, and operational coordination against Russia, tracked by Ramstein Group decisions, Stavka directives, and Zelenskyy-Rutte engagements.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-05",
+        "name": "OPEC+ Production Quotas",
+        "definition": "Adjustments to global oil supply and pricing strategies amid geopolitical tensions, tracked through OPEC+ ministerial meetings, Rosneft outputs, and Saudi Supreme Council decrees.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-06",
+        "name": "CCP Policy Centralization",
+        "definition": "Xi Jinping's consolidation of authority across military, economic, and foreign affairs, tracked via Politburo Standing Committee directives, CMC orders, and CNSC risk assessments.",
+        "hemisphere_bias": "East"
+      },
+      {
+        "id": "PS-07",
+        "name": "Indo-Pacific Alliance Building",
+        "definition": "Strengthening of Quad and partner networks to counter China, tracked through foreign ministers' meetings, Jaishankar's engagements, and US-India security pacts.",
+        "hemisphere_bias": "Bridge"
+      },
+      {
+        "id": "PS-08",
+        "name": "Frontier AI Governance",
+        "definition": "Competition and regulation in advanced AI development and deployment, tracked by OpenAI oversight, xAI advancements, G42 partnerships, and Microsoft board strategies.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-09",
+        "name": "Gulf Investment Deployments",
+        "definition": "Strategic sovereign wealth fund allocations into tech, energy, and infrastructure, tracked via ADIA/Mubadala/G42 board decisions and MBZ-Tahnoun directives.",
+        "hemisphere_bias": "Bridge"
+      },
+      {
+        "id": "PS-10",
+        "name": "Digital Platform Influence",
+        "definition": "Shaping of global information flows and censorship regimes, tracked through Meta/Tencent/X Corp policies, Zuckerberg-Musk statements, and CCP United Front integrations.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-11",
+        "name": "Siloviki Hard Power Enforcement",
+        "definition": "Russian security apparatus mobilization for energy coercion and military sustainment, tracked by FSB/Siloviki actions, Sechin's OPEC+ role, and Putin Security Council edicts.",
+        "hemisphere_bias": "East"
+      },
+      {
+        "id": "PS-12",
+        "name": "Transatlantic Policy Alignment",
+        "definition": "Harmonization of EU-US strategies on trade, tech, and security, tracked via G7 summits, von der Leyen-Rubio diplomacy, and NATO North Atlantic Council resolutions.",
+        "hemisphere_bias": "West"
+      }
+    ],
+    "gemini": [
+      {
+        "id": "PS-01",
+        "name": "Technological Sovereignty Race",
+        "definition": "Tracks the ongoing structural competition for supremacy in frontier AI, semiconductor supply chains, and advanced computing hardware via export controls, state subsidies, and corporate consolidation.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-02",
+        "name": "Global Financial Architecture Contestation",
+        "definition": "Tracks the tension between Western-led monetary dominance (US Dollar, Federal Reserve, IMF) and efforts by Eastern and Global South blocs to build alternative financial, central banking, and trade settlement mechanisms.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-03",
+        "name": "Euro-Atlantic Security Integration",
+        "definition": "Tracks the cohesion, expansion, and collective defense posture of NATO, the EU, and allied Western institutions against peer adversaries, particularly focusing on European theater deterrence and military aid.",
+        "hemisphere_bias": "West"
+      },
+      {
+        "id": "PS-04",
+        "name": "Eurasian Axis Consolidation",
+        "definition": "Tracks the deepening strategic, military, and economic alignment between China, Russia, Iran, and their partners through bilateral ties and multilateral forums like the SCO and CSTO.",
+        "hemisphere_bias": "East"
+      },
+      {
+        "id": "PS-05",
+        "name": "Global Energy System Rebalancing",
+        "definition": "Tracks the ongoing manipulation of fossil fuel supplies by cartels like OPEC+ and the parallel geopolitical race to secure critical minerals and manufacturing capacity for the green energy transition.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-06",
+        "name": "Critical Sovereign Infrastructure Deployment",
+        "definition": "Tracks the physical rollout and monopolization of foundational dual-use infrastructure, including satellite internet constellations, global 5G/6G networks, subsea cables, and transnational data centers.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-07",
+        "name": "Indo-Pacific Strategic Posturing",
+        "definition": "Tracks military buildups, maritime operations, and shifting security alliances (e.g., the Quad) aimed at shaping the balance of power, deterring conflict, and securing trade routes in the Asian theater.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-08",
+        "name": "Global Information Ecosystem Control",
+        "definition": "Tracks the ongoing structural struggle over content moderation, algorithmic influence, censorship, and state narrative projection across transnational digital platforms and social media conglomerates.",
+        "hemisphere_bias": "Global"
+      },
+      {
+        "id": "PS-09",
+        "name": "Geoeconomic Decoupling and Industrial Policy",
+        "definition": "Tracks the systemic restructuring of global supply chains through tariffs, sanctions, 'friendshoring,' and state-directed industrial policies meant to decouple rival economies and protect domestic manufacturing.",
+        "hemisphere_bias": "Split"
+      },
+      {
+        "id": "PS-10",
+        "name": "Middle East Multipolar Hedging",
+        "definition": "Tracks the strategic maneuvering of Gulf states and regional powers as they balance traditional Western security guarantees against deepening economic, energy, and technological ties with China and Russia.",
+        "hemisphere_bias": "Bridge"
+      },
+      {
+        "id": "PS-11",
+        "name": "Global South Institutional Ascendancy",
+        "definition": "Tracks the coordination and rising diplomatic leverage of non-aligned middle powers utilizing forums like BRICS+, CELAC, and regional blocs to reshape global trade, security, and political norms.",
+        "hemisphere_bias": "Bridge"
+      }
+    ]
+  },
+  "stage_2_peer_reviews": {
+    "claude": {
+      "rankings": [
+        {
+          "model": "Model A",
+          "rank": 1,
+          "reasoning": "Model A achieves the best balance across all four criteria. Its 12 sequences are genuinely distinct functional domains (warfighting adaptation, nuclear signaling, sanctions dynamics, monetary liquidity, industrial policy, semiconductor chokepoints, AI governance, narrative control, energy statecraft, sovereign capital, middle-power hedging) with minimal overlap. Each sequence is defined by trackable mechanisms and named data sources rather than actor-centric framing, making weekly operationalization straightforward. Coverage extends beyond US-China-Russia to include SCO, CSTO, Quad, Gulf SWFs, and middle powers. Breadth is strong because sequences describe structural processes rather than specific bilateral relationships, allowing them to absorb new actors and events without breaking the taxonomy.",
+          "actual_model": "chatgpt"
+        },
+        {
+          "model": "Model C",
+          "rank": 2,
+          "reasoning": "Model C offers well-conceived structural sequences with good breadth and reasonable distinctiveness. Its framing around systemic processes (financial architecture contestation, Eurasian axis consolidation, critical sovereign infrastructure, Global South institutional ascendancy) captures dynamics often missed by actor-centric models. However, it has 11 sequences versus Model A's 12 and leaves some gaps: warfighting adaptation loops and nuclear deterrence signaling are not cleanly represented. There is moderate overlap between PS-01 (Tech Sovereignty) and PS-09 (Geoeconomic Decoupling), and between PS-03 (Euro-Atlantic) and PS-07 (Indo-Pacific). Operationalizability is slightly weaker because some sequences (e.g., PS-06 Critical Sovereign Infrastructure) aggregate very heterogeneous weekly signals.",
+          "actual_model": "gemini"
+        },
+        {
+          "model": "Model B",
+          "rank": 3,
+          "reasoning": "Model B is the weakest on breadth and distinctiveness. Its sequences are heavily actor-specific and theater-specific (NATO Defense Posture, Ukraine War Sustainment, Siloviki Hard Power, CCP Policy Centralization, Gulf Investment Deployments), which makes them operationally trackable in the short term but structurally narrow. Several sequences overlap significantly: PS-01 and PS-04 both cover NATO-Ukraine military dynamics; PS-02 and PS-08 both cover tech competition. The framing around named individuals and institutions (Zuckerberg, Musk, Sechin, Tahnoun) reduces generalizability and makes sequences brittle to personnel changes. Global South, middle-power hedging, and nuclear deterrence dynamics are largely absent, reducing overall coverage.",
+          "actual_model": "grok"
+        }
+      ]
+    },
+    "chatgpt": {
+      "rankings": [
+        {
+          "model": "Model A",
+          "rank": 1,
+          "reasoning": "Strongest overall coverage across major theaters (US–China, NATO–Russia/Ukraine, Indo-Pacific, Global South, energy, finance, tech/AI/chips, information ops, supply-chain securitization) with mostly distinct, system-level sequences. Each item is readily trackable weekly via policy moves, sanctions, exercises, investment decisions, platform changes, etc. Breadth is good: sequences are framed as structural dynamics rather than tied to specific personalities or single institutions.",
+          "actual_model": "claude"
+        },
+        {
+          "model": "Model C",
+          "rank": 2,
+          "reasoning": "High-level, globally scoped set with good breadth and relatively low redundancy (tech sovereignty, finance architecture, Euro-Atlantic security, Eurasian axis, energy rebalancing, info control, decoupling/industrial policy, Global South, Gulf hedging). Operationalizable, though some sequences are more abstract and may require proxy indicators. Slightly weaker than A on granularity and on separating closely related economic/industrial themes (tech sovereignty vs decoupling) but still coherent and generalizable.",
+          "actual_model": "gemini"
+        },
+        {
+          "model": "Model B",
+          "rank": 3,
+          "reasoning": "More overlap and narrower framing: multiple NATO/Ukraine items (PS-01, PS-04) and overlapping alliance alignment (PS-12) reduce distinctiveness. Several sequences are anchored to specific actors/personnel or internal politics (e.g., CCP centralization, siloviki enforcement, Gulf directives), which hurts breadth/generalizability and can be less consistently trackable week-to-week. Coverage is decent but less balanced across the full actor pool and more event/organization-specific than system-dynamic.",
+          "actual_model": "grok"
+        }
+      ]
+    },
+    "grok": {
+      "rankings": [
+        {
+          "model": "Model A",
+          "rank": 1,
+          "reasoning": "Best coverage of key rivalries, actors (incl. Western internals, authoritarian axis, Global South), high distinctiveness with minimal overlaps, strongly operationalizable via specific indicators, broad scope.",
+          "actual_model": "claude"
+        },
+        {
+          "model": "Model B",
+          "rank": 2,
+          "reasoning": "Strong operationalizability and breadth in tactical processes (warfighting, nuclear, sanctions), good coverage and distinctiveness, but more abstract blocs miss some specific actor dynamics.",
+          "actual_model": "chatgpt"
+        },
+        {
+          "model": "Model C",
+          "rank": 3,
+          "reasoning": "Solid coverage but consolidated categories reduce distinctiveness (e.g., tech/AI/semis merged), fewer sequences, slightly less granular tracking and breadth.",
+          "actual_model": "gemini"
+        }
+      ]
+    },
+    "gemini": {
+      "rankings": [
+        {
+          "model": "Model B",
+          "rank": 1,
+          "reasoning": "Model B provides the best functional abstraction. By categorizing sequences by the mechanisms of statecraft (e.g., Sanctions, Monetary Tightening, Sovereign Capital, Industrial Policy) rather than specific geographic dyads, it achieves excellent breadth, minimal overlap, and highly operationalizable tracking criteria for weekly updates.",
+          "actual_model": "chatgpt"
+        },
+        {
+          "model": "Model A",
+          "rank": 2,
+          "reasoning": "Model A offers strong coverage of global dynamics but mixes geographic dyads (US-China, NATO-Russia) with functional domains (Semiconductors, AI, Energy). This creates structural overlap (e.g., US-China Rivalry bleeding into Indo-Pacific Security and Supply Chains) and limits generalizability compared to Model B.",
+          "actual_model": "claude"
+        },
+        {
+          "model": "Model C",
+          "rank": 3,
+          "reasoning": "Model C is too narrow and tied to specific current events and actors. Sequences like 'Ukraine War Sustainment', 'CCP Policy Centralization', and 'Siloviki Enforcement' act more like regional topics than overarching global phase sequences, resulting in poorer breadth and significant overlap (e.g., NATO Defense Posture and Ukraine War Sustainment).",
+          "actual_model": "grok"
+        }
+      ]
+    }
+  },
+  "phase_sequences": [
+    {
+      "id": "PS-01",
+      "name": "NATO-Russia Confrontation Arc",
+      "definition": "The sustained adversarial dynamic between NATO's collective defense architecture and Russia's military-political apparatus, tracked weekly through Ukraine battlefield developments, Western arms transfers and Ramstein coordination, alliance force posture adjustments, nuclear signaling, sanctions enforcement, and Russian hybrid operations against alliance members.",
+      "hemisphere_bias": "Split"
+    },
+    {
+      "id": "PS-02",
+      "name": "US-China Strategic Rivalry",
+      "definition": "The overarching structural competition between the United States and China across military posture, diplomatic alignment, and economic leverage, tracked through bilateral policy moves, Taiwan Strait and South China Sea escalation indicators, alliance signaling, trade actions, and high-level diplomatic engagements.",
+      "hemisphere_bias": "Split"
+    },
+    {
+      "id": "PS-03",
+      "name": "Indo-Pacific Security Architecture Build-Out",
+      "definition": "The accelerating construction of overlapping security frameworks — Quad, AUKUS, bilateral alliances, and regional partnerships — designed to shape the balance of power in the Asian theater, tracked through joint exercises, basing agreements, arms transfers, maritime operations, and diplomatic coordination among India, Japan, Australia, the US, and partners.",
+      "hemisphere_bias": "Bridge"
+    },
+    {
+      "id": "PS-04",
+      "name": "Semiconductor and Compute Chokepoint Control",
+      "definition": "The intensifying contest among states and corporations to dominate the design, fabrication, and equipment layers of the semiconductor and advanced compute supply chain, tracked through export control decisions, EUV equipment licensing, foundry investment announcements, chip sovereignty legislation, and TSMC/ASML strategic moves.",
+      "hemisphere_bias": "Split"
+    },
+    {
+      "id": "PS-05",
+      "name": "Frontier AI Power Struggle",
+      "definition": "The race among leading technology corporations, sovereign AI programs, and regulatory bodies to achieve and govern decisive advantages in frontier artificial intelligence, tracked through model releases, compute access battles, partnership governance shifts, national AI strategies, and safety or export regulation actions.",
+      "hemisphere_bias": "Global"
+    },
+    {
+      "id": "PS-06",
+      "name": "Global Monetary Order and Financial Architecture Stress",
+      "definition": "The structural tension between the incumbent dollar-centric financial system and challengers seeking monetary multipolarity, tracked through central bank rate decisions and liquidity operations, IMF and BIS governance moves, renminbi internationalization efforts, swap-line activations, sanctions weaponization, and sovereign debt restructuring dynamics.",
+      "hemisphere_bias": "Global"
+    },
+    {
+      "id": "PS-07",
+      "name": "Energy Market Statecraft and Transition Contestation",
+      "definition": "The overlapping struggle among fossil fuel incumbents, OPEC+ coordination mechanisms, and green industrial policy advocates to control energy supply, pricing, and infrastructure investment globally, tracked through production quota decisions, sovereign fund energy deployments, critical minerals supply moves, LNG contract shifts, and climate-industrial legislation.",
+      "hemisphere_bias": "Global"
+    },
+    {
+      "id": "PS-08",
+      "name": "Sanctions, Countersanctions, and Geoeconomic Decoupling",
+      "definition": "The iterative coercion-and-evasion dynamics reshaping global supply chains through sanctions regimes, export bans, secondary sanctions, tariffs, friend-shoring mandates, and industrial re-shoring policies, tracked through new designations, enforcement actions, compliance shifts, workaround networks, and state-directed reshoring investments.",
+      "hemisphere_bias": "Split"
+    },
+    {
+      "id": "PS-09",
+      "name": "Information Ecosystem and Narrative Control",
+      "definition": "The persistent competition over public perception and political cohesion waged through platform governance decisions, algorithmic curation, state media campaigns, influence operations, and censorship regimes, tracked through content policy changes, takedown reports, regulatory actions, and ownership or structural shifts at major information nodes.",
+      "hemisphere_bias": "Global"
+    },
+    {
+      "id": "PS-10",
+      "name": "Authoritarian Axis Consolidation",
+      "definition": "The deepening strategic, military, and economic coordination among Russia, China, Iran, and aligned states to build parallel institutions and mutually reinforce regime stability, tracked through bilateral defense agreements, joint exercises, sanctions circumvention networks, technology transfers, and multilateral forum activity in the SCO, CSTO, and similar bodies.",
+      "hemisphere_bias": "East"
+    },
+    {
+      "id": "PS-11",
+      "name": "Middle-Power and Global South Realignment",
+      "definition": "The strategic repositioning of major emerging economies, Gulf states, and regional powers between Western and Eastern poles, tracked through hedging diplomacy, BRICS+ expansion dynamics, sovereign wealth fund deployments, regional bloc coordination in CELAC and GCC, trade diversification moves, and selective multilateral engagement.",
+      "hemisphere_bias": "Bridge"
+    },
+    {
+      "id": "PS-12",
+      "name": "Western Institutional Cohesion and Democratic Strain",
+      "definition": "The internal contestation of liberal democratic norms, transatlantic policy alignment, and multilateral institutional authority within Western states, tracked through executive power consolidation moves, EU-US trade and regulatory friction, populist electoral outcomes, alliance burden-sharing disputes, and retrenchment from or reform of international institutions.",
+      "hemisphere_bias": "West"
+    }
+  ],
+  "ca_ps_map": {
+    "CA-001": [
+      "PS-02",
+      "PS-10"
+    ],
+    "CA-002": [
+      "PS-01",
+      "PS-02",
+      "PS-03",
+      "PS-08",
+      "PS-12"
+    ],
+    "CA-003": [
+      "PS-02",
+      "PS-03",
+      "PS-10"
+    ],
+    "CA-004": [
+      "PS-06"
+    ],
+    "CA-005": [
+      "PS-06"
+    ],
+    "CA-006": [
+      "PS-01",
+      "PS-02",
+      "PS-03",
+      "PS-08"
+    ],
+    "CA-007": [
+      "PS-02",
+      "PS-03",
+      "PS-10"
+    ],
+    "CA-008": [
+      "PS-01",
+      "PS-02",
+      "PS-03",
+      "PS-08"
+    ],
+    "CA-009": [
+      "PS-01",
+      "PS-11"
+    ],
+    "CA-010": [
+      "PS-06"
+    ],
+    "CA-011": [
+      "PS-01"
+    ],
+    "CA-012": [],
+    "CA-013": [
+      "PS-07",
+      "PS-11"
+    ],
+    "CA-014": [
+      "PS-01",
+      "PS-04",
+      "PS-05",
+      "PS-08",
+      "PS-12"
+    ],
+    "CA-015": [
+      "PS-01",
+      "PS-12"
+    ],
+    "CA-016": [
+      "PS-12"
+    ],
+    "CA-017": [
+      "PS-01"
+    ],
+    "CA-018": [
+      "PS-01",
+      "PS-10"
+    ],
+    "CA-019": [
+      "PS-04",
+      "PS-05"
+    ],
+    "CA-020": [
+      "PS-06"
+    ],
+    "CA-021": [
+      "PS-03",
+      "PS-11"
+    ],
+    "CA-022": [
+      "PS-10"
+    ],
+    "CA-023": [
+      "PS-10"
+    ],
+    "CA-024": [
+      "PS-02",
+      "PS-09",
+      "PS-10"
+    ],
+    "CA-025": [
+      "PS-02",
+      "PS-04",
+      "PS-07",
+      "PS-08"
+    ],
+    "CA-026": [
+      "PS-06"
+    ],
+    "CA-027": [
+      "PS-06",
+      "PS-08",
+      "PS-12"
+    ],
+    "CA-028": [
+      "PS-02",
+      "PS-10",
+      "PS-11"
+    ],
+    "CA-029": [
+      "PS-01",
+      "PS-12"
+    ],
+    "CA-030": [
+      "PS-01",
+      "PS-02",
+      "PS-03"
+    ],
+    "CA-031": [
+      "PS-02",
+      "PS-10"
+    ],
+    "CA-032": [
+      "PS-01",
+      "PS-12"
+    ],
+    "CA-033": [
+      "PS-01",
+      "PS-02",
+      "PS-03",
+      "PS-08",
+      "PS-11"
+    ],
+    "CA-034": [
+      "PS-06"
+    ],
+    "CA-035": [
+      "PS-06"
+    ],
+    "CA-036": [
+      "PS-06"
+    ],
+    "CA-037": [
+      "PS-01",
+      "PS-08",
+      "PS-10"
+    ],
+    "CA-038": [
+      "PS-05",
+      "PS-09"
+    ],
+    "CA-039": [
+      "PS-11"
+    ],
+    "CA-040": [
+      "PS-01"
+    ],
+    "CA-041": [],
+    "CA-042": [
+      "PS-02",
+      "PS-11"
+    ],
+    "CA-043": [
+      "PS-05"
+    ],
+    "CA-044": [
+      "PS-11"
+    ],
+    "CA-045": [],
+    "CA-046": [],
+    "CA-047": [],
+    "CA-048": [
+      "PS-06",
+      "PS-11"
+    ],
+    "CA-049": [
+      "PS-06",
+      "PS-11"
+    ],
+    "CA-050": [
+      "PS-10"
+    ],
+    "CA-051": [
+      "PS-06"
+    ],
+    "CA-052": [
+      "PS-01"
+    ],
+    "CA-053": [
+      "PS-06"
+    ],
+    "CA-054": [
+      "PS-10"
+    ],
+    "CA-055": [
+      "PS-01",
+      "PS-12"
+    ],
+    "CA-056": [
+      "PS-07",
+      "PS-11"
+    ],
+    "CA-057": [
+      "PS-07",
+      "PS-11"
+    ],
+    "CA-058": [
+      "PS-01",
+      "PS-10"
+    ],
+    "CA-059": [
+      "PS-03",
+      "PS-11"
+    ],
+    "CA-060": [
+      "PS-04",
+      "PS-08"
+    ],
+    "CA-061": [
+      "PS-11"
+    ],
+    "CA-062": [
+      "PS-05",
+      "PS-11"
+    ],
+    "CA-063": [
+      "PS-04",
+      "PS-08"
+    ],
+    "CA-064": [
+      "PS-08",
+      "PS-10",
+      "PS-01"
+    ],
+    "CA-065": [
+      "PS-01",
+      "PS-10"
+    ],
+    "CA-066": [],
+    "CA-067": [],
+    "CA-068": [
+      "PS-06",
+      "PS-09"
+    ],
+    "CA-069": [
+      "PS-06"
+    ],
+    "CA-070": [
+      "PS-02",
+      "PS-08"
+    ],
+    "CA-071": [
+      "PS-02",
+      "PS-05",
+      "PS-09"
+    ],
+    "CA-072": [
+      "PS-07",
+      "PS-11"
+    ],
+    "CA-073": [
+      "PS-11"
+    ],
+    "CA-074": [],
+    "CA-075": [
+      "PS-06",
+      "PS-12"
+    ],
+    "CA-076": [],
+    "CA-077": [],
+    "CA-078": [
+      "PS-09"
+    ],
+    "CA-079": [],
+    "CA-080": [
+      "PS-01",
+      "PS-12"
+    ],
+    "CA-081": [
+      "PS-12"
+    ],
+    "CA-082": [],
+    "CA-083": [
+      "PS-06"
+    ],
+    "CA-084": [
+      "PS-10"
+    ],
+    "CA-085": [
+      "PS-10"
+    ],
+    "CA-086": [
+      "PS-01"
+    ],
+    "CA-087": [
+      "PS-01"
+    ],
+    "CA-088": [
+      "PS-10"
+    ],
+    "CA-089": [
+      "PS-07"
+    ],
+    "CA-090": [
+      "PS-07"
+    ],
+    "CA-091": [
+      "PS-06",
+      "PS-08"
+    ],
+    "CA-092": [],
+    "CA-093": [
+      "PS-06"
+    ],
+    "CA-094": [
+      "PS-01",
+      "PS-12"
+    ],
+    "CA-095": [
+      "PS-01",
+      "PS-10"
+    ],
+    "CA-096": [],
+    "CA-097": [
+      "PS-06"
+    ],
+    "CA-098": [
+      "PS-03"
+    ],
+    "CA-099": [
+      "PS-10"
+    ],
+    "CA-100": [
+      "PS-05"
+    ],
+    "CA-101": [],
+    "CA-102": [
+      "PS-08"
+    ],
+    "CA-103": [
+      "PS-05"
+    ],
+    "CA-104": [
+      "PS-06",
+      "PS-11"
+    ],
+    "CA-105": [],
+    "CA-106": [
+      "PS-02",
+      "PS-05"
+    ],
+    "CA-107": [
+      "PS-02",
+      "PS-05",
+      "PS-09"
+    ],
+    "CA-108": [
+      "PS-02",
+      "PS-04"
+    ],
+    "CA-109": [
+      "PS-06"
+    ],
+    "CA-110": [],
+    "CA-111": [],
+    "CA-112": [
+      "PS-04",
+      "PS-08"
+    ],
+    "CA-113": [
+      "PS-01",
+      "PS-07",
+      "PS-08",
+      "PS-10"
+    ],
+    "CA-114": [],
+    "CA-115": [],
+    "CA-116": [],
+    "CA-117": [
+      "PS-11"
+    ],
+    "CA-118": [
+      "PS-01",
+      "PS-10"
+    ],
+    "CA-119": [
+      "PS-12"
+    ],
+    "CA-120": [
+      "PS-05"
+    ],
+    "CA-121": [],
+    "CA-122": [
+      "PS-11"
+    ],
+    "CA-123": [
+      "PS-09"
+    ],
+    "CA-124": [],
+    "CA-125": [
+      "PS-09"
+    ],
+    "CA-126": [
+      "PS-12"
+    ],
+    "CA-127": [
+      "PS-11"
+    ],
+    "CA-128": [
+      "PS-05"
+    ],
+    "CA-129": [
+      "PS-05"
+    ],
+    "CA-130": [],
+    "CA-131": [
+      "PS-05"
+    ],
+    "CA-132": [
+      "PS-02",
+      "PS-04",
+      "PS-08"
+    ],
+    "CA-133": [
+      "PS-05"
+    ],
+    "CA-134": [
+      "PS-07",
+      "PS-08"
+    ],
+    "CA-135": [
+      "PS-12"
+    ],
+    "CA-136": [
+      "PS-07",
+      "PS-11"
+    ],
+    "CA-137": [
+      "PS-07",
+      "PS-11"
+    ],
+    "CA-138": [],
+    "CA-139": [],
+    "CA-140": [],
+    "CA-141": [
+      "PS-02",
+      "PS-03"
+    ],
+    "CA-142": [],
+    "CA-143": [],
+    "CA-144": [
+      "PS-11"
+    ],
+    "CA-145": [],
+    "CA-146": [],
+    "CA-147": [
+      "PS-05"
+    ],
+    "CA-148": [],
+    "CA-149": [],
+    "CA-150": [
+      "PS-11"
+    ],
+    "CA-151": [],
+    "CA-152": [],
+    "CA-153": [
+      "PS-09",
+      "PS-10"
+    ],
+    "CA-154": [
+      "PS-07"
+    ],
+    "CA-155": [],
+    "CA-156": [
+      "PS-06",
+      "PS-08"
+    ],
+    "CA-157": [],
+    "CA-158": [],
+    "CA-159": [],
+    "CA-160": [],
+    "CA-161": [],
+    "CA-162": [
+      "PS-07",
+      "PS-08"
+    ],
+    "CA-163": [],
+    "CA-164": [
+      "PS-02",
+      "PS-03"
+    ],
+    "CA-165": [
+      "PS-09",
+      "PS-12"
+    ],
+    "CA-166": [
+      "PS-02"
+    ],
+    "CA-167": [
+      "PS-10"
+    ],
+    "CA-168": [],
+    "CA-169": [
+      "PS-02",
+      "PS-07"
+    ],
+    "CA-170": [
+      "PS-07",
+      "PS-11"
+    ],
+    "CA-171": [],
+    "CA-172": [
+      "PS-06"
+    ],
+    "CA-173": [],
+    "CA-174": [
+      "PS-11"
+    ],
+    "CA-175": [],
+    "CA-176": [
+      "PS-01"
+    ],
+    "CA-177": [
+      "PS-04"
+    ],
+    "CA-178": [
+      "PS-01"
+    ],
+    "CA-179": [
+      "PS-01"
+    ],
+    "CA-180": [],
+    "CA-181": [
+      "PS-11"
+    ],
+    "CA-182": [],
+    "CA-183": [],
+    "CA-184": [],
+    "CA-185": [
+      "PS-11"
+    ],
+    "CA-186": [
+      "PS-07",
+      "PS-11"
+    ],
+    "CA-187": [
+      "PS-05"
+    ],
+    "CA-188": [
+      "PS-02",
+      "PS-09"
+    ],
+    "CA-189": [
+      "PS-05"
+    ],
+    "CA-190": [
+      "PS-07",
+      "PS-11"
+    ],
+    "CA-191": [
+      "PS-11"
+    ],
+    "CA-192": [
+      "PS-01",
+      "PS-10"
+    ],
+    "CA-193": [
+      "PS-02"
+    ],
+    "CA-194": [],
+    "CA-195": [],
+    "CA-196": [
+      "PS-07",
+      "PS-08"
+    ],
+    "CA-197": [
+      "PS-04"
+    ],
+    "CA-198": [
+      "PS-04",
+      "PS-02"
+    ],
+    "CA-199": [],
+    "CA-200": [
+      "PS-05",
+      "PS-09"
+    ],
+    "CA-201": [
+      "PS-11"
+    ],
+    "CA-202": [
+      "PS-06"
+    ],
+    "CA-203": [
+      "PS-11"
+    ],
+    "CA-204": [
+      "PS-06"
+    ],
+    "CA-205": [],
+    "CA-206": [
+      "PS-11"
+    ],
+    "CA-207": [
+      "PS-06",
+      "PS-08"
+    ],
+    "CA-208": [
+      "PS-10",
+      "PS-11"
+    ],
+    "CA-209": [
+      "PS-12"
+    ],
+    "CA-210": [
+      "PS-04"
+    ],
+    "CA-211": [
+      "PS-11"
+    ],
+    "CA-212": [
+      "PS-07"
+    ],
+    "CA-213": [
+      "PS-12"
+    ],
+    "CA-214": [
+      "PS-11"
+    ],
+    "CA-215": [
+      "PS-08"
+    ],
+    "CA-216": [
+      "PS-11"
+    ],
+    "CA-217": [
+      "PS-09"
+    ],
+    "CA-218": [
+      "PS-09",
+      "PS-02"
+    ],
+    "CA-219": [
+      "PS-07"
+    ],
+    "CA-220": [],
+    "CA-221": [],
+    "CA-222": [
+      "PS-07"
+    ],
+    "CA-223": [
+      "PS-01",
+      "PS-10"
+    ],
+    "CA-224": [],
+    "CA-225": [
+      "PS-08",
+      "PS-10"
+    ],
+    "CA-226": [],
+    "CA-227": [
+      "PS-07"
+    ],
+    "CA-228": [
+      "PS-04",
+      "PS-05"
+    ],
+    "CA-229": [],
+    "CA-230": [],
+    "CA-231": [],
+    "CA-232": [
+      "PS-07",
+      "PS-08"
+    ],
+    "CA-233": [
+      "PS-09",
+      "PS-12"
+    ],
+    "CA-234": [
+      "PS-09",
+      "PS-12"
+    ],
+    "CA-235": [],
+    "CA-236": [],
+    "CA-237": [],
+    "CA-238": [
+      "PS-08"
+    ],
+    "CA-239": [
+      "PS-06"
+    ],
+    "CA-240": [
+      "PS-01",
+      "PS-12"
+    ],
+    "CA-241": [
+      "PS-09",
+      "PS-12"
+    ],
+    "CA-242": [
+      "PS-06"
+    ],
+    "CA-243": [],
+    "CA-244": [
+      "PS-01"
+    ],
+    "CA-245": [
+      "PS-09"
+    ],
+    "CA-246": [
+      "PS-08"
+    ],
+    "CA-247": [
+      "PS-04"
+    ],
+    "CA-248": [
+      "PS-07"
+    ],
+    "CA-249": [],
+    "CA-250": [],
+    "CA-251": [],
+    "CA-252": [
+      "PS-04",
+      "PS-05"
+    ],
+    "CA-253": [],
+    "CA-254": [],
+    "CA-255": [],
+    "CA-256": [
+      "PS-02",
+      "PS-10"
+    ],
+    "CA-257": [
+      "PS-02"
+    ],
+    "CA-258": [],
+    "CA-259": [],
+    "CA-260": [
+      "PS-11"
+    ],
+    "CA-261": [],
+    "CA-262": [
+      "PS-07"
+    ],
+    "CA-263": [],
+    "CA-264": [],
+    "CA-265": [
+      "PS-09"
+    ],
+    "CA-266": [],
+    "CA-267": [],
+    "CA-268": [
+      "PS-01",
+      "PS-10"
+    ],
+    "CA-269": [
+      "PS-07"
+    ],
+    "CA-270": [
+      "PS-05"
+    ],
+    "CA-271": [],
+    "CA-272": [],
+    "CA-273": [],
+    "CA-274": [],
+    "CA-275": [
+      "PS-11"
+    ],
+    "CA-276": [],
+    "CA-277": [],
+    "CA-278": [],
+    "CA-279": [],
+    "CA-280": [],
+    "CA-281": [
+      "PS-07",
+      "PS-11"
+    ],
+    "CA-282": [],
+    "CA-283": [
+      "PS-09"
+    ],
+    "CA-284": [],
+    "CA-285": [
+      "PS-07",
+      "PS-08"
+    ],
+    "CA-286": [
+      "PS-02",
+      "PS-08"
+    ],
+    "CA-287": [
+      "PS-07",
+      "PS-11"
+    ],
+    "CA-288": [],
+    "CA-289": [],
+    "CA-290": [],
+    "CA-291": [
+      "PS-02"
+    ],
+    "CA-292": [
+      "PS-02",
+      "PS-08"
+    ],
+    "CA-293": [
+      "PS-06"
+    ],
+    "CA-294": [
+      "PS-06"
+    ],
+    "CA-295": [
+      "PS-02",
+      "PS-04",
+      "PS-08"
+    ],
+    "CA-296": [
+      "PS-11",
+      "PS-07"
+    ],
+    "CA-297": [
+      "PS-12"
+    ],
+    "CA-298": [
+      "PS-07"
+    ],
+    "CA-299": [
+      "PS-03",
+      "PS-11"
+    ],
+    "CA-300": [
+      "PS-11"
+    ],
+    "CA-301": [
+      "PS-11"
+    ],
+    "CA-302": [
+      "PS-11"
+    ],
+    "CA-303": [],
+    "CA-304": [
+      "PS-05"
+    ],
+    "CA-305": [],
+    "CA-306": [],
+    "CA-307": [
+      "PS-05"
+    ],
+    "CA-308": [],
+    "CA-309": [],
+    "CA-310": [
+      "PS-03"
+    ],
+    "CA-311": [
+      "PS-07",
+      "PS-08"
+    ],
+    "CA-312": [
+      "PS-07",
+      "PS-11"
+    ],
+    "CA-313": [],
+    "CA-314": [],
+    "CA-315": [
+      "PS-04"
+    ],
+    "CA-316": [],
+    "CA-317": [
+      "PS-11"
+    ],
+    "CA-318": [
+      "PS-07"
+    ],
+    "CA-319": [
+      "PS-09"
+    ],
+    "CA-320": [
+      "PS-10",
+      "PS-08"
+    ],
+    "CA-321": [
+      "PS-09"
+    ],
+    "CA-322": [
+      "PS-07"
+    ],
+    "CA-323": [
+      "PS-02",
+      "PS-11"
+    ],
+    "CA-324": [],
+    "CA-325": [],
+    "CA-326": [
+      "PS-12"
+    ],
+    "CA-327": [],
+    "CA-328": [
+      "PS-05"
+    ],
+    "CA-329": [],
+    "CA-330": [],
+    "CA-331": [],
+    "CA-332": [],
+    "CA-333": [],
+    "CA-334": [],
+    "CA-335": [
+      "PS-04"
+    ],
+    "CA-336": [
+      "PS-11"
+    ],
+    "CA-337": [],
+    "CA-338": [],
+    "CA-339": [
+      "PS-11"
+    ],
+    "CA-340": [
+      "PS-11"
+    ],
+    "CA-341": [
+      "PS-09",
+      "PS-01"
+    ],
+    "CA-342": [],
+    "CA-343": [],
+    "CA-344": [],
+    "CA-345": [],
+    "CA-346": [
+      "PS-01"
+    ],
+    "CA-347": [],
+    "CA-348": [
+      "PS-11"
+    ],
+    "CA-349": [
+      "PS-06"
+    ],
+    "CA-350": [],
+    "CA-351": [],
+    "CA-352": [],
+    "CA-353": [],
+    "CA-354": [],
+    "CA-355": [
+      "PS-09"
+    ],
+    "CA-356": [],
+    "CA-357": [],
+    "CA-358": [],
+    "CA-359": [],
+    "CA-360": [],
+    "CA-361": [],
+    "CA-362": [],
+    "CA-363": [],
+    "CA-364": [
+      "PS-05"
+    ],
+    "CA-365": [],
+    "CA-366": [
+      "PS-08",
+      "PS-10"
+    ],
+    "CA-367": [
+      "PS-09"
+    ],
+    "CA-368": [],
+    "CA-369": [],
+    "CA-370": [],
+    "CA-371": [],
+    "CA-372": [],
+    "CA-373": [],
+    "CA-374": [],
+    "CA-375": [],
+    "CA-376": [],
+    "CA-377": [],
+    "CA-378": [],
+    "CA-379": [],
+    "CA-380": [],
+    "CA-381": [],
+    "CA-382": [],
+    "CA-383": [],
+    "CA-384": [],
+    "CA-385": [],
+    "CA-386": [
+      "PS-12"
+    ],
+    "CA-387": [],
+    "CA-388": [],
+    "CA-389": [
+      "PS-12"
+    ],
+    "CA-390": [],
+    "CA-391": [],
+    "CA-392": [],
+    "CA-393": [],
+    "CA-394": [],
+    "CA-395": [],
+    "CA-396": [],
+    "CA-397": [
+      "PS-09"
+    ],
+    "CA-398": [],
+    "CA-399": [],
+    "CA-400": []
+  }
+}
