@@ -1115,8 +1115,10 @@ def select_final_assemblies(
 # CHECKPOINTS
 # ---------------------------------------------------------------------------
 
+CHECKPOINTS_DIR = SCRIPT_DIR / "checkpoints"
+
 def _checkpoint_path(scope: str, stage: int) -> Path:
-    return SCRIPT_DIR / f"ca_v2_checkpoint_{scope}_s{stage}.json"
+    return CHECKPOINTS_DIR / f"ca_v2_checkpoint_{scope}_s{stage}.json"
 
 
 def _prep_for_json(obj):
@@ -1132,6 +1134,7 @@ def _prep_for_json(obj):
 
 def save_checkpoint(scope: str, stage: int, **data):
     path = _checkpoint_path(scope, stage)
+    path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(_prep_for_json(data), f, indent=2, ensure_ascii=False)
     print(f"  ✓ Checkpoint saved → {path.name}")

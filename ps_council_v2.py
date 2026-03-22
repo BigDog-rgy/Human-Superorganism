@@ -201,12 +201,15 @@ def build_anchor_context(anchor_neurons: list, ca_canon: dict) -> tuple[list, st
 # CHECKPOINTS
 # ---------------------------------------------------------------------------
 
+CHECKPOINTS_DIR = SCRIPT_DIR / "checkpoints"
+
 def checkpoint_path(scope: str, stage: int) -> Path:
-    return SCRIPT_DIR / f"ps_council_v2_{scope}_s{stage}_checkpoint.json"
+    return CHECKPOINTS_DIR / f"ps_council_v2_{scope}_s{stage}_checkpoint.json"
 
 
 def save_checkpoint(scope: str, stage: int, **data):
     path = checkpoint_path(scope, stage)
+    path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"  [checkpoint saved: {path.name}]")

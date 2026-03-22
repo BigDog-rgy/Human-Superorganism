@@ -39,6 +39,9 @@ CLAUDE_MODEL = "claude-opus-4-6"
 
 SCRIPT_DIR    = Path(__file__).parent
 BRIEFINGS_DIR = SCRIPT_DIR / "briefings"
+STATE_DIR     = SCRIPT_DIR / "state"
+FETCH_STATE_DIR = STATE_DIR / "fetch"
+COACTIVATION_STATE_DIR = STATE_DIR / "coactivation"
 
 SCOPE_CONFIG = {
     "us": {
@@ -120,6 +123,7 @@ def load_fetch_state(path: Path) -> dict:
 
 
 def save_fetch_state(state: dict, path: Path):
+    path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2, ensure_ascii=False)
 
@@ -737,7 +741,7 @@ def run(scope: str = "us"):
     week_start = (date.today() - timedelta(days=7)).isoformat()
 
     model_path       = SCRIPT_DIR / cfg["model_file"]
-    fetch_state_path = SCRIPT_DIR / cfg["fetch_state_file"]
+    fetch_state_path = FETCH_STATE_DIR / cfg["fetch_state_file"]
 
     BRIEFINGS_DIR.mkdir(exist_ok=True)
 
@@ -779,7 +783,7 @@ def run(scope: str = "us"):
 
     fetch_state     = load_fetch_state(fetch_state_path)
 
-    coactivation_path  = SCRIPT_DIR / cfg["coactivation_state_file"]
+    coactivation_path  = COACTIVATION_STATE_DIR / cfg["coactivation_state_file"]
     coactivation_state = load_coactivation_state(coactivation_path)
     ca_coactivation    = coactivation_state.get("ca_coactivation", {})
     neuron_coactivation = coactivation_state.get("neuron_coactivation", {})

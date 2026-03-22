@@ -384,7 +384,7 @@ def load_global_hebbian_state(script_dir: str) -> dict | None:
 
 def load_coactivation_state(script_dir: str, scope: str = "us") -> dict | None:
     filename = "us_coactivation_state.json" if scope == "us" else "global_coactivation_state.json"
-    path = os.path.join(script_dir, filename)
+    path = os.path.join(script_dir, "state", "coactivation", filename)
     if not os.path.exists(path):
         return None
     with open(path, "r", encoding="utf-8") as f:

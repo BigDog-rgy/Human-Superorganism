@@ -32,6 +32,8 @@ load_dotenv()
 
 SCRIPT_DIR    = Path(__file__).parent
 BRIEFINGS_DIR = SCRIPT_DIR / "briefings"
+STATE_DIR     = SCRIPT_DIR / "state"
+COACTIVATION_STATE_DIR = STATE_DIR / "coactivation"
 HAIKU_MODEL   = "claude-haiku-4-5-20251001"
 
 SCOPE_CONFIG = {
@@ -81,6 +83,7 @@ def load_state(path: Path) -> dict | None:
 
 
 def save_state(state: dict, path: Path):
+    path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(state, f, indent=2, ensure_ascii=False)
 
@@ -338,7 +341,7 @@ def main():
     args = parser.parse_args()
 
     cfg        = SCOPE_CONFIG[args.scope]
-    state_path = SCRIPT_DIR / cfg["state_file"]
+    state_path = COACTIVATION_STATE_DIR / cfg["state_file"]
     model_path = SCRIPT_DIR / cfg["model_file"]
 
     if args.bootstrap:
