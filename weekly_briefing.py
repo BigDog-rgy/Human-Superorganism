@@ -9,12 +9,16 @@ Usage:
 
 Firing model:
     Conscious layer  — PS news scored 1–10; top-ranked PSes fire assemblies via network
-                       membership (probabilistic, dampened by member count). Neuron scores
-                       accumulate across all firing (assembly, PS) pairs weighted by
-                       Hebbian strength; top scorers sampled up to CONSCIOUS_NEURON_CAP.
+                       membership (probabilistic, dampened by member count). Neurons are
+                       then selected PS by PS: rank-1 PS picks NEURONS_FOR_TOP_PS neurons,
+                       ranks 2–4 each pick NEURONS_FOR_OTHER_PS. Eligible pool = all neurons
+                       with PS membership; weight = BASE_WEIGHT + CA-membership bonus +
+                       N-N score bonus (vs already-selected PS co-members only).
     Spontaneous layer — Skip-counter probability (10% base + 10%/skipped week), sorted by
-                        most-overdue first, capped at sqrt(n). No rank-based guarantees.
-    Together they determine which neurons get individual news fetched this week.
+                        most-overdue first, capped at sqrt(n). SPONTANEOUS_CA_COUNT CAs are
+                        also drawn from spontaneous neurons' memberships for display/synthesis
+                        (excluded from coactivation learning).
+    Together they determine which neurons and assemblies get news fetched this week.
 """
 
 import os
@@ -58,6 +62,9 @@ SCOPE_CONFIG = {
             "geopolitical events, significant public statements"
         ),
         "ps_system_prompt":         "You are a concise US policy and power analyst.",
+        # n=150, cap=13 → 0.90/13≈6.9% → floor to 6% for stochasticity; 100% at 15 weeks
+        "spontaneous_weekly_increase": 0.06,
+        "spontaneous_counter_cap":     15,
     },
     "global": {
         "label":                    "Global",
@@ -73,6 +80,9 @@ SCOPE_CONFIG = {
             "economic initiatives, diplomatic events, significant public statements"
         ),
         "ps_system_prompt":         "You are a concise geopolitical and power analyst.",
+        # n=300, cap=18 → 0.90/18=5.0%; 100% at 18 weeks
+        "spontaneous_weekly_increase": 0.05,
+        "spontaneous_counter_cap":     18,
     },
 }
 
@@ -80,9 +90,13 @@ ASSEMBLIES_FOR_TOP_PS    = 5    # assemblies fired for highest-scoring PS
 ASSEMBLIES_FOR_OTHER_PS  = 3    # assemblies fired for each of up to 3 other PSes
 MAX_ASSEMBLY_PS_COUNT    = 4    # max PSes that can fire assemblies
 CONSCIOUS_NEURON_CAP     = 10   # max neurons selected via conscious layer
+NEURONS_FOR_TOP_PS       = 4    # neurons selected for rank-1 PS
+NEURONS_FOR_OTHER_PS     = 2    # neurons selected for each rank-2/3/4 PS
+SPONTANEOUS_CA_COUNT     = 2    # CAs drawn from spontaneous neurons each week
 ASSEMBLY_MEMBER_WEIGHT   = 0.5  # member-count influence on probabilistic assembly selection
 BASE_WEIGHT              = 1.0  # base selection weight for CAs and neurons (ensures chance for all)
 NEURON_MEMBERSHIP_WEIGHT = 0.5  # per-fired-CA membership bonus for neuron base score
+SELECTION_SCORE_ALPHA    = 0.5  # exponent for score-to-weight dampening (< 1 compresses spread)
 
 
 # ---------------------------------------------------------------------------
@@ -128,13 +142,13 @@ def save_fetch_state(state: dict, path: Path):
         json.dump(state, f, indent=2, ensure_ascii=False)
 
 
-def update_fetch_state(state: dict, fetched_people: list, skipped_people: list) -> dict:
+def update_fetch_state(state: dict, fetched_people: list, skipped_people: list, counter_cap: int) -> dict:
     new_state = dict(state)
     for person in fetched_people:
         new_state[person["name"]] = 0
     for person in skipped_people:
         name = person["name"]
-        new_state[name] = new_state.get(name, 0) + 1
+        new_state[name] = min(new_state.get(name, 0) + 1, counter_cap)
     return new_state
 
 
@@ -287,7 +301,8 @@ def build_ca_sequence_for_ps(
     Subsequent CAs: BASE_WEIGHT + |coactivation score| bonus.
       - Step 2: 100% bonus from seed.
       - Step 3+, reinforcing/neutral prev: 2/3 * |cov(t-1)| + 1/3 * |cov(t-2)|.
-      - Step 3+, adversarial prev (score < 0): 100% bonus from CA[t-1] only (memory reset).
+      - Step 3+, adversarial prev (score < 0): max(0, score(candidate, t)) — reinforcing candidates
+        get a bonus, adversarial candidates compete at BASE_WEIGHT only (memory reset).
     Returns list of selected CA dicts in firing order.
     """
     if not candidates or cap <= 0:
@@ -312,12 +327,16 @@ def build_ca_sequence_for_ps(
 
         weights = []
         for ca in pool:
-            ca_id        = ca["id"]
-            abs_prev1    = abs(ca_coactivation.get(pair_key(ca_id, prev1_id), {}).get("score", 0.0))
-            if prev2_id is None or adversarial_break:
-                bonus = abs_prev1
+            ca_id  = ca["id"]
+            score_prev1 = ca_coactivation.get(pair_key(ca_id, prev1_id), {}).get("score", 0.0)
+            if adversarial_break:
+                # After adversarial firing: only reinforce t, suppress adversarial candidates
+                bonus = max(0.0, score_prev1)
+            elif prev2_id is None:
+                bonus = abs(score_prev1) ** SELECTION_SCORE_ALPHA
             else:
-                abs_prev2 = abs(ca_coactivation.get(pair_key(ca_id, prev2_id), {}).get("score", 0.0))
+                abs_prev1 = abs(score_prev1) ** SELECTION_SCORE_ALPHA
+                abs_prev2 = abs(ca_coactivation.get(pair_key(ca_id, prev2_id), {}).get("score", 0.0)) ** SELECTION_SCORE_ALPHA
                 bonus     = (2 / 3) * abs_prev1 + (1 / 3) * abs_prev2
             weights.append(BASE_WEIGHT + bonus)
 
@@ -334,12 +353,13 @@ def build_fired_assemblies(
     ps_news_items: list,
     ps_assemblies_map: dict,
     ca_coactivation: dict,
-) -> tuple[list, dict]:
+) -> tuple[list, dict, list]:
     """
     Build fired CA sequences for each active PS using coactivation-guided selection.
     Returns:
-      fired_ordered  — list of (ca_id, ps_id) in firing sequence order across all PSes
-      ps_to_fired    — dict of ps_id -> [ca_id, ...] in sequence order
+      fired_ordered   — list of (ca_id, ps_id) in firing sequence order across all PSes
+      ps_to_fired     — dict of ps_id -> [ca_id, ...] in sequence order
+      ps_ranked_items — ps_news_items in rank order, filtered to only those that fired CAs
     """
     ranked     = sorted(ps_news_items, key=lambda x: x["activation_score"], reverse=True)
     fired_ordered: list = []
@@ -359,57 +379,83 @@ def build_fired_assemblies(
             fired_ordered.append((ca["id"], ps_id))
             ps_to_fired.setdefault(ps_id, []).append(ca["id"])
 
-    return fired_ordered, ps_to_fired
+    ps_ranked_items = [ps_item for ps_item in ranked[:MAX_ASSEMBLY_PS_COUNT]
+                       if ps_item["id"] in ps_to_fired]
+    return fired_ordered, ps_to_fired, ps_ranked_items
 
 
 def select_neurons_conscious(
-    fired_assemblies_ordered: list,
-    individuals: list,
+    ps_ranked_items: list,
+    ps_to_fired: dict,
+    ps_to_neurons: dict,
     assembly_to_neurons: dict,
     neuron_coactivation: dict,
 ) -> list:
     """
-    Select conscious neurons by traversing the ordered CA firing sequence.
-    Base weight = BASE_WEIGHT + membership_count * NEURON_MEMBERSHIP_WEIGHT.
-    At each selection step, a cumulative |N-N score| bonus is added against all
-    already-selected neurons. Returns up to CONSCIOUS_NEURON_CAP neurons.
+    Select conscious neurons PS by PS in rank order.
+
+    For each ranked PS:
+      - Eligible pool: all neurons with PS membership, excluding already-selected.
+      - Per-neuron weight:
+          BASE_WEIGHT
+          + (# of this PS's fired CAs the neuron belongs to) * NEURON_MEMBERSHIP_WEIGHT
+          + Σ|N-N score vs (globally selected ∩ this PS's members)|
+      - Quota: NEURONS_FOR_TOP_PS for rank-1, NEURONS_FOR_OTHER_PS for rank-2/3/4.
+
+    Deduplication is global: a neuron selected by an earlier PS cannot appear in a
+    later PS's pool.  Returns up to CONSCIOUS_NEURON_CAP person dicts.
     """
-    if not fired_assemblies_ordered:
+    if not ps_ranked_items:
         return []
 
-    membership_count: dict = {}
-    for ca_id, _ in fired_assemblies_ordered:
-        for person in assembly_to_neurons.get(ca_id, []):
-            name = person["name"]
-            membership_count[name] = membership_count.get(name, 0) + 1
+    selected_names: list  = []
+    name_to_person: dict  = {}
 
-    if not membership_count:
-        return []
+    for rank, ps_item in enumerate(ps_ranked_items):
+        ps_id  = ps_item["id"]
+        quota  = NEURONS_FOR_TOP_PS if rank == 0 else NEURONS_FOR_OTHER_PS
 
-    name_to_person  = {p["name"]: p for p in individuals}
-    remaining       = [n for n in membership_count if n in name_to_person]
-    selected_names: list = []
-    cap             = min(CONSCIOUS_NEURON_CAP, len(remaining))
+        # All persons with membership to this PS
+        ps_members = ps_to_neurons.get(ps_id, [])
+        ps_member_names = set()
+        for person in ps_members:
+            name_to_person[person["name"]] = person
+            ps_member_names.add(person["name"])
 
-    for _ in range(cap):
-        if not remaining:
-            break
-        weights = []
-        for name in remaining:
-            base     = BASE_WEIGHT + membership_count[name] * NEURON_MEMBERSHIP_WEIGHT
-            nn_bonus = sum(
-                abs(neuron_coactivation.get(pair_key(name, sel), {}).get("score", 0.0))
-                for sel in selected_names
-            )
-            weights.append(base + nn_bonus)
+        # How many of this PS's fired CAs does each neuron belong to?
+        membership_count: dict = {}
+        for ca_id in ps_to_fired.get(ps_id, []):
+            for person in assembly_to_neurons.get(ca_id, []):
+                n = person["name"]
+                membership_count[n] = membership_count.get(n, 0) + 1
+                name_to_person[n]   = person
 
-        chosen = weighted_sample_without_replacement(remaining, weights, 1)
-        if not chosen:
-            break
-        selected_names.append(chosen[0])
-        remaining.remove(chosen[0])
+        # Already-selected PS co-members (for N-N bonus)
+        selected_in_ps = [n for n in selected_names if n in ps_member_names]
 
-    return [name_to_person[n] for n in selected_names]
+        # Eligible = PS members not yet globally selected
+        eligible = [n for n in ps_member_names if n not in selected_names]
+
+        for _ in range(quota):
+            if not eligible:
+                break
+            weights = []
+            for name in eligible:
+                base     = BASE_WEIGHT + membership_count.get(name, 0) * NEURON_MEMBERSHIP_WEIGHT
+                nn_bonus = sum(
+                    abs(neuron_coactivation.get(pair_key(name, sel), {}).get("score", 0.0)) ** SELECTION_SCORE_ALPHA
+                    for sel in selected_in_ps
+                )
+                weights.append(base + nn_bonus)
+
+            chosen = weighted_sample_without_replacement(eligible, weights, 1)
+            if not chosen:
+                break
+            selected_names.append(chosen[0])
+            selected_in_ps.append(chosen[0])
+            eligible.remove(chosen[0])
+
+    return [name_to_person[n] for n in selected_names if n in name_to_person]
 
 
 # ---------------------------------------------------------------------------
@@ -421,6 +467,7 @@ def select_neurons_spontaneous(
     fetch_state: dict,
     cap: int,
     exclude_names: set,
+    weekly_increase: float,
 ) -> tuple[list, list]:
     """
     Probabilistic selection capped at `cap` neurons.
@@ -438,13 +485,40 @@ def select_neurons_spontaneous(
             skipped.append(person)
             continue
         skipped_weeks = fetch_state.get(person["name"], 0)
-        prob = min(0.10 + skipped_weeks * 0.10, 1.0)
+        prob = min(0.10 + skipped_weeks * weekly_increase, 1.0)
         if random.random() < prob:
             fetched.append(person)
         else:
             skipped.append(person)
 
     return fetched, skipped
+
+
+# ---------------------------------------------------------------------------
+# STAGE 1C.5: Spontaneous CA selection
+# ---------------------------------------------------------------------------
+
+def select_spontaneous_cas(
+    spontaneous_neurons: list,
+    person_to_cas: dict,
+    consciously_fired_ca_ids: set,
+    n: int = SPONTANEOUS_CA_COUNT,
+) -> list:
+    """
+    Draw up to n CA ids from the CAs that spontaneous neurons belong to,
+    excluding any CA already consciously fired this week.
+    If a drawn CA was already consciously activated, it is simply skipped
+    (the week loses one unconscious CA activation rather than falling back).
+    Returns a list of up to n CA ids (may be shorter if not enough candidates).
+    """
+    candidates = set()
+    for person in spontaneous_neurons:
+        for ca_id in person_to_cas.get(person["name"], []):
+            if ca_id not in consciously_fired_ca_ids:
+                candidates.add(ca_id)
+    candidates = list(candidates)
+    random.shuffle(candidates)
+    return candidates[:n]
 
 
 # ---------------------------------------------------------------------------
@@ -779,6 +853,19 @@ def run(scope: str = "us"):
         for ca in person.get("superorganism", {}).get("cell_assemblies", []):
             assembly_to_neurons.setdefault(ca["id"], []).append(person)
 
+    # ps_id → list of person dicts with membership to that PS
+    ps_to_neurons: dict = {}
+    for person in individuals:
+        for ps_id in ps_ids_for_person(person):
+            ps_to_neurons.setdefault(ps_id, []).append(person)
+
+    # person name → list of CA ids the person belongs to
+    person_to_cas: dict = {}
+    for person in individuals:
+        name = person["name"]
+        for ca in person.get("superorganism", {}).get("cell_assemblies", []):
+            person_to_cas.setdefault(name, []).append(ca["id"])
+
     print(f"  {len(cell_assemblies)} cell assemblies ({len(assembly_to_neurons)} with members)")
 
     fetch_state     = load_fetch_state(fetch_state_path)
@@ -811,7 +898,7 @@ def run(scope: str = "us"):
     print(f"  ✓ PS activation scores: min={min(scores)}, max={max(scores)}, mean={sum(scores)/len(scores):.1f}")
 
     # Stage 1B: Coactivation-guided assembly sequence building
-    fired_assemblies_ordered, ps_to_fired_assemblies = build_fired_assemblies(
+    fired_assemblies_ordered, ps_to_fired_assemblies, ps_ranked_items = build_fired_assemblies(
         ps_news_items, ps_assemblies_map, ca_coactivation
     )
 
@@ -819,9 +906,10 @@ def run(scope: str = "us"):
     for ps_id, ca_ids in ps_to_fired_assemblies.items():
         print(f"  [{ps_id}] → {', '.join(ca_ids)}")
 
-    # Stage 1B→C: Conscious neuron selection via CA sequence + cumulative N-N scores
+    # Stage 1B→C: PS-gated conscious neuron selection
     conscious_neurons = select_neurons_conscious(
-        fired_assemblies_ordered, individuals, assembly_to_neurons, neuron_coactivation
+        ps_ranked_items, ps_to_fired_assemblies, ps_to_neurons,
+        assembly_to_neurons, neuron_coactivation
     )
     print(f"\nStage 1B→C: Conscious selection — {len(conscious_neurons)} neurons:")
     for p in conscious_neurons:
@@ -855,7 +943,8 @@ def run(scope: str = "us"):
     # Stage 1C: Spontaneous neuron selection
     exclude_names = {p["name"] for p in conscious_neurons}
     spontaneous_neurons, skipped_neurons = select_neurons_spontaneous(
-        individuals, fetch_state, spontaneous_cap, exclude_names
+        individuals, fetch_state, spontaneous_cap, exclude_names,
+        weekly_increase=cfg["spontaneous_weekly_increase"],
     )
     print(f"\nStage 1C: Spontaneous selection — {len(spontaneous_neurons)}/{spontaneous_cap} cap:")
     for p in spontaneous_neurons:
@@ -865,11 +954,42 @@ def run(scope: str = "us"):
         print(f"  Skipping {len(skipped_neurons)} neurons:")
         for p in skipped_neurons:
             skips    = fetch_state.get(p["name"], 0)
-            next_prob = min(10 + (skips + 1) * 10, 100)
-            print(f"    · {p['name']} (skipped {skips}w → {next_prob}% next week)")
+            next_prob = min(10 + (skips + 1) * 100 * cfg["spontaneous_weekly_increase"], 100)
+            print(f"    · {p['name']} (skipped {skips}w → {next_prob:.0f}% next week)")
 
     all_fetched = conscious_neurons + spontaneous_neurons
     all_skipped = [p for p in individuals if p["name"] not in {f["name"] for f in all_fetched}]
+
+    # Stage 1C.5: Spontaneous CA selection + news fetch
+    consciously_fired_ca_ids = set(ca_id for ca_id, _ in fired_assemblies_ordered)
+    spontaneous_ca_ids = select_spontaneous_cas(
+        spontaneous_neurons, person_to_cas, consciously_fired_ca_ids
+    )
+    print(f"\nStage 1C.5: Spontaneous CAs — {len(spontaneous_ca_ids)} drawn:")
+    for ca_id in spontaneous_ca_ids:
+        print(f"  • {ca_id}")
+
+    if spontaneous_ca_ids:
+        print(f"  Fetching news for {len(spontaneous_ca_ids)} spontaneous CAs...")
+        for ca_id in spontaneous_ca_ids:
+            if ca_id not in ca_lookup:
+                print(f"  ! {ca_id}: not found in model — skipping")
+                continue
+            ca       = ca_lookup[ca_id]
+            ps_names = [ps_name_map[pid] for pid in ca.get("ps_memberships", []) if pid in ps_name_map]
+            try:
+                result = fetch_news_for_assembly(perplexity, ca, ps_names, week_start, week_end, cfg)
+                result["spontaneous"] = True
+                assembly_news_items.append(result)
+            except Exception as e:
+                print(f"  ! {ca_id}: {e}")
+                assembly_news_items.append({
+                    "id": ca_id, "name": ca["name"],
+                    "ps_memberships": ca.get("ps_memberships", []),
+                    "raw_news": "No data retrieved.",
+                    "spontaneous": True,
+                })
+        print(f"  ✓ spontaneous assembly news fetched")
 
     # Stage 1D: Individual neuron news
     print(f"\nStage 1D: Fetching individual news via Perplexity ({len(all_fetched)} calls)...")
@@ -888,24 +1008,25 @@ def run(scope: str = "us"):
     print(f"  ✓ {len(news_items)} news summaries collected")
 
     # Update and persist fetch state (all fetched neurons reset; all skipped increment)
-    new_fetch_state = update_fetch_state(fetch_state, all_fetched, all_skipped)
+    new_fetch_state = update_fetch_state(fetch_state, all_fetched, all_skipped, cfg["spontaneous_counter_cap"])
     save_fetch_state(new_fetch_state, fetch_state_path)
     print(f"\n  ✓ Fetch state saved → {fetch_state_path.name}")
 
     # Save raw data so synthesis can be retried without re-running Perplexity
     raw_path = BRIEFINGS_DIR / f"{cfg['briefing_prefix']}_raw_{week_end}.json"
     raw_data = {
-        "scope":                  scope,
-        "week_start":             week_start,
-        "week_end":               week_end,
-        "ps_news_items":          ps_news_items,
-        "assembly_news_items":    assembly_news_items,
-        "news_items":             news_items,
-        "ps_assemblies_fired":    ps_to_fired_assemblies,
-        "neurons_conscious":      [p["name"] for p in conscious_neurons],
-        "neurons_spontaneous":    [p["name"] for p in spontaneous_neurons],
-        "neurons_skipped":        [p["name"] for p in all_skipped],
-        "spontaneous_cap":        spontaneous_cap,
+        "scope":                    scope,
+        "week_start":               week_start,
+        "week_end":                 week_end,
+        "ps_news_items":            ps_news_items,
+        "assembly_news_items":      assembly_news_items,
+        "news_items":               news_items,
+        "ps_assemblies_fired":      ps_to_fired_assemblies,
+        "assemblies_spontaneous":   spontaneous_ca_ids,
+        "neurons_conscious":        [p["name"] for p in conscious_neurons],
+        "neurons_spontaneous":      [p["name"] for p in spontaneous_neurons],
+        "neurons_skipped":          [p["name"] for p in all_skipped],
+        "spontaneous_cap":          spontaneous_cap,
     }
     with open(raw_path, "w", encoding="utf-8") as f:
         json.dump(raw_data, f, indent=2, ensure_ascii=False)
@@ -930,20 +1051,21 @@ def run(scope: str = "us"):
         return
 
     briefing["_metadata"] = {
-        "generated":              date.today().isoformat(),
-        "scope":                  scope,
-        "week_start":             week_start,
-        "week_end":               week_end,
-        "source_model":           model_path.name,
-        "news_model":             SONAR_MODEL,
-        "synthesis_model":        CLAUDE_MODEL,
-        "neurons_conscious":      [p["name"] for p in conscious_neurons],
-        "neurons_spontaneous":    [p["name"] for p in spontaneous_neurons],
-        "neurons_skipped":        [p["name"] for p in all_skipped],
-        "spontaneous_cap":        spontaneous_cap,
-        "ps_activation_scores":   {p["id"]: p["activation_score"] for p in ps_news_items},
-        "ps_assemblies_fired":    ps_to_fired_assemblies,
-        "assemblies_fetched":     [a["id"] for a in assembly_news_items],
+        "generated":                date.today().isoformat(),
+        "scope":                    scope,
+        "week_start":               week_start,
+        "week_end":                 week_end,
+        "source_model":             model_path.name,
+        "news_model":               SONAR_MODEL,
+        "synthesis_model":          CLAUDE_MODEL,
+        "neurons_conscious":        [p["name"] for p in conscious_neurons],
+        "neurons_spontaneous":      [p["name"] for p in spontaneous_neurons],
+        "neurons_skipped":          [p["name"] for p in all_skipped],
+        "spontaneous_cap":          spontaneous_cap,
+        "ps_activation_scores":     {p["id"]: p["activation_score"] for p in ps_news_items},
+        "ps_assemblies_fired":      ps_to_fired_assemblies,
+        "assemblies_spontaneous":   spontaneous_ca_ids,
+        "assemblies_fetched":       [a["id"] for a in assembly_news_items],
     }
 
     # Save outputs

@@ -170,6 +170,40 @@ def compare_pair(
     return data.get("label", "neutral"), data.get("rationale", "")
 
 
+def compare_pair_global(
+    client: anthropic.Anthropic,
+    week_summary: str,
+    label_a: str, summary_a: str,
+    label_b: str, summary_b: str,
+) -> tuple[str, str]:
+    """
+    Ask Haiku whether two entities are reinforcing, adversarial, or neutral
+    based on the week's overall activity rather than a specific phase sequence.
+    Returns (label, rationale).
+    """
+    prompt = (
+        f"Week overview: {week_summary}\n\n"
+        f"{label_a}: {summary_a}\n\n"
+        f"{label_b}: {summary_b}\n\n"
+        f"Based on their activities this week, are these two entities reinforcing, adversarial, "
+        f"or neutral with respect to each other? "
+        f"If their news this week is not meaningfully related, return neutral.\n"
+        f'Respond with JSON only: {{"label": "reinforcing"|"adversarial"|"neutral", '
+        f'"rationale": "one sentence"}}'
+    )
+    message = client.messages.create(
+        model=HAIKU_MODEL,
+        max_tokens=256,
+        temperature=0.1,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    text  = message.content[0].text.strip()
+    start = text.find("{")
+    end   = text.rfind("}") + 1
+    data  = json.loads(text[start:end])
+    return data.get("label", "neutral"), data.get("rationale", "")
+
+
 # ---------------------------------------------------------------------------
 # SCORE MANAGEMENT
 # ---------------------------------------------------------------------------
@@ -215,6 +249,7 @@ def run_update(briefing: dict, model: dict, state: dict, client: anthropic.Anthr
     conscious_names     = set(meta.get("neurons_conscious", []))
     ps_assemblies_fired = meta.get("ps_assemblies_fired", {})
     week                = briefing.get("week_ending", date.today().isoformat())
+    executive_summary   = briefing.get("executive_summary", "")
 
     cfg           = state.get("config", {})
     decay_rate    = cfg.get("decay_rate",    DECAY_RATE)
@@ -238,6 +273,8 @@ def run_update(briefing: dict, model: dict, state: dict, client: anthropic.Anthr
 
     total_nn = 0
     total_cc = 0
+    compared_nn_keys: set = set()
+    compared_cc_keys: set = set()
 
     for ps_id, fired_ca_ids in ps_assemblies_fired.items():
         ps_info    = ps_updates.get(ps_id, {})
@@ -271,6 +308,7 @@ def run_update(briefing: dict, model: dict, state: dict, client: anthropic.Anthr
                     name_b, person_updates[name_b]["summary"],
                 )
                 update_pair(state, "neuron_coactivation", key, label, ps_id, week, learning_rate)
+                compared_nn_keys.add(key)
                 print(f"    {name_a} x {name_b} -> {label}")
                 total_nn += 1
             except Exception as e:
@@ -296,10 +334,71 @@ def run_update(briefing: dict, model: dict, state: dict, client: anthropic.Anthr
                     ca_updates[ca_b].get("name", ca_b), ca_updates[ca_b]["summary"],
                 )
                 update_pair(state, "ca_coactivation", key, label, ps_id, week, learning_rate)
+                compared_cc_keys.add(key)
                 print(f"    {ca_a} x {ca_b} -> {label}")
                 total_cc += 1
             except Exception as e:
                 print(f"    ! {ca_a} × {ca_b}: {e}")
+
+    # --- Global stage: cross-PS pairs not covered above ---
+    if executive_summary:
+        print(f"\n[GLOBAL — cross-PS pairs]")
+
+        # All conscious neurons with active signal and summary
+        global_eligible_neurons = sorted([
+            n for n in conscious_names
+            if person_updates.get(n, {}).get("signal", "active") == "active"
+            and person_updates.get(n, {}).get("summary", "")
+        ])
+        global_nn_pairs = [
+            (a, b) for a, b in combinations(global_eligible_neurons, 2)
+            if pair_key(a, b) not in compared_nn_keys
+        ]
+        print(f"  N-N: {len(global_eligible_neurons)} conscious neurons -> {len(global_nn_pairs)} novel pairs")
+
+        for name_a, name_b in global_nn_pairs:
+            key = pair_key(name_a, name_b)
+            try:
+                label, _ = compare_pair_global(
+                    client, executive_summary,
+                    name_a, person_updates[name_a]["summary"],
+                    name_b, person_updates[name_b]["summary"],
+                )
+                update_pair(state, "neuron_coactivation", key, label, "GLOBAL", week, learning_rate)
+                print(f"    {name_a} x {name_b} -> {label}")
+                total_nn += 1
+            except Exception as e:
+                print(f"    ! {name_a} × {name_b}: {e}")
+
+        # All consciously fired CAs with active signal and summary
+        all_conscious_ca_ids = sorted(set(
+            ca_id
+            for fired_ca_ids in ps_assemblies_fired.values()
+            for ca_id in fired_ca_ids
+            if ca_updates.get(ca_id, {}).get("signal", "active") == "active"
+            and ca_updates.get(ca_id, {}).get("summary", "")
+        ))
+        global_cc_pairs = [
+            (a, b) for a, b in combinations(all_conscious_ca_ids, 2)
+            if pair_key(a, b) not in compared_cc_keys
+        ]
+        print(f"  CA-CA: {len(all_conscious_ca_ids)} conscious CAs -> {len(global_cc_pairs)} novel pairs")
+
+        for ca_a, ca_b in global_cc_pairs:
+            key = pair_key(ca_a, ca_b)
+            try:
+                label, _ = compare_pair_global(
+                    client, executive_summary,
+                    ca_updates[ca_a].get("name", ca_a), ca_updates[ca_a]["summary"],
+                    ca_updates[ca_b].get("name", ca_b), ca_updates[ca_b]["summary"],
+                )
+                update_pair(state, "ca_coactivation", key, label, "GLOBAL", week, learning_rate)
+                print(f"    {ca_a} x {ca_b} -> {label}")
+                total_cc += 1
+            except Exception as e:
+                print(f"    ! {ca_a} × {ca_b}: {e}")
+    else:
+        print("\n[GLOBAL stage skipped — no executive summary in briefing]")
 
     state["week_count"]   = state.get("week_count", 0) + 1
     state["last_updated"] = week
