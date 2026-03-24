@@ -13,6 +13,7 @@ Injection strategy:
   - UI + event JS injected before </body>
 """
 
+import argparse
 import json
 import os
 import webbrowser
@@ -1549,6 +1550,11 @@ window.switchView = function(scope, viewType) {
 # ---------------------------------------------------------------------------
 
 def main():
+    parser = argparse.ArgumentParser(description="Combined Superorganism Visualizer")
+    parser.add_argument("--no-serve", action="store_true",
+                        help="Write the HTML file and exit without starting the local server")
+    args = parser.parse_args()
+
     script_dir  = os.path.dirname(os.path.abspath(__file__))
     global_path = os.path.join(script_dir, "superorganism_model.json")
     us_path     = os.path.join(script_dir, "us_superorganism_model.json")
@@ -1697,7 +1703,8 @@ def main():
         )
 
     print(f"Written to {output_path}")
-    serve_and_open(output_path, port=8766)
+    if not args.no_serve:
+        serve_and_open(output_path, port=8766)
 
 
 if __name__ == "__main__":

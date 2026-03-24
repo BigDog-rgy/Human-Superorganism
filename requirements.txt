@@ -8,5 +8,8 @@ google-genai>=0.3.0
 # Utilities
 python-dotenv>=1.0.0
 
+# Visualization
+pyvis>=0.3.2
+
 # Optional: for enhanced output formatting
 rich>=13.9.0

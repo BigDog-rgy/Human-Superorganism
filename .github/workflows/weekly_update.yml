@@ -1,0 +1,56 @@
+name: Weekly Update
+
+on:
+  schedule:
+    # Tuesday 14:00 UTC (9:00 AM ET / 10:00 AM EDT)
+    - cron: "0 14 * * 2"
+  workflow_dispatch:  # allow manual trigger from GitHub Actions UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run weekly briefing — US
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+        run: python weekly_briefing.py --scope us
+
+      - name: Run weekly briefing — Global
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+        run: python weekly_briefing.py --scope global
+
+      - name: Update coactivation state — US
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python coactivation_updater.py --scope us
+
+      - name: Update coactivation state — Global
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python coactivation_updater.py --scope global
+
+      - name: Regenerate visualization
+        run: python combined_viz.py --no-serve
+
+      - name: Commit and push outputs
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add briefings/ state/ combined_viz.html
+          git diff --cached --quiet || git commit -m "Weekly update $(date -u +%Y-%m-%d)"
+          git push
