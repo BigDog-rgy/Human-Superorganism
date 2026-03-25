@@ -15,6 +15,7 @@ Injection strategy:
 
 import argparse
 import json
+import math
 import os
 import webbrowser
 import http.server
@@ -261,18 +262,234 @@ def serve_and_open(output_path: str, port: int = 8766):
 
 
 # ---------------------------------------------------------------------------
+# LAYOUT POSITION COMPUTATION
+# ---------------------------------------------------------------------------
+
+GOLDEN_ANGLE = 2.39996323  # radians (~137.5°)
+CANVAS_SIZE  = 1000
+
+
+def _name_jitter(name: str, canvas_size: int) -> tuple:
+    """
+    Deterministic (dx, dy) jitter derived from the node's name.
+    Uses a simple polynomial hash — stable across runs, no imports needed.
+    Magnitude is small enough to break circular symmetry without displacing
+    nodes out of their cluster.
+    """
+    h = 0
+    for c in name:
+        h = (h * 31 + ord(c)) & 0xFFFFFF
+    angle  = (h / 0x1000000) * 2 * math.pi
+    radius = canvas_size * 0.03
+    return radius * math.cos(angle), radius * math.sin(angle)
+
+
+def _ps_anchor_circle(phase_sequences: list, radius: float) -> dict:
+    """Return {ps_id: (x, y)} for PS anchors evenly spaced in a circle."""
+    n = len(phase_sequences)
+    anchors = {}
+    for i, ps in enumerate(phase_sequences):
+        angle = 2 * math.pi * i / n - math.pi / 2   # start at top
+        anchors[ps["id"]] = (radius * math.cos(angle), radius * math.sin(angle))
+    return anchors
+
+
+def compute_neuron_positions(
+    model_data: dict,
+    coactivation_state: dict | None = None,
+    canvas_size: int = CANVAS_SIZE,
+) -> dict:
+    """
+    Compute deterministic (x, y) for every neuron.
+
+    Strategy:
+      - PS anchors placed evenly in a circle at 38% of canvas_size
+      - Each neuron lands at the centroid of its PS anchors (boolean membership)
+      - Neurons with no PS membership placed on an outer ring at 47% of canvas_size
+      - Rank-based golden-angle scatter prevents stacking within clusters
+      - Single-pass coactivation pull nudges co-firing pairs closer
+
+    Returns {neuron_name: (x, y)}
+    """
+    cv  = model_data["canonical_vocabulary"]
+    pss = cv.get("phase_sequences", [])
+    cas = cv.get("cell_assemblies", [])
+
+    anchors = _ps_anchor_circle(pss, canvas_size * 0.38)
+
+    # Build neuron -> set of PS ids via CA membership
+    neuron_ps: dict = {}
+    for ca in cas:
+        for neuron in ca.get("member_neurons", []):
+            for ps_id in ca.get("ps_memberships", []):
+                if ps_id in anchors:
+                    neuron_ps.setdefault(neuron, set()).add(ps_id)
+
+    people  = model_data["superorganism_list"]
+    outer_r = canvas_size * 0.47
+
+    positions: dict = {}
+
+    # --- PS-assigned neurons: phyllotaxis spiral within each cluster ---
+    # Group by centroid key (frozenset of PS ids) and sort by influence rank
+    clusters: dict = {}
+    for person in people:
+        ps_set = neuron_ps.get(person["name"], set())
+        if ps_set:
+            clusters.setdefault(frozenset(ps_set), []).append(person)
+    for key in clusters:
+        clusters[key].sort(key=lambda p: p["rank"])
+
+    for cluster_key, cluster_people in clusters.items():
+        ps_set  = set(cluster_key)
+        cx = sum(anchors[ps][0] for ps in ps_set) / len(ps_set)
+        cy = sum(anchors[ps][1] for ps in ps_set) / len(ps_set)
+        n  = len(cluster_people)
+        base_r = canvas_size * 0.04 * math.sqrt(max(n, 1))
+        for idx, person in enumerate(cluster_people):
+            r     = base_r * math.sqrt(idx + 1)
+            angle = idx * GOLDEN_ANGLE
+            jx, jy = _name_jitter(person["name"], canvas_size)
+            positions[person["name"]] = [
+                cx + r * math.cos(angle) + jx,
+                cy + r * math.sin(angle) + jy,
+            ]
+
+    # --- Unassigned neurons: golden spiral in outer region, sorted by rank ---
+    unassigned = sorted(
+        [p for p in people if not neuron_ps.get(p["name"])],
+        key=lambda p: p["rank"],
+    )
+    outer_start_r = canvas_size * 0.44
+    for idx, person in enumerate(unassigned):
+        r     = outer_start_r + canvas_size * 0.03 * math.sqrt(idx)
+        angle = idx * GOLDEN_ANGLE
+        jx, jy = _name_jitter(person["name"], canvas_size)
+        positions[person["name"]] = [
+            r * math.cos(angle) + jx,
+            r * math.sin(angle) + jy,
+        ]
+
+    # Single-pass coactivation pull
+    if coactivation_state:
+        threshold = coactivation_state.get("config", {}).get("edge_display_threshold", 0.15)
+        for key, entry in coactivation_state.get("neuron_coactivation", {}).items():
+            score = abs(entry.get("score", 0))
+            if score < threshold:
+                continue
+            parts = key.split("|||")
+            if len(parts) != 2:
+                continue
+            a, b = parts
+            if a not in positions or b not in positions:
+                continue
+            ax, ay = positions[a]
+            bx, by = positions[b]
+            pull = score * 0.12
+            positions[a] = [ax + (bx - ax) * pull, ay + (by - ay) * pull]
+            positions[b] = [bx + (ax - bx) * pull, by + (ay - by) * pull]
+
+    return positions
+
+
+def compute_ca_positions(
+    model_data: dict,
+    coactivation_state: dict | None = None,
+    canvas_size: int = CANVAS_SIZE,
+) -> dict:
+    """
+    Compute deterministic (x, y) for every CA node.
+
+    Same strategy as compute_neuron_positions but uses each CA's own
+    ps_memberships field directly, and CA rank for golden-angle scatter.
+
+    Returns {ca_id: (x, y)}
+    """
+    cv  = model_data["canonical_vocabulary"]
+    pss = cv.get("phase_sequences", [])
+    cas = cv.get("cell_assemblies", [])
+
+    anchors = _ps_anchor_circle(pss, canvas_size * 0.38)
+
+    outer_r = canvas_size * 0.47
+
+    positions: dict = {}
+
+    # --- PS-assigned CAs: phyllotaxis spiral within each cluster ---
+    clusters: dict = {}
+    for ca in cas:
+        ps_set = frozenset(ps for ps in ca.get("ps_memberships", []) if ps in anchors)
+        if ps_set:
+            clusters.setdefault(ps_set, []).append(ca)
+    for key in clusters:
+        clusters[key].sort(key=lambda c: c.get("rank", 0))
+
+    for cluster_key, cluster_cas in clusters.items():
+        ps_set = set(cluster_key)
+        cx = sum(anchors[ps][0] for ps in ps_set) / len(ps_set)
+        cy = sum(anchors[ps][1] for ps in ps_set) / len(ps_set)
+        n  = len(cluster_cas)
+        base_r = canvas_size * 0.04 * math.sqrt(max(n, 1))
+        for idx, ca in enumerate(cluster_cas):
+            r     = base_r * math.sqrt(idx + 1)
+            angle = idx * GOLDEN_ANGLE
+            jx, jy = _name_jitter(ca["name"], canvas_size)
+            positions[ca["id"]] = [
+                cx + r * math.cos(angle) + jx,
+                cy + r * math.sin(angle) + jy,
+            ]
+
+    # --- Unassigned CAs: golden spiral in outer region, sorted by rank ---
+    unassigned_cas = sorted(
+        [ca for ca in cas if not any(ps in anchors for ps in ca.get("ps_memberships", []))],
+        key=lambda c: c.get("rank", 0),
+    )
+    outer_start_r = canvas_size * 0.44
+    for idx, ca in enumerate(unassigned_cas):
+        r     = outer_start_r + canvas_size * 0.03 * math.sqrt(idx)
+        angle = idx * GOLDEN_ANGLE
+        jx, jy = _name_jitter(ca["name"], canvas_size)
+        positions[ca["id"]] = [
+            r * math.cos(angle) + jx,
+            r * math.sin(angle) + jy,
+        ]
+
+    # Single-pass CA coactivation pull
+    if coactivation_state:
+        threshold = coactivation_state.get("config", {}).get("edge_display_threshold", 0.15)
+        for key, entry in coactivation_state.get("ca_coactivation", {}).items():
+            score = abs(entry.get("score", 0))
+            if score < threshold:
+                continue
+            parts = key.split("|||")
+            if len(parts) != 2:
+                continue
+            a, b = parts
+            if a not in positions or b not in positions:
+                continue
+            ax, ay = positions[a]
+            bx, by = positions[b]
+            pull = score * 0.12
+            positions[a] = [ax + (bx - ax) * pull, ay + (by - ay) * pull]
+            positions[b] = [bx + (ax - bx) * pull, by + (ay - by) * pull]
+
+    return positions
+
+
+# ---------------------------------------------------------------------------
 # GLOBAL NETWORK BUILDER
 # ---------------------------------------------------------------------------
 
 def global_node_size(rank: int, n_total: int) -> int:
     """Scale node size by rank, compressed for large models."""
-    return max(8, int(40 - (rank - 1) * 32 / max(n_total - 1, 1)))
+    return max(5, int(22 - (rank - 1) * 17 / max(n_total - 1, 1)))
 
 
 def build_network(
     global_data: dict,
     hebbian_state: dict | None = None,
     coactivation_state: dict | None = None,
+    positions: dict | None = None,
 ):
     """
     Build the pyvis network for the global superorganism model.
@@ -333,6 +550,7 @@ def build_network(
             f"</div>"
         )
 
+        pos = positions.get(person["name"], [0, 0]) if positions else [None, None]
         net.add_node(
             person["name"],
             label=person["name"],
@@ -341,6 +559,8 @@ def build_network(
             size=size,
             font={"size": 13, "color": FONT_COLOR, "face": "sans-serif"},
             borderWidth=2,
+            x=pos[0],
+            y=pos[1],
         )
 
     # --- Edges from coactivation state (no fallback — no state = no edges) ---
@@ -388,17 +608,7 @@ def build_network(
         "shadow": false,
         "scaling": { "min": 1, "max": 8 }
       },
-      "physics": {
-        "solver": "forceAtlas2Based",
-        "forceAtlas2Based": {
-          "gravitationalConstant": -60,
-          "centralGravity": 0.005,
-          "springLength": 200,
-          "springConstant": 0.06,
-          "damping": 0.9
-        },
-        "stabilization": { "iterations": 200 }
-      },
+      "physics": { "enabled": false },
       "interaction": {
         "hover": true,
         "tooltipDelay": 9999999,
@@ -419,7 +629,7 @@ def build_network(
 
 def us_node_size(rank: int, n_total: int) -> int:
     """Scale node size for US model."""
-    return max(8, int(40 - (rank - 1) * 32 / max(n_total - 1, 1)))
+    return max(5, int(22 - (rank - 1) * 17 / max(n_total - 1, 1)))
 
 
 # ---------------------------------------------------------------------------
@@ -483,6 +693,36 @@ def load_coactivation_state(script_dir: str, scope: str = "us") -> dict | None:
         return None
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def build_ps_ca_membership_edges(model_data: dict) -> dict:
+    """
+    Build {ps_id: [{from, to, color, value}, ...]} for the assembly view.
+    Edges connect CA pairs that share the same PS.
+    """
+    raw_asm = model_data.get("canonical_vocabulary", {}).get("cell_assemblies", [])
+
+    ps_to_cas: dict = {}
+    for ca in raw_asm:
+        if isinstance(ca, str):
+            continue
+        ca_id = ca.get("id") or ca.get("name", "")
+        for ps_id in ca.get("ps_memberships", []):
+            ps_to_cas.setdefault(ps_id, set()).add(ca_id)
+
+    result = {}
+    for ps_id, ca_ids in ps_to_cas.items():
+        ca_list = sorted(ca_ids)
+        edges = [
+            {"from": a, "to": b,
+             "color": {"color": "#ffffff", "opacity": 0.4},
+             "value": 1}
+            for i, a in enumerate(ca_list)
+            for b in ca_list[i + 1:]
+        ]
+        if edges:
+            result[ps_id] = edges
+    return result
 
 
 def build_ps_membership_edges(model_data: dict) -> dict:
@@ -938,6 +1178,7 @@ def build_us_network(
     briefing: dict | None = None,
     hebbian_state: dict | None = None,
     coactivation_state: dict | None = None,
+    positions: dict | None = None,
 ):
     """
     Build the pyvis network for the US superorganism model.
@@ -1052,6 +1293,7 @@ def build_us_network(
             f"</div>"
         )
 
+        pos = positions.get(person["name"], [0, 0]) if positions else [None, None]
         net.add_node(
             person["name"],
             label=person["name"],
@@ -1060,6 +1302,8 @@ def build_us_network(
             size=size,
             font={"size": 13, "color": FONT_COLOR, "face": "sans-serif"},
             borderWidth=2,
+            x=pos[0],
+            y=pos[1],
         )
 
     # --- Edges from coactivation state ---
@@ -1109,17 +1353,7 @@ def build_us_network(
         "shadow": false,
         "scaling": { "min": 1, "max": 8 }
       },
-      "physics": {
-        "solver": "forceAtlas2Based",
-        "forceAtlas2Based": {
-          "gravitationalConstant": -60,
-          "centralGravity": 0.005,
-          "springLength": 200,
-          "springConstant": 0.06,
-          "damping": 0.9
-        },
-        "stabilization": { "iterations": 200 }
-      },
+      "physics": { "enabled": false },
       "interaction": {
         "hover": true,
         "tooltipDelay": 9999999,
@@ -1141,6 +1375,7 @@ def build_assembly_network(
     briefing: dict | None = None,
     is_us: bool = True,
     coactivation_state: dict | None = None,
+    positions: dict | None = None,
 ):
     """
     Build a pyvis network where nodes are cell assemblies.
@@ -1187,7 +1422,7 @@ def build_assembly_network(
     for ca in assemblies:
         members  = ca_members.get(ca["id"], [])
         n_members = len(members)
-        size     = max(10, int(10 + 30 * n_members / max(max_members, 1)))
+        size     = max(5, int(6 + 16 * n_members / max(max_members, 1)))
 
         if is_us:
             color  = HEMISPHERE_COLORS["West"]
@@ -1243,6 +1478,7 @@ def build_assembly_network(
             f"</div>"
         )
 
+        pos = positions.get(ca["id"], [0, 0]) if positions else [None, None]
         net.add_node(
             ca["id"],
             label=ca["name"],
@@ -1251,6 +1487,8 @@ def build_assembly_network(
             size=size,
             font={"size": 12, "color": FONT_COLOR, "face": "sans-serif"},
             borderWidth=2,
+            x=pos[0],
+            y=pos[1],
         )
 
     # Edges: coactivation scores only (no fallback — no state = no edges)
@@ -1298,17 +1536,7 @@ def build_assembly_network(
         "shadow": false,
         "scaling": { "min": 1, "max": 6 }
       },
-      "physics": {
-        "solver": "forceAtlas2Based",
-        "forceAtlas2Based": {
-          "gravitationalConstant": -80,
-          "centralGravity": 0.005,
-          "springLength": 150,
-          "springConstant": 0.08,
-          "damping": 0.9
-        },
-        "stabilization": { "iterations": 200 }
-      },
+      "physics": { "enabled": false },
       "interaction": {
         "hover": true,
         "tooltipDelay": 9999999,
@@ -1597,18 +1825,28 @@ def build_combined_html(
         f"var psMembershipEdges = {json.dumps(ps_membership_edges or {}, ensure_ascii=False)};\n"
         "var selectedPS = null;\n"
         "window.selectPS = function(psId) {\n"
+        "  var viewKey = currentScope + '_' + currentViewType;\n"
+        "  var datasets = {\n"
+        "    'global_neuron':   {nodes: globalNeuronNodes, edges: globalNeuronEdges},\n"
+        "    'us_neuron':       {nodes: usNeuronNodes,     edges: usNeuronEdges},\n"
+        "    'global_assembly': {nodes: globalAsmNodes,    edges: globalAsmEdges},\n"
+        "    'us_assembly':     {nodes: usAsmNodes,        edges: usAsmEdges},\n"
+        "  };\n"
+        "  var currentDs = datasets[viewKey];\n"
+        "  if (!currentDs) return;\n"
         "  if (selectedPS === psId) {\n"
         "    selectedPS = null;\n"
-        "    network.setData({nodes: usNeuronNodes, edges: usNeuronEdges});\n"
-        "    window.updateTooltipMap('us', 'neuron');\n"
+        "    network.setData(currentDs);\n"
+        "    window.updateTooltipMap(currentScope, currentViewType);\n"
         "    hidePSPanel();\n"
         "  } else {\n"
         "    selectedPS = psId;\n"
-        "    var rawEdges = psMembershipEdges[psId] || [];\n"
+        "    var edgeMap = psMembershipEdges[viewKey] || {};\n"
+        "    var rawEdges = edgeMap[psId] || [];\n"
         "    var tempEdges = new vis.DataSet(rawEdges.map(function(e, i) {\n"
         "      return {id: 'ps_' + i, from: e.from, to: e.to, color: e.color, value: e.value};\n"
         "    }));\n"
-        "    network.setData({nodes: usNeuronNodes, edges: tempEdges});\n"
+        "    network.setData({nodes: currentDs.nodes, edges: tempEdges});\n"
         "    showPSPanel(psId);\n"
         "  }\n"
         "};\n"
@@ -1631,7 +1869,6 @@ window.switchView = function(scope, viewType) {
   var ds = datasets[key];
   if (!ds) return;
   network.setData(ds);
-  network.stabilize(150);
   window.updateTooltipMap(scope, viewType);
   allNodes = ds.nodes.get({returnType: 'Object'});
   allEdges = ds.edges.get({returnType: 'Object'});
@@ -1765,9 +2002,11 @@ def main():
         else:
             print("  No global coactivation state — edges default to PS co-membership")
 
+        print("Computing global neuron positions...")
+        global_positions = compute_neuron_positions(global_data, global_coactivation)
         print("Building global network...")
         global_net, global_node_tooltips, global_edge_tooltips = build_network(
-            global_data, coactivation_state=global_coactivation
+            global_data, coactivation_state=global_coactivation, positions=global_positions
         )
         global_legend = build_global_legend_html(global_briefing)
 
@@ -1787,21 +2026,36 @@ def main():
     else:
         print("  No state — run: python coactivation_updater.py --bootstrap --scope us")
 
+    print("Computing US neuron positions...")
+    us_positions = compute_neuron_positions(us_data, coactivation_state)
     print("Building US neuron network...")
     us_net, us_node_tooltips, us_edge_tooltips = build_us_network(
-        us_data, briefing=briefing, coactivation_state=coactivation_state
+        us_data, briefing=briefing, coactivation_state=coactivation_state,
+        positions=us_positions
     )
     us_legend     = build_us_legend_html(briefing)
     us_asm_legend = build_us_asm_legend_html(briefing)
     ps_panel_data = build_ps_panel_data(briefing)
 
     # --- Assembly networks ---
-    ps_membership_edges = build_ps_membership_edges(us_data)
-    print(f"  Built PS membership edges for {len(ps_membership_edges)} phase sequences")
+    ps_membership_edges = {
+        "global_neuron":   build_ps_membership_edges(global_data)    if global_data else {},
+        "us_neuron":       build_ps_membership_edges(us_data),
+        "global_assembly": build_ps_ca_membership_edges(global_data) if global_data else {},
+        "us_assembly":     build_ps_ca_membership_edges(us_data),
+    }
+    print(f"  Built PS membership edges for "
+          f"{len(ps_membership_edges['us_neuron'])} US neuron / "
+          f"{len(ps_membership_edges['us_assembly'])} US assembly / "
+          f"{len(ps_membership_edges['global_neuron'])} global neuron / "
+          f"{len(ps_membership_edges['global_assembly'])} global assembly PSs")
 
+    print("Computing US assembly positions...")
+    us_asm_positions = compute_ca_positions(us_data, coactivation_state)
     print("Building US assembly network...")
     us_asm_net, us_asm_node_tooltips, us_asm_edge_tooltips = build_assembly_network(
-        us_data, briefing=briefing, is_us=True, coactivation_state=coactivation_state
+        us_data, briefing=briefing, is_us=True, coactivation_state=coactivation_state,
+        positions=us_asm_positions
     )
     n_us_asm = len(us_data.get("canonical_vocabulary", {}).get("cell_assemblies", []))
 
@@ -1809,9 +2063,12 @@ def main():
     global_asm_legend = None
     n_global_asm   = None
     if global_data:
+        print("Computing global assembly positions...")
+        global_asm_positions = compute_ca_positions(global_data, global_coactivation)
         print("Building global assembly network...")
         global_asm_net, global_asm_node_tooltips, global_asm_edge_tooltips = build_assembly_network(
-            global_data, briefing=global_briefing, is_us=False
+            global_data, briefing=global_briefing, is_us=False,
+            positions=global_asm_positions
         )
         n_global_asm = len(global_data.get("canonical_vocabulary", {}).get("cell_assemblies", []))
         global_asm_legend = build_global_asm_legend_html(global_briefing)
