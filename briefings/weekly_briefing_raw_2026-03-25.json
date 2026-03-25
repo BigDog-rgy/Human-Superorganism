@@ -1,0 +1,503 @@
+{
+  "scope": "us",
+  "week_start": "2026-03-18",
+  "week_end": "2026-03-25",
+  "ps_news_items": [
+    {
+      "id": "DPS-01",
+      "name": "Executive Power Consolidation",
+      "summary": "No significant developments in **executive power consolidation** occurred between March 18 and March 25, 2026, as the White House's most recent action was a ceremonial proclamation on Greek Independence Day on March 24, with no executive orders, agency reorganizations, personnel changes, DOGE initiatives, or OMB directives reported in that window.[5] Earlier efforts like Executive Order 14238 (March 14, 2025) to reduce federal bureaucracy by targeting entities such as the Minority Business Development Agency predate the period and required compliance reports within 7 days, but no updates on departmental compliance, resistance, or legal challenges emerged this week.[1][2] This reflects a lull following prior DOGE-style efficiency pushes documented in 2025.[1]\n\n2",
+      "activation_score": 2
+    },
+    {
+      "id": "DPS-02",
+      "name": "AI Dominance Race",
+      "summary": "**President Trump unveiled a national AI framework on March 20, 2026, urging Congress to preempt state laws to secure U.S. dominance in the global AI race.** This federal policy move aims to centralize AI regulation and bolster American leadership amid intensifying U.S.-China competition.[4] Analysts highlighted China's structural edges in cheap energy (with 400 GW spare capacity by 2030), manufacturing, and open-source AI agents like OpenClaw, praised by Nvidia's Jensen Huang, potentially positioning it as the \"big winner\" over U.S. energy bottlenecks.[3] The Department of Energy's Speed to Power Initiative also advanced, accelerating grid infrastructure for large-scale AI compute under Trump's executive order.[6]\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-03",
+      "name": "Judicial Pipeline & Doctrinal Shift",
+      "summary": "The Supreme Court issued summary reversals in two habeas cases (*Clark v. Sweeney* and *Klein v. Martin*), rebuking the 4th Circuit for insufficient deference to state courts under AEDPA and the party-presentation principle, signaling a doctrinal tightening that limits federal habeas relief availability.[1] On March 23, the Court decided *Zorn v. Linton* alongside other rulings like *Olivier v. City of Brandon* (March 20), contributing to ongoing appellate momentum, while Chief Justice Roberts publicly addressed presidential criticisms of the Court, defending judicial independence.[2][7] A federal district judge blocked Arkansas school districts from displaying the Ten Commandments, invoking First Amendment precedents and highlighting persistent tensions in religion-state separation litigation.[2]\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-04",
+      "name": "Fiscal-Monetary Stress Cycle",
+      "summary": "The Federal Reserve held interest rates steady at 3.5%-3.75% during its March 17-18, 2026 FOMC meeting, marking the second consecutive pause after prior cuts, amid persistent inflation above the 2% target (CPI at 2.4% in February) and surging oil prices exceeding $100/barrel due to Middle East geopolitical tensions.[1][2][5] Fed Chair Powell highlighted slower-than-expected inflation progress and revised projections to just one rate cut for 2026, down from earlier expectations of multiple reductions, signaling a hawkish shift that underscores monetary caution against fiscal inflationary pressures from energy shocks.[1][2] This decision, with one dissenting vote for easing, reflects no immediate balance-sheet adjustments but heightens fiscal-monetary stress by prolonging elevated borrowing costs amid resilient employment and economic expansion.[4][7]\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "DPS-05",
+      "name": "Capital Allocation & Private Power",
+      "summary": "Private equity dealmaking accelerated sharply in early 2026, with PE confidence hitting a six-year high of 86% amid narrowing bid-ask spreads and Fed rate cuts to 3.5%-3.75%, unlocking $2.6 trillion in dry powder for megadeals across energy, aerospace, healthcare, and infrastructure.[2][1] Key transactions included Blackstone's non-binding $10.5 billion offer for Boeing’s Digital Aviation Solutions and Senior PLC, BlackRock’s GIP and EQT's $10.7 billion acquisition of AES, Thoma Bravo's $12 billion shipping tech merger, and Amber Energy's $7.3 billion purchase of Citgo U.S. assets via court-ordered divestiture.[1][2] This \"Great Unlocking\" signals structural momentum toward take-privates and consolidation, led by giants like Blackstone, KKR, and Apollo, reshaping ownership in strategic sectors.[2][3]\n\n9",
+      "activation_score": 9
+    },
+    {
+      "id": "DPS-06",
+      "name": "Big Tech Regulatory Arbitrage",
+      "summary": "The most significant development in Big Tech regulatory arbitrage from March 18-25, 2026, was Microsoft's consideration of legal action against Amazon's $50 billion cloud deal with OpenAI, potentially challenging the boundaries of Microsoft's exclusive hosting rights and escalating cloud lock-in disputes among hyperscalers.[2] On the federal level, an Executive Order advanced implementation with the DOJ's AI Litigation Task Force—established earlier in January—now tasked within 30-90 days to evaluate and challenge \"onerous\" state AI laws (e.g., Colorado AI Act) on constitutional grounds, while tying federal funding like BEAD grants to states' alignment with a minimally burdensome national AI framework, signaling aggressive preemption to counter state-level privacy and AI liability rules.[1][5] Meanwhile, the UK's Financial Conduct Authority imposed stricter cyber incident reporting for third-party outages involving cloud providers like AWS, heightening compliance burdens on Big Tech's enterprise contracts in finance.[2]\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-07",
+      "name": "Defense-Industrial Expansion",
+      "summary": "In March 2026, the Pentagon awarded major contracts totaling $28.3 billion, with non-traditional contractors dominating defense-industrial expansion: Anduril secured a record $4.1 billion IDIQ for counter-UAS and Golden Dome air defense systems, SpaceX received $3.2 billion for Starshield and Starlink military broadband, and Palantir won $2.8 billion for DHS border AI surveillance.[1] These awards underscore the integration of private tech firms like Anduril and Palantir as tier-one primes, embedding platforms such as Lattice and AIP across Army, MDA, Space Force, and DHS operations.[1] Smaller contracts on March 9 included Lockheed Martin's $60.6 million for Aegis radar repairs and Ultra Maritime's $9.4 million for submarine countermeasures, signaling sustained legacy sustainment alongside tech momentum.[3]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "DPS-08",
+      "name": "Information Environment Contestation",
+      "summary": "No major developments directly related to **information environment contestation**—such as content moderation changes, algorithmic shifts, ownership moves, audience metrics, or coordinated messaging campaigns—occurred in the past week (March 18-25, 2026), based on available sources[1][2][3]. Ongoing public and regulatory pushback against AI data centers, including local moratoriums (e.g., Birmingham, Alabama's six-month halt on March 18) and President Trump's Ratepayer Protection Pledge formalization (March 12), focused on energy and environmental impacts rather than narrative control or platform governance[1][2][5]. Broader updates like B Corp's green certification overhaul similarly addressed credibility in sustainability claims without intersecting digital platform or media competition[3].\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-09",
+      "name": "Energy Transition & Security",
+      "summary": "The most significant development this week was the Department of Energy's announcement on March 12 of approximately $1.9 billion in funding through the Speed to Power SPARK initiative to accelerate electricity infrastructure investments, particularly transmission upgrades to address grid bottlenecks.[5] On March 19, the Energy Information Administration reported that electric sector gas use fell 3% in 2025, driven by surging solar and battery additions, signaling continued momentum toward renewables despite the Trump administration's deregulatory stance favoring fossil fuels.[10] Federal courts continued blocking the administration's offshore wind restrictions, with judges allowing projects in Massachusetts, Virginia, Rhode Island, and New York to proceed, demonstrating judicial pushback against anti-renewable policies.[3] The week underscored a structural tension: while the administration actively cancels renewable projects and supports fossil fuel expansion through expedited permitting and coal mandates, market forces and litigation are sustaining clean energy deployment, with 2026 projected to see record 86 GW of capacity additions dominated by 43.4 GW of solar and 24.3 GW of battery storage.[2][7]\n\n**7**",
+      "activation_score": 5
+    },
+    {
+      "id": "DPS-10",
+      "name": "Coalition Machinery & Electoral Infrastructure",
+      "summary": "On March 25, 2026, the **Battleground Alliance PAC**, backed by labor unions like SEIU and progressive groups including the Working Families Party, Indivisible, and MoveOn, launched a **$50 million initiative** to flip at least 35 Republican-held House districts in 2026 by mobilizing working-class voters against Trump administration policies.[1] This voter targeting and coalition-building effort builds on 2024 successes in New York, signaling early activation of progressive donor networks and campaign infrastructure for the midterms.[1] On March 23, a coalition including Free Press and Communications Workers of America filed a legal challenge against the FCC's approval of the Nexstar-TEGNA merger, alleging political influence and risks to local news diversity critical for electoral information flows.[2]\n\n7",
+      "activation_score": 7
+    }
+  ],
+  "assembly_news_items": [
+    {
+      "id": "CA-135",
+      "name": "Appaloosa Management",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "**Appaloosa Management, David Tepper's primary hedge fund, sent a public letter to Whirlpool Corporation's Board on February 25, 2026, sharply criticizing a recent equity issuance for causing unnecessary shareholder dilution at a high cost of capital exceeding 10%.** The letter, signed by Tepper, accused management of prioritizing job preservation over shareholder value, destroying hundreds of millions in equity, and failing to leverage Trump-era tariffs through mergers or partnerships with foreign firms to boost U.S. jobs and company prospects[2]. Appaloosa positioned itself as a major shareholder urging the board to uphold fiduciary duties and invite strategic interest from domestic or foreign entities[2]. No other significant actions, such as new positions or alliances, appear in filings or reports from the queried period[1][3]."
+    },
+    {
+      "id": "CA-074",
+      "name": "Blackstone",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "Based on the available search results, there is no hard news about Blackstone from the past 7 days (March 18-25, 2026) that meets your criteria for significant capital allocation or power dynamics decisions.\n\nThe most recent substantive news in the search results dates to earlier periods: Blackstone's $2.6 billion debt financing for merging its power grid equipment suppliers (MPS and Power Grid Components)[1] and Jon Gray's statements about 2026 being \"the year of the IPO\" with an expected reopening of public markets[2]. However, these announcements predate the March 18-25 window you specified.\n\nThe search results do not contain dated announcements from the past week that would constitute hard news on capital allocation decisions, strategic alliances, or organizational moves affecting power dynamics in Blackstone's real estate or private equity operations."
+    },
+    {
+      "id": "CA-059",
+      "name": "Elliott Investment Management",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "**Elliott Investment Management announced on March 2, 2026, its intention to accept a revised tender offer (TOB) from Toyota Fudosan for Toyota Industries Corporation shares at ¥20,600 per share—a 26% premium over the original price and 10% above the January increase—following months of discussions that improved terms for minority shareholders and advanced cross-shareholding unwinds in Japan.[1]** This decision marks a key activist win, as Elliott, the largest independent shareholder, shifted from rejecting an earlier ¥18,800 extended TOB on February 12[4] amid low tender participation (only 33.1% of shares, under 20% from independents), pressuring Toyota Group to delay the offer into March.[5] No other major actions, such as new positions or alliances in capital allocation, emerged in the March 18-25 window.[2][3]"
+    },
+    {
+      "id": "CA-026",
+      "name": "Fidelity Investments",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "**No significant hard news on Fidelity Investments' decisions, actions, positions, alliances, or organizational moves affecting capital allocation or private power dynamics emerged from March 18-25, 2026.**[1][5][6]\n\nFidelity released its 2026 State of Retirement Planning Study on March 19 and 23, noting 72% of Americans plan flexible retirements amid inflation, but this reflects consumer trends rather than firm-led business moves.[5][6]\n\nThe firm's March 2026 Money Market Commentary, covering data through early March, details portfolio positioning shorter than peers and market outlooks on Fed policy amid geopolitical tensions, without announcing new actions.[1]"
+    },
+    {
+      "id": "CA-066",
+      "name": "Charles Schwab Corporation",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "**Charles Schwab Corporation** announced a **Spring Business Update** for institutional investors, scheduled as a live webcast on April 16, 2026, featuring CEO Rick Wurster and CFO Mike Verdeschi to discuss recent developments and strategic priorities.[1][3]\n\nOn March 13, 2026, the firm released its **Monthly Activity Report** for February, detailing core metrics like brokerage accounts and client assets totaling $12.22 trillion as of late February.[6][8]\n\nThis organizational move signals proactive investor engagement amid robust asset growth, enhancing Schwab's positioning in capital allocation dynamics.[1][2]"
+    },
+    {
+      "id": "CA-013",
+      "name": "Senate Appropriations Committee",
+      "ps_memberships": [
+        "DPS-04",
+        "DPS-07"
+      ],
+      "raw_news": "No significant news on decisions, actions, positions, alliances, or organizational moves by the Senate Appropriations Committee emerged from March 18-25, 2026, within the active domains of Fiscal-Monetary Stress Cycle or Defense-Industrial Expansion[1][2][3]. The most recent reported actions, from early February 2026, involved President Trump signing an FY2026 funding package (including Defense and National Security-State) that ended a partial government shutdown, with Homeland Security funding expiring February 14 amid unresolved negotiations[1][2]. As of mid-February updates, FY2026 appropriations process continues without new 302(a) topline allocations or binding spending caps, pending Budget Committee resolutions[1]."
+    },
+    {
+      "id": "CA-071",
+      "name": "Senate Foreign Relations Committee",
+      "ps_memberships": [
+        "DPS-07"
+      ],
+      "raw_news": "**On March 23, Ranking Member Jeanne Shaheen formally pressed the U.S. International Development Finance Corporation (DFC) CEO for answers on a proposed $20 billion reinsurance facility to insure maritime trade through the Strait of Hormuz amid the Iran war, citing risks to U.S. taxpayers and potential benefits to China as the top oil importer from the region.[1]** She demanded details on due diligence shortcuts, eligibility safeguards against adversaries like China, Russia, or Iran, and ongoing consultation with the Senate Foreign Relations Committee before proceeding.[1] This action underscores the committee's oversight role in arms sales and foreign policy, potentially constraining U.S. defense-industrial support for wartime risk mitigation.[1]"
+    },
+    {
+      "id": "CA-004",
+      "name": "Department of Defense",
+      "ps_memberships": [
+        "DPS-07"
+      ],
+      "raw_news": "**Secretary of Defense Pete Hegseth announced major advances in Operation Epic Fury against Iran, confirming over 7,000 targets struck—including Iran's air defenses, navy (over 120 ships neutralized), ballistic missiles, drones, and industrial base—while defending a potential $200 billion supplemental funding request to replenish munitions.[3][2][5]** This aligns with the **2026 National Defense Strategy's priority to \"supercharge\" the defense industrial base through wartime acquisition reforms and industrial revival, emphasizing homeland defense, burden-sharing with allies, and expanded missile defense via the Golden Dome concept.[4] These actions shift power dynamics by dismantling Iran's military projection capabilities and prioritizing U.S. hemispheric dominance under a \"Trump corollary to the Monroe Doctrine.\"[4]"
+    },
+    {
+      "id": "CA-032",
+      "name": "US House of Representatives",
+      "ps_memberships": [
+        "DPS-04",
+        "DPS-10"
+      ],
+      "raw_news": "On March 18, 2026, the **US House of Representatives** passed **H.J.Res. 139**, proposing a constitutional amendment for a balanced federal budget (211-207), alongside H.R. 556 (215-202) and H.R. 1958 (231-186), with Democrats' motions to recommit failing, signaling fiscal restraint amid ongoing **Fiscal-Monetary Stress Cycle** debates.[1] Bipartisan leaders of the House Financial Services Committee announced calls for bicameral conference on housing bills, aiming to resolve inter-chamber differences and influence **Coalition Machinery**.[2] The House is set for floor votes this week on DHS funding and vessel security amid the DHS shutdown, while Speaker Johnson opted against advancing a clean FISA Section 702 extension, affecting surveillance policy power dynamics.[2]"
+    },
+    {
+      "id": "CA-008",
+      "name": "US Treasury",
+      "ps_memberships": [
+        "DPS-04"
+      ],
+      "raw_news": "**No significant US Treasury news from March 18-25, 2026, matches the criteria of decisions, actions, positions, alliances, or organizational moves affecting power dynamics in fiscal-monetary stress cycles.** Search results highlight older actions, such as Treasury's March 20 sanctions on a Hizballah funding network and Yellen's remarks on financial resilience amid past debt impasses[7], but none fall within the past 7 days. Earlier fiscal warnings, like debt limit letters and national debt concerns, predate this period and do not indicate recent shifts under Secretary Bessent[2][5]. This gap underscores stable fiscal management without acute developments."
+    },
+    {
+      "id": "CA-002",
+      "name": "Federal Reserve",
+      "ps_memberships": [
+        "DPS-04"
+      ],
+      "raw_news": "**On March 18, 2026, the Federal Reserve's FOMC voted 11-1 to maintain the federal funds rate at 3.5%-3.75%, pausing rate cuts amid softening labor market data, persistent inflation above 2%, and uncertainty from the Iran conflict.**[1][5][6] Chair Powell stated during the press conference that the policy stance is at the higher end of neutral, balancing downside employment risks against upside inflation pressures partly driven by tariffs, with the Fed positioned to adjust based on incoming data.[1][2][3] Supporting actions included unanimously keeping the interest rate on reserve balances at 3.65% and directing open market operations to sustain the target range.[4]"
+    },
+    {
+      "id": "CA-093",
+      "name": "Marble Freedom Trust",
+      "ps_memberships": [
+        "DPS-03",
+        "DPS-10"
+      ],
+      "raw_news": "**No significant news on Marble Freedom Trust from March 18-25, 2026, matches the criteria.** Search results cover older events, primarily the 2021 $1.6 billion donation from Barre Seid to Leonard Leo's group, enabling tax avoidance of up to $400 million and funding for conservative judicial and political efforts.[1][2][3] Recent IRS filings detail past spending, like $182 million on right-wing groups from 2021-2022 and Leo's salary increase to $400,000, but none report decisions, actions, alliances, or moves in the past week affecting power dynamics in judicial pipeline, doctrinal shift, coalition machinery, or electoral infrastructure.[2]"
+    },
+    {
+      "id": "CA-049",
+      "name": "The Heritage Foundation",
+      "ps_memberships": [
+        "DPS-01",
+        "DPS-10"
+      ],
+      "raw_news": "**The Heritage Foundation released \"Saving America by Saving the Family: A Foundation for the Next 250 Years\" on January 8, 2026**, outlining policy proposals to prioritize family restoration as a national imperative, including stopping policies that punish family formation, restoring the American Dream, and supporting marriage and working families.[2][6] This special report from the DeVos Center for Human Flourishing positions family policy as central to long-term national strength, urging a \"culture-wide Manhattan Project\" to marshal resources against declining birth rates and family breakdown.[2] Amid conservative think tank realignments, President Kevin Roberts reaffirmed Heritage's collaborative role in the ecosystem, emphasizing alignment with groups like AFPI on executive actions such as dismantling the Department of Education and border enforcement.[3]"
+    },
+    {
+      "id": "CA-022",
+      "name": "Office of the Governor of California",
+      "ps_memberships": [
+        "DPS-10"
+      ],
+      "raw_news": "**Governor Gavin Newsom terminated 18 states of emergency** on March 24, 2026, ending proclamations for prior fires, storms, drought-affected counties, and other incidents no longer needing state response, in consultation with local governments.[1] This executive action streamlines state resources and signals recovery completion, potentially freeing administrative capacity for new priorities amid federal tensions.[1] No other major decisions, alliances, or organizational moves affecting power dynamics appeared in the Office of the Governor's activities from March 18-25.[1]"
+    },
+    {
+      "id": "CA-168",
+      "name": "Miami Dolphins",
+      "ps_memberships": [],
+      "raw_news": "The Miami Dolphins completed a significant trade of wide receiver Jaylen Waddle to the Denver Broncos earlier this week, marking another major roster move under new GM Jon-Eric Sullivan's rebuild strategy.[4] This trade follows the team's earlier releases of star players Tyreek Hill and Bradley Chubb, further dismantling the previous \"go for it\" era that began in 2022.[1][3] The Dolphins signed quarterback Malik Willis to a three-year, $67.5 million contract as their primary quarterback moving forward, replacing benched starter Tua Tagovailoa.[2] With approximately $4 million in salary cap space and only eight draft picks available, Sullivan is prioritizing a youth-focused rebuild while addressing critical roster gaps at cornerback and edge rusher through the draft and secondary free agency waves rather than high-profile signings.[3]",
+      "spontaneous": true
+    },
+    {
+      "id": "CA-021",
+      "name": "Walton Enterprises",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "Based on the available search results, there is no significant news about Walton Enterprises from the past 7 days (March 18-25, 2026) that meets your criteria for hard news on capital allocation or power dynamics decisions.\n\nThe most recent relevant activity in the search results is from March 17, 2026, when **Walton Global announced senior leadership hires in capital markets**, including the appointment of Grace Garby as Senior Vice President, Capital Markets – Northeast.[3] Additionally, on March 19, 2026, **Walton Global launched a U.S. Land Fund for International Investors**, expanding its real estate investment capabilities.[3] However, these represent operational announcements rather than strategic decisions affecting broader power dynamics or capital allocation at the Walton Enterprises level.\n\nThe search results do not contain substantive reporting on Walton Enterprises' recent strategic moves, policy decisions, or organizational actions that would constitute significant hard news for the specified timeframe.",
+      "spontaneous": true
+    }
+  ],
+  "news_items": [
+    {
+      "name": "Ray Dalio",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "Based on recent search results, here are the most significant developments involving Ray Dalio from mid-to-late March 2026:\n\n**1. Warned of \"Capital War\" Phase in Global Economy**\nRay Dalio publicly stated that the world is entering a **\"capital war\"** where currencies, capital flows, and financial assets become strategic weapons between nations.[4][5] This assessment reinforces his influence as a macro strategist shaping how major investors understand and respond to geopolitical economic risks.\n\n**2. Reiterated Gold as Primary Safe-Haven Asset**\nSpeaking on the All-In Podcast, Dalio called gold **\"the safest money\"** and recommended a 5–15% portfolio allocation for investors.[4] His endorsement carries significant weight in capital allocation decisions, particularly as institutional investors reassess portfolio hedges amid escalating tensions.\n\n**3. Analyzed Current Global Disorder as Stage 5 of \"Big Cycle\"**\nDalio published analysis in Fortune (March 14) positioning current events—including rising government debt, political polarization, and great power conflicts—as Stage 5 of his historical \"Big Cycle\" framework, immediately preceding systemic breakdown.[1] This framing influences how wealthy investors and policymakers interpret contemporary crises and allocate capital defensively.\n\n**4. Warned of Limited Market Upside Amid Geopolitical Conflict**\nIn video commentary, Dalio cautioned that sustained geopolitical conflict would suppress market gains, with even resilient assets like Nvidia facing \"very limited upside potential.\"[2] His pessimistic outlook on near-term market performance shapes institutional investment positioning and risk management strategies."
+    },
+    {
+      "name": "Jeff Yass",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**Susquehanna International Group, owned by Jeff Yass, secured a board seat on TikTok USDS as part of the deal to buy TikTok’s US assets and allow continued US operations.** This business move strengthens Yass's direct influence over TikTok's US leadership amid past regulatory battles, aligning with his 7% stake in ByteDance worth $21 billion and enhancing his position in tech policy negotiations.[1]\n\n**Jeffrey Yass detailed in a Washington Post interview his political spending driven by school vouchers, announcing continued nationwide backing for pro-voucher candidates in 2026.** The rare public statement underscores his coalition-building strategy, having spent tens of millions on the issue—including recent support for Trump's transition and Texas's $1 billion voucher program—solidifying his electoral infrastructure power in education policy.[3]\n\n**Forbes reported Jeffrey Yass's net worth surged to $67.4 billion from $59 billion on its 2026 World's Billionaires List.** This capital allocation milestone, tied to Susquehanna's growth including TikTok investments, bolsters his financial clout as Pennsylvania's richest individual and a top global GOP donor influencing policy agendas.[4]"
+    },
+    {
+      "name": "Paul Singer",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Elliott Investment Management, led by Paul Singer, acquired Citgo Petroleum (US subsidiary of Venezuela's state oil company) for $5.9 billion in November 2025 via a Delaware court-ordered sale due to Venezuela's bond default.** This positions Singer to gain substantial assets including three refineries, 43 oil terminals, and over 4,000 gas stations at a discount (valued at $11-18 billion), enhancing his capital allocation influence amid US geopolitical moves against Venezuela.[1]\n- **Recent reporting highlighted Singer as a top beneficiary of the Citgo deal, tying it to his $5 million donation to Trump's Super PAC, $37 million for Republican congressional candidates in 2024, and undisclosed Trump transition funding.** The timing—months before reported Trump-led Venezuela operations—underscores Singer's leverage in private power and coalition machinery, blending business gains with electoral infrastructure support.[1]"
+    },
+    {
+      "name": "Leon Black",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "I cannot provide news about Leon Black from the past 7 days (March 18-25, 2026) based on the search results provided. The available information is from February 2026—more than three weeks old—and covers his historical relationship with Jeffrey Epstein and tax planning arrangements from 2012-2017, not recent developments.\n\nTo deliver the hard news you're requesting about his current capital allocation activities, business moves, or legal actions, I would need search results from the specific March 18-25 timeframe. The existing results do not contain reporting from that period."
+    },
+    {
+      "name": "Alex Karp",
+      "domain": "Co-Founder & CEO, Palantir",
+      "raw_news": "No significant hard news items about Alex Karp matching the criteria (policy decisions, business moves, legal actions, geopolitical events, or significant public statements in AI dominance or defense-industrial expansion) appear in the past 7 days (March 18-25, 2026). Available results cover earlier events, including a WEF appearance on January 20, 2026[1], a March 3 speech on government cooperation[2], and an undated CNBC interview on AI's societal impacts[3]."
+    },
+    {
+      "name": "Pete Hegseth",
+      "domain": "US Secretary of Defense",
+      "raw_news": "# Pete Hegseth: Key News (March 18-25, 2026)\n\n**1. Pentagon Briefing on Iran Military Operations (March 19)**\nDefense Secretary Hegseth announced that U.S. forces have struck over 7,000 targets across Iran's military infrastructure, with daily strike packages escalating in scale.[1] This demonstrates Hegseth's central role in executing the Trump administration's military strategy and signals sustained commitment to major combat operations that will likely require significant defense spending increases.\n\n**2. $200 Billion Iran War Supplemental Request (March 19)**\nA reporter asked Hegseth to confirm reports that the Pentagon requested $200 billion from the White House for an Iran war supplemental budget package.[1] This represents a major defense-industrial expansion initiative that would substantially increase military procurement and operations funding, directly impacting defense contractors and military capability development.\n\n**3. Congressional Challenge on Rules of Engagement (March 16)**\nSenator Kelly sent a formal letter to Hegseth requesting clarification on his public statements about giving \"no quarter\" and \"no mercy\" to enemies, questioning whether these statements comply with the Geneva Conventions and Law of Armed Conflict.[2] This challenge to Hegseth's authority and rhetoric over military conduct rules could constrain his operational latitude and signals potential congressional oversight of his leadership approach."
+    },
+    {
+      "name": "Mitch McConnell",
+      "domain": "Senate (KY, Republican)",
+      "raw_news": "- **Republican primary debate among top candidates to replace McConnell held on March 17 in Louisville.** The three leading contenders—Andy Barr, Daniel Cameron, and Nate Morris—faced off just over two months before Kentucky's May 19 GOP primary, highlighting their America First platforms and mutual criticisms of establishment ties.[3]\n  - This event underscores McConnell's waning influence in Kentucky GOP circles, as candidates distance themselves from him to appeal to Trump-aligned voters, potentially complicating his legacy in steering the party's successor.[2][5]\n\n- **New poll released March 19 shows Daniel Cameron leading the Republican primary field at 30.5%.** Aggregated data through March 16 indicates Cameron ahead of Andy Barr (26.1%) and Nate Morris (14.5%), with a tight race signaling volatility in the contest for McConnell's open seat.[1]\n  - The poll reflects a shift away from McConnell's establishment wing toward Trump-backed populism, diminishing his coalition machinery as candidates like Cameron position as America First alternatives.[1][2]\n\n- **Multiple candidates publicly criticize McConnell amid intensifying primary campaigns.** As of early 2026 reporting, aspirants including Barr, Cameron, and Morris have attacked McConnell's record, framing themselves as independent from his influence in the race for his Senate seat.[5]\n  - Such attacks erode McConnell's electoral infrastructure and party coalition control in Kentucky, a longtime stronghold, as the primary tests the durability of his decades-long dominance.[2][5]\n\n- **Eleven candidates, led by Barr, Cameron, and Morris, actively competing in the GOP primary as of February 23 update.** The field has distanced from McConnell's brand, emphasizing Trump loyalty and outsider appeals in polling, fundraising, and endorsements.[2]\n  - This crowded, anti-McConnell dynamic weakens his ability to shape the successor through traditional machinery, marking a doctrinal shift in Kentucky Republicanism toward populism.[1][2]"
+    },
+    {
+      "name": "John Thune",
+      "domain": "Senate (SD, Republican)",
+      "raw_news": "**1. On March 20, 2026, Senate Majority Leader John Thune pushed floor proceedings on the SAVE America Act amid ongoing debate and a fifth attempt to end the partial DHS shutdown, highlighting chaos at TSA.** This advances Republican electoral infrastructure priorities like voter ID requirements, reinforcing Thune's leadership in coalition machinery by framing Democrats as obstructing essential government operations.[2]\n\n**2. On March 22, 2026, Thune delivered Sunday floor remarks strongly advocating for photo ID mandates in the SAVE America Act, calling it \"common sense\" election security comparable to local rec centers.** The effort bolsters Thune's influence over **coalition machinery & electoral infrastructure** by sustaining Senate momentum on voter integrity, positioning him as a key architect of Republican policy wins despite Democratic resistance.[4]\n\n**3. Around March 16-18, 2026, Thune signaled readiness to advance the SAVE Act through procedural steps for a prolonged Senate push.** This demonstrates Thune's command in steering the Republican agenda on **electoral infrastructure**, enhancing his position as Majority Leader by prioritizing legislation that secures elections and counters perceived Democratic voter suppression tactics.[3]\n\n**4. On February 25, 2026 (noting proximity to query window), Thune announced at a press conference that the Senate would prioritize safer streets, tax relief, and new opportunities, while targeting government waste.** Though earlier, it underscores Thune's role in the **fiscal-monetary stress cycle**, amplifying his influence by aligning GOP majorities with presidential accomplishments on economic and security fronts.[1]"
+    },
+    {
+      "name": "Brian Armstrong",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**1. On March 18, 2026, Brian Armstrong appeared on the \"In Good Company\" podcast hosted by Norges Bank Investment Management, where he outlined Coinbase's \"everything exchange\" strategy, discussed stablecoin growth potential up to 1000x, AI agents transacting on blockchain, and crypto regulation challenges.[5]**\n\nThis public statement reinforces Armstrong's influence in shaping global perceptions of crypto's integration with traditional finance and AI-driven economies, positioning Coinbase as a leader in institutional custody holding over 12% of worldwide crypto assets.[5]\n\n**2. Coinbase CEO Brian Armstrong announced on approximately March 5, 2026 (noted in recent coverage), a 2026 roadmap to transform the platform into an \"everything exchange\" by expanding into equities, commodities, prediction markets, stablecoins for payments, and Base blockchain development.[1][2]**\n\nThe strategic business move signals Coinbase's aggressive push beyond crypto trading into unified financial services, enhancing Armstrong's position as a pivotal figure in disrupting traditional banking and competing with firms like Robinhood.[1][2]\n\n**3. Brian Armstrong predicted on March 9, 2026, that autonomous AI agents will soon surpass humans in blockchain transaction volume, highlighting their transformative role in digital economies.[4]**\n\nThis forward-looking statement underscores Armstrong's thought leadership at the intersection of AI and crypto, amplifying his influence on emerging tech narratives and Coinbase's innovation agenda.[4]"
+    },
+    {
+      "name": "Kevin Roberts",
+      "domain": "President, The Heritage Foundation",
+      "raw_news": "I cannot provide the requested news summary because the search results do not contain reporting from the past 7 days (March 18-25, 2026). The most recent content in the search results is from March 26, 2025—nearly a year before your query date—which includes Heritage Foundation podcast episodes and commentary on Project 2025 and Kevin Roberts's leadership.\n\nThe search results show that Roberts has faced internal organizational challenges, including staff departures related to his support of Tucker Carlson and controversies over antisemitism allegations[2], and that he has promoted \"Heritage 2.0\" as a policy framework[2]. However, these events are from 2025, not from the current week.\n\nTo answer your query accurately, I would need search results with current reporting from March 18-25, 2026 covering Roberts's activities in executive power consolidation and electoral infrastructure."
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**Meta's AI model \"Avocado\" delayed by at least two months past its mid-March target after underperforming rivals on benchmarks.** This setback challenges Zuckerberg's aggressive AI push despite billions in spending and talent poaching, potentially weakening Meta's competitive edge in foundational AI and raising doubts about its ability to close the gap with leaders like Google and OpenAI[2].\n\n**Meta announced plans for up to $135 billion in 2026 capital expenditures, doubling from 2025, to fuel AI infrastructure and superintelligence labs.** The massive investment underscores Zuckerberg's high-stakes bet on AI dominance amid investor scrutiny, bolstering Meta's long-term position in Big Tech while intensifying debates over regulatory oversight of such spending[1][3].\n\n**Meta's AI leaders considered licensing Google's Gemini model as a stopgap while their delayed Avocado catches up.** This internal discussion highlights vulnerabilities in Zuckerberg's talent-war strategy and Meta's self-reliance, which could expose dependencies on rivals and invite antitrust scrutiny in Big Tech regulatory arbitrage[2]."
+    },
+    {
+      "name": "Larry Ellison",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Oracle announced four multi-billion-dollar AI cloud contracts**, primarily with OpenAI, driving a 43% surge in its shares and briefly making Larry Ellison the world's richest person with a net worth of $392.6 billion.[2]  \n   This bolsters Ellison's position in the **AI dominance race** by securing massive computing resources for Oracle's cloud infrastructure, positioning it as a key enabler for AI leaders like OpenAI amid escalating industry competition.[2]\n\n2. **Larry Ellison provided an irrevocable personal guarantee of $43.3 billion** to back Paramount's amended offer for Warner Bros. Discovery, plus an additional $2.8 billion and $1.5 billion to cover financing and debt exchange costs.[3][4]  \n   The move demonstrates Ellison's financial firepower in media acquisitions, potentially expanding his influence beyond tech into entertainment while navigating regulatory hurdles like California's state-level interventions.[1][3][4]\n\n3. **During Oracle's earnings call, Larry Ellison downplayed \"Saaspocalypse\" fears**, asserting that AI-driven coding tools position Oracle as a disruptor rather than a victim in the shift to agent-based software ecosystems.[5]  \n   His public statement reinforces Oracle's leadership in the **AI dominance race**, countering market sell-offs in traditional software and signaling confidence in adapting to AI's transformation of enterprise tools.[5]\n\n4. **California authorities signaled they can block Larry Ellison's involvement in a Warner Bros. acquisition** under states' rights, amid broader scrutiny of his debt-laden financial maneuvers.[1]  \n   This highlights regulatory risks to Ellison's **big tech regulatory arbitrage** strategies, potentially constraining his expansion into media and testing his ability to leverage personal wealth against state-level policy decisions.[1]"
+    },
+    {
+      "name": "Charles Koch & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items matching the criteria—policy decisions, business moves, legal actions, geopolitical events, or significant public statements by Charles Koch or family—were found from approximately March 18-25, 2026. The available search results reference outdated events, such as a 2024 campaign funding halt[1], a 2016 family office launch[2], a general Forbes ranking update dated March 17, 2026 (just outside the window)[3], and a 2023 political stance[4]."
+    },
+    {
+      "name": "Rob Walton & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items about Rob Walton or the Walton family—specifically policy decisions, business moves, legal actions, geopolitical events, or significant public statements in their key areas of **capital allocation** and **private power**—were found in the past 7 days (approximately March 18-25, 2026).\n\nSearch results primarily cover outdated wealth rankings (e.g., 2024 Bloomberg family list[1], 2026 year-to-date net worth increases[2], Forbes billionaire updates[4]) and historical investment shifts (e.g., WIT LLC's Q3 2025 ETF adjustments[5]), none of which fall within the specified timeframe or qualify as hard news events."
+    },
+    {
+      "name": "Stephen Ross",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items about Stephen Ross involving policy decisions, business moves, legal actions, geopolitical events, or significant public statements were found in the past 7 days (approximately March 18-25, 2026).\n\nThe only potentially relevant item is the announcement of the **Edgeworth** ultra-luxury condo project by Related Ross in West Palm Beach, but its coverage dates to March 15, 2026—outside the specified timeframe—and focuses on real estate market speculation rather than a discrete business move or hard news event[1].\n\nAn earlier February 2026 article mentions Ross's involvement in a $10 million initiative with Ken Griffin to attract CEOs to Florida, which is also outside the 7-day window and not hard news like a policy or legal action[2]."
+    },
+    {
+      "name": "Brian Chesky",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Airbnb unveils 'next chapter' on March 24, 2026.** Brian Chesky posted on X on March 23 announcing the reveal of Airbnb's next chapter the following day, sparking investor buzz amid weak travel forecasts.[1]\n  - This positions Chesky as a visionary leader driving strategic pivots, potentially boosting Airbnb's stock and market perception through heightened anticipation.[1]\n\n- **Chesky highlights AI chatbots outperforming Google for revenue.** In the latest earnings call, Chesky stated AI chatbots like ChatGPT and Gemini drive higher conversion rates than Google Search, crediting AI for Airbnb's Q4 2025 revenue beat of $2.78 billion.[3]\n  - It reinforces Chesky's influence in tech-travel integration, signaling Airbnb's shift to an AI-native model that enhances competitive edges in bookings and operations.[3]\n\n- **Airbnb hires Meta AI executive Ahmad Al-Dahle as CTO.** Chesky discussed onboarding Al-Dahle, formerly a top Meta AI leader behind Llama, to spearhead AI strategy amid accelerating growth in experiences and services.[2][3]\n  - This move bolsters Chesky's position by assembling elite AI talent, enabling proprietary model fine-tuning and long-term dominance in AI-powered travel.[2][3]"
+    },
+    {
+      "name": "Steve Scalise",
+      "domain": "House (LA, Republican)",
+      "raw_news": "- **House Republican leadership, including Scalise, held a press conference on February 24, 2026, criticizing Democrats for shutting down the Department of Homeland Security (DHS) ahead of a funding deadline despite Republican efforts for a full-year bipartisan funding bill.** This positions Scalise as a key voice in fiscal policy debates, reinforcing his influence in the **Fiscal-Monetary Stress Cycle** by highlighting government funding dysfunction and rallying Republican coalition support[4][5].\n\n- **Scalise participated in a St. Patrick's Day press conference announcing a vote on a balanced budget amendment to the U.S. Constitution, framing it as essential fiscal discipline contrasting with state-level requirements.** This advances his leadership in **Fiscal-Monetary Stress Cycle** initiatives, bolstering his position as House Majority Leader by championing conservative fiscal reforms amid ongoing budget tensions[2].\n\n- **In the same press event, Scalise condemned Democrats' discharge petition as an attempt to \"defund the police,\" linking it to past chaos like city burnings and current DHS shutdown impacts such as airport delays and unpaid TSA workers.** By tying security policy to electoral messaging on law enforcement, it strengthens Scalise's role in **Coalition Machinery & Electoral Infrastructure**, signaling Republican unity against perceived Democratic extremism ahead of key votes[2]."
+    },
+    {
+      "name": "Joe Rogan",
+      "domain": "Host, The Joe Rogan Experience",
+      "raw_news": "- **Interview with Pierre Poilievre (March 19, 2026):** Joe Rogan hosted Canadian Conservative leader Pierre Poilievre for a podcast interview during his US tour, marking a shift as Poilievre had previously declined an invitation during the last federal election.[2]  \n  This elevates Rogan's role in cross-border political discourse, amplifying Poilievre's message to Rogan's massive US audience and reinforcing Rogan's platform as a key venue for conservative figures contesting mainstream narratives.[2]\n\n- **Criticism of UFC White House Event (March 12-21, 2026):** Joe Rogan publicly expressed concerns about the UFC's planned White House event on June 14, calling it \"crazy\" due to its timing during his March 21 Fight Companion podcast.[1][3]  \n  His commentary highlights Rogan's influence in shaping UFC discourse and public skepticism toward politically charged events, potentially impacting fan sentiment and the promotion's political alignments.[1][3]\n\n- **Calling Out Gavin Newsom's Office (March 18-25, 2026):** Joe Rogan criticized California Governor Gavin Newsom's office for mocking Nick Shirley, a private citizen assisting with border security efforts that state officials neglected.[4]  \n  This public rebuke underscores Rogan's growing activism against perceived government overreach and media bias, bolstering his position as a contrarian voice in information environment battles over immigration and accountability.[4]"
+    },
+    {
+      "name": "Warren Buffett",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **March 18: Berkshire Hathaway realizes a $2 billion windfall from an Iran oil deal.** This unexpected gain from Berkshire's energy operations underscores Buffett's strategic positioning in global commodities, enhancing Berkshire's financial flexibility for capital allocation amid geopolitical tensions.[2]\n\n- **March 13: Berkshire Hathaway resumes stock buybacks, purchasing $225 million of its own shares on March 4.** The repurchase signals Buffett's confidence in Berkshire's intrinsic value over external market opportunities, reinforcing his influence in capital allocation by deploying cash to boost shareholder returns.[2]\n\n- **Ongoing into March: Berkshire Hathaway continues net stock sales, totaling $184 billion over 12 quarters, while amassing a record $382 billion cash pile as of September 2025.** This defensive shift prioritizes liquidity for potential market downturns, amplifying Buffett's market-moving power through patient private capital deployment.[1][2]\n\n- **March 11: Berkshire Hathaway advances its deal to acquire an Occidental Petroleum chemicals unit amid surging chemical stocks.** The transaction expands Berkshire's industrial footprint under Buffett's oversight, demonstrating his enduring authority in high-value private acquisitions.[2]"
+    },
+    {
+      "name": "Larry Page",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Larry Page converted multiple California-based entities, including his family office Koop, Flu Lab LLC, One Aero (linked to flying car ventures), and Oceankind nonprofit, to Delaware incorporation by late December 2025, ahead of a proposed state wealth tax.**[1][2][6] This business move shields an estimated $13.5 billion in potential tax liability for Page (net worth ~$270 billion) from the 5% one-time levy on billionaires, demonstrating aggressive **Big Tech regulatory arbitrage** to preserve wealth and influence amid rising state fiscal pressures.[1][3]\n\n- **An entity jointly managed by Larry Page and Sergey Brin, T-Rex LLC (formed 2006), converted from California to a Delaware LLC called T-Rex Holdings on December 24, 2025, with a new principal office in Reno, Nevada.**[2][3][4] The relocation positions Page to sidestep residency-based taxation under the ballot initiative (retroactive to January 1, 2026, if approved in November), reinforcing his strategic maneuvering in **Big Tech regulatory arbitrage** while maintaining control over shared investments.[3]\n\n- **Over 45 California limited liability companies tied to Larry Page filed to become inactive or relocate out of state in late 2025, with a related trust purchasing a $71.9 million mansion in Miami's Coconut Grove.**[1][4] These actions signal Page's physical and financial exit from California, potentially weakening the state's leverage over **Big Tech** figures and amplifying capital flight risks that could impact its **information environment** through reduced tech ecosystem density.[4]"
+    },
+    {
+      "name": "Mike Lee",
+      "domain": "Senate (UT, Republican)",
+      "raw_news": "**Sen. Mike Lee (R-UT) led a press conference in Washington, D.C., on the SAVE America Act during the Senate's ongoing consideration of the bill.**[4] This positions Lee as a central figure in advancing President Trump's top legislative priority on election integrity, amplifying his influence among GOP hardliners despite internal party resistance.[2][5]\n\n**On March 19, 2026, Sen. Lee warned that Republicans opposing a talking filibuster for the SAVE America Act should be replaced, intensifying intra-party pressure amid Senate debate.**[2] The statement underscores Lee's aggressive push for procedural changes to bypass the 60-vote threshold, potentially strengthening his role as a Trump ally but risking GOP unity ahead of midterms.[1][5]\n\n**The Senate initiated a marathon debate on the SAVE America Act this week, with Sen. Lee driving the effort following its House passage, though it faces filibuster hurdles and opposition from some Republicans like Sens. Tillis, Murkowski, and McConnell.**[5] Lee's leadership highlights his sway over election reform policy, tying broader GOP legislative progress—including DHS funding—to the bill's success and bolstering his conservative credentials.[6]\n\n**Sen. Lee detailed Senate Republicans' battle for the SAVE America Act on Fox News, emphasizing voter integrity measures to prevent non-citizen voting.**[6] This public advocacy reinforces his national profile on judicial and electoral doctrinal shifts, pressuring Senate leadership and signaling his intent to leverage fiscal-monetary debates for policy wins.[1]"
+    },
+    {
+      "name": "John Mars",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news about **John Mars** (a Forbes 400 billionaire) from approximately March 18-25, 2026, appears in available search results, which instead highlight unrelated billionaire updates like Jeffrey Yass's net worth increase to $67.4 billion on the Forbes 2026 list.[1]\n\nSearch results yielded no policy decisions, business moves, legal actions, geopolitical events, or significant public statements matching the criteria for John Mars in the specified timeframe."
+    },
+    {
+      "name": "Charlie Kirk",
+      "domain": "Founder and President, Turning Point USA",
+      "raw_news": "Based on the search results provided, there is **no significant news about Charlie Kirk himself from the past 7 days (March 18-25, 2026)**, as Charlie Kirk was assassinated in September 2025[1].\n\nThe recent news instead concerns **Erika Kirk, Charlie Kirk's widow and current TPUSA leader**, whose activities in this period include:\n\n**Arkansas Partnership Announcement (March 19, 2026)**: Governor Sarah Huckabee Sanders and Erika Kirk announced plans to expand Turning Point's Club America chapters into Arkansas high schools and colleges[2]. This represents TPUSA's continued state-level infrastructure expansion, extending the organization's electoral and educational reach into a new state following similar partnerships in Texas, Oklahoma, Tennessee, Florida, Montana, and Indiana[1].\n\n**University of Arkansas Chapter Disaffiliation (March 19, 2026)**: The University of Arkansas TPUSA chapter disaffiliated from the national organization and rebranded as Young American Revival, with leadership citing concerns that TPUSA has become \"reactionary\" and expressing discomfort with how \"Charlie Kirk has been used by TPUSA since his assassination\"[2]. This internal fracture suggests potential vulnerabilities in TPUSA's coalition machinery despite its rapid expansion.\n\nThe search results do not contain hard news about Charlie Kirk's own activities, policy decisions, or statements from the specified timeframe, as he has been deceased for approximately six months."
+    }
+  ],
+  "ps_assemblies_fired": {
+    "DPS-05": [
+      "CA-135",
+      "CA-074",
+      "CA-059",
+      "CA-026",
+      "CA-066"
+    ],
+    "DPS-07": [
+      "CA-013",
+      "CA-071",
+      "CA-004"
+    ],
+    "DPS-04": [
+      "CA-032",
+      "CA-008",
+      "CA-002"
+    ],
+    "DPS-10": [
+      "CA-093",
+      "CA-049",
+      "CA-022"
+    ]
+  },
+  "assemblies_spontaneous": [
+    "CA-168",
+    "CA-021"
+  ],
+  "neurons_conscious": [
+    "Ray Dalio",
+    "Jeff Yass",
+    "Paul Singer",
+    "Leon Black",
+    "Alex Karp",
+    "Pete Hegseth",
+    "Mitch McConnell",
+    "John Thune",
+    "Brian Armstrong",
+    "Kevin Roberts"
+  ],
+  "neurons_spontaneous": [
+    "Mark Zuckerberg",
+    "Larry Ellison",
+    "Charles Koch & family",
+    "Rob Walton & family",
+    "Stephen Ross",
+    "Brian Chesky",
+    "Steve Scalise",
+    "Joe Rogan",
+    "Warren Buffett",
+    "Larry Page",
+    "Mike Lee",
+    "John Mars",
+    "Charlie Kirk"
+  ],
+  "neurons_skipped": [
+    "Elon Musk",
+    "Jerome H. Powell",
+    "Clarence Thomas",
+    "Jeff Bezos",
+    "Susie Wiles",
+    "Donald Trump",
+    "Brett M. Kavanaugh",
+    "Neil M. Gorsuch",
+    "Tim Cook",
+    "Scott Bessent",
+    "Andy Jassy",
+    "Sundar Pichai",
+    "Satya Nadella",
+    "Robert F. Kennedy Jr.",
+    "Stephen Schwarzman",
+    "Leonard Leo",
+    "Sonia Sotomayor",
+    "Sam Altman",
+    "Peter Thiel",
+    "Marc Rowan",
+    "Russell M. Nelson",
+    "Miriam Adelson & family",
+    "Michael Bloomberg",
+    "Jensen Huang",
+    "Kash Patel",
+    "Amy Coney Barrett",
+    "Ketanji Brown Jackson",
+    "Ken Griffin",
+    "Gavin Newsom",
+    "Sean Hannity",
+    "Samuel A. Alito Jr.",
+    "Thomas Kurian",
+    "Mustafa Suleyman",
+    "Terrence Pegula",
+    "John G. Roberts Jr.",
+    "Ken Langone",
+    "Richard Uihlein",
+    "Laurene Powell Jobs",
+    "Susan M. Collins",
+    "Abigail Johnson",
+    "Judy Faulkner",
+    "Jerry Jones & family",
+    "Bob Parsons",
+    "Jim Walton & family",
+    "David Geffen",
+    "Bill Gates",
+    "Eric Schmidt",
+    "Stanley Druckenmiller",
+    "Chuck Grassley",
+    "David Rubenstein",
+    "Fred Smith",
+    "David Tepper",
+    "Alice Walton",
+    "Paul Tudor Jones, II.",
+    "Pam Bondi",
+    "J.B. Pritzker",
+    "Elena Kagan",
+    "Lukas Walton",
+    "Pierre Omidyar",
+    "Michael Rubin",
+    "Henry Kravis",
+    "Marijke Mars",
+    "Julia Koch & family",
+    "John Malone",
+    "Kelcy Warren",
+    "Lynda Resnick",
+    "Tom Cotton",
+    "Ronald Lauder",
+    "Philip Anschutz",
+    "George Roberts",
+    "Jeremy Jacobs, Sr. & family",
+    "Brian Ballard",
+    "Ann Walton Kroenke",
+    "MacKenzie Scott",
+    "Charles E. Schumer",
+    "Charles Schwab",
+    "Michael Dell",
+    "Ted Cruz",
+    "Mitchell Rales",
+    "Ron DeSantis",
+    "Melinda French Gates",
+    "Marc Benioff",
+    "Suzanne Clark",
+    "David Bonderman",
+    "Rupert Murdoch & family",
+    "Josh Harris",
+    "Greg Abbott",
+    "Stephen Feinberg",
+    "Sergey Brin",
+    "Steve Cohen",
+    "Phil Knight & family",
+    "Carl Icahn",
+    "Thomas Peterffy",
+    "William Ackman",
+    "Victoria Mars",
+    "Patty Murray",
+    "Hakeem S. Jeffries",
+    "Matthew J. Kacsmaryk",
+    "Rick Scott",
+    "Cynthia M. Lummis",
+    "Carrie Severino",
+    "Christopher Murphy",
+    "Richard J. Durbin",
+    "George Soros",
+    "Thomas Frist, Jr. & family",
+    "Bret Taylor",
+    "Jonathan Gray",
+    "Stewart Resnick",
+    "Edward Johnson, IV.",
+    "Thomas Pritzker",
+    "Palmer Luckey",
+    "Lynn Schusterman & family",
+    "Josh Hawley",
+    "Lisa Su",
+    "Alexander Karp",
+    "Len Blavatnik",
+    "Demis Hassabis",
+    "Lindsey Graham",
+    "Alexandria Ocasio-Cortez",
+    "Antony Ressler",
+    "Elise M. Stefanik",
+    "Mark Walter",
+    "Dario Amodei",
+    "Daniela Amodei",
+    "Christy Walton",
+    "Donald Newhouse",
+    "Ernest Garcia, III"
+  ],
+  "spontaneous_cap": 13
+}

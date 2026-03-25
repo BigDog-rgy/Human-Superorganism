@@ -1,5 +1,5 @@
 {
-  "week_count": 1,
+  "week_count": 2,
   "last_updated": "2026-03-19",
   "scope": "US",
   "config": {
@@ -9,27 +9,27 @@
   },
   "neuron_coactivation": {
     "Christopher Murphy|||Elon Musk": {
-      "score": 0.25,
+      "score": 0.4625,
       "label": "reinforcing",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-07"
       ],
       "last_updated": "2026-03-19"
     },
     "Christopher Murphy|||Palmer Luckey": {
-      "score": 0.25,
+      "score": 0.4625,
       "label": "reinforcing",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-07"
       ],
       "last_updated": "2026-03-19"
     },
     "Elon Musk|||Palmer Luckey": {
-      "score": 0.25,
+      "score": 0.4625,
       "label": "reinforcing",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-07"
       ],
@@ -38,7 +38,7 @@
     "Charles E. Schumer|||Christopher Murphy": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
@@ -47,25 +47,25 @@
     "Charles E. Schumer|||Cynthia M. Lummis": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
       "last_updated": "2026-03-19"
     },
     "Charles E. Schumer|||Lindsey Graham": {
-      "score": -0.25,
+      "score": -0.4625,
       "label": "adversarial",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
       "last_updated": "2026-03-19"
     },
     "Charles E. Schumer|||Rick Scott": {
-      "score": -0.25,
+      "score": -0.4625,
       "label": "adversarial",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
@@ -74,7 +74,7 @@
     "Charles E. Schumer|||Tom Cotton": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
@@ -83,34 +83,34 @@
     "Christopher Murphy|||Cynthia M. Lummis": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
       "last_updated": "2026-03-19"
     },
     "Christopher Murphy|||Lindsey Graham": {
-      "score": -0.25,
+      "score": -0.4625,
       "label": "adversarial",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
       "last_updated": "2026-03-19"
     },
     "Christopher Murphy|||Rick Scott": {
-      "score": -0.25,
+      "score": -0.4625,
       "label": "adversarial",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
       "last_updated": "2026-03-19"
     },
     "Christopher Murphy|||Tom Cotton": {
-      "score": -0.25,
+      "score": -0.4625,
       "label": "adversarial",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
@@ -119,7 +119,7 @@
     "Cynthia M. Lummis|||Lindsey Graham": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
@@ -128,7 +128,7 @@
     "Cynthia M. Lummis|||Rick Scott": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
@@ -137,45 +137,135 @@
     "Cynthia M. Lummis|||Tom Cotton": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
       "last_updated": "2026-03-19"
     },
     "Lindsey Graham|||Rick Scott": {
-      "score": 0.25,
+      "score": 0.4625,
       "label": "reinforcing",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
       "last_updated": "2026-03-19"
     },
     "Lindsey Graham|||Tom Cotton": {
-      "score": 0.25,
+      "score": 0.4625,
       "label": "reinforcing",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
       "last_updated": "2026-03-19"
     },
     "Rick Scott|||Tom Cotton": {
+      "score": 0.4625,
+      "label": "reinforcing",
+      "observations": 2,
+      "last_ps": [
+        "DPS-03"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "Charles E. Schumer|||Elon Musk": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "Charles E. Schumer|||Palmer Luckey": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "Cynthia M. Lummis|||Elon Musk": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "Cynthia M. Lummis|||Palmer Luckey": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "Elon Musk|||Lindsey Graham": {
       "score": 0.25,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
-        "DPS-03"
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "Elon Musk|||Rick Scott": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "Elon Musk|||Tom Cotton": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "Lindsey Graham|||Palmer Luckey": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "Palmer Luckey|||Rick Scott": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "Palmer Luckey|||Tom Cotton": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
       ],
       "last_updated": "2026-03-19"
     }
   },
   "ca_coactivation": {
     "CA-024|||CA-051": {
-      "score": 0.25,
+      "score": 0.4625,
       "label": "reinforcing",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-07"
       ],
@@ -184,16 +274,16 @@
     "CA-024|||CA-058": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-07"
       ],
       "last_updated": "2026-03-19"
     },
     "CA-024|||CA-071": {
-      "score": -0.25,
+      "score": -0.4625,
       "label": "adversarial",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-07"
       ],
@@ -202,7 +292,7 @@
     "CA-051|||CA-058": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-07"
       ],
@@ -211,16 +301,16 @@
     "CA-051|||CA-071": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-07"
       ],
       "last_updated": "2026-03-19"
     },
     "CA-058|||CA-071": {
-      "score": -0.25,
+      "score": -0.4625,
       "label": "adversarial",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-07"
       ],
@@ -229,7 +319,7 @@
     "CA-009|||CA-030": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
@@ -238,18 +328,261 @@
     "CA-009|||CA-034": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-03"
       ],
       "last_updated": "2026-03-19"
     },
     "CA-030|||CA-034": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 2,
+      "last_ps": [
+        "DPS-03"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-009|||CA-016": {
       "score": 0.0,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
-        "DPS-03"
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-009|||CA-024": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-009|||CA-051": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-009|||CA-058": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-009|||CA-071": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-009|||CA-107": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-016|||CA-024": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-016|||CA-030": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-016|||CA-034": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-016|||CA-051": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-016|||CA-058": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-016|||CA-071": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-016|||CA-107": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-024|||CA-030": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-024|||CA-034": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-024|||CA-107": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-030|||CA-051": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-030|||CA-058": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-030|||CA-071": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-030|||CA-107": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-034|||CA-051": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-034|||CA-058": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-034|||CA-071": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-034|||CA-107": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-051|||CA-107": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-058|||CA-107": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-19"
+    },
+    "CA-071|||CA-107": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
       ],
       "last_updated": "2026-03-19"
     }
