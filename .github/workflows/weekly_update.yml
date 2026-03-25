@@ -2,13 +2,15 @@ name: Weekly Update
 
 on:
   schedule:
-    # Tuesday 14:00 UTC (9:00 AM ET / 10:00 AM EDT)
-    - cron: "0 14 * * 2"
+    # Wednesday 14:00 UTC (9:00 AM ET / 10:00 AM EDT)
+    - cron: "0 14 * * 3"
   workflow_dispatch:  # allow manual trigger from GitHub Actions UI
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repo

@@ -134,13 +134,13 @@ def compute_hebbian_edge_weight(
     return sum(wa.get(ps_id, 0.0) * wb.get(ps_id, 0.0) for ps_id in shared_ids)
 
 
-def build_global_legend_html() -> str:
-    """Global legend."""
+def build_global_legend_html(briefing: dict | None = None) -> str:
+    """Global legend with optional weekly news feed."""
     html = """<div id="legend" style="
     position:fixed; top:20px; right:20px; z-index:9999;
     background:rgba(13,17,23,0.92); border:1px solid #30363d;
     border-radius:8px; padding:14px 18px; font-family:sans-serif;
-    font-size:13px; color:#e6edf3; min-width:220px; line-height:1.8">
+    font-size:13px; color:#e6edf3; min-width:220px; max-width:320px; line-height:1.8">
   <div style="font-size:14px;font-weight:700;margin-bottom:8px">Global View</div>
   <div><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#4a90d9;margin-right:8px;vertical-align:middle"></span>West</div>
   <div><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#e05c5c;margin-right:8px;vertical-align:middle"></span>East</div>
@@ -156,9 +156,85 @@ def build_global_legend_html() -> str:
     Node color = hemisphere<br>
     Edge width = Hebbian connection strength<br>
     Hover nodes &amp; edges for detail
-  </div>
-</div>
-"""
+  </div>"""
+
+    if briefing:
+        meta = briefing.get("_metadata", {})
+        conscious_set   = set(meta.get("neurons_conscious", []))
+        spontaneous_set = set(meta.get("neurons_spontaneous", []))
+
+        ps_updates = briefing.get("phase_sequence_updates", [])
+        person_updates = briefing.get("person_updates", [])
+        conscious_updates = [
+            p for p in person_updates
+            if p["name"] in conscious_set and p.get("signal", "active") == "active"
+        ]
+        spontaneous_updates = [
+            p for p in person_updates
+            if p["name"] in spontaneous_set and p.get("signal", "active") == "active"
+        ]
+
+        def news_item(label: str, summary: str) -> str:
+            safe_label   = label.replace('"', "&quot;").replace("'", "&#39;") if label else ""
+            safe_summary = summary.replace('"', "&quot;").replace("'", "&#39;") if summary else ""
+            preview  = summary[:120] + ("…" if len(summary) > 120 else "") if summary else ""
+            clickable = bool(summary)
+            cursor   = "pointer" if clickable else "default"
+            onclick  = ' onclick="openNewsModal(this)"' if clickable else ""
+            hover_style = (
+                " onmouseover=\"this.style.background='rgba(88,166,255,0.06)'\" "
+                "onmouseout=\"this.style.background='rgba(255,255,255,0.03)'\""
+                if clickable else ""
+            )
+            return (
+                f"<div style='margin-bottom:6px;padding:4px 6px;border-left:3px solid #58a6ff;"
+                f"border-radius:0 4px 4px 0;background:rgba(255,255,255,0.03);cursor:{cursor}'"
+                f"{hover_style}{onclick}"
+                f" data-label=\"{safe_label}\" data-summary=\"{safe_summary}\" data-color=\"#58a6ff\">"
+                f"<span style='font-weight:600;font-size:11px;color:#e6edf3'>{label}</span>"
+                + (f"<div style='font-size:10px;color:#8b949e;margin-top:2px'>{preview}</div>" if preview else "")
+                + "</div>"
+            )
+
+        feed_html = ""
+
+        if ps_updates:
+            feed_html += "<div style='font-size:11px;font-weight:700;color:#58a6ff;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px'>Phase Sequences</div>"
+            for ps in ps_updates:
+                ps_id   = ps.get("id", "")
+                ps_name = ps.get("name", ps_id)
+                safe_id   = ps_id.replace('"', "&quot;").replace("'", "&#39;")
+                feed_html += (
+                    f"<div style='margin-bottom:6px;padding:4px 6px;border-left:3px solid #58a6ff;"
+                    f"border-radius:0 4px 4px 0;background:rgba(255,255,255,0.03);cursor:pointer'"
+                    f" onmouseover=\"this.style.background='rgba(88,166,255,0.06)'\""
+                    f" onmouseout=\"this.style.background='rgba(255,255,255,0.03)'\""
+                    f" onclick=\"selectPS('{safe_id}')\">"
+                    f"<span style='font-weight:600;font-size:11px;color:#e6edf3'>{ps_name}</span>"
+                    f"<span style='font-size:10px;color:#58a6ff;margin-left:6px'>{ps_id}</span>"
+                    f"</div>"
+                )
+
+        if conscious_updates:
+            feed_html += "<div style='font-size:11px;font-weight:700;color:#f0c040;margin-top:8px;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px'>Conscious Neurons</div>"
+            for p in conscious_updates:
+                feed_html += news_item(p["name"], p.get("summary", ""))
+
+        if spontaneous_updates:
+            feed_html += "<div style='font-size:11px;font-weight:700;color:#8b949e;margin-top:8px;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px'>Spontaneous Neurons</div>"
+            for p in spontaneous_updates:
+                feed_html += news_item(p["name"], p.get("summary", ""))
+
+        if feed_html:
+            week = briefing.get("week_ending", "")
+            week_label = f" — {week}" if week else ""
+            html += (
+                "\n  <hr style='border-color:#30363d;margin:10px 0'>"
+                f"\n  <div style='font-size:12px;font-weight:700;margin-bottom:8px'>Weekly News{week_label}</div>"
+                f"\n  <div style='max-height:380px;overflow-y:auto;padding-right:4px'>{feed_html}</div>"
+            )
+
+    html += "\n</div>\n"
     return html
 
 
@@ -357,6 +433,23 @@ def load_latest_briefing(script_dir: str) -> dict | None:
     files = sorted(
         (f for f in os.listdir(briefings_dir)
          if f.startswith("weekly_briefing_") and f.endswith(".json")
+         and "_raw_" not in f),
+        reverse=True,
+    )
+    if not files:
+        return None
+    path = os.path.join(briefings_dir, files[0])
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_latest_global_briefing(script_dir: str) -> dict | None:
+    briefings_dir = os.path.join(script_dir, "briefings")
+    if not os.path.isdir(briefings_dir):
+        return None
+    files = sorted(
+        (f for f in os.listdir(briefings_dir)
+         if f.startswith("global_weekly_briefing_") and f.endswith(".json")
          and "_raw_" not in f),
         reverse=True,
     )
@@ -675,12 +768,14 @@ COMBINED_TITLE_HTML = """
 </div>
 """
 
-GLOBAL_ASM_LEGEND_HTML = """<div id="global-asm-legend" style="
+def build_global_asm_legend_html(briefing: dict | None = None) -> str:
+    """Global assembly-view sidebar with optional weekly news feed."""
+    html = """<div id="global-asm-legend" style="
     display:none;
     position:fixed; top:20px; right:20px; z-index:9999;
     background:rgba(13,17,23,0.92); border:1px solid #30363d;
     border-radius:8px; padding:14px 18px; font-family:sans-serif;
-    font-size:13px; color:#e6edf3; min-width:200px; line-height:1.8">
+    font-size:13px; color:#e6edf3; min-width:200px; max-width:320px; line-height:1.8">
   <div style="font-size:14px;font-weight:700;margin-bottom:8px">Global &middot; Assemblies</div>
   <div><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#4a90d9;margin-right:8px;vertical-align:middle"></span>West-dominated</div>
   <div><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:#e05c5c;margin-right:8px;vertical-align:middle"></span>East-dominated</div>
@@ -690,9 +785,68 @@ GLOBAL_ASM_LEGEND_HTML = """<div id="global-asm-legend" style="
     Node size = member count<br>
     Edge = shared phase sequences<br>
     Hover for members &amp; news
-  </div>
-</div>
-"""
+  </div>"""
+
+    if briefing:
+        def news_item(label: str, summary: str) -> str:
+            safe_label   = label.replace('"', "&quot;").replace("'", "&#39;") if label else ""
+            safe_summary = summary.replace('"', "&quot;").replace("'", "&#39;") if summary else ""
+            preview  = summary[:120] + ("…" if len(summary) > 120 else "") if summary else ""
+            clickable = bool(summary)
+            cursor   = "pointer" if clickable else "default"
+            onclick  = ' onclick="openNewsModal(this)"' if clickable else ""
+            hover_style = (
+                " onmouseover=\"this.style.background='rgba(88,166,255,0.06)'\" "
+                "onmouseout=\"this.style.background='rgba(255,255,255,0.03)'\""
+                if clickable else ""
+            )
+            return (
+                f"<div style='margin-bottom:6px;padding:4px 6px;border-left:3px solid #58a6ff;"
+                f"border-radius:0 4px 4px 0;background:rgba(255,255,255,0.03);cursor:{cursor}'"
+                f"{hover_style}{onclick}"
+                f" data-label=\"{safe_label}\" data-summary=\"{safe_summary}\" data-color=\"#58a6ff\">"
+                f"<span style='font-weight:600;font-size:11px;color:#e6edf3'>{label}</span>"
+                + (f"<div style='font-size:10px;color:#8b949e;margin-top:2px'>{preview}</div>" if preview else "")
+                + "</div>"
+            )
+
+        ps_updates = briefing.get("phase_sequence_updates", [])
+        ca_updates = [a for a in briefing.get("assembly_updates", []) if a.get("signal", "active") == "active"]
+        feed_html  = ""
+
+        if ps_updates:
+            feed_html += "<div style='font-size:11px;font-weight:700;color:#58a6ff;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px'>Phase Sequences</div>"
+            for ps in ps_updates:
+                ps_id   = ps.get("id", "")
+                ps_name = ps.get("name", ps_id)
+                safe_id   = ps_id.replace('"', "&quot;").replace("'", "&#39;")
+                feed_html += (
+                    f"<div style='margin-bottom:6px;padding:4px 6px;border-left:3px solid #58a6ff;"
+                    f"border-radius:0 4px 4px 0;background:rgba(255,255,255,0.03);cursor:pointer'"
+                    f" onmouseover=\"this.style.background='rgba(88,166,255,0.06)'\""
+                    f" onmouseout=\"this.style.background='rgba(255,255,255,0.03)'\""
+                    f" onclick=\"selectPS('{safe_id}')\">"
+                    f"<span style='font-weight:600;font-size:11px;color:#e6edf3'>{ps_name}</span>"
+                    f"<span style='font-size:10px;color:#58a6ff;margin-left:6px'>{ps_id}</span>"
+                    f"</div>"
+                )
+
+        if ca_updates:
+            feed_html += "<div style='font-size:11px;font-weight:700;color:#a78bfa;margin-top:8px;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px'>Cell Assemblies</div>"
+            for ca in ca_updates:
+                feed_html += news_item(ca.get("name", ca.get("id", "")), ca.get("summary", ""))
+
+        if feed_html:
+            week = briefing.get("week_ending", "")
+            week_label = f" — {week}" if week else ""
+            html += (
+                "\n  <hr style='border-color:#30363d;margin:10px 0'>"
+                f"\n  <div style='font-size:12px;font-weight:700;margin-bottom:8px'>Weekly News{week_label}</div>"
+                f"\n  <div style='max-height:380px;overflow-y:auto;padding-right:4px'>{feed_html}</div>"
+            )
+
+    html += "\n</div>\n"
+    return html
 
 
 # ---------------------------------------------------------------------------
@@ -1527,8 +1681,8 @@ window.switchView = function(scope, viewType) {
         TOOLTIP_DIV
         + controls_html
         + (us_legend_html         or "")
-        + (global_legend_html     or LEGEND_HTML)
-        + (global_asm_legend_html or GLOBAL_ASM_LEGEND_HTML)
+        + (global_legend_html     or build_global_legend_html())
+        + (global_asm_legend_html or build_global_asm_legend_html())
         + (us_asm_legend_html     or build_us_asm_legend_html())
         + COMBINED_TITLE_HTML
         + PS_DETAIL_PANEL_HTML
@@ -1593,9 +1747,17 @@ def main():
     # --- Global network (primary view) ---
     global_net = global_node_tooltips = global_edge_tooltips = None
     global_legend = None
+    global_briefing = None
 
     if global_data:
-        print("\nLoading global coactivation state...")
+        print("\nLoading latest global briefing...")
+        global_briefing = load_latest_global_briefing(script_dir)
+        if global_briefing:
+            print(f"  Week ending {global_briefing.get('week_ending', '?')}")
+        else:
+            print("  No global briefing found")
+
+        print("Loading global coactivation state...")
         global_coactivation = load_coactivation_state(script_dir, "global")
         if global_coactivation:
             print(f"  State: week {global_coactivation.get('week_count', 0)}, "
@@ -1607,7 +1769,7 @@ def main():
         global_net, global_node_tooltips, global_edge_tooltips = build_network(
             global_data, coactivation_state=global_coactivation
         )
-        global_legend = build_global_legend_html()
+        global_legend = build_global_legend_html(global_briefing)
 
     # --- US network ---
     print("\nLoading latest US briefing...")
@@ -1644,13 +1806,15 @@ def main():
     n_us_asm = len(us_data.get("canonical_vocabulary", {}).get("cell_assemblies", []))
 
     global_asm_net = global_asm_node_tooltips = global_asm_edge_tooltips = None
+    global_asm_legend = None
     n_global_asm   = None
     if global_data:
         print("Building global assembly network...")
         global_asm_net, global_asm_node_tooltips, global_asm_edge_tooltips = build_assembly_network(
-            global_data, briefing=None, is_us=False
+            global_data, briefing=global_briefing, is_us=False
         )
         n_global_asm = len(global_data.get("canonical_vocabulary", {}).get("cell_assemblies", []))
+        global_asm_legend = build_global_asm_legend_html(global_briefing)
 
     # --- Assemble HTML ---
     print("\nAssembling HTML...")
@@ -1672,6 +1836,7 @@ def main():
             us_asm_edge_tooltips=us_asm_edge_tooltips,
             global_legend_html=global_legend,
             us_legend_html=us_legend,
+            global_asm_legend_html=global_asm_legend,
             us_asm_legend_html=us_asm_legend,
             n_global=n_global,
             n_us=n_us,
