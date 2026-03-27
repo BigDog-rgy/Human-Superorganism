@@ -1160,11 +1160,27 @@ def make_controls_html(
         f"</div>"
     )
 
+    search_row = (
+        "<div style='display:flex;margin-top:6px'>"
+        "<div style='position:relative'>"
+        "<input id='node-search' type='text' placeholder='Search neurons...' "
+        "oninput='performSearch(this.value)' "
+        "style='background:#161b22;border:1px solid #30363d;border-radius:6px;"
+        "padding:6px 26px 6px 10px;font-size:12px;color:#e6edf3;outline:none;"
+        "width:210px;box-shadow:0 2px 4px rgba(0,0,0,0.4);'>"
+        "<span id='search-clear' onclick='clearSearch()' style='"
+        "display:none;position:absolute;right:7px;top:50%;"
+        "transform:translateY(-50%);color:#8b949e;cursor:pointer;"
+        "font-size:16px;line-height:1'>&times;</span>"
+        "</div>"
+        "</div>"
+    )
+
     return (
-        "<div id='view-controls' style='position:fixed;top:20px;left:50%;"
+        "<div id='view-controls' style='position:fixed;top:64px;left:50%;"
         "transform:translateX(-50%);z-index:9999;font-family:sans-serif;"
         "display:flex;flex-direction:column;align-items:center'>"
-        f"{scope_row}{type_row}"
+        f"{scope_row}{type_row}{search_row}"
         "</div>"
     )
 
@@ -1908,11 +1924,51 @@ window.switchView = function(scope, viewType) {
     var el = document.getElementById(id);
     if (el) el.style.display = (id === legendMap[key]) ? 'block' : 'none';
   });
+  // Clear search and update placeholder for new view
+  if (typeof clearSearch === 'function') clearSearch();
+  var searchEl = document.getElementById('node-search');
+  if (searchEl) searchEl.placeholder = viewType === 'assembly' ? 'Search assemblies...' : 'Search neurons...';
 };
 </script>
 """
 
     controls_html = make_controls_html(n_global, n_us, n_global_asm, n_us_asm, has_global)
+
+    search_js = """<script type="text/javascript">
+var searchQuery = '';
+window.performSearch = function(query) {
+  searchQuery = query.trim().toLowerCase();
+  var clearBtn = document.getElementById('search-clear');
+  if (clearBtn) clearBtn.style.display = searchQuery ? 'inline' : 'none';
+  var nodeMap = {
+    'global_neuron':   globalNeuronNodes,
+    'us_neuron':       usNeuronNodes,
+    'global_assembly': globalAsmNodes,
+    'us_assembly':     usAsmNodes,
+  };
+  var currentNodes = nodeMap[currentScope + '_' + currentViewType];
+  if (!currentNodes) return;
+  var updates = [];
+  currentNodes.forEach(function(node) {
+    var label = (node.label || String(node.id) || '').toLowerCase();
+    if (!searchQuery || label.indexOf(searchQuery) !== -1) {
+      var orig = nodeColors[node.id];
+      if (orig) updates.push({id: node.id, color: orig});
+    } else {
+      updates.push({id: node.id, color: {
+        background: '#2d333b', border: '#3d444d',
+        highlight: {background: '#2d333b', border: '#3d444d'}
+      }});
+    }
+  });
+  currentNodes.update(updates);
+};
+window.clearSearch = function() {
+  var inp = document.getElementById('node-search');
+  if (inp) { inp.value = ''; performSearch(''); }
+};
+</script>
+"""
 
     body_injection = (
         TOOLTIP_DIV
@@ -1929,8 +1985,34 @@ window.switchView = function(scope, viewType) {
         + switch_view_js
         + _build_ps_panel_js(ps_panel_data or {})
         + ps_selector_js
+        + search_js
     )
     html = html.replace("</body>", body_injection + "</body>", 1)
+
+    nav_html = (
+        '<style>'
+        'nav.pmt-nav{position:fixed;top:0;left:0;right:0;z-index:99999;'
+        'height:52px;display:flex;align-items:center;justify-content:space-between;'
+        'padding:0 2rem;background:rgba(13,17,23,0.92);backdrop-filter:blur(8px);'
+        'border-bottom:1px solid #30363d;}'
+        'nav.pmt-nav a{font-family:Inter,system-ui,sans-serif;font-size:0.82rem;'
+        'font-weight:500;text-decoration:none;color:#8b949e;transition:color 0.15s;}'
+        'nav.pmt-nav a:hover{color:#e6edf3;}'
+        'nav.pmt-nav .brand{font-size:0.85rem;font-weight:600;letter-spacing:0.08em;'
+        'text-transform:uppercase;color:#e6edf3;}'
+        'nav.pmt-nav .nav-links{display:flex;gap:1.75rem;list-style:none;}'
+        'nav.pmt-nav .nav-links a.active{color:#58a6ff;}'
+        '#mynetwork{margin-top:52px;height:calc(100vh - 52px)!important;}'
+        '</style>'
+        '<nav class="pmt-nav">'
+        '<a class="brand" href="/explainer.html">Prime Mover Tracker</a>'
+        '<ul class="nav-links">'
+        '<li><a href="/explainer.html">Explainer</a></li>'
+        '<li><a href="/combined_viz.html" class="active">Visualization</a></li>'
+        '</ul>'
+        '</nav>'
+    )
+    html = html.replace("<body>", "<body>" + nav_html, 1)
 
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html)
@@ -2036,6 +2118,8 @@ def main():
     us_legend     = build_us_legend_html(briefing)
     us_asm_legend = build_us_asm_legend_html(briefing)
     ps_panel_data = build_ps_panel_data(briefing)
+    if global_briefing:
+        ps_panel_data.update(build_ps_panel_data(global_briefing))
 
     # --- Assembly networks ---
     ps_membership_edges = {

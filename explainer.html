@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prime Mover Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0d1117;
+      --surface:   #161b22;
+      --border:    #30363d;
+      --muted:     #8b949e;
+      --text:      #e6edf3;
+      --accent:    #58a6ff;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 1.125rem;
+      line-height: 1.8;
+    }
+
+    /* ── Nav ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(13, 17, 23, 0.92);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2rem;
+      height: 52px;
+    }
+
+    .nav-brand {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.75rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .nav-links a:hover { color: var(--text); }
+    .nav-links a.active { color: var(--accent); }
+
+    /* ── Layout ── */
+    .page {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      padding: 6rem 0 4rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.25rem;
+    }
+
+    .hero h1 {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      font-weight: 500;
+      line-height: 1.25;
+      color: var(--text);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-sub {
+      color: var(--muted);
+      font-size: 1.05rem;
+      line-height: 1.7;
+      max-width: 600px;
+    }
+
+    /* ── Sections ── */
+    .section {
+      padding: 4.5rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section:last-child { border-bottom: none; }
+
+    .section-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .section h2 {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: clamp(1.4rem, 3vw, 1.85rem);
+      font-weight: 500;
+      line-height: 1.3;
+      color: var(--text);
+      margin-bottom: 2rem;
+    }
+
+    .section p {
+      margin-bottom: 1.4rem;
+      color: #cdd9e5;
+    }
+
+    .section p:last-child { margin-bottom: 0; }
+
+    em { font-style: italic; color: var(--text); }
+
+    strong {
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    cite {
+      font-style: italic;
+      color: var(--muted);
+      font-size: 0.95em;
+    }
+
+    /* ── Nav CTA at bottom ── */
+    .viz-cta {
+      padding: 4rem 0 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .viz-cta p {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .cta-links {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .cta-btn {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 500;
+      padding: 0.5rem 1.1rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text);
+      text-decoration: none;
+      background: var(--surface);
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .cta-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="nav-brand" href="/explainer.html">Prime Mover Tracker</a>
+    <ul class="nav-links">
+      <li><a href="/explainer.html" class="active">Explainer</a></li>
+      <li><a href="/combined_viz.html">Visualization</a></li>
+    </ul>
+  </nav>
+
+  <div class="page">
+
+    <!-- Hero -->
+    <header class="hero">
+      <p class="hero-label">An intelligence pipeline</p>
+      <h1>Tracking the living architecture of human influence</h1>
+      <p class="hero-sub">
+        A working prototype that maps the actors, coalitions, and strategic dynamics
+        shaping politics, technology, and capital — updated weekly from real-world evidence.
+      </p>
+    </header>
+
+    <!-- Section 1: The Hebbian Brain -->
+    <section class="section" id="hebbian">
+      <p class="section-label">Part I</p>
+      <h2>The Hebbian Brain</h2>
+
+      <p>
+        By the late 1940s, neurophysiology and psychology had reached an awkward impasse.
+        Adrian and Sherrington had established the basic mechanics of the neuron — the
+        all-or-nothing firing, the synaptic junction, the refractory period. Psychology,
+        meanwhile, had accumulated a substantial body of observations about learning,
+        perception, and memory. The two literatures sat beside each other without touching.
+        There was no mechanistic account of how neural activity could produce organized
+        behavior, and no serious attempt to build one.
+      </p>
+
+      <p>
+        Donald Hebb's <cite>The Organization of Behavior</cite> (1949) was that attempt.
+        His starting premise was stringent: if learning is real, it must be physically
+        instantiated somewhere in the nervous system, and the most plausible candidate
+        was the synapse. He proposed that when the axon of one cell repeatedly contributes
+        to the firing of another, some metabolic or structural change occurs at the junction
+        that increases the efficiency of the connection. This is the postulate now condensed
+        into the phrase <em>neurons that fire together, wire together</em> — though the
+        economy of that formulation flattens what Hebb was actually doing, which was
+        deriving a neurophysiological mechanism capable of explaining the full range of
+        cognitive phenomena from first principles.
+      </p>
+
+      <p>
+        The central structural consequence of the synaptic rule is what Hebb called the
+        <strong>cell assembly</strong>: a distributed, reverberant circuit of cortical cells
+        that, through repeated co-activation, comes to function as a unit. The assembly is
+        not anatomically fixed — it is a learned configuration, grown from experience.
+        Crucially, it exhibits a property that the individual synapse does not: it can
+        sustain its own activity briefly after the initiating stimulus is withdrawn. A
+        partial cue is sufficient to reactivate the whole. This reverberatory dynamic was
+        Hebb's account of how a fleeting stimulus leaves a persisting trace — the neural
+        substrate of short-term memory and the persistence of thought.
+      </p>
+
+      <p>
+        A single assembly, however, cannot account for directed or sequential cognition.
+        Hebb proposed that assemblies excite one another in learned succession — each
+        activation priming the conditions for the next — forming what he called a
+        <strong>phase sequence</strong>. Thought, on this model, is not a static state but
+        a trajectory: a temporally extended cascade of assembly activations moving through
+        channels carved by prior experience. The richness of cognition falls out not from
+        the complexity of any individual cell's behavior, but from the organization of the
+        connections between them.
+      </p>
+    </section>
+
+    <!-- Section 2: Superorganisms -->
+    <section class="section" id="superorganisms">
+      <p class="section-label">Part II</p>
+      <h2>Superorganisms</h2>
+
+      <p>
+        The biologist William Morton Wheeler coined the term <em>superorganism</em> in 1911
+        to describe something he couldn't stop noticing in ant colonies: the colony behaves
+        as if it has intentions. It hunts, allocates labor, manages temperature, wages war,
+        and tends its young — all without any individual ant understanding the whole.
+        Wheeler's intuition was that the colony was the real organism, and the individual
+        ant was something more like a cell.
+      </p>
+
+      <p>
+        The concept matured through the twentieth century as researchers documented that
+        eusocial insects — ants, bees, wasps, termites — exhibit a level of coordinated
+        complexity that strains purely individualist explanations. E.O. Wilson and Bert
+        Hölldobler's <cite>The Superorganism</cite> (2009) gave the framework its most
+        complete treatment: the colony as a unit of natural selection, with castes playing
+        roles analogous to organ systems, and chemical signaling serving as a kind of
+        distributed nervous system. No individual carries the plan. The plan <em>is</em>
+        the colony.
+      </p>
+
+      <p>
+        The examples extend beyond insects. The Portuguese man o' war is not a single
+        animal — it is a consortium of physically distinct polyps, each specialized for
+        locomotion, predation, digestion, or reproduction. The slime mold
+        <em>Physarum polycephalum</em> is perhaps the most striking: thousands of
+        independent amoebae that, under stress, aggregate into a single coordinated body
+        capable of navigating mazes and solving network optimization problems. Collective
+        intelligence without a brain.
+      </p>
+
+      <p>
+        Once you have that concept in hand, certain questions become hard to avoid. If an
+        ant colony achieves goal-directed, adaptive behavior through the interaction of
+        simple agents following local rules — what prevents us from saying something
+        similar about other large-scale systems? Markets. States. Ideological movements.
+        The philosopher Eric Schwitzgebel pressed this question to its uncomfortable limit
+        in <cite>If Materialism Is True, the United States Is Probably Conscious</cite>
+        (2015): if consciousness is a functional property of systems that process
+        information in the right way, and if a materialist account commits us to granting
+        it wherever those conditions are met, then the inference to national-scale
+        consciousness is hard to block without special pleading. Schwitzgebel isn't really
+        arguing the US is conscious. He's arguing that our concepts are not as clean as we
+        pretend — that genuine philosophical work remains at the boundary between
+        individual and collective mind.
+      </p>
+    </section>
+
+    <!-- Section 3: The Bridge -->
+    <section class="section" id="bridge">
+      <p class="section-label">Part III</p>
+      <h2>Introducing a Hebbian View of the Human Superorganism</h2>
+
+      <p>
+        Schwitzgebel's provocation rests on a specific claim: that consciousness, if it is
+        anything at all, is a property of <em>organized complexity</em> rather than of
+        substrate. The United States processes information, responds to its environment,
+        maintains internal states, and acts in the world. If we want to deny it any form
+        of inner life, we owe a principled account of what exactly disqualifies it — one
+        that does not quietly rely on biological chauvinism.
+      </p>
+
+      <p>
+        The uncomfortable implication is not that nations are sentient in any warm,
+        experiential sense. It is that organizational logic generating higher-order behavior
+        may be <em>real and consequential</em> entirely independent of whether any unit
+        within the system is aware of it. The ant colony does not know it is an organism.
+        The neurons composing a cell assembly do not know they are encoding a concept. The
+        gestalt activity is occurring at a level above the reach of any participant's
+        awareness — and it is doing real work regardless.
+      </p>
+
+      <p>
+        Prime Mover Tracker is a vibe-coded attempt to take that seriously as an analytical
+        frame. The living network of actors, coalitions, and strategic dynamics that shapes
+        politics, technology, and capital is treated here as a system exhibiting exactly
+        this kind of organized, higher-order behavior. Individual actors are mapped as
+        neurons. Coalitions that habitually co-activate around a shared domain or strategic
+        posture are cell assemblies. The higher-order dynamics that sequence which coalitions
+        are active at any given moment are phase sequences. The assembled model, updated
+        weekly from real-world evidence, is the superorganism.
+      </p>
+
+      <p>
+        The project is not making a claim about consciousness. It is borrowing the
+        structural vocabulary Hebb developed for the brain because that vocabulary —
+        built to describe distributed, learned, temporally organized behavior — appears
+        to generalize.
+      </p>
+    </section>
+
+    <!-- CTA -->
+    <div class="viz-cta">
+      <p>Explore the current model</p>
+      <div class="cta-links">
+        <a class="cta-btn" href="/combined_viz.html">Open Visualization &rarr;</a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
