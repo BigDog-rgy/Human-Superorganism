@@ -26,6 +26,7 @@ import json
 import math
 import random
 import argparse
+import time
 from datetime import date, timedelta
 from pathlib import Path
 from dotenv import load_dotenv
@@ -720,12 +721,22 @@ def synthesize_briefing(
         ps_news_items, assembly_news_items, news_items,
         phase_sequences, ps_to_fired_assemblies, week_start, week_end, cfg,
     )
-    message = client.messages.create(
-        model=CLAUDE_MODEL,
-        max_tokens=8192,
-        temperature=0.2,
-        messages=[{"role": "user", "content": prompt}],
-    )
+    for attempt in range(1, 5):
+        try:
+            message = client.messages.create(
+                model=CLAUDE_MODEL,
+                max_tokens=8192,
+                temperature=0.2,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            break
+        except anthropic.APIStatusError as e:
+            if e.status_code == 529 and attempt < 4:
+                wait = 30 * attempt
+                print(f"  API overloaded (529), retrying in {wait}s (attempt {attempt}/4)...")
+                time.sleep(wait)
+            else:
+                raise
     response_text = message.content[0].text
     json_start = response_text.find("{")
     json_end   = response_text.rfind("}") + 1
@@ -1048,7 +1059,7 @@ def run(scope: str = "us"):
         )
     except Exception as e:
         print(f"  ! Synthesis failed: {e}")
-        return
+        raise SystemExit(1)
 
     briefing["_metadata"] = {
         "generated":                date.today().isoformat(),
@@ -1125,7 +1136,7 @@ def run_synthesis_only(scope: str = "us"):
         )
     except Exception as e:
         print(f"  ! Synthesis failed: {e}")
-        return
+        raise SystemExit(1)
 
     briefing["_metadata"] = {
         "generated":               date.today().isoformat(),
