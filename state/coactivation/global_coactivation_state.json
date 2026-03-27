@@ -1,6 +1,6 @@
 {
-  "week_count": 2,
-  "last_updated": "2026-03-19",
+  "week_count": 3,
+  "last_updated": "2026-03-25",
   "scope": "Global",
   "config": {
     "decay_rate": 0.15,
@@ -18,7 +18,7 @@
       "last_updated": "2026-03-19"
     },
     "Cai Qi|||Vladimir Putin": {
-      "score": 0.4625,
+      "score": 0.393125,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -27,7 +27,7 @@
       "last_updated": "2026-03-19"
     },
     "Patriarch Kirill (Vladimir Gundyayev)|||Vladimir Putin": {
-      "score": 0.4625,
+      "score": 0.393125,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -54,7 +54,7 @@
       "last_updated": "2026-03-19"
     },
     "Cristiano Amon|||Elon Musk": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -72,7 +72,7 @@
       "last_updated": "2026-03-19"
     },
     "Cristiano Amon|||Vladimir Putin": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -90,18 +90,72 @@
       "last_updated": "2026-03-19"
     },
     "Elon Musk|||Vladimir Putin": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
       ],
       "last_updated": "2026-03-19"
+    },
+    "Andrei Belousov|||Lai Ching-te": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
+    },
+    "Andrei Belousov|||Nikolai Patrushev": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
+    },
+    "Andrei Belousov|||Valery Gerasimov": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
+    },
+    "Lai Ching-te|||Nikolai Patrushev": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
+    },
+    "Lai Ching-te|||Valery Gerasimov": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
+    },
+    "Nikolai Patrushev|||Valery Gerasimov": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
     }
   },
   "ca_coactivation": {
     "CA-025|||CA-112": {
-      "score": -0.4625,
+      "score": -0.393125,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -110,7 +164,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-025|||CA-113": {
-      "score": -0.4625,
+      "score": -0.393125,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -119,7 +173,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-112|||CA-113": {
-      "score": -0.4625,
+      "score": -0.393125,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -128,7 +182,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-002|||CA-016": {
-      "score": 0.4625,
+      "score": 0.393125,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -137,7 +191,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-002|||CA-032": {
-      "score": -0.4625,
+      "score": -0.393125,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -146,7 +200,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-016|||CA-032": {
-      "score": 0.4625,
+      "score": 0.393125,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -173,7 +227,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-002|||CA-112": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -182,7 +236,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-002|||CA-113": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -218,7 +272,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-016|||CA-112": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -245,7 +299,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-025|||CA-032": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -281,7 +335,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-032|||CA-112": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -290,7 +344,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-032|||CA-113": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -308,7 +362,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-043|||CA-112": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -344,13 +398,103 @@
       "last_updated": "2026-03-19"
     },
     "CA-113|||CA-153": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
       ],
       "last_updated": "2026-03-19"
+    },
+    "CA-018|||CA-223": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "PS-01"
+      ],
+      "last_updated": "2026-03-25"
+    },
+    "CA-018|||CA-099": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
+    },
+    "CA-018|||CA-108": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
+    },
+    "CA-018|||CA-162": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
+    },
+    "CA-099|||CA-108": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
+    },
+    "CA-099|||CA-162": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
+    },
+    "CA-099|||CA-223": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
+    },
+    "CA-108|||CA-162": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
+    },
+    "CA-108|||CA-223": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
+    },
+    "CA-162|||CA-223": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-03-25"
     }
   }
 }
