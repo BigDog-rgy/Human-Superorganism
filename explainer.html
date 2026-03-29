@@ -82,7 +82,6 @@
     /* ── Hero ── */
     .hero {
       padding: 6rem 0 4rem;
-      border-bottom: 1px solid var(--border);
     }
 
     .hero-label {
@@ -109,6 +108,38 @@
       font-size: 1.05rem;
       line-height: 1.7;
       max-width: 600px;
+    }
+
+    /* ── Tab toggle ── */
+    .tab-toggle {
+      display: flex;
+      gap: 0.375rem;
+      padding: 0 0 2.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .tab-btn {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 500;
+      padding: 0.375rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      transition: color 0.15s, border-color 0.15s, background 0.15s;
+    }
+
+    .tab-btn:hover:not(.active) {
+      color: var(--text);
+      border-color: var(--muted);
+    }
+
+    .tab-btn.active {
+      background: var(--surface);
+      color: var(--accent);
+      border-color: var(--accent);
     }
 
     /* ── Sections ── */
@@ -219,152 +250,292 @@
       </p>
     </header>
 
-    <!-- Section 1: The Hebbian Brain -->
-    <section class="section" id="hebbian">
-      <p class="section-label">Part I</p>
-      <h2>The Hebbian Brain</h2>
+    <!-- Tab toggle -->
+    <div class="tab-toggle">
+      <button class="tab-btn active" data-tab="theory" onclick="showTab('theory')">Theory &amp; Inspiration</button>
+      <button class="tab-btn" data-tab="impl" onclick="showTab('impl')">Under the Hood</button>
+    </div>
 
-      <p>
-        By the late 1940s, neurophysiology and psychology had reached an awkward impasse.
-        Adrian and Sherrington had established the basic mechanics of the neuron — the
-        all-or-nothing firing, the synaptic junction, the refractory period. Psychology,
-        meanwhile, had accumulated a substantial body of observations about learning,
-        perception, and memory. The two literatures sat beside each other without touching.
-        There was no mechanistic account of how neural activity could produce organized
-        behavior, and no serious attempt to build one.
-      </p>
+    <!-- Theory view (default) -->
+    <div id="theory-view">
 
-      <p>
-        Donald Hebb's <cite>The Organization of Behavior</cite> (1949) was that attempt.
-        His starting premise was stringent: if learning is real, it must be physically
-        instantiated somewhere in the nervous system, and the most plausible candidate
-        was the synapse. He proposed that when the axon of one cell repeatedly contributes
-        to the firing of another, some metabolic or structural change occurs at the junction
-        that increases the efficiency of the connection. This is the postulate now condensed
-        into the phrase <em>neurons that fire together, wire together</em> — though the
-        economy of that formulation flattens what Hebb was actually doing, which was
-        deriving a neurophysiological mechanism capable of explaining the full range of
-        cognitive phenomena from first principles.
-      </p>
+      <!-- Section 1: The Hebbian Brain -->
+      <section class="section" id="hebbian">
+        <p class="section-label">Part I</p>
+        <h2>The Hebbian Brain</h2>
 
-      <p>
-        The central structural consequence of the synaptic rule is what Hebb called the
-        <strong>cell assembly</strong>: a distributed, reverberant circuit of cortical cells
-        that, through repeated co-activation, comes to function as a unit. The assembly is
-        not anatomically fixed — it is a learned configuration, grown from experience.
-        Crucially, it exhibits a property that the individual synapse does not: it can
-        sustain its own activity briefly after the initiating stimulus is withdrawn. A
-        partial cue is sufficient to reactivate the whole. This reverberatory dynamic was
-        Hebb's account of how a fleeting stimulus leaves a persisting trace — the neural
-        substrate of short-term memory and the persistence of thought.
-      </p>
+        <p>
+          By the late 1940s, neurophysiology and psychology had reached an awkward impasse.
+          Adrian and Sherrington had established the basic mechanics of the neuron — the
+          all-or-nothing firing, the synaptic junction, the refractory period. Psychology,
+          meanwhile, had accumulated a substantial body of observations about learning,
+          perception, and memory. The two literatures sat beside each other without touching.
+          There was no mechanistic account of how neural activity could produce organized
+          behavior, and no serious attempt to build one.
+        </p>
 
-      <p>
-        A single assembly, however, cannot account for directed or sequential cognition.
-        Hebb proposed that assemblies excite one another in learned succession — each
-        activation priming the conditions for the next — forming what he called a
-        <strong>phase sequence</strong>. Thought, on this model, is not a static state but
-        a trajectory: a temporally extended cascade of assembly activations moving through
-        channels carved by prior experience. The richness of cognition falls out not from
-        the complexity of any individual cell's behavior, but from the organization of the
-        connections between them.
-      </p>
-    </section>
+        <p>
+          Donald Hebb's <cite>The Organization of Behavior</cite> (1949) was that attempt.
+          His starting premise was stringent: if learning is real, it must be physically
+          instantiated somewhere in the nervous system, and the most plausible candidate
+          was the synapse. He proposed that when the axon of one cell repeatedly contributes
+          to the firing of another, some metabolic or structural change occurs at the junction
+          that increases the efficiency of the connection. This is the postulate now condensed
+          into the phrase <em>neurons that fire together, wire together</em> — though the
+          economy of that formulation flattens what Hebb was actually doing, which was
+          deriving a neurophysiological mechanism capable of explaining the full range of
+          cognitive phenomena from first principles.
+        </p>
 
-    <!-- Section 2: Superorganisms -->
-    <section class="section" id="superorganisms">
-      <p class="section-label">Part II</p>
-      <h2>Superorganisms</h2>
+        <p>
+          The central structural consequence of the synaptic rule is what Hebb called the
+          <strong>cell assembly</strong>: a distributed, reverberant circuit of cortical cells
+          that, through repeated co-activation, comes to function as a unit. The assembly is
+          not anatomically fixed — it is a learned configuration, grown from experience.
+          Crucially, it exhibits a property that the individual synapse does not: it can
+          sustain its own activity briefly after the initiating stimulus is withdrawn. A
+          partial cue is sufficient to reactivate the whole. This reverberatory dynamic was
+          Hebb's account of how a fleeting stimulus leaves a persisting trace — the neural
+          substrate of short-term memory and the persistence of thought.
+        </p>
 
-      <p>
-        The biologist William Morton Wheeler coined the term <em>superorganism</em> in 1911
-        to describe something he couldn't stop noticing in ant colonies: the colony behaves
-        as if it has intentions. It hunts, allocates labor, manages temperature, wages war,
-        and tends its young — all without any individual ant understanding the whole.
-        Wheeler's intuition was that the colony was the real organism, and the individual
-        ant was something more like a cell.
-      </p>
+        <p>
+          A single assembly, however, cannot account for directed or sequential cognition.
+          Hebb proposed that assemblies excite one another in learned succession — each
+          activation priming the conditions for the next — forming what he called a
+          <strong>phase sequence</strong>. Thought, on this model, is not a static state but
+          a trajectory: a temporally extended cascade of assembly activations moving through
+          channels carved by prior experience. The richness of cognition falls out not from
+          the complexity of any individual cell's behavior, but from the organization of the
+          connections between them.
+        </p>
+      </section>
 
-      <p>
-        The concept matured through the twentieth century as researchers documented that
-        eusocial insects — ants, bees, wasps, termites — exhibit a level of coordinated
-        complexity that strains purely individualist explanations. E.O. Wilson and Bert
-        Hölldobler's <cite>The Superorganism</cite> (2009) gave the framework its most
-        complete treatment: the colony as a unit of natural selection, with castes playing
-        roles analogous to organ systems, and chemical signaling serving as a kind of
-        distributed nervous system. No individual carries the plan. The plan <em>is</em>
-        the colony.
-      </p>
+      <!-- Section 2: Superorganisms -->
+      <section class="section" id="superorganisms">
+        <p class="section-label">Part II</p>
+        <h2>Superorganisms</h2>
 
-      <p>
-        The examples extend beyond insects. The Portuguese man o' war is not a single
-        animal — it is a consortium of physically distinct polyps, each specialized for
-        locomotion, predation, digestion, or reproduction. The slime mold
-        <em>Physarum polycephalum</em> is perhaps the most striking: thousands of
-        independent amoebae that, under stress, aggregate into a single coordinated body
-        capable of navigating mazes and solving network optimization problems. Collective
-        intelligence without a brain.
-      </p>
+        <p>
+          The biologist William Morton Wheeler coined the term <em>superorganism</em> in 1911
+          to describe something he couldn't stop noticing in ant colonies: the colony behaves
+          as if it has intentions. It hunts, allocates labor, manages temperature, wages war,
+          and tends its young — all without any individual ant understanding the whole.
+          Wheeler's intuition was that the colony was the real organism, and the individual
+          ant was something more like a cell.
+        </p>
 
-      <p>
-        Once you have that concept in hand, certain questions become hard to avoid. If an
-        ant colony achieves goal-directed, adaptive behavior through the interaction of
-        simple agents following local rules — what prevents us from saying something
-        similar about other large-scale systems? Markets. States. Ideological movements.
-        The philosopher Eric Schwitzgebel pressed this question to its uncomfortable limit
-        in <cite>If Materialism Is True, the United States Is Probably Conscious</cite>
-        (2015): if consciousness is a functional property of systems that process
-        information in the right way, and if a materialist account commits us to granting
-        it wherever those conditions are met, then the inference to national-scale
-        consciousness is hard to block without special pleading. Schwitzgebel isn't really
-        arguing the US is conscious. He's arguing that our concepts are not as clean as we
-        pretend — that genuine philosophical work remains at the boundary between
-        individual and collective mind.
-      </p>
-    </section>
+        <p>
+          The concept matured through the twentieth century as researchers documented that
+          eusocial insects — ants, bees, wasps, termites — exhibit a level of coordinated
+          complexity that strains purely individualist explanations. E.O. Wilson and Bert
+          Hölldobler's <cite>The Superorganism</cite> (2009) gave the framework its most
+          complete treatment: the colony as a unit of natural selection, with castes playing
+          roles analogous to organ systems, and chemical signaling serving as a kind of
+          distributed nervous system. No individual carries the plan. The plan <em>is</em>
+          the colony.
+        </p>
 
-    <!-- Section 3: The Bridge -->
-    <section class="section" id="bridge">
-      <p class="section-label">Part III</p>
-      <h2>Introducing a Hebbian View of the Human Superorganism</h2>
+        <p>
+          The examples extend beyond insects. The Portuguese man o' war is not a single
+          animal — it is a consortium of physically distinct polyps, each specialized for
+          locomotion, predation, digestion, or reproduction. The slime mold
+          <em>Physarum polycephalum</em> is perhaps the most striking: thousands of
+          independent amoebae that, under stress, aggregate into a single coordinated body
+          capable of navigating mazes and solving network optimization problems. Collective
+          intelligence without a brain.
+        </p>
 
-      <p>
-        Schwitzgebel's provocation rests on a specific claim: that consciousness, if it is
-        anything at all, is a property of <em>organized complexity</em> rather than of
-        substrate. The United States processes information, responds to its environment,
-        maintains internal states, and acts in the world. If we want to deny it any form
-        of inner life, we owe a principled account of what exactly disqualifies it — one
-        that does not quietly rely on biological chauvinism.
-      </p>
+        <p>
+          Once you have that concept in hand, certain questions become hard to avoid. If an
+          ant colony achieves goal-directed, adaptive behavior through the interaction of
+          simple agents following local rules — what prevents us from saying something
+          similar about other large-scale systems? Markets. States. Ideological movements.
+          The philosopher Eric Schwitzgebel pressed this question to its uncomfortable limit
+          in <cite>If Materialism Is True, the United States Is Probably Conscious</cite>
+          (2015): if consciousness is a functional property of systems that process
+          information in the right way, and if a materialist account commits us to granting
+          it wherever those conditions are met, then the inference to national-scale
+          consciousness is hard to block without special pleading. Schwitzgebel isn't really
+          arguing the US is conscious. He's arguing that our concepts are not as clean as we
+          pretend — that genuine philosophical work remains at the boundary between
+          individual and collective mind.
+        </p>
+      </section>
 
-      <p>
-        The uncomfortable implication is not that nations are sentient in any warm,
-        experiential sense. It is that organizational logic generating higher-order behavior
-        may be <em>real and consequential</em> entirely independent of whether any unit
-        within the system is aware of it. The ant colony does not know it is an organism.
-        The neurons composing a cell assembly do not know they are encoding a concept. The
-        gestalt activity is occurring at a level above the reach of any participant's
-        awareness — and it is doing real work regardless.
-      </p>
+      <!-- Section 3: The Bridge -->
+      <section class="section" id="bridge">
+        <p class="section-label">Part III</p>
+        <h2>Introducing a Hebbian View of the Human Superorganism</h2>
 
-      <p>
-        Prime Mover Tracker is a vibe-coded attempt to take that seriously as an analytical
-        frame. The living network of actors, coalitions, and strategic dynamics that shapes
-        politics, technology, and capital is treated here as a system exhibiting exactly
-        this kind of organized, higher-order behavior. Individual actors are mapped as
-        neurons. Coalitions that habitually co-activate around a shared domain or strategic
-        posture are cell assemblies. The higher-order dynamics that sequence which coalitions
-        are active at any given moment are phase sequences. The assembled model, updated
-        weekly from real-world evidence, is the superorganism.
-      </p>
+        <p>
+          Schwitzgebel's provocation rests on a specific claim: that consciousness, if it is
+          anything at all, is a property of <em>organized complexity</em> rather than of
+          substrate. The United States processes information, responds to its environment,
+          maintains internal states, and acts in the world. If we want to deny it any form
+          of inner life, we owe a principled account of what exactly disqualifies it — one
+          that does not quietly rely on biological chauvinism.
+        </p>
 
-      <p>
-        The project is not making a claim about consciousness. It is borrowing the
-        structural vocabulary Hebb developed for the brain because that vocabulary —
-        built to describe distributed, learned, temporally organized behavior — appears
-        to generalize.
-      </p>
-    </section>
+        <p>
+          The uncomfortable implication is not that nations are sentient in any warm,
+          experiential sense. It is that organizational logic generating higher-order behavior
+          may be <em>real and consequential</em> entirely independent of whether any unit
+          within the system is aware of it. The ant colony does not know it is an organism.
+          The neurons composing a cell assembly do not know they are encoding a concept. The
+          gestalt activity is occurring at a level above the reach of any participant's
+          awareness — and it is doing real work regardless.
+        </p>
+
+        <p>
+          Prime Mover Tracker is a vibe-coded attempt to take that seriously as an analytical
+          frame. The living network of actors, coalitions, and strategic dynamics that shapes
+          politics, technology, and capital is treated here as a system exhibiting exactly
+          this kind of organized, higher-order behavior. Individual actors are mapped as
+          neurons. Coalitions that habitually co-activate around a shared domain or strategic
+          posture are cell assemblies. The higher-order dynamics that sequence which coalitions
+          are active at any given moment are phase sequences. The assembled model, updated
+          weekly from real-world evidence, is the superorganism.
+        </p>
+
+        <p>
+          The project is not making a claim about consciousness. It is borrowing the
+          structural vocabulary Hebb developed for the brain because that vocabulary —
+          built to describe distributed, learned, temporally organized behavior — appears
+          to generalize.
+        </p>
+      </section>
+
+    </div><!-- /theory-view -->
+
+    <!-- Implementation view (hidden by default) -->
+    <div id="impl-view" style="display:none">
+
+      <!-- Section 4: How It Was Built -->
+      <section class="section" id="implementation">
+        <p class="section-label">Part IV</p>
+        <h2>How It Was Built</h2>
+
+        <p>
+          The project runs on two tracks: a slow structural track for building and
+          refreshing the underlying model, and a weekly operational track for generating
+          briefings and updating learned state.
+        </p>
+
+        <p>
+          Candidate ingestion starts with structured public lists — Forbes billionaires,
+          congressional membership, heads of state — and then expands through LLM-assisted
+          councils that surface harder-to-source figures: technology executives, civil
+          society leaders, actors whose influence crosses domains without being captured by
+          any single ranking. These feeds are compiled into scope-specific master lists for
+          the US and global models.
+        </p>
+
+        <p>
+          The ranking pipeline reduces that master list through three stages. A
+          <strong>tournament filter</strong> runs groups of six candidates through LLM
+          comparisons, keeping the top four, with a source-aware design: candidates are
+          first grouped by source domain so that a religious leader or NGO director is not
+          immediately forced to compete against five billionaires. Survivors then enter a
+          <strong>Swiss-style ELO ranking</strong> in head-to-head matchups. A final
+          <strong>boundary ELO</strong> pass re-ranks the cutoff window — the top 150 for
+          the US model, top 300 globally — where inclusion noise matters most. None of the
+          rankings are hand-maintained; the roster is produced end-to-end by the reduction
+          pipeline.
+        </p>
+
+        <p>
+          The structural vocabulary — cell assemblies and phase sequences — is generated
+          through a separate LLM council process. The CA canon is built neuron-centric:
+          candidate assemblies are proposed, deduplicated, and narrowed by ELO. Phase
+          sequences are then assigned CAs through a multi-model council and a chairman
+          synthesis step. The assembled canons determine the network topology that all
+          downstream steps inherit.
+        </p>
+
+        <p>
+          The weekly firing model is where the system most explicitly enacts the Hebbian
+          analogy. Each run begins by fetching phase-sequence–level news via Perplexity and
+          scoring each PS's activity from 1 to 10. The top-ranked PSes then fire cell
+          assemblies through a <strong>coactivation-guided sequence</strong>: a seed CA is
+          chosen at random, and each subsequent CA is drawn probabilistically, weighted by
+          its learned coactivation score against the previously fired CA. The sequence is
+          therefore not arbitrary but shaped by accumulated history of which assemblies have
+          been observed as reinforcing or adversarial. Neurons are then selected
+          <strong>conscious</strong> PS by PS: each actor's selection weight combines a
+          base score, a bonus for CA membership in fired assemblies, and a further bonus
+          from their neuron-neuron coactivation score against already-selected co-members of
+          the same PS. A separate <strong>spontaneous layer</strong> — using a skip-counter
+          probability that rises roughly 10% per missed week — ensures that dormant actors
+          periodically resurface regardless of current PS activity.
+        </p>
+
+        <p>
+          Learning closes the loop. After each briefing, the coactivation updater runs every
+          pair of co-active conscious neurons — and every pair of co-active CAs — through a
+          lightweight LLM judgment: are these two entities reinforcing, adversarial, or
+          neutral within their shared phase sequence this week? Scores are updated as a
+          rolling weighted sum and <strong>decay 15% per week toward zero</strong>, so the
+          memory is recency-biased rather than permanent. These scores feed directly back
+          into the next week's selection weights and the network edges rendered in the
+          visualization.
+        </p>
+      </section>
+
+      <!-- Section 5: Limitations -->
+      <section class="section" id="limitations">
+        <p class="section-label">Part V</p>
+        <h2>Limitations</h2>
+
+        <p>
+          Several gaps are worth naming honestly.
+        </p>
+
+        <p>
+          The candidate pool is only as good as the public lists and council prompts feeding
+          it. Structurally influential actors who don't appear in major rankings and don't
+          match council prompts may be systematically absent regardless of their actual
+          impact. The ranking pipeline then converts LLM judgments about relative influence
+          into ELO scores — judgments that reflect whatever priors the underlying models
+          carry about what "influence" means. They are not grounded in behavioral
+          observation or outcome data, and there is currently no formal evaluation of
+          ranking drift or ranking validity between runs.
+        </p>
+
+        <p>
+          News coverage is mediated by Perplexity's retrieval and summarization, not raw
+          web access. The briefings are therefore sensitive to what Perplexity surfaces in
+          its 7-day window, which may underrepresent niche but consequential developments
+          and overrepresent events that received broad media coverage.
+        </p>
+
+        <p>
+          Coactivation scores are LLM judgments about whether two actors' reported
+          activities this week are reinforcing or adversarial within a given domain. They
+          are observational proxies, not ground-truth measurements of actual cooperation or
+          conflict. The decay mechanism prevents scores from becoming entrenched, but it
+          also means that stable long-term relationships reset if they fall quiet for
+          several consecutive weeks.
+        </p>
+
+        <p>
+          The structural vocabulary — the CA and PS canons — is fixed between explicit
+          regeneration runs. As the real-world network of influence evolves, the model's
+          conceptual scaffolding may drift out of alignment with it, and there is currently
+          no automated mechanism for detecting or flagging that drift.
+        </p>
+
+        <p>
+          Finally, the pipeline is largely manually orchestrated. There is no continuous
+          integration, no automated evaluation framework, and no alert when artifact quality
+          degrades. The system is robust enough to produce weekly outputs, but it remains a
+          research prototype rather than a production intelligence service. It is best
+          understood as a structured way of paying attention — one that makes its priors
+          and selection logic explicit, rather than hiding them inside an analyst's intuition.
+        </p>
+      </section>
+
+    </div><!-- /impl-view -->
 
     <!-- CTA -->
     <div class="viz-cta">
@@ -375,6 +546,16 @@
     </div>
 
   </div>
+
+  <script>
+    function showTab(tab) {
+      document.getElementById('theory-view').style.display = tab === 'theory' ? '' : 'none';
+      document.getElementById('impl-view').style.display   = tab === 'impl'   ? '' : 'none';
+      document.querySelectorAll('.tab-btn').forEach(function(b) {
+        b.classList.toggle('active', b.dataset.tab === tab);
+      });
+    }
+  </script>
 
 </body>
 </html>
