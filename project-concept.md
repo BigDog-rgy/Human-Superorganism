@@ -1,66 +1,83 @@
 # Prime Mover Tracker - Project Concept
 
-*Updated: March 15, 2026*
+*Updated: March 26, 2026*
 
 ## What This Project Is
-Prime Mover Tracker is a prototype intelligence system for tracking which living actors most shape large political, economic, technological, and institutional systems.
+Prime Mover Tracker is a prototype intelligence pipeline for tracking which living actors most shape large political, economic, technological, and institutional systems.
 
-It is not just a ranking project. The system is trying to do four linked jobs:
+It is not just a ranking exercise. The working system is trying to do six linked jobs:
 
-- maintain a working roster of relevant actors
-- rank their current influence within a scope
-- map them into recurring structural dynamics and organizational clusters
-- update that picture weekly from fresh evidence
+- build a broad candidate universe
+- reduce and rank that universe into a scoped roster of prime movers
+- map those actors into recurring cell assemblies and phase sequences
+- fetch weekly evidence about what is active right now
+- maintain a lightweight memory of reinforcing and adversarial co-activation
+- expose the resulting structure through analyst-facing artifacts and visualization
 
-The project currently operates in two scopes:
+The repository currently operates in two scopes:
 
 - US
 - Global
 
 ## Current Reality
-The repo is now a working multi-stage pipeline. It produces ranked lists, superorganism models, weekly briefings, persistent Hebbian state, and an interactive visualization.
+This repo is no longer just a concept sketch. It already contains a multi-stage pipeline with persisted artifacts for both scopes.
 
-The important distinction is this:
+The active system today produces:
 
-- the ranking, briefing, state-update, and visualization loop is implemented
-- the next-generation learning model is designed but not yet integrated
+- candidate pools and compiled master lists
+- filtered and ranked prime mover lists
+- phase-sequence and cell-assembly canons
+- assembled superorganism model JSON files
+- weekly briefings in JSON and Markdown
+- persistent coactivation state
+- a combined interactive HTML visualization
 
-That distinction matters because some of the most ambitious ideas in the repo are still proposals, while the live system still runs on neuron-to-phase-sequence Hebbian weights.
+The most important architectural clarification is this:
 
-## Implemented System
+- the live weekly memory layer is `coactivation_updater.py`
+- the older `hebbian_updater.py` path is referenced in some documents and docstrings, but that file is not present in the current codebase
 
-### 1) Candidate Ingestion
-Candidate coverage starts from structured public lists and then expands through LLM-assisted sourcing.
+So the running system has weekly learning, but it is centered on pairwise neuron-neuron and CA-CA coactivation scores, not on the older direct neuron-to-phase-sequence weight file described in some historical notes.
 
-Current inputs include:
+## Implemented Pipeline
 
-- `scrape_all_sources.py`
+### 1) Candidate Ingestion and Pool Building
+Candidate coverage starts with structured public lists and then expands through LLM-assisted councils for harder-to-source categories.
+
+Key files in `candidate_pool/`:
+
 - `scrape_forbes.py`
 - `scrape_congress.py`
 - `scrape_world_leaders.py`
-- council scripts for additional candidate pools such as tech, LLM, and other underrepresented actors
+- `scrape_all_sources.py`
+- `tech_executives_council.py`
+- `us_llm_council.py`
+- `other_candidates_us_council.py`
+- `other_candidates_global_council.py`
 - `compile_master_lists.py`
 
-This produces scope-specific master pools such as:
+This layer produces scope-specific pool artifacts such as:
 
 - `master_list_us.json`
 - `master_list_global.json`
 
-The design goal is broad coverage first, then selection pressure.
+The current design is coverage-first. Public lists provide baseline recall; council-generated pools widen the field before ranking pressure is applied.
 
 ### 2) Ranking Pipeline
-The ranking layer is much more concrete than the original concept implied. The current stack is:
+The ranking stack is concrete and fairly mature.
 
-- `tournament_filter.py`
-  Uses grouped LLM comparison rounds to reduce the candidate pool
-- `swiss_elo.py`
-  Produces a broader influence ordering through repeated pairwise comparisons
-- `boundary_elo.py`
-  Re-ranks candidates near the inclusion cutoff
-- `merge_council_results.py`
-  Calibrates newly surfaced candidates into an existing ranked list
+Current ranking flow:
 
-Key artifacts include:
+1. `candidate_pool/tournament_filter.py`
+   Reduces the master pool through two rounds of grouped LLM comparison, with source-aware handling so niche but meaningful domains are not immediately crushed by billionaire-heavy pools.
+2. `candidate_pool/swiss_elo.py`
+   Runs scope-specific Swiss-style head-to-head ELO rounds on the filtered list.
+3. `candidate_pool/boundary_elo.py`
+   Re-ranks the cutoff window where inclusion noise matters most:
+   - US cutoff at top 150
+   - Global cutoff at top 300
+
+Primary outputs:
 
 - `filtered_list_us.json`
 - `filtered_list_global.json`
@@ -69,174 +86,199 @@ Key artifacts include:
 - `final_ranked_us.json`
 - `final_ranked_global.json`
 
-### 3) Canonical Vocabulary
-The project treats influence as structured activity, not just a list of names. That structural layer is represented by:
+This means the ranked roster is not hand-maintained. It is produced by an explicit reduction-and-refinement pipeline.
 
-- phase sequences
+### 3) Canonical Vocabulary
+The project treats influence as organized behavior, not just a list of names. That structural layer is represented by:
+
 - cell assemblies
+- phase sequences
 
 Current scripts:
 
-- `ps_council.py`
-  Generates canonical phase sequences plus initial neuron-to-PS weights
-- `ca_council.py`
-  Generates the original CA canon
 - `ca_council_v2.py`
-  New neuron-centric CA generation pipeline with batching, deduplication, and ELO narrowing
+  Generates canonical cell assemblies through neuron-centric proposals, deduplication, and ELO narrowing
+- `ps_council_v2.py`
+  Generates canonical phase sequences and assigns CAs to PS domains through a multi-model council plus chairman synthesis
 
-Current implementation state is asymmetric:
+Primary outputs:
 
-- US assembly generation has already shifted toward `ca_canon_v2_us.json`
-- global assembly generation still points at the older CA canon path in the main assembly flow
+- `ca_canon_v2_us.json`
+- `ca_canon_v2_global.json`
+- `ps_canon_v2_us.json`
+- `ps_canon_v2_global.json`
 
-This is one of the clearest signs that the project is in an active transition rather than a frozen architecture.
+This is an important shift from earlier versions of the repo. The current assembly flow is built around the v2 canons for both scopes.
 
 ### 4) Superorganism Assembly
-`superorganism_assembler.py` is the main data assembly step.
+`superorganism_assembler.py` is the hub assembly step.
 
 It combines:
 
-- final ranked people
-- PS canon
-- CA canon
+- ranked prime movers from `final_ranked_{scope}.json`
+- phase-sequence canon from `ps_canon_v2_{scope}.json`
+- cell-assembly canon from `ca_canon_v2_{scope}.json`
 
-Outputs:
+It then writes:
 
 - `us_superorganism_model.json`
 - `superorganism_model.json`
 
-These models are the hub format used by the weekly briefing layer, the Hebbian updater, and the visualization.
+What the assembler is doing in practice:
 
-For the US path, the assembler currently reads `ca_canon_v2_us.json`.
-For the global path, it still reads `ca_canon_global.json`.
+- limits the model to the top ranked roster for that scope
+- attaches each person to cell assemblies
+- derives phase-sequence memberships by chaining neuron -> CA -> PS
+- creates the model format consumed downstream by briefing generation and visualization
+
+This model JSON is the central exchange format of the repo.
 
 ### 5) Weekly Briefing Layer
-`weekly_briefing.py` is the active weekly evidence-ingestion engine for both scopes.
+`weekly_briefing.py` is the active weekly evidence-ingestion script for both scopes.
 
-Supported entry points:
+Entry points:
 
-- `python weekly_briefing.py`
+- `python weekly_briefing.py --scope us`
 - `python weekly_briefing.py --scope global`
 
-The weekly process is staged:
+What the script actually does:
 
-1. Fetch recent news per phase sequence.
-2. Score phase-sequence activation.
-3. Fire relevant cell assemblies from the network.
-4. Select people for targeted coverage using structural memberships plus Hebbian weighting.
-5. Add spontaneous coverage so dormant actors still get sampled over time.
-6. Save raw fetch outputs for retry and audit.
-7. Synthesize structured weekly briefing output.
+1. Loads the relevant superorganism model.
+2. Loads sparse fetch state from `state/fetch/`.
+3. Loads coactivation state from `state/coactivation/` if available.
+4. Fetches recent PS-level news via Perplexity.
+5. Scores PS activation.
+6. Selects cell assemblies under the active PSes using coactivation-informed sampling.
+7. Selects conscious neurons using PS membership, CA membership, and neuron coactivation signals.
+8. Adds spontaneous neuron coverage so dormant actors are still periodically sampled.
+9. Fetches person-level news for the selected actors.
+10. Synthesizes final weekly briefing artifacts.
 
-Artifacts are written into `briefings/` as JSON and Markdown, with raw JSON snapshots for re-synthesis without re-fetching.
+Outputs are written into `briefings/` as:
+
+- synthesized JSON
+- synthesized Markdown
+- raw JSON snapshots for audit and regeneration
+
+The weekly process is therefore not just "news summarization." It is a structured attention-and-selection loop over the current superorganism model.
 
 ### 6) Persistent Learning State
-`hebbian_updater.py` maintains persistent weekly state for both scopes.
+The live persistent state layer is `coactivation_updater.py`.
 
-Supported entry points:
+Entry points:
 
-- `python hebbian_updater.py --bootstrap`
-- `python hebbian_updater.py`
-- `python hebbian_updater.py --bootstrap --scope global`
-- `python hebbian_updater.py --scope global`
+- `python coactivation_updater.py --bootstrap --scope us`
+- `python coactivation_updater.py --bootstrap --scope global`
+- `python coactivation_updater.py --scope us`
+- `python coactivation_updater.py --scope global`
+- `python coactivation_updater.py --status --scope us`
+- `python coactivation_updater.py --status --scope global`
 
-What is implemented today:
+What it stores:
 
-- neuron-to-phase-sequence weights (`neuron_dps_weights`)
-- weekly decay for quiet actors
-- strengthening for notable activity
-- weakening for concerning activity
-- extra adjustment from cooperative or adversarial edge signals
+- neuron-neuron coactivation scores
+- cell-assembly to cell-assembly coactivation scores
+- decay and update metadata
 
-This gives the system actual memory across weeks, but it is still the earlier, flatter learning design.
+What it does each week:
 
-### 7) Visualization
-`combined_viz.py` generates the main analyst-facing visualization.
+- reads the latest synthesized briefing for the relevant scope
+- decays existing scores toward zero
+- evaluates pairwise relationships among conscious active neurons and active assemblies
+- records whether pairs were reinforcing, adversarial, or neutral
+- updates rolling sparse state in:
+  - `state/coactivation/us_coactivation_state.json`
+  - `state/coactivation/global_coactivation_state.json`
+
+This is the current memory system that materially affects later briefing selection and visualization edges.
+
+## Visualization
+`combined_viz.py` generates the main analyst-facing HTML network view.
 
 It currently supports:
 
-- US and global scope switching
-- neuron and cell-assembly views
-- Hebbian overlays where state exists
+- US and global datasets
+- neuron view and cell-assembly view
+- coactivation-informed edge rendering when state exists
+- briefing-aware overlays and legends
+- local serving in a browser
 
-The current viz still computes neuron-level edge strength from shared PS weights rather than from learned neuron-neuron edges. That matches the current state model and also marks a clear boundary between the live implementation and the next proposed learning architecture.
+The visualization now relies primarily on coactivation state for learned edges. Some internal comments and fallback text still mention "Hebbian" edges because this code evolved out of the earlier weight-based design, but the active learned layer in the current repo is the coactivation state.
 
 ## What Is Implemented vs Proposed
 
 ### Implemented Now
 
-- candidate sourcing and list compilation
-- tournament and ELO-based ranking
-- PS canon generation
-- CA canon generation, including a newer US-focused v2 path
-- superorganism assembly
-- weekly news ingestion and synthesis for US and global
-- persistent Hebbian updates using neuron-to-PS weights
-- interactive HTML visualization
+- candidate scraping and council-based pool expansion
+- master list compilation
+- tournament filtering plus Swiss ELO ranking plus cutoff refinement
+- v2 cell-assembly canon generation
+- v2 phase-sequence canon generation with CA-PS assignment
+- superorganism model assembly
+- weekly US and global briefing generation
+- persistent coactivation learning state
+- interactive combined visualization
 
-### Proposed / In Progress
+### Proposed / Not Yet Integrated
 
-- replacement of flat neuron-to-PS weights with:
-  - neuron-neuron weights
-  - neuron-cell-assembly weights
-  - cell-assembly-to-phase-sequence weights
-- homeostatic normalization and other drift guardrails
-- deeper use of learned CA structure in briefing selection and viz edges
-- stronger historical logging and queryability across many weeks
+The main future-facing design is captured in `learning_proposal.md`.
 
-The working design for that next step is captured in `learning_proposal.md`, but it is not yet the behavior of the running pipeline.
+That proposal describes replacing older flat neuron-to-PS logic with a more structurally faithful hierarchy:
 
-## Operating Loop
-The practical operating cadence is now:
+- neuron-neuron weights
+- neuron-cell-assembly weights
+- cell-assembly to phase-sequence weights
+- homeostatic normalization and drift guardrails
 
-1. Refresh candidate pools when the universe changes.
-2. Re-run ranking when the roster needs updating.
-3. Regenerate PS and CA canon when the structural vocabulary is revised.
-4. Assemble the superorganism model.
-5. Run `weekly_briefing.py` for US and/or global.
-6. Run `hebbian_updater.py` to apply the latest weekly evidence.
-7. Run `combined_viz.py` to inspect the resulting network.
+Important caveat: this proposal is still a design document. It is not the behavior of the running pipeline today.
+
+## Practical Operating Loop
+The working cadence for the repo is now:
+
+1. Refresh candidate pools when the universe changes materially.
+2. Rebuild master lists.
+3. Re-run ranking when the roster needs to be refreshed.
+4. Regenerate CA and PS canons when the structural vocabulary changes.
+5. Reassemble the superorganism model.
+6. Bootstrap coactivation state if needed.
+7. Run `weekly_briefing.py` for US and/or global.
+8. Run `coactivation_updater.py` to learn from the latest briefing.
+9. Run `combined_viz.py` to inspect the resulting network.
 
 In practice there are two tempos:
 
-- a slower structural tempo for roster, ranking, and canon work
-- a weekly tempo for evidence ingestion and learning-state updates
-
-## What The Project Is Becoming
-The clearest trajectory is an evidence-linked longitudinal intelligence system with four layers:
-
-- roster layer: who belongs in the field
-- ranking layer: who currently matters most
-- structure layer: what assemblies and phase sequences organize the field
-- momentum layer: what changed this week and how it shifts the network
-
-If the current pipeline is stabilized, the project could support:
-
-- weekly analyst briefings
-- person-level momentum history
-- assembly-level and phase-sequence-level change tracking
-- coalition and conflict shift detection
-- more explicit alerting around sharp network changes
+- a slower structural tempo for pool building, ranking, and canon work
+- a weekly tempo for briefing generation, coactivation updates, and review
 
 ## Main Gaps
-The repo is already substantial, but it is still prototype-shaped in several ways:
+The repo is already substantive, but it is still prototype-shaped in several important ways:
 
-- orchestration is mostly manual
-- naming and entry-point docs have some drift from the live scripts
-- historical storage is artifact-based rather than query-first
-- provenance is stronger in raw outputs than in the end presentation
+- orchestration is still mostly manual
+- documentation has drifted from the live scripts in several places
+- historical "Hebbian updater" language still exists even though the active weekly memory path is coactivation-based
 - evaluation of ranking quality and briefing quality is still informal
-- US and global paths are not perfectly symmetrical yet
-- the new hierarchical learning design is not implemented
+- provenance is stronger in raw artifacts than in top-level documentation
+- the pipeline is artifact-driven rather than query-first
+- browser-facing visualization and script comments still reflect some legacy terminology
+
+## Immediate Documentation Truths
+Anyone working in this repo should keep these points straight:
+
+- `project-concept.md`, `startup.txt`, and some docstrings previously described a `hebbian_updater.py` loop
+- the active weekly updater in the current tree is `coactivation_updater.py`
+- `weekly_briefing.py` already consumes coactivation state during selection
+- `superorganism_assembler.py` now uses v2 canons for both US and global
+
+Those points explain a lot of the apparent architectural contradiction when reading the repo for the first time.
 
 ## Near-Term Direction
-The most defensible next sequence is:
+The most defensible next sequence appears to be:
 
-1. Align the pipeline documentation with the actual script entry points and files.
-2. Finish the CA v2 transition so US and global assembly handling are architecturally consistent.
-3. Replace `neuron_dps_weights` with the proposed hierarchical weight system.
-4. Add better run logging, historical snapshots, and provenance visibility.
-5. Improve evaluation for ranking drift, briefing quality, and false-signal accumulation.
+1. Finish documentation cleanup so entry points, artifact names, and architectural claims all match the live code.
+2. Decide whether coactivation is the intended long-term learning layer or just a bridge toward the richer hierarchical state in `learning_proposal.md`.
+3. If the hierarchical design is still the target, implement it in the live pipeline rather than leaving it as a parallel paper design.
+4. Add better run logging, historical summaries, and evaluation around ranking drift and briefing quality.
+5. Move from artifact inspection toward more queryable historical state.
 
 ## Guiding Principle
-Treat influence as a changing system of actors, organizations, and strategic dynamics under continuous evidence update, not as a static list of famous people.
+Treat influence as an evolving system of actors, assemblies, and strategic dynamics under continuous evidence update, not as a static list of famous people.

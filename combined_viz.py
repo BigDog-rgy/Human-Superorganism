@@ -198,6 +198,13 @@ def build_global_legend_html(briefing: dict | None = None) -> str:
             )
 
         feed_html = ""
+        exec_summary = briefing.get("executive_summary", "")
+        if exec_summary:
+            feed_html += (
+                f"<div style='font-size:11px;color:#c9d1d9;line-height:1.6;margin-bottom:10px;"
+                f"padding:6px 8px;background:rgba(255,255,255,0.03);border-radius:4px'>{exec_summary}</div>"
+                f"<hr style='border-color:#30363d;margin:6px 0 10px 0'>"
+            )
 
         if ps_updates:
             feed_html += "<div style='font-size:11px;font-weight:700;color:#58a6ff;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px'>Phase Sequences</div>"
@@ -551,9 +558,11 @@ def build_network(
         )
 
         pos = positions.get(person["name"], [0, 0]) if positions else [None, None]
+        full_name = person["name"]
+        display_label = full_name[:25] + "…" if len(full_name) > 25 else full_name
         net.add_node(
-            person["name"],
-            label=person["name"],
+            full_name,
+            label=display_label,
             color={"background": color, "border": border,
                    "highlight": {"background": color, "border": "#ffffff"}},
             size=size,
@@ -834,6 +843,13 @@ def build_us_legend_html(briefing: dict | None = None) -> str:
             )
 
         feed_html = ""
+        exec_summary = briefing.get("executive_summary", "")
+        if exec_summary:
+            feed_html += (
+                f"<div style='font-size:11px;color:#c9d1d9;line-height:1.6;margin-bottom:10px;"
+                f"padding:6px 8px;background:rgba(255,255,255,0.03);border-radius:4px'>{exec_summary}</div>"
+                f"<hr style='border-color:#30363d;margin:6px 0 10px 0'>"
+            )
 
         if ps_updates:
             feed_html += "<div style='font-size:11px;font-weight:700;color:#58a6ff;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px'>Phase Sequences</div>"
@@ -919,6 +935,13 @@ def build_us_asm_legend_html(briefing: dict | None = None) -> str:
         ps_updates = briefing.get("phase_sequence_updates", [])
         ca_updates = [a for a in briefing.get("assembly_updates", []) if a.get("signal", "active") == "active"]
         feed_html  = ""
+        exec_summary = briefing.get("executive_summary", "")
+        if exec_summary:
+            feed_html += (
+                f"<div style='font-size:11px;color:#c9d1d9;line-height:1.6;margin-bottom:10px;"
+                f"padding:6px 8px;background:rgba(255,255,255,0.03);border-radius:4px'>{exec_summary}</div>"
+                f"<hr style='border-color:#30363d;margin:6px 0 10px 0'>"
+            )
 
         if ps_updates:
             feed_html += "<div style='font-size:11px;font-weight:700;color:#58a6ff;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px'>Phase Sequences</div>"
@@ -1053,6 +1076,13 @@ def build_global_asm_legend_html(briefing: dict | None = None) -> str:
         ps_updates = briefing.get("phase_sequence_updates", [])
         ca_updates = [a for a in briefing.get("assembly_updates", []) if a.get("signal", "active") == "active"]
         feed_html  = ""
+        exec_summary = briefing.get("executive_summary", "")
+        if exec_summary:
+            feed_html += (
+                f"<div style='font-size:11px;color:#c9d1d9;line-height:1.6;margin-bottom:10px;"
+                f"padding:6px 8px;background:rgba(255,255,255,0.03);border-radius:4px'>{exec_summary}</div>"
+                f"<hr style='border-color:#30363d;margin:6px 0 10px 0'>"
+            )
 
         if ps_updates:
             feed_html += "<div style='font-size:11px;font-weight:700;color:#58a6ff;margin-bottom:4px;text-transform:uppercase;letter-spacing:0.5px'>Phase Sequences</div>"
@@ -1310,9 +1340,11 @@ def build_us_network(
         )
 
         pos = positions.get(person["name"], [0, 0]) if positions else [None, None]
+        full_name = person["name"]
+        display_label = full_name[:25] + "…" if len(full_name) > 25 else full_name
         net.add_node(
-            person["name"],
-            label=person["name"],
+            full_name,
+            label=display_label,
             color={"background": color, "border": border,
                    "highlight": {"background": color, "border": "#ffffff"}},
             size=size,
@@ -1495,9 +1527,11 @@ def build_assembly_network(
         )
 
         pos = positions.get(ca["id"], [0, 0]) if positions else [None, None]
+        full_name = ca["name"]
+        display_label = full_name[:25] + "…" if len(full_name) > 25 else full_name
         net.add_node(
             ca["id"],
-            label=ca["name"],
+            label=display_label,
             color={"background": color, "border": border,
                    "highlight": {"background": color, "border": "#ffffff"}},
             size=size,
@@ -1815,6 +1849,10 @@ def build_combined_html(
       if (pinnedNodeId !== null) return;
       hideTooltip();
     });
+    network.on('zoom', function() { applyLabelVisibility(network.getScale()); });
+    network.on('selectNode', function() { applyLabelVisibility(network.getScale()); });
+    network.on('deselectNode', function() { applyLabelVisibility(network.getScale()); });
+    applyLabelVisibility(network.getScale());
     network.on('click', function(p) {
       var tip = document.getElementById('custom-tooltip');
       if (p.nodes && p.nodes.length > 0) {
@@ -1885,6 +1923,7 @@ window.switchView = function(scope, viewType) {
   var ds = datasets[key];
   if (!ds) return;
   network.setData(ds);
+  applyLabelVisibility(network.getScale());
   window.updateTooltipMap(scope, viewType);
   allNodes = ds.nodes.get({returnType: 'Object'});
   allEdges = ds.edges.get({returnType: 'Object'});
@@ -1970,6 +2009,29 @@ window.clearSearch = function() {
 </script>
 """
 
+    zoom_label_js = """<script type="text/javascript">
+var LABEL_ZOOM_THRESHOLD = 1.0;
+window.applyLabelVisibility = function(scale) {
+  var nodeMap = {
+    'global_neuron':   globalNeuronNodes,
+    'us_neuron':       usNeuronNodes,
+    'global_assembly': globalAsmNodes,
+    'us_assembly':     usAsmNodes,
+  };
+  var nodes = nodeMap[currentScope + '_' + currentViewType];
+  if (!nodes) return;
+  var showLabels = scale >= LABEL_ZOOM_THRESHOLD;
+  var selectedIds = (typeof network !== 'undefined') ? network.getSelectedNodes() : [];
+  var updates = [];
+  nodes.forEach(function(node) {
+    var isSelected = selectedIds.indexOf(node.id) !== -1;
+    updates.push({id: node.id, font: {color: (showLabels || isSelected) ? '#e6edf3' : 'rgba(0,0,0,0)'}});
+  });
+  nodes.update(updates);
+};
+</script>
+"""
+
     body_injection = (
         TOOLTIP_DIV
         + controls_html
@@ -1981,6 +2043,7 @@ window.clearSearch = function() {
         + PS_DETAIL_PANEL_HTML
         + NEWS_MODAL_HTML
         + tooltip_dicts_js
+        + zoom_label_js
         + tooltip_listener_js
         + switch_view_js
         + _build_ps_panel_js(ps_panel_data or {})
