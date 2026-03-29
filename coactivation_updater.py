@@ -10,8 +10,10 @@ For each PS that fired CAs in the latest briefing:
 Scoring:
   reinforcing = +1, neutral = 0, adversarial = -1
   Rolling update: score += observation * learning_rate  (then decayed weekly)
-  Only conscious neurons with active signal are included in N-N pairs.
-  Spontaneous neurons are never included in pairwise comparisons.
+  Stage 1 (per-PS): only conscious neurons and consciously fired CAs, evaluated
+  within each PS's domain.
+  Stage 2 (global): all fetched neurons (conscious + spontaneous) and all fetched
+  CAs (consciously fired + spontaneous), evaluated against the executive summary.
 
 Usage:
     python coactivation_updater.py --bootstrap   # initialise empty state
@@ -247,6 +249,8 @@ def update_pair(
 def run_update(briefing: dict, model: dict, state: dict, client: anthropic.Anthropic):
     meta                = briefing.get("_metadata", {})
     conscious_names     = set(meta.get("neurons_conscious", []))
+    spontaneous_names   = set(meta.get("neurons_spontaneous", []))
+    spontaneous_ca_ids  = set(meta.get("assemblies_spontaneous", []))
     ps_assemblies_fired = meta.get("ps_assemblies_fired", {})
     week                = briefing.get("week_ending", date.today().isoformat())
     executive_summary   = briefing.get("executive_summary", "")
@@ -344,9 +348,9 @@ def run_update(briefing: dict, model: dict, state: dict, client: anthropic.Anthr
     if executive_summary:
         print(f"\n[GLOBAL — cross-PS pairs]")
 
-        # All conscious neurons with active signal and summary
+        # All fetched neurons (conscious + spontaneous) with active signal and summary
         global_eligible_neurons = sorted([
-            n for n in conscious_names
+            n for n in (conscious_names | spontaneous_names)
             if person_updates.get(n, {}).get("signal", "active") == "active"
             and person_updates.get(n, {}).get("summary", "")
         ])
@@ -354,7 +358,7 @@ def run_update(briefing: dict, model: dict, state: dict, client: anthropic.Anthr
             (a, b) for a, b in combinations(global_eligible_neurons, 2)
             if pair_key(a, b) not in compared_nn_keys
         ]
-        print(f"  N-N: {len(global_eligible_neurons)} conscious neurons -> {len(global_nn_pairs)} novel pairs")
+        print(f"  N-N: {len(global_eligible_neurons)} fetched neurons -> {len(global_nn_pairs)} novel pairs")
 
         for name_a, name_b in global_nn_pairs:
             key = pair_key(name_a, name_b)
@@ -370,19 +374,23 @@ def run_update(briefing: dict, model: dict, state: dict, client: anthropic.Anthr
             except Exception as e:
                 print(f"    ! {name_a} × {name_b}: {e}")
 
-        # All consciously fired CAs with active signal and summary
-        all_conscious_ca_ids = sorted(set(
+        # All fetched CAs (consciously fired + spontaneous) with active signal and summary
+        all_global_ca_ids = sorted(set(
             ca_id
             for fired_ca_ids in ps_assemblies_fired.values()
             for ca_id in fired_ca_ids
             if ca_updates.get(ca_id, {}).get("signal", "active") == "active"
             and ca_updates.get(ca_id, {}).get("summary", "")
-        ))
+        ) | {
+            ca_id for ca_id in spontaneous_ca_ids
+            if ca_updates.get(ca_id, {}).get("signal", "active") == "active"
+            and ca_updates.get(ca_id, {}).get("summary", "")
+        })
         global_cc_pairs = [
-            (a, b) for a, b in combinations(all_conscious_ca_ids, 2)
+            (a, b) for a, b in combinations(all_global_ca_ids, 2)
             if pair_key(a, b) not in compared_cc_keys
         ]
-        print(f"  CA-CA: {len(all_conscious_ca_ids)} conscious CAs -> {len(global_cc_pairs)} novel pairs")
+        print(f"  CA-CA: {len(all_global_ca_ids)} fetched CAs -> {len(global_cc_pairs)} novel pairs")
 
         for ca_a, ca_b in global_cc_pairs:
             key = pair_key(ca_a, ca_b)
