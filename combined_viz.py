@@ -2072,6 +2072,7 @@ window.applyLabelVisibility = function(scale) {
         '<ul class="nav-links">'
         '<li><a href="/explainer.html">Explainer</a></li>'
         '<li><a href="/combined_viz.html" class="active">Visualization</a></li>'
+        '<li><a href="https://github.com/BigDog-rgy/Human-Superorganism" target="_blank" rel="noopener">GitHub</a></li>'
         '</ul>'
         '</nav>'
     )
