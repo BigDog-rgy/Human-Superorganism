@@ -1,0 +1,505 @@
+{
+  "scope": "us",
+  "week_start": "2026-03-25",
+  "week_end": "2026-04-01",
+  "ps_news_items": [
+    {
+      "id": "DPS-01",
+      "name": "Executive Power Consolidation",
+      "summary": "No significant developments in **executive power consolidation** occurred from March 25 to April 1, 2026, as search results highlight only minor presidential actions like proclamations (e.g., Greek Independence Day on March 24 and FEMA Review Council continuance on March 26) without evidence of executive orders, agency reorganizations, personnel changes, DOGE initiatives, or OMB directives targeting bureaucratic control[5][6]. Earlier actions, such as the March 13 EO adjusting Defense Production Act delegations between Commerce and Energy departments, fall outside the weekly window and do not indicate ongoing momentum in structural changes or compliance/resistance[2][3]. Legal challenges or departmental responses remain unmentioned in recent sources, confirming a lull in this domain[1][4][7][8].\n\n**2**",
+      "activation_score": 5
+    },
+    {
+      "id": "DPS-02",
+      "name": "AI Dominance Race",
+      "summary": "No major developments in the AI dominance race occurred from March 25 to April 1, 2026, based on available sources, with the most recent relevant event being Oracle and Block's AI-driven job cuts announced on March 3.[1] Ongoing U.S. policy shifts under President Trump, including revocation of Biden-era AI export bans on mid-range chips like Nvidia's H200 and the unveiling of a National AI Legislative Framework, continue to emphasize American leadership against China but lack specific actions dated to the queried week.[3][8] Broader geopolitical tensions persist, highlighted by discussions at the India AI Impact Summit and China's model advancements, yet no new model releases, compute deals, funding rounds, or partnerships were reported in this period.[2][5]\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-03",
+      "name": "Judicial Pipeline & Doctrinal Shift",
+      "summary": "No major developments occurred in the **judicial pipeline and doctrinal shift** domain from March 25 to April 1, 2026, as search results highlight prior actions like the Supreme Court's June 2025 addition of seven cases to its 2025-26 term docket (including campaign-finance and immigration issues) and the Federal Judicial Center's February 2026 removal of climate science guidance for judges.[1][4] Ongoing strategic litigation, such as Taylor v. Trump challenging Trump administration executive actions on death penalty commutations, remains pending without updates in the queried period.[5] No evidence of new nominations, confirmations, Federalist Society signaling, or major rulings indicates structural momentum.\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-04",
+      "name": "Fiscal-Monetary Stress Cycle",
+      "summary": "**No major developments occurred in the Fiscal-Monetary Stress Cycle from March 25 to April 1, 2026.** The FOMC on March 18 held its policy rate unchanged, deeming it appropriate amid solid economic expansion, resilient consumer spending, and inflation trending toward 2%, with plans to monitor data for future adjustments.[5] On March 31, Fed Chair Powell stated the central bank could \"wait and see\" on Middle East war impacts, viewing energy shocks as transient while noting anchored inflation expectations despite tensions between price stability and employment goals.[6] No new FOMC statements, Treasury issuance shifts, yield curve changes, or public frictions emerged in the queried week.[1][2]\n\n3",
+      "activation_score": 3
+    },
+    {
+      "id": "DPS-05",
+      "name": "Capital Allocation & Private Power",
+      "summary": "No major developments in capital allocation by alternative asset managers, venture funds, private equity firms, or billionaire investors occurred in the past week (2026-03-25 to 2026-04-01), as search results highlight earlier 2025 trends like EnCap's $6.5-6.8 billion oil/gas fund close, Quantum Energy Partners' $10 billion raise, and H1 2025 U.S. PE deal value up 50% with energy dominating top transactions[1][2]. Ongoing discussions emphasize a $1.2 trillion private credit funding gap for PE buyouts and rising energy sector allocations amid data center and renewable demand, but lack specific announcements or policy moves tied to the queried period[3]. Energy firms continue reprioritizing tech investments for volatile capital decisions, without notable deal flow, roll-ups, or lobbying in the timeframe[6].\n\n3",
+      "activation_score": 3
+    },
+    {
+      "id": "DPS-06",
+      "name": "Big Tech Regulatory Arbitrage",
+      "summary": "**SEC Enforcement Chief's resignation in late March 2026** created regulatory arbitrage favoring politically connected tech firms, particularly those tied to Trump allies or Musk ventures, by shifting cases toward lighter settlements over aggressive prosecution, repricing M&A multiples in fintech, clean energy, and defense tech.[1] Juries delivered major blows to Big Tech on content moderation liability, with a Los Angeles verdict holding Meta (70%) and Google (30%) accountable for $6M in youth harm damages via platform design flaws on March 21-27, serving as a bellwether for thousands of similar claims, while a New Mexico jury ordered Meta to pay $375M on March 24 for misleading safety claims, with platform changes possible in May.[3] President Trump's March 20 AI legislative framework pushed for uniform federal rules preempting state laws, aiming to boost innovation while addressing risks amid stalled crypto bills like the CLARITY Act.[5][6]\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-07",
+      "name": "Defense-Industrial Expansion",
+      "summary": "No major developments in defense-industrial expansion occurred from March 25 to April 1, 2026, based on available sources, with the most recent relevant activities being a March 11 Reagan Institute report critiquing slow Pentagon progress on scaling production and nontraditional vendors despite reform aspirations[1], and Chairman Rogers' March 4 hearing emphasizing multi-year munitions authorities and supply chain fixes for FY27 NDAA[2]. Earlier references, such as the January 2026 PAC-3 MSE agreement, highlight ongoing efforts to boost capacity via incentives but fall outside the weekly window[3]. This reflects persistent challenges in manufacturing, workforce, and China dependencies without new structural shifts, policy decisions, or contract milestones.\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-08",
+      "name": "Information Environment Contestation",
+      "summary": "**No major structural changes, policy moves, or business actions in information environment contestation occurred from March 25 to April 1, 2026.** The most relevant development was the Global Privacy Enforcement Network’s March 25 audit highlighting inadequate children’s data protections on platforms, including increased data collection and weak age verification, amid ongoing UK ICO enforcement against Reddit for age check failures.[2][4] Other items, like the EEAS FIMI report on rising AI-driven foreign manipulation (March 12) or Trump’s Truth Social order banning federal use of Anthropic AI models, predate the period or focus on tangential security issues without direct ties to narrative control or platform governance.[2][4] The week remained quiet on content moderation shifts, algorithmic changes, or ownership moves.\n\n**2**",
+      "activation_score": 5
+    },
+    {
+      "id": "DPS-09",
+      "name": "Energy Transition & Security",
+      "summary": "**No major developments occurred in US Energy Transition & Security from March 25 to April 1, 2026.** Search results highlight international actions, such as the European Commission's April 1 investigation into French state aid for six new nuclear reactors by EDF, aimed at enhancing electricity security and decarbonization[3]. US-relevant discussions include a forward-looking analysis on renewable energy tax credits post-2025 policy changes like the OBBBA, noting rising power demand from AI and data centers[4]. Broader context covers global energy outlooks on AI-driven demand[2] and Big Oil's pivot amid sustained hydrocarbon needs[5], but no regulatory approvals, DOE funding, capex announcements, permitting, or legislative moves specific to the US domain were reported.\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-10",
+      "name": "Coalition Machinery & Electoral Infrastructure",
+      "summary": "No significant developments in **coalition machinery and electoral infrastructure** occurred from 2026-03-25 to 2026-04-01, as search results highlight only longstanding resources on election security from the EAC and CISA, an undated executive order on voting reforms like citizenship proof and ballot deadlines, and unrelated older reports on infrastructure and coalitions.[1][2][3][5][6] No evidence appears of recent **fundraising flows**, **endorsement patterns**, **super PAC expenditures**, **dark-money activations**, **voter targeting**, or **ballot-access fights** indicating structural shifts or momentum.[1-6] Activity remains quiet, with focus limited to perennial preparedness guides rather than time-sensitive events.\n\n**1**",
+      "activation_score": 5
+    }
+  ],
+  "assembly_news_items": [
+    {
+      "id": "CA-031",
+      "name": "Amazon",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06"
+      ],
+      "raw_news": "Amazon CEO Andy Jassy announced a **$50 billion multi-year strategic partnership with OpenAI**, including a major investment to bolster AI capabilities across AWS and other divisions.[2] This alliance positions Amazon prominently in the **AI Dominance Race**, directly challenging rivals like Microsoft while leveraging cloud infrastructure for competitive edge.[1][2] The move coincides with a **€33.7 billion investment in Spain** for data centers to drive European AI innovation, marking Amazon's largest tech commitment there and enhancing **Big Tech regulatory arbitrage** through cross-border expansion.[2] Shares tumbled following the AI spending reveal, signaling market reactions to escalating power dynamics in AI infrastructure.[7]"
+    },
+    {
+      "id": "CA-012",
+      "name": "Alphabet Inc.",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06",
+        "DPS-08"
+      ],
+      "raw_news": "**Alphabet Inc. faces intensified antitrust scrutiny as the US Justice Department pushes for structural remedies in its search monopoly case during closing arguments in federal court.** Prosecutors seek to force Google to divest its **Chrome browser** and potentially **Android OS** to restore competition, following Judge Amit Mehta's prior ruling deeming its search dominance illegal[1]. Separately, Google agreed to a **$36 million fine** in Australia for anticompetitive deals with telcos that blocked rival search engines on smartphones, marking another regulatory hit amid global actions by Indonesia, India, Russia, and the EU[1]. These legal moves challenge Alphabet's core **search and AI** power amid ongoing dominance battles[1]."
+    },
+    {
+      "id": "CA-109",
+      "name": "Salesforce",
+      "ps_memberships": [
+        "DPS-06"
+      ],
+      "raw_news": "Based on the search results provided, the most significant Salesforce news from the past seven days is limited. The only event within the specified timeframe (March 25-April 1, 2026) is **Salesforce's recognition as one of the World's Most Ethical Companies for the 17th consecutive year on March 18, 2026**[2]. However, this is a routine annual recognition rather than a hard news event affecting power dynamics.\n\nThe most recent substantive business move in the search results is from **March 26, 2026, when the Veterans Health Administration (VHA) deployed a Salesforce-powered Agentic Operating System, reportedly saving thousands of staff hours for front-line veteran care**[7][8]. This represents a significant enterprise adoption milestone for Salesforce's AI agent technology in the public sector, demonstrating the company's expanding influence in critical government infrastructure.\n\nPrior to this week, notable developments include **Salesforce's acquisition of Momentum (a San Francisco startup) to enhance Agentforce 360 and Slack capabilities for enterprise sales teams**, and **ongoing workforce restructuring with layoffs announced in February 2026 alongside plans to cut 1,000 jobs to redeploy resources toward AI product development**[1]. These moves reflect Salesforce's strategic pivot toward agentic AI as its core competitive differentiator in enterprise technology."
+    },
+    {
+      "id": "CA-029",
+      "name": "Google",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06"
+      ],
+      "raw_news": "No significant hard news on Google matching the specified criteria—decisions, actions, positions, alliances, or organizational moves affecting power dynamics in **AI Dominance Race** or **Big Tech Regulatory Arbitrage**—emerged from approximately March 25 to April 1, 2026. Search results highlight general business developments like U.S.-China tariff suspensions and Federal Reserve statements on interest rates, but none involve Google or its core revenue-generating subsidiaries.[2] Coverage from major outlets like ABC News focuses on broader Wall Street and economy topics without Google-specific updates.[1]"
+    },
+    {
+      "id": "CA-060",
+      "name": "Oracle Corporation",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06"
+      ],
+      "raw_news": "**Oracle Corporation initiated a major global layoff round on March 31, 2026, affecting thousands of employees across the US, India, and other regions via abrupt termination emails stating \"today is your last working day.\"** The cuts, potentially reaching up to 30,000 jobs or 18% of its 162,000 workforce, target tech, operations, and development teams with some units losing nearly 30% of staff, as part of a fiscal 2026 restructuring plan costing up to $2.1 billion in severance.[1][2][3] This organizational move frees capital for Oracle's aggressive AI infrastructure expansion amid rising data center spending, boosting shares 6% on the news despite year-to-date declines.[1][2] No official company confirmation has been issued, with severance tied to signed separation documents under formulas like India's N+2.[1][2]"
+    },
+    {
+      "id": "CA-018",
+      "name": "Department of Government Efficiency (DOGE)",
+      "ps_memberships": [
+        "DPS-01"
+      ],
+      "raw_news": "Federal agencies terminated **141 wasteful contracts** last week with a ceiling value of **$5.1 billion**, achieving **$498 million in savings**, including a $526k USAID contract for a global health security advisor in Senegal and a $1.4M HHS professional services contract.[1]  \nThis action advances DOGE's mandate to cut expenditures and restructure agencies, contributing to its reported total estimated savings of **$199 billion** across various measures like contract cancellations and workforce reductions.[3]  \nThe Trump administration denied reports of DOGE's dissolution, stating it operates without a centralized entity while institutionalizing its efficiency principles across departments to eliminate fraud and abuse.[4]"
+    },
+    {
+      "id": "CA-001",
+      "name": "Trump White House",
+      "ps_memberships": [
+        "DPS-01"
+      ],
+      "raw_news": "**President Trump signed an executive order on March 31, 2026, targeting election integrity by restricting mail-in ballots to federally approved voters and addressing birthright citizenship.** This action, confirmed across White House releases and live coverage, consolidates executive influence over electoral processes amid ongoing power dynamics.[1][2][3][6][7] On the same day, he ended policies described as Democrats' \"Transgender for Everybody\" agenda, signaling a reversal of prior administration stances on social issues.[1] These moves underscore direct executive interventions without congressional reliance, though a federal judge halted White House ballroom construction on March 31, checking unilateral organizational changes.[4]"
+    },
+    {
+      "id": "CA-027",
+      "name": "Federal Bureau of Investigation",
+      "ps_memberships": [
+        "DPS-01"
+      ],
+      "raw_news": "I cannot provide the requested information based on the available search results. The search results provided contain only general background information about the FBI's structure, jurisdiction, and responsibilities, along with a reference to a March 24 rescue operation. They do not include any significant news about FBI decisions, actions, or organizational moves from the past week (March 25-April 1, 2026) related to executive power dynamics or leadership changes under the Trump administration.\n\nAdditionally, the search results do not confirm the premise of your query regarding current FBI leadership. The results indicate that Christopher Wray was appointed FBI Director by former President Donald Trump in 2018[1], but they do not provide information about current leadership or recent administrative changes as of April 2026.\n\nTo answer your query accurately, I would need search results containing recent news articles about FBI policy decisions, organizational moves, or significant statements from the past seven days."
+    },
+    {
+      "id": "CA-037",
+      "name": "Advance Publications",
+      "ps_memberships": [
+        "DPS-08"
+      ],
+      "raw_news": "No significant news about Advance Publications from March 25 to April 1, 2026, appears in available sources, with the most recent announcements—such as executive appointments like Amanda Roberts as Chief Talent Officer and Samuel Powers as Chief Development Officer—dating back to 2024.[1][2] These personnel moves aimed to bolster talent management, development, and growth strategy but fall outside the specified timeframe and do not indicate shifts in power dynamics within the information environment.[1][2] Absent hard news on decisions, actions, alliances, or organizational changes affecting influence, such as policy, business deals, or legal matters, no reportable developments occurred.[1][2][4][5]"
+    },
+    {
+      "id": "CA-161",
+      "name": "Clarity Media Group",
+      "ps_memberships": [
+        "DPS-08"
+      ],
+      "raw_news": "I cannot provide the requested news about Clarity Media Group from the past 7 days based on these search results. The search results contain outdated information—the most recent content dates to 2022 and earlier—and do not include any hard news from the period of March 25 to April 1, 2026. To answer your query about recent decisions, actions, positions, or organizational moves by Clarity Media Group, I would need access to current news sources from that specific timeframe."
+    },
+    {
+      "id": "CA-082",
+      "name": "Warner Bros. Discovery",
+      "ps_memberships": [
+        "DPS-08"
+      ],
+      "raw_news": "Warner Bros. Discovery confirmed on March 31, 2026, that it is exploring **strategic alternatives**, including a potential full company sale or divestitures, after receiving **unsolicited interest from multiple parties** such as Skydance Media, Comcast, and Netflix.[1]  \nThe board, influenced by stakeholder dynamics including John Malone's Liberty stake, initiated a **comprehensive review** to maximize shareholder value, proceeding alongside a planned mid-2026 split into Warner Bros. (streaming/studios) and Discovery Global (networks).[1]  \nThis move triggered a **10% share price surge** and an immediate **HBO Max price hike**, signaling aggressive positioning amid a competitive bidding environment that alters media power balances.[1]"
+    },
+    {
+      "id": "CA-145",
+      "name": "Turning Point USA",
+      "ps_memberships": [
+        "DPS-10"
+      ],
+      "raw_news": "**University of Arkansas TPUSA chapter disbanded on March 31, 2026**, abruptly cutting ties with the organization less than a week after CEO Erika Kirk's March 25 joint press conference with Gov. Sarah Huckabee Sanders announcing a statewide partnership to expand TPUSA on high school and college campuses.[2] The chapter president cited grievances over TPUSA's \"disingenuous and manipulative\" use of Charlie Kirk's name posthumously, signaling internal fractures that undermine the group's campus network and power dynamics.[2] This organizational rift follows Erika Kirk's endorsement of Vice President JD Vance for 2028, announced at TPUSA's annual conference, amid reports of conservative infighting.[1]"
+    },
+    {
+      "id": "CA-063",
+      "name": "Susquehanna International Group (SIG)",
+      "ps_memberships": [
+        "DPS-05",
+        "DPS-10"
+      ],
+      "raw_news": "**Susquehanna International Group (SIG), in partnership with Robinhood, completed the acquisition of 90% of MIAX Derivatives Exchange (MIAXdx) on January 20, 2026**, forming a CFTC-licensed joint venture for futures, derivatives, and prediction markets, with SIG as the day-one liquidity provider.[1][3] This business move strengthens SIG's position in the growing prediction markets sector, enabling operations to begin in 2026 and enhancing capital allocation through controlled exchange infrastructure.[1][3] Additionally, an SIG affiliate, Vastmere Strategic Investments, secured a board seat on TikTok USDS following its spinoff deal, deepening SIG's influence in U.S. digital media amid regulatory resolutions.[2]"
+    },
+    {
+      "id": "CA-069",
+      "name": "Americans for Prosperity",
+      "ps_memberships": [
+        "DPS-10"
+      ],
+      "raw_news": "Americans for Prosperity (AFP) celebrated the Georgia Senate's passage of HB 1116 on March 31, providing comprehensive property tax reform by mandating transparent notices and public hearings for tax increases, strengthening local fiscal accountability.[4] On the same day, AFP-Alabama hailed Governor Kay Ivey's signing of SB167, ending judicial deference at the state level in alignment with the 2024 Supreme Court ruling in Loper Bright Enterprises v. Raimondo, curbing administrative overreach.[4] AFP also hosted the \"One Big Beautiful Bash\" livestream from its Capitol Hill Freedom Embassy to mark the passage of legislation extending President Trump's tax cuts, initiating community efforts to promote its economic benefits nationwide.[3] In West Virginia, AFP named Matt Gallagher as Deputy State Director to bolster media strategy and coalition building ahead of primaries, expanding its electoral infrastructure.[1]"
+    },
+    {
+      "id": "CA-173",
+      "name": "Warner Music Group",
+      "ps_memberships": [],
+      "raw_news": "Based on the search results provided, the most significant recent news about Warner Music Group includes **three major partnership announcements from late March 2026**: Warner Chappell Music renewed its global deal with Stromae's Mosaert Label (March 11)[4], signed Colombian trap artist Kris R to a global publishing deal (March 27)[4], and extended a partnership with Aya Nakamura, the most-streamed female Francophone artist globally (March 26)[5]. Additionally, **Warner Music Group formed a creative partnership with Netflix for documentaries featuring artists and songwriters from its roster** (March 20)[5], and **Raúl Hernández Jr., a Música Mexicana powerhouse, announced a strategic partnership with Warner Music Mexico and FM Entertainment** (March 20)[4].\n\nThese moves reflect WMG's continued strategy of expanding its publishing operations and deepening artist relationships across diverse global markets while leveraging its roster for multimedia content opportunities.",
+      "spontaneous": true
+    },
+    {
+      "id": "CA-074",
+      "name": "Blackstone",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "Blackstone announced the final close of its **Blackstone Life Sciences VI fund** at a record **$6.3 billion**, the largest private life sciences fund ever, surpassing its predecessor by 40% and signaling expanded capital allocation in high-growth biotech amid rising private power demands.[1][2]\nSimultaneously, **Blackstone Energy Transition Partners** signed a definitive agreement to acquire a majority stake in **Advanced Cooling Technologies**, a U.S. thermal management firm, to boost manufacturing for data centers and computing, with closure expected in Q2 2026.[1][2]\nThese moves, alongside the completion of the 694MW hydrogen-capable **Magnolia Power Station** in Louisiana—powering over 500,000 homes—underscore Blackstone's aggressive positioning in energy infrastructure and strategic sectors.[1]",
+      "spontaneous": true
+    }
+  ],
+  "news_items": [
+    {
+      "name": "Tim Cook",
+      "domain": "CEO, Apple",
+      "raw_news": "**FTC Chairman Andrew Ferguson sent a warning letter to Tim Cook on March 25, 2026, questioning Apple News' curation practices for allegedly favoring left-wing outlets over conservative ones and urging a review of terms of service to comply with FTC consumer protection rules.[1][4]**\n\nThis regulatory scrutiny under the Trump administration heightens pressure on Apple's content moderation, potentially forcing changes that could expose Cook to accusations of ideological bias and complicate Big Tech's navigation of free speech versus antitrust enforcement.[1]\n\n**Tim Cook publicly defended Apple's close ties to the Trump administration, emphasizing a $600 billion U.S. investment commitment—including iPhone glass production in Kentucky and over 100 million chips in Arizona—while rejecting political labels and denying retirement rumors ahead of Apple's 50th anniversary on April 1.[2]**\n\nBy aligning with Trump's \"America First\" manufacturing push amid tariff exemptions, Cook bolsters Apple's position against geopolitical trade risks but risks alienating progressive stakeholders, reinforcing his strategy of policy pragmatism over partisanship.[2]\n\n**Apple quietly removed an \"ESG modifier\" from Tim Cook's and other executives' 2025 pay packages, eliminating board discretion to adjust bonuses by up to 10% based on environmental metrics like greenhouse gas reductions.[3]**\n\nThis retreat from ESG-linked compensation, mirroring moves at firms like Starbucks and amid a broader S&P 500 trend (down to 46.7% usage), signals Apple's prioritization of business metrics over sustainability mandates, potentially shielding Cook from regulatory or investor pushback in a shifting political climate.[3]"
+    },
+    {
+      "name": "Sundar Pichai",
+      "domain": "CEO, Alphabet/Google",
+      "raw_news": "Based on the search results provided, I can identify one significant recent development within the past 7 days:\n\n**Sundar Pichai Stock Vesting (March 25, 2026)**\nOn March 25, 2026, Pichai's 10,998 Class C Google Stock Units vested and converted to shares as part of a previously granted equity award, with 11,100 units withheld for tax obligations.[6] This reflects the ongoing execution of his compensation structure but carries limited strategic significance beyond routine equity management.\n\n**Limitation:** The search results lack substantive hard news from the March 25–April 1 period covering the three areas you specified (AI dominance race, regulatory arbitrage, information environment contestation). The most recent policy-relevant content in the results dates to earlier periods:\n\n- **Earlier in 2026:** Pichai warned staff of an \"intense\" 2026 due to fierce AI competition and received a $692 million performance-based pay package (announced March 7) tied to Waymo and Wing ventures.[4]\n- **February 2026:** Pichai was scheduled to appear at the India AI Impact Summit alongside other global AI leaders, positioning Google in geopolitical AI competition.[2]\n- **Pending:** Alphabet's $32 billion acquisition of cybersecurity firm Wiz (after rejecting a $23 billion proposal).[5]\n\nTo provide the 3–5 items you requested with substantive hard news from the exact timeframe, more recent search results covering late March and early April 2026 would be needed."
+    },
+    {
+      "name": "Thomas Kurian",
+      "domain": "CEO, Google Cloud",
+      "raw_news": "**Google Cloud, under CEO Thomas Kurian, leapfrogged Microsoft to become #1 on the Cloud Wars Top 10 rankings due to enterprise-focused AI, security, and customer alignment.** Kurian emphasized in a recent interview that understanding customer needs through \"customer empathy,\" rapid AI portfolio expansion like Gemini Enterprise and Vertex AI, and consistent revenue growth over 10 quarters drove this ascent from #9 in 2019.[1] This positions Kurian as a leader in the **AI dominance race**, solidifying Google Cloud's edge over rivals like Microsoft and enhancing his influence in enterprise AI adoption.\n\n**At Google Cloud Next 25 conference, Kurian addressed Trump tariff uncertainties and potential EU restrictions on US cloud services.** He reassured customers by highlighting technical safeguards like data location control and encryption to mitigate executive orders or trade disruptions.[3] This demonstrates Kurian's strategic navigation of **big tech regulatory arbitrage** and geopolitical risks, bolstering Google Cloud's global trust and competitive resilience amid rising tensions.\n\n**The US House Committee on Homeland Security requested Thomas Kurian to testify on AI, quantum computing, and hyperscale cloud advancements.** The letter urges examination of these technologies' national security implications.[6] This elevates Kurian's role in shaping **AI dominance race** policy discussions, potentially influencing US regulatory frameworks and Google Cloud's government positioning."
+    },
+    {
+      "name": "Jeff Bezos",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Bezos acquires The Hardwick Gazette, launching a local news buying spree.** On April 1, 2026, Jeff Bezos announced the purchase of the Vermont-based Hardwick Gazette, signaling the start of broader investments in local journalism.[3] This move bolsters his influence over the **information environment**, expanding control beyond The Washington Post to shape grassroots narratives amid **information environment contestation**.\n\nNo other hard news items—such as policy decisions, business moves, legal actions, geopolitical events, or significant public statements—directly involving Bezos in **AI dominance race**, **Big Tech regulatory arbitrage**, or **defense-industrial expansion** appeared in the past 7 days. Search results focused on unrelated personal events like weddings and lifestyle."
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "domain": "Secretary of Health and Human Services",
+      "raw_news": "**1. Congressional letter demands briefing on World Trade Center Health Program (WTCHP) staffing shortages and delays.**  \nOn March 19, 2026, Rep. Dan Goldman and colleagues wrote to Secretary Kennedy requesting an urgent briefing on WTCHP operational issues, including staffing reassignments, care delays for 9/11 survivors, and pending petitions for additional covered health conditions.[1]  \nThis highlights congressional scrutiny of HHS management under Kennedy, potentially constraining his executive autonomy in program administration.[1]\n\n**2. Governors urge swift release of Title X family planning funding ahead of deadline.**  \nOn March 25, 2026, 23 governors from the Reproductive Freedom Alliance pressed Kennedy to allocate $286.5 million in FY 2026 Title X funds before the April 1 renewal deadline to prevent service lapses for contraception and reproductive health care.[5]  \nThe pressure underscores tensions over HHS funding priorities, testing Kennedy's influence in balancing reproductive health allocations amid his administration's health policy shifts.[5]\n\n**3. Federal judge rules Kennedy improperly issued declaration on transgender health care treatments.**  \nOn March 20, 2026, a federal judge in Oregon ruled that HHS under Kennedy overreached by declaring puberty blockers and surgeries unsafe for gender dysphoria without proper procedures, warning of exclusion from federal programs like Medicare.[4]  \nThe decision represents a legal check on Kennedy's policy-making authority, limiting his ability to reshape transgender health guidelines through executive action.[4]\n\n**4. Two top HHS aides to Kennedy, including vaccine skeptic Deputy Secretary Jim O’Neill, depart amid restructuring.**  \nGeneral Counsel Mike Stuart and Deputy Secretary Jim O’Neill are leaving HHS due to agency restructuring, with O’Neill potentially moving elsewhere in government.[3]  \nThese exits signal internal instability in Kennedy's leadership team, which could weaken his position in advancing vaccine and health policy agendas.[3]"
+    },
+    {
+      "name": "Kash Patel",
+      "domain": "Director, Federal Bureau of Investigation",
+      "raw_news": "1. **Iran-linked Handala Hack Team breached FBI Director Kash Patel's personal email account**, accessing and leaking around 300 historical emails, photos, and documents like his resume, with the FBI confirming no government information was compromised and stating mitigation steps were taken.[1][2][3][5]\n   This incident exposes Patel to potential personal security vulnerabilities amid heightened Iran tensions, potentially undermining his credibility in leading FBI cybersecurity efforts without directly affecting his positional authority.[1][3][5]\n\n2. **FBI Director Kash Patel instructed agents in the San Francisco field office to redact files for public release**, described in media reports as \"smear files\" targeting a congressman.[6]\n   The move signals Patel's aggressive use of FBI resources to publicly challenge political adversaries, advancing executive power consolidation by weaponizing investigative materials against Congress.[6]"
+    },
+    {
+      "name": "Larry Page",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**Larry Page reincorporated multiple business entities, including his family office Koop, Flu Lab LLC, One Aero, and Dynatomics LLC, from California to Delaware (and some to Florida or Texas) by late December 2025, ahead of a proposed state wealth tax on billionaires.[1][2][3][4]**\n\nThis business move demonstrates **regulatory arbitrage** by Page to avoid a potential 5% tax on assets over $1 billion—equating to roughly $13 billion for his $270 billion net worth if applied retroactively from January 1, 2026—preserving his wealth and flexibility for AI and aviation investments like Dynatomics' aircraft manufacturing AI.[1][4]\n\n**A source close to Page confirmed he had already left California personally, amid reports of considering a move to Florida due to the tax proposal.[1][3][4]**\n\nThis relocation signals a strategic shift in his personal base, potentially enhancing his influence in lower-tax tech hubs like Florida (where he bought $173 million in Miami properties in 2025), while reducing exposure to California's **Big Tech regulatory pressures**.[1][5]\n\n**Page's ocean science nonprofit Oceankind, founded by his wife, was also converted from California to Delaware in December 2025.[4]**\n\nBy extending tax mitigation to family-linked ventures, Page maintains operational secrecy and resource allocation for long-term projects, bolstering his position in **information environment contestation** through controlled philanthropy and privacy.[1][4]"
+    },
+    {
+      "name": "Laurene Powell Jobs",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items about Laurene Powell Jobs matching the criteria (policy decisions, business moves, legal actions, geopolitical events, or significant public statements in information environment contestation) appear in the past 7 days. The most recent item is her sale of a stake in Monumental Sports & Entertainment, reported 2 days ago, but it pertains to sports ownership rather than her core areas.[2] Older events, such as her March 2025 appointment as co-chair of The Partnership for San Francisco, fall outside the timeframe.[1]"
+    },
+    {
+      "name": "Richard Uihlein",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "Based on the search results provided, there is **one significant news item** from the past 7 days (approximately March 25-April 1, 2026) about Richard Uihlein:\n\n**1776 Project PAC Increases School Board Spending**\nThe 1776 Project PAC, backed by Richard Uihlein, is spending 250% more on school board races in 2026 compared to previous years.[1] This expansion demonstrates Uihlein's intensified focus on controlling electoral infrastructure at the local level, where school board decisions directly influence curriculum and education policy—a core priority for conservative megadonors.\n\nThe search results do not contain additional hard news items about Uihlein from the March 25-April 1 timeframe. The most recent substantive reporting includes his $15.3 million contribution to Restoration of America PAC in the second half of 2025[2] and earlier March 2026 coverage of his funding role in Project 2025 and school board targeting,[1] but these fall outside the requested 7-day window or represent ongoing activities rather than new developments."
+    },
+    {
+      "name": "Susie Wiles",
+      "domain": "Senior Republican strategist and White House Chief of Staff",
+      "raw_news": "**Susie Wiles, White House Chief of Staff, announced her breast cancer diagnosis last week and plans to continue in her role during treatment.**\n\n- **Diagnosis announcement:** White House Chief of Staff Susie Wiles revealed on social media and through public statements that she was diagnosed with early-stage breast cancer last week, noting that nearly one in eight U.S. women face this.[1][2][4]\n  *This matters because it underscores her resolve to maintain influence over executive operations and power consolidation efforts despite personal health challenges, signaling stability in her position to Trump's inner circle.*\n  \nNo other hard news items—such as policy decisions, legal actions, business moves, geopolitical events, or significant public statements—about Susie Wiles appear in reports from approximately March 25 to April 1, 2026; remaining coverage repeats the diagnosis or references unrelated or older topics.[3][5]"
+    },
+    {
+      "name": "David Rubenstein",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**1. David Rubenstein donated $50 million to modernize Ida Noyes Hall at the University of Chicago, funding infrastructure upgrades, accessibility improvements, and sustainability enhancements while naming new elements the David M. Rubenstein Commons.[1]**\n\nThis major gift reinforces his position as chair of the University of Chicago's Board of Trustees and underscores his influence in capital allocation toward elite educational institutions, building on his prior $61 million in scholarships and forum construction.[1]\n\n**2. As Baltimore Orioles owner, David Rubenstein approved a $68 million contract extension for pitcher Shane Baz and publicly declared the team \"open for business\" on future deals, following a $155 million signing of Pete Alonso.[2]**\n\nThese aggressive financial commitments highlight his strategy of unlimited spending to elevate the franchise, amplifying his private power in sports business and local economic influence in Baltimore.[2]\n\n**3. David Rubenstein participated in an exclusive radio interview on March 24, sharing his perspective on \"The Case for America\" ahead of the nation's 250th anniversary.[3]**\n\nThis significant public statement positions him as a prominent voice among business leaders advocating for American exceptionalism, enhancing his influence in shaping patriotic narratives tied to his private equity success.[3]"
+    },
+    {
+      "name": "Fred Smith",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items about Fred Smith from approximately March 25 to April 1, 2026, as he passed away on June 21, 2025[1][3].  \n\nSearch results confirm his death nearly a year prior, with no reports of policy decisions, business moves, legal actions, geopolitical events, or significant public statements in the queried period[1][2][3]."
+    },
+    {
+      "name": "Elena Kagan",
+      "domain": "Associate Justice, US Supreme Court",
+      "raw_news": "**Justice Elena Kagan authored the Supreme Court's unanimous opinion on March 20, 2026, in *Olivier v. City of Brandon, Mississippi*, holding that a street preacher can sue to enjoin future enforcement of a public demonstration ordinance despite a prior conviction under it, as such forward-looking relief is not barred by *Heck v. Humphrey*.[1]**\n\nThis ruling reinforces Kagan's influence in clarifying civil rights remedies post-conviction, potentially broadening access to injunctive relief in First Amendment cases and signaling a doctrinal shift toward separating past convictions from prospective challenges.[1]\n\n**On March 23, 2026, Justice Kagan noted her dissent from the Supreme Court's denial of certiorari in *Johnson v. High Desert State Prison*, which addressed whether indigent prisoners can split filing fees in joint civil actions.[2]**\n\nHer statement underscores her position on prisoner access to courts amid financial barriers, highlighting tensions in procedural doctrines that could limit her impact on expanding judicial access for vulnerable litigants.[2]\n\n**No other significant hard news involving policy decisions, legal actions, or public statements by Justice Kagan appears in the past 7 days; earlier coverage from July 2024 on ethics code enforcement is outside the timeframe.[3]**"
+    },
+    {
+      "name": "Kelcy Warren",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items about Kelcy Warren matching the criteria (policy decisions, business moves, legal actions, geopolitical events, or significant public statements in energy transition & security) were found in the past 7 days (2026-03-25 to 2026-04-01).[1]  \n\nThe only provided result discusses his legacy as a pipeline operator and philanthropist at Energy Transfer, dated March 18, 2026, which falls outside the timeframe and focuses on retrospective profile rather than recent events.[1]"
+    },
+    {
+      "name": "Ronald Lauder",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items about Ronald Lauder matching the criteria (policy decisions, business moves, legal actions, geopolitical events, or significant public statements) appear in the past 7 days (approximately March 25 to April 1, 2026).[1][2][3][4][5]\n\nThe most recent coverage is a February 2026 article detailing historical documents on his post-2008 communications with Jeffrey Epstein, including meetings and art deals involving Leon Black, but Lauder faces no accusations of wrongdoing.[1]\n\nOlder items include a 2020 announcement of a $25 million anti-Semitism political accountability project and threats to pull University of Pennsylvania funding over antisemitism (pre-2026).[2][3]"
+    },
+    {
+      "name": "MacKenzie Scott",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**1. $32 million unrestricted gift to National Council for Mental Wellbeing**\n- The National Council for Mental Wellbeing announced on January 26, 2026, receipt of a $32 million unrestricted gift from MacKenzie Scott, marking her second donation to the organization since a $7 million gift in 2022.[1]\n- This substantial philanthropy reinforces Scott's influence as a leading donor in mental health, channeling unrestricted funds to amplify organizational autonomy and impact.[1]\n\n**2. Disclosure of unauthorized use of prior $20 million gift to Santa Barbara City College Foundation**\n- On February 10, 2026, the Santa Barbara City College Foundation revealed that millions from MacKenzie Scott's 2021 $20 million gift were used without board approval for the Promise tuition program, leaving $13 million intact after an audit uncovered accounting issues.[2]\n- The incident underscores scrutiny on fund management for Scott's donations, potentially affecting her position by prompting stricter oversight in future giving while highlighting her gifts' scale as the largest in the college's history.[2]"
+    },
+    {
+      "name": "Sergey Brin",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items about Sergey Brin matching the criteria (policy decisions, business moves, legal actions, geopolitical events, or significant public statements) from approximately March 25 to April 1, 2026, appear in the available search results. The most recent coverage discusses his February 2025 internal memo on office attendance and AI work history, which falls outside the 7-day window.[1] Earlier topics, such as his ex-wife's involvement in a Super Bowl ad, are not hard news and predate the period.[2]"
+    },
+    {
+      "name": "William Ackman",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items matching the criteria (policy decisions, business moves, legal actions, geopolitical events, or significant public statements in capital allocation or private power) about William Ackman were found in the past 7 days from the provided search results. The sole result references a billionaire hedge fund manager's general market commentary on stocks and warrants but lacks specifics tying it directly to Ackman, a date within 2026-03-25 to 2026-04-01, or hard news events.[1]"
+    },
+    {
+      "name": "Jonathan Gray",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**No significant hard news items matching the criteria (policy decisions, business moves, legal actions, geopolitical events, or significant public statements) about Jonathan Gray from approximately March 25 to April 1, 2026, appear in the search results.**\n\nSearch results highlight earlier events, such as:\n- A March 18 discussion on AI infrastructure and data centers at Kogod School of Business[3].\n- General market views shared in a Q1 2026 video, covering Blackstone's portfolio performance without specific dates in the timeframe[1].\n- A statement at the WSJ Invest conference predicting a 2026 IPO surge, but lacking a confirmed date within the past 7 days[4].\n\nThese fall outside hard news parameters or the exact timeframe, with no routine appearances included per instructions."
+    },
+    {
+      "name": "Thomas Pritzker",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "I cannot provide the requested information because the search results contain news about **JB Pritzker** (Illinois Governor), not **Thomas Pritzker** (billionaire and member of the Pritzker family). These are different individuals with distinct roles and spheres of influence.\n\nThe search results focus on JB Pritzker's gubernatorial activities—including nuclear power policy, job creation announcements, and voting rights positions—rather than Thomas Pritzker's capital allocation or private power activities.\n\nTo answer your query accurately, I would need search results specifically about Thomas Pritzker's recent business decisions, investments, or significant statements related to his areas of activity."
+    },
+    {
+      "name": "Lynn Schusterman & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**No significant hard news items about Lynn Schusterman or her family from approximately March 25 to April 1, 2026, appear in the available search results.**\n\nSearch results reference older developments, such as the Schusterman Family Philanthropies' announcement to end the ROI program on July 1, 2026 (noted in a November 2025 article)[1], a February 25, 2026, collaboration on an AI Accelerator for nonprofits[3], and 2025 retreat funding announcements[4], but none fall within the specified 7-day window or qualify as hard news like policy decisions, business moves, legal actions, geopolitical events, or significant public statements."
+    },
+    {
+      "name": "Len Blavatnik",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Blavatnik Awards UK Ceremony (March 13, 2026):** Sir Leonard Blavatnik hosted a gala at London's Banqueting House to announce three female laureates for the 2026 Blavatnik Awards for Young Scientists in the UK, each receiving £100,000 in unrestricted prizes.[3][4]  \n  This reinforces Blavatnik's influence in **capital allocation** by directing foundation funds to elite early-career scientists, enhancing his position as a key patron of UK scientific talent and global research networks.[3][4]\n\n- **Blavatnik Fund Yale Grants (February 16, 2026):** The Blavatnik Fund for Innovation at Yale announced funding for 12 faculty-led life sciences projects in 2026, targeting oncology, neurodegeneration, diagnostics, and rare disorders.[2]  \n  The move exemplifies Blavatnik's **private power** through strategic **capital allocation** to high-impact biomedical research, bolstering his leverage in U.S. academic innovation ecosystems.[2]\n\nNo other hard news—such as policy decisions, business moves, legal actions, geopolitical events, or significant public statements—directly involving Len Blavatnik appears in the past 7 days (March 25–April 1, 2026); earlier foundation awards fall outside this window, and unrelated items like Courtauld Gallery gifts or film festivals lack confirmed recent ties or hard news status.[1]"
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "domain": "House (NY, Democrat)",
+      "raw_news": "**1. Ocasio-Cortez and Bernie Sanders introduced a bill imposing a moratorium on new AI data centers until national safeguards protect workers, consumers, and the environment.**[3]  \n**This positions her as a leading progressive voice on regulating Big Tech's fiscal and infrastructural expansion, amplifying her influence in debates over **Fiscal-Monetary Stress Cycle** amid rising electricity demands and economic pressures from AI growth.**[3]\n\n**2. Ocasio-Cortez led 40 colleagues in a letter to CMS urging rejection of a new Medicare model that could increase patient denials.**[1]  \n**The action reinforces her role in coalition-building on healthcare policy, strengthening her position against administration cuts and bolstering Democratic **Coalition Machinery** for future electoral fights over entitlements.**[1]\n\n**3. Ocasio-Cortez released a statement urging the Senate to pass Bernie Sanders’ resolutions blocking weapons transfers to Israel.**[1]  \n**This high-profile foreign policy stance sustains her influence within progressive coalitions, potentially mobilizing voter infrastructure for anti-interventionist campaigns despite limited legislative success.**[1]\n\n**4. Ocasio-Cortez and Joe Neguse introduced the Close the Revolving Door Act of 2025, imposing a lifetime lobbyist ban on former Members of Congress.**[1]  \n**By targeting corruption in political-business ties, it enhances her credibility on electoral reform, aiding **Coalition Machinery** efforts to rebuild trust and infrastructure ahead of key races.**[1]"
+    }
+  ],
+  "ps_assemblies_fired": {
+    "DPS-06": [
+      "CA-031",
+      "CA-012",
+      "CA-109",
+      "CA-029",
+      "CA-060"
+    ],
+    "DPS-01": [
+      "CA-018",
+      "CA-001",
+      "CA-027"
+    ],
+    "DPS-08": [
+      "CA-037",
+      "CA-161",
+      "CA-082"
+    ],
+    "DPS-10": [
+      "CA-145",
+      "CA-063",
+      "CA-069"
+    ]
+  },
+  "assemblies_spontaneous": [
+    "CA-173",
+    "CA-074"
+  ],
+  "neurons_conscious": [
+    "Tim Cook",
+    "Sundar Pichai",
+    "Thomas Kurian",
+    "Jeff Bezos",
+    "Robert F. Kennedy Jr.",
+    "Kash Patel",
+    "Larry Page",
+    "Laurene Powell Jobs",
+    "Richard Uihlein",
+    "Susie Wiles"
+  ],
+  "neurons_spontaneous": [
+    "David Rubenstein",
+    "Fred Smith",
+    "Elena Kagan",
+    "Kelcy Warren",
+    "Ronald Lauder",
+    "MacKenzie Scott",
+    "Sergey Brin",
+    "William Ackman",
+    "Jonathan Gray",
+    "Thomas Pritzker",
+    "Lynn Schusterman & family",
+    "Len Blavatnik",
+    "Alexandria Ocasio-Cortez"
+  ],
+  "neurons_skipped": [
+    "Elon Musk",
+    "Mark Zuckerberg",
+    "Jerome H. Powell",
+    "Clarence Thomas",
+    "Donald Trump",
+    "Brett M. Kavanaugh",
+    "Neil M. Gorsuch",
+    "Scott Bessent",
+    "Andy Jassy",
+    "Satya Nadella",
+    "Stephen Schwarzman",
+    "Leonard Leo",
+    "Pete Hegseth",
+    "Sonia Sotomayor",
+    "Sam Altman",
+    "Peter Thiel",
+    "Larry Ellison",
+    "Marc Rowan",
+    "Russell M. Nelson",
+    "Miriam Adelson & family",
+    "Michael Bloomberg",
+    "Jensen Huang",
+    "Amy Coney Barrett",
+    "Charles Koch & family",
+    "Ketanji Brown Jackson",
+    "Ken Griffin",
+    "Gavin Newsom",
+    "Sean Hannity",
+    "Samuel A. Alito Jr.",
+    "John Thune",
+    "Mustafa Suleyman",
+    "Terrence Pegula",
+    "John G. Roberts Jr.",
+    "Ken Langone",
+    "Rob Walton & family",
+    "Susan M. Collins",
+    "Stephen Ross",
+    "Abigail Johnson",
+    "Judy Faulkner",
+    "Jerry Jones & family",
+    "Bob Parsons",
+    "Jim Walton & family",
+    "David Geffen",
+    "Bill Gates",
+    "Eric Schmidt",
+    "Stanley Druckenmiller",
+    "Chuck Grassley",
+    "David Tepper",
+    "Alice Walton",
+    "Ray Dalio",
+    "Brian Armstrong",
+    "Paul Tudor Jones, II.",
+    "Pam Bondi",
+    "J.B. Pritzker",
+    "Lukas Walton",
+    "Pierre Omidyar",
+    "Michael Rubin",
+    "Henry Kravis",
+    "Jeff Yass",
+    "Marijke Mars",
+    "Julia Koch & family",
+    "John Malone",
+    "Leon Black",
+    "Paul Singer",
+    "Lynda Resnick",
+    "Tom Cotton",
+    "Philip Anschutz",
+    "George Roberts",
+    "Brian Chesky",
+    "Jeremy Jacobs, Sr. & family",
+    "Brian Ballard",
+    "Ann Walton Kroenke",
+    "Charles E. Schumer",
+    "Charles Schwab",
+    "Michael Dell",
+    "Steve Scalise",
+    "Joe Rogan",
+    "Ted Cruz",
+    "Mitchell Rales",
+    "Ron DeSantis",
+    "Melinda French Gates",
+    "Marc Benioff",
+    "Suzanne Clark",
+    "Mitch McConnell",
+    "David Bonderman",
+    "Warren Buffett",
+    "Rupert Murdoch & family",
+    "Josh Harris",
+    "Greg Abbott",
+    "Stephen Feinberg",
+    "Mike Lee",
+    "Steve Cohen",
+    "Phil Knight & family",
+    "Carl Icahn",
+    "Thomas Peterffy",
+    "Victoria Mars",
+    "Patty Murray",
+    "John Mars",
+    "Hakeem S. Jeffries",
+    "Matthew J. Kacsmaryk",
+    "Rick Scott",
+    "Cynthia M. Lummis",
+    "Carrie Severino",
+    "Christopher Murphy",
+    "Charlie Kirk",
+    "Kevin Roberts",
+    "Richard J. Durbin",
+    "George Soros",
+    "Thomas Frist, Jr. & family",
+    "Bret Taylor",
+    "Stewart Resnick",
+    "Edward Johnson, IV.",
+    "Palmer Luckey",
+    "Josh Hawley",
+    "Alex Karp",
+    "Lisa Su",
+    "Alexander Karp",
+    "Demis Hassabis",
+    "Lindsey Graham",
+    "Antony Ressler",
+    "Elise M. Stefanik",
+    "Mark Walter",
+    "Dario Amodei",
+    "Daniela Amodei",
+    "Christy Walton",
+    "Donald Newhouse",
+    "Ernest Garcia, III"
+  ],
+  "spontaneous_cap": 13
+}

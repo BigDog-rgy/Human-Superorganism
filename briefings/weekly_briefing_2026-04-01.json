@@ -1,0 +1,570 @@
+{
+  "week_ending": "2026-04-01",
+  "executive_summary": "Big Tech faced a convergence of regulatory and legal pressure as the DOJ pushed for Google's structural breakup while juries delivered landmark liability verdicts against Meta and Google for youth harm, even as Amazon announced a $50 billion OpenAI partnership reshaping the AI dominance race. The Trump White House signed an executive order restricting mail-in ballots and targeting birthright citizenship, while DOGE continued contract terminations worth billions and FBI Director Kash Patel's personal email was breached by an Iran-linked hacking group. Warner Bros. Discovery's exploration of a full company sale and Oracle's massive layoffs to fund AI infrastructure signaled accelerating capital reallocation across the superorganism.",
+  "person_updates": [
+    {
+      "name": "Tim Cook",
+      "signal": "active",
+      "summary": "FTC Chairman Ferguson sent a warning letter to Cook on March 25 questioning Apple News curation for alleged liberal bias, escalating regulatory pressure. Cook publicly defended Apple's $600 billion US investment commitment and alignment with Trump's manufacturing agenda, while Apple quietly removed ESG modifiers from executive compensation packages."
+    },
+    {
+      "name": "Sundar Pichai",
+      "signal": "quiet",
+      "summary": "No substantive hard news emerged for Pichai during the week beyond a routine stock vesting event on March 25. The DOJ's push for Chrome and Android divestitures in Alphabet's antitrust case represents the most significant pressure on his company, though Pichai himself made no notable public statements."
+    },
+    {
+      "name": "Thomas Kurian",
+      "signal": "active",
+      "summary": "Google Cloud under Kurian was ranked #1 on the Cloud Wars Top 10, leapfrogging Microsoft on enterprise AI and security. Kurian addressed Trump tariff uncertainties and potential EU cloud restrictions at Google Cloud Next 25, and was requested to testify before the House Homeland Security Committee on AI and quantum computing."
+    },
+    {
+      "name": "Jeff Bezos",
+      "signal": "active",
+      "summary": "Bezos announced the acquisition of The Hardwick Gazette on April 1, signaling the start of a local news buying spree that expands his media influence beyond The Washington Post. No other significant business or policy moves were reported during the week."
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "signal": "active",
+      "summary": "Kennedy faced pressure from 23 governors demanding release of $286.5 million in Title X family planning funds before the April 1 deadline, while a federal judge ruled he improperly issued declarations on transgender health care. Two top HHS aides, including vaccine skeptic Deputy Secretary Jim O'Neill, departed amid agency restructuring, signaling internal instability."
+    },
+    {
+      "name": "Kash Patel",
+      "signal": "active",
+      "summary": "Iran-linked Handala Hack Team breached Patel's personal email, leaking approximately 300 historical emails and documents, though the FBI confirmed no government information was compromised. Separately, Patel instructed San Francisco field office agents to redact files for public release described as targeting a congressman, advancing executive power consolidation through FBI resources."
+    },
+    {
+      "name": "Larry Page",
+      "signal": "active",
+      "summary": "Page reincorporated multiple business entities including his family office Koop and Dynatomics LLC from California to Delaware ahead of a proposed state wealth tax on billionaires. He reportedly left California personally, with sources indicating a potential move to Florida where he purchased $173 million in Miami properties in 2025."
+    },
+    {
+      "name": "Laurene Powell Jobs",
+      "signal": "quiet",
+      "summary": "No significant hard news items about Laurene Powell Jobs appeared during the week. The most recent item was a sale of a stake in Monumental Sports & Entertainment, which pertains to sports ownership rather than her core areas of influence."
+    },
+    {
+      "name": "Richard Uihlein",
+      "signal": "active",
+      "summary": "Uihlein-backed 1776 Project PAC is spending 250% more on school board races in 2026 compared to previous years, intensifying conservative electoral infrastructure at the local level. This expansion targets curriculum and education policy decisions through systematic school board capture."
+    },
+    {
+      "name": "Susie Wiles",
+      "signal": "active",
+      "summary": "White House Chief of Staff Susie Wiles announced her breast cancer diagnosis and stated she plans to continue in her role during treatment. The announcement signals stability in her position and continuity of executive operations despite personal health challenges."
+    },
+    {
+      "name": "David Rubenstein",
+      "signal": "active",
+      "summary": "Rubenstein donated $50 million to modernize Ida Noyes Hall at the University of Chicago and approved a $68 million contract extension for an Orioles pitcher while declaring the team 'open for business' on future deals. He also participated in a radio interview on 'The Case for America' ahead of the nation's 250th anniversary."
+    },
+    {
+      "name": "Fred Smith",
+      "signal": "quiet",
+      "summary": "Fred Smith passed away on June 21, 2025. No news items are applicable for the current reporting period."
+    },
+    {
+      "name": "Elena Kagan",
+      "signal": "active",
+      "summary": "Justice Kagan authored the Supreme Court's unanimous opinion in Olivier v. City of Brandon, Mississippi on March 20, holding that a street preacher can sue to enjoin future enforcement of a public demonstration ordinance despite a prior conviction. She also noted her dissent from denial of certiorari in Johnson v. High Desert State Prison regarding indigent prisoner filing fees."
+    },
+    {
+      "name": "Kelcy Warren",
+      "signal": "quiet",
+      "summary": "No significant hard news items about Kelcy Warren appeared during the week. The only available coverage was a retrospective profile from March 18 discussing his legacy at Energy Transfer."
+    },
+    {
+      "name": "Ronald Lauder",
+      "signal": "quiet",
+      "summary": "No significant hard news items about Ronald Lauder appeared during the week. The most recent coverage pertains to historical documents on post-2008 communications with Jeffrey Epstein from February 2026."
+    },
+    {
+      "name": "MacKenzie Scott",
+      "signal": "quiet",
+      "summary": "No news from the specific March 25–April 1 window. Recent prior developments include a $32 million unrestricted gift to the National Council for Mental Wellbeing announced in January 2026 and disclosure of unauthorized use of a prior $20 million gift to Santa Barbara City College Foundation."
+    },
+    {
+      "name": "Sergey Brin",
+      "signal": "quiet",
+      "summary": "No significant hard news items about Sergey Brin appeared during the week. The most recent coverage references a February 2025 internal memo on office attendance and AI work history."
+    },
+    {
+      "name": "William Ackman",
+      "signal": "quiet",
+      "summary": "No significant hard news items matching the criteria about William Ackman were found in the past week. Available search results lacked specifics tying any activity directly to Ackman within the reporting period."
+    },
+    {
+      "name": "Jonathan Gray",
+      "signal": "quiet",
+      "summary": "No significant hard news items about Jonathan Gray appeared within the March 25–April 1 window. Earlier events included a March 18 discussion on AI infrastructure and general market views in a Q1 2026 video, but these fall outside the exact timeframe."
+    },
+    {
+      "name": "Thomas Pritzker",
+      "signal": "quiet",
+      "summary": "No significant hard news items about Thomas Pritzker appeared during the week. Available search results pertained to JB Pritzker's gubernatorial activities rather than Thomas Pritzker's business or investment activities."
+    },
+    {
+      "name": "Lynn Schusterman & family",
+      "signal": "quiet",
+      "summary": "No significant hard news items about Lynn Schusterman or her family appeared within the March 25–April 1 window. Earlier developments include the announced end of the ROI program on July 1, 2026, and a February 2026 AI Accelerator collaboration for nonprofits."
+    },
+    {
+      "name": "Len Blavatnik",
+      "signal": "quiet",
+      "summary": "No hard news from the specific March 25–April 1 window. Recent prior events include a March 13 Blavatnik Awards UK ceremony and February 2026 Yale life sciences grants, both falling outside the reporting period."
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "signal": "active",
+      "summary": "Ocasio-Cortez and Bernie Sanders introduced a bill imposing a moratorium on new AI data centers until national safeguards are established for workers, consumers, and the environment. She also led 40 colleagues in a letter to CMS opposing a Medicare model that could increase patient denials and introduced the Close the Revolving Door Act imposing a lifetime lobbyist ban on former Members of Congress."
+    }
+  ],
+  "assembly_updates": [
+    {
+      "id": "CA-031",
+      "name": "Amazon",
+      "signal": "active",
+      "summary": "Amazon CEO Andy Jassy announced a $50 billion multi-year strategic partnership with OpenAI to bolster AI capabilities across AWS, directly challenging Microsoft while also committing €33.7 billion to Spanish data centers. Shares tumbled on the AI spending reveal despite the strategic positioning."
+    },
+    {
+      "id": "CA-012",
+      "name": "Alphabet Inc.",
+      "signal": "active",
+      "summary": "The DOJ pushed for structural remedies including Chrome and Android divestitures during closing arguments in Alphabet's search monopoly case, while Google agreed to a $36 million fine in Australia for anticompetitive telco deals. These concurrent legal actions represent the most intense regulatory pressure on Alphabet's core business model in years."
+    },
+    {
+      "id": "CA-109",
+      "name": "Salesforce",
+      "signal": "active",
+      "summary": "The Veterans Health Administration deployed a Salesforce-powered Agentic Operating System on March 26, saving thousands of staff hours and marking a significant public sector AI adoption milestone. Salesforce also acquired startup Momentum to enhance Agentforce 360 and Slack capabilities."
+    },
+    {
+      "id": "CA-029",
+      "name": "Google",
+      "signal": "quiet",
+      "summary": "No significant standalone Google news emerged beyond the Alphabet-level antitrust developments and Google Cloud's conference activities covered under CA-012 and Thomas Kurian's updates."
+    },
+    {
+      "id": "CA-060",
+      "name": "Oracle Corporation",
+      "signal": "active",
+      "summary": "Oracle initiated a major global layoff on March 31 affecting potentially up to 30,000 employees as part of a $2.1 billion restructuring to redirect capital toward AI infrastructure expansion. Shares rose 6% on the news despite the human cost, signaling market approval of the AI pivot."
+    },
+    {
+      "id": "CA-018",
+      "name": "Department of Government Efficiency (DOGE)",
+      "signal": "active",
+      "summary": "Federal agencies terminated 141 contracts with a ceiling value of $5.1 billion, achieving $498 million in savings, while the Trump administration denied reports of DOGE's dissolution and stated its efficiency principles are being institutionalized across departments. Total estimated savings now reported at $199 billion."
+    },
+    {
+      "id": "CA-001",
+      "name": "Trump White House",
+      "signal": "active",
+      "summary": "President Trump signed an executive order on March 31 restricting mail-in ballots and addressing birthright citizenship, consolidating executive influence over electoral processes without congressional reliance. A federal judge halted White House ballroom construction on the same day, providing a minor check on unilateral action."
+    },
+    {
+      "id": "CA-027",
+      "name": "Federal Bureau of Investigation",
+      "signal": "active",
+      "summary": "FBI Director Kash Patel's personal email was breached by Iran-linked hackers who leaked approximately 300 documents, while Patel separately instructed agents to redact files for public release targeting a congressman. These events highlight both external security vulnerabilities and internal weaponization concerns."
+    },
+    {
+      "id": "CA-037",
+      "name": "Advance Publications",
+      "signal": "quiet",
+      "summary": "No significant news about Advance Publications appeared during the March 25–April 1 window, with the most recent announcements dating back to 2024 executive appointments."
+    },
+    {
+      "id": "CA-161",
+      "name": "Clarity Media Group",
+      "signal": "quiet",
+      "summary": "No reportable news about Clarity Media Group appeared during the week, with available information limited to outdated content from 2022 and earlier."
+    },
+    {
+      "id": "CA-082",
+      "name": "Warner Bros. Discovery",
+      "signal": "active",
+      "summary": "Warner Bros. Discovery confirmed on March 31 that it is exploring strategic alternatives including a potential full company sale after receiving unsolicited interest from Skydance Media, Comcast, and Netflix, triggering a 10% share price surge. The move reshapes media power dynamics alongside its planned mid-2026 corporate split."
+    },
+    {
+      "id": "CA-145",
+      "name": "Turning Point USA",
+      "signal": "active",
+      "summary": "The University of Arkansas TPUSA chapter disbanded on March 31, citing grievances over the organization's posthumous use of Charlie Kirk's name, just days after CEO Erika Kirk announced a statewide partnership with Governor Sanders. The fracture signals internal instability undermining TPUSA's campus network expansion."
+    },
+    {
+      "id": "CA-063",
+      "name": "Susquehanna International Group (SIG)",
+      "signal": "active",
+      "summary": "SIG completed its acquisition of 90% of MIAX Derivatives Exchange in partnership with Robinhood for futures and prediction markets, while an SIG affiliate secured a board seat on TikTok USDS following its spinoff deal. These moves deepen SIG's influence across both financial infrastructure and US digital media."
+    },
+    {
+      "id": "CA-069",
+      "name": "Americans for Prosperity",
+      "signal": "active",
+      "summary": "AFP celebrated passage of Georgia property tax reform and Alabama's elimination of judicial deference, while hosting a livestream to promote Trump's tax cut legislation and naming a new West Virginia deputy state director to bolster media strategy ahead of primaries. The multi-state activity demonstrates sustained coalition-building and legislative influence."
+    },
+    {
+      "id": "CA-173",
+      "name": "Warner Music Group",
+      "signal": "active",
+      "summary": "WMG announced multiple global artist partnerships including deals with Stromae, Kris R, and Aya Nakamura, alongside a creative partnership with Netflix for documentaries featuring its roster. These moves reflect continued expansion of publishing operations and multimedia content leverage."
+    },
+    {
+      "id": "CA-074",
+      "name": "Blackstone",
+      "signal": "active",
+      "summary": "Blackstone closed its record $6.3 billion Life Sciences VI fund and signed a definitive agreement to acquire a majority stake in Advanced Cooling Technologies for data center thermal management. The completion of the 694MW hydrogen-capable Magnolia Power Station in Louisiana further underscores aggressive positioning in energy infrastructure."
+    }
+  ],
+  "top_stories": [
+    {
+      "headline": "Amazon announces $50 billion strategic partnership with OpenAI, reshaping AI competitive landscape",
+      "persons": [
+        "Jeff Bezos"
+      ],
+      "ps_id": "DPS-02",
+      "valence": "cooperative",
+      "significance": "The largest AI partnership deal to date directly challenges Microsoft's OpenAI relationship and consolidates cloud-AI infrastructure power among a shrinking number of hyperscalers."
+    },
+    {
+      "headline": "DOJ pushes for Chrome and Android divestitures in Google antitrust closing arguments",
+      "persons": [
+        "Sundar Pichai"
+      ],
+      "ps_id": "DPS-06",
+      "valence": "adversarial",
+      "significance": "A forced breakup of Alphabet's browser and mobile OS would represent the most significant US antitrust structural remedy since AT&T, fundamentally altering Big Tech's competitive architecture."
+    },
+    {
+      "headline": "Trump signs executive order restricting mail-in ballots and targeting birthright citizenship",
+      "persons": [
+        "Susie Wiles"
+      ],
+      "ps_id": "DPS-01",
+      "valence": "neutral",
+      "significance": "The order extends executive power directly into electoral mechanics without congressional authorization, setting up inevitable judicial challenges that will test the boundaries of presidential authority over voting access."
+    },
+    {
+      "headline": "Juries deliver landmark verdicts holding Meta and Google liable for youth harm via platform design",
+      "persons": [
+        "Sundar Pichai"
+      ],
+      "ps_id": "DPS-06",
+      "valence": "adversarial",
+      "significance": "The $6 million Los Angeles verdict and $375 million New Mexico judgment establish legal precedent for platform design liability, serving as bellwethers for thousands of pending claims that could fundamentally repricing Big Tech's content moderation risk."
+    },
+    {
+      "headline": "Iran-linked hackers breach FBI Director Kash Patel's personal email, leaking 300 documents",
+      "persons": [
+        "Kash Patel"
+      ],
+      "ps_id": "DPS-01",
+      "valence": "adversarial",
+      "significance": "The breach of the FBI Director's personal communications by a state-linked threat actor exposes security vulnerabilities at the highest levels of US law enforcement while Patel simultaneously faces scrutiny for using FBI resources against political targets."
+    }
+  ],
+  "phase_sequence_updates": [
+    {
+      "id": "DPS-01",
+      "name": "Executive Power Consolidation",
+      "summary": "No significant developments in **executive power consolidation** occurred from March 25 to April 1, 2026, as search results highlight only minor presidential actions like proclamations (e.g., Greek Independence Day on March 24 and FEMA Review Council continuance on March 26) without evidence of executive orders, agency reorganizations, personnel changes, DOGE initiatives, or OMB directives targeting bureaucratic control[5][6]. Earlier actions, such as the March 13 EO adjusting Defense Production Act delegations between Commerce and Energy departments, fall outside the weekly window and do not indicate ongoing momentum in structural changes or compliance/resistance[2][3]. Legal challenges or departmental responses remain unmentioned in recent sources, confirming a lull in this domain[1][4][7][8].\n\n**2**",
+      "assemblies_fired": [
+        "CA-018",
+        "CA-001",
+        "CA-027"
+      ]
+    },
+    {
+      "id": "DPS-02",
+      "name": "AI Dominance Race",
+      "summary": "No major developments in the AI dominance race occurred from March 25 to April 1, 2026, based on available sources, with the most recent relevant event being Oracle and Block's AI-driven job cuts announced on March 3.[1] Ongoing U.S. policy shifts under President Trump, including revocation of Biden-era AI export bans on mid-range chips like Nvidia's H200 and the unveiling of a National AI Legislative Framework, continue to emphasize American leadership against China but lack specific actions dated to the queried week.[3][8] Broader geopolitical tensions persist, highlighted by discussions at the India AI Impact Summit and China's model advancements, yet no new model releases, compute deals, funding rounds, or partnerships were reported in this period.[2][5]",
+      "assemblies_fired": []
+    },
+    {
+      "id": "DPS-03",
+      "name": "Judicial Pipeline & Doctrinal Shift",
+      "summary": "No major developments occurred in the **judicial pipeline and doctrinal shift** domain from March 25 to April 1, 2026, as search results highlight prior actions like the Supreme Court's June 2025 addition of seven cases to its 2025-26 term docket (including campaign-finance and immigration issues) and the Federal Judicial Center's February 2026 removal of climate science guidance for judges.[1][4] Ongoing strategic litigation, such as Taylor v. Trump challenging Trump administration executive actions on death penalty commutations, remains pending without updates in the queried period.[5] No evidence of new nominations, confirmations, Federalist Society signaling, or major rulings indicates structural momentum.",
+      "assemblies_fired": []
+    },
+    {
+      "id": "DPS-04",
+      "name": "Fiscal-Monetary Stress Cycle",
+      "summary": "**No major developments occurred in the Fiscal-Monetary Stress Cycle from March 25 to April 1, 2026.** The FOMC on March 18 held its policy rate unchanged, deeming it appropriate amid solid economic expansion, resilient consumer spending, and inflation trending toward 2%, with plans to monitor data for future adjustments.[5] On March 31, Fed Chair Powell stated the central bank could \"wait and see\" on Middle East war impacts, viewing energy shocks as transient while noting anchored inflation expectations despite tensions between price stability and employment goals.[6] No new FOMC statements, Treasury issuance shifts, yield curve changes, or public frictions emerged in the queried week.[1][2]",
+      "assemblies_fired": []
+    },
+    {
+      "id": "DPS-05",
+      "name": "Capital Allocation & Private Power",
+      "summary": "No major developments in capital allocation by alternative asset managers, venture funds, private equity firms, or billionaire investors occurred in the past week (2026-03-25 to 2026-04-01), as search results highlight earlier 2025 trends like EnCap's $6.5-6.8 billion oil/gas fund close, Quantum Energy Partners' $10 billion raise, and H1 2025 U.S. PE deal value up 50% with energy dominating top transactions[1][2]. Ongoing discussions emphasize a $1.2 trillion private credit funding gap for PE buyouts and rising energy sector allocations amid data center and renewable demand, but lack specific announcements or policy moves tied to the queried period[3]. Energy firms continue reprioritizing tech investments for volatile capital decisions, without notable deal flow, roll-ups, or lobbying in the timeframe[6].",
+      "assemblies_fired": []
+    },
+    {
+      "id": "DPS-06",
+      "name": "Big Tech Regulatory Arbitrage",
+      "summary": "**SEC Enforcement Chief's resignation in late March 2026** created regulatory arbitrage favoring politically connected tech firms, particularly those tied to Trump allies or Musk ventures, by shifting cases toward lighter settlements over aggressive prosecution, repricing M&A multiples in fintech, clean energy, and defense tech.[1] Juries delivered major blows to Big Tech on content moderation liability, with a Los Angeles verdict holding Meta (70%) and Google (30%) accountable for $6M in youth harm damages via platform design flaws on March 21-27, serving as a bellwether for thousands of similar claims, while a New Mexico jury ordered Meta to pay $375M on March 24 for misleading safety claims, with platform changes possible in May.[3] President Trump's March 20 AI legislative framework pushed for uniform federal rules preempting state laws, aiming to boost innovation while addressing risks amid stalled crypto bills like the CLARITY Act.[5][6]",
+      "assemblies_fired": [
+        "CA-031",
+        "CA-012",
+        "CA-109",
+        "CA-029",
+        "CA-060"
+      ]
+    },
+    {
+      "id": "DPS-07",
+      "name": "Defense-Industrial Expansion",
+      "summary": "No major developments in defense-industrial expansion occurred from March 25 to April 1, 2026, based on available sources, with the most recent relevant activities being a March 11 Reagan Institute report critiquing slow Pentagon progress on scaling production and nontraditional vendors despite reform aspirations[1], and Chairman Rogers' March 4 hearing emphasizing multi-year munitions authorities and supply chain fixes for FY27 NDAA[2]. Earlier references, such as the January 2026 PAC-3 MSE agreement, highlight ongoing efforts to boost capacity via incentives but fall outside the weekly window[3]. This reflects persistent challenges in manufacturing, workforce, and China dependencies without new structural shifts, policy decisions, or contract milestones.",
+      "assemblies_fired": []
+    },
+    {
+      "id": "DPS-08",
+      "name": "Information Environment Contestation",
+      "summary": "**No major structural changes, policy moves, or business actions in information environment contestation occurred from March 25 to April 1, 2026.** The most relevant development was the Global Privacy Enforcement Network’s March 25 audit highlighting inadequate children’s data protections on platforms, including increased data collection and weak age verification, amid ongoing UK ICO enforcement against Reddit for age check failures.[2][4] Other items, like the EEAS FIMI report on rising AI-driven foreign manipulation (March 12) or Trump’s Truth Social order banning federal use of Anthropic AI models, predate the period or focus on tangential security issues without direct ties to narrative control or platform governance.[2][4] The week remained quiet on content moderation shifts, algorithmic changes, or ownership moves.\n\n**2**",
+      "assemblies_fired": [
+        "CA-037",
+        "CA-161",
+        "CA-082"
+      ]
+    },
+    {
+      "id": "DPS-09",
+      "name": "Energy Transition & Security",
+      "summary": "**No major developments occurred in US Energy Transition & Security from March 25 to April 1, 2026.** Search results highlight international actions, such as the European Commission's April 1 investigation into French state aid for six new nuclear reactors by EDF, aimed at enhancing electricity security and decarbonization[3]. US-relevant discussions include a forward-looking analysis on renewable energy tax credits post-2025 policy changes like the OBBBA, noting rising power demand from AI and data centers[4]. Broader context covers global energy outlooks on AI-driven demand[2] and Big Oil's pivot amid sustained hydrocarbon needs[5], but no regulatory approvals, DOE funding, capex announcements, permitting, or legislative moves specific to the US domain were reported.",
+      "assemblies_fired": []
+    },
+    {
+      "id": "DPS-10",
+      "name": "Coalition Machinery & Electoral Infrastructure",
+      "summary": "No significant developments in **coalition machinery and electoral infrastructure** occurred from 2026-03-25 to 2026-04-01, as search results highlight only longstanding resources on election security from the EAC and CISA, an undated executive order on voting reforms like citizenship proof and ballot deadlines, and unrelated older reports on infrastructure and coalitions.[1][2][3][5][6] No evidence appears of recent **fundraising flows**, **endorsement patterns**, **super PAC expenditures**, **dark-money activations**, **voter targeting**, or **ballot-access fights** indicating structural shifts or momentum.[1-6] Activity remains quiet, with focus limited to perennial preparedness guides rather than time-sensitive events.\n\n**1**",
+      "assemblies_fired": [
+        "CA-145",
+        "CA-063",
+        "CA-069"
+      ]
+    }
+  ],
+  "_metadata": {
+    "generated": "2026-04-01",
+    "scope": "us",
+    "week_start": "2026-03-25",
+    "week_end": "2026-04-01",
+    "source_model": "us_superorganism_model.json",
+    "news_model": "sonar-pro",
+    "synthesis_model": "claude-opus-4-6",
+    "neurons_conscious": [
+      "Tim Cook",
+      "Sundar Pichai",
+      "Thomas Kurian",
+      "Jeff Bezos",
+      "Robert F. Kennedy Jr.",
+      "Kash Patel",
+      "Larry Page",
+      "Laurene Powell Jobs",
+      "Richard Uihlein",
+      "Susie Wiles"
+    ],
+    "neurons_spontaneous": [
+      "David Rubenstein",
+      "Fred Smith",
+      "Elena Kagan",
+      "Kelcy Warren",
+      "Ronald Lauder",
+      "MacKenzie Scott",
+      "Sergey Brin",
+      "William Ackman",
+      "Jonathan Gray",
+      "Thomas Pritzker",
+      "Lynn Schusterman & family",
+      "Len Blavatnik",
+      "Alexandria Ocasio-Cortez"
+    ],
+    "neurons_skipped": [
+      "Elon Musk",
+      "Mark Zuckerberg",
+      "Jerome H. Powell",
+      "Clarence Thomas",
+      "Donald Trump",
+      "Brett M. Kavanaugh",
+      "Neil M. Gorsuch",
+      "Scott Bessent",
+      "Andy Jassy",
+      "Satya Nadella",
+      "Stephen Schwarzman",
+      "Leonard Leo",
+      "Pete Hegseth",
+      "Sonia Sotomayor",
+      "Sam Altman",
+      "Peter Thiel",
+      "Larry Ellison",
+      "Marc Rowan",
+      "Russell M. Nelson",
+      "Miriam Adelson & family",
+      "Michael Bloomberg",
+      "Jensen Huang",
+      "Amy Coney Barrett",
+      "Charles Koch & family",
+      "Ketanji Brown Jackson",
+      "Ken Griffin",
+      "Gavin Newsom",
+      "Sean Hannity",
+      "Samuel A. Alito Jr.",
+      "John Thune",
+      "Mustafa Suleyman",
+      "Terrence Pegula",
+      "John G. Roberts Jr.",
+      "Ken Langone",
+      "Rob Walton & family",
+      "Susan M. Collins",
+      "Stephen Ross",
+      "Abigail Johnson",
+      "Judy Faulkner",
+      "Jerry Jones & family",
+      "Bob Parsons",
+      "Jim Walton & family",
+      "David Geffen",
+      "Bill Gates",
+      "Eric Schmidt",
+      "Stanley Druckenmiller",
+      "Chuck Grassley",
+      "David Tepper",
+      "Alice Walton",
+      "Ray Dalio",
+      "Brian Armstrong",
+      "Paul Tudor Jones, II.",
+      "Pam Bondi",
+      "J.B. Pritzker",
+      "Lukas Walton",
+      "Pierre Omidyar",
+      "Michael Rubin",
+      "Henry Kravis",
+      "Jeff Yass",
+      "Marijke Mars",
+      "Julia Koch & family",
+      "John Malone",
+      "Leon Black",
+      "Paul Singer",
+      "Lynda Resnick",
+      "Tom Cotton",
+      "Philip Anschutz",
+      "George Roberts",
+      "Brian Chesky",
+      "Jeremy Jacobs, Sr. & family",
+      "Brian Ballard",
+      "Ann Walton Kroenke",
+      "Charles E. Schumer",
+      "Charles Schwab",
+      "Michael Dell",
+      "Steve Scalise",
+      "Joe Rogan",
+      "Ted Cruz",
+      "Mitchell Rales",
+      "Ron DeSantis",
+      "Melinda French Gates",
+      "Marc Benioff",
+      "Suzanne Clark",
+      "Mitch McConnell",
+      "David Bonderman",
+      "Warren Buffett",
+      "Rupert Murdoch & family",
+      "Josh Harris",
+      "Greg Abbott",
+      "Stephen Feinberg",
+      "Mike Lee",
+      "Steve Cohen",
+      "Phil Knight & family",
+      "Carl Icahn",
+      "Thomas Peterffy",
+      "Victoria Mars",
+      "Patty Murray",
+      "John Mars",
+      "Hakeem S. Jeffries",
+      "Matthew J. Kacsmaryk",
+      "Rick Scott",
+      "Cynthia M. Lummis",
+      "Carrie Severino",
+      "Christopher Murphy",
+      "Charlie Kirk",
+      "Kevin Roberts",
+      "Richard J. Durbin",
+      "George Soros",
+      "Thomas Frist, Jr. & family",
+      "Bret Taylor",
+      "Stewart Resnick",
+      "Edward Johnson, IV.",
+      "Palmer Luckey",
+      "Josh Hawley",
+      "Alex Karp",
+      "Lisa Su",
+      "Alexander Karp",
+      "Demis Hassabis",
+      "Lindsey Graham",
+      "Antony Ressler",
+      "Elise M. Stefanik",
+      "Mark Walter",
+      "Dario Amodei",
+      "Daniela Amodei",
+      "Christy Walton",
+      "Donald Newhouse",
+      "Ernest Garcia, III"
+    ],
+    "spontaneous_cap": 13,
+    "ps_activation_scores": {
+      "DPS-01": 5,
+      "DPS-02": 4,
+      "DPS-03": 4,
+      "DPS-04": 3,
+      "DPS-05": 3,
+      "DPS-06": 6,
+      "DPS-07": 4,
+      "DPS-08": 5,
+      "DPS-09": 4,
+      "DPS-10": 5
+    },
+    "ps_assemblies_fired": {
+      "DPS-06": [
+        "CA-031",
+        "CA-012",
+        "CA-109",
+        "CA-029",
+        "CA-060"
+      ],
+      "DPS-01": [
+        "CA-018",
+        "CA-001",
+        "CA-027"
+      ],
+      "DPS-08": [
+        "CA-037",
+        "CA-161",
+        "CA-082"
+      ],
+      "DPS-10": [
+        "CA-145",
+        "CA-063",
+        "CA-069"
+      ]
+    },
+    "assemblies_spontaneous": [
+      "CA-173",
+      "CA-074"
+    ],
+    "assemblies_fetched": [
+      "CA-031",
+      "CA-012",
+      "CA-109",
+      "CA-029",
+      "CA-060",
+      "CA-018",
+      "CA-001",
+      "CA-027",
+      "CA-037",
+      "CA-161",
+      "CA-082",
+      "CA-145",
+      "CA-063",
+      "CA-069",
+      "CA-173",
+      "CA-074"
+    ]
+  }
+}

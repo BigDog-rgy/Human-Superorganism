@@ -1,6 +1,6 @@
 {
-  "week_count": 3,
-  "last_updated": "2026-03-25",
+  "week_count": 4,
+  "last_updated": "2026-04-01",
   "scope": "US",
   "config": {
     "decay_rate": 0.15,
@@ -9,7 +9,7 @@
   },
   "neuron_coactivation": {
     "Christopher Murphy|||Elon Musk": {
-      "score": 0.393125,
+      "score": 0.33415625,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -18,7 +18,7 @@
       "last_updated": "2026-03-19"
     },
     "Christopher Murphy|||Palmer Luckey": {
-      "score": 0.393125,
+      "score": 0.33415625,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -27,7 +27,7 @@
       "last_updated": "2026-03-19"
     },
     "Elon Musk|||Palmer Luckey": {
-      "score": 0.393125,
+      "score": 0.33415625,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -54,7 +54,7 @@
       "last_updated": "2026-03-19"
     },
     "Charles E. Schumer|||Lindsey Graham": {
-      "score": -0.393125,
+      "score": -0.33415625,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -63,7 +63,7 @@
       "last_updated": "2026-03-19"
     },
     "Charles E. Schumer|||Rick Scott": {
-      "score": -0.393125,
+      "score": -0.33415625,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -90,7 +90,7 @@
       "last_updated": "2026-03-19"
     },
     "Christopher Murphy|||Lindsey Graham": {
-      "score": -0.393125,
+      "score": -0.33415625,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -99,7 +99,7 @@
       "last_updated": "2026-03-19"
     },
     "Christopher Murphy|||Rick Scott": {
-      "score": -0.393125,
+      "score": -0.33415625,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -108,7 +108,7 @@
       "last_updated": "2026-03-19"
     },
     "Christopher Murphy|||Tom Cotton": {
-      "score": -0.393125,
+      "score": -0.33415625,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -144,7 +144,7 @@
       "last_updated": "2026-03-19"
     },
     "Lindsey Graham|||Rick Scott": {
-      "score": 0.393125,
+      "score": 0.33415625,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -153,7 +153,7 @@
       "last_updated": "2026-03-19"
     },
     "Lindsey Graham|||Tom Cotton": {
-      "score": 0.393125,
+      "score": 0.33415625,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -162,7 +162,7 @@
       "last_updated": "2026-03-19"
     },
     "Rick Scott|||Tom Cotton": {
-      "score": 0.393125,
+      "score": 0.33415625,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -171,7 +171,7 @@
       "last_updated": "2026-03-19"
     },
     "Charles E. Schumer|||Elon Musk": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -207,7 +207,7 @@
       "last_updated": "2026-03-19"
     },
     "Elon Musk|||Lindsey Graham": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -216,7 +216,7 @@
       "last_updated": "2026-03-19"
     },
     "Elon Musk|||Rick Scott": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -225,7 +225,7 @@
       "last_updated": "2026-03-19"
     },
     "Elon Musk|||Tom Cotton": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -234,7 +234,7 @@
       "last_updated": "2026-03-19"
     },
     "Lindsey Graham|||Palmer Luckey": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -252,7 +252,7 @@
       "last_updated": "2026-03-19"
     },
     "Palmer Luckey|||Tom Cotton": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -306,7 +306,7 @@
       "last_updated": "2026-03-25"
     },
     "Brian Armstrong|||Ray Dalio": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -315,7 +315,7 @@
       "last_updated": "2026-03-25"
     },
     "Jeff Yass|||John Thune": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -360,7 +360,7 @@
       "last_updated": "2026-03-25"
     },
     "John Thune|||Mitch McConnell": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -369,7 +369,7 @@
       "last_updated": "2026-03-25"
     },
     "John Thune|||Paul Singer": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -378,7 +378,7 @@
       "last_updated": "2026-03-25"
     },
     "John Thune|||Pete Hegseth": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -387,7 +387,7 @@
       "last_updated": "2026-03-25"
     },
     "John Thune|||Ray Dalio": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -405,7 +405,7 @@
       "last_updated": "2026-03-25"
     },
     "Mitch McConnell|||Pete Hegseth": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -423,7 +423,7 @@
       "last_updated": "2026-03-25"
     },
     "Paul Singer|||Pete Hegseth": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -432,7 +432,7 @@
       "last_updated": "2026-03-25"
     },
     "Paul Singer|||Ray Dalio": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -441,18 +441,513 @@
       "last_updated": "2026-03-25"
     },
     "Pete Hegseth|||Ray Dalio": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
       ],
       "last_updated": "2026-03-25"
+    },
+    "Jeff Bezos|||Larry Page": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-06"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Kash Patel|||Susie Wiles": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-01"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Alexandria Ocasio-Cortez|||David Rubenstein": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Alexandria Ocasio-Cortez|||Elena Kagan": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Alexandria Ocasio-Cortez|||Jeff Bezos": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Alexandria Ocasio-Cortez|||Kash Patel": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Alexandria Ocasio-Cortez|||Larry Page": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Alexandria Ocasio-Cortez|||Richard Uihlein": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Alexandria Ocasio-Cortez|||Robert F. Kennedy Jr.": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Alexandria Ocasio-Cortez|||Susie Wiles": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Alexandria Ocasio-Cortez|||Thomas Kurian": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Alexandria Ocasio-Cortez|||Tim Cook": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "David Rubenstein|||Elena Kagan": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "David Rubenstein|||Jeff Bezos": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "David Rubenstein|||Kash Patel": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "David Rubenstein|||Larry Page": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "David Rubenstein|||Richard Uihlein": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "David Rubenstein|||Robert F. Kennedy Jr.": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "David Rubenstein|||Susie Wiles": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "David Rubenstein|||Thomas Kurian": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "David Rubenstein|||Tim Cook": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Elena Kagan|||Jeff Bezos": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Elena Kagan|||Kash Patel": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Elena Kagan|||Larry Page": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Elena Kagan|||Richard Uihlein": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Elena Kagan|||Robert F. Kennedy Jr.": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Elena Kagan|||Susie Wiles": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Elena Kagan|||Thomas Kurian": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Elena Kagan|||Tim Cook": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Jeff Bezos|||Kash Patel": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Jeff Bezos|||Richard Uihlein": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Jeff Bezos|||Robert F. Kennedy Jr.": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Jeff Bezos|||Susie Wiles": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Jeff Bezos|||Thomas Kurian": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Jeff Bezos|||Tim Cook": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Kash Patel|||Larry Page": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Kash Patel|||Richard Uihlein": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Kash Patel|||Robert F. Kennedy Jr.": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Kash Patel|||Thomas Kurian": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Kash Patel|||Tim Cook": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Larry Page|||Richard Uihlein": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Larry Page|||Robert F. Kennedy Jr.": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Larry Page|||Susie Wiles": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Larry Page|||Thomas Kurian": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Larry Page|||Tim Cook": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Richard Uihlein|||Robert F. Kennedy Jr.": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Richard Uihlein|||Susie Wiles": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Richard Uihlein|||Thomas Kurian": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Richard Uihlein|||Tim Cook": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Robert F. Kennedy Jr.|||Susie Wiles": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Robert F. Kennedy Jr.|||Thomas Kurian": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Robert F. Kennedy Jr.|||Tim Cook": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Susie Wiles|||Thomas Kurian": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Susie Wiles|||Tim Cook": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "Thomas Kurian|||Tim Cook": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
     }
   },
   "ca_coactivation": {
     "CA-024|||CA-051": {
-      "score": 0.393125,
+      "score": 0.33415625,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -470,7 +965,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-024|||CA-071": {
-      "score": -0.393125,
+      "score": -0.33415625,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -497,7 +992,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-058|||CA-071": {
-      "score": -0.393125,
+      "score": -0.33415625,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -524,7 +1019,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-030|||CA-034": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -542,7 +1037,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-009|||CA-024": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -569,7 +1064,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-009|||CA-071": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -605,7 +1100,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-016|||CA-034": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -677,7 +1172,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-030|||CA-051": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -695,7 +1190,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-030|||CA-071": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -731,7 +1226,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-034|||CA-071": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -794,7 +1289,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-002|||CA-032": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -803,7 +1298,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-002|||CA-004": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -830,7 +1325,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-002|||CA-071": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -857,7 +1352,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-004|||CA-032": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -929,7 +1424,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-032|||CA-071": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -963,6 +1458,708 @@
         "GLOBAL"
       ],
       "last_updated": "2026-03-25"
+    },
+    "CA-012|||CA-031": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "DPS-06"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-012|||CA-060": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-06"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-012|||CA-109": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-06"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-031|||CA-060": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "DPS-06"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-031|||CA-109": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-06"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-060|||CA-109": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-06"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-001|||CA-018": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "DPS-01"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-001|||CA-027": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-01"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-018|||CA-027": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "DPS-01"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-063|||CA-069": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-10"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-063|||CA-145": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-10"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-069|||CA-145": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-10"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-001|||CA-012": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-001|||CA-031": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-001|||CA-060": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-001|||CA-063": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-001|||CA-069": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-001|||CA-074": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-001|||CA-082": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-001|||CA-109": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-001|||CA-145": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-001|||CA-173": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-012|||CA-018": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-012|||CA-027": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-012|||CA-063": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-012|||CA-069": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-012|||CA-074": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-012|||CA-082": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-012|||CA-145": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-012|||CA-173": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-018|||CA-031": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-018|||CA-060": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-018|||CA-063": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-018|||CA-069": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-018|||CA-074": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-018|||CA-082": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-018|||CA-109": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-018|||CA-145": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-018|||CA-173": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-027|||CA-031": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-027|||CA-060": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-027|||CA-063": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-027|||CA-069": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-027|||CA-074": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-027|||CA-082": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-027|||CA-109": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-027|||CA-145": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-027|||CA-173": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-031|||CA-063": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-031|||CA-069": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-031|||CA-074": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-031|||CA-082": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-031|||CA-145": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-031|||CA-173": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-060|||CA-063": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-060|||CA-069": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-060|||CA-074": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-060|||CA-082": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-060|||CA-145": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-060|||CA-173": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-063|||CA-074": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-063|||CA-082": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-063|||CA-109": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-063|||CA-173": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-069|||CA-074": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-069|||CA-082": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-069|||CA-109": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-069|||CA-173": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-074|||CA-082": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-074|||CA-109": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-074|||CA-145": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-074|||CA-173": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-082|||CA-109": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-082|||CA-145": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-082|||CA-173": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-109|||CA-145": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-109|||CA-173": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
+    },
+    "CA-145|||CA-173": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-01"
     }
   }
 }
