@@ -1,0 +1,508 @@
+{
+  "scope": "us",
+  "week_start": "2026-04-01",
+  "week_end": "2026-04-08",
+  "ps_news_items": [
+    {
+      "id": "DPS-01",
+      "name": "Executive Power Consolidation",
+      "summary": "No significant developments in **executive power consolidation** occurred from April 1-8, 2026, as White House presidential actions during this period focused on non-bureaucratic matters like \"Urgent National Action to Save College Sports\" on April 3, without new executive orders, agency reorganizations, personnel purges, DOGE initiatives, or OMB directives targeting federal bureaucracy control[1][6]. The Federal Register confirms 28 executive orders issued in 2026 overall (EO 14372–14399), but none are dated within the queried week[8]. No reports of departmental compliance issues, resistance, or legal challenges emerged in this timeframe[2][3].\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-02",
+      "name": "AI Dominance Race",
+      "summary": "Anthropic solidified its lead in the AI model race with the Opus 4.6 release featuring 1M context, outpacing Google's rapidly advancing Gemini 2.5 Pro and a declining OpenAI, while Meta disrupted the field by launching Llama 4 Scout and Maverick—open-weight models runnable on single GPUs that commoditize 80% of enterprise use cases like healthcare and finance.[1] NVIDIA CEO Jensen Huang at GTC 2026 reframed the competition around agentic and physical AI, unveiling the Vera Rubin GPU platform, orbital data center chips, and AI factory blueprints to dominate infrastructure for robotics and autonomous systems.[4] These model and hardware shifts indicate a transition from benchmark wars to multi-model production stacks and industrial-scale deployment.[1][4]\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "DPS-03",
+      "name": "Judicial Pipeline & Doctrinal Shift",
+      "summary": "No major developments in the judicial pipeline or doctrinal shift occurred from April 1-8, 2026, based on available sources. A weekly judicial appointments memo was issued on April 7 by Advancing American Freedom, potentially signaling ongoing nomination tracking, but no specifics on confirmations, rulings, or structural changes are detailed.[2] Broader context from bankruptcy litigation trends post-*Purdue Pharma* (2024) anticipates 2026 case law on consensual releases and mass-tort resolutions, but no events within the queried week align with Federalist Society signaling, strategic litigation, or vetting infrastructure momentum.[1]\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-04",
+      "name": "Fiscal-Monetary Stress Cycle",
+      "summary": "No major developments indicating structural changes, policy moves, or heightened fiscal-monetary stress occurred in the Fiscal-Monetary Stress Cycle from April 1-8, 2026. The IMF's Article IV consultation on April 1 projected 2.4% U.S. GDP growth and inflation returning to 2% by mid-2027 amid elevated debt, while St. Louis Fed President Musalem's April 1 remarks highlighted balanced growth risks, supply shocks from energy prices, and accommodative financial conditions without signaling imminent FOMC shifts.[3][5] Forward-looking analyses noted ongoing Fed QE at $40B/month and election-year fiscal stimulus risks but lacked specific events driving tension this week.[2][4]\n\n3",
+      "activation_score": 3
+    },
+    {
+      "id": "DPS-05",
+      "name": "Capital Allocation & Private Power",
+      "summary": "No major developments in capital allocation by alternative asset managers, PE firms, or billionaire investors were reported in the past week (April 1-8, 2026), with search results highlighting ongoing trends like AI-driven energy demand prompting supply chain diversification and renewable investments[1], a $1.2 trillion private credit funding gap for PE buyouts[4], and tech firms partnering with PE for data center buildouts without balance sheet strain[6]. Energy sectors saw noted PE deal momentum earlier in 2025, including four top-10 H1 deals, alongside subdued overall fundraising but rises in growth equity and real assets[2]. Structural shifts remain focused on volatility buffers via data-driven allocation in energy[3] and infrastructure constraints[5][6], indicating steady but not accelerated momentum.\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-06",
+      "name": "Big Tech Regulatory Arbitrage",
+      "summary": "FTC and DOJ announced a strategic pivot in antitrust enforcement toward accepting structural remedies like divestitures for tech mergers, moving away from outright blocks seen in prior years, as led by Chairman Ferguson and AAG Slater amid judicial preferences for behavioral fixes over breakups[1]. In the Google ad tech case, DOJ pushed for divestiture of AdX/DoubleClick following a monopoly ruling, with remedies expected early 2026, while FTC v. Amazon trial was scheduled for late 2026[1][6]. This shift enhances predictability in merger reviews via updated HSR thresholds and remedy criteria, potentially reducing Big Tech's regulatory arbitrage by enabling negotiated outcomes over prolonged litigation[1].\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-07",
+      "name": "Defense-Industrial Expansion",
+      "summary": "The U.S. Army awarded its first $87 million task order under a new $20 billion counter-drone enterprise contract vehicle to Anduril Industries for its AI-enabled Lattice system, accelerating integration of private tech into defense operations and following similar Palantir-scale deals.[1] The Pentagon requested $30 billion under the Defense Production Act to surge industrial capacity, positioning it as a major lever for defense manufacturing expansion.[8] Anduril expanded into hypersonics and large air vehicles, while Firefly Aerospace partnered with Seagate on an offshore launch platform to boost government space access.[4] These moves signal growing momentum in private capital infusion and rapid procurement reforms amid signals of a potential $1.5 trillion FY2027 defense topline.[2][3]\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "DPS-08",
+      "name": "Information Environment Contestation",
+      "summary": "No significant developments in **information environment contestation**—specifically narrative control, platform governance, content moderation changes, algorithmic shifts, ownership moves, audience metrics, or coordinated messaging campaigns—occurred between April 1 and April 8, 2026, based on available sources.[1][2][3][4][5][6][7][8][9]\n\nThe most recent relevant items predate the period: ASTP/ONC's February 11 enforcement letters on health IT information blocking and Q1 AI policy actions like the White House's March National Policy Framework pushing federal preemption of state AI rules.[1][2][3]\n\nThis reflects a quiet period amid ongoing but earlier 2026 trends in AI regulation and data governance.\n\n1",
+      "activation_score": 1
+    },
+    {
+      "id": "DPS-09",
+      "name": "Energy Transition & Security",
+      "summary": "No significant developments in US energy transition and security occurred from April 1-8, 2026, based on available sources, which instead feature forward-looking outlooks for 2026 emphasizing resilience, competition, and challenges like grid constraints amid AI-driven demand and geopolitical tensions.[1][4][7] Key themes include robust solar/wind growth complicated by trade policies and supply chains, US efforts to onshore critical minerals, and a shift toward near-term security over distant climate targets, but no specific regulatory approvals, DOE funding, capex announcements, permitting, or legislative actions from the past week are reported.[1][3][4] Broader global contexts, such as Europe's pivot from Russian fuels and China's tech dominance, underscore ongoing momentum without fresh US-centric events.[1][5]\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-10",
+      "name": "Coalition Machinery & Electoral Infrastructure",
+      "summary": "No significant developments occurred in **coalition machinery and electoral infrastructure**—encompassing party apparatus control, super PAC expenditures, dark-money networks, voter targeting, or ballot-access fights—from April 1-8, 2026. Search results highlighted unrelated global events like Myanmar's presidential election by electoral college and Moldova's CIS withdrawal, but none involved U.S. or structural coalition shifts, fundraising flows, endorsements, or donor activations in the specified domain.[2] International constitutional votes in Maldives and Cameroon also lacked ties to coalition funding or infrastructure momentum.[2]\n\n1",
+      "activation_score": 1
+    }
+  ],
+  "assembly_news_items": [
+    {
+      "id": "CA-070",
+      "name": "Special Competitive Studies Project (SCSP)",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-07"
+      ],
+      "raw_news": "No significant hard news on decisions, actions, positions, alliances, or organizational moves by the Special Competitive Studies Project (SCSP) affecting AI dominance or defense-industrial power dynamics appears in the past 7 days (April 1-8, 2026).[1][2][3][6][7] The most recent items are a Substack post on April 3 discussing the POTUS Iran speech, Anthropic leak, and Artemis Launch, but it reports external events rather than SCSP-initiated policy or business actions.[6][7] SCSP's official news and press releases remain dated prior to this period, with no updates on government advising or competitiveness initiatives.[1][2][3]"
+    },
+    {
+      "id": "CA-099",
+      "name": "Google Cloud",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06"
+      ],
+      "raw_news": "**On April 6, 2026, Anthropic announced a major expansion of its partnership with Google Cloud, securing multiple gigawatts of TPU capacity to bolster its AI infrastructure.** [2][5] This alliance intensifies Google's position in the **AI dominance race** by providing Anthropic— a key AI rival to OpenAI—with exclusive access to Alphabet's cutting-edge TPUs, enhancing compute scale for advanced model training. [5] The move underscores Google Cloud's strategic push under CEO Thomas Kurian to lock in high-value AI partnerships amid intensifying competition. [2]"
+    },
+    {
+      "id": "CA-105",
+      "name": "Founders Fund",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-05"
+      ],
+      "raw_news": "**Founders Fund is nearing the close of its fourth growth fund (Founders Fund Growth IV) at $6 billion in commitments, less than a year after closing its prior $4.6 billion growth fund.** This rapid fundraising—already oversubscribed with $1.5 billion from firm partners—bolsters its capacity for follow-on investments in late-stage winners like SpaceX, Palantir, Anduril, OpenAI, and its recent Anthropic stake, amplifying capital allocation in AI and defense tech amid the dominance race.[1][2][3] The move signals surging LP demand and positions Founders Fund to deepen ideological influence over Silicon Valley's power dynamics through scaled private investments.[1][4]"
+    },
+    {
+      "id": "CA-012",
+      "name": "Alphabet Inc.",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06",
+        "DPS-08"
+      ],
+      "raw_news": "**Alphabet Inc. faces intensified US antitrust remedies** as the US Justice Department pushes in federal court for Google to divest its Chrome browser and end default search deals on devices, following a ruling deeming its search monopoly illegal.[1] Concurrently, Google agreed to a AU$55 million ($36 million) fine in Australia for anticompetitive pacts with telcos Telstra and Optus that blocked rival search engines on Android phones until March 2021.[1] These legal actions heighten regulatory pressure on Alphabet's core search dominance amid the AI race and Big Tech scrutiny.[1]"
+    },
+    {
+      "id": "CA-086",
+      "name": "Dell Technologies",
+      "ps_memberships": [
+        "DPS-02"
+      ],
+      "raw_news": "No significant hard news on Dell Technologies' decisions, actions, positions, alliances, or organizational moves affecting **AI dominance race** power dynamics appears in the past 7 days (April 1-8, 2026).[1][2][3][4][5][6] Analyst coverage from Piper Sandler initiated an Overweight rating, citing upside from **AI-driven demand** and PC refresh cycles, boosting stock momentum amid broader Wall Street upgrades.[1] A director sold 80,000 shares for $12.3 million, while the board declared a routine quarterly dividend of $0.445 per share—neither qualifies as a strategic shift.[1][4] Earlier March 2026 **AI-driven layoffs** were referenced but fall outside the timeframe.[1]"
+    },
+    {
+      "id": "CA-044",
+      "name": "Palantir Technologies",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-07"
+      ],
+      "raw_news": "**No significant hard news on Palantir Technologies' decisions, actions, alliances, or organizational moves affecting power dynamics in AI dominance or defense-industrial expansion emerged from April 1-8, 2026.** Palantir CEO Alex Karp issued a stark public statement on April 7, predicting that only trade workers and neurodivergent individuals will thrive amid AI disruption, while white-collar roles face obsolescence[1]. A prior partnership renewal and expansion with Stellantis was announced on March 30, falling outside the queried timeframe[3]. An AI collaboration with Nvidia was noted in media coverage, but lacks a confirmed date within the past week[4]."
+    },
+    {
+      "id": "CA-024",
+      "name": "SpaceX",
+      "ps_memberships": [
+        "DPS-07"
+      ],
+      "raw_news": "**SpaceX executed its initial public offering (IPO) on April 3, 2026, coinciding with NASA's Artemis II moon mission launch.** This business move, following a confidential filing, underscores SpaceX's confidence in its model of commercial launches and Starship development, positioning it to attract major investments and solidify dominance in government and private payloads.[3][5] The IPO signals a transformative shift, as Artemis II may mark NASA's last major deep space mission without heavy private-sector involvement from firms like SpaceX.[3] No other major decisions, alliances, or defense expansions were reported in the period.[1][2][4][6][7]"
+    },
+    {
+      "id": "CA-051",
+      "name": "Anduril Industries",
+      "ps_memberships": [
+        "DPS-07"
+      ],
+      "raw_news": "No significant hard news on Anduril Industries' decisions, actions, alliances, or organizational moves affecting power dynamics appears in the past 7 days (April 1-8, 2026) within the Defense-Industrial Expansion domain. The most recent relevant developments include the US Army's March 14 announcement of a 10-year contract with Anduril potentially worth up to $20 billion, consolidating over 120 prior procurements for hardware, software, and services[3], and Anduril's start of FURY loyal wingman drone production at its new Ohio facility around March 19[5][6]. Earlier events, such as the January $1 billion Southern California campus expansion[2][4] and revenue doubling goals to $2 billion by 2026[1], fall outside this timeframe."
+    },
+    {
+      "id": "CA-131",
+      "name": "Senate Commerce Committee",
+      "ps_memberships": [
+        "DPS-06"
+      ],
+      "raw_news": "**U.S. Senate Committee on Commerce, Science, and Transportation, chaired by Sen. Ted Cruz (R-Texas).**\n\nOn April 7, 2026, Chairman Cruz announced a rescheduled full committee markup for April 14 to advance key bills, including the **Satellite Cybersecurity Act** (bipartisan from Sens. Peters and Cornyn) and **No Fentanyl on Social Media Act** (Sens. Husted and Klobuchar), signaling continued focus on tech security and Big Tech content regulation.[2][3] This follows a March 25 boycott by Democrats that blocked prior bipartisan measures, escalating partisan tensions over committee priorities.[6] No other decisions, actions, or statements occurred in the April 1-8 window.[1][2][3]"
+    },
+    {
+      "id": "CA-029",
+      "name": "Google",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06"
+      ],
+      "raw_news": "No significant hard news matching the criteria—decisions, actions, positions, alliances, or organizational moves by Google (Alphabet's core revenue-generating subsidiary)—was found in the past 7 days within the active domains of **AI Dominance Race** or **Big Tech Regulatory Arbitrage**[1][2].  \nSearch results yielded no relevant policy decisions, business moves, legal actions, geopolitical events, or significant public statements from Google[1][2].  \nLimitations include incomplete coverage, as results focused on unrelated topics like investor pitches for Universal Music Group[1]."
+    },
+    {
+      "id": "CA-101",
+      "name": "Microsoft",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06"
+      ],
+      "raw_news": "Microsoft AI CEO **Mustafa Suleyman** shifted his role in a mid-March 2026 leadership reshuffle, moving from oversight of Copilot products to leading the company's **superintelligence team** focused on developing in-house frontier AI models, a change he described as planned nine months prior to reduce reliance on OpenAI.[1][2][5] This restructuring combined Microsoft's commercial and consumer Copilot teams under a new executive, freeing Suleyman to prioritize scalable, cost-efficient models like the newly unveiled **MAI-Transcribe-1** (speech-to-text), **MAI-Voice-1**, and **MAI-Image-2** on April 2.[1][5] The moves strengthen Microsoft's internal AI stack amid the **AI dominance race**, positioning it for self-sufficiency through 2032 when OpenAI IP rights expire.[2][4]"
+    },
+    {
+      "id": "CA-001",
+      "name": "Trump White House",
+      "ps_memberships": [
+        "DPS-01"
+      ],
+      "raw_news": "**President Trump escalated executive power through aggressive military threats against Iran and termination of transgender civil rights settlements.** On April 7, Trump renewed ultimatums to destroy Iran's bridges and power plants by midnight if the Strait of Hormuz remains closed, dismissing war crimes concerns and ordering the largest strikes to date, while claiming the country could be \"taken out in one night.\"[1][2][3][4] The administration also terminated unprecedented civil rights agreements protecting transgender students in six U.S. school districts, prompting Democratic backlash and impeachment threats against Defense Secretary Pete Hegseth.[1][5] The Supreme Court further enabled DOJ dismissal of Steve Bannon's contempt conviction, aiding a key Trump ally.[1]"
+    },
+    {
+      "id": "CA-030",
+      "name": "US Department of Justice",
+      "ps_memberships": [
+        "DPS-01",
+        "DPS-03"
+      ],
+      "raw_news": "**No significant DOJ news from April 1-8, 2026, appears in available sources.** The most recent actions, such as the August 27, 2025, final rule loosening immigration judge qualifications and investigations into California entities for hiring discrimination, fall outside the queried timeframe.[1] Official DOJ press releases focus on routine fraud prosecutions and operations like Operation Not Forgotten 2026, without major decisions on executive power consolidation or judicial shifts.[2]"
+    },
+    {
+      "id": "CA-027",
+      "name": "Federal Bureau of Investigation",
+      "ps_memberships": [
+        "DPS-01"
+      ],
+      "raw_news": "**No significant FBI news matching the criteria appears in the past 7 days (April 1-8, 2026).** The most recent relevant development is a March 27 update on the MacDill Air Force Base bomb threat investigation, where FBI agents obtained a search warrant, uncovered IED components, and pursued leads on suspects including Alan Jiang and Anne Marie, in coordination with local police.[1] This reflects routine investigative actions rather than decisions, organizational moves, or power dynamics shifts under Director Patel. Other results cover outdated general info or unrelated incidents.[2][3]"
+    },
+    {
+      "id": "CA-036",
+      "name": "Federalist Society",
+      "ps_memberships": [
+        "DPS-03"
+      ],
+      "raw_news": "**The Federalist Society appointed four new members to its Board of Directors: Thomas Bell, Stephen Sachs, Annie Talley, and Michael...** This organizational move, announced on the FedSoc Blog, strengthens its leadership in conservative legal circles, potentially influencing its **judicial pipeline** by incorporating fresh perspectives on doctrinal matters.[5] No other decisions, actions, or significant statements affecting power dynamics appear in sources from the queried period.[2][3][5][6]",
+      "spontaneous": true
+    },
+    {
+      "id": "CA-141",
+      "name": "Harris Blitzer Sports & Entertainment",
+      "ps_memberships": [],
+      "raw_news": "Based on the search results provided, there is no news about Harris Blitzer Sports & Entertainment from the past 7 days (April 1-8, 2026). The most recent announcement in the search results is from February 10, 2026, regarding a joint venture between Harris Blitzer Sports & Entertainment and Comcast Spectacor to build a world-class arena in South Philadelphia and revitalize Market East[5]. To find current hard news about HBSE from this week, additional recent sources would be needed.",
+      "spontaneous": true
+    }
+  ],
+  "news_items": [
+    {
+      "name": "Sergey Brin",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**Sergey Brin emphasized AI agents as a major focus for Google in 2026 during a recent town hall with sales employees.** This public statement from the cofounder, who returned to hands-on work in 2023, reinforces his pivotal role in steering Google's AI strategy amid the industry race to integrate agentic tools like the popular internal Agent Smith into workflows, boosting Alphabet's competitive edge in AI dominance.[1]\n\n**No other hard news items on Sergey Brin—such as policy decisions, business moves, legal actions, geopolitical events, or significant public statements—appear in the past 7 days (approximately April 1-8, 2026).** Earlier reports reference his historical involvement in Google's AI response to ChatGPT or a January 2026 housing donation, but these fall outside the timeframe and do not qualify as recent events.[2][3]"
+    },
+    {
+      "name": "Mustafa Suleyman",
+      "domain": "CEO, Microsoft AI",
+      "raw_news": "**Microsoft AI CEO Mustafa Suleyman announced plans to develop large, cutting-edge in-house AI models by next year, leveraging expanded Nvidia GB200 clusters and a renegotiated OpenAI deal that removed prior restrictions on broad model development.**[1] This positions Microsoft to challenge OpenAI and Anthropic directly in the **AI dominance race**, enhancing Suleyman's influence by driving Microsoft's path to **AI self-sufficiency** and reducing external dependencies.[1][2]\n\n**Suleyman stated Microsoft currently lacks computing power for the largest-scale AI systems but is ramping up over 12-18 months to reach frontier-scale, while focusing on efficient mid-range models amid data center and equipment constraints.**[2] These remarks underscore his strategic role in navigating **Big Tech** compute bottlenecks, bolstering his position as architect of Microsoft's long-term **AI infrastructure independence**.[2]\n\n**On April 2, Microsoft under Suleyman unveiled MAI-Transcribe-1, a new in-house speech-to-text model supporting 25 languages, outperforming benchmarks in noisy conditions and processing 2.5x faster than prior services.**[3][4] This business move advances **AI dominance** through cost-efficient, enterprise-grade tools, signaling Suleyman's success in building proprietary capabilities that erode reliance on partners like OpenAI.[3][4]\n\n**Suleyman denied demotion rumors from March's AI leadership reshuffle, confirming his shift from Copilot oversight to a planned focus on advanced in-house model development—strategic since nine months prior.**[3][4] The clarification reinforces his authority under CEO Satya Nadella, framing the change as a high-stakes pivot to core **AI model innovation** amid competitive pressures.[3][4]"
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **No significant hard news items matching the criteria (policy decisions, business moves, legal actions, geopolitical events, or significant public statements) about Stephen Schwarzman from approximately April 1-8, 2026.**\n\nSearch results yielded no coverage within the past 7 days:\n- The most recent item is a March 25, 2026, letter addressed to Schwarzman urging action on U.S. housing policy amid a crisis and support for legislation like the 21st Century ROAD to Housing Act, but it involves no action, statement, or response from him[3].\n- Earlier reports cover his 2025 compensation ($1.24 billion, up 20%) from February/March 2026[2] and plans to expand his AI-focused philanthropic foundation with his $48 billion fortune, reported in February 2026[1].\n\nThis absence indicates no major developments in his key areas of AI dominance or capital allocation during the queried period."
+    },
+    {
+      "name": "Eric Schmidt",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Eric Schmidt became CEO of Relativity Space, acquiring a controlling stake in the reusable rocket company.** This move expands his influence into the defense-industrial sector through space technology, aligning with his prior drone and national security interests and positioning him to shape U.S. military and commercial launch capabilities.[2]\n\n- **Schmidt publicly advocated for big tech firms to self-power AI data centers co-located with energy sources, amid White House pledges by Microsoft, OpenAI, and Anthropic to avoid raising consumer energy prices.** It underscores his strategic push in the AI dominance race by addressing power constraints, enhancing big tech's regulatory standing on energy use and grid impacts.[1]\n\n- **Schmidt warned in interviews that advanced AI forms like AGI and ASI will drastically transform society by 2027, emphasizing the need for preparation.** The statement reinforces his thought leadership in the AI race, influencing policy debates and public perception of technological risks and U.S. competitiveness.[3][4]"
+    },
+    {
+      "name": "Elon Musk",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "# Significant Elon Musk News (April 1-8, 2026)\n\n**Cybercab Production Launch Confirmed**\nTesla CEO Elon Musk reaffirmed on February 16, 2026, that the steering-wheel-free Cybercab will enter initial manufacturing in April 2026, marking his third explicit commitment to this timeline in six months.[1] This solidifies Tesla's position in autonomous robotaxi development and demonstrates operational confidence after years of delayed product launches.\n\n**Intel Joins Terafab Project**\nIntel announced on April 7, 2026, that it is joining Musk's Terafab initiative alongside SpaceX, xAI, and Tesla to build massive compute and chip capacity infrastructure.[3] This expansion of the chip-building consortium strengthens Musk's control over critical AI infrastructure and reduces dependence on external semiconductor suppliers across his ecosystem.\n\n**SpaceX IPO Preparations Accelerate**\nMajor banks are competing for roles in SpaceX's anticipated initial public offering, with valuations potentially reaching $1 trillion, as of April 4, 2026.[2] A successful SpaceX IPO would unlock substantial capital for space and defense operations while elevating Musk's financial and geopolitical influence.\n\n**Legal Challenge: Twitter Acquisition Disclosure**\nA judge ruled that Elon Musk must face a class action lawsuit regarding his failure to timely disclose his stake during the 2022 Twitter acquisition, as reported by Reuters as of April 4, 2026.[2] This legal exposure creates potential financial liability and regulatory scrutiny over his control of the information environment platform.\n\n**Tesla Faces Production-Demand Mismatch**\nTesla reported approximately 6% year-over-year Q1 sales growth but faces overproduction issues, suggesting capacity-demand misalignment as of April 4, 2026.[2] This operational constraint could limit near-term revenue growth and manufacturing flexibility across Tesla's vehicle lineup."
+    },
+    {
+      "name": "Palmer Luckey",
+      "domain": "Founder & CEO, Anduril Industries",
+      "raw_news": "- **Anduril's Arsenal-1 facility in Ohio advances ahead of schedule.** Palmer Luckey announced that initial production lines at the massive Ohio weapons mega-factory will go operational in a matter of weeks, earlier than the prior July target, with the Fury drone as the first product.[1]\n- This accelerates Anduril's defense-industrial expansion, solidifying Luckey's position as a leader in rapid U.S. reindustrialization amid White House focus on production scale.[1]\n\n- **U.S. Army awards Anduril up to $20 billion enterprise contract.** The Army consolidated over 120 prior procurement actions into a single five-to-ten-year deal covering Anduril's hardware, drones, and software, with an initial $87 million task order issued.[3][7]\n- The contract elevates Anduril into Pentagon big leagues, streamlining future deals and boosting Luckey's influence in software-defined modern warfare.[3][7]\n\n- **Anduril secures $23.9 million Marine Corps drone contract.** The company won a deal to deliver over 600 Bolt-M weaponized drones under the Organic Precision Fires-Light program, with deliveries from February 2026 through April 2027.[2][5]\n- This adds to surging Pentagon orders, enhancing Anduril's credibility against larger contractors and expanding Luckey's role in autonomous systems production.[2][5]"
+    },
+    {
+      "name": "Andy Jassy",
+      "domain": "President & CEO, Amazon",
+      "raw_news": "Based on the search results provided, I cannot identify news about Andy Jassy from the past 7 days (April 1-8, 2026). The most recent information in these results dates to early February 2026, which falls outside your requested timeframe.\n\nThe search results contain:\n- A February 6, 2026 article about Amazon's $200 billion AI capital expenditure plan[1]\n- A January 28, 2026 article on Amazon's operational restructuring[2]\n- References to a February 2025 Alexa unveiling event[4]\n\nTo provide the hard news you're seeking about Jassy's recent activities in AI dominance and regulatory matters from April 1-8, 2026, I would need search results with more current information from that specific week."
+    },
+    {
+      "name": "Larry Ellison",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Oracle's AI Strategy Announcement**: In Oracle's recent fiscal Q2 earnings call, Larry Ellison detailed a new AI-powered data platform enabling multi-step reasoning across all private enterprise data using top AI models while maintaining security.[1]\n  This positions Oracle as a leader in the **AI dominance race**, unlocking unprecedented value from fragmented data and strengthening Ellison's influence in enterprise AI markets.[1]\n\n- **Launch of Next American Era Nonprofit**: On April 3, 2026, a new centrist 501(c)(4) group called Next American Era was announced, backed by Ellison through Oracle ties and led by lobbyist Cheri Bustos, who previously represented Oracle and OpenAI.[3]\n  It advances **big tech regulatory arbitrage** by pushing deregulatory policies for AI data centers and permitting reforms, aligning with Ellison's interests amid his Trump alliance.[3]\n\n- **Trump AI Council Recruitment**: President Trump recruited Oracle executives, alongside those from Meta and Nvidia, to an AI council aimed at accelerating U.S. global AI dominance and countering China.[4]\n  This elevates Ellison's geopolitical influence, embedding Oracle in national AI strategy and policy decisions favoring U.S. big tech supremacy.[4]"
+    },
+    {
+      "name": "Donald Trump",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **April 1: Trump delivered a primetime national address on Operation Epic Fury against Iran, claiming U.S. forces have decimated the regime's navy, air force, and terrorist leaders while neutralizing its ballistic missile arsenal, and outlined ceasefire conditions including reopening the Strait of Hormuz.**[1][2] This bolsters Trump's executive power by showcasing decisive military leadership and geopolitical dominance, potentially rallying domestic support amid midterm elections despite rising gas prices.[1][2]\n\n- **April 1: Trump nominated four federal judges and announced a legislative plan with Republicans to fund ICE and Border Patrol by bypassing the Senate filibuster.**[1] These moves advance judicial influence and border security infrastructure, strengthening Trump's coalition machinery by circumventing Democratic opposition and solidifying Republican control over electoral and enforcement priorities.[1]\n\n- **April 1: Trump set strict ceasefire terms for Iran, stating it would only occur once the Hormuz Strait is fully open, while warning of continued U.S. strikes otherwise.**[1][5] This asserts Trump's unilateral authority in foreign policy, enhancing his position as a strongman leader and pressuring allies and adversaries to align with U.S. demands.[1][2]\n\n- **April 1: Trump publicly lashed out at NATO allies during a White House lunch, accusing them of mistreatment and musing about leaving the alliance over their lack of support in the Iran war.**[4] The outburst widens trans-Atlantic rifts, reinforcing Trump's consolidation of executive power by prioritizing unilateral U.S. action and reshaping alliance dynamics to favor American interests.[4]"
+    },
+    {
+      "name": "Kash Patel",
+      "domain": "Director, Federal Bureau of Investigation",
+      "raw_news": "Based on recent search results, here is the significant news about Kash Patel from the past week:\n\n**Political Doxxing and Cybersecurity Breach**\n\nAn Iran-linked hacktivist group claimed to have hacked into Kash Patel's private emails, posting photos and documents online.[1] This breach exposes vulnerabilities in the digital security of top government officials and demonstrates how personal data can be weaponized against high-ranking executives, potentially undermining public confidence in the FBI's leadership and cybersecurity capabilities.[1]\n\n---\n\n**Note:** The search results provided contain only one substantive news item about Kash Patel from the specified timeframe. While a Bollywood dancing video was initially attributed to him, it was confirmed to be a false attribution circulating since 2020.[1] To provide the requested 3-5 items on executive power consolidation or other significant policy decisions, geopolitical events, or legal actions involving Patel, additional search results would be needed."
+    },
+    {
+      "name": "Neil M. Gorsuch",
+      "domain": "Associate Justice, US Supreme Court",
+      "raw_news": "- **Supreme Court oral arguments in Trump v. Barbara on birthright citizenship**: On April 1, 2026, Associate Justice Neil Gorsuch questioned Solicitor General D. John Sauer during arguments in Trump v. Barbara, expressing skepticism about relying heavily on the precedent from United States v. Wong Kim Ark regarding birthright citizenship for children of non-citizens.[2]\n\n  This intervention highlights Gorsuch's potential to influence a doctrinal shift on constitutional citizenship interpretations, aligning with originalist views that could reshape immigration policy under a second Trump administration.[2]\n\n- **Gorsuch authors opinion upholding U.S. TikTok ban**: Justice Neil Gorsuch recently detailed his reasoning in a Supreme Court opinion voting to uphold the TikTok ban in the U.S., issued just before President-elect Donald Trump's second term inauguration.[1]\n\n  The decision reinforces Gorsuch's influence on national security and free speech doctrines, signaling the Court's conservative majority's willingness to prioritize geopolitical concerns over tech platforms' First Amendment claims.[1]"
+    },
+    {
+      "name": "Judy Faulkner",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items (policy decisions, business moves, legal actions, geopolitical events, or significant public statements) about Judy Faulkner from approximately April 1-8, 2026, appear in the available search results.\n\nThe results reference her ongoing role at Epic Systems, a speaking profile for PMWC 2026 Silicon Valley, and a podcast interview on leadership and healthcare vision, but these lack specific dates within the past 7 days and do not qualify as hard news events.[1][2][3]"
+    },
+    {
+      "name": "Bill Gates",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "Based on the search results provided, I cannot identify significant news about Bill Gates from the past 7 days (April 1-8, 2026) that meets your criteria for hard news in capital allocation, energy transition, or security.\n\nThe most recent dated content in the search results is from March 23, 2026, when Gates visited Texas for the Breakthrough Energy Ventures Investors Summit to discuss zero-emission energy breakthroughs[3]. However, this appears to be a routine appearance rather than a specific policy decision or business move.\n\nThe other substantive recent news dates to January-February 2026:\n- Gates' \"Year Ahead 2026\" letter emphasizing AI's transformative potential and calling for policy preparation around wealth distribution and social safety nets[1][3]\n- His $100 billion philanthropic commitment to the Gates Foundation, to be spent over 20 years[2]\n- His criticism of Trump administration foreign aid cuts and warnings about potential child mortality impacts[2]\n\nTo provide the 3-5 hard news items you've requested from the April 1-8 window, I would need search results with more recent reporting from that specific timeframe. The available results do not contain sufficient current information to fulfill your query as specified."
+    },
+    {
+      "name": "Michael Rubin",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items matching the criteria (policy decisions, business moves, legal actions, geopolitical events, or significant public statements) about Michael Rubin from approximately April 1-8, 2026, appear in the available search results.\n\nThe most recent sourced events are from January 2026 (Fanatics Studios launch) and earlier in 2025, predating the queried period by months.[1]\n\nSearch results focus primarily on Rubin's biography, net worth estimates from 2024-2025, and past achievements like REFORM Alliance impacts, with no updates in the target timeframe.[1][2]"
+    },
+    {
+      "name": "Julia Koch & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "I cannot provide the requested news summary because the search results provided do not contain any information about Julia Koch & family activities from the past 7 days (April 1-8, 2026). The search results only cover events from 2025 and earlier years, specifically Julia Koch's philanthropic structures and a 2025 investment in the New York Giants.\n\nTo answer your query accurately, I would need search results with recent news from the specified date range covering her capital allocation decisions, energy transition activities, or electoral infrastructure involvement."
+    },
+    {
+      "name": "Michael Dell",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **April 7, 2026: Michael Dell headlined a Bank of America 'View From the Top' fireside chat to discuss Dell Technologies' AI strategies and digital transformation.** This event positions Dell as a key thought leader in AI infrastructure, signaling to investors his direct influence on capital allocation toward AI dominance amid surging market demand.[4]\n\n- **March 31, 2026: Michael Dell joined Darío Gil at the Dell Federal Symposium to address AI, quantum computing, and federal innovation, emphasizing sovereign architectures and U.S. Department of Energy collaborations.** The discussion underscores Dell's growing geopolitical leverage in sovereign AI and federal contracts, enhancing his private power through trusted infrastructure for national security and mission-scale deployments.[5]\n\n- **Recent 2026 statements: Michael Dell announced major investments in storage, AI PCs, servers, the Dell AI Factory, and channel partners to expand AI capabilities across every layer.** These commitments, including expectations of $25 billion in AI server shipments for fiscal 2026, reinforce Dell's aggressive capital allocation strategy, solidifying his position as a frontrunner in the AI infrastructure race.[1]"
+    },
+    {
+      "name": "Marc Benioff",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items about Marc Benioff matching the specified date range (approximately April 1-8, 2026) appear in the available search results, which cover events primarily from January and February 2026. The most recent item is a Bloomberg interview from April 6, 2026, but it involves general public statements on AI regulation rather than policy decisions, business moves, legal actions, or geopolitical events tied to his key areas of **Big Tech Regulatory Arbitrage** or **Information Environment Contestation**.[6] All other results predate the queried period by at least two months.[1][2][3][4][5]"
+    },
+    {
+      "name": "Josh Harris",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news items matching the criteria—policy decisions, business moves, legal actions, geopolitical events, or significant public statements by Josh Harris in the private equity or sports power sectors—from approximately April 1-8, 2026, appear in the available search results.\n\nRecent search results reference his January 2026 Forbes net worth estimate of $11.4 billion[1], a Forbes 2026 billionaires list placing him at #341 with $10 billion (no specific date in April 2026)[2], an undated NFL media appearance[3], and a prior investment in The Messenger news outlet[4], but none qualify as events from the past 7 days or hard news per the query's standards."
+    },
+    {
+      "name": "Hakeem S. Jeffries",
+      "domain": "House (NY, Democrat)",
+      "raw_news": "- **April 8, 2026: House floor speech accusing Republicans of enabling Trump's \"reckless war of choice\" in the Middle East.** House Democratic Leader Hakeem Jeffries delivered a fiery speech on the House floor, blasting Republicans for supporting strikes against Iran that he claims are costing billions and exacerbating economic strain.[1] This positions Jeffries as a leading voice rallying Democrats against GOP war policies, potentially swaying moderate Republicans needed for legislative blocks and bolstering his influence in foreign policy debates.[1]\n\n- **April 7, 2026: Joint leadership statement condemning Trump's threat to \"kill a whole civilization.\"** Jeffries and top House Democrats issued a statement denouncing President Trump's rhetoric on Middle East conflicts as extreme.[2] The statement amplifies Jeffries' role in unifying Democratic messaging on geopolitical escalation, enhancing his coalition-building clout amid fiscal-military tensions.[2]\n\n- **April 7, 2026: CNN appearance demanding War Powers Resolution to end Trump's Iran war.** On CNN with Anderson Cooper, Jeffries called for Speaker Johnson to reconvene the House for a War Powers Resolution, dismissing a two-week ceasefire as inadequate and pledging to force a floor vote.[3] This assertive push underscores Jeffries' strategic leverage in using parliamentary tools to challenge executive war powers, critical for his leadership in electoral and policy infrastructure fights.[3]\n\n- **April 5, 2026: ABC interview vowing pushback against Trump's Middle East war and DHS reforms.** Jeffries appeared on ABC's This Week, committing House Democrats to combat Trump's \"reckless war of choice\" and demand Department of Homeland Security changes.[2] It reinforces his prominence in framing fiscal-monetary stress from war spending, solidifying his position as the party's counterweight to Trump-era policies.[2]\n\n- **April 2, 2026: Statement on Trump's \"healthcare tariffs.\"** Jeffries released a statement criticizing President Trump's proposed healthcare tariffs.[2] This targets fiscal policy intersections with public services, highlighting his influence in linking economic cycles to voter priorities for Democratic electoral machinery.[2]"
+    },
+    {
+      "name": "Richard J. Durbin",
+      "domain": "Senate (IL, Democrat)",
+      "raw_news": "- **Durbin announced he will not seek re-election in 2026.** This decision by the longtime Senate Democratic Whip and Ranking Member of the Judiciary Committee opens his Illinois seat to Democratic contenders and could trigger a leadership shakeup among Senate Democrats, diminishing his long-term institutional influence.[2][3][6]\n\nNo other hard news items on policy decisions, legal actions, business moves, geopolitical events, or significant public statements by Durbin appear in the past 7 days (April 1-8, 2026); earlier press releases from November 2025 on funding bills and the Epstein Files Transparency Act fall outside this window.[1]"
+    },
+    {
+      "name": "George Soros",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard news matching the criteria—policy decisions, business moves, legal actions, geopolitical events, or significant public statements by George Soros in the areas of capital allocation, private power, coalition machinery, or electoral infrastructure—from approximately April 1-8, 2026, appears in the available search results.\n\nThe provided results reference an undated YouTube video on Soros's market warnings[1] and a vague, non-specific blog post lacking hard news details[2], neither qualifying as recent or substantive events within the past 7 days."
+    },
+    {
+      "name": "Thomas Frist, Jr. & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Frist family restructures HCA stake via tax-free share exchange.** On February 6, 2026, Frisco (a Frist family entity) exchanged 36,629,188 HCA shares for 36,557,141 newly issued shares, converting into a partnership while family entities maintain a 31.6% beneficial ownership (70,555,590 shares).[2]\n  - This reinforces the family's dominant control over HCA Healthcare, the largest U.S. for-profit hospital operator, by updating ownership structure and retaining rights to nominate up to two board directors.[2]\n\nNo other hard news items—such as policy decisions, business moves beyond the above, legal actions, geopolitical events, or significant public statements—about Thomas Frist Jr. or family appear in reports from approximately April 1-8, 2026. Older items include a February 2026 Palm Beach home sale by Thomas Frist III[3] and an undated reference to Thomas Frist Jr. selling HCA stock on March 7 (likely 2005 context).[1]"
+    },
+    {
+      "name": "Stewart Resnick",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "**1. UCLA Health announced a $100 million gift from Stewart and Lynda Resnick to fund the expansion of mental and behavioral health services, including a 61% increase in beds at the renamed Stewart and Lynda Resnick Neuropsychiatric Hospital and a new crisis stabilization unit.[1][2]**\n\nThis major philanthropic commitment, the largest in UCLA Health's history for mental health, reinforces Resnick's influence as a leading donor in California healthcare and builds on their prior $2.5 billion in contributions, enhancing their legacy in public health infrastructure.[1][2]\n\n**2. The Resnicks' donation will support relocating and upgrading the neuropsychiatric hospital to a new 5900 West Olympic Boulevard site, with the hospital opening in fall 2026 and the crisis unit in 2027.[1][2]**\n\nBy driving this expansion amid a national mental health crisis, the gift solidifies Resnick's position as a pivotal private funder of advanced medical facilities, directly impacting access to care in Los Angeles.[1][2]"
+    }
+  ],
+  "ps_assemblies_fired": {
+    "DPS-02": [
+      "CA-070",
+      "CA-099",
+      "CA-105",
+      "CA-012",
+      "CA-086"
+    ],
+    "DPS-07": [
+      "CA-044",
+      "CA-024",
+      "CA-051"
+    ],
+    "DPS-06": [
+      "CA-131",
+      "CA-029",
+      "CA-101"
+    ],
+    "DPS-01": [
+      "CA-001",
+      "CA-030",
+      "CA-027"
+    ]
+  },
+  "assemblies_spontaneous": [
+    "CA-036",
+    "CA-141"
+  ],
+  "neurons_conscious": [
+    "Sergey Brin",
+    "Mustafa Suleyman",
+    "Stephen Schwarzman",
+    "Eric Schmidt",
+    "Elon Musk",
+    "Palmer Luckey",
+    "Andy Jassy",
+    "Larry Ellison",
+    "Donald Trump",
+    "Kash Patel"
+  ],
+  "neurons_spontaneous": [
+    "Neil M. Gorsuch",
+    "Judy Faulkner",
+    "Bill Gates",
+    "Michael Rubin",
+    "Julia Koch & family",
+    "Michael Dell",
+    "Marc Benioff",
+    "Josh Harris",
+    "Hakeem S. Jeffries",
+    "Richard J. Durbin",
+    "George Soros",
+    "Thomas Frist, Jr. & family",
+    "Stewart Resnick"
+  ],
+  "neurons_skipped": [
+    "Mark Zuckerberg",
+    "Jerome H. Powell",
+    "Clarence Thomas",
+    "Jeff Bezos",
+    "Susie Wiles",
+    "Brett M. Kavanaugh",
+    "Tim Cook",
+    "Scott Bessent",
+    "Sundar Pichai",
+    "Satya Nadella",
+    "Robert F. Kennedy Jr.",
+    "Leonard Leo",
+    "Pete Hegseth",
+    "Sonia Sotomayor",
+    "Sam Altman",
+    "Peter Thiel",
+    "Marc Rowan",
+    "Russell M. Nelson",
+    "Miriam Adelson & family",
+    "Michael Bloomberg",
+    "Jensen Huang",
+    "Amy Coney Barrett",
+    "Charles Koch & family",
+    "Ketanji Brown Jackson",
+    "Ken Griffin",
+    "Gavin Newsom",
+    "Sean Hannity",
+    "Samuel A. Alito Jr.",
+    "Thomas Kurian",
+    "John Thune",
+    "Terrence Pegula",
+    "John G. Roberts Jr.",
+    "Ken Langone",
+    "Rob Walton & family",
+    "Richard Uihlein",
+    "Laurene Powell Jobs",
+    "Susan M. Collins",
+    "Stephen Ross",
+    "Abigail Johnson",
+    "Jerry Jones & family",
+    "Bob Parsons",
+    "Jim Walton & family",
+    "David Geffen",
+    "Stanley Druckenmiller",
+    "Chuck Grassley",
+    "David Rubenstein",
+    "Fred Smith",
+    "David Tepper",
+    "Alice Walton",
+    "Ray Dalio",
+    "Brian Armstrong",
+    "Paul Tudor Jones, II.",
+    "Pam Bondi",
+    "J.B. Pritzker",
+    "Elena Kagan",
+    "Lukas Walton",
+    "Pierre Omidyar",
+    "Henry Kravis",
+    "Jeff Yass",
+    "Marijke Mars",
+    "John Malone",
+    "Kelcy Warren",
+    "Leon Black",
+    "Paul Singer",
+    "Lynda Resnick",
+    "Tom Cotton",
+    "Ronald Lauder",
+    "Philip Anschutz",
+    "George Roberts",
+    "Brian Chesky",
+    "Jeremy Jacobs, Sr. & family",
+    "Brian Ballard",
+    "Ann Walton Kroenke",
+    "MacKenzie Scott",
+    "Charles E. Schumer",
+    "Charles Schwab",
+    "Steve Scalise",
+    "Joe Rogan",
+    "Ted Cruz",
+    "Mitchell Rales",
+    "Ron DeSantis",
+    "Melinda French Gates",
+    "Suzanne Clark",
+    "Mitch McConnell",
+    "David Bonderman",
+    "Warren Buffett",
+    "Rupert Murdoch & family",
+    "Larry Page",
+    "Greg Abbott",
+    "Stephen Feinberg",
+    "Mike Lee",
+    "Steve Cohen",
+    "Phil Knight & family",
+    "Carl Icahn",
+    "Thomas Peterffy",
+    "William Ackman",
+    "Victoria Mars",
+    "Patty Murray",
+    "John Mars",
+    "Matthew J. Kacsmaryk",
+    "Rick Scott",
+    "Cynthia M. Lummis",
+    "Carrie Severino",
+    "Christopher Murphy",
+    "Charlie Kirk",
+    "Kevin Roberts",
+    "Bret Taylor",
+    "Jonathan Gray",
+    "Edward Johnson, IV.",
+    "Thomas Pritzker",
+    "Lynn Schusterman & family",
+    "Josh Hawley",
+    "Alex Karp",
+    "Lisa Su",
+    "Alexander Karp",
+    "Len Blavatnik",
+    "Demis Hassabis",
+    "Lindsey Graham",
+    "Alexandria Ocasio-Cortez",
+    "Antony Ressler",
+    "Elise M. Stefanik",
+    "Mark Walter",
+    "Dario Amodei",
+    "Daniela Amodei",
+    "Christy Walton",
+    "Donald Newhouse",
+    "Ernest Garcia, III"
+  ],
+  "spontaneous_cap": 13
+}

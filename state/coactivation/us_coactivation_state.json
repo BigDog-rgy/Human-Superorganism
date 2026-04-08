@@ -1,6 +1,6 @@
 {
-  "week_count": 4,
-  "last_updated": "2026-04-01",
+  "week_count": 5,
+  "last_updated": "2026-04-08",
   "scope": "US",
   "config": {
     "decay_rate": 0.15,
@@ -9,7 +9,7 @@
   },
   "neuron_coactivation": {
     "Christopher Murphy|||Elon Musk": {
-      "score": 0.33415625,
+      "score": 0.2840328125,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -18,7 +18,7 @@
       "last_updated": "2026-03-19"
     },
     "Christopher Murphy|||Palmer Luckey": {
-      "score": 0.33415625,
+      "score": 0.2840328125,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -27,13 +27,13 @@
       "last_updated": "2026-03-19"
     },
     "Elon Musk|||Palmer Luckey": {
-      "score": 0.33415625,
+      "score": 0.2840328125,
       "label": "reinforcing",
-      "observations": 2,
+      "observations": 3,
       "last_ps": [
         "DPS-07"
       ],
-      "last_updated": "2026-03-19"
+      "last_updated": "2026-04-08"
     },
     "Charles E. Schumer|||Christopher Murphy": {
       "score": 0.0,
@@ -54,7 +54,7 @@
       "last_updated": "2026-03-19"
     },
     "Charles E. Schumer|||Lindsey Graham": {
-      "score": -0.33415625,
+      "score": -0.2840328125,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -63,7 +63,7 @@
       "last_updated": "2026-03-19"
     },
     "Charles E. Schumer|||Rick Scott": {
-      "score": -0.33415625,
+      "score": -0.2840328125,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -90,7 +90,7 @@
       "last_updated": "2026-03-19"
     },
     "Christopher Murphy|||Lindsey Graham": {
-      "score": -0.33415625,
+      "score": -0.2840328125,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -99,7 +99,7 @@
       "last_updated": "2026-03-19"
     },
     "Christopher Murphy|||Rick Scott": {
-      "score": -0.33415625,
+      "score": -0.2840328125,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -108,7 +108,7 @@
       "last_updated": "2026-03-19"
     },
     "Christopher Murphy|||Tom Cotton": {
-      "score": -0.33415625,
+      "score": -0.2840328125,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -144,7 +144,7 @@
       "last_updated": "2026-03-19"
     },
     "Lindsey Graham|||Rick Scott": {
-      "score": 0.33415625,
+      "score": 0.2840328125,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -153,7 +153,7 @@
       "last_updated": "2026-03-19"
     },
     "Lindsey Graham|||Tom Cotton": {
-      "score": 0.33415625,
+      "score": 0.2840328125,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -162,7 +162,7 @@
       "last_updated": "2026-03-19"
     },
     "Rick Scott|||Tom Cotton": {
-      "score": 0.33415625,
+      "score": 0.2840328125,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -171,7 +171,7 @@
       "last_updated": "2026-03-19"
     },
     "Charles E. Schumer|||Elon Musk": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -207,7 +207,7 @@
       "last_updated": "2026-03-19"
     },
     "Elon Musk|||Lindsey Graham": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -216,7 +216,7 @@
       "last_updated": "2026-03-19"
     },
     "Elon Musk|||Rick Scott": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -225,7 +225,7 @@
       "last_updated": "2026-03-19"
     },
     "Elon Musk|||Tom Cotton": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -234,7 +234,7 @@
       "last_updated": "2026-03-19"
     },
     "Lindsey Graham|||Palmer Luckey": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -252,7 +252,7 @@
       "last_updated": "2026-03-19"
     },
     "Palmer Luckey|||Tom Cotton": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -306,7 +306,7 @@
       "last_updated": "2026-03-25"
     },
     "Brian Armstrong|||Ray Dalio": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -315,7 +315,7 @@
       "last_updated": "2026-03-25"
     },
     "Jeff Yass|||John Thune": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -360,7 +360,7 @@
       "last_updated": "2026-03-25"
     },
     "John Thune|||Mitch McConnell": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -369,7 +369,7 @@
       "last_updated": "2026-03-25"
     },
     "John Thune|||Paul Singer": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -378,7 +378,7 @@
       "last_updated": "2026-03-25"
     },
     "John Thune|||Pete Hegseth": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -387,7 +387,7 @@
       "last_updated": "2026-03-25"
     },
     "John Thune|||Ray Dalio": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -405,7 +405,7 @@
       "last_updated": "2026-03-25"
     },
     "Mitch McConnell|||Pete Hegseth": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -423,7 +423,7 @@
       "last_updated": "2026-03-25"
     },
     "Paul Singer|||Pete Hegseth": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -432,7 +432,7 @@
       "last_updated": "2026-03-25"
     },
     "Paul Singer|||Ray Dalio": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -441,7 +441,7 @@
       "last_updated": "2026-03-25"
     },
     "Pete Hegseth|||Ray Dalio": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -477,7 +477,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Elena Kagan": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -486,7 +486,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Jeff Bezos": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -495,7 +495,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Kash Patel": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -504,7 +504,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Larry Page": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -513,7 +513,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Richard Uihlein": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -522,7 +522,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Robert F. Kennedy Jr.": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -540,7 +540,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Thomas Kurian": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -549,7 +549,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Tim Cook": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -648,7 +648,7 @@
       "last_updated": "2026-04-01"
     },
     "Elena Kagan|||Kash Patel": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -657,7 +657,7 @@
       "last_updated": "2026-04-01"
     },
     "Elena Kagan|||Larry Page": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -666,7 +666,7 @@
       "last_updated": "2026-04-01"
     },
     "Elena Kagan|||Richard Uihlein": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -693,7 +693,7 @@
       "last_updated": "2026-04-01"
     },
     "Elena Kagan|||Thomas Kurian": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -765,7 +765,7 @@
       "last_updated": "2026-04-01"
     },
     "Kash Patel|||Larry Page": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -774,7 +774,7 @@
       "last_updated": "2026-04-01"
     },
     "Kash Patel|||Richard Uihlein": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -783,7 +783,7 @@
       "last_updated": "2026-04-01"
     },
     "Kash Patel|||Robert F. Kennedy Jr.": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -792,7 +792,7 @@
       "last_updated": "2026-04-01"
     },
     "Kash Patel|||Thomas Kurian": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -801,7 +801,7 @@
       "last_updated": "2026-04-01"
     },
     "Kash Patel|||Tim Cook": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -810,7 +810,7 @@
       "last_updated": "2026-04-01"
     },
     "Larry Page|||Richard Uihlein": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -819,7 +819,7 @@
       "last_updated": "2026-04-01"
     },
     "Larry Page|||Robert F. Kennedy Jr.": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -855,7 +855,7 @@
       "last_updated": "2026-04-01"
     },
     "Richard Uihlein|||Robert F. Kennedy Jr.": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -882,7 +882,7 @@
       "last_updated": "2026-04-01"
     },
     "Richard Uihlein|||Tim Cook": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -900,7 +900,7 @@
       "last_updated": "2026-04-01"
     },
     "Robert F. Kennedy Jr.|||Thomas Kurian": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -943,17 +943,827 @@
         "GLOBAL"
       ],
       "last_updated": "2026-04-01"
+    },
+    "Eric Schmidt|||Sergey Brin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-02"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Donald Trump|||Kash Patel": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-01"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Donald Trump|||Elon Musk": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Donald Trump|||Eric Schmidt": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Donald Trump|||Hakeem S. Jeffries": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Donald Trump|||Larry Ellison": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Donald Trump|||Michael Dell": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Donald Trump|||Mustafa Suleyman": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Donald Trump|||Neil M. Gorsuch": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Donald Trump|||Palmer Luckey": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Donald Trump|||Richard J. Durbin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Donald Trump|||Sergey Brin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Donald Trump|||Stewart Resnick": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Donald Trump|||Thomas Frist, Jr. & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Elon Musk|||Eric Schmidt": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Elon Musk|||Hakeem S. Jeffries": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Elon Musk|||Kash Patel": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Elon Musk|||Larry Ellison": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Elon Musk|||Michael Dell": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Elon Musk|||Mustafa Suleyman": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Elon Musk|||Neil M. Gorsuch": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Elon Musk|||Richard J. Durbin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Elon Musk|||Sergey Brin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Elon Musk|||Stewart Resnick": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Elon Musk|||Thomas Frist, Jr. & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Eric Schmidt|||Hakeem S. Jeffries": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Eric Schmidt|||Kash Patel": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Eric Schmidt|||Larry Ellison": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Eric Schmidt|||Michael Dell": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Eric Schmidt|||Mustafa Suleyman": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Eric Schmidt|||Neil M. Gorsuch": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Eric Schmidt|||Palmer Luckey": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Eric Schmidt|||Richard J. Durbin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Eric Schmidt|||Stewart Resnick": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Eric Schmidt|||Thomas Frist, Jr. & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Hakeem S. Jeffries|||Kash Patel": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Hakeem S. Jeffries|||Larry Ellison": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Hakeem S. Jeffries|||Michael Dell": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Hakeem S. Jeffries|||Mustafa Suleyman": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Hakeem S. Jeffries|||Neil M. Gorsuch": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Hakeem S. Jeffries|||Palmer Luckey": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Hakeem S. Jeffries|||Richard J. Durbin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Hakeem S. Jeffries|||Sergey Brin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Hakeem S. Jeffries|||Stewart Resnick": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Hakeem S. Jeffries|||Thomas Frist, Jr. & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Kash Patel|||Larry Ellison": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Kash Patel|||Michael Dell": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Kash Patel|||Mustafa Suleyman": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Kash Patel|||Neil M. Gorsuch": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Kash Patel|||Palmer Luckey": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Kash Patel|||Richard J. Durbin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Kash Patel|||Sergey Brin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Kash Patel|||Stewart Resnick": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Kash Patel|||Thomas Frist, Jr. & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Larry Ellison|||Michael Dell": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Larry Ellison|||Mustafa Suleyman": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Larry Ellison|||Neil M. Gorsuch": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Larry Ellison|||Palmer Luckey": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Larry Ellison|||Richard J. Durbin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Larry Ellison|||Sergey Brin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Larry Ellison|||Stewart Resnick": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Larry Ellison|||Thomas Frist, Jr. & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Michael Dell|||Mustafa Suleyman": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Michael Dell|||Neil M. Gorsuch": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Michael Dell|||Palmer Luckey": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Michael Dell|||Richard J. Durbin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Michael Dell|||Sergey Brin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Michael Dell|||Stewart Resnick": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Michael Dell|||Thomas Frist, Jr. & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Mustafa Suleyman|||Neil M. Gorsuch": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Mustafa Suleyman|||Palmer Luckey": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Mustafa Suleyman|||Richard J. Durbin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Mustafa Suleyman|||Sergey Brin": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Mustafa Suleyman|||Stewart Resnick": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Mustafa Suleyman|||Thomas Frist, Jr. & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Neil M. Gorsuch|||Palmer Luckey": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Neil M. Gorsuch|||Richard J. Durbin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Neil M. Gorsuch|||Sergey Brin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Neil M. Gorsuch|||Stewart Resnick": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Neil M. Gorsuch|||Thomas Frist, Jr. & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Palmer Luckey|||Richard J. Durbin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Palmer Luckey|||Sergey Brin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Palmer Luckey|||Stewart Resnick": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Palmer Luckey|||Thomas Frist, Jr. & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Richard J. Durbin|||Sergey Brin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Richard J. Durbin|||Stewart Resnick": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Richard J. Durbin|||Thomas Frist, Jr. & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Sergey Brin|||Stewart Resnick": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Sergey Brin|||Thomas Frist, Jr. & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "Stewart Resnick|||Thomas Frist, Jr. & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
     }
   },
   "ca_coactivation": {
     "CA-024|||CA-051": {
-      "score": 0.33415625,
+      "score": 0.2840328125,
       "label": "reinforcing",
-      "observations": 2,
+      "observations": 3,
       "last_ps": [
         "DPS-07"
       ],
-      "last_updated": "2026-03-19"
+      "last_updated": "2026-04-08"
     },
     "CA-024|||CA-058": {
       "score": 0.0,
@@ -965,7 +1775,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-024|||CA-071": {
-      "score": -0.33415625,
+      "score": -0.2840328125,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -992,7 +1802,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-058|||CA-071": {
-      "score": -0.33415625,
+      "score": -0.2840328125,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -1019,7 +1829,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-030|||CA-034": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -1037,7 +1847,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-009|||CA-024": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1064,7 +1874,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-009|||CA-071": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1100,7 +1910,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-016|||CA-034": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1172,7 +1982,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-030|||CA-051": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1190,7 +2000,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-030|||CA-071": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1226,7 +2036,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-034|||CA-071": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1289,7 +2099,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-002|||CA-032": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1298,7 +2108,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-002|||CA-004": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1325,7 +2135,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-002|||CA-071": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1352,7 +2162,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-004|||CA-032": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1424,7 +2234,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-032|||CA-071": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1460,7 +2270,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-012|||CA-031": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1487,7 +2297,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-031|||CA-060": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1514,7 +2324,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-001|||CA-018": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1532,7 +2342,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-018|||CA-027": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1570,11 +2380,11 @@
     "CA-001|||CA-012": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-01"
+      "last_updated": "2026-04-08"
     },
     "CA-001|||CA-031": {
       "score": 0.0,
@@ -1604,7 +2414,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-001|||CA-069": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1667,7 +2477,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-012|||CA-027": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1694,7 +2504,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-012|||CA-074": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1739,7 +2549,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-018|||CA-060": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1757,7 +2567,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-018|||CA-069": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1766,7 +2576,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-018|||CA-074": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1784,7 +2594,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-018|||CA-109": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1910,7 +2720,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-031|||CA-074": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1964,7 +2774,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-060|||CA-074": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2036,7 +2846,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-069|||CA-074": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2160,6 +2970,312 @@
         "GLOBAL"
       ],
       "last_updated": "2026-04-01"
+    },
+    "CA-012|||CA-099": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "DPS-02"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-012|||CA-105": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-02"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-099|||CA-105": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "DPS-02"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-101|||CA-131": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-06"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-001|||CA-024": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-001|||CA-036": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-001|||CA-051": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-001|||CA-099": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-001|||CA-101": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-001|||CA-105": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-001|||CA-131": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-012|||CA-024": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-012|||CA-036": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-012|||CA-051": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-012|||CA-101": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-012|||CA-131": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-024|||CA-036": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-024|||CA-099": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-024|||CA-101": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-024|||CA-105": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-024|||CA-131": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-036|||CA-051": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-036|||CA-099": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-036|||CA-101": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-036|||CA-105": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-036|||CA-131": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-051|||CA-099": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-051|||CA-101": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-051|||CA-105": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-051|||CA-131": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-099|||CA-101": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-099|||CA-131": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-101|||CA-105": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
+    },
+    "CA-105|||CA-131": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-04-08"
     }
   }
 }
