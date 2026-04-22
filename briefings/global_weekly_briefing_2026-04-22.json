@@ -1,0 +1,762 @@
+{
+  "week_ending": "2026-04-22",
+  "executive_summary": "The week was dominated by Anthropic's release of Claude Mythos Preview — a frontier model capable of discovering thousands of zero-day vulnerabilities — igniting an AI arms race among OpenAI, Meta, and major compute players, while Apple announced a historic CEO transition elevating John Ternus. Geopolitically, Iran's Supreme Leader succession to Mojtaba Khamenei continued to reverberate as Trump signaled he is 'highly unlikely' to extend the US-Iran ceasefire, and China's State Council operationalized its countersanctions architecture with a new regulation targeting foreign extraterritorial jurisdiction, deepening geoeconomic decoupling pressures on multinationals.",
+  "person_updates": [
+    {
+      "name": "Zhang Yiming",
+      "signal": "quiet",
+      "summary": "No significant hard news involving Zhang Yiming emerged this week. He remains out of the public spotlight following his 2021 CEO resignation from ByteDance."
+    },
+    {
+      "name": "Aneel Bhusri",
+      "signal": "quiet",
+      "summary": "No significant policy, geopolitical, or economic actions by Aneel Bhusri were reported this week. A routine SEC filing for tax-related share withholding on April 5 was the only recent activity, falling outside the reporting window."
+    },
+    {
+      "name": "Jensen Huang",
+      "signal": "active",
+      "summary": "Huang warned on the Dwarkesh Podcast that US restrictions on China risk a 'horrible outcome' for America, noting global AI models increasingly run best on non-American hardware like Huawei's. This public pushback against escalating export controls positions Nvidia as an advocate for continued US-China engagement in semiconductors and AI."
+    },
+    {
+      "name": "Ursula von der Leyen",
+      "signal": "quiet",
+      "summary": "Von der Leyen attended a Brussels press conference on April 13 but no major policy decisions, geopolitical moves, or significant public statements were reported during the April 15-22 window. Her activity this week was limited to routine institutional communications."
+    },
+    {
+      "name": "Gianluigi Aponte",
+      "signal": "quiet",
+      "summary": "No significant hard news on Aponte appeared this week. His family-controlled TiL remains the lead investor in the proposed $19 billion CK Hutchison port acquisition, but no new developments were reported in the period."
+    },
+    {
+      "name": "Donald Trump",
+      "signal": "active",
+      "summary": "Trump declared on April 20 he is 'highly unlikely' to extend the US-Iran ceasefire ending Wednesday unless a new deal is reached, while maintaining the US naval blockade of Iranian ports. Congressional Republicans faced repeated votes on war powers resolutions, exposing domestic institutional strain over his Iran policy."
+    },
+    {
+      "name": "Christopher Cavoli",
+      "signal": "quiet",
+      "summary": "Cavoli has been succeeded as NATO SACEUR by General Grynkewich, appointed by President Trump. No significant news about Cavoli's activities emerged during the April 15-22 window, as the transition appears to have been completed."
+    },
+    {
+      "name": "Vladimir Putin",
+      "signal": "active",
+      "summary": "Putin's Foreign Minister Lavrov held talks with Chinese President Xi Jinping in Beijing on April 15, advancing Russia-China strategic coordination. Earlier in the period, Putin publicly scolded top economic officials over Russia's 1.8% economic contraction and a doubling federal budget deficit, exposing internal regime tensions."
+    },
+    {
+      "name": "Cristiano Amon",
+      "signal": "quiet",
+      "summary": "No significant hard news involving Cristiano Amon was reported this week. His most recent public comments on India's AI potential at a February summit predate the reporting window by two months."
+    },
+    {
+      "name": "C.C. Wei",
+      "signal": "active",
+      "summary": "Wei announced TSMC is upgrading its 2026 sales growth forecast to over 30% in US dollar terms, driven by sustained AI demand. This signals TSMC's deepening centrality as the critical chokepoint for AI chip production amid intensifying US-China semiconductor competition."
+    },
+    {
+      "name": "Alexander Lukashenko",
+      "signal": "active",
+      "summary": "Lukashenko publicly reaffirmed Belarus's unwavering loyalty to Russia, stating Belarusians will fight alongside Russians to defend shared interests. He also held a phone call with Putin and highlighted the joint decision to return nuclear weapons to Belarusian territory, deepening authoritarian axis nuclear integration."
+    },
+    {
+      "name": "Ayatollah Ali Khamenei",
+      "signal": "active",
+      "summary": "Khamenei was killed in US-Israeli bombardment in late February/early March 2026, and the succession to his son Mojtaba Khamenei continued to reverberate this week. Iran's Assembly of Experts formally elected Mojtaba as Supreme Leader, consolidating clerical control amid the ongoing US-Iran conflict."
+    },
+    {
+      "name": "Charles Koch & family",
+      "signal": "quiet",
+      "summary": "No significant hard news involving Charles Koch or the Koch family was reported this week across any tracked phase sequences. Their political and economic activities remain below the reporting threshold for this period."
+    },
+    {
+      "name": "Yuri Kovalchuk",
+      "signal": "active",
+      "summary": "Kovalchuk is reportedly among Putin's inner circle advocating for a full internet blockade in Russia, positioning him as a key architect of the regime's information control strategy. His influence now extends to managing electoral legitimacy ahead of September 2026 State Duma elections through preemptive censorship."
+    },
+    {
+      "name": "Khaldoon Khalifa Al Mubarak",
+      "signal": "active",
+      "summary": "On April 17, Al Mubarak was appointed as the first Middle Eastern Chair of the World Economic Forum's International Business Council, elevating Abu Dhabi's global influence on frontier technologies and energy transitions. He also delivered a keynote at Davos 2026 on new sources of economic growth."
+    },
+    {
+      "name": "Lisa Su",
+      "signal": "quiet",
+      "summary": "No significant hard news involving Lisa Su was reported this week. AMD's CEO remained below the reporting threshold for policy decisions, geopolitical moves, or major public statements during the April 15-22 period."
+    },
+    {
+      "name": "Droupadi Murmu",
+      "signal": "quiet",
+      "summary": "No significant hard news involving President Murmu matching the tracked phase sequences was reported this week. Her recent public activities were limited to domestic ceremonial and welfare-focused engagements outside the reporting window."
+    },
+    {
+      "name": "Jim Walton & family",
+      "signal": "quiet",
+      "summary": "No significant hard news involving Jim Walton or the Walton family was reported this week. The most recent notable activity — a $380 million Walmart stock divestment — occurred in late February 2026, outside the reporting window."
+    },
+    {
+      "name": "Warren Buffett",
+      "signal": "active",
+      "summary": "Buffett confirmed Berkshire purchased another $17 billion in Treasury bills this week atop a $150 billion cash pile, signaling extreme caution on market valuations. He also publicly warned that the 2026 financial collapse has already begun, a statement with potential to accelerate risk-off behavior among global investors."
+    },
+    {
+      "name": "Morris Chang",
+      "signal": "quiet",
+      "summary": "No significant hard news involving Morris Chang was reported this week. The TSMC founder's most recent public remarks on Taiwan's chip edge were undated and did not constitute actionable intelligence for the April 15-22 period."
+    },
+    {
+      "name": "Mukesh Ambani",
+      "signal": "quiet",
+      "summary": "No significant hard news involving Mukesh Ambani was reported this week. His most recent notable activity — a February 2026 announcement of 10 lakh crore in sovereign AI compute and green energy investments — predates the reporting window."
+    },
+    {
+      "name": "Petr Pavel",
+      "signal": "active",
+      "summary": "President Pavel criticized the 2026 Czech state budget for failing to meet NATO's defense spending pledge while signing it into law on April 15. He also highlighted the Czech initiative's delivery of nearly 2 million large-caliber rounds to Ukraine and warned that a proposed NGO registration law could limit democracy."
+    },
+    {
+      "name": "Edward Johnson, IV.",
+      "signal": "quiet",
+      "summary": "No significant hard news involving Edward Johnson IV was reported this week. His activities at Pembroke Real Estate and Fidelity Investments remained below the reporting threshold for the April 15-22 period."
+    },
+    {
+      "name": "Safra Catz",
+      "signal": "active",
+      "summary": "Oracle announced on April 20 that Catz is being replaced as CEO by co-CEOs Clay Magouyrk and Mike Sicilia, with Catz reassigned to Executive Vice Chair of the Board. This diminishes her operational authority at a critical node in the frontier AI and cloud infrastructure competition."
+    },
+    {
+      "name": "Hamad bin Jassim bin Jaber Al Thani",
+      "signal": "active",
+      "summary": "Sheikh Hamad called for the formation of a strategic defense alliance among Gulf states and warned the Middle East is sliding into a prolonged war of attrition. His public statements position him as a key influencer in Gulf security architecture and middle-power realignment amid regional conflict."
+    },
+    {
+      "name": "Mohammed VI of Morocco",
+      "signal": "active",
+      "summary": "Mohammed VI presided over a Council of Ministers outlining priorities for the 2026 Finance Bill, including green hydrogen, private investment, and social protection expansion. He also approved electoral reforms with gender quotas and youth incentives, and authorized 14 international agreements expanding Morocco's diplomatic footprint in Africa."
+    },
+    {
+      "name": "Masayoshi Son",
+      "signal": "active",
+      "summary": "SoftBank's $30 billion investment in OpenAI's $110 billion funding round continued to shape the AI landscape, while Son announced the $4 billion acquisition of DigitalBridge Group to deepen digital infrastructure holdings. His proposed $1 trillion 'Project Crystal Land' AI and robotics complex in Arizona, including a free-trade zone with TSMC, positions SoftBank as a key partner in US tech reshoring."
+    },
+    {
+      "name": "Michael Dell",
+      "signal": "active",
+      "summary": "On April 21, Dell posted a cryptic social media message teasing 'big news is coming' linked to the University of Texas at Austin, sparking a 3% rise in Dell Technologies shares. The tease suggests potential expansion into academic AI and semiconductor talent pipelines amid surging data center demand."
+    }
+  ],
+  "assembly_updates": [
+    {
+      "id": "CA-107",
+      "name": "China Internet Investment Fund (CIIF)",
+      "signal": "quiet",
+      "summary": "No significant news on CIIF emerged this week. The fund's most recent documented activity was a Series C investment in AkroStar in May 2025, with no new actions affecting AI, narrative control, or US-China rivalry reported."
+    },
+    {
+      "id": "CA-103",
+      "name": "Amazon Board of Directors",
+      "signal": "quiet",
+      "summary": "No board-level decisions or actions were reported this week. Recent S-Team restructuring under CEO Jassy prioritizing AI models and frontier research predates the reporting window."
+    },
+    {
+      "id": "CA-304",
+      "name": "Palantir Technologies Board of Directors",
+      "signal": "active",
+      "summary": "Director Alexander Moore sold $2.23 million in Class A shares on April 15, representing a notable insider stake reduction at a company central to defense-AI integration. No other board-level strategic decisions were reported."
+    },
+    {
+      "id": "CA-014",
+      "name": "European Commission College of Commissioners",
+      "signal": "quiet",
+      "summary": "No significant policy decisions or strategic moves by the College of Commissioners were reported during the April 15-22 window. Available sources contained only background information on the Commission's structure from late 2024."
+    },
+    {
+      "id": "CA-187",
+      "name": "Stargate Joint Venture (OpenAI / SoftBank / Oracle)",
+      "signal": "quiet",
+      "summary": "No new developments altering the venture's trajectory were reported this week. The $500 billion, 10 GW capacity buildout in Texas remains on track per prior updates, with construction continuing."
+    },
+    {
+      "id": "CA-311",
+      "name": "Surgutneftegas Executive Leadership",
+      "signal": "quiet",
+      "summary": "No hard news on Surgutneftegas executive leadership emerged this week. The most recent substantive information dates to June 2025, reporting a Q1 2025 net loss of 439.7 billion rubles."
+    },
+    {
+      "id": "CA-070",
+      "name": "Apple Inc. Board of Directors",
+      "signal": "active",
+      "summary": "Apple's Board unanimously approved a historic CEO transition on April 17, elevating Tim Cook to executive chairman and naming John Ternus as CEO effective September 1, 2026. This reshapes leadership at a $4 trillion company with significant geopolitical exposure in US-China supply chains."
+    },
+    {
+      "id": "CA-225",
+      "name": "Volga Group",
+      "signal": "quiet",
+      "summary": "No significant news on Volga Group appeared this week. The most recent relevant development was Gennady Timchenko's October 2025 acquisition of Shell's former stake in Salym Petroleum Development."
+    },
+    {
+      "id": "CA-176",
+      "name": "NATO Nuclear Planning Group",
+      "signal": "quiet",
+      "summary": "No specific NPG actions or decisions were reported this week. Broader NATO tensions centered on Secretary General Rutte's planned White House visit amid Trump's criticism of allies over Iran support."
+    },
+    {
+      "id": "CA-094",
+      "name": "NATO Defense Ministers Council",
+      "signal": "active",
+      "summary": "NATO Defence Ministers met in Brussels in February 2026 to assess progress on the 5% GDP defense spending commitment from the 2025 Hague Summit, with US Under Secretary Colby participating. The session advanced implementation of capability targets to counter Russian threats along the eastern flank."
+    },
+    {
+      "id": "CA-032",
+      "name": "NATO Heads of State and Government Summit",
+      "signal": "active",
+      "summary": "The Hague Summit's 5% GDP defense commitment continued to drive alliance posture this week, with Cold Response 2026 Arctic drills involving 32,000 troops testing readiness against simulated Russian invasion scenarios. The summit's spending mandate is reshaping force planning across 14 allied nations."
+    },
+    {
+      "id": "CA-025",
+      "name": "State Council of the People's Republic of China",
+      "signal": "active",
+      "summary": "On April 13, the State Council issued the Regulation on Countering Foreign States' Unlawful Extraterritorial Jurisdiction, operationalizing China's countersanctions framework with a Malicious Entity List, asset freezes, and trade bans. This creates dual legal exposure for multinationals and signals Beijing's proactive deterrence against US decoupling measures."
+    },
+    {
+      "id": "CA-112",
+      "name": "Semiconductor Industry Association (SIA)",
+      "signal": "active",
+      "summary": "SIA applauded the finalization of a CHIPS Act award to Polar Semiconductor and endorsed the Building Chips in America Act to expedite new facilities. These moves advance US semiconductor reshoring amid global supply chain tensions and export control pressures."
+    },
+    {
+      "id": "CA-228",
+      "name": "Supermicro Board of Directors",
+      "signal": "active",
+      "summary": "On April 15, shareholders approved expanded equity compensation and re-elected CEO Charles Liang and two directors, while the Board confirmed an ongoing independent investigation into a March 2026 indictment of former associates. These governance actions reinforce stability at a critical AI server infrastructure node."
+    },
+    {
+      "id": "CA-346",
+      "name": "Bucharest Nine (B9) Heads of State Forum",
+      "signal": "active",
+      "summary": "NATO launched Operation Eastern Sentry, a multi-domain initiative integrating air patrols, anti-aircraft modernization, cyber defenses, and unified response procedures along the entire eastern flank from the Baltic to the Black Sea. Eight B9-aligned countries contributed resources, granting SACEUR enhanced authority for real-time air defense deployments."
+    },
+    {
+      "id": "CA-050",
+      "name": "Assembly of Experts (Iran)",
+      "signal": "active",
+      "summary": "The Assembly of Experts elected Mojtaba Khamenei as Iran's new Supreme Leader following the assassination of Ayatollah Ali Khamenei in US-Israeli airstrikes, consolidating dynastic clerical control amid wartime crisis. A temporary three-member governance council was established to manage interim state functions."
+    }
+  ],
+  "top_stories": [
+    {
+      "headline": "Anthropic Launches Claude Mythos Preview with Zero-Day Discovery Capabilities, Igniting Frontier AI Arms Race",
+      "persons": [
+        "Masayoshi Son",
+        "Jensen Huang"
+      ],
+      "ps_id": "PS-05",
+      "valence": "adversarial",
+      "significance": "The release of a model capable of generating thousands of zero-day exploits fundamentally escalates the AI capability race, forcing OpenAI, Meta, and compute providers into accelerated responses while raising urgent questions about AI governance and national security control."
+    },
+    {
+      "headline": "China's State Council Operationalizes Countersanctions Framework with New Extraterritorial Jurisdiction Regulation",
+      "persons": [
+        "Donald Trump"
+      ],
+      "ps_id": "PS-08",
+      "valence": "adversarial",
+      "significance": "The April 13 regulation creates a fully operational legal architecture for retaliating against foreign sanctions compliance, imposing dual legal exposure on multinationals and accelerating geoeconomic decoupling between US and Chinese economic spheres."
+    },
+    {
+      "headline": "Trump Signals Likely End of US-Iran Ceasefire as Mojtaba Khamenei Consolidates Power in Tehran",
+      "persons": [
+        "Donald Trump",
+        "Ayatollah Ali Khamenei"
+      ],
+      "ps_id": "PS-01",
+      "valence": "adversarial",
+      "significance": "Trump's declaration that ceasefire extension is 'highly unlikely' combined with Iran's dynastic succession under wartime conditions sets the stage for resumed hostilities that could reshape Middle Eastern security architecture and global energy flows."
+    },
+    {
+      "headline": "Apple Board Approves Historic CEO Transition: Cook to Chairman, Ternus to CEO",
+      "persons": [
+        "Safra Catz"
+      ],
+      "ps_id": "PS-08",
+      "valence": "neutral",
+      "significance": "Leadership transitions at two of the world's most valuable technology companies — Apple elevating Ternus and Oracle replacing Catz — signal a generational shift in corporate power at firms with critical exposure to US-China supply chains and AI infrastructure competition."
+    },
+    {
+      "headline": "NATO Launches Operation Eastern Sentry and Cold Response 2026 Arctic Drills with 32,000 Troops",
+      "persons": [
+        "Petr Pavel",
+        "Alexander Lukashenko"
+      ],
+      "ps_id": "PS-01",
+      "valence": "adversarial",
+      "significance": "The simultaneous launch of a permanent multi-domain eastern flank operation and the largest Arctic exercise in years represents NATO's most significant force posture escalation since Russia's 2022 invasion, directly countering Lukashenko's nuclear integration pledges with Moscow."
+    }
+  ],
+  "phase_sequence_updates": [
+    {
+      "id": "PS-01",
+      "name": "NATO-Russia Confrontation Arc",
+      "summary": "**NATO conducted large-scale Cold Response 2026 Arctic drills involving 32,000 troops from 14 countries, including the US, to test readiness against a simulated Russian invasion near Murmansk, signaling heightened alliance force posture adjustments.[2]** Russian forces launched major missile/drone strikes on April 14-15 and continued intense long-range drone barrages (over 2,360 in the week to April 19), alongside limited platoon-sized assaults that failed to advance the spring-summer 2026 offensive, per ISW assessments.[1][4] Russian Defense Minister Belousov accused NATO of preparing confrontation via missile deployments, nuclear updates, and eastern flank reinforcements, while NATO generals reiterated warnings of potential Russian attacks on alliance territory by 2027-2030.[5][6]",
+      "assemblies_fired": [
+        "CA-176",
+        "CA-094",
+        "CA-032"
+      ]
+    },
+    {
+      "id": "PS-02",
+      "name": "US-China Strategic Rivalry",
+      "summary": "No major developments in US-China strategic rivalry occurred in the past week (April 15-22, 2026), as search results highlight forward-looking analyses rather than acute events.[1][2][3] Key discussions include anticipation for President Trump's planned May visit to China amid Middle East tensions and potential talks on arms to Iran, alongside China's approval of its 15th Five-Year Plan (2026-2030) strengthening Xi Jinping's position.[2] Analysts predict a US policy shift in 2026 from tech containment to direct competition, evidenced by Trump's recent Genesis Mission executive order accelerating AI-driven scientific discovery via the Department of Energy.[1]",
+      "assemblies_fired": []
+    },
+    {
+      "id": "PS-03",
+      "name": "Indo-Pacific Security Architecture Build-Out",
+      "summary": "No significant developments in the Indo-Pacific Security Architecture Build-Out occurred from April 15-22, 2026, as search results highlight ongoing structural trends like minilateral expansions (e.g., Quad, AUKUS) and modular bilateral agreements but lack reports of new joint exercises, basing deals, arms transfers, or diplomatic moves within the specified week.[1][2][4][5] Analyses describe a broader reconfiguration toward decentralized networks involving the US, Japan, Australia, India, and partners, driven by US-China rivalry, yet without dated events post-dating earlier milestones like 2024 dialogues.[2][3] This reflects persistent momentum in framework evolution rather than acute policy shifts or business actions.[1][6]",
+      "assemblies_fired": []
+    },
+    {
+      "id": "PS-04",
+      "name": "Semiconductor and Compute Chokepoint Control",
+      "summary": "I cannot provide a summary of developments from April 15-22, 2026, based on the search results provided. The search results contain no information about events from that specific week. The most recent dated content references events from 2025 and earlier (including a January 2026 article discussing 2025 developments and the one-year suspension agreement reached in late 2025)[1], but contain no reporting on developments from April 2026.\n\nTo accurately answer your query, I would need search results with current reporting from the April 15-22, 2026 timeframe covering semiconductor export controls, foundry announcements, equipment licensing decisions, or other relevant policy and business developments from that period.\n\n**Unable to provide activity rating without current data.**",
+      "assemblies_fired": [
+        "CA-025",
+        "CA-112",
+        "CA-228"
+      ]
+    },
+    {
+      "id": "PS-05",
+      "name": "Frontier AI Power Struggle",
+      "summary": "**Anthropic launched Claude Mythos Preview via Project Glasswing, a frontier model capable of discovering thousands of zero-day vulnerabilities and generating exploits, prompting restricted access for select tech firms to enable preemptive fixes ahead of wider release.**[1][3][4][5] **This release fueled a model arms race, with OpenAI completing pre-training on its SPUD model, Meta debuting the reasoning-focused Muse Spark from Superintelligence Labs, and escalating tensions in an Anthropic-Pentagon power struggle over AI governance and national security.**[2][3][4] **Compute battles intensified as Broadcom, Google, and Anthropic secured gigawatt-scale TPU capacity, while Intel partnered with Elon Musk on the Terafab project to bolster AI chip manufacturing infrastructure.**[4]",
+      "assemblies_fired": [
+        "CA-107",
+        "CA-103",
+        "CA-304",
+        "CA-014",
+        "CA-187"
+      ]
+    },
+    {
+      "id": "PS-06",
+      "name": "Global Monetary Order and Financial Architecture Stress",
+      "summary": "Raf Manji highlighted the \"Trump Shock\" as exposing critical gaps in the dollar-centric global financial architecture, including liquidity shortages from rising US debt (projected to 120% of GDP by 2035), eroding trust in US Treasuries due to sanctions weaponization (e.g., Russia’s SWIFT exclusion), and demand for alternative payment systems like China’s CIPS, which processed ¥175 trillion in 2024 across 189 countries.[2] He advocated reforms such as IMF quota adjustments, expanded Special Drawing Rights usage, CIPS integration into BIS standards, and RMB as a reserve diversifier to bridge these tensions without fully replacing the dollar.[2] No other major central bank decisions, swap-line activations, IMF/BIS governance shifts, renminbi pushes, or sovereign debt restructurings were reported in the period.[1][3][4][5][6]",
+      "assemblies_fired": []
+    },
+    {
+      "id": "PS-07",
+      "name": "Energy Market Statecraft and Transition Contestation",
+      "summary": "**FERC-approved reforms by regional electricity market operators ISO-NE and PJM represent a structural shift undermining state clean energy goals, with FERC endorsing ISO-NE's changes earlier this year and recently directing PJM to impose stricter penalties on state-supported renewables, potentially slowing decarbonization and regional grid cooperation.[1]** Utilities including Xcel Energy and ATC requested a federal pause on grid bidding mechanisms amid surging AI-driven power demand, signaling tensions in capacity markets as clean energy policies clash with rising electricity needs.[4] These developments highlight escalating contestation between fossil fuel-favoring market designs and green industrial policies.[1][6]",
+      "assemblies_fired": []
+    },
+    {
+      "id": "PS-08",
+      "name": "Sanctions, Countersanctions, and Geoeconomic Decoupling",
+      "summary": "China advanced its countersanctions architecture with the April 13 issuance of the Regulation on Countering Foreign States' Unlawful Extraterritorial Jurisdiction, providing operational details for asset freezes, visa bans, and other measures under the 2021 Anti-Foreign Sanctions Law, paired with prior Supply Chain Security Regulations to deter foreign compliance with US decoupling measures.[1][3][4] This creates dual legal exposure for multinational firms, complicating third-country decisions on US sanctions adherence and signaling Beijing's proactive deterrence strategy.[1][3] Q1 2026 trade data revealed ASEAN trade surpassing double US levels, with surges in green tech exports (EVs, batteries) to non-Western markets, evidencing measurable reorientation of supply chains away from US dependence.[1] US threatened 50% tariffs on countries aiding Iran sanctions evasion (targeting China), amid stalled Iran ceasefire talks and OFAC's extension of Russia payments license, heightening pre-Trump-Xi tensions.[2]",
+      "assemblies_fired": [
+        "CA-311",
+        "CA-070",
+        "CA-225"
+      ]
+    },
+    {
+      "id": "PS-09",
+      "name": "Information Ecosystem and Narrative Control",
+      "summary": "No significant developments occurred in the **information ecosystem and narrative control** domain from 2026-04-15 to 2026-04-22, as search results yielded only academic analyses on topics like AI's role in deepfakes, evolving science communication, and general impacts on democracy, none dated within the specified week.[1][2][3][4] These sources discuss broader trends in platform algorithms, media evolution, and disinformation without referencing structural changes, policy moves, takedown reports, or regulatory actions in the recent period. The absence of timely reports on content policy shifts, ownership changes, or influence operations indicates a lack of momentum.",
+      "assemblies_fired": []
+    },
+    {
+      "id": "PS-10",
+      "name": "Authoritarian Axis Consolidation",
+      "summary": "No significant developments in **Authoritarian Axis consolidation** occurred from April 15-22, 2026, as search results lack reports of new bilateral defense agreements, joint exercises, sanctions circumvention, technology transfers, or multilateral activity in forums like SCO or CSTO within this period.[1][2] Available sources discuss historical deepening of ties among Russia, China, Iran, and North Korea since 2022, including military support for Russia's Ukraine war and trilateral exercises, but provide no evidence of structural changes, major decisions, or policy moves in the queried timeframe.[1] Recent assessments from February 2026 highlight Russian diplomatic support for Iran amid U.S./Israeli strikes, yet this predates the specified week and does not indicate new momentum.[2]",
+      "assemblies_fired": []
+    },
+    {
+      "id": "PS-11",
+      "name": "Middle-Power and Global South Realignment",
+      "summary": "No major developments indicating structural changes, policy moves, or events in Middle-Power and Global South realignment occurred between April 15-22, 2026, as search results highlight ongoing trends like middle powers' resilience strategies at Davos 2026 and BRICS+ expansion dynamics from earlier in the year.[1][2][4] Discussions emphasize pragmatic non-alignment, South-South trade growth, and coalition-building among emerging economies and Gulf states, but lack specific actions or decisions in the queried timeframe.[2][3][4] Sovereign wealth fund deployments and regional bloc coordination, such as in GCC or CELAC, show no reported momentum shifts recently.[4]",
+      "assemblies_fired": []
+    },
+    {
+      "id": "PS-12",
+      "name": "Western Institutional Cohesion and Democratic Strain",
+      "summary": "No significant developments in **Western institutional cohesion and democratic strain** occurred from April 15-22, 2026, based on available sources. The most recent relevant report on **democratic backsliding** in Western democracies, including rapid U.S. deterioration and trends in Europe/North America, dates to March 17, 2026, falling outside the queried period.[1] Other results cover unrelated topics like university events, career advice, and non-Western politics, indicating minimal activity.[2][3][8]",
+      "assemblies_fired": []
+    }
+  ],
+  "_metadata": {
+    "generated": "2026-04-22",
+    "scope": "global",
+    "week_start": "2026-04-15",
+    "week_end": "2026-04-22",
+    "source_model": "superorganism_model.json",
+    "news_model": "sonar-pro",
+    "synthesis_model": "claude-opus-4-6",
+    "neurons_conscious": [
+      "Zhang Yiming",
+      "Aneel Bhusri",
+      "Jensen Huang",
+      "Ursula von der Leyen",
+      "Gianluigi Aponte",
+      "Donald Trump",
+      "Christopher Cavoli",
+      "Vladimir Putin",
+      "Cristiano Amon",
+      "C.C. Wei"
+    ],
+    "neurons_spontaneous": [
+      "Alexander Lukashenko",
+      "Ayatollah Ali Khamenei",
+      "Charles Koch & family",
+      "Yuri Kovalchuk",
+      "Khaldoon Khalifa Al Mubarak",
+      "Lisa Su",
+      "Droupadi Murmu",
+      "Jim Walton & family",
+      "Warren Buffett",
+      "Morris Chang",
+      "Mukesh Ambani",
+      "Petr Pavel",
+      "Edward Johnson, IV.",
+      "Safra Catz",
+      "Hamad bin Jassim bin Jaber Al Thani",
+      "Mohammed VI of Morocco",
+      "Masayoshi Son",
+      "Michael Dell"
+    ],
+    "neurons_skipped": [
+      "Xi Jinping",
+      "Li Qiang",
+      "Ali Khamenei",
+      "Salman bin Abdulaziz Al Saud",
+      "Scott Bessent",
+      "Mark Rutte",
+      "Cai Qi",
+      "Kazuo Ueda",
+      "Mohammed Bin Zayed Al Nahyan",
+      "Jerome Powell",
+      "Tahnoun bin Zayed Al Nahyan",
+      "Zhang Youxia",
+      "Mohan Bhagwat",
+      "Mark Zuckerberg",
+      "Amancio Ortega",
+      "Pan Gongsheng",
+      "Johann Rupert & family",
+      "Elon Musk",
+      "Volodymyr Zelenskyy",
+      "Subrahmanyam Jaishankar",
+      "Claudia Sheinbaum",
+      "Marco Rubio",
+      "Wang Yi",
+      "Satya Nadella",
+      "Pete Hegseth",
+      "Sundar Pichai",
+      "Igor Sechin",
+      "Pony Ma (Ma Huateng)",
+      "Christophe Fouquet",
+      "Ren Zhengfei",
+      "Yoweri Museveni",
+      "Robin Zeng",
+      "Hibatullah Akhundzada",
+      "Pope Francis (Jorge Mario Bergoglio)",
+      "Ivan Glasenberg",
+      "Larry Fink",
+      "Luiz Inácio Lula da Silva",
+      "Tamim bin Hamad Al",
+      "Valery Gerasimov",
+      "Recep Tayyip Erdoğan",
+      "Abigail Johnson",
+      "Jay Y. Lee",
+      "Stanley Druckenmiller",
+      "Rupert Murdoch & family",
+      "Prabowo Subianto",
+      "Kim Jong-un",
+      "Mathias Cormann",
+      "Ajay Banga",
+      "Christine Lagarde",
+      "Shavkat Mirziyoyev",
+      "Kristalina Georgieva",
+      "Henry Kravis",
+      "António Guterres",
+      "Andrei Belousov",
+      "Bill Gates",
+      "Tim Cook",
+      "Yuri Kovalchuk & family",
+      "Sergei Lavrov",
+      "Nikolai Patrushev",
+      "Bernard Arnault & family",
+      "Sam Altman",
+      "Ilham Aliyev",
+      "Gautam Adani",
+      "Abdel Fattah el-Sisi",
+      "Mustafa Suleyman",
+      "Demis Hassabis",
+      "Joseph Tsai",
+      "Jeff Bezos",
+      "Frank-Walter Steinmeier",
+      "Larry Ellison",
+      "Frederik X of Denmark",
+      "Rupert Johnson, Jr.",
+      "Cyrus Poonawalla",
+      "Vladimir Bogdanov",
+      "Richard Liu",
+      "Klaus-Michael Kuehne",
+      "Thomas Pritzker",
+      "Tadashi Yanai & family",
+      "Bongbong Marcos",
+      "William Alexander of the Netherlands",
+      "Félix Tshisekedi",
+      "Eric Yuan & family",
+      "Ken Griffin",
+      "Kumar Birla",
+      "Rafaela Aponte-Diamant",
+      "Bola Ahmed Tinubu",
+      "Alisher Usmanov",
+      "Jose Roberto Marinho",
+      "Alessandra Galloni",
+      "Wang Chuanfu",
+      "Olivier Bouygues",
+      "Patrick Collison",
+      "Hakainde Hichilema",
+      "Francoise Bettencourt Meyers & family",
+      "Elvira Nabiullina",
+      "João Lourenço",
+      "Ma Huateng",
+      "Tô Lâm",
+      "Jamie Dimon",
+      "Andrew Bailey",
+      "Leonid Mikhelson & family",
+      "Larry Page",
+      "Ray Dalio",
+      "Marc Andreessen",
+      "Paul Singer",
+      "David Rubenstein",
+      "Li Ka-shing",
+      "Len Blavatnik",
+      "Vincent Bolloré & family",
+      "Ilya Sutskever",
+      "Ismail Omar Guelleh",
+      "Sunil Mittal",
+      "Taye Atske Selassie",
+      "Luis Abinader",
+      "Marc Benioff",
+      "Savitri Jindal & family",
+      "David Bonderman",
+      "Stephen Feinberg",
+      "Sergey Brin",
+      "Grand Ayatollah Ali al-Sistani",
+      "Robin Li",
+      "Eric Schmidt",
+      "Shen Haixiong",
+      "Tedros Adhanom Ghebreyesus",
+      "Russell M. Nelson",
+      "Martin Lau",
+      "William Ackman",
+      "Charles III",
+      "Gennady Timchenko",
+      "Lai Ching-te",
+      "William Ruto",
+      "Edir Macedo & family",
+      "Pavel Durov",
+      "Melinda French Gates",
+      "Charles Schwab",
+      "Jorge Paulo Lemann & family",
+      "Serdar Berdimuhamedow",
+      "Euisun Chung",
+      "Margarita Louis-Dreyfus & family",
+      "George Roberts",
+      "Salva Kiir Mayardit",
+      "Leon Black",
+      "Anthony Bamford & family",
+      "Theo Albrecht, Jr. & family",
+      "François Pinault & family",
+      "Rodolphe Saadé",
+      "Jonathan Gray",
+      "Vladimir Lisin",
+      "Karl Albrecht Jr. & family",
+      "MacKenzie Scott",
+      "Sheikh Abdulaziz bin Abdullah Al ash-Sheikh",
+      "Miriam Adelson & family",
+      "Michael Froman",
+      "Leo XIV",
+      "Stephen Schwarzman",
+      "Germán Larrea Mota Velasco & family",
+      "Daniela Amodei",
+      "Terry Gou",
+      "Fred Smith",
+      "Shah Karim al-Husayni (Aga Khan IV)",
+      "John Malone",
+      "Evan Spiegel",
+      "Dhanin Chearavanont",
+      "Hamad II of Bahrain",
+      "Hasso Plattner & family",
+      "Alassane Ouattara",
+      "Cindy McCain",
+      "Laurene Powell Jobs & family",
+      "Thomas Frist, Jr. & family",
+      "Dieter Schwarz",
+      "Abdullah II of Jordan",
+      "Donald Horton & family",
+      "Paul Kagame",
+      "Vajiralongkorn",
+      "Alexander Karp",
+      "Paul Tudor Jones, II.",
+      "Stefano Pessina",
+      "Arkady Rotenberg",
+      "Abdelmadjid Tebboune",
+      "Emmerson Mnangagwa",
+      "Rob Walton & family",
+      "Hassanal Bolkiah I of Brunei",
+      "Asif Ali Zardari",
+      "Aziz Akhannouch & family",
+      "Sergio Mattarella",
+      "Brian Roberts",
+      "Michael Bloomberg",
+      "Naruhito",
+      "Samia Suluhu Hassan",
+      "Ngozi Okonjo-Iweala",
+      "Grand Imam Ahmed el-Tayeb",
+      "Javier Milei",
+      "Vladimir Potanin",
+      "Iris Fontbona & family",
+      "Esmail Qaani",
+      "Emmanuel Macron",
+      "Haitham bin Tarik Al Said",
+      "Carlos Slim Helu & family",
+      "Bidzina Ivanishvili & family",
+      "Patriarch Kirill (Vladimir Gundyayev)",
+      "Gustavo Petro",
+      "Daniel Noboa",
+      "Charlene de Carvalho-Heineken & family",
+      "Gabriel Boric",
+      "Julia Koch & family",
+      "Ricardo Salinas Pliego & family",
+      "Dario Amodei",
+      "Alain Wertheimer",
+      "Oleg Deripaska",
+      "Pierre Omidyar",
+      "Gina Rinehart",
+      "Andrew Forrest & family",
+      "Hiroshi Mikitani",
+      "Onkar Kanwar",
+      "Isaias Afwerki",
+      "Anthony Wood",
+      "Patrick Drahi",
+      "Antonio Del Valle Ruiz & family",
+      "Susanne Klatten",
+      "Travis Kalanick",
+      "Reed Hastings",
+      "Marijke Mars",
+      "Kim Kardashian",
+      "Gong Hongjia & family",
+      "Jayshree Ullal",
+      "Miuccia Prada",
+      "Antony Ressler",
+      "Andrei Guryev & family",
+      "Ronald Lauder",
+      "Howard Marks",
+      "Mochtar Riady & family",
+      "Micky Arison",
+      "Reinhold Wuerth & family",
+      "Wang Jianlin",
+      "Bassirou Diomaye Faye",
+      "William Ding",
+      "Nandan Nilekani",
+      "Mark Suzman",
+      "Fang Hongbo",
+      "Lim Kok Thay",
+      "Wang Xing",
+      "Alfredo Harp Helu & family",
+      "Adi Godrej",
+      "John Doerr",
+      "Liu Hanyuan",
+      "William Lauder",
+      "Nassef Sawiris",
+      "Steve Ballmer",
+      "Cyril Ramaphosa",
+      "Riley Bechtel & family",
+      "Brice Clotaire Oligui Nguema",
+      "Kais Saied",
+      "Phil Knight & family",
+      "John Mars",
+      "Yuri Milner",
+      "Karol Nawrocki",
+      "Prajogo Pangestu",
+      "Daniel Ortega",
+      "Thaksin Shinawatra",
+      "Uday Kotak",
+      "Xiang Guangda",
+      "Andrej Babis",
+      "Lei Jun",
+      "Sheryl Sandberg",
+      "Faisal Bin Qassim Al Thani",
+      "Jeff T. Green",
+      "Charles Liang",
+      "Jiang Rensheng & family",
+      "Liu Yongxing",
+      "Hansjoerg Wyss",
+      "Aliko Dangote",
+      "Changpeng Zhao"
+    ],
+    "spontaneous_cap": 18,
+    "ps_activation_scores": {
+      "PS-01": 6,
+      "PS-02": 4,
+      "PS-03": 4,
+      "PS-04": 5,
+      "PS-05": 8,
+      "PS-06": 4,
+      "PS-07": 4,
+      "PS-08": 7,
+      "PS-09": 1,
+      "PS-10": 1,
+      "PS-11": 2,
+      "PS-12": 3
+    },
+    "ps_assemblies_fired": {
+      "PS-05": [
+        "CA-107",
+        "CA-103",
+        "CA-304",
+        "CA-014",
+        "CA-187"
+      ],
+      "PS-08": [
+        "CA-311",
+        "CA-070",
+        "CA-225"
+      ],
+      "PS-01": [
+        "CA-176",
+        "CA-094",
+        "CA-032"
+      ],
+      "PS-04": [
+        "CA-025",
+        "CA-112",
+        "CA-228"
+      ]
+    },
+    "assemblies_spontaneous": [
+      "CA-346",
+      "CA-050"
+    ],
+    "assemblies_fetched": [
+      "CA-107",
+      "CA-103",
+      "CA-304",
+      "CA-014",
+      "CA-187",
+      "CA-311",
+      "CA-070",
+      "CA-225",
+      "CA-176",
+      "CA-094",
+      "CA-032",
+      "CA-025",
+      "CA-112",
+      "CA-228",
+      "CA-346",
+      "CA-050"
+    ]
+  }
+}
