@@ -1,0 +1,703 @@
+{
+  "scope": "global",
+  "week_start": "2026-04-22",
+  "week_end": "2026-04-29",
+  "ps_news_items": [
+    {
+      "id": "PS-01",
+      "name": "NATO-Russia Confrontation Arc",
+      "summary": "**On April 23, the European Council finalized legislation for a €90 billion ($105 billion) interest-free loan to Ukraine, initially approved in December 2025, strengthening Western financial support amid ongoing battlefield tensions.[1]** Russian forces intensified operations with 155 drone strikes on Ukraine overnight April 22-23 and limited advances in Sumy, Kharkiv, and Donetsk oblasts, while Ukrainian strikes hit Russian oil infrastructure and 22 air defense systems in April.[1][2] Russian officials escalated rhetoric accusing NATO and Lithuania of militarizing near Kaliningrad and preparing blockades, signaling Kremlin conditions for potential Baltic aggression, as Dutch intelligence warned Russia could challenge NATO regionally within a year post-Ukraine.[1][3][6]\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "PS-02",
+      "name": "US-China Strategic Rivalry",
+      "summary": "No major developments in US-China strategic rivalry occurred from April 22-29, 2026, as available sources focus on late 2025 events like the record $11.15 billion US arms sale to Taiwan and Nvidia's approved AI chip shipments to China, alongside the 2026 NDAA targeting Chinese tech.[1][2] Legislative and regulatory pressures persist at the US congressional level, including the BIOSECURE and FIGHT China Acts, but no new bilateral policy moves, Taiwan Strait escalations, alliance signals, or trade actions emerged in the queried period.[2][3] Overall, the domain remains in a phase of stabilized tensions post-Trump-Xi summit, with hawkish undercurrents but no structural shifts or high-level engagements reported.[2][5]\n\n2",
+      "activation_score": 2
+    },
+    {
+      "id": "PS-03",
+      "name": "Indo-Pacific Security Architecture Build-Out",
+      "summary": "Based on the available search results, I cannot provide a reliable summary of significant developments in Indo-Pacific security architecture from April 22-29, 2026. The search results contain primarily analytical frameworks and structural overviews rather than time-stamped events or developments from the specific week requested.\n\nThe most recent dated content in the results is from April 9, 2026—a strategic analysis piece discussing potential nuclear alliance blueprints—but this predates your query window and does not constitute a development from April 22-29. Other results lack specific dates or describe ongoing structural trends rather than discrete weekly developments (such as the evolution toward multi-layered security networks, AUKUS Pillar II expansion discussions, and capability-based cooperation frameworks).\n\nTo accurately assess momentum during this specific week, I would need search results containing recent news reports, official announcements, diplomatic statements, or event coverage from April 22-29, 2026.\n\n**Unable to provide confidence-based rating without adequate source material.**",
+      "activation_score": 5
+    },
+    {
+      "id": "PS-04",
+      "name": "Semiconductor and Compute Chokepoint Control",
+      "summary": "I cannot provide a summary of developments from April 22-29, 2026, based on the search results provided. The search results contain only background material and historical context about semiconductor chokepoints, export controls, and supply chain vulnerabilities—primarily discussing events from 2022-2025 and general structural dynamics. None of the results include specific news, announcements, or developments from the requested week of April 22-29, 2026.\n\nTo accurately complete this analysis, I would need search results containing recent news from that specific timeframe covering topics such as: new export control announcements, TSMC or ASML strategic moves, foundry investment decisions, chip sovereignty legislation, or other policy/business actions from that week.\n\n**3**",
+      "activation_score": 5
+    },
+    {
+      "id": "PS-05",
+      "name": "Frontier AI Power Struggle",
+      "summary": "The past week witnessed accelerating consolidation of frontier AI capabilities among leading labs and hyperscalers, with Anthropic's Claude Mythos and OpenAI's GPT-5.4-Cyber emerging as early signals of offensive-capable frontier models that compress vulnerability discovery timelines to machine speed[2]. Meta shipped its first reasoning model, Muse Spark, from its Superintelligence Labs, establishing direct distribution advantages across its consumer ecosystem while signaling that infrastructure spending is translating into frontier-level output[3]. Strategic compute access became a defining battleground, with Broadcom, Google, and Anthropic locking in gigawatt-scale TPU capacity as secured infrastructure rather than on-demand utility, reshaping competitive positioning for frontier AI deployment[3]. Intel's involvement in Elon Musk's Terafab mega-project and reported advanced packaging talks with Google and Amazon indicate a structural shift toward vertically integrated AI manufacturing, with foundry capabilities becoming central to frontier model production[3]. Anthropic's gated deployment of Mythos through Project Glasswing—limiting access to roughly 50 organizations—signals a transition toward security-first rollout strategies, though security experts warn that responsible disclosure may mask parallel irresponsible development elsewhere[6].\n\n**8**",
+      "activation_score": 5
+    },
+    {
+      "id": "PS-06",
+      "name": "Global Monetary Order and Financial Architecture Stress",
+      "summary": "No significant developments in global monetary order and financial architecture stress occurred from April 22-29, 2026, based on available sources, with discussions limited to ongoing analyses of dollar weaponization, liquidity gaps exposed by U.S. debt trajectories, and China's CIPS expansion as potential challengers to dollar dominance.[1] Proposals for IMF quota reforms, SDR expansion, and RMB reserve diversification were highlighted but represent no new policy moves or events in the queried period.[1] Sovereign debt vulnerabilities and calls for architectural reforms persist amid historical liquidity stresses, yet no central bank decisions, swap-line activations, sanctions shifts, or restructuring dynamics advanced structurally this week.[3][5]\n\n3",
+      "activation_score": 3
+    },
+    {
+      "id": "PS-07",
+      "name": "Energy Market Statecraft and Transition Contestation",
+      "summary": "No significant developments in **energy market statecraft and transition contestation**—such as production quotas, OPEC+ decisions, sovereign fund moves, critical minerals shifts, LNG contracts, or climate legislation—occurred in the past 7 days (April 22-29, 2026), based on available sources.[1][2][3][4][5] Search results highlight ongoing themes like **cognitive warfare** in Europe's green transition and great-power competition over minerals and tech, but lack reports of structural changes, major policy moves, or business actions within the timeframe.[1][2] This reflects a quiet period amid persistent informational and geopolitical tensions in the domain.[1][2]\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "PS-08",
+      "name": "Sanctions, Countersanctions, and Geoeconomic Decoupling",
+      "summary": "No major developments in sanctions, countersanctions, or geoeconomic decoupling occurred in the past week (April 22-29, 2026), as available sources discuss ongoing trends like Russia's trade pivots to BRICS nations, potential U.S. sanctions adjustments under Trump, and long-term shifts toward Eurasian infrastructure bypassing Western financial controls, without referencing new designations, enforcement actions, or policy moves.[1][2] Structural changes, such as expanded BRICS trade flows and the International North-South Transport Corridor, continue to indicate evasion momentum but predate the queried period.[1] Business actions and state investments in friend-shoring remain steady, with no reported compliance shifts or workaround networks emerging recently.[1][2]\n\n3",
+      "activation_score": 3
+    },
+    {
+      "id": "PS-09",
+      "name": "Information Ecosystem and Narrative Control",
+      "summary": "No significant structural changes, major policy moves, business actions, or events indicating momentum in the **information ecosystem and narrative control** domain were reported from 2026-04-22 to 2026-04-29, as search results primarily reference older analyses (e.g., 2025 reports on AI's role in ecosystems, disinformation tactics, and calls for transparency).[1][2][3][4][5][6] Ongoing discussions highlight persistent issues like AI-driven manipulation and state media control (e.g., Russia's efforts), but lack evidence of new developments in platform governance, censorship, or regulatory actions within the specified period.[4] This reflects a continuation of established trends without fresh catalysts for narrative competition.\n\n2",
+      "activation_score": 2
+    },
+    {
+      "id": "PS-10",
+      "name": "Authoritarian Axis Consolidation",
+      "summary": "On April 27, U.S. lawmakers grilled senior military officials on the deepening coordination among **China, Russia, North Korea, and Iran**—termed the \"Axis of Autocracy\"—highlighting tactics, techniques, and procedures (TTP) sharing that alarms U.S. commanders, including a \"salient\" of cooperation with China and Russia providing fiscal support.[1] Gen. Xavier Brunson noted rapid development of this axis, while Adm. Paparo described U.S. responses via expanded joint exercises with partners, amid spillovers like the April 21 U.S. boarding of an Iranian oil tanker in the Bay of Bengal linked to sanctions evasion.[1] No new bilateral defense pacts, joint exercises, or SCO/CSTO activities were reported in the period, indicating observed momentum but no structural shifts.[1][2][4][5]\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "PS-11",
+      "name": "Middle-Power and Global South Realignment",
+      "summary": "No significant developments occurred in Middle-Power and Global South Realignment during April 22-29, 2026, as search results highlight ongoing discussions from Davos 2026 and early-year analyses on multipolarity, coalition-building among middle powers, and Global South agency via China's initiatives, without events or decisions in the specified week.[1][2][3][7]\n\n1",
+      "activation_score": 1
+    },
+    {
+      "id": "PS-12",
+      "name": "Western Institutional Cohesion and Democratic Strain",
+      "summary": "No significant developments occurred in **Western institutional cohesion and democratic strain** from 2026-04-22 to 2026-04-29, as search results focused primarily on Middle East conflicts, including US-Iran ceasefire extensions, Strait of Hormuz disruptions, and Iran-linked attacks in Europe, without evidence of structural changes, policy frictions, or populist shifts in Western states.[1][2][8] UK Prime Minister Starmer's announcement of co-hosting diplomatic talks with France on the Iran war represents minor transatlantic coordination but does not indicate friction or strain in EU-US alignment.[2] Academic mentions, such as a paper on democratic systems, lack real-world policy or event ties.[4]\n\n1",
+      "activation_score": 1
+    }
+  ],
+  "assembly_news_items": [
+    {
+      "id": "CA-118",
+      "name": "Supreme State Council of the Union State of Russia and Belarus",
+      "ps_memberships": [
+        "PS-01",
+        "PS-10"
+      ],
+      "raw_news": "The Supreme State Council of the Union State held a meeting at the Grand Kremlin Palace where Presidents Vladimir Putin and Aleksander Lukashenko approved several integration decisions, including the establishment of a **Union State Committee for Standardisation and Quality** to enforce consumer protection standards across both nations[1]. The council also announced the restoration of direct suburban railway services between neighboring regions and introduced a unified trademark, \"Product of the Union State,\" for goods manufactured with at least 50% materials and components from Russia and Belarus[1]. Putin emphasized that Russian-Belarusian trade reached approximately $52 billion in 2025, growing by nearly three percent, while Lukashenko reported that instructions were given to prepare implementation guidelines for the Union State Treaty provisions for the 2027–2029 cycle[1][2]. The meeting occurred ahead of the 30th anniversary of the original integration treaty signed on April 2, 1996, with Russia maintaining over $4.5 billion in accumulated investment in the Belarusian economy[1]."
+    },
+    {
+      "id": "CA-087",
+      "name": "Ukraine Defense Contact Group (Ramstein Format)",
+      "ps_memberships": [
+        "PS-01"
+      ],
+      "raw_news": "No significant news on decisions, actions, positions, alliances, or organizational moves by the **Ukraine Defense Contact Group (Ramstein Format)** emerged in the past 7 days (April 22-29, 2026). Search results reference historical developments, such as the group's formation in April 2022[1][5], its 19th meeting on February 14, 2024[2], capability coalitions established in February 2024[5], and NATO's NSATU coordination role set in 2025[4]. Earlier pledges like Argentina's June 2024 entry and ongoing aid deliveries (e.g., VAMPIRE systems, FrankenSAM) are noted through November 2025, but lack updates affecting NATO-Russia power dynamics in the queried timeframe[5]."
+    },
+    {
+      "id": "CA-029",
+      "name": "Conseil de Défense et de Sécurité Nationale (French National Security Council)",
+      "ps_memberships": [
+        "PS-01",
+        "PS-12"
+      ],
+      "raw_news": "No significant news on decisions, actions, or positions from the **Conseil de Défense et de Sécurité Nationale** appears in the past 7 days (April 22-29, 2026), based on available search results. Recent coverage focuses on President Macron's broader defense speeches and nuclear policy shifts, such as a pivotal address outlining a new doctrine emphasizing European strategic autonomy, increased military spending, and NATO-aligned enhancements amid Russia tensions[2]. Earlier announcements, like March 2025 nuclear expansions including arsenal growth and forward-basing in Europe, signal France's push for deterrence leadership without NATO nuclear integration, affecting **NATO-Russia** dynamics and **Western cohesion**[5]. These trends align with the Council's role in coordinating policy but lack specific recent meetings or outputs[3]."
+    },
+    {
+      "id": "CA-011",
+      "name": "National Security and Defense Council of Ukraine (RNBO)",
+      "ps_memberships": [
+        "PS-01"
+      ],
+      "raw_news": "Based on the available search results, I cannot identify significant news about Ukraine's National Security and Defense Council from the past 7 days (April 22-29, 2026). The most recent dated items in the search results are from February 2026, including sanctions on Russian defense industry entities and ship captains involved in Russia's shadow fleet operations, as well as discussions of 2026 defense budget allocations and weapons export frameworks.[1][4][5][6] Without search results containing news from the specific April 22-29 timeframe, I cannot provide the current hard news you've requested regarding recent NSDC decisions or geopolitical moves during this period."
+    },
+    {
+      "id": "CA-009",
+      "name": "Presidency of the Republic of Türkiye",
+      "ps_memberships": [
+        "PS-01",
+        "PS-11"
+      ],
+      "raw_news": "I cannot provide the requested information because the search results provided contain only historical information about Turkey's 2017 constitutional referendum and the transition to a presidential system, with no coverage of recent events from April 22-29, 2026.\n\nTo answer your query about significant news from the Turkish Presidency during the past week—particularly regarding NATO-Russia confrontation dynamics or Middle Power realignment—I would need search results with current reporting from that timeframe. The existing results do not contain any events, statements, or developments from April 2026.\n\nPlease provide search results with recent news coverage to enable an accurate response about current Turkish geopolitical positioning and presidential actions."
+    },
+    {
+      "id": "CA-008",
+      "name": "United States National Security Council (NSC)",
+      "ps_memberships": [
+        "PS-01",
+        "PS-02",
+        "PS-03",
+        "PS-08"
+      ],
+      "raw_news": "No significant NSC-specific decisions, actions, or announcements affecting power dynamics in the specified domains (NATO-Russia, US-China, Indo-Pacific, sanctions/decoupling) appear in news from April 22-29, 2026. Recent coverage instead highlights ongoing U.S. negotiations led by Vice President J.D. Vance in Islamabad on April 21 to address Iran's nuclear facilities, Strait of Hormuz access amid a U.S. blockade, and Tehran's proxy support—escalating tensions in the Middle East but predating the queried period.[4] Broader Trump administration strategies, like the 2025 National Security Strategy prioritizing \"model allies\" via incentives and the America First arms transfer policy, continue to reshape alliances but lack fresh NSC-linked updates this week.[2][3][6]"
+    },
+    {
+      "id": "CA-059",
+      "name": "ASEAN Summit",
+      "ps_memberships": [
+        "PS-03",
+        "PS-11"
+      ],
+      "raw_news": "I cannot provide the specific news you're requesting because the search results provided do not contain recent ASEAN Summit coverage from April 22-29, 2026. The search results focus on ASEAN's institutional governance structures, post-2025 economic priorities, and historical context (including references to April 2025 South China Sea Code of Conduct negotiations), but they lack current reporting on summit decisions, announcements, or geopolitical moves from the past week.\n\nTo answer your query about recent ASEAN Summit developments affecting Indo-Pacific security architecture and power dynamics, I would need search results with current news coverage from major international news outlets covering the summit during the specified timeframe."
+    },
+    {
+      "id": "CA-098",
+      "name": "Quadrilateral Security Dialogue (Quad) Foreign Ministers",
+      "ps_memberships": [
+        "PS-03"
+      ],
+      "raw_news": "No significant news on Quad Foreign Ministers' decisions, actions, or positions emerged in the past 7 days (April 22-29, 2026). The most recent relevant development remains the July 1, 2025, Washington meeting, where ministers announced a new agenda on maritime/transnational security, economic prosperity, critical technologies, and humanitarian response, including the launch of the **Quad Critical Minerals Initiative** to diversify supply chains.[5] This built on their July 2025 condemnation of the April 22 Pahalgam terror attack, expressing solidarity with India amid concerns over cross-border terrorism and China Sea militarization.[4] Earlier 2025 statements reaffirmed commitments to a free Indo-Pacific and North Korean denuclearization.[5]"
+    },
+    {
+      "id": "CA-019",
+      "name": "NVIDIA Corporation Executive Leadership",
+      "ps_memberships": [
+        "PS-04",
+        "PS-05"
+      ],
+      "raw_news": "I cannot provide the requested information based on the available search results. The search results contain coverage of NVIDIA's GTC 2026 conference held in mid-March 2026, which falls outside the specified timeframe of April 22-29, 2026. While the results discuss significant strategic announcements—including the NemoClaw framework for enterprise AI agents and CEO Jensen Huang's keynote on AI infrastructure—these events occurred approximately 5-6 weeks before the query date and do not represent news from the past 7 days.\n\nTo answer your query accurately, I would need search results covering NVIDIA executive leadership decisions and announcements from the week of April 22-29, 2026."
+    },
+    {
+      "id": "CA-014",
+      "name": "European Commission College of Commissioners",
+      "ps_memberships": [
+        "PS-01",
+        "PS-04",
+        "PS-05",
+        "PS-08",
+        "PS-12"
+      ],
+      "raw_news": "**No significant hard news on decisions, actions, positions, alliances, or organizational moves by the European Commission College of Commissioners appears in the past 7 days (April 22-29, 2026) across the specified active domains.** Search results detail the College's formation and entry into office on December 1, 2024, including structural changes like doubling Executive Vice-Presidents to six and new portfolios on **Tech-Sovereignty**, **Industrial Strategy**, and **Economic Security**, but these predate the queried period by over a year.[1][2][3][6] No updates on **NATO-Russia Confrontation**, **Semiconductor Control**, **Frontier AI**, **Sanctions**, or **Western Institutional Cohesion** were found in recent coverage.[2][4]"
+    },
+    {
+      "id": "CA-025",
+      "name": "State Council of the People's Republic of China",
+      "ps_memberships": [
+        "PS-02",
+        "PS-04",
+        "PS-07",
+        "PS-08"
+      ],
+      "raw_news": "On April 13, 2026, China's State Council issued the **Regulation on Countering Foreign States' Unlawful Extraterritorial Jurisdiction** (State Council Decree No. 835), establishing the first State Council-level administrative framework to counter what Beijing characterizes as improper foreign sanctions and enforcement actions.[1] The regulation operationalizes coordinated enforcement mechanisms including a \"Malicious Entity List\" targeting foreign entities and individuals that promote or participate in extraterritorial measures, investigative powers for the Ministry of Justice, and potential criminal liability for non-compliance.[1] This move consolidates China's fragmented anti-\"long-arm jurisdiction\" regime into a unified framework with broad discretion to identify foreign measures as \"improper\" based on factors including impact on China's national interests and industrial security.[1] The regulation authorizes state-level countermeasures affecting diplomacy, trade, investment, and cross-border exchanges, directly addressing U.S.-China geoeconomic decoupling and sanctions contestation.[1]"
+    },
+    {
+      "id": "CA-228",
+      "name": "Supermicro Board of Directors",
+      "ps_memberships": [
+        "PS-04",
+        "PS-05"
+      ],
+      "raw_news": "No significant news on Supermicro's Board of Directors emerged in the past 7 days (April 22-29, 2026), with the most recent actions predating this window.[5][7] On April 15, 2026, shareholders reelected **Charles Liang** (CEO), Tally Liu, and Sherman Tuan as Class I directors until 2028 and approved an expanded 118M-share equity incentive plan, reinforcing insider control amid AI compute tensions.[5] Earlier, on March 20, 2026, director **Yih-Shyan \"Wally\" Liaw** resigned amid U.S. criminal charges for allegedly diverting Nvidia servers to China, shrinking the board to eight members without committee changes, heightening scrutiny on supply chain compliance.[1][2][3]"
+    },
+    {
+      "id": "CA-120",
+      "name": "SoftBank Group Board of Directors",
+      "ps_memberships": [
+        "PS-05"
+      ],
+      "raw_news": "**SoftBank Group Corp. announced board director nominations on April 28, 2026, proposing reelection of seven current directors—including Chairman Masayoshi Son, Yoshimitsu Goto, Ken Miyauchi, and Arm CEO Rene Haas—while adding two new external independents: Tetsuji Ohashi (Senior Adviser, Komatsu Ltd.) and Miwa Ohmori (Outside Director, Mizuho Securities).** Two directors, Masami Iijima and Keiko Erikawa, will step down effective June 24, 2026, pending shareholder approval at the AGM.[2][4] This reshuffle bolsters independent oversight on the nine-member board, retaining key AI-aligned figures like Haas amid SoftBank's frontier AI push via its $100B+ Vision Fund chaired by Son.[1][3] No other board decisions or actions reported in the past week affect power dynamics in AI ecosystems.[2]"
+    },
+    {
+      "id": "CA-328",
+      "name": "National Security Commission on Artificial Intelligence (NSCAI)",
+      "ps_memberships": [
+        "PS-05"
+      ],
+      "raw_news": "No significant news on the National Security Commission on Artificial Intelligence (NSCAI)—chaired by Eric Schmidt and dissolved in October 2021—from April 22-29, 2026, appears in available sources[3][9]. All results reference the commission's historical activities, such as its 2021 final report urging $32 billion annual AI R&D investment by 2026 and warnings on China competition[1][2][3][6][7]. Recent AI security developments, like the NSA's Artificial Intelligence Security Center focusing on vulnerabilities and industry partnerships, stem from post-NSCAI implementations rather than NSCAI actions[4]."
+    },
+    {
+      "id": "CA-362",
+      "name": "Franklin Resources, Inc. (Franklin Templeton) Board of Directors",
+      "ps_memberships": [],
+      "raw_news": "No significant news on decisions, actions, positions, alliances, or organizational moves affecting power dynamics in the Franklin Resources, Inc. (Franklin Templeton) Board of Directors was found from approximately April 22-29, 2026. Search results provided only historical background on the company's founding in 1947 by Rupert H. Johnson Sr. and related entities like FranklinCovey, with no recent hard news matching the criteria.[1][3][5] This absence may indicate no major public developments in the specified timeframe or incomplete search coverage of current events.[3]",
+      "spontaneous": true
+    },
+    {
+      "id": "CA-256",
+      "name": "Chinese People's Political Consultative Conference (CPPCC)",
+      "ps_memberships": [
+        "PS-02",
+        "PS-10"
+      ],
+      "raw_news": "I cannot provide news from the past 7 days (April 22-29, 2026) based on the search results provided. The available search results contain only information from March 2026, covering the CPPCC's annual session that concluded on March 11, 2026—more than six weeks before your requested timeframe.\n\nTo answer your query about recent CPPCC developments affecting US-China strategic rivalry or authoritarian axis consolidation, I would need search results with current reporting from late April 2026. The March session results show the CPPCC focused on implementing the 15th Five-Year Plan (2026-2030) and discussed artificial intelligence development and economic resilience, but these predate your specified period by over a month.",
+      "spontaneous": true
+    }
+  ],
+  "news_items": [
+    {
+      "name": "Donald Trump",
+      "domain": "Head Of State, United States",
+      "raw_news": "- **April 22, 2026: Trump secured Iran's agreement to spare eight female protesters from execution, with four released immediately and four receiving reduced one-month sentences following his direct request.** This diplomatic intervention demonstrates Trump's personal leverage over Iran, enhancing his image as a decisive leader capable of influencing adversarial regimes without military escalation.[1]\n\n- **April 22, 2026: The White House announced a manufacturing resurgence with factory activity at a four-year high, attributing it to policies driving the largest reshoring wave in U.S. history amid trillions in domestic investments.** This economic initiative bolsters Trump's domestic influence by showcasing tangible gains in geoeconomic decoupling from foreign dependencies, countering rivals like China.[1]\n\n- **April 22, 2026: Trump extended a ceasefire with Iran on Truth Social while refusing to lift the blockade, prompting Iran to label the move an act of war as talks loom in Islamabad.** By balancing pressure and pause, this move reinforces Trump's control over Middle East tensions, indirectly supporting Indo-Pacific focus by avoiding broader entanglement.[3]\n\n- **April 25, 2026: President Trump delivered formal remarks, coinciding with ongoing policy pushes in manufacturing and Iran diplomacy.** The high-profile address underscores his command of the geopolitical narrative, sustaining momentum on sanctions and Western cohesion amid institutional critiques.[4]"
+    },
+    {
+      "name": "Recep Tayyip Erdoğan",
+      "domain": "Head Of State, Turkey",
+      "raw_news": "- **Erdogan announced a comprehensive investment package on April 24, including corporate tax cuts to 9% for manufacturing exporters, 14% for others, expanded incentives for Istanbul Financial Center firms, and encouragements for repatriating overseas earnings.** This bolsters Erdogan's economic leadership amid lira volatility from recent conflicts, enhancing Turkey's appeal as a middle-power hub for Global South investment and realignment.[4]\n\n- **On April 27, Erdogan called U.S. President Trump to express support after a shooting incident in Washington, condemning it as a vile act against democracy and press freedom.** The outreach signals Erdogan's intent to cultivate ties with Trump's administration, positioning Turkey as a reliable NATO partner amid Russia confrontations and Western institutional strains.[1][2][3]\n\n- **Erdogan stated in parliament that Turkey is actively working to extend the US-Iran ceasefire, ease tensions over the nuclear issue and Strait of Hormuz, and sustain negotiations.** This mediation role amplifies Turkey's influence as a middle-power broker between Western powers and the Global South, navigating NATO-Russia dynamics through de-escalation efforts.[2]\n\n- **Erdogan told German President Steinmeier in a call that the U.S.-Iran war is weakening Europe, urging major powers to adopt peace-oriented interventions.** By critiquing European vulnerabilities, Erdogan asserts Turkey's strategic autonomy and growing sway in NATO cohesion debates, while highlighting its pivotal position against Russian influence.[4]"
+    },
+    {
+      "name": "Andrei Belousov",
+      "domain": "Russia / Minister of Defense",
+      "raw_news": "I cannot provide news from the past 7 days (April 22-29, 2026) based on these search results. The available sources are dated from December 2025 and earlier, which fall outside your requested timeframe. The search results do not contain any reporting from late April 2026.\n\nTo obtain current information about Andrei Belousov's recent activities and statements regarding NATO-Russia confrontation or military initiatives, you would need search results from the specific week of April 22-29, 2026."
+    },
+    {
+      "name": "Arkady Rotenberg",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No significant hard news items about Arkady Rotenberg matching the criteria (policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements) from approximately April 22-29, 2026, appear in the available search results.\n\nThe most recent relevant item is from April 10, 2025: Rotenberg brothers identified as key architects and beneficiaries of Russia's wartime asset seizures, with entities linked to Arkady acquiring seized chemical companies via \"soft nationalization.\"[2]\n\n- **Summary**: President Vladimir Putin’s billionaire childhood friends Boris and Arkady Rotenberg are among the main architects and beneficiaries of Russia’s wartime asset seizures, according to a Financial Times report citing a source close to the Russian government, involving Roskhim's acquisition of seized firms.[2]\n- **Why it matters**: This bolsters Rotenberg's influence in Russia's wartime economy by channeling state-seized assets through opaque networks, enhancing his position amid NATO-Russia tensions and Authoritarian Axis resource consolidation.[2]"
+    },
+    {
+      "name": "Subrahmanyam Jaishankar",
+      "domain": "India / Minister of External Affairs",
+      "raw_news": "**1. Jaishankar launched the logo, theme, and website for the 4th India-Africa Forum Summit (IAFS-4) in New Delhi on April 24, 2026, scheduled for May 28-31, emphasizing expanded cooperation in digital technology, fintech, innovation, sustainability, and global governance.**[2]  \n**This initiative reinforces Jaishankar's role in driving India's realignment with the Global South by deepening development partnerships and advocating for Africa's G20 inclusion, enhancing India's diplomatic influence across the continent through 46 missions and shared security visions like Indian Ocean stability.**[2]\n\n**2. Jaishankar spoke at an Ifri conference in Paris titled \"US-Europe Adrift\" on April 27, 2026, addressing transatlantic divergences.**[4]  \n**The event positions Jaishankar as a key architect of middle-power realignment, allowing India to capitalize on Western disarray for strategic autonomy in the Indo-Pacific while critiquing global order shifts.**[4]\n\n**3. Jaishankar met Russian Foreign Minister Sergey Lavrov, as announced in a Russian MFA press release dated around late 2025 but relevant to ongoing dynamics.**[3]  \n**This engagement underscores Jaishankar's navigation of the authoritarian axis consolidation, maintaining India's balanced ties with Russia amid multipolar tensions, bolstering his influence in energy and defense geopolitics.**[3]"
+    },
+    {
+      "name": "Zhang Youxia",
+      "domain": "China / Vice Chairman of the Central Military Commission",
+      "raw_news": "I cannot provide the requested information because the search results provided do not contain any news about Zhang Youxia from the past 7 days (April 22-29, 2026). The most recent search results are from February 2026, which discuss his investigation announced on January 24, 2026, and subsequent analysis of that event.\n\nTo answer your query about recent developments in Zhang Youxia's position, influence, or activities related to US-China strategic rivalry, Indo-Pacific security, or authoritarian axis consolidation, I would need search results with current reporting from late April 2026. The available results do not contain hard news from this timeframe.\n\nIf you'd like, I can provide analysis of the January 2026 investigation based on these results, or you may want to conduct a new search with more recent sources."
+    },
+    {
+      "name": "Ursula von der Leyen",
+      "domain": "European Union / President of the European Commission",
+      "raw_news": "- **EU Commission advances legislative proposals on energy security in response to Middle East crisis and Strait of Hormuz disruptions.** On April 13, 2026, von der Leyen delivered a read-out emphasizing a €22 billion rise in EU fossil fuel import costs over 44 days, immediate measures like gas storage and oil releases, and long-term plans including ETS reform, renewables scaling, nuclear (including SMRs), and electrification to enhance resilience.[1]\n- **Von der Leyen participates in European Parliament plenary debate on EU strategy for Middle East crisis.** Scheduled for April 29, 2026, in Strasbourg, this debate addresses the EU's response to regional instability, building on recent discussions with EU leaders on the crisis, Ukraine, and competitiveness.[3]\n- **Discussions confirm May presentation of legislative proposals to counter energy shock from Gulf conflict.** Von der Leyen highlighted urgency for co-legislators to approve the package by early summer, focusing on accelerating industrial electrification, home heating, and mobility to reduce fossil fuel dependence.[1]\n- **Von der Leyen meets EU leaders on Middle East crisis, Ukraine support, and economic competitiveness.** Recent talks emphasize restoring peace in the Middle East and Gulf while coordinating on broader geopolitical and economic challenges.[3]\n\n**Significance for each:**\n- The energy security read-out and proposals bolster von der Leyen's leadership in geoeconomic decoupling and institutional cohesion by demonstrating proactive EU-wide coordination against external shocks, reinforcing her influence amid energy vulnerabilities.[1][3]\n- The Parliament debate on April 29 positions her centrally in shaping EU foreign policy on Middle East instability, testing her ability to maintain Western cohesion on sanctions and countersanctions in a high-stakes diplomatic arena.[3]\n- Confirming May legislative timelines underscores her authority in driving structural reforms for energy independence, critical for her position in global monetary stress and decoupling from adversarial suppliers like Iran-linked disruptions.[1]\n- Leader meetings on crisis, Ukraine, and competitiveness highlight her pivotal role in NATO-Russia confrontation arcs and institutional unity, sustaining her geopolitical clout despite domestic strains.[3]"
+    },
+    {
+      "name": "George Roberts",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No significant hard news matching the criteria—policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements by George Roberts (Forbes-listed billionaire, KKR co-founder) in the US-China rivalry, semiconductors, AI power struggles, or global monetary order—from approximately April 22-29, 2026, appears in available search results[1]."
+    },
+    {
+      "name": "Tim Cook",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **Apple CEO Tim Cook to step down on September 1, 2026, succeeded by John Ternus.** Apple announced that Tim Cook will transition from CEO to executive chairman after 15 years, with Senior VP of Hardware Engineering John Ternus assuming the CEO role following board approval.[1][2][3]\n  - This shift reduces Cook's direct operational control over Apple's strategic decisions in US-China tech rivalry and AI development, potentially altering the company's approach to semiconductor dependencies and geoeconomic pressures.[1][2][3]\n\nNo other hard news on Tim Cook involving policy decisions, geopolitical moves, economic initiatives, diplomatic events, or significant public statements in **US-China Strategic Rivalry**, **Semiconductor and Compute Chokepoint Control**, **Frontier AI Power Struggle**, **Sanctions**, **Countersanctions**, or **Geoeconomic Decoupling** appears in the past 7 days; search results focus solely on the CEO transition.[1][2][3][4]"
+    },
+    {
+      "name": "Tahnoun bin Zayed Al Nahyan",
+      "domain": "UAE / National Security Adviser, sovereign wealth and intelligence power broker",
+      "raw_news": "No significant hard news items about Tahnoun bin Zayed Al Nahyan matching the specified date range (April 22-29, 2026) and criteria (policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements in frontier AI or Global South realignment) appear in the search results. The sole direct mention is a Saudi denial of prior reports claiming Riyadh refused to receive him, but this lacks a 2026 date and does not qualify as new hard news.[4]"
+    },
+    {
+      "name": "Mark Rutte",
+      "domain": "NATO / Secretary General",
+      "raw_news": "- **April 22, 2026: Rutte delivered a press statement in Ankara, Turkey, warning that NATO faces great dangers on multiple fronts.** This underscores Rutte's role in articulating NATO's heightened threat perception amid Russia tensions, reinforcing his leadership in the NATO-Russia confrontation arc.[4]\n\n- **April 15, 2026: Rutte joined a Ukraine Defence Contact Group meeting in Berlin with German, UK, and Ukrainian defence ministers, welcoming new aid pledges from Germany, the UK, and Netherlands while stressing sustained support for Ukraine.** The event bolsters Rutte's influence in coordinating Western military aid to counter Russia, enhancing NATO's cohesion on the eastern flank.[5]\n\n- **April 9, 2026: Rutte spoke at the Reagan Institute in Washington on NATO's need for sustained defence investment and highlighted UK-led efforts to secure the Strait of Hormuz, signaling a mindset shift in European contributions.** It positions Rutte as a bridge-builder with US conservatives amid institutional strain, directly addressing NATO-Russia threats and Hormuz-related geopolitical risks.[1][7]"
+    },
+    {
+      "name": "Claudia Sheinbaum",
+      "domain": "Head Of State, Mexico",
+      "raw_news": "- **April 27: Sheinbaum stated Mexico seeks to avoid conflict with the US after two US agents died in a vehicle crash during an anti-cartel operation in Chihuahua, while demanding explanations and emphasizing federal authorization for foreign collaborations.**[1][2]  \n  This assertive stance on sovereignty amid US pressure from President Trump to combat cartels reinforces her position as a defender of Mexican autonomy in bilateral relations, critical for a middle-power navigating Global South realignments against Northern dominance.[1][2]\n\n- **April 27-28: Sheinbaum's government confirmed involvement of federal military in the joint Chihuahua operation that dismantled drug labs, following the fatal incident involving US personnel.**[2]  \n  Coordinating security forces in cross-border anti-cartel efforts while scrutinizing unauthorized US actions bolsters her influence in regional security dynamics, positioning Mexico as an equal partner rather than a subordinate in North American geopolitics.[2]"
+    },
+    {
+      "name": "Tamim bin Hamad Al",
+      "domain": "Head Of State, Qatar",
+      "raw_news": "- **Phone call with US President Donald Trump on Washington-Tehran ceasefire (April 25, 2026):** Qatar's Emir Sheikh Tamim bin Hamad Al Thani discussed developments in the Washington-Tehran ceasefire agreement during a call with Trump, stressing Qatar's continued coordination with partners to support Pakistan-led mediation for regional security.[1]  \n  This positions Qatar as a pivotal mediator in high-stakes US-Iran de-escalation, enhancing Tamim's influence as a trusted broker between superpowers and Gulf states amid Strait of Hormuz tensions.[1]\n\n- **GCC summit alignment on Iranian aggressions and regional security (April 22-29, 2026):** Amid a Gulf summit chaired by Saudi Crown Prince Mohammed bin Salman, Tamim participated in discussions condemning Iranian attacks on GCC states and Jordan, rejecting Strait of Hormuz closure, and advancing joint projects like military integration and pipelines.[1]  \n  Reinforces Tamim's leadership in unified GCC responses to existential threats, bolstering Qatar's strategic role in collective Gulf defense and economic resilience against Iranian actions.[1]\n\nNo other hard news items involving policy decisions, geopolitical moves, diplomatic events, or significant statements by Sheikh Tamim from approximately April 22-29, 2026, appear in the results; earlier events like UK and French leader meetings fall outside this window.[2][3]"
+    },
+    {
+      "name": "Ajay Banga",
+      "domain": "India-USA / President, World Bank Group",
+      "raw_news": "- **April 15, 2026: World Bank President Ajay Banga announced at the Bretton Woods Committee Spring Summit plans to scale crisis support from $25 billion to up to $100 billion over 15 months amid Middle East conflict, emphasizing energy disruptions, private capital mobilization, local currency financing, and junior equity.** This bolsters Banga's influence in reshaping the **global monetary order** by demonstrating the World Bank's capacity to rapidly deploy leveraged funds for crisis response, addressing **financial architecture stress** in conflict zones.[1]\n\n- **April 16, 2026: The World Bank Group, under President Ajay Banga, resumed dealings with Venezuela's government led by acting President Delcy Rodríguez, following IMF guidance, after a pause since 2019.** This move enhances Banga's position in **Global South realignment** by reintegrating a key middle-power economy into multilateral finance, signaling pragmatic shifts in policy amid geopolitical tensions.[2]\n\n- **April 8, 2026 (analysis): Reports highlighted Ajay Banga's January appointment to the US-led Board of Peace executive board, alongside figures like Marco Rubio and Jared Kushner, raising concerns over World Bank impartiality.** It underscores Banga's deepening ties to US geopolitical initiatives, potentially straining his credibility in **middle-power and Global South** circles while leveraging World Bank hosting of the Gaza fund for reconstruction influence.[4]\n\n- **April 7, 2026: At the Atlantic Council, Ajay Banga defended World Bank collaboration with the Board of Peace for Gaza reconstruction, citing a UN Security Council resolution mandating involvement.** This positions Banga as a pivotal actor in post-conflict financial architecture, aligning the World Bank with Western-led efforts amid **global monetary order** debates on multilateralism.[6]"
+    },
+    {
+      "name": "Henry Kravis",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "Based on the available search results, I cannot provide the requested 3-5 items of hard news about Henry Kravis from the past 7 days.\n\nThe search results contain limited relevant information: one result mentions that Henry H. McVey (not Henry Kravis) from KKR recently returned from Asia with visits to Beijing and Hong Kong as part of his third regional trip in 2026[1], but this appears to be a routine business visit rather than a significant geopolitical event or policy decision.\n\nThe other results reference general economic outlooks, a ceasefire between Israel and Lebanon, and a U.S. blockade of the Strait of Hormuz[2], but none directly involve Henry Kravis or substantive developments in US-China strategic rivalry that would meet your criteria for hard news.\n\nTo obtain the specific information you're seeking about Henry Kravis's activities and statements regarding US-China relations during this period, you would need search results that specifically cover his public statements, KKR's strategic initiatives, or his involvement in relevant geopolitical or economic developments."
+    },
+    {
+      "name": "António Guterres",
+      "domain": "Portugal / Secretary-General, United Nations",
+      "raw_news": "## Key News: António Guterres (April 22-29, 2026)\n\n**1. Strait of Hormuz Closure Appeal**\nU.N. Secretary-General Guterres publicly urged the U.S. and Iran to reopen the Strait of Hormuz at the TIME100 Summit on April 22, stating \"everybody is paying the price\" as the conflict enters its second month.[1] This direct appeal to both parties demonstrates Guterres' attempt to leverage his diplomatic platform to address the global economic crisis caused by the blockade, positioning him as an advocate for international stability during a critical geopolitical moment.\n\n**2. Energy Crisis and Renewables Push**\nOn April 21, Guterres declared that \"the conflict in the Middle East has triggered the most severe energy crisis in a generation\" and called for countries to \"unleash the renewables revolution\" at the Petersberg Climate Dialogue in Berlin.[3] This framing links the immediate military crisis to long-term climate strategy, reinforcing Guterres' influence in shaping the global narrative around energy security and climate action as interconnected priorities.\n\n**3. Call for Resumed U.S.-Iran Diplomacy**\nOn April 13, Guterres issued a passionate call for \"serious negotiations\" between the U.S. and Iran, emphasizing that \"there is no military solution to the crisis\" and warning that international law is being \"trampled.\"[6] This statement reaffirms Guterres' role as the UN's chief mediator while signaling his concern that the conflict threatens the international legal order itself—a core pillar of UN authority.\n\n**4. Climate Finance and Development Aid Advocacy**\nGuterres warned that current Nationally Determined Contributions will only reduce emissions by 10% by 2035 instead of the required 60%, and called for $1.3 billion annually by 2035 to support developing countries.[1][3] His emphasis on climate justice and criticism of developed nations \"backing away\" from commitments reflects his effort to maintain UN relevance on development issues amid shrinking global aid."
+    },
+    {
+      "name": "Bernard Arnault & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "**1. At LVMH's annual general meeting on April 23, 2026, Bernard Arnault gave each of his five children a speaking role to present aspects of the company's divisions, while reaffirming his own leadership as CEO.[1][2][3]**\n\nThis public showcase of his children's executive roles defused media speculation about a \"succession war\" amid LVMH's 5% sales drop in 2025, signaling family unity and controlled transition to maintain the Arnault family's 50.1% ownership stake and the group's €235 billion market value.[2]\n\n**2. Bernard Arnault explicitly declined to disclose his succession plan during the April 23 AGM, stating discussions would occur \"in seven or eight years\" given shareholders' extension of his CEO tenure to age 85.[1][2]**\n\nBy leveraging the 2025 shareholder vote to extend his mandate from age 80 to 85, Arnault solidified his personal control over LVMH's strategic direction, reassuring investors despite a 25% market value decline and intensifying family succession scrutiny.[2]\n\n**3. Following a Le Nouvel Obs investigation on April 16, 2026, about internal \"succession war\" at LVMH, Arnault used the AGM to demonstrate his children's talents across key brands like Louis Vuitton, Loro Piana, Dior, and wines/spirits.[2]**\n\nThis strategic response countered public doubts about family harmony—echoed by his wife Hélène Mercier-Arnault's February interviews—preserving the €126 billion family fortune's stability and LVMH's position as the world's largest luxury group.[2]"
+    },
+    {
+      "name": "Ilham Aliyev",
+      "domain": "Head Of State, Azerbaijan",
+      "raw_news": "- **Azerbaijan targets 8 GW of green energy from solar, wind, and hydroelectric sources by 2032.** President Ilham Aliyev announced this ambitious goal during his speech at the Azerbaijan-Czech business forum on April 27, backed by signed contracts and ongoing fieldwork.[1][4][5][7] This positions Azerbaijan as a pivotal player in Europe's clean energy supply amid the global energy transition, enhancing Aliyev's influence in **Energy Market Statecraft and Transition Contestation** by diversifying beyond hydrocarbons while leveraging vast renewable potential.\n\n- **Azerbaijan aims to boost natural gas production by at least 10 billion cubic meters within the next three years.** Aliyev stated this target on April 29, underscoring the country's commitment to expanding hydrocarbon output.[6] It reinforces Azerbaijan's role as a reliable gas supplier to Europe, bolstering Aliyev's geopolitical leverage in **Energy Market Statecraft** through sustained fossil fuel dominance despite green rhetoric.\n\n- **Azerbaijan and Czech Republic affirm reliable energy sector partnership with goals for balanced trade exceeding $800 million.** On April 27, Aliyev highlighted long-term cooperation focused on energy during a joint press statement with Czech Prime Minister Andrej Babiš, emphasizing diversification from oil exports.[4] This diplomatic move strengthens Aliyev's **Middle-Power** ties in Central Europe, signaling Azerbaijan's pivot toward broader economic partnerships in the **Global South Realignment** context.\n\n- **Azerbaijan actively advances renewable projects, including recent inaugurations and transmission investments.** Aliyev noted the opening of two major renewable stations and plans for dramatic capacity growth by 2032 during the April 27 forum speech.[1][5] It underscores Aliyev's proactive leadership in green infrastructure, elevating Azerbaijan's profile in international sustainability forums and aiding its **energy transition** narrative for enhanced regional influence."
+    },
+    {
+      "name": "Rupert Johnson, Jr.",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No significant hard news about Rupert Johnson, Jr. from the past 7 days (April 22-29, 2026) appears in the available search results, which cover unrelated billionaire lists and topics like Forbes rankings as of March 1, 2026[1][2] and general media discussions[3].  \nSearch results lack coverage of policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements by Johnson during this period."
+    },
+    {
+      "name": "Hakainde Hichilema",
+      "domain": "Head Of State, Zambia",
+      "raw_news": "1. **President Hichilema ended the national mourning period for former President Edgar Lungu early due to an ongoing public dispute with Lungu's family over the body's repatriation and burial arrangements.**[1]  \n   This decision highlights deepening political tensions ahead of the 2027 elections, potentially undermining Hichilema's image of national unity and strengthening opposition narratives in Zambia's polarized landscape.[1]\n\n2. **Hichilema is advancing a constitutional amendment bill, scheduled for tabling in parliament, which critics argue is designed to bolster his position ahead of the August 2027 general elections.**[1]  \n   The move signals strategic maneuvering to consolidate power, which could enhance his influence domestically but risks accusations of authoritarianism, affecting Zambia's democratic credibility in Global South alignments.[1]\n\n3. **Hichilema set a target of 5 million votes while expanding his campaign efforts, including thanking supporters in Kasama and welcoming defectors from opposition ranks on April 26.**[4]  \n   This aggressive pre-election push demonstrates growing momentum and coalition-building, positioning him as a dominant middle-power leader capable of sustaining Zambia's realignment toward pro-Western economic partnerships.[4]"
+    },
+    {
+      "name": "Francoise Bettencourt Meyers & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No significant hard news—such as policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements—involving Françoise Bettencourt Meyers or her family appears in the past 7 days (approximately April 22-29, 2026).[1][2][3][4][5]\n\nThe most recent relevant development is L'Oréal's February 7, 2025, announcement of Bettencourt Meyers stepping down from the board after 28 years, with succession to her sons and family holding Tethys (effective post-April 29, 2025 shareholder meeting), but this falls well outside the queried timeframe.[2][3]"
+    },
+    {
+      "name": "João Lourenço",
+      "domain": "Head Of State, Angola",
+      "raw_news": "Based on the search results provided, I can only identify one significant event from the past 7 days (April 22-29, 2026) that meets your criteria:\n\n**Pope Leo's Visit to Angola (April 18, 2026)** — While this occurred slightly outside your requested timeframe, it represents the most recent hard news event in the results. Pope Leo arrived in Luanda on April 18 and delivered a speech calling on state authorities to \"put the common good before partisan interests\" while denouncing external \"powerful interests\" exploiting Angola's resources—an implicit critique of extractive foreign investment models.[1] This diplomatic event signals international attention to Angola's resource governance and reinforces Lourenço's positioning as a leader addressing sovereignty concerns, strengthening his credibility with both domestic audiences and Global South actors concerned about neo-colonial resource extraction.\n\nUnfortunately, the search results do not contain sufficient reporting on events from April 22-29, 2026 to provide the 3-5 items you requested. The most recent substantive coverage in these results dates to mid-April or earlier. To obtain hard news on Lourenço's recent statecraft, energy market moves, or geopolitical realignment activities from the past week, you would need more current reporting from this specific timeframe."
+    },
+    {
+      "name": "Ma Huateng",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "Based on the available search results, there is **one significant news item** about Ma Huateng from the past week:\n\n**Tencent Launches \"Yuanbao Pai\" AI Social Feature** (April 26, 2026)\n\nMa Huateng announced at Tencent's 2026 staff meeting that **Yuanbao will introduce a new AI social feature called \"Yuanbao Pai\" integrating multi-person entertainment and collaboration capabilities**, with users able to watch movies, listen to music, and voice-chat together while interacting with AI in real-time.[1] This matters because it positions Tencent's AI infrastructure as a competitive platform in the frontier AI power struggle, leveraging Tencent's existing social dominance and content ecosystem (QQ Music, Tencent Video) to embed AI deeply into user engagement and relationship networks.[1]\n\n**Limitation:** The search results contain only one news item about Ma Huateng from the specified timeframe. The query requests 3-5 items focused on geopolitical dimensions (US-China rivalry, authoritarian axis consolidation, narrative control), but the available information is limited to a domestic technology product announcement. Additional sources would be needed to identify other significant geopolitical or strategic moves by Ma Huateng during this period."
+    },
+    {
+      "name": "Vincent Bolloré & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "Based on the available search results, I can only identify one significant event from the requested timeframe (approximately April 22-29, 2026) related to Vincent Bolloré's control of the information ecosystem:\n\n**Mass author exodus from Grasset publishing house (April 20, 2026):** Approximately 170 authors announced their departure from Grasset, France's prestigious publishing house owned by Bolloré's Vivendi group, following the firing of long-time CEO Olivier Nora over disagreements regarding publication decisions.[2] This represents a direct challenge to Bolloré's editorial control, as over 300 cultural figures subsequently called for a \"conscience clause\" to protect editorial independence in publishing, signaling potential limits to his narrative control within France's cultural institutions.[2]\n\nThe search results do not contain sufficient information about other significant Bolloré family activities or geopolitical moves from the past week to provide the requested 3-5 items. The available reporting focuses primarily on the Grasset publishing crisis, which occurred in mid-April (April 14-20) rather than the final week of April."
+    },
+    {
+      "name": "Ismail Omar Guelleh",
+      "domain": "Head Of State, Djibouti",
+      "raw_news": "No significant hard news items about Ismail Omar Guelleh involving policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements were found from approximately April 22-29, 2026. Search results only cover his landslide presidential election victory announced on April 11, 2026, securing a sixth term with 97.8% of the vote.[1][3] This falls outside the specified date range and primarily reflects domestic electoral consolidation rather than the queried key areas of Middle-Power or Global South Realignment activity."
+    },
+    {
+      "name": "Taye Atske Selassie",
+      "domain": "Head Of State, Ethiopia",
+      "raw_news": "- **World Governments Summit Address (February 2026):** President Taye Atske Selassie delivered a keynote at the World Governments Summit 2026 in Dubai, outlining Ethiopia's strategic pillars of energy (over 6,000 MW clean power), food security (record 640,000 tons coffee production), and aviation (new $12.5B airport for 110M passengers).[3][4] This positions Ethiopia as a middle-power leader in African integration via AfCFTA, enhancing his influence in Global South realignment by attracting investment and partnerships.[3][4]\n\n- **Diplomatic Credentials Ceremony (February 1, 2026):** President Taye Atske Selassie welcomed ambassadors from UAE, Luxembourg, and others, emphasizing green diplomacy through the Green Legacy Initiative, climate finance, smart agriculture, and AfCFTA strengthening.[5] It bolsters Ethiopia's geopolitical stance in environmental security and regional trade, reinforcing his role in middle-power alliances with key Global South partners like UAE.[5]\n\nNo other hard news items—such as policy decisions, military actions, economic initiatives, or significant statements—on Taye Atske Selassie appear in the past 7 days (April 22-29, 2026); earlier events like his 2024 inauguration or 2025 New Year message fall outside this window.[1][2]"
+    },
+    {
+      "name": "Eric Schmidt",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **Eric Schmidt warned at the World Economic Forum in Davos that Europe risks becoming reliant on Chinese AI technology unless it invests heavily in open-source AI labs and addresses high energy costs.** This statement underscores his influence in shaping European AI policy to counter Chinese dominance, aligning with his focus on frontier AI power struggles between the US, China, and allies.[3]\n\nNo other hard news items matching the criteria (policy decisions, geopolitical moves, etc.) from approximately April 22-29, 2026, appear in the search results; earlier warnings on AI risks (e.g., superintelligence timelines, China robotics lead) date to mid-March or before.[1][6]"
+    },
+    {
+      "name": "Martin Lau",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No significant hard news about Martin Lau (Forbes-listed billionaire, key areas: US-China Strategic Rivalry, Frontier AI Power Struggle, Information Ecosystem and Narrative Control) from approximately April 22-29, 2026, appears in the available search results.\n\nThe provided search results consist solely of unrelated government datasets (e.g., Colorado nonprofit filings, Virginia regulatory lists, Hong Kong licensing records) with no mentions of Martin Lau or relevant geopolitical, policy, economic, diplomatic, or public statement events."
+    }
+  ],
+  "ps_assemblies_fired": {
+    "PS-01": [
+      "CA-118",
+      "CA-087",
+      "CA-029",
+      "CA-011",
+      "CA-009"
+    ],
+    "PS-03": [
+      "CA-008",
+      "CA-059",
+      "CA-098"
+    ],
+    "PS-04": [
+      "CA-019",
+      "CA-014",
+      "CA-025"
+    ],
+    "PS-05": [
+      "CA-228",
+      "CA-120",
+      "CA-328"
+    ]
+  },
+  "assemblies_spontaneous": [
+    "CA-362",
+    "CA-256"
+  ],
+  "neurons_conscious": [
+    "Donald Trump",
+    "Recep Tayyip Erdoğan",
+    "Andrei Belousov",
+    "Arkady Rotenberg",
+    "Subrahmanyam Jaishankar",
+    "Zhang Youxia",
+    "Ursula von der Leyen",
+    "George Roberts",
+    "Tim Cook",
+    "Tahnoun bin Zayed Al Nahyan"
+  ],
+  "neurons_spontaneous": [
+    "Mark Rutte",
+    "Claudia Sheinbaum",
+    "Tamim bin Hamad Al",
+    "Ajay Banga",
+    "Henry Kravis",
+    "António Guterres",
+    "Bernard Arnault & family",
+    "Ilham Aliyev",
+    "Rupert Johnson, Jr.",
+    "Hakainde Hichilema",
+    "Francoise Bettencourt Meyers & family",
+    "João Lourenço",
+    "Ma Huateng",
+    "Vincent Bolloré & family",
+    "Ismail Omar Guelleh",
+    "Taye Atske Selassie",
+    "Eric Schmidt",
+    "Martin Lau"
+  ],
+  "neurons_skipped": [
+    "Xi Jinping",
+    "Vladimir Putin",
+    "Li Qiang",
+    "Ali Khamenei",
+    "Salman bin Abdulaziz Al Saud",
+    "Scott Bessent",
+    "Cai Qi",
+    "Kazuo Ueda",
+    "Mohammed Bin Zayed Al Nahyan",
+    "Jerome Powell",
+    "Mohan Bhagwat",
+    "Mark Zuckerberg",
+    "Amancio Ortega",
+    "Pan Gongsheng",
+    "Johann Rupert & family",
+    "Elon Musk",
+    "Volodymyr Zelenskyy",
+    "Christopher Cavoli",
+    "Marco Rubio",
+    "Wang Yi",
+    "Satya Nadella",
+    "C.C. Wei",
+    "Pete Hegseth",
+    "Sundar Pichai",
+    "Igor Sechin",
+    "Pony Ma (Ma Huateng)",
+    "Christophe Fouquet",
+    "Ren Zhengfei",
+    "Yoweri Museveni",
+    "Robin Zeng",
+    "Hibatullah Akhundzada",
+    "Alexander Lukashenko",
+    "Pope Francis (Jorge Mario Bergoglio)",
+    "Ivan Glasenberg",
+    "Larry Fink",
+    "Luiz Inácio Lula da Silva",
+    "Valery Gerasimov",
+    "Abigail Johnson",
+    "Jay Y. Lee",
+    "Stanley Druckenmiller",
+    "Rupert Murdoch & family",
+    "Ayatollah Ali Khamenei",
+    "Prabowo Subianto",
+    "Kim Jong-un",
+    "Mathias Cormann",
+    "Christine Lagarde",
+    "Shavkat Mirziyoyev",
+    "Charles Koch & family",
+    "Yuri Kovalchuk",
+    "Kristalina Georgieva",
+    "Khaldoon Khalifa Al Mubarak",
+    "Bill Gates",
+    "Lisa Su",
+    "Yuri Kovalchuk & family",
+    "Sergei Lavrov",
+    "Nikolai Patrushev",
+    "Droupadi Murmu",
+    "Jensen Huang",
+    "Sam Altman",
+    "Gautam Adani",
+    "Abdel Fattah el-Sisi",
+    "Cristiano Amon",
+    "Mustafa Suleyman",
+    "Demis Hassabis",
+    "Joseph Tsai",
+    "Jeff Bezos",
+    "Frank-Walter Steinmeier",
+    "Larry Ellison",
+    "Frederik X of Denmark",
+    "Cyrus Poonawalla",
+    "Vladimir Bogdanov",
+    "Richard Liu",
+    "Klaus-Michael Kuehne",
+    "Thomas Pritzker",
+    "Tadashi Yanai & family",
+    "Bongbong Marcos",
+    "William Alexander of the Netherlands",
+    "Félix Tshisekedi",
+    "Eric Yuan & family",
+    "Ken Griffin",
+    "Kumar Birla",
+    "Rafaela Aponte-Diamant",
+    "Bola Ahmed Tinubu",
+    "Alisher Usmanov",
+    "Jose Roberto Marinho",
+    "Alessandra Galloni",
+    "Wang Chuanfu",
+    "Jim Walton & family",
+    "Olivier Bouygues",
+    "Patrick Collison",
+    "Elvira Nabiullina",
+    "Warren Buffett",
+    "Tô Lâm",
+    "Jamie Dimon",
+    "Andrew Bailey",
+    "Leonid Mikhelson & family",
+    "Zhang Yiming",
+    "Larry Page",
+    "Ray Dalio",
+    "Morris Chang",
+    "Mukesh Ambani",
+    "Marc Andreessen",
+    "Paul Singer",
+    "David Rubenstein",
+    "Li Ka-shing",
+    "Len Blavatnik",
+    "Ilya Sutskever",
+    "Sunil Mittal",
+    "Petr Pavel",
+    "Luis Abinader",
+    "Edward Johnson, IV.",
+    "Marc Benioff",
+    "Savitri Jindal & family",
+    "David Bonderman",
+    "Stephen Feinberg",
+    "Safra Catz",
+    "Hamad bin Jassim bin Jaber Al Thani",
+    "Sergey Brin",
+    "Grand Ayatollah Ali al-Sistani",
+    "Robin Li",
+    "Shen Haixiong",
+    "Tedros Adhanom Ghebreyesus",
+    "Russell M. Nelson",
+    "Mohammed VI of Morocco",
+    "William Ackman",
+    "Charles III",
+    "Gennady Timchenko",
+    "Lai Ching-te",
+    "William Ruto",
+    "Edir Macedo & family",
+    "Pavel Durov",
+    "Melinda French Gates",
+    "Charles Schwab",
+    "Jorge Paulo Lemann & family",
+    "Serdar Berdimuhamedow",
+    "Masayoshi Son",
+    "Michael Dell",
+    "Euisun Chung",
+    "Margarita Louis-Dreyfus & family",
+    "Salva Kiir Mayardit",
+    "Leon Black",
+    "Anthony Bamford & family",
+    "Theo Albrecht, Jr. & family",
+    "François Pinault & family",
+    "Rodolphe Saadé",
+    "Jonathan Gray",
+    "Vladimir Lisin",
+    "Karl Albrecht Jr. & family",
+    "MacKenzie Scott",
+    "Sheikh Abdulaziz bin Abdullah Al ash-Sheikh",
+    "Miriam Adelson & family",
+    "Michael Froman",
+    "Leo XIV",
+    "Stephen Schwarzman",
+    "Germán Larrea Mota Velasco & family",
+    "Daniela Amodei",
+    "Terry Gou",
+    "Fred Smith",
+    "Shah Karim al-Husayni (Aga Khan IV)",
+    "John Malone",
+    "Evan Spiegel",
+    "Dhanin Chearavanont",
+    "Hamad II of Bahrain",
+    "Hasso Plattner & family",
+    "Alassane Ouattara",
+    "Cindy McCain",
+    "Laurene Powell Jobs & family",
+    "Thomas Frist, Jr. & family",
+    "Dieter Schwarz",
+    "Gianluigi Aponte",
+    "Abdullah II of Jordan",
+    "Donald Horton & family",
+    "Paul Kagame",
+    "Vajiralongkorn",
+    "Alexander Karp",
+    "Paul Tudor Jones, II.",
+    "Stefano Pessina",
+    "Abdelmadjid Tebboune",
+    "Emmerson Mnangagwa",
+    "Rob Walton & family",
+    "Hassanal Bolkiah I of Brunei",
+    "Asif Ali Zardari",
+    "Aziz Akhannouch & family",
+    "Sergio Mattarella",
+    "Brian Roberts",
+    "Michael Bloomberg",
+    "Naruhito",
+    "Samia Suluhu Hassan",
+    "Ngozi Okonjo-Iweala",
+    "Grand Imam Ahmed el-Tayeb",
+    "Javier Milei",
+    "Vladimir Potanin",
+    "Iris Fontbona & family",
+    "Esmail Qaani",
+    "Emmanuel Macron",
+    "Haitham bin Tarik Al Said",
+    "Carlos Slim Helu & family",
+    "Bidzina Ivanishvili & family",
+    "Patriarch Kirill (Vladimir Gundyayev)",
+    "Gustavo Petro",
+    "Daniel Noboa",
+    "Charlene de Carvalho-Heineken & family",
+    "Gabriel Boric",
+    "Julia Koch & family",
+    "Ricardo Salinas Pliego & family",
+    "Dario Amodei",
+    "Alain Wertheimer",
+    "Oleg Deripaska",
+    "Pierre Omidyar",
+    "Gina Rinehart",
+    "Andrew Forrest & family",
+    "Hiroshi Mikitani",
+    "Onkar Kanwar",
+    "Isaias Afwerki",
+    "Anthony Wood",
+    "Patrick Drahi",
+    "Antonio Del Valle Ruiz & family",
+    "Susanne Klatten",
+    "Travis Kalanick",
+    "Reed Hastings",
+    "Marijke Mars",
+    "Kim Kardashian",
+    "Gong Hongjia & family",
+    "Jayshree Ullal",
+    "Miuccia Prada",
+    "Antony Ressler",
+    "Andrei Guryev & family",
+    "Ronald Lauder",
+    "Howard Marks",
+    "Mochtar Riady & family",
+    "Micky Arison",
+    "Reinhold Wuerth & family",
+    "Wang Jianlin",
+    "Bassirou Diomaye Faye",
+    "William Ding",
+    "Aneel Bhusri",
+    "Nandan Nilekani",
+    "Mark Suzman",
+    "Fang Hongbo",
+    "Lim Kok Thay",
+    "Wang Xing",
+    "Alfredo Harp Helu & family",
+    "Adi Godrej",
+    "John Doerr",
+    "Liu Hanyuan",
+    "William Lauder",
+    "Nassef Sawiris",
+    "Steve Ballmer",
+    "Cyril Ramaphosa",
+    "Riley Bechtel & family",
+    "Brice Clotaire Oligui Nguema",
+    "Kais Saied",
+    "Phil Knight & family",
+    "John Mars",
+    "Yuri Milner",
+    "Karol Nawrocki",
+    "Prajogo Pangestu",
+    "Daniel Ortega",
+    "Thaksin Shinawatra",
+    "Uday Kotak",
+    "Xiang Guangda",
+    "Andrej Babis",
+    "Lei Jun",
+    "Sheryl Sandberg",
+    "Faisal Bin Qassim Al Thani",
+    "Jeff T. Green",
+    "Charles Liang",
+    "Jiang Rensheng & family",
+    "Liu Yongxing",
+    "Hansjoerg Wyss",
+    "Aliko Dangote",
+    "Changpeng Zhao"
+  ],
+  "spontaneous_cap": 18
+}
