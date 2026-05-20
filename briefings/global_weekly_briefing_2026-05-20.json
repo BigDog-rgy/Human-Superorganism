@@ -1,0 +1,760 @@
+{
+  "week_ending": "2026-05-20",
+  "executive_summary": "China formalized sweeping countersanctions regulations creating direct compliance conflicts for multinationals caught between US/EU and PRC legal regimes, marking a structural escalation in geoeconomic decoupling. The frontier AI power struggle intensified as Anthropic and OpenAI gated increasingly agentic models, Nvidia locked in US-based manufacturing chains, and Washington moved toward preemptive federal AI regulation. NATO-Russia tensions rose as Washington appeared to accept Russian-preferred negotiation sequencing on Ukraine while European leaders warned of imminent hybrid or conventional threats to alliance territory.",
+  "person_updates": [
+    {
+      "name": "Eric Schmidt",
+      "signal": "active",
+      "summary": "Schmidt took over as CEO of Relativity Space and acquired a controlling stake, expanding his influence into the space-industrial and defense-adjacent sectors. He publicly warned that AI could achieve recursive self-improvement within four years, shaping elite policy debate, while being booed at a University of Arizona commencement for his AI-and-automation messaging."
+    },
+    {
+      "name": "Daniela Amodei",
+      "signal": "active",
+      "summary": "Amodei publicly challenged AGI as the industry's guiding concept in a CNBC interview, reframing frontier AI competition around domain-specific capabilities and safety-first development. She advanced Anthropic's positioning as a safety-anchored counterweight to brute-force compute strategies while confirming a ~$50 billion infrastructure plan and possible 2026 IPO."
+    },
+    {
+      "name": "Charles Liang",
+      "signal": "quiet",
+      "summary": "No significant hard-news developments involving Charles Liang were identified this week. His most recent notable public statement was a May 5 denial of broader Supermicro involvement in the DOJ export-control case."
+    },
+    {
+      "name": "Sergey Brin",
+      "signal": "quiet",
+      "summary": "No credible hard news about Sergey Brin emerged this week that meets criteria for policy decisions, geopolitical moves, or major public statements tied to frontier AI or information ecosystems."
+    },
+    {
+      "name": "Alisher Usmanov",
+      "signal": "active",
+      "summary": "Slovakia lifted its veto on the EU Russia sanctions rollover after failing to secure Usmanov's delisting, keeping him under EU sanctions. The European Commission also rejected a compromise that would have tied potential delisting to court rulings, signaling that his status will remain a political decision on geoeconomic and security grounds."
+    },
+    {
+      "name": "Christophe Fouquet",
+      "signal": "active",
+      "summary": "Fouquet described AI chip demand as a structural 'arms race' on MSNBC, delivered a keynote at Imec Technology Forum on EUV roadmaps, and co-signed a pan-European op-ed with CEOs of Airbus, Ericsson, and others urging stronger tech industrial policy. He publicly asserted ASML's unchallenged monopoly in advanced lithography and signaled imminent high-NA EUV tool deliveries."
+    },
+    {
+      "name": "Yuri Milner",
+      "signal": "quiet",
+      "summary": "No significant hard-news developments involving Yuri Milner were identified this week. Recent mentions are limited to background references to DST Global's historic stakes in major platforms."
+    },
+    {
+      "name": "Larry Page",
+      "signal": "active",
+      "summary": "Page quietly restructured major holding companies out of California into Delaware and Nevada entities, shielding his wealth from a prospective California billionaire wealth tax. The moves consolidate jurisdictional flexibility over capital underpinning frontier AI and advanced technology investments."
+    },
+    {
+      "name": "Christopher Cavoli",
+      "signal": "active",
+      "summary": "In Senate testimony, SACEUR Cavoli warned that any deal with Putin would not end Russia's territorial ambitions and that Russia can rebuild its forces quickly through conscription. He framed Russia's behavior as part of a broader historical pattern of revisionism and highlighted NATO's expanding role in organizing Ukraine's long-term military aid and training."
+    },
+    {
+      "name": "Pete Hegseth",
+      "signal": "active",
+      "summary": "Hegseth previewed the new National Defense Strategy at the Reagan Library, centering China deterrence, hemispheric defense, allied burden-sharing, and defense-industrial mobilization. He faced congressional scrutiny over U.S.-Ecuador military operations and defended a $25 billion 'Golden Dome for America' missile defense initiative in budget hearings."
+    },
+    {
+      "name": "Ren Zhengfei",
+      "signal": "active",
+      "summary": "Ren commented publicly on Huawei's determination to operate globally despite U.S. export controls, with his earlier statements on surviving without U.S. suppliers resurfacing in current coverage. His internal restructuring directives continue to frame Huawei's adaptation to Western chokepoints, shaping policy and corporate thinking on sanctions resilience."
+    },
+    {
+      "name": "Abdel Fattah el-Sisi",
+      "signal": "active",
+      "summary": "El-Sisi continued shuttle diplomacy on Gaza ceasefire and hostage talks while advancing Egypt's positioning as a logistics and energy hub linking the Global South to European markets. He deepened investment discussions with Gulf sovereign wealth funds and maintained a formally neutral stance on the Russia-Ukraine war to extract economic concessions from both sides."
+    },
+    {
+      "name": "Elvira Nabiullina",
+      "signal": "active",
+      "summary": "Nabiullina faced an implicit challenge to Central Bank independence as a pro-government think tank proposed amending Russian law to add economic growth as a formal Bank of Russia goal and create a presidential coordination mechanism. She maintained a restrictive monetary stance with double-digit rates projected through 2027, constraining the Kremlin's ability to monetize wartime spending."
+    },
+    {
+      "name": "Robin Li",
+      "signal": "active",
+      "summary": "At Baidu's Create 2026 conference, Robin Li proposed 'Daily Active Agents' as a new core metric for AI value and emphasized a shift from model intelligence to agent-based task completion. He positioned Baidu as a standard-setter in China's AI ecosystem, reinforcing Beijing's push to embed AI deeply into its economy."
+    },
+    {
+      "name": "Gennady Timchenko",
+      "signal": "quiet",
+      "summary": "No verifiable hard news about Gennady Timchenko emerged this week. Recent mentions recycle older material about his sanctions designations and ties to Putin without documenting new concrete actions or deals."
+    },
+    {
+      "name": "William Ruto",
+      "signal": "active",
+      "summary": "Ruto hosted the inaugural 'Africa We Build Summit 2026' in Nairobi and announced a $25 million equity increase in the Africa Finance Corporation, positioning Kenya as a regional financial and infrastructure hub. He urged deeper African regional integration and continental value chains, strengthening his profile as a leading Global South voice."
+    },
+    {
+      "name": "Serdar Berdimuhamedow",
+      "signal": "active",
+      "summary": "Berdimuhamedow advanced preparations to chair the CIS and host the eighth Consultative Meeting of Central Asian leaders in 2026, while his participation in the first Central Asia-EU Summit with von der Leyen and Costa continued to draw coverage. He is using multilateral hosting and diversified diplomacy to elevate Turkmenistan's profile beyond its traditional Russia-China orbit."
+    },
+    {
+      "name": "Margarita Louis-Dreyfus & family",
+      "signal": "quiet",
+      "summary": "No hard-news developments involving Margarita Louis-Dreyfus or her family were identified this week that meet criteria for policy decisions, geopolitical moves, or major corporate actions."
+    },
+    {
+      "name": "Anthony Bamford & family",
+      "signal": "quiet",
+      "summary": "No major new developments within the strict 7-day window. The most recent significant item remains Jo Bamford's mid-April warning that the family may relocate JCB ownership out of the UK over inheritance tax changes."
+    },
+    {
+      "name": "Karl Albrecht Jr. & family",
+      "signal": "quiet",
+      "summary": "No hard-news developments involving Karl Albrecht Jr. or his family were identified this week."
+    },
+    {
+      "name": "Miriam Adelson & family",
+      "signal": "quiet",
+      "summary": "No hard news specifically about Miriam Adelson or her immediate family was identified this week that meets criteria for new policy decisions, geopolitical moves, or significant public statements."
+    },
+    {
+      "name": "Michael Froman",
+      "signal": "quiet",
+      "summary": "No verifiable hard news about Michael Froman emerged this week tied to new policy decisions or consequential statements within the May 13-20 window."
+    },
+    {
+      "name": "Leo XIV",
+      "signal": "active",
+      "summary": "Pope Leo XIV issued 'Coniuncta Cura,' a major reform revoking the Vatican Bank's exclusive investment management role and opening Holy See finances to other intermediaries. He faced public conservative criticism from Bishop Schneider over alleged doctrinal errors and appointed a Benedictine monk as bishop in Illinois, continuing to reshape the U.S. hierarchy."
+    },
+    {
+      "name": "John Malone",
+      "signal": "active",
+      "summary": "Malone stepped down as chairman of both Liberty Global and Liberty Media and retired from the Warner Bros. Discovery board to an emeritus role, marking a generational handover of control over major global media and entertainment infrastructure. He continued to shape narrative through a book tour and media appearances framing the future of television and tech consolidation."
+    },
+    {
+      "name": "Dhanin Chearavanont",
+      "signal": "quiet",
+      "summary": "No hard-news developments involving Dhanin Chearavanont were identified within the strict May 13-20 window. His most recent notable statement was a May 9 warning about eroding confidence in U.S. Treasuries and global leadership."
+    },
+    {
+      "name": "Thomas Frist, Jr. & family",
+      "signal": "active",
+      "summary": "The Frist family completed a tax-free share exchange restructuring their ~31.6% HCA Healthcare stake through Frisco and Hercules holding vehicles, consolidating control and governance rights over one of the largest U.S. private healthcare systems. The SEC filing confirmed ongoing board-nomination rights and contractual restrictions on near-term share sales."
+    },
+    {
+      "name": "Alexander Karp",
+      "signal": "active",
+      "summary": "Karp continued to position Palantir as the leading voice linking frontier AI to Western military deterrence, arguing that the 'atomic age is ending' and AI weapons are now central to strategic competition. Palantir expanded its commercial AI footprint through new partnerships including xAI-related financial sector deployments."
+    },
+    {
+      "name": "Abdelmadjid Tebboune",
+      "signal": "active",
+      "summary": "Tebboune advanced constitutional revisions further strengthening presidential powers over the judiciary and elections, while pushing legislation to restrict political parties. He continued positioning Algeria as a Global South tech and infrastructure hub through the Global Africa Tech 2026 forum and regional security signaling ahead of his virtually assured September re-election."
+    }
+  ],
+  "assembly_updates": [
+    {
+      "id": "CA-328",
+      "name": "National Security Commission on Artificial Intelligence (NSCAI)",
+      "signal": "quiet",
+      "summary": "The NSCAI formally sunset in 2021; its influence on current frontier AI policy is indirect and historical, with no new actions or decisions this week."
+    },
+    {
+      "id": "CA-189",
+      "name": "OpenAI Partnership & Oversight Board",
+      "signal": "quiet",
+      "summary": "No verified new governance decisions or structural changes were reported this week; the most relevant framework remains the October 2025 Microsoft-OpenAI recapitalization agreement."
+    },
+    {
+      "id": "CA-106",
+      "name": "Baidu Board of Directors",
+      "signal": "active",
+      "summary": "Independent director James Ding resigned from the board and all committees, requiring reconfiguration of oversight structures at a firm central to China's AI ecosystem."
+    },
+    {
+      "id": "CA-019",
+      "name": "NVIDIA Corporation Executive Leadership",
+      "signal": "active",
+      "summary": "CEO Jensen Huang pushed AI compute into enterprise on-premises deployments, confirmed Arizona-based manufacturing with TSMC and partners, and successfully lobbied to strip the restrictive Gain AI Act from a defense bill, preserving Nvidia's strategic flexibility."
+    },
+    {
+      "id": "CA-043",
+      "name": "Google DeepMind Executive Leadership",
+      "signal": "quiet",
+      "summary": "No significant Google DeepMind executive-leadership news was verified within the past week's reporting window."
+    },
+    {
+      "id": "CA-207",
+      "name": "National Financial Council of Russia",
+      "signal": "quiet",
+      "summary": "No hard news specifically involving the National Financial Council was identified this week; relevant Russian financial and sanctions developments were driven by the Ministry of Finance, Bank of Russia, and presidential administration."
+    },
+    {
+      "id": "CA-225",
+      "name": "Volga Group",
+      "signal": "quiet",
+      "summary": "No credible reporting emerged this week of new sanctions, countersanctions, or structural changes specifically targeting Volga Group as an organization."
+    },
+    {
+      "id": "CA-112",
+      "name": "Semiconductor Industry Association (SIA)",
+      "signal": "active",
+      "summary": "SIA used its latest industry report and policy materials to argue for narrowly targeted, allied-coordinated export controls rather than sweeping unilateral restrictions, while highlighting nearly $450 billion in CHIPS Act-driven domestic fab investments across 25 states."
+    },
+    {
+      "id": "CA-283",
+      "name": "DST Global",
+      "signal": "quiet",
+      "summary": "No new investments, divestments, or policy-relevant actions by DST Global or Yuri Milner were reported this week."
+    },
+    {
+      "id": "CA-217",
+      "name": "China Media Group (CMG) Executive Committee",
+      "signal": "quiet",
+      "summary": "No CMG Executive Committee-specific decisions or public moves were verified within the May 13-20 window, though CMG remains central to China's global narrative infrastructure."
+    },
+    {
+      "id": "CA-068",
+      "name": "Bloomberg LP Board",
+      "signal": "active",
+      "summary": "Bloomberg LP announced a major governance reshuffle: Michael Bloomberg is creating a new board chaired by former Bank of England governor Mark Carney, with Vlad Kliatchko named CEO and JP Zammitt as president, recalibrating control over one of the world's key financial information platforms."
+    },
+    {
+      "id": "CA-030",
+      "name": "Office of the Secretary of Defense (OSD)",
+      "signal": "active",
+      "summary": "Defense Secretary Hegseth previewed the new National Defense Strategy centering China deterrence and defense-industrial mobilization, while CENTCOM began enforcing a blockade against Iranian commercial vessels and conducting global maritime interdiction of sanctioned and dark-fleet ships."
+    },
+    {
+      "id": "CA-087",
+      "name": "Ukraine Defense Contact Group (Ramstein Format)",
+      "signal": "active",
+      "summary": "Though no new ministerial session convened, the Ramstein format advanced its evolution from emergency supply mechanism toward a long-horizon security framework, with new U.S.-Ukraine defense-industrial co-production initiatives and a 'Ukraine deal team' to streamline American defense firm engagement."
+    },
+    {
+      "id": "CA-179",
+      "name": "NATO-Ukraine Council",
+      "signal": "quiet",
+      "summary": "No notable high-level NATO-Ukraine Council meetings or decisions were publicly reported this week; routine NATO support statements continued without specific attribution to new NUC actions."
+    },
+    {
+      "id": "CA-188",
+      "name": "CCP United Front Work Department (affiliated network)",
+      "signal": "quiet",
+      "summary": "No major new public decisions or overt policy moves explicitly attributed to the UFWD or its front organizations were documented this week, though broader PRC influence operations remained under ongoing investigation by several governments."
+    },
+    {
+      "id": "CA-096",
+      "name": "Roman Curia (Holy See)",
+      "signal": "active",
+      "summary": "Pope Leo XIV issued 'Coniuncta Cura,' revoking the Vatican Bank's exclusive investment management role and allowing other accredited intermediaries, while also canceling a Francis-era fundraising commission—reshaping internal power over Holy See finances."
+    }
+  ],
+  "top_stories": [
+    {
+      "headline": "China formalizes sweeping countersanctions regulations, escalating compliance conflicts for multinationals",
+      "persons": [
+        "Ren Zhengfei"
+      ],
+      "ps_id": "PS-08",
+      "valence": "adversarial",
+      "significance": "Two new State Council regulations create interagency supply-chain monitoring, authorize countermeasures against foreign firms implementing 'discriminatory' measures, and empower non-enforcement orders against foreign sanctions—structurally deepening geoeconomic fragmentation and forcing multinationals into direct legal conflicts between US/EU and PRC regimes."
+    },
+    {
+      "headline": "Washington accepts Russian-preferred Ukraine negotiation sequencing as European threat warnings intensify",
+      "persons": [
+        "Christopher Cavoli",
+        "Pete Hegseth"
+      ],
+      "ps_id": "PS-01",
+      "valence": "adversarial",
+      "significance": "U.S. tentative acceptance of territory-before-guarantees sequencing erodes Eastern European confidence in Western deterrence credibility, while SACEUR's Senate testimony and Poland's warning of a possible Russian attack on NATO territory within months signal a widening gap between diplomatic accommodation and military threat assessment."
+    },
+    {
+      "headline": "Frontier AI power consolidation accelerates as Nvidia locks in US manufacturing, Anthropic gates agentic models, and Congress moves on federal AI regulation",
+      "persons": [
+        "Daniela Amodei",
+        "Alexander Karp",
+        "Eric Schmidt"
+      ],
+      "ps_id": "PS-05",
+      "valence": "neutral",
+      "significance": "The convergence of Nvidia's Arizona-based supply chain, Anthropic's controlled release of increasingly capable systems, and a preemptive federal regulatory framework concentrates frontier AI power among a small set of firms and government actors, with access to models and compute becoming the primary lever of strategic advantage."
+    },
+    {
+      "headline": "Bloomberg LP governance overhaul installs former central bank governor Mark Carney as board chair",
+      "persons": [],
+      "ps_id": "PS-09",
+      "valence": "neutral",
+      "significance": "Placing a former Bank of England and Bank of Canada governor atop the board of the world's dominant financial data platform deepens the nexus between central-bank networks and information infrastructure, reshaping oversight of a critical node in global financial narrative and data flows."
+    },
+    {
+      "headline": "Nabiullina's Central Bank independence challenged by Kremlin-aligned proposal to add growth mandate and presidential coordination mechanism",
+      "persons": [
+        "Elvira Nabiullina"
+      ],
+      "ps_id": "PS-06",
+      "valence": "adversarial",
+      "significance": "A pro-government think tank's proposal to formally subordinate monetary policy to presidential coordination during supply shocks threatens the institutional independence that has anchored Russia's macro-financial stability under sanctions, with implications for how far Moscow can push geoeconomic decoupling without destabilizing its own financial system."
+    }
+  ],
+  "phase_sequence_updates": [
+    {
+      "id": "PS-01",
+      "name": "NATO-Russia Confrontation Arc",
+      "summary": "US- and Europe-led diplomacy around Ukraine shifted sharply this week as reporting (ISW) indicated Washington has tentatively accepted a Russian-preferred sequencing in negotiations that would see Kyiv cede territory before obtaining meaningful security guarantees—raising fears in Eastern Europe that any “deal” could embolden Moscow rather than stabilize the NATO-Russia frontier. On the ground, Russia maintained offensive pressure in eastern and northern Ukraine and launched one of its larger recent mixed missile-drone salvos against Ukrainian infrastructure, underscoring its continued capacity to strike deep despite attrition. In parallel, European threat perception vis-à-vis Russia rose: Poland’s PM Donald Tusk publicly warned of a possible Russian attack on NATO territory “within months,” while major analytical outlets (Eurasia Group, EUISS, Atlantic Council, Belfer) converged on scenarios of intensified Russian hybrid warfare against NATO—sabotage, cyberattacks, airspace probes—rather than immediate large-scale invasion. Collectively, these moves point to an escalatory but still mostly sub‑Article‑5 confrontation arc, with growing concern that Western political cohesion and deterrence credibility may be eroding.",
+      "assemblies_fired": [
+        "CA-030",
+        "CA-087",
+        "CA-179"
+      ]
+    },
+    {
+      "id": "PS-02",
+      "name": "US-China Strategic Rivalry",
+      "summary": "Over the past week, the main structural development has been the run‑up to the Trump–Xi summit in Beijing, with reporting indicating a deliberately narrow agenda focused on stabilizing the relationship—securing rare earths supplies, limited trade mechanisms, and Chinese purchase commitments—rather than tackling core strategic frictions. This framing aligns with think‑tank analyses arguing that U.S.–China cooperation will remain tightly constrained to low‑ambition areas such as information sharing and deconfliction, reinforcing the view that rivalry is being managed, not rolled back. Parallel work from major policy institutes continues to highlight the long-term costs and risks of militarized competition and technological decoupling, but without prompting visible shifts in either side’s force posture or tech strategy in the past week. Overall, activity has centered on summit preparation and narrative-setting, not on new sanctions, alliance moves, or military escalations.",
+      "assemblies_fired": []
+    },
+    {
+      "id": "PS-03",
+      "name": "Indo-Pacific Security Architecture Build-Out",
+      "summary": "Over the past week, the Indo-Pacific security architecture continued to thicken, but without a single transformative announcement. The U.S. and key allies (notably Japan, Australia, and the Philippines) advanced work on more integrated command-and-control and “networked deterrence” concepts, reflected in planning for expanded joint exercises and greater interoperability for maritime and air operations. Several governments signaled intent to deepen trilateral and minilateral formats—especially U.S.–Japan–South Korea and U.S.–Japan–Philippines—framing them explicitly as enduring structures rather than ad hoc coalitions. At the same time, policy debates and think-tank outputs across Washington, Tokyo, Canberra, and Europe converged around moving from a “hub-and-spoke” model toward a denser allied web, reinforcing political cover for additional basing access, arms transfers, and shared infrastructure in the coming months.",
+      "assemblies_fired": []
+    },
+    {
+      "id": "PS-04",
+      "name": "Semiconductor and Compute Chokepoint Control",
+      "summary": "Over the past week, semiconductor chokepoint politics saw more incremental positioning than breakthrough moves. Washington and its allies continued to refine and defend October 2022–2025-style controls on advanced chips, tools, and AI-related compute, but there were no widely reported new U.S. rulemakings or wholesale additions to blacklists. Industry and policy commentary increasingly focused on the durability of U.S. leverage via ASML/TSMC and SME export controls, and on how China is trying to route around these constraints through domestic equipment development and mid‑range node expansion. Think‑tank and policy essays highlighted AI model‑weight controls and SME FDPR extensions as the central structural tools now shaping investment decisions, but there were no major new fab location announcements or subsidy packages disclosed in this window.",
+      "assemblies_fired": []
+    },
+    {
+      "id": "PS-05",
+      "name": "Frontier AI Power Struggle",
+      "summary": "Over the past week, the frontier AI power struggle has centered on three fronts: model capability, compute control, and governance. On the model side, Anthropic’s gated “Mythos” and OpenAI’s “Spud” (as discussed on The Six Five Pod) highlight a shift toward controlled release of increasingly agentic systems, with access itself becoming a power lever rather than pure “move fast” scaling. Compute is being locked up as strategic infrastructure: Broadcom, Google, and Anthropic have reportedly committed to gigawatt-scale TPU capacity, while Intel’s participation in Musk’s “Terafab” and concurrent talks with Google and Amazon on advanced packaging signal an attempt to reinsert itself into the high-end AI supply chain and win hyperscaler dependence. U.S. domestic politics moved toward a “light-touch, preemptive” federal AI regulatory framework aimed at blocking state-level rules, aligning the White House with House Republican leadership but facing resistance from Democrats seeking stronger liability and safety regimes—evidence of an ongoing struggle over who sets the rules for frontier systems. Meanwhile, research and policy work (e.g., arXiv and Stanford HAI findings) continued to stress that frontier AI is currently advantaging attackers in cybersecurity, adding pressure for security- and safety-first deployment norms that could justify tighter controls on the most capable models and the compute they require.",
+      "assemblies_fired": [
+        "CA-328",
+        "CA-189",
+        "CA-106",
+        "CA-019",
+        "CA-043"
+      ]
+    },
+    {
+      "id": "PS-06",
+      "name": "Global Monetary Order and Financial Architecture Stress",
+      "summary": "The week showed moderate structural activity in the global monetary order, with the ECB signaling a concrete step toward a more digital, DLT-based settlement infrastructure for wholesale finance, highlighting continued institutional adaptation to financial fragmentation and tokenization. Public discourse and policy commentary continued to emphasize the digital-money transition, including tensions around CBDCs, stablecoins, and the shifting balance of power in the international monetary system. Macro conditions remained mixed: the Fed held rates amid persistent inflation resistance, while markets reacted to a stronger risk-asset backdrop in Europe, suggesting no acute liquidity crisis but continued policy divergence. Overall, the signals point to incremental movement rather than a decisive break in the dollar-centric system, but the digital-finance buildout and governance discussions suggest underlying momentum toward a more multipolar and technologically fragmented architecture.",
+      "assemblies_fired": []
+    },
+    {
+      "id": "PS-07",
+      "name": "Energy Market Statecraft and Transition Contestation",
+      "summary": "Germany signaled a notable shift in its gas-market statecraft by announcing substantial cuts to gas network fees and the abolition of the gas storage levy from January 2026, amounting to roughly €10 billion in annual relief; this reduces end-user prices and weakens the political case for prolonging gas crisis measures while maintaining competitiveness for its industrial base. Berlin simultaneously confirmed that gas-supply security remains stable and that the “alarm” stage of its gas emergency plan has been rolled back to an early-warning posture, implicitly endorsing its diversified LNG-and-pipeline sourcing and the EU’s 2027 phase-out of Russian pipeline gas. New monitoring data from German and Baden-Württemberg regulators and think tanks show that power-sector emissions and conventional generation capacity continue to decline as renewables rise, reinforcing Europe’s long-term structural tilt toward green power even as it locks in short- to medium-term gas infrastructure. These moves cumulatively indicate Europe is using fiscal and regulatory levers to lower energy costs while keeping the decarbonization trajectory intact, rather than reversing it in response to recent price volatility.",
+      "assemblies_fired": []
+    },
+    {
+      "id": "PS-08",
+      "name": "Sanctions, Countersanctions, and Geoeconomic Decoupling",
+      "summary": "China has sharply escalated its economic statecraft toolkit with two State Council regulations that formalize broad countersanctions powers: new rules on Industrial and Supply Chain Security and on Countering Foreign Improper Extraterritorial Jurisdiction, both effective immediately with no transition period. Together they create interagency monitoring of supply-chain security, authorize investigations and countermeasures against foreign firms that “disrupt” Chinese supply or implement “discriminatory” measures, and empower the Ministry of Justice to issue non‑enforcement orders against foreign sanctions, backstopped by a Malicious Entity List, potential asset freezes, data-transfer bans, and even criminal liability. These moves significantly heighten direct compliance conflicts for multinationals caught between expanding U.S./EU sanctions regimes and China’s retaliation framework, reinforcing the broader trend toward geoeconomic fragmentation and de-risking/decoupling in supply chains. Parallel commentary from law firms and risk consultancies underscores that these PRC measures are viewed as structurally important, not symbolic, and are expected to be operationalized over time despite current definitional ambiguities.",
+      "assemblies_fired": [
+        "CA-207",
+        "CA-225",
+        "CA-112"
+      ]
+    },
+    {
+      "id": "PS-09",
+      "name": "Information Ecosystem and Narrative Control",
+      "summary": "Several governments escalated moves to regulate and shape platforms’ information flows this week: the EU advanced enforcement preparations around the Digital Services Act ahead of the European elections, with particular focus on political advertising transparency and generative AI content labeling, while some member states signaled they may pursue parallel national rules on disinformation, raising fragmentation risks. In the US, bipartisan pressure on TikTok’s new “trust and safety” restructuring and its data-separation plan under the divest-or-ban law intensified, with lawmakers questioning whether algorithmic and moderation control can genuinely be detached from Chinese influence. Major platforms, including Meta and YouTube, expanded or clarified election-related content policies for 2026 voting cycles, notably tightening rules on AI-generated political deepfakes and introducing more aggressive downranking of “borderline” civic misinformation. At the same time, Russia, China, and several Gulf states pushed further into alternative distribution channels—state-backed influencers, localized video apps, and cross-border media partnerships—aimed at bypassing Western platform moderation and sustaining their own narrative sovereignty.",
+      "assemblies_fired": [
+        "CA-283",
+        "CA-217",
+        "CA-068"
+      ]
+    },
+    {
+      "id": "PS-10",
+      "name": "Authoritarian Axis Consolidation",
+      "summary": "Authoritarian-axis activity over the past week has been moderate, with more incremental consolidation than structural shocks. Russia and China continued to deepen information and narrative coordination, with Russian state content gaining greater amplification on Chinese platforms and both governments refining synchronized messaging that blames the West for Ukraine and sanctions—an evolution toward a more fused information ecosystem rather than isolated propaganda efforts. Iran and Russia reportedly expanded sanctions‑busting energy and financial channels, with more Russian oil quietly redirected through intermediaries tied to Iranian and other Eurasian networks, reinforcing the bloc’s ability to erode Western economic leverage. In multilateral spaces, Beijing and Moscow used SCO- and BRICS‑related track‑two and ministerial activities to push further de‑dollarization and alternative payments rhetoric, signaling longer‑term institutional ambitions but without decisive new mechanisms yet announced.",
+      "assemblies_fired": []
+    },
+    {
+      "id": "PS-11",
+      "name": "Middle-Power and Global South Realignment",
+      "summary": "Middle-power and Global South realignment saw steady but not dramatic movement this week. BRICS+ discussions continued to focus on operationalizing the recent expansion rather than adding new members, with disputes over de‑dollarization pace and governance weighting quietly constraining bolder steps. Several Gulf and Asian middle powers signaled ongoing hedging: Gulf sovereign wealth funds stepped up exploratory talks on joint green/tech platforms with both Chinese and Western partners, while Asian middle powers deepened minilateral security and tech cooperation without formally choosing sides. In multilateral forums, Global South states coordinated more tightly around development finance reform and climate-linked lending, but stopped short of launching new institutions, underscoring an incremental, leverage-building strategy rather than a decisive break from existing Western-led structures.",
+      "assemblies_fired": []
+    },
+    {
+      "id": "PS-12",
+      "name": "Western Institutional Cohesion and Democratic Strain",
+      "summary": "In the past week, Western democracies saw further strain around institutional trust and performance rather than dramatic constitutional breaks. New commentary on V‑Dem’s 2026 report circulated widely in Europe and the US, sharpening elite concern over “autocratization” via polarization, institutional blockage, and erosion of confidence in elections and checks and balances—especially in the US and parts of the EU—rather than outright democratic breakdown. Parallel policy debates in Europe and Latin America linked cohesion and trust to democratic resilience, with think-tank and multilateral workstreams stressing transparency, welfare protections for “crisis losers,” and upgraded governance as tools to contain neopopulist pressures. These developments underscore a gradual normalization of thinner, more conflictual versions of liberal democracy within the West, but without any single decisive institutional rupture over the week.",
+      "assemblies_fired": []
+    }
+  ],
+  "_metadata": {
+    "generated": "2026-05-20",
+    "scope": "global",
+    "week_start": "2026-05-13",
+    "week_end": "2026-05-20",
+    "source_model": "superorganism_model.json",
+    "news_model": "sonar-pro",
+    "synthesis_model": "claude-opus-4-6",
+    "neurons_conscious": [
+      "Eric Schmidt",
+      "Daniela Amodei",
+      "Charles Liang",
+      "Sergey Brin",
+      "Alisher Usmanov",
+      "Christophe Fouquet",
+      "Yuri Milner",
+      "Larry Page",
+      "Christopher Cavoli",
+      "Pete Hegseth"
+    ],
+    "neurons_spontaneous": [
+      "Ren Zhengfei",
+      "Abdel Fattah el-Sisi",
+      "Elvira Nabiullina",
+      "Robin Li",
+      "Gennady Timchenko",
+      "William Ruto",
+      "Serdar Berdimuhamedow",
+      "Margarita Louis-Dreyfus & family",
+      "Anthony Bamford & family",
+      "Karl Albrecht Jr. & family",
+      "Miriam Adelson & family",
+      "Michael Froman",
+      "Leo XIV",
+      "John Malone",
+      "Dhanin Chearavanont",
+      "Thomas Frist, Jr. & family",
+      "Alexander Karp",
+      "Abdelmadjid Tebboune"
+    ],
+    "neurons_skipped": [
+      "Xi Jinping",
+      "Donald Trump",
+      "Vladimir Putin",
+      "Li Qiang",
+      "Ali Khamenei",
+      "Salman bin Abdulaziz Al Saud",
+      "Scott Bessent",
+      "Mark Rutte",
+      "Cai Qi",
+      "Kazuo Ueda",
+      "Ursula von der Leyen",
+      "Mohammed Bin Zayed Al Nahyan",
+      "Jerome Powell",
+      "Tahnoun bin Zayed Al Nahyan",
+      "Zhang Youxia",
+      "Mohan Bhagwat",
+      "Mark Zuckerberg",
+      "Amancio Ortega",
+      "Pan Gongsheng",
+      "Johann Rupert & family",
+      "Elon Musk",
+      "Volodymyr Zelenskyy",
+      "Subrahmanyam Jaishankar",
+      "Claudia Sheinbaum",
+      "Marco Rubio",
+      "Wang Yi",
+      "Satya Nadella",
+      "C.C. Wei",
+      "Sundar Pichai",
+      "Igor Sechin",
+      "Pony Ma (Ma Huateng)",
+      "Yoweri Museveni",
+      "Robin Zeng",
+      "Hibatullah Akhundzada",
+      "Alexander Lukashenko",
+      "Pope Francis (Jorge Mario Bergoglio)",
+      "Ivan Glasenberg",
+      "Larry Fink",
+      "Luiz Inácio Lula da Silva",
+      "Tamim bin Hamad Al",
+      "Valery Gerasimov",
+      "Recep Tayyip Erdoğan",
+      "Abigail Johnson",
+      "Jay Y. Lee",
+      "Stanley Druckenmiller",
+      "Rupert Murdoch & family",
+      "Ayatollah Ali Khamenei",
+      "Prabowo Subianto",
+      "Kim Jong-un",
+      "Mathias Cormann",
+      "Ajay Banga",
+      "Christine Lagarde",
+      "Shavkat Mirziyoyev",
+      "Charles Koch & family",
+      "Yuri Kovalchuk",
+      "Kristalina Georgieva",
+      "Henry Kravis",
+      "Khaldoon Khalifa Al Mubarak",
+      "António Guterres",
+      "Andrei Belousov",
+      "Bill Gates",
+      "Lisa Su",
+      "Tim Cook",
+      "Yuri Kovalchuk & family",
+      "Sergei Lavrov",
+      "Nikolai Patrushev",
+      "Droupadi Murmu",
+      "Jensen Huang",
+      "Bernard Arnault & family",
+      "Sam Altman",
+      "Ilham Aliyev",
+      "Gautam Adani",
+      "Cristiano Amon",
+      "Mustafa Suleyman",
+      "Demis Hassabis",
+      "Joseph Tsai",
+      "Jeff Bezos",
+      "Frank-Walter Steinmeier",
+      "Larry Ellison",
+      "Frederik X of Denmark",
+      "Rupert Johnson, Jr.",
+      "Cyrus Poonawalla",
+      "Vladimir Bogdanov",
+      "Richard Liu",
+      "Klaus-Michael Kuehne",
+      "Thomas Pritzker",
+      "Tadashi Yanai & family",
+      "Bongbong Marcos",
+      "William Alexander of the Netherlands",
+      "Félix Tshisekedi",
+      "Eric Yuan & family",
+      "Ken Griffin",
+      "Kumar Birla",
+      "Rafaela Aponte-Diamant",
+      "Bola Ahmed Tinubu",
+      "Jose Roberto Marinho",
+      "Alessandra Galloni",
+      "Wang Chuanfu",
+      "Jim Walton & family",
+      "Olivier Bouygues",
+      "Patrick Collison",
+      "Hakainde Hichilema",
+      "Francoise Bettencourt Meyers & family",
+      "Warren Buffett",
+      "João Lourenço",
+      "Ma Huateng",
+      "Tô Lâm",
+      "Jamie Dimon",
+      "Andrew Bailey",
+      "Leonid Mikhelson & family",
+      "Zhang Yiming",
+      "Ray Dalio",
+      "Morris Chang",
+      "Mukesh Ambani",
+      "Marc Andreessen",
+      "Paul Singer",
+      "David Rubenstein",
+      "Li Ka-shing",
+      "Len Blavatnik",
+      "Vincent Bolloré & family",
+      "Ilya Sutskever",
+      "Ismail Omar Guelleh",
+      "Sunil Mittal",
+      "Taye Atske Selassie",
+      "Petr Pavel",
+      "Luis Abinader",
+      "Edward Johnson, IV.",
+      "Marc Benioff",
+      "Savitri Jindal & family",
+      "David Bonderman",
+      "Stephen Feinberg",
+      "Safra Catz",
+      "Hamad bin Jassim bin Jaber Al Thani",
+      "Grand Ayatollah Ali al-Sistani",
+      "Shen Haixiong",
+      "Tedros Adhanom Ghebreyesus",
+      "Russell M. Nelson",
+      "Martin Lau",
+      "Mohammed VI of Morocco",
+      "William Ackman",
+      "Charles III",
+      "Lai Ching-te",
+      "Edir Macedo & family",
+      "Pavel Durov",
+      "Melinda French Gates",
+      "Charles Schwab",
+      "Jorge Paulo Lemann & family",
+      "Masayoshi Son",
+      "Michael Dell",
+      "Euisun Chung",
+      "George Roberts",
+      "Salva Kiir Mayardit",
+      "Leon Black",
+      "Theo Albrecht, Jr. & family",
+      "François Pinault & family",
+      "Rodolphe Saadé",
+      "Jonathan Gray",
+      "Vladimir Lisin",
+      "MacKenzie Scott",
+      "Sheikh Abdulaziz bin Abdullah Al ash-Sheikh",
+      "Stephen Schwarzman",
+      "Germán Larrea Mota Velasco & family",
+      "Terry Gou",
+      "Fred Smith",
+      "Shah Karim al-Husayni (Aga Khan IV)",
+      "Evan Spiegel",
+      "Hamad II of Bahrain",
+      "Hasso Plattner & family",
+      "Alassane Ouattara",
+      "Cindy McCain",
+      "Laurene Powell Jobs & family",
+      "Dieter Schwarz",
+      "Gianluigi Aponte",
+      "Abdullah II of Jordan",
+      "Donald Horton & family",
+      "Paul Kagame",
+      "Vajiralongkorn",
+      "Paul Tudor Jones, II.",
+      "Stefano Pessina",
+      "Arkady Rotenberg",
+      "Emmerson Mnangagwa",
+      "Rob Walton & family",
+      "Hassanal Bolkiah I of Brunei",
+      "Asif Ali Zardari",
+      "Aziz Akhannouch & family",
+      "Sergio Mattarella",
+      "Brian Roberts",
+      "Michael Bloomberg",
+      "Naruhito",
+      "Samia Suluhu Hassan",
+      "Ngozi Okonjo-Iweala",
+      "Grand Imam Ahmed el-Tayeb",
+      "Javier Milei",
+      "Vladimir Potanin",
+      "Iris Fontbona & family",
+      "Esmail Qaani",
+      "Emmanuel Macron",
+      "Haitham bin Tarik Al Said",
+      "Carlos Slim Helu & family",
+      "Bidzina Ivanishvili & family",
+      "Patriarch Kirill (Vladimir Gundyayev)",
+      "Gustavo Petro",
+      "Daniel Noboa",
+      "Charlene de Carvalho-Heineken & family",
+      "Gabriel Boric",
+      "Julia Koch & family",
+      "Ricardo Salinas Pliego & family",
+      "Dario Amodei",
+      "Alain Wertheimer",
+      "Oleg Deripaska",
+      "Pierre Omidyar",
+      "Gina Rinehart",
+      "Andrew Forrest & family",
+      "Hiroshi Mikitani",
+      "Onkar Kanwar",
+      "Isaias Afwerki",
+      "Anthony Wood",
+      "Patrick Drahi",
+      "Antonio Del Valle Ruiz & family",
+      "Susanne Klatten",
+      "Travis Kalanick",
+      "Reed Hastings",
+      "Marijke Mars",
+      "Kim Kardashian",
+      "Gong Hongjia & family",
+      "Jayshree Ullal",
+      "Miuccia Prada",
+      "Antony Ressler",
+      "Andrei Guryev & family",
+      "Ronald Lauder",
+      "Howard Marks",
+      "Mochtar Riady & family",
+      "Micky Arison",
+      "Reinhold Wuerth & family",
+      "Wang Jianlin",
+      "Bassirou Diomaye Faye",
+      "William Ding",
+      "Aneel Bhusri",
+      "Nandan Nilekani",
+      "Mark Suzman",
+      "Fang Hongbo",
+      "Lim Kok Thay",
+      "Wang Xing",
+      "Alfredo Harp Helu & family",
+      "Adi Godrej",
+      "John Doerr",
+      "Liu Hanyuan",
+      "William Lauder",
+      "Nassef Sawiris",
+      "Steve Ballmer",
+      "Cyril Ramaphosa",
+      "Riley Bechtel & family",
+      "Brice Clotaire Oligui Nguema",
+      "Kais Saied",
+      "Phil Knight & family",
+      "John Mars",
+      "Karol Nawrocki",
+      "Prajogo Pangestu",
+      "Daniel Ortega",
+      "Thaksin Shinawatra",
+      "Uday Kotak",
+      "Xiang Guangda",
+      "Andrej Babis",
+      "Lei Jun",
+      "Sheryl Sandberg",
+      "Faisal Bin Qassim Al Thani",
+      "Jeff T. Green",
+      "Jiang Rensheng & family",
+      "Liu Yongxing",
+      "Hansjoerg Wyss",
+      "Aliko Dangote",
+      "Changpeng Zhao"
+    ],
+    "spontaneous_cap": 18,
+    "ps_activation_scores": {
+      "PS-01": 7,
+      "PS-02": 4,
+      "PS-03": 5,
+      "PS-04": 3,
+      "PS-05": 8,
+      "PS-06": 5,
+      "PS-07": 6,
+      "PS-08": 8,
+      "PS-09": 8,
+      "PS-10": 5,
+      "PS-11": 5,
+      "PS-12": 4
+    },
+    "ps_assemblies_fired": {
+      "PS-05": [
+        "CA-328",
+        "CA-189",
+        "CA-106",
+        "CA-019",
+        "CA-043"
+      ],
+      "PS-08": [
+        "CA-207",
+        "CA-225",
+        "CA-112"
+      ],
+      "PS-09": [
+        "CA-283",
+        "CA-217",
+        "CA-068"
+      ],
+      "PS-01": [
+        "CA-030",
+        "CA-087",
+        "CA-179"
+      ]
+    },
+    "assemblies_spontaneous": [
+      "CA-188",
+      "CA-096"
+    ],
+    "assemblies_fetched": [
+      "CA-328",
+      "CA-189",
+      "CA-106",
+      "CA-019",
+      "CA-043",
+      "CA-207",
+      "CA-225",
+      "CA-112",
+      "CA-283",
+      "CA-217",
+      "CA-068",
+      "CA-030",
+      "CA-087",
+      "CA-179",
+      "CA-188",
+      "CA-096"
+    ]
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "scope": "us",
+  "week_start": "2026-05-13",
+  "week_end": "2026-05-20",
+  "ps_news_items": [
+    {
+      "id": "DPS-01",
+      "name": "Executive Power Consolidation",
+      "summary": "The past week was marked by continued aggressive presidential consolidation of executive power, with the White House still issuing new presidential actions and executive orders while the administration pressed ahead on restructuring and tighter control of the federal bureaucracy. The biggest legal-development signal was the Supreme Court’s active engagement with a case that could significantly expand presidential authority over executive-branch officials, reinforcing that the administration’s push is now being tested at the highest level. At the same time, recent filings and opinions show growing judicial scrutiny of broad unilateral action, especially around tariffs and other delegated powers, suggesting the White House is advancing hard even as courts question the limits. Overall, the week reflected steady momentum toward a stronger unitary-executive model, with implementation, resistance, and litigation all moving in parallel.\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "DPS-02",
+      "name": "AI Dominance Race",
+      "summary": "Trump’s new “Framework for AI Diffusion,” which kicks in on May 15, 2025, is still reverberating through the ecosystem, with its hard cap that 50% of US-origin frontier compute must stay in the US and strict four‑tier export regime (zero advanced chips to China/Russia and tight quotas for India/Malaysia) driving hyperscalers like Nvidia and Oracle to accelerate overseas shipments and restructure where they assemble and host AI hardware. In parallel, US strategy has been formalized into “America’s AI Action Plan,” which codifies an overt “race” framing and ties export promotion, chip controls, and frontier‑model security evaluation into a single national AI‑industrial policy aimed explicitly at countering China. On the China side, open‑weight, aggressively priced models from labs such as DeepSeek, Z.AI, Moonshot, and others have now overtaken US models in global open‑source usage metrics, reinforcing Beijing’s “open AI” strategy as a tool of industrial and geopolitical influence. The UAE has emerged as a new strategic AI hub via G42’s “chip and data‑center diplomacy” and negotiations to host customized versions of US frontier models, signaling a shift toward a more multipolar AI infrastructure map rather than a pure US‑China duopoly.\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "DPS-03",
+      "name": "Judicial Pipeline & Doctrinal Shift",
+      "summary": "Federal courts continued to consolidate power over the administrative state this week, with lower courts invoking the Supreme Court’s recent anti‑deference and separation‑of‑powers precedents (West Virginia v. EPA, SEC v. Jarkesy, and the Chevron overruling) to narrow agency authority in environmental and financial‑regulation cases. Appellate panels increasingly framed disputes in “major questions” and Seventh Amendment terms, signaling a durable doctrinal shift that favors Article III adjudication and jury trials over agency tribunals for high‑stakes enforcement. Conservative legal networks and business‑aligned litigants leveraged these trends, filing and supporting test cases designed to extend Jarkesy‑style jury requirements and “clear congressional authorization” standards into new regulatory domains such as climate, tech, and financial oversight. Together, these moves indicate a maturing infrastructure in which strategic litigation, coordinated amicus briefs, and ideologically aligned judges are steadily re‑writing the balance of power between agencies, courts, and Congress.\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "DPS-04",
+      "name": "Fiscal-Monetary Stress Cycle",
+      "summary": "The past week was relatively quiet on explicit policy moves but notable for expectations shifting toward a longer “higher-for-longer” plateau, reinforcing the structural tension between restrictive monetary policy and still‑elevated fiscal borrowing needs. Market commentary (e.g., Apollo, BofA/Merrill) emphasized continued economic resilience and fading expectations of additional 2026 rate cuts, which implies sustained real debt‑service pressure on the Treasury as large volumes of notes and bills roll at current yields. Futures and yield-curve pricing reflected this resilience by keeping near-term hike odds low but pushing out the timing of any easing cycle further, signaling that the Fed is prioritizing inflation control over fiscal accommodation. No major public clashes between the Fed and fiscal authorities surfaced, but the combination of strong macro data and delayed-cut narratives points to a slow-building stress cycle in which fiscal costs rise while the central bank remains in wait‑and‑see mode.\n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "DPS-05",
+      "name": "Capital Allocation & Private Power",
+      "summary": "Private capital’s role in the energy transition continued to intensify, with new data underscoring both scale and direction of flows: private markets now manage on the order of $20–22 trillion in AUM, and an estimated $230 billion of that sits in thematic “energy transition” funds, three-quarters of which are dedicated clean‑energy vehicles (up from roughly 15% in 2015). Roughly $92 billion in those transition funds remains un-deployed “dry powder,” signaling imminent acceleration of ownership shifts into real assets like wind, solar, grids, and storage, where private funds already dominate infrastructure-style investments. Market commentary from law and advisory firms points to a rebound in U.S. private equity deal value—despite softer deal counts—suggesting large sponsors are prioritizing fewer, bigger, higher‑influence bets, especially in energy and infrastructure adjacencies. Parallel ESG and capital-allocation guidance from major consultancies is pushing corporates—particularly in resource and energy sectors—to redesign capital frameworks around decarbonization and “purpose,” effectively aligning listed companies’ strategies with the portfolio interests and policy narratives favored by large alternative asset managers.\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "DPS-06",
+      "name": "Big Tech Regulatory Arbitrage",
+      "summary": "Regulatory arbitrage by Big Tech saw limited but telling movement over the past week, mostly around AI and digital assets rather than classic social-media antitrust fights. Internationally, the UNU piece on “AI governance arbitrage” is gaining traction in policy circles, reinforcing a narrative that firms are exploiting gaps between national and international AI rules and pushing governments toward mutual recognition of safety standards and transparency requirements as conditions for market access—this sets the stage for closing some cross‑border arbitrage but remains aspirational. In the U.S., continued delay of the CLARITY Act sustains a fragmented crypto/digital‑asset regime, giving large platforms and fintechs room to structure products across SEC/CFTC/FinCEN seams, even as the article signals that once enacted, tougher AML, traceability, and operational‑readiness expectations could sharply narrow that space. Regional and community banks’ 2026 tech‑risk guidance hints at rising regulatory scrutiny of cloud dependence and agentic AI, which may indirectly constrain the ability of hyperscale cloud and AI providers to use contractual and technical lock‑in as a regulatory end‑run, but these are still early‑stage signals rather than concrete enforcement actions.\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-07",
+      "name": "Defense-Industrial Expansion",
+      "summary": "The biggest signal this week is continued federal push to modernize the defense-industrial base around speed, resilience, and allied interoperability, building on the Pentagon’s newer strategy framework that emphasizes supply-chain hardening, workforce readiness, flexible acquisition, and economic deterrence. The structural direction is toward more public-private risk-sharing, larger stockpiles of critical systems, supplier diversification, and faster pathways for integrating commercial technology into defense production and sustainment. The policy backdrop also remains strongly pro-expansion, with recent White House emphasis on overhauling acquisition processes to improve execution and innovation. Overall, the week looks more like sustained momentum than a single breakout event, but the trend line is clearly toward deeper defense-industrial mobilization.\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-08",
+      "name": "Information Environment Contestation",
+      "summary": "Major developments this week centered on U.S. federal policy moves that structurally reshape the information environment around environmental and AI-related issues. The new EDGI report documents extensive deletion of environmental justice, climate, and “environmental racism” content from federal websites in the early months of Trump’s second term—an aggressive attempt to narrow the informational baseline available to media, activists, and the public. In parallel, Executive Order 14318 and the associated White House AI Action Plan push agencies to streamline environmental review for data centers and related infrastructure, signaling closer alignment between federal information flows and the priorities of AI, energy, and semiconductor industries. Together, these moves tilt narrative and regulatory terrain toward growth-first, industry-friendly framing while eroding official online resources that historically supported environmental and justice-focused counter-narratives.\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-09",
+      "name": "Energy Transition & Security",
+      "summary": "DOE advanced the energy–compute agenda this week by announcing new funding for grid upgrades and long-duration storage pilots aimed at supporting data center and AI-driven load growth, while also signaling forthcoming guidance on how IRA tax credits can be stacked for firm clean power projects. FERC inched forward on transmission reform, with staff indicating that forthcoming rules will prioritize multi-state high‑voltage lines and interconnection queue reforms, reinforcing a structural tilt toward large-scale renewables and storage over new standalone gas capacity. In the private sector, several major utilities and hyperscale cloud providers disclosed new power purchase and build‑transfer agreements for nuclear-adjacent small modular reactor projects and large solar-plus-battery installations, underscoring a shift from short-term RECs toward long-lived, dispatchable or firmed clean assets. Meanwhile, gas and pipeline interests intensified lobbying around “reliability” in ongoing EPA and congressional debates, but no decisive federal rollback materialized, suggesting incumbents are now fighting to shape rather than stop the transition.\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "DPS-10",
+      "name": "Coalition Machinery & Electoral Infrastructure",
+      "summary": "Republican-aligned super PACs and dark-money groups continued consolidating 2026 Senate and House battlefield investments, with several reports of early reservations for fall ad buys in key Midwestern and Sun Belt states, signaling a shift from candidate- to party-centric spending control. On the Democratic side, party committees coordinated with major progressive donor networks to shore up funding for vulnerable incumbents and to scale new voter-targeting programs centered on abortion and democracy-protection messaging, reflecting a discipline push after uneven primaries. Several state-level legal fights over ballot access and new voter-ID or signature-matching rules advanced, with courts in at least two battleground states allowing restrictive provisions to remain in effect for now, forcing campaigns to retool field and legal strategies. Finally, bipartisan establishment “pro-democracy” coalitions, including business-backed groups, quietly expanded funding for election-administration defense and poll-worker recruitment in swing counties, indicating sustained elite concern over election subversion risks.\n\n6",
+      "activation_score": 6
+    }
+  ],
+  "assembly_news_items": [
+    {
+      "id": "CA-027",
+      "name": "Federal Bureau of Investigation",
+      "ps_memberships": [
+        "DPS-01"
+      ],
+      "raw_news": "- Federal law enforcement officials said the investigation into the recent attack on former President Trump is “actively progressing,” with search warrants already executed and multiple federal charges being prepared related to the shooting and illegal firearm possession; the FBI, Secret Service and local police are coordinating closely, and authorities publicly appealed for tips via the FBI hotline, signaling a broad assertion of federal lead authority in the case.  \n- In a separate national security move, the FBI announced the arrest in Italy of Xu Zhu Wei (also referred to as Xu Zawei), an alleged Chinese state‑sponsored hacker tied to China’s Ministry of State Security, on U.S. computer‑intrusion charges involving universities and a major law firm; the bureau emphasized the case as one of the first successful captures of an MSS‑linked hacker, underscoring its reach in cyber operations and reliance on allied law‑enforcement cooperation.  \n- FBI Director Christopher Wray publicly confirmed he will step down at the end of President Biden’s term, framing his departure as intended to keep the focus on the bureau’s mission amid sustained political criticism from Donald Trump, a move that sets up the next administration—likely Trump’s, based on current context in coverage—to appoint new leadership and potentially recalibrate the FBI’s priorities and internal power structure."
+    },
+    {
+      "id": "CA-018",
+      "name": "Department of Government Efficiency (DOGE)",
+      "ps_memberships": [
+        "DPS-01"
+      ],
+      "raw_news": "In the past week, DOGE’s main notable development was a White House push to keep the Musk-led efficiency initiative active as it continues targeting federal contracts and workforce reductions. DOGE said it terminated 141 contracts in the latest weekly update, claiming a ceiling value of $5.1 billion and estimated savings of $498 million. The broader power-dynamic issue remains that DOGE operates as a White House advisory structure rather than a normal cabinet agency, with its mandate tied to the Trump administration’s executive order and ongoing restructuring of federal operations."
+    },
+    {
+      "id": "CA-030",
+      "name": "US Department of Justice",
+      "ps_memberships": [
+        "DPS-01",
+        "DPS-03"
+      ],
+      "raw_news": "In the past week, the Justice Department’s most notable move was launching a new West Coast Healthcare Fraud Strike Force, a multi-district enforcement initiative spanning Northern California, Arizona, and Nevada to target healthcare fraud with dedicated prosecutors and data analytics. DOJ also continued an aggressive law-enforcement posture through new criminal filings, including an indictment in New Jersey for interstate threats. In addition, the department announced an investigation into Washington over whether biological males are being housed in women’s prisons, signaling continued use of federal oversight powers in high-profile policy disputes."
+    },
+    {
+      "id": "CA-049",
+      "name": "The Heritage Foundation",
+      "ps_memberships": [
+        "DPS-01",
+        "DPS-10"
+      ],
+      "raw_news": "In the past week, the most notable Heritage Foundation news has centered on its continued influence over conservative power networks rather than any new policy rollout. Recent coverage highlighted Heritage president Kevin Roberts defending Tucker Carlson after Carlson’s interview with Holocaust denier Nick Fuentes, a move that underscored Heritage’s willingness to align with hard-right media figures and sparked backlash inside conservative circles. Heritage also remains tied to Project 2025, with reporting continuing to track how parts of its blueprint are being reflected in the Trump administration’s staffing and executive-power agenda. No major new legal action or formal organizational restructuring by Heritage itself appeared in the provided results for the last seven days."
+    },
+    {
+      "id": "CA-006",
+      "name": "Department of Health and Human Services",
+      "ps_memberships": [
+        "DPS-01"
+      ],
+      "raw_news": "In the past week, the biggest development at the Department of Health and Human Services was its sweeping restructuring plan, unveiled by Secretary Robert F. Kennedy Jr. The department said it will eliminate an entire set of operating divisions by merging them into a new Administration for a Healthy America, while also cutting about 10,000 jobs and shrinking the agency to roughly 62,000 positions. HHS said the overhaul is intended to save taxpayers about $1.8 billion per year and concentrate the department around core functions. The move also follows earlier announcements of large staffing reductions at agencies including the FDA and CDC, marking a major consolidation of federal health power."
+    },
+    {
+      "id": "CA-065",
+      "name": "Anthropic",
+      "ps_memberships": [
+        "DPS-02"
+      ],
+      "raw_news": "Over the past week, Anthropic has been at the center of a widening confrontation with the Pentagon over military uses of its AI systems. NBC reporting describes Defense Secretary Pete Hegseth preparing to meet CEO Dario Amodei after months of friction, as the Defense Department pushes to use Anthropic’s models for “all lawful purposes,” including domestic surveillance and potentially fully autonomous weapons—uses Anthropic has publicly opposed. In parallel, the Pentagon earlier escalated by designating Anthropic a “supply chain risk” and barring military contractors and partners from commercial dealings with the company, underscoring a serious power struggle over control and constraints on frontier AI in U.S. defense. At the same time, Bloomberg reports Anthropic is in talks to raise roughly $30 billion in new funding at a valuation approaching $900 billion, a move that would dramatically increase its financial and strategic clout in the global AI race."
+    },
+    {
+      "id": "CA-099",
+      "name": "Google Cloud",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06"
+      ],
+      "raw_news": "Over the past week, Google Cloud’s most consequential moves have centered on deepening its AI platform and expanding its geopolitical footprint in ways that sharpen its position in the AI race and regulatory landscape. At Google Cloud Next ’26, the company formally positioned itself as an “agentic” AI platform, launching the Gemini Enterprise Agent Platform and related agent tools aimed at letting enterprises build highly capable AI workers at scale, a direct competitive escalation against AWS and Microsoft’s Copilot ecosystem. In parallel, Google Cloud continued to emphasize sovereign and regulated-cloud architectures in Europe (including its recently announced Sovereign Cloud Hub strategy anchored in Munich), framing these offerings as a compliant pathway for EU and other jurisdictions’ public-sector and critical-industry adoption of advanced AI—effectively using regulatory complexity as a differentiator rather than a constraint. Collectively, these moves reinforce Google Cloud’s bid to be the default infrastructure layer for powerful AI agents while signaling to regulators and large enterprises that it can both push the frontier of AI capability and navigate tightening data-sovereignty and AI-governance rules."
+    },
+    {
+      "id": "CA-055",
+      "name": "Google DeepMind",
+      "ps_memberships": [
+        "DPS-02"
+      ],
+      "raw_news": "Over the past week, there have been no widely reported, discrete “hard news” developments specifically about Google DeepMind that materially shift AI power dynamics—such as new mergers, major regulatory actions, large-scale funding or restructuring moves, or binding alliances—with coverage instead dominated by ongoing competition with OpenAI, Microsoft, and other players. Demis Hassabis has continued to emphasize, in public interviews, Google DeepMind’s strategic focus on multimodal Gemini models and their integration into new hardware form factors like AI-powered smart glasses, positioning the unit for more ambient, real‑time AI experiences. These comments reinforce Google DeepMind’s intent to compete at the “platform” level of AI (models plus devices) but do not constitute a new, formally announced partnership or product launch with clear commercial terms in the last seven days."
+    },
+    {
+      "id": "CA-139",
+      "name": "Duquesne Family Office",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "Over the past week, the main substantive development involving Duquesne Family Office has been portfolio repositioning disclosed through updated 13F-based trackers and related reporting. New public data on its latest filings show the firm adding or increasing positions in broad equity and thematic vehicles such as the Invesco S&P 500 Equal Weight ETF (RSP) and the iShares MSCI Brazil ETF (EWZ), while maintaining Natera (NTRA) as its largest single-stock holding. These moves, highlighted in outlets tracking capital flows and family office activity, signal a continued macro-oriented bet on diversified U.S. equities and selective emerging‑market exposure rather than a retreat to cash or illiquid assets. No major governance changes, regulatory actions, or formal strategic alliances affecting Duquesne’s organizational power structure have been reported in this period."
+    },
+    {
+      "id": "CA-058",
+      "name": "Cerberus Capital Management",
+      "ps_memberships": [
+        "DPS-05",
+        "DPS-07"
+      ],
+      "raw_news": "Over the past week, the most consequential public move by Cerberus Capital Management has been organizational rather than transactional. On May 4 (reported and amplified in the last several days), Cerberus announced the appointment of Rahul Sangwan as Head of India, signaling a deliberate push to expand its footprint and deal pipeline in a large, strategically important emerging market. While the firm’s public materials during this period have not disclosed specific new defense or distressed-asset transactions, the India leadership move positions Cerberus to compete more aggressively for control and influence over capital allocation in areas such as stressed infrastructure, financial assets, and potentially defense-adjacent sectors as India continues to liberalize and privatize. No major new regulatory actions, litigation developments, or large-scale acquisitions tied to its defense-industrial or distressed-asset strategies have been publicly reported in the last seven days."
+    },
+    {
+      "id": "CA-147",
+      "name": "The Pritzker Organization",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "In the past week, there have been no notable hard‑news reports specifically about The Pritzker Organization (TPO) making new capital allocation decisions, strategic acquisitions or divestitures, public policy interventions, or forming new alliances that would materially shift its power or influence profile. Recent coverage referencing the Pritzker name has focused on Governor JB Pritzker’s political activity and on Illinois economic and film‑industry developments, not on TPO as an investing vehicle. No filings, major deal announcements, or high‑impact public statements attributable to TPO or Thomas Pritzker in his capacity as head of the family investment platform have been reported in major business or policy outlets during the stated period."
+    },
+    {
+      "id": "CA-014",
+      "name": "Judicial Conference of the United States",
+      "ps_memberships": [
+        "DPS-03"
+      ],
+      "raw_news": "In the past week, the most notable development involving the Judicial Conference of the United States has been intensified external pressure rather than a clearly reported new decision by the Conference itself. Advocacy group Fix the Court publicly urged the Conference, meeting amid heightened concern over political violence following the killing of conservative activist Charlie Kirk and a looming government funding deadline, to act more aggressively on judicial security, ethics enforcement, and transparency, including PACER reform and greater disclosure around outside income and gifts. This push highlights how the Conference’s rule‑setting authority—exercised under Chief Justice John Roberts by statute as the federal judiciary’s principal policymaking body—is increasingly central to the broader struggle over the judiciary’s legitimacy and insulation from political attacks. However, no new formal Conference policy changes with clear doctrinal or pipeline implications were reported in the last seven days."
+    },
+    {
+      "id": "CA-102",
+      "name": "Judicial Crisis Network",
+      "ps_memberships": [
+        "DPS-03"
+      ],
+      "raw_news": "I’m not seeing any verifiable hard-news developments specifically involving the Judicial Crisis Network (JCN) in the past week that meet your criteria (new decisions, coalition moves, or major public campaigns tied to current judicial nominations or doctrinal fights). Recent coverage of right‑wing legal infrastructure and Project 2025 centers more on affiliated figures and organizations (like Heritage and contributors such as Roger Severino) than on JCN’s own new initiatives. JCN continues to be referenced in background reporting as a key dark‑money and communications vehicle in the conservative judicial pipeline, but without fresh, discrete actions reported during this 7‑day window."
+    },
+    {
+      "id": "CA-068",
+      "name": "CRC Advisors",
+      "ps_memberships": [
+        "DPS-03",
+        "DPS-10"
+      ],
+      "raw_news": "No significant hard-news developments involving CRC Advisors appeared in reputable outlets over the past week in the two domains you specified (Judicial Pipeline & Doctrinal Shift; Coalition Machinery & Electoral Infrastructure). Recent coverage continues to reference earlier reporting—such as Politico’s January 2025 piece on the tens of millions in fees CRC Advisors has received from Leonard Leo–aligned nonprofits—but there have been no new, documented decisions, alliances, or structural moves reported in the last seven days. If you like, I can instead summarize the most recent major developments about CRC Advisors from the past year that affect power dynamics in those domains."
+    },
+    {
+      "id": "CA-021",
+      "name": "Walton Enterprises",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "No hard news specific to Walton Enterprises, LLC appears to have been reported in the past week within the domains of capital allocation and private power. Recent filings and articles currently available instead reference earlier developments, notably the December 2025 Schedule 13D/A update in which Walton-related entities disclosed reduced but still dominant stakes in Walmart, and a series of large share dispositions by Walton heirs reported through mid‑May 2025. These earlier moves signal ongoing, gradual diversification and inter‑generational transfer of control, but there is no evidence of a new decision, alliance, or structural shift announced for Walton Enterprises itself in the last seven days.",
+      "spontaneous": true
+    },
+    {
+      "id": "CA-081",
+      "name": "The Wonderful Company",
+      "ps_memberships": [],
+      "raw_news": "Over the past week, The Wonderful Company has faced intensifying scrutiny over its labor practices as details of impending layoffs in its grapevine business drew local and regional media attention. Company representatives have framed the shutdown and phased workforce reductions as a response to “hard economic times” in the wine and table grape industry, explicitly denying any link to ongoing unionization efforts. Union advocates and some local commentators, however, are positioning the move as part of a broader pattern of the company exerting control over workers to inhibit organizing, sharpening power struggles between management and labor. At the same time, commentary around Wonderful’s recent No. 1 ranking on People’s 2025 “Companies That Care” list has highlighted the tension between its high-profile philanthropy and critics’ claims about water control and worker treatment, affecting the company’s public leverage and social license in California’s agricultural regions.",
+      "spontaneous": true
+    }
+  ],
+  "news_items": [
+    {
+      "name": "Susie Wiles",
+      "domain": "Senior Republican strategist and White House Chief of Staff",
+      "raw_news": "1. **Public disclosure of early-stage breast cancer diagnosis while vowing to stay on as chief of staff**  \n   - What happened: Susie Wiles, 68, disclosed in a public statement that she was diagnosed last week with early-stage breast cancer but will remain in her role as White House chief of staff during treatment, with President Trump emphasizing her “excellent” prognosis on Truth Social.  \n   - Why it matters: By explicitly committing to stay in her post, Wiles signals continuity at the center of the Trump White House’s power structure, reassuring Republican operatives and donors that the architect of much of his political and governing machinery will continue to manage access, agendas, and coalition-building despite her health challenge.\n\n2. **Trump reaffirms Wiles as his central gatekeeper and closest adviser after diagnosis**  \n   - What happened: In follow‑up comments reported by major outlets, Trump described Wiles as his “most trusted and closest aide” and stressed she would be at the White House “for the vast majority of the time” during treatment.  \n   - Why it matters: This explicit reaffirmation of her role amid speculation about succession cements Wiles’ primacy over rival power centers in the West Wing and the broader GOP, reinforcing her control over executive decision‑flows and the political infrastructure around the president.\n\n3. **Media framing of Wiles as indispensable architect of Trump’s post–first-term operation**  \n   - What happened: Network coverage over the past several days, including MSNBC and CBS segments, has repeatedly characterized Wiles as the key strategist who guided Trump’s post–first-term political revival and now manages his second‑term governing operation.  \n   - Why it matters: The consistent portrayal of Wiles as structurally indispensable reinforces her leverage inside the Republican coalition—over personnel, strategy, and resource allocation—making it harder for internal critics to sideline her and strengthening her hand in consolidating executive and party machinery.\n\n4. **Lack of announced interim or contingency leadership plan at the White House**  \n   - What happened: Neither Wiles nor the White House has named a deputy or interim structure to assume chief‑of‑staff powers during her treatment, beyond generic references to her “fantastic medical team” and excellent prognosis.  \n   - Why it matters: The absence of a visible contingency plan underscores how centralized operational authority is in Wiles’ hands; it increases her short‑term bargaining power over appointments and process design but also heightens institutional dependence on her health and availability at a moment of intensified intra‑party maneuvering.\n\n5. **Cancer diagnosis becomes rallying point for pro‑Trump and GOP networks around Wiles**  \n   - What happened: Since her announcement, pro‑Trump media and Republican figures have publicly praised Wiles’ resolve and signaled support, turning her diagnosis into a prominent talking point in conservative media coverage.  \n   - Why it matters: This visible elite and base‑level backing may further entrench Wiles’ status as the hub of Trump‑aligned coalition infrastructure, making potential challengers to her role within the campaign, RNC‑adjacent circles, or the White House staff think twice about moves that could be framed as undercutting her during treatment."
+    },
+    {
+      "name": "Pam Bondi",
+      "domain": "US Attorney General",
+      "raw_news": "1. **House Oversight subpoena over Epstein files moves forward despite Bondi’s firing**  \n   • What happened: After Pam Bondi was dismissed as Attorney General on April 2, House Oversight Committee Republicans reiterated in the past week that their subpoena compelling her to testify about the handling of the Jeffrey Epstein files still stands and that they expect her appearance later this month.  \n   • Why it matters: Being forced to testify as a private citizen about politically explosive DOJ decisions could expose internal deliberations, weaken her residual influence over Trump-aligned legal efforts, and shape the narrative about how aggressively she used executive power tools in that investigation.\n\n2. **Post‑mortem critiques of Bondi’s DOJ tenure gain traction in policy circles**  \n   • What happened: In the last week, think‑tank and legal‑policy analyses—such as a detailed Cato Institute piece—have been widely circulated, arguing that Bondi’s 14‑month tenure failed in its goal of turning DOJ into a reliable instrument of presidential will, citing repeated judicial pushback and the collapse of high‑profile prosecutions like those against New York Attorney General Letitia James.  \n   • Why it matters: These critiques frame her tenure as a cautionary tale about overreach in executive power consolidation and failed attempts to reshape the judicial pipeline, potentially diminishing her clout in future right‑wing legal or political projects.\n\n3. **Congressional Democrats intensify document‑preservation pressure over Letitia James prosecution**  \n   • What happened: A March 15 letter from House Judiciary Democrats to Bondi demanding preservation and production of all DOJ and White House communications related to her failed prosecution of New York AG Letitia James has, over the past week, become a focal point in ongoing Hill oversight discussions following her removal.  \n   • Why it matters: The push to pry loose internal records heightens legal and reputational risk for Bondi and her allies, and may expose how she tried—but often failed—to weaponize prosecutorial discretion and personnel moves to reshape doctrine and punish rivals.\n\n4. **Speculation over Bondi’s “important new private‑sector job” intersects with legal‑strategy networks**  \n   • What happened: Trump’s Truth Social claim that Bondi is leaving DOJ for a “much needed and important new job in the private sector” has, in the last week, fueled reporting and insider chatter about which aligned legal or influence‑building organization might hire her, though no concrete appointment has been announced.  \n   • Why it matters: Where she lands will determine whether she retains a role in building a pro‑Trump judicial pipeline or in coordinating litigation strategies that continue her project of strengthening executive power from outside government.\n\n5. **Bondi’s ouster reshapes the internal balance of Trump’s legal team and Cabinet power centers**  \n   • What happened: Continued coverage in the past week of Trump’s April firing of Bondi and appointment of Todd Blanche as acting AG—alongside speculation that EPA Administrator Lee Zeldin is a leading contender for the permanent role—highlights ongoing maneuvering over control of DOJ.  \n   • Why it matters: Her departure and the choice of successor will decisively affect how far the administration can go in using DOJ appointments, prosecutions, and legal positions to influence the courts and consolidate executive power going forward, while marking the end of Bondi’s direct control over that machinery."
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "domain": "Secretary of Health and Human Services",
+      "raw_news": "1. Over 1,000 HHS employees call for Kennedy’s resignation  \n   - What happened: More than 1,000 current and former HHS staff signed a letter calling on Robert F. Kennedy Jr. to resign as HHS secretary, accusing him of endangering U.S. health, destabilizing the department, and mishandling internal safety concerns after the CDC shooting.  \n   - Why it matters: The coordinated internal revolt directly challenges his legitimacy, signaling serious institutional resistance to his consolidation of control over HHS and undermining his authority in shaping the federal health information environment.\n\n2. Escalating turmoil at CDC after firing of Director Susan Monarez and senior leaders  \n   - What happened: The CDC is “reeling” after Kennedy’s removal of Director Susan Monarez and the departure of several senior leaders, part of a broader reshaping of HHS and realignment of vaccine and public health policy.  \n   - Why it matters: By clearing out top CDC leadership and replacing advisory structures, Kennedy is centralizing executive control over one of the government’s main information hubs, increasing his capacity to redefine official narratives on vaccines and public health.\n\n3. Public health law and policy scholars urge Kennedy to reject petition to expand Vaccine Injury Act  \n   - What happened: A coalition of public health and administrative law experts filed formal comments urging Kennedy to reject a petition that would “dramatically expand” the scope of the National Childhood Vaccine Injury Act of 1986.  \n   - Why it matters: The petition, and Kennedy’s pending decision on it, represent a key inflection point where he could use regulatory authority to reshape the legal framework and public messaging around childhood vaccines, with major implications for both liability rules and the broader vaccine information ecosystem.\n\n4. Organized external campaigns labeling Kennedy a threat to public health  \n   - What happened: Advocacy groups such as Protect Our Care released detailed reports in April and have continued media and policy campaigns in recent days portraying Kennedy’s tenure as a sustained attack on evidence-based public health, particularly around vaccines and research funding.  \n   - Why it matters: These campaigns are sharpening the public and political framing of Kennedy as an adversary to mainstream science, which could constrain his political capital even as he attempts to expand his executive reach over health policy and information flows.\n\n5. Mounting criticism over vaccine policy changes and defunding of mRNA research  \n   - What happened: Kennedy has dismissed members of the Advisory Committee on Immunization Practices and defunded mRNA vaccine research, moves that have drawn increasing criticism from scientific and professional organizations over the past week as part of the reaction to the staff rebellion at HHS.  \n   - Why it matters: These actions show him using his position to reorient federal priorities away from consensus vaccine science, intensifying the struggle over who controls authoritative health information and further embedding his influence in the structure of federal biomedical policy."
+    },
+    {
+      "name": "Donald Trump",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Expanded removals and firings across the federal bureaucracy**  \n   - In the last week, Trump’s administration accelerated its post‑inauguration “government efficiency” campaign, pushing forward large‑scale buyouts and firings of federal employees — including thousands at agencies like the IRS and USAID — under a restructuring drive led by Elon Musk’s Department of Government Efficiency.  \n   - This matters because aggressive purges of civil servants and inspectors general erode internal checks and professional resistance, tightening Trump’s direct control over the executive branch and making it easier to align the bureaucracy with his political and electoral objectives.\n\n2. **Continued removal of inspectors general and internal watchdogs**  \n   - Building on earlier dismissals, the administration has persisted this week in sidelining or firing inspectors general and Justice Department officials who previously investigated Trump or his allies, framing the moves as necessary to eliminate “deep state” obstruction.  \n   - Weakening oversight infrastructure directly boosts Trump’s ability to wield executive power with fewer internal constraints, which can be leveraged both to protect his political network and to reorient federal resources toward his electoral and coalition priorities.\n\n3. **Deep cuts to foreign aid and international programs**  \n   - Trump’s team has moved ahead with cuts totaling tens of billions of dollars in foreign aid grants and contracts, including effectively shuttering USAID operations by placing most of its roughly 10,000 employees on leave and canceling major humanitarian and development projects.  \n   - By slashing foreign aid and redirecting resources inward, Trump narrows the influence of institutional foreign‑policy actors that often act as independent power centers, while freeing budget and political capital for domestic programs that can reinforce his base and electoral coalition.\n\n4. **Structural changes to immigration and border enforcement through executive action**  \n   - Over the past several days, the administration has continued implementing sweeping immigration directives — restarting border wall construction, moving to classify certain gangs and cartels as foreign terrorist organizations, attempting to end birthright citizenship by order, and declaring a national emergency at the southern border.  \n   - These moves consolidate Trump’s authority over immigration policy, a core mobilizing issue for his supporters, bolstering his standing with key constituencies and giving him a powerful tool to shape the political agenda and coalition dynamics heading into future electoral cycles.\n\n5. **Full pardons and sentence reductions for January 6 defendants**  \n   - Trump’s issuance of full and unconditional pardons — and sentence reductions — for nearly 1,600 January 6 defendants, including leaders of groups like the Proud Boys and Oath Keepers, has continued to reverberate politically over the last week, with allies celebrating and opponents warning of impunity.  \n   - By rehabilitating individuals at the core of his most militant support base, Trump strengthens loyalty among activist and grassroots networks that can be mobilized for future electoral operations and exerts a chilling effect on legal and institutional efforts to constrain his coalition."
+    },
+    {
+      "name": "Sergey Brin",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "I couldn’t verify any major hard-news event involving Sergey Brin in the past 7 days from the provided results. The only clearly recent item appears to be a media discussion/video about the implications of Page and Brin stepping down, which is not itself a new policy, business, legal, or geopolitical development.\n\nMost relevant recent items surfaced in the search results are:\n1. **Alphabet/Google leadership discussion on Brin and Page stepping down** — A recent Bloomberg/MSNBC clip revisits the effects of Larry Page and Sergey Brin stepping back from Alphabet roles.  \n   **Why it matters:** It indicates continued scrutiny of Brin’s influence over Google/Alphabet, but it is commentary rather than fresh news.\n\n2. **A recent profile claiming Brin has re-engaged with Google’s AI push** — One piece says Brin returned to Mountain View and has been personally involved in Gemini and AI testing.  \n   **Why it matters:** If accurate, it would suggest Brin remains relevant to Google’s AI strategy, but I could not verify this as a hard-news development from the available results.\n\n3. **Opinion/letter coverage tied to Brin’s wealth and tax issues** — A newspaper letter discusses a proposed California wealth tax and mentions Brin.  \n   **Why it matters:** This reflects ongoing public debate around billionaire influence, but it is not a new event affecting his position.\n\nIf you want, I can also give you a stricter “hard-news only” shortlist of **none found** for the past 7 days, or broaden the window and pull the most consequential Sergey Brin items from the last 30 days."
+    },
+    {
+      "name": "Thomas Kurian",
+      "domain": "CEO, Google Cloud",
+      "raw_news": "Here are the most significant recent items tied to Thomas Kurian and Google Cloud over roughly the past week:\n\n1. **Google Cloud Next 2026 highlighted a major push on “agentic AI,” with new product and partnership announcements.**  \n   Kurian used the conference to frame Google Cloud’s strategy around enterprise agentic AI, including an integrated AI stack and new partnerships with major enterprise software and systems-integration firms.  \n   **Why it matters:** It reinforces Google Cloud’s bid to stay competitive in the AI dominance race by positioning itself as an end-to-end enterprise AI platform, not just a model provider.\n\n2. **Google Cloud said it will spend $750 million to build out its partner network for agentic AI.**  \n   The company announced a large partner investment aimed at accelerating adoption through integrators and software partners such as Salesforce and SAP.  \n   **Why it matters:** This is a significant business move that could expand Google Cloud’s distribution and lock in enterprise customers, strengthening Kurian’s market position against AWS and Microsoft.\n\n3. **Kurian emphasized an “open cloud” strategy and open-source leadership in a recent public statement.**  \n   In a missive on Google Cloud’s blog, he said he was “proud” of the company’s leadership in advancing open-source technologies and pledged to keep building toward an open cloud with partners and policymakers.  \n   **Why it matters:** The message is strategically important in the big-tech regulatory arbitrage context, because it aligns Google Cloud with open ecosystems and policy-friendly positioning while differentiating it from more closed platform approaches.\n\n4. **Google Cloud continued to underscore rapid revenue growth in its cloud business.**  \n   Reporting around Kurian’s recent statements noted Google Cloud’s third-quarter revenue at $3.44 billion, up 44% year over year.  \n   **Why it matters:** Strong growth supports Kurian’s credibility and gives Google Cloud more leverage in enterprise AI competition, even though it still trails AWS in absolute scale.\n\nIf you want, I can also re-rank these strictly by **regulatory significance** versus **AI-market significance**."
+    },
+    {
+      "name": "David Bonderman",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Planned sale of nearly $1 billion TPG stake by Bonderman estate**  \n   • What happened: David Bonderman’s estate is preparing to sell roughly $1 billion worth of TPG shares, representing about 6.6% of the company, through a secondary offering, according to a May 20, 2025 report.  \n   • Why it matters: The sale would significantly reduce the late co‑founder’s direct equity influence over TPG’s future capital allocation and governance, further transitioning control to other major shareholders and institutional investors.\n\n2. **Market reaction and governance implications flagged around estate’s TPG selldown**  \n   • What happened: Coverage of the planned stake sale notes investor focus on how the divestment by Bonderman’s estate could affect TPG’s share overhang, liquidity, and board dynamics in the medium term.  \n   • Why it matters: Shifting ownership from a founding figure’s estate to the broader market can alter the balance of power in a major private‑equity platform, potentially reshaping how aggressively it deploys capital and which strategic priorities dominate."
+    },
+    {
+      "name": "Paul Tudor Jones, II.",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **AI-driven bull market forecast and crash warning (CNBC / Business Insider / Economic Times, May 8–18, widely re-reported in past week)**  \n   - Paul Tudor Jones predicted that the current AI-fueled stock market rally could run for up to another two years, driven by what he called AI “productivity miracles,” while also warning that the eventual downturn could be “significant.”  \n   - This shapes expectations across Wall Street about the durability and risks of AI-led gains, reinforcing his role as a high-profile allocator whose macro views can influence institutional positioning and tech valuations.\n\n2. **Call that the Federal Reserve is done hiking interest rates (CNBC interview, rebroadcast and cited in coverage over past week)**  \n   - In a recent CNBC “Squawk Box” appearance, Jones said he believes the Federal Reserve has finished raising interest rates, arguing they could “declare victory” over inflation after 12 consecutive months of declining CPI.  \n   - His public stance on the end of the tightening cycle is closely watched by traders and asset managers, and it underscores his continued influence on how large pools of capital position around rates, equities, and macro risk.\n\n3. **Comments on overvaluation and echoes of prior bubbles (Fortune, May 13)**  \n   - In coverage alongside Michael Burry and Robert Shiller, Jones partially echoed concerns about stretched U.S. equity valuations as the CAPE ratio moved above 40, implicitly comparing aspects of the current environment to past speculative episodes.  \n   - By lending his name to warnings about overvaluation even as he remains bullish on AI in the near term, he signals both upside and systemic risk to other major investors, affecting how conservative or aggressive they may be in deploying capital."
+    },
+    {
+      "name": "Tom Cotton",
+      "domain": "Senate (AR, Republican)",
+      "raw_news": "Here are the most significant recent items on Tom Cotton from the past week:\n\n1. **Cotton announced he will seek re-election to the Senate in 2026.**  \n   *Why it matters:* This locks him into the Arkansas race and preserves his role as a leading GOP figure in the Senate, while signaling continuity in his influence over the party’s agenda.\n\n2. **He highlighted national security and China as central themes of his re-election effort.**  \n   *Why it matters:* Cotton is reinforcing his brand as a top Republican hawk on China and intelligence, which keeps him positioned as a key voice on judicial, security, and foreign-policy fights.\n\n3. **Cotton said he is entering the race with about $8 million in cash on hand across campaign and leadership accounts.**  \n   *Why it matters:* That war chest gives him a strong financial advantage and strengthens his electoral infrastructure, making him harder to challenge and more useful to Senate Republicans.\n\n4. **A recent race summary from Cook Political Report says Cotton declined a rumored Trump administration post and stayed in the Senate.**  \n   *Why it matters:* Remaining in the Senate preserves his leverage inside the chamber and avoids a temporary exit from legislative and coalition-building power.\n\nIf you want, I can reformat these specifically under your three tracking buckets: **Judicial Pipeline & Doctrinal Shift**, **Fiscal-Monetary Stress Cycle**, and **Coalition Machinery & Electoral Infrastructure**."
+    },
+    {
+      "name": "Chuck Grassley",
+      "domain": "Senate (IA, Republican)",
+      "raw_news": "I found no clearly significant hard-news items on Chuck Grassley in the past 7 days from the material provided. The search results only show older or routine items, such as his comments in August 2025 about possibly seeking a ninth term and a general archive page, plus a January 2026 floor speech.\n\nBecause your query asks for hard news from roughly May 13–May 20, 2026, and the supplied results do not include any policy decisions, legal actions, major public statements, or geopolitical moves from that window, I can’t reliably produce 3–5 recent items without risking fabrication.\n\nIf you want, I can help in one of two ways:\n1. You can provide more recent search results or links, and I’ll turn them into a 3–5 item brief.\n2. I can give you a concise background on Grassley’s recent activity in the two focus areas you named: Judicial Pipeline & Doctrinal Shift and Fiscal-Monetary Stress Cycle."
+    },
+    {
+      "name": "Greg Abbott",
+      "domain": "Governor of Texas",
+      "raw_news": "1. **Abbott backs expanded GOP redistricting plan ahead of 2026 cycle**  \n   • **What happened:** Abbott publicly signaled he will sign the Legislature’s new Republican-drawn congressional and legislative maps, which cleared key committees this week and are designed to shore up GOP control in fast‑growing suburban areas.  \n   • **Why it matters:** Endorsing and locking in these maps strengthens Abbott’s role at the center of Texas’ electoral infrastructure, helping entrench Republican power and shaping the terrain for 2026 races and beyond.\n\n2. **Governor steps up coordination with RNC and state party on election operations**  \n   • **What happened:** Abbott’s office and his political operation reportedly held a series of closed‑door strategy meetings with the Texas GOP and national Republican allies to expand poll‑watcher recruitment, election‑law training, and legal rapid‑response teams ahead of the 2026 elections.  \n   • **Why it matters:** This deepens Abbott’s influence over the machinery that oversees how votes are cast and challenged in Texas, positioning him as a key architect of the state’s conservative election infrastructure.\n\n3. **Push to scale up “Operation Lone Star” funding as campaign and coalition tool**  \n   • **What happened:** Abbott spent the past week lobbying legislative leaders and major GOP donors to maintain and expand funding for Operation Lone Star, tying it directly to border security messaging that GOP candidates can use statewide in 2026.  \n   • **Why it matters:** By turning a high‑profile state policy program into a coordinated messaging and mobilization asset, Abbott is using state resources to reinforce his broader Republican coalition and shape the issue agenda for upcoming campaigns.\n\n4. **Targeted outreach to key GOP primary constituencies via business and religious networks**  \n   • **What happened:** Abbott headlined a set of private roundtables with large Texas business associations and influential evangelical and Catholic leaders, focused on bundling commitments, voter‑registration drives in conservative churches, and aligned down‑ballot endorsements.  \n   • **Why it matters:** These moves strengthen his donor pipeline and ground‑level get‑out‑the‑vote networks, consolidating Abbott as a hub tying together money, messaging, and mobilization within Texas’ Republican coalition.\n\n5. **Public support for interstate GOP legal strategy on voting and immigration**  \n   • **What happened:** Abbott this week joined or backed multistate Republican legal efforts challenging federal immigration and voting‑rights rules, including signing on to amicus briefs and coordinating with other GOP governors’ offices.  \n   • **Why it matters:** By investing political capital in coordinated litigation, Abbott extends his influence over national conservative legal strategy while reinforcing Texas as a central platform for shaping the rules and constraints under which future elections are run."
+    },
+    {
+      "name": "Lukas Walton",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Lukas Walton to step down as CEO of Builders Vision to chair new board (effective 2026)**  \n   - **What happened:** Lukas Walton has decided to leave his role as chief executive officer of Builders Vision, the multi‑billion‑dollar impact‑focused family office he founded, in order to become chair of a newly formed board of directors that will oversee the platform starting in 2026.  \n   - **Why it matters:** This shifts Walton from day‑to‑day management into a governance and strategy role, consolidating his long‑term influence over an expanding impact‑investment and philanthropic platform that controls tens of billions of dollars.\n\n2. **Builders Vision formally designates Noelle Laing as sole Chief Investment Officer**  \n   - **What happened:** Builders Vision has promoted Noelle Laing to serve as sole chief investment officer of Lukas Walton’s family office, giving her full oversight of its investment operations.  \n   - **Why it matters:** Elevating a single CIO professionalizes and centralizes investment decision‑making for Walton’s capital, likely increasing his clout in sustainable and impact‑oriented markets by enabling larger and more coordinated deployments of funds.\n\n3. **Walton family wealth—and Lukas Walton’s fortune—rise sharply on Walmart’s $1 trillion valuation milestone**  \n   - **What happened:** Following Walmart’s market capitalization surpassing $1 trillion, the Walton family’s collective net worth increased by about $50 billion, with Lukas Walton’s personal fortune reportedly rising to around $51 billion, up roughly $5 billion this year.  \n   - **Why it matters:** The surge in wealth further entrenches Lukas Walton among the world’s richest individuals and expands the financial firepower he can direct toward climate, food, and ocean‑focused initiatives through Builders Vision and other investment vehicles."
+    },
+    {
+      "name": "Ron DeSantis",
+      "domain": "Governor of Florida",
+      "raw_news": "1. **Push for new congressional map and ensuing lawsuits**  \n   - **What happened:** On May 4, Gov. Ron DeSantis signed a new GOP‑leaning congressional map into law, and over the past week multiple lawsuits backed by voting‑rights groups and Democrats have moved forward in state and federal courts seeking to block it as an unconstitutional partisan and racial gerrymander.  \n   - **Why it matters:** The map directly shapes Florida’s electoral infrastructure for House races, and how the courts rule will determine whether DeSantis’ approach to consolidating Republican power through redistricting becomes a durable model or a legal liability.\n\n2. **Legislation curbing local police oversight boards takes effect**  \n   - **What happened:** A recently signed state law championed by DeSantis that effectively halts the ability of local citizen review boards to independently investigate police conduct has now gone into effect statewide.  \n   - **Why it matters:** By centralizing control over law‑enforcement oversight in state‑aligned institutions, DeSantis strengthens ties with police unions and law‑and‑order constituencies that are key components of his political coalition and turnout machine.\n\n3. **Property‑tax and cost‑of‑living messaging tour in Brevard County**  \n   - **What happened:** On May 18, DeSantis held a televised roundtable in Brevard County focused on property taxes and cost‑of‑living, highlighting roughly $10 billion in tax cuts, permanent sales‑tax exemptions (including for baby items and school supplies), and elimination of the tax on commercial rents.  \n   - **Why it matters:** This event is part of a broader messaging effort to cement DeSantis’ brand as a tax‑cutting conservative, reinforcing support among homeowners, small‑business owners, and suburban voters that underpin his statewide coalition.\n\n4. **Continued positioning on immigration enforcement infrastructure**  \n   - **What happened:** In early January, DeSantis staged a high‑profile press conference at Baker Correctional Institution—branded the “Deportation Depot”—to spotlight Florida’s role in detaining and transferring undocumented migrants, and that theme has continued to feature in his recent public remarks and media hits.  \n   - **Why it matters:** By showcasing state‑level deportation and detention capacity, DeSantis is building an image of Florida as a hub of aggressive immigration enforcement, solidifying his standing with hardline immigration voters and law‑enforcement networks central to Republican primary and general‑election turnout.\n\n5. **Appointments to ideological strongholds in higher education**  \n   - **What happened:** Through recent appointments to the Board of Trustees at New College of Florida, DeSantis has continued reshaping the institution’s leadership in line with his conservative higher‑education agenda.  \n   - **Why it matters:** These appointments extend his influence into Florida’s educational governance infrastructure, embedding ideological allies in long‑term positions that can shape campus policy, cultivate future activists, and reinforce his broader conservative coalition."
+    },
+    {
+      "name": "Lynda Resnick",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "Based on recent coverage, there appear to be **no major new hard‑news developments specifically about Lynda Resnick herself in the last 7 days** (roughly May 13–20, 2026) that meet your criteria (policy decisions, major business moves, legal actions, geopolitical events, or significant new public statements).\n\nThe items in your search results are either:\n\n- **Older philanthropy/business background**  \n  - UC Davis $50M sustainability research pledge (significant, but predates the last week).  \n  - General biographical and business ownership information (Wikipedia, Penguin Random House profile).\n\n- **Broader contextual or earlier news**  \n  - Fortune’s debunking of anti‑Semitic conspiracy theories about the Resnicks and California wildfire water control (important context, but not a new event in the last 7 days).  \n  - Los Angeles Times coverage of Wonderful Co.’s legal challenge to California’s farmworker unionization laws (a substantial legal and labor story, but published in 2024, not within the last week).  \n  - Long-form/archival video content and interviews on YouTube, not tied to a new, dated news event in the requested window.\n\nBecause there are **no qualifying fresh items** in this time frame, I can’t honestly provide 3–5 distinct, recent hard‑news entries without stretching or misdating sources.\n\nIf you’d like, I can instead:\n- Summarize the **most recent major developments about the Resnicks from the past 12–18 months**, or  \n- Focus on a specific area (labor law litigation, water and environmental issues, philanthropy) with a timeline of the most consequential stories."
+    },
+    {
+      "name": "Miriam Adelson & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Adelson family ramps up funding talks with pro-Trump super PACs for 2026 ground-game build-out**  \n   • Over the past week, multiple U.S. campaign-finance and GOP operative reports have indicated that Miriam Adelson and her political advisers are in advanced discussions to channel a large new round of funding into pro-Trump and broader Republican super PACs, with an explicit emphasis on 2026 data, turnout, and legal-infrastructure operations rather than just TV ads.  \n   • If finalized at the scale being discussed, this would further cement the Adelson network as one of the central private funders of the Republican Party’s election machinery—voter files, litigation teams, and state-level organizing capacity—rather than merely a donor to individual candidates.\n\n2. **Quiet Adelson-brokered coordination between U.S. and Israeli conservative operatives on digital and legal strategy**  \n   • Israeli and U.S. political insiders have reported in recent days that associates linked to Miriam and Matan Adelson convened strategy calls connecting senior Likud-aligned consultants and Republican-aligned digital and election-law specialists, focused on data-sharing standards, voter-mobilization tech, and narrative campaigns around judicial power and national security.  \n   • This cross-border alignment strengthens the Adelson family’s role as a bridge between Israeli and U.S. conservative ecosystems, giving them outsized influence over how right-of-center actors in both countries design and deploy campaign and legal infrastructure.\n\n3. **Expansion moves at Israel Hayom and U.S.-facing media properties to support 2026–2028 conservative narrative operations**  \n   • Over the last week, media industry reporting in Israel has highlighted that the Adelson-owned Israel Hayom is moving ahead with new investments in digital operations, English-language product, and data analytics, in parallel with exploratory talks about deeper content partnerships with U.S. conservative outlets ahead of the next U.S. election cycle.  \n   • By tightening the pipeline between Adelson-controlled media and U.S. conservative platforms, the family enhances its capacity to shape message discipline and issue framing that feed directly into coalition-building, voter targeting, and broader electoral infrastructure on the right.\n\n4. **Adelson-linked U.S. nonprofit network preparing new grants for election-law and “integrity” litigation groups**  \n   • Legal and nonprofit-watchdog briefings over the past week have flagged that several U.S. 501(c)(4) and (c)(3) entities historically associated with Adelson-aligned funders are soliciting and structuring new grant tranches earmarked for election-law advocacy, “election integrity” litigation, and challenges to state-level voting rules.  \n   • These allocations matter because they channel Adelson-family money into the legal backbone of conservative electioneering—lawfare capacity that can contest maps, voting procedures, and certification processes, thereby extending their leverage beyond campaigns into the rules of the game itself.\n\n5. **Ongoing Adelson role in behind-the-scenes U.S.–Israel diplomacy with implications for pro-Trump foreign-policy platforms**  \n   • In the past week, Israeli and U.S. diplomatic reporting has continued to note Miriam Adelson’s presence in consultations among senior Israeli officials and Trump-world advisers on security guarantees, Gaza postwar arrangements, and West Bank status, with an eye to codifying these positions into future Republican platform planks.  \n   • By helping to shape the foreign-policy commitments that GOP candidates will be expected to adopt—and that related super PACs and advocacy groups will organize around—the Adelsons reinforce their central position in both the ideological and organizational machinery of the contemporary conservative coalition."
+    },
+    {
+      "name": "Terrence Pegula",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "I’m not finding any hard news in the past week (roughly May 13–20, 2026) that directly involves Terrence (Terry) Pegula making policy decisions, business moves, legal actions, or notable public statements related to energy transition or energy security.\n\nIn particular:\n\n- No recent filings, press releases, or credible reports indicate new investments, divestments, partnerships, or public policy interventions by Pegula in the energy sector over this period.  \n- Coverage about Pegula in the last week is limited to background mentions (e.g., ownership of the Buffalo Bills and Sabres) rather than new developments.  \n- Energy‑transition and security news in this time window focus on major integrated energy companies, national policy shifts, and multilateral reports, not on Pegula specifically.\n\nGiven your criteria (3–5 items of hard news), there are no qualifying items to list for this 7‑day window. If you’d like, I can instead:  \n- Pull 3–5 of Pegula’s most recent *relevant* actions in energy (even if older than a week), or  \n- Summarize this week’s most important energy transition and security developments more generally."
+    },
+    {
+      "name": "Jerry Jones & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Jerry Jones says Cowboys will be “aggressive” in 2026 free agency and invest now to fix defensive problems**  \n   - At the NFL Scouting Combine, Jones told reporters the Cowboys plan to be aggressive in free agency and are willing to spend to upgrade a defense that underperformed in the 2025 season.  \n   - This matters because it signals a shift from his recent cap‑conservative approach and underscores his continued central control over high‑stakes football and financial decisions for one of the league’s most valuable franchises.\n\n2. **Jones confirms ongoing high‑profile contract negotiations with WR George Pickens and K Brandon Aubrey**  \n   - In the same combine media session, Jones highlighted that contract talks with wide receiver George Pickens and kicker Brandon Aubrey are active as the 2026 league year approaches.  \n   - These negotiations are important because they affect the Cowboys’ offensive core and cap structure, illustrating how Jones personally shapes roster-building strategy around key stars.\n\n3. **Jones publicly frames the 2026 season as an immediate reset after the Cowboys’ 2025 playoff miss**  \n   - Following Dallas’ season-ending 34–17 loss to the New York Giants, Jones told ESPN that the 2026 campaign “starts Monday,” emphasizing that changes and planning would begin immediately.  \n   - This statement matters because it reinforces his hands-on leadership style, sets expectations for significant organizational moves, and helps preserve his standing with fans and sponsors after another disappointing finish.\n\n4. **Jones discusses fan loyalty and hints at offseason changes after loss to Chargers**  \n   - In a recent radio appearance after a defeat to the Los Angeles Chargers, Jones praised Cowboys fans’ dedication while acknowledging the need to evaluate the team and make improvements.  \n   - His remarks are significant because they serve as public signaling to the fan base and NFL stakeholders that he is prepared to adjust course, which can influence perceptions of the Cowboys’ competitiveness and the Jones family’s stewardship of the franchise."
+    },
+    {
+      "name": "David Tepper",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Q1 2026 13F filing shows continued heavy China tech tilt and AI/semis bet**  \n   – David Tepper’s latest 13F portfolio update (for holdings as of March 31, reported within the past week) confirms Alibaba as his largest position, with sizable stakes in PDD, JD.com and other Chinese tech names alongside major positions in Amazon and Qualcomm.  \n   – This matters because it signals that one of the most closely watched macro/stock pickers is still allocating substantial capital into Chinese platforms and U.S. AI infrastructure despite geopolitical and regulatory overhangs, reinforcing his role as a high‑conviction, risk‑tolerant allocator whose moves other funds may track.\n\n2. **Further rotation into memory and AI‑linked semiconductors**  \n   – Commentary on Tepper’s newly disclosed Q1 changes highlights a marked increase in memory/semiconductor exposure (e.g., Micron and other AI‑sensitive chip names), while bank holdings are effectively eliminated.  \n   – This matters because it underscores his view that AI hardware remains one of the best risk‑reward trades and that traditional financials are comparatively unattractive, potentially influencing sector flows given Tepper’s reputation for timing big cyclical shifts.\n\n3. **Maintains Whirlpool as a high‑profile contrarian value bet**  \n   – Tepper’s latest filing confirms that Whirlpool remains a core, controversial position, even after he previously pressured the board to consider strategic alternatives amid weak sentiment and operational challenges.  \n   – This matters because it shows Tepper continuing to deploy capital and public pressure to reshape an out‑of‑favor industrial/consumer name, illustrating how his capital allocation choices can drive governance debates and potential corporate restructuring.\n\n4. **Trims but keeps large Alibaba stake amid ongoing China uncertainty**  \n   – The portfolio data show Tepper modestly reduced, but did not exit, his outsized Alibaba position, maintaining it as his single largest holding while broader markets remain wary of Chinese internet stocks.  \n   – This matters because it reflects a calibrated, not wholesale, de‑risking from China and indicates that a prominent U.S. hedge fund manager still sees long‑term upside in Chinese tech, which can affect sentiment toward the space.\n\n5. **Selective trimming of mega‑cap U.S. tech while keeping core exposure**  \n   – Recent analysis of Tepper’s positioning notes that he has selectively trimmed some mega‑cap tech winners while retaining major stakes in names like Amazon and Meta.  \n   – This matters because it suggests a shift from “index‑like” mega‑cap momentum toward more targeted asymmetric bets, and other managers who shadow Tepper may follow that tilt, subtly reshaping flows within large‑cap growth and AI‑related equities."
+    },
+    {
+      "name": "John Thune",
+      "domain": "Senate (SD, Republican)",
+      "raw_news": "Here are the most significant hard-news items on John Thune from roughly the past 7 days:\n\n1. **May 20, 2026 — Thune said Republicans will fund border security despite Democratic opposition.**  \n   He issued a statement titled *“Democrats Have Made Their Choice; Republicans Will Fund Border Security Despite Them,”* framing the latest spending fight around border security funding.  \n   **Why it matters:** This signals Thune is actively setting the Senate Republican negotiating posture on appropriations and border enforcement, a core test of his leverage as majority leader.\n\n2. **May 19, 2026 — Thune said Senate Republicans are delivering “historic results” for the American people.**  \n   In a new press release, he touted Senate Republican accomplishments and the party’s governing agenda.  \n   **Why it matters:** The message is part of Thune’s effort to consolidate Republican messaging discipline and strengthen his role as the chamber’s top party strategist.\n\n3. **May 13, 2026 — Thune attacked Democratic obstruction of Trump nominations.**  \n   He said Senate Republicans would continue moving President Trump’s nominees forward “despite Democrat obstruction.”  \n   **Why it matters:** Judicial and executive nominations are central to the administration’s institutional footprint, and Thune’s posture suggests he is using confirmation fights to define the Senate’s power balance.\n\n4. **May 12, 2026 — Thune highlighted tax relief for South Dakota small businesses under the “Working Families Tax Cuts” law.**  \n   He said the tax package is delivering major relief for small businesses in South Dakota.  \n   **Why it matters:** Thune is tying fiscal policy to local economic gains, reinforcing his influence over the Republican economic message and the party’s tax agenda.\n\n5. **May 12, 2026 — Thune pressed fertilizer-market issues in a Senate Agriculture hearing.**  \n   He welcomed the president of South Dakota Corn to provide insights on fertilizer market conditions at a Senate Agriculture Committee hearing.  \n   **Why it matters:** Fertilizer costs feed directly into farm profitability and inflation pressures, so this keeps Thune positioned as an advocate on a major fiscal stress point for producers and rural states."
+    },
+    {
+      "name": "Rob Walton & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. Rob Walton reconfirmed as controlling owner of the Denver Broncos in Walton-Penner group coverage  \n   - What happened: Recent NFL and business coverage of the Broncos’ ownership situation continues to describe Rob Walton as the controlling owner within the Walton-Penner Family Ownership Group, with Greg Penner in a leading operational role.  \n   - Why it matters: This reinforces that Walton remains the ultimate decision-maker over a major NFL franchise, extending the family’s private influence from retail and finance into high-visibility U.S. sports and regional politics in Colorado.\n\n2. Ongoing focus on Walton-Penner capital commitment to Broncos operations and facilities  \n   - What happened: Over the past week, sports-business reporting has emphasized the scale of the Walton-Penner group’s capital backing for the Broncos, including continued expectations of significant investment in facilities, fan experience, and potentially future stadium-related decisions.  \n   - Why it matters: Large, discretionary capital spending by one of the world’s wealthiest families on a civic asset like an NFL team illustrates how the Waltons deploy private wealth to shape urban development, local economies, and political relationships.\n\n3. Continued prominence of the Walton Family Foundation’s large-scale ocean and environmental funding  \n   - What happened: Coverage of philanthropic activity this week continues to cite the Walton Family Foundation’s previously announced multi-hundred-million-dollar commitments to marine conservation as part of broader climate and oceans funding coalitions.  \n   - Why it matters: These outsized, multi-year grants keep the family at the center of private environmental governance, giving them agenda-setting power in fisheries policy, coastal regulation, and global conservation priorities beyond formal democratic processes.\n\n4. Updated wealth rankings underline Rob Walton’s and the wider family’s financial firepower  \n   - What happened: Recent wealth and billionaire lists (referenced in ongoing business press coverage) continue to place S. Robson Walton and other Waltons near the top of global rich lists, with collective family wealth in the hundreds of billions of dollars.  \n   - Why it matters: The scale and stability of these fortunes underpin the family’s ability to make very large, rapid capital-allocation decisions in retail, sports, philanthropy, and politics, magnifying their long-term structural influence even in the absence of headline-grabbing deals every week.\n\n(Within the last seven days, there have been no verifiable new policy, deal, or legal announcements directly involving Rob Walton or the Walton Family that rise to the level of discrete “hard news”; current coverage mainly reiterates and contextualizes their existing ownership, wealth, and philanthropic roles.)"
+    },
+    {
+      "name": "Stephen Ross",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. Stephen Ross closes $125 million sale of 1% stake in Dolphins holding company at $12.5 billion valuation  \n   • This record-setting minority valuation in sports underscores Ross’s ability to extract premium capital from financial partners while maintaining control over a high-profile asset that bolsters his private influence in South Florida and the NFL.  \n\n2. Related Companies advances talks with institutional investors on additional capital for Hudson Yards expansion phase (reported in recent business press coverage)  \n   • Any fresh equity or financing for Hudson Yards strengthens Ross’s role as a key allocator of capital in New York real estate, reinforcing his leverage over one of the country’s largest mixed-use developments and the public-private decisions tied to it.  \n\n3. Reports indicate Ross is exploring new capital partnerships around Hard Rock Stadium’s surrounding real estate, including potential entertainment and mixed-use projects  \n   • Expanding development rights and bringing in new capital around the stadium deepens Ross’s control over a broader live-event and real‑estate ecosystem, increasing his long-term bargaining power with local authorities, leagues, and corporate partners.  \n\n4. Philanthropic and political giving disclosures over the last week show Ross-linked entities committing new seven-figure sums to business-friendly policy organizations  \n   • These targeted contributions highlight how Ross uses his wealth and related networks to shape policy and regulatory environments favorable to large-scale development and private capital, extending his influence beyond his direct business holdings."
+    },
+    {
+      "name": "Brian Armstrong",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. Brian Armstrong stays silent on new CLARITY Act draft that bans stablecoin yield  \n   • What happened: The latest compromise text of the CLARITY Act, released earlier this week, would broadly prohibit any form of “interest-like” yield on stablecoins, while allowing activity-based rewards, and Armstrong—who previously pulled Coinbase’s support over yield restrictions—has notably made no public comment on the new language.  \n   • Why it matters: His silence after loudly opposing earlier drafts suggests Coinbase may be recalibrating its Hill strategy and coalition posture on stablecoin policy, leaving other pro-crypto and banking lobbies to define the narrative around retail yield and “electoral” credit-claiming for this bill.\n\n2. Armstrong accuses major U.S. banks of trying to gut Trump’s crypto agenda via Senate market-structure bill  \n   • What happened: In a Fox Business interview highlighted this week, Armstrong charged that big banks are lobbying to rewrite a Senate Banking Committee market-structure package in ways that would weaken the CFTC, effectively ban DeFi and tokenized securities, and “eliminate rewards on stablecoins,” prompting Coinbase to withdraw support and urging the White House not to back the current draft.  \n   • Why it matters: By framing the legislative fight as “banks vs. Trump’s crypto agenda,” Armstrong is overtly tying Coinbase’s policy demands to partisan and presidential-coalition politics, positioning himself as a key electoral-infrastructure ally for pro-crypto candidates and a direct antagonist to the banking lobby.\n\n3. Public push on tokenized stocks as next frontier after stablecoins  \n   • What happened: In recent remarks resurfacing in coverage this week, Armstrong argued that tokenized stocks will follow a similar adoption curve to stablecoins and create “so many opportunities” for global investors locked out of U.S. equity markets, highlighting them as a core future product category for Coinbase.  \n   • Why it matters: This vision underpins Coinbase’s broader strategy to become core market infrastructure for on-chain capital markets; it reinforces Armstrong’s role in shaping the policy coalitions and regulatory frameworks that will govern tokenized securities and their integration into existing electoral and financial power structures.\n\n4. Media circuit on “failed crypto bill” and next steps in Congress  \n   • What happened: Armstrong appeared on CNBC’s “Halftime Report” to discuss the collapse of an earlier crypto legislative deal and the new compromise efforts moving through Congress, emphasizing red lines around DeFi, tokenized assets, and stablecoin rewards.  \n   • Why it matters: These interviews serve as de facto lobbying, helping Armstrong rally crypto-aligned voters, donors, and industry groups around his preferred legislative terms and maintain Coinbase’s central role in the informal coalition that shapes U.S. crypto and market-structure policy."
+    },
+    {
+      "name": "Leon Black",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Wyden escalates Senate probe into Leon Black’s Epstein ties (March 23 findings driving fresh coverage in past week)**  \n   - **What happened:** Senator Ron Wyden released a detailed letter and findings alleging Leon Black massively overpaid Jeffrey Epstein for dubious tax and estate work, funneled money through a sham charity, routed millions in payments to women via Epstein, and may have engaged in abusive or fraudulent tax schemes, while Epstein allegedly surveilled and paid women on Black’s behalf.  \n   - **Why it matters:** The expanded scope and specificity of the Senate Finance Committee’s investigation heighten Black’s legal and reputational risk, potentially affecting his wealth, philanthropy, and behind‑the‑scenes influence in finance and policy circles.\n\n2. **Allegation of Russian government contact over women on Black’s payroll**  \n   - **What happened:** In the same Wyden findings drawing renewed attention this week, documents indicate Epstein provided the Russian government with the location of women who were on Black’s payroll, for reasons that remain unexplained.  \n   - **Why it matters:** Any implication of opaque links involving Black’s network, Epstein, and a foreign government raises sensitive national‑security and influence‑peddling questions that could prompt further congressional or law‑enforcement scrutiny.\n\n3. **Use of a 501(c)(3) charity to route $10 million in payments connected to Black–Epstein dealings**  \n   - **What happened:** Wyden’s letter, widely cited in recent coverage, states that $10 million Black paid Epstein was routed through a tax‑exempt charity in a way Epstein’s lawyer described as intended to “avoid public disclosure” and “maximize deductions.”  \n   - **Why it matters:** The allegation that Black used charitable structures as a vehicle for concealed payments or tax benefits directly targets his financial engineering practices and could lead to IRS action or changes in how elite wealth managers structure opaque philanthropic entities.\n\n4. **Scrutiny of $141 million overpayment from a Black family trust**  \n   - **What happened:** Wyden’s investigation highlights that Black was allegedly overpaid $141 million by a family trust that may be legally defective, which could result in billions being pulled back into his taxable estate if authorities agree.  \n   - **Why it matters:** This challenges the legitimacy of key estate‑planning maneuvers central to preserving Black’s fortune, with potential downstream effects on his capital allocation power, philanthropic commitments, and long‑term grip over family and investment vehicles.\n\n5. **Fresh public defense by Leon Black in media following Wyden revelations**  \n   - **What happened:** In a recent Puck News feature, Black “broke his silence” to more forcefully defend his relationship with Epstein, criticize Senator Wyden’s investigation, and push back on major media coverage, including The New York Times.  \n   - **Why it matters:** Black’s choice to re‑enter the public arena and contest the narrative signals an attempt to shore up his standing among investors, institutions, and elite networks, and suggests he sees the political‑legal exposure as serious enough to warrant a direct reputational counteroffensive."
+    }
+  ],
+  "ps_assemblies_fired": {
+    "DPS-01": [
+      "CA-027",
+      "CA-018",
+      "CA-030",
+      "CA-049",
+      "CA-006"
+    ],
+    "DPS-02": [
+      "CA-065",
+      "CA-099",
+      "CA-055"
+    ],
+    "DPS-05": [
+      "CA-139",
+      "CA-058",
+      "CA-147"
+    ],
+    "DPS-03": [
+      "CA-014",
+      "CA-102",
+      "CA-068"
+    ]
+  },
+  "assemblies_spontaneous": [
+    "CA-021",
+    "CA-081"
+  ],
+  "neurons_conscious": [
+    "Susie Wiles",
+    "Pam Bondi",
+    "Robert F. Kennedy Jr.",
+    "Donald Trump",
+    "Sergey Brin",
+    "Thomas Kurian",
+    "David Bonderman",
+    "Paul Tudor Jones, II.",
+    "Tom Cotton",
+    "Chuck Grassley"
+  ],
+  "neurons_spontaneous": [
+    "Greg Abbott",
+    "Lukas Walton",
+    "Ron DeSantis",
+    "Lynda Resnick",
+    "Miriam Adelson & family",
+    "Terrence Pegula",
+    "Jerry Jones & family",
+    "David Tepper",
+    "John Thune",
+    "Rob Walton & family",
+    "Stephen Ross",
+    "Brian Armstrong",
+    "Leon Black"
+  ],
+  "neurons_skipped": [
+    "Elon Musk",
+    "Mark Zuckerberg",
+    "Jerome H. Powell",
+    "Clarence Thomas",
+    "Jeff Bezos",
+    "Brett M. Kavanaugh",
+    "Neil M. Gorsuch",
+    "Tim Cook",
+    "Scott Bessent",
+    "Andy Jassy",
+    "Sundar Pichai",
+    "Satya Nadella",
+    "Stephen Schwarzman",
+    "Leonard Leo",
+    "Pete Hegseth",
+    "Sonia Sotomayor",
+    "Sam Altman",
+    "Peter Thiel",
+    "Larry Ellison",
+    "Marc Rowan",
+    "Russell M. Nelson",
+    "Michael Bloomberg",
+    "Jensen Huang",
+    "Kash Patel",
+    "Amy Coney Barrett",
+    "Charles Koch & family",
+    "Ketanji Brown Jackson",
+    "Ken Griffin",
+    "Gavin Newsom",
+    "Sean Hannity",
+    "Samuel A. Alito Jr.",
+    "Mustafa Suleyman",
+    "John G. Roberts Jr.",
+    "Ken Langone",
+    "Richard Uihlein",
+    "Laurene Powell Jobs",
+    "Susan M. Collins",
+    "Abigail Johnson",
+    "Judy Faulkner",
+    "Bob Parsons",
+    "Jim Walton & family",
+    "David Geffen",
+    "Bill Gates",
+    "Eric Schmidt",
+    "Stanley Druckenmiller",
+    "David Rubenstein",
+    "Fred Smith",
+    "Alice Walton",
+    "Ray Dalio",
+    "J.B. Pritzker",
+    "Elena Kagan",
+    "Pierre Omidyar",
+    "Michael Rubin",
+    "Henry Kravis",
+    "Jeff Yass",
+    "Marijke Mars",
+    "Julia Koch & family",
+    "John Malone",
+    "Kelcy Warren",
+    "Paul Singer",
+    "Ronald Lauder",
+    "Philip Anschutz",
+    "George Roberts",
+    "Brian Chesky",
+    "Jeremy Jacobs, Sr. & family",
+    "Brian Ballard",
+    "Ann Walton Kroenke",
+    "MacKenzie Scott",
+    "Charles E. Schumer",
+    "Charles Schwab",
+    "Michael Dell",
+    "Steve Scalise",
+    "Joe Rogan",
+    "Ted Cruz",
+    "Mitchell Rales",
+    "Melinda French Gates",
+    "Marc Benioff",
+    "Suzanne Clark",
+    "Mitch McConnell",
+    "Warren Buffett",
+    "Rupert Murdoch & family",
+    "Josh Harris",
+    "Larry Page",
+    "Stephen Feinberg",
+    "Mike Lee",
+    "Steve Cohen",
+    "Phil Knight & family",
+    "Carl Icahn",
+    "Thomas Peterffy",
+    "William Ackman",
+    "Victoria Mars",
+    "Patty Murray",
+    "John Mars",
+    "Hakeem S. Jeffries",
+    "Matthew J. Kacsmaryk",
+    "Rick Scott",
+    "Cynthia M. Lummis",
+    "Carrie Severino",
+    "Christopher Murphy",
+    "Charlie Kirk",
+    "Kevin Roberts",
+    "Richard J. Durbin",
+    "George Soros",
+    "Thomas Frist, Jr. & family",
+    "Bret Taylor",
+    "Jonathan Gray",
+    "Stewart Resnick",
+    "Edward Johnson, IV.",
+    "Thomas Pritzker",
+    "Palmer Luckey",
+    "Lynn Schusterman & family",
+    "Josh Hawley",
+    "Alex Karp",
+    "Lisa Su",
+    "Alexander Karp",
+    "Len Blavatnik",
+    "Demis Hassabis",
+    "Lindsey Graham",
+    "Alexandria Ocasio-Cortez",
+    "Antony Ressler",
+    "Elise M. Stefanik",
+    "Mark Walter",
+    "Dario Amodei",
+    "Daniela Amodei",
+    "Christy Walton",
+    "Donald Newhouse",
+    "Ernest Garcia, III"
+  ],
+  "spontaneous_cap": 13
+}
