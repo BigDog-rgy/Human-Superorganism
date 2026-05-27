@@ -1,0 +1,703 @@
+{
+  "scope": "global",
+  "week_start": "2026-05-20",
+  "week_end": "2026-05-27",
+  "ps_news_items": [
+    {
+      "id": "PS-01",
+      "name": "NATO-Russia Confrontation Arc",
+      "summary": "NATO-Russia confrontation dynamics over the past week were shaped primarily by alliance signaling and incremental force-posture and security-policy moves rather than a single shock event. At the NATO foreign ministers’ meeting, Jens Stoltenberg used Iran’s attack on Israel and Russia’s continued war in Ukraine to argue for strengthening NATO’s integrated air and missile defense and sustaining high levels of defense spending and military aid to Kyiv, reinforcing the line that the Ukraine war is central to allied security rather than a “regional” issue.[4] Parallel analytical work circulating in Western policy circles stressed that Russia’s expanded conscription system and willingness to sustain high casualties will allow it to regenerate military power over time, bolstering the case for a prolonged NATO deterrence and rearmament trajectory.[3] Strategic risk assessments also highlighted an expected rise in Russian gray-zone activity against NATO members in 2026—sabotage of infrastructure, airspace and maritime probes, and election interference—framing the NATO‑Russia confrontation arc as increasingly centered on hybrid warfare beyond the Ukrainian battlefield.[2]\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "PS-02",
+      "name": "US-China Strategic Rivalry",
+      "summary": "The past week has been dominated by the **aftermath of the Trump–Xi summit in Beijing**, which entrenched a framework of “managed competition” rather than any de-escalation of structural rivalry.[1][2][5] Washington is emphasizing **large Chinese purchase commitments** (about 200 Boeing aircraft and at least **$17 billion annually in U.S. agricultural imports through 2028**) and the creation of new **U.S.–China Boards of Trade and Investment** as institutional channels to manage economic friction, while keeping pressure on critical minerals access.[1][2][5] Beijing’s messaging instead stresses **broader market access and easing of U.S. trade/export controls**, including on tariffs and critical minerals, signaling a push to dilute U.S. geoeconomic leverage without conceding on core strategic issues.[1][2][5] In parallel, **Xi’s intensified diplomacy with Russia**—culminating in over 40 cooperation agreements, especially in energy and supply chains—underscores China’s effort to harden its strategic rear and diversify away from U.S.-centric systems amid ongoing rivalry.[2] Analysts also highlight prospective **Chinese diplomacy in Northeast Asia (including a possible Xi visit to North Korea)** as part of Beijing’s bid to position itself as a regional mediator, indirectly countering U.S. influence on the Korean Peninsula.[2]  \n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "PS-03",
+      "name": "Indo-Pacific Security Architecture Build-Out",
+      "summary": "Over the past week, Indo-Pacific security architecture activity has been **moderate but steady**, with incremental moves rather than headline-breaking shifts. The U.S. 2026 National Defense Strategy discourse continued to foreground **“reinforce and build out a resilient security architecture in the Indo-Pacific”** as a central organizing principle, reinforcing long-term resourcing and posture changes for alliances and mini-laterals such as the Quad and AUKUS.[7] Think-tank and policy discussions (CSIS, CNAS, DKI APCSS) increasingly emphasized a transition from the legacy **hub-and-spoke** model to a **“networked” or “allied security web”**, highlighting greater interoperability, more trilateral and quadrilateral coordination, and expanded roles for partners like India, Japan, Australia, South Korea, and the Philippines.[3][5][2] Analytical forums and dialogues framed Indo-Pacific security as structurally volatile and competitive, reinforcing political momentum for deeper defense cooperation, integrated command-and-control upgrades, and new domains of collaboration such as space and undersea infrastructure protection.[1][4]\n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "PS-04",
+      "name": "Semiconductor and Compute Chokepoint Control",
+      "summary": "Activity over the past week in semiconductor and compute chokepoint control appears **low to moderate**, with no clear evidence in public reporting of new, discrete export control rounds, EUV license decisions, or landmark foundry investments specifically dated to this window. Most items in major industry and policy outlets are continuing to reference earlier-2026 U.S. moves to tighten AI chip export controls (e.g., treating advanced AI chip exports more like weapons and targeting Nvidia’s Blackwell line) and tariffs on selected advanced chips, but these are not newly initiated in the last seven days.[2][5] Broader 2026 outlook pieces and industry roundups emphasize the structural trend toward risk mitigation, supply-chain diversification, and growing government involvement in semiconductors, rather than announcing fresh policy instruments or corporate chokepoint maneuvers in this specific period.[3][4][9] Overall, the week looks more like a continuation and digestion of previous quarters’ major decisions than a pivot point in the chokepoint contest.\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "PS-05",
+      "name": "Frontier AI Power Struggle",
+      "summary": "The past week saw **Meta escalate the model race** by launching its Muse Spark reasoning model across its consumer platforms, leveraging its distribution to pressure closed-model rivals on pricing and capabilities.[1] **Anthropic signaled a shift toward gated, security-first frontier deployment** by limiting access to its Mythos model, reinforcing a broader industry move away from open, rapid release toward controlled access for high-capability systems.[1] On the compute and infrastructure front, **Broadcom, Google, and Anthropic locked in gigawatt‑scale TPU capacity**, treating AI compute as strategic infrastructure rather than a flexible cloud utility, while **Intel deepened its bid to be a central AI foundry player** via the Terafab mega‑project and advanced-packaging talks with Google and Amazon.[1] At the governance and constraint level, **Maine’s proposed freeze on large data centers underscored mounting local political resistance to hyperscale AI infrastructure**, highlighting that land, water, and energy constraints are now a live front in the frontier AI power struggle.[1]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "PS-06",
+      "name": "Global Monetary Order and Financial Architecture Stress",
+      "summary": "The past week saw **limited but notable movement** in the global monetary order, with stress signals more incremental than structural. Several emerging markets continued FX intervention and liquidity operations to defend currencies against a still-strong dollar and divergent rate paths, underscoring the resilience of dollar dominance despite ongoing debates on reforming the international financial architecture.[4][7] Discussions within multilateral forums and UN-linked processes continued to push for **greater voice for the Global South, automatic SDR issuance in exogenous crises, and reforms to debt restructuring mechanisms**, but without major new formal decisions.[1][3] Renminbi internationalization remained mostly on its existing trajectory, with no breakthrough in swap-line activations or large new sanctions actions that would materially shift the balance of the dollar-centered system this week.[5][7]\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "PS-07",
+      "name": "Energy Market Statecraft and Transition Contestation",
+      "summary": "Saudi Arabia and key OPEC+ members signaled support for an extension of existing production cuts into the second half of 2026, reinforcing a tighter oil-market stance to underpin prices amid uncertain demand and rising non-OPEC supply.[4] In parallel, several Gulf sovereign wealth funds advanced diversification away from pure hydrocarbons by announcing new multi‑billion‑dollar allocations into renewables, grid infrastructure, and hydrogen projects, indicating a gradual pivot in petrostates’ energy statecraft.[4][6] On the green-industrial side, advanced economies moved to harden clean‑tech supply chains with new or expanded incentives for domestic battery, solar, and critical-mineral processing investment, reflecting growing concern over import dependence and Chinese dominance in these segments.[6][7] At the same time, emerging‑market LNG buyers pursued renegotiation or extension of long‑term contracts to secure supply through the 2030s, underscoring the role of gas as a transition fuel and complicating net‑zero timelines.[4][6]\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "PS-08",
+      "name": "Sanctions, Countersanctions, and Geoeconomic Decoupling",
+      "summary": "Western sanctions and export controls continued to tighten around Russia and China, with new U.S. and EU measures targeting third-country intermediaries and expanding secondary sanctions exposure for banks and logistics nodes in the Caucasus, Central Asia, and the Middle East. Several Chinese entities were newly listed or threatened with listing over support to Russia’s defense-industrial base and advanced tech acquisition, prompting fresh warnings to global firms about supply-chain due diligence and rerouting through “clean” channels. In parallel, Beijing signaled a more assertive countersanctions posture, reinforcing its export-control toolkit and using investigations and designations to pressure foreign companies seen as complying with Western human-rights–linked restrictions.[1][3] Corporate responses included accelerated “China+1” and “Russia-light” procurement strategies, quiet supplier switches away from sensitive Chinese-origin components, and renewed friend-shoring commitments in critical minerals and semiconductors. Collectively, the week’s moves indicate incremental but steady structural decoupling, especially in high-tech, finance, and dual-use manufacturing nodes.\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "PS-09",
+      "name": "Information Ecosystem and Narrative Control",
+      "summary": "Information-ecosystem developments over the past week were **moderate but fragmented**, with activity concentrated in regulatory moves and platform rule enforcement rather than paradigm-shifting structural changes. Several governments advanced or debated **speech- and platform-regulation bills** framed around disinformation and social stability, signaling continued momentum toward tighter state oversight of social media and news distribution. Major platforms reported new **enforcement actions and takedowns** tied to foreign influence operations and coordinated inauthentic behavior, but these were extensions of existing policies rather than new governance models. There were also incremental **media-ownership and funding shifts** in a few key markets that may, over time, further consolidate pro-government or oligarch-aligned control over broadcast and digital outlets.\n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "PS-10",
+      "name": "Authoritarian Axis Consolidation",
+      "summary": "Available open sources for the past week do not yet show any *headline* structural shifts (e.g., new formal alliances, SCO/CSTO treaty revisions, or major multilateral institutional launches) among Russia, China, Iran, and aligned states; activity appears to be incremental rather than transformative in this narrow 7‑day window. Based on current reporting, the dominant developments in the “authoritarian axis” remain continuations of pre‑existing patterns: coordinated information operations, sanctions circumvention, and technology/military cooperation rather than visibly new frameworks.[2][4]\n\nGiven the lack of clearly documented, time‑stamped moves between May 20–27 that meet your criteria (new defense pacts, major joint exercises, or institutional redesign), this week looks structurally quiet and more about ongoing consolidation than step‑change advances.\n\n2",
+      "activation_score": 2
+    },
+    {
+      "id": "PS-11",
+      "name": "Middle-Power and Global South Realignment",
+      "summary": "Activity over the past week has been **moderate but not transformational**, with incremental moves rather than headline realignments. Several middle powers and Gulf states continued **hedging diplomacy**, balancing security ties with the West against deeper economic and energy cooperation with China and other BRICS members, but without announcing major new alignments.[5][6] BRICS+ discussions and outreach to additional Global South partners proceeded at the working level, yet produced no new accessions or decisive structural changes in governance.[5] Sovereign wealth funds in the Gulf and parts of Asia maintained a pattern of diversifying into South–South investments and strategic sectors (energy transition, digital infrastructure), signaling ongoing rebalancing but within existing frameworks rather than through new blocs.[4][9] CELAC, GCC, and other regional forums registered routine coordination on trade and development agendas, reinforcing the gradual drift toward a more multipolar order without a clear inflection point this week.[2][4]\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "PS-12",
+      "name": "Western Institutional Cohesion and Democratic Strain",
+      "summary": "I can’t reliably summarize **the past 7 days** in this domain from the provided results, because the search results are mostly older background PDFs and do not show concrete developments from May 20–27, 2026.[1][2][3][4][5][6][7][8][9]\n\nBased on the evidence available, the week appears **quiet in the supplied material**, with no clearly documented major decisions, trade/regulatory clashes, alliance disputes, or institutional reversals to indicate fresh momentum in Western institutional cohesion or democratic strain.[1][2][3][4][5][6][7][8][9]\n\n1",
+      "activation_score": 1
+    }
+  ],
+  "assembly_news_items": [
+    {
+      "id": "CA-200",
+      "name": "xAI / X Corp. Executive Team",
+      "ps_memberships": [
+        "PS-05",
+        "PS-09"
+      ],
+      "raw_news": "Elon Musk’s combined X / xAI structure saw a major leadership consolidation this week as **Linda Yaccarino announced she is stepping down as CEO of X**, just months after the platform was formally absorbed into Musk’s AI entity as “xAI Holdings,” leaving Musk and his inner circle with more direct control over the core social and AI asset. Yaccarino’s exit follows Musk’s March move to have his AI startup xAI acquire X at a roughly **$33 billion valuation**, structurally subordinating the social network to the frontier-AI operation and tightening the alignment of content distribution and model training infrastructure.[1]  \n\nIn parallel, **xAI has now lost its final two original co‑founders, Manuel Kroiss and Ross Nordeen**, completing a full turnover of the founding leadership as the company undergoes a “foundational restructuring” under **SpaceX ownership**, further centralizing authority with Musk and his trusted SpaceX-linked executives.[2] These departures, combined with the X-to-xAI Holdings integration and Yaccarino’s resignation, mark a significant consolidation of Musk’s personal control over a dominant public information platform and a major frontier-AI development node, with direct implications for narrative control and AI capability governance.[1][2]"
+    },
+    {
+      "id": "CA-071",
+      "name": "Tencent Holdings Limited Board of Directors",
+      "ps_memberships": [
+        "PS-02",
+        "PS-05",
+        "PS-09"
+      ],
+      "raw_news": "No significant board-level decisions or public actions by the **Tencent Holdings Limited Board of Directors** with clear implications for US‑China strategic rivalry, frontier AI power struggle, or global information‑ecosystem control have been reported in open sources over the past week. \n\nRecent coverage on China–U.S. tech tensions and export controls has focused on broader issues such as U.S. export‑control enforcement, Chinese moves on AI chips, and China’s regulatory environment for big tech, without citing new Tencent board resolutions, leadership changes, or governance‑driven strategic shifts in this 7‑day window.[2][5][3] Tencent is consistently referenced as a core Chinese tech conglomerate in background discussions of China’s platform economy and regulatory clampdowns, but there is no hard news item specifically about its board initiating new geopolitical‑relevant alliances, policy positions, or major structural moves during the specified period.[3][6]"
+    },
+    {
+      "id": "CA-133",
+      "name": "Microsoft Board of Directors",
+      "ps_memberships": [
+        "PS-05"
+      ],
+      "raw_news": "Microsoft’s board of directors quietly expanded its influence this week with the addition of **Carmine Di Sibio**, former global chairman and CEO of EY, as a non‑employee director, effective May 13, 2026.[1] He was simultaneously placed on the **Audit Committee** and **Compensation Committee**, giving him direct oversight over financial reporting, risk, and executive pay at a time when Microsoft’s AI bets are reshaping its risk profile and talent economics.[1] According to the company’s 8‑K filing, his appointment raises the board to **13 members**, further bolstering its global financial and risk‑management expertise as it oversees Microsoft’s strategic position in frontier AI and cloud.[1]"
+    },
+    {
+      "id": "CA-014",
+      "name": "European Commission College of Commissioners",
+      "ps_memberships": [
+        "PS-01",
+        "PS-04",
+        "PS-05",
+        "PS-08",
+        "PS-12"
+      ],
+      "raw_news": "Over the past week, the **European Commission’s College of Commissioners** has been most active on the economic, sanctions, and institutional fronts, with indirect but clear relevance to NATO–Russia dynamics, geoeconomic control, and internal cohesion.\n\n- In its **Spring 2026 Economic Forecast**, the College confirmed a slowdown in EU growth driven by lingering energy shocks, high inflation, and tighter financial conditions, underscoring continued vulnerabilities linked to the post‑Ukraine‑war energy reconfiguration and industrial competitiveness.[7]  \n- The Commission highlighted ongoing implementation of its **trade, economic security, and industrial policies** (including de‑risking from strategic dependencies and support for green/clean‑tech and digital sectors), reinforcing its role in the EU’s geoeconomic competition with major powers over supply chains and advanced technologies.[4][7]  \n- Under the portfolios for **Trade and Economic Security** and **Tech Sovereignty, Security and Democracy**, Commissioners continued to frame upcoming legislative and enforcement work around securing critical technologies, bolstering EU digital infrastructure, and tightening resilience against authoritarian influence operations, thereby positioning the Commission as a central actor in the broader **frontier tech and AI power struggle** and in safeguarding democratic cohesion inside the Union.[3][4]"
+    },
+    {
+      "id": "CA-120",
+      "name": "SoftBank Group Board of Directors",
+      "ps_memberships": [
+        "PS-05"
+      ],
+      "raw_news": "No significant board-level decisions or announcements involving the **SoftBank Group Corp. Board of Directors** that materially alter power dynamics around the Vision Fund or frontier AI were reported in the past week. Recent disclosed moves are earlier in 2026 and relate mainly to **SoftBank Corp.** (the telecom unit) rather than SoftBank Group Corp., including January board resolutions to change representative directors and key executives effective April 1, 2026, such as appointing Jun Shimba as Director & Chairman at the operating company level.[2][3] Publicly available governance materials for SoftBank Group Corp. (parent/holding company that oversees the Vision Fund) show an established board lineup and governance framework but do not contain new resolutions, alliances, or structural changes dated in the last 7 days that would impact global AI investment power structures.[4][5][7]"
+    },
+    {
+      "id": "CA-285",
+      "name": "Glencore Board of Directors",
+      "ps_memberships": [
+        "PS-07",
+        "PS-08"
+      ],
+      "raw_news": "Over the past week, the most consequential Glencore board‑level development has been its **formal opening to a potential mega‑merger with Rio Tinto**, signaling willingness at the top of the company to pursue a transformational consolidation in mining and commodity trading.[1][3]  \n\nAccording to coordinated statements from both firms, Glencore’s board has authorized **preliminary discussions on a possible combination of some or all of their businesses, including an all‑share merger under which Rio Tinto would acquire Glencore**, explicitly framing this as a board‑driven strategic option rather than a purely management‑level exploration.[1][3] This move positions Glencore’s directors at the center of a prospective reshaping of global metals and energy supply chains, with implications for pricing power, access to critical minerals, and regulatory scrutiny in key jurisdictions.[1][3] In parallel, Glencore’s board has overseen a **$22 billion internal asset transfer into its Australian subsidiary**, consolidating coal and key base‑metal assets under Glencore Investment Pty Ltd, a restructuring widely interpreted by market analysts as preparation for a large‑scale transaction and a clearer negotiating platform vis‑à‑vis Rio Tinto and regulators.[1]"
+    },
+    {
+      "id": "CA-322",
+      "name": "Indonesia Morowali Industrial Park (IMIP) Joint Venture Board",
+      "ps_memberships": [
+        "PS-07"
+      ],
+      "raw_news": "No significant hard news specifically involving the **Indonesia Morowali Industrial Park (IMIP) Joint Venture Board** as a governing or decision‑making body appears in open sources in the past week; recent reporting focuses instead on IMIP’s operators, safety record, and market‑driven production decisions at the park level rather than board‑level political or strategic moves.[2][3]  \n\nOver the last year, notable developments around IMIP have included:  \n- **Market power moves:** Tsingshan, IMIP’s dominant Chinese partner, suspended portions of its stainless‑steel output at IMIP in response to weak global demand and price pressure, an action framed as an attempt to support stainless prices and rebalance nickel markets.[3][4]  \n- **Governance and risk scrutiny:** International NGOs and media have highlighted escalating **workplace safety crises** at IMIP (dozens of deaths and injuries across Chinese‑funded nickel operations), raising questions about regulatory oversight and the governance structure linking Chinese parent firms, Indonesian subsidiaries, and the park’s joint‑venture framework.[2]  \n- **Strategic control concerns:** A U.S. government‑funded security think‑tank reported that Chinese firms—centered on Tsingshan and peers—control roughly three‑quarters of Indonesia’s nickel refining capacity, with IMIP as a core asset, and linked this to broader concerns over China’s leverage in critical‑minerals supply chains and potential ties to Chinese state‑backed entities.[5]  \n\nBecause none of these items in the last 7 days explicitly attribute decisions or statements to the **IMIP Joint Venture Board** itself (as opposed to Tsingshan or other park operators), there is no verifiable, board‑specific hard news about new decisions, alliances, or public positions affecting power dynamics in the requested time window."
+    },
+    {
+      "id": "CA-169",
+      "name": "CATL Board of Directors",
+      "ps_memberships": [
+        "PS-02",
+        "PS-07"
+      ],
+      "raw_news": "I couldn’t verify any **new CATL Board of Directors move** from the past 7 days in the results provided. The only board-related item is an older CATL announcement that it was elected to the Global Battery Alliance’s new board, effective in 2023–2024, which is outside your time window.[1]\n\nFor the past week, the search results instead point to **older governance and partnership items**: CATL had already secured board representation in its Neo Lithium investment, and its broader board composition is listed in governance databases, but neither reflects a fresh decision in the last 7 days.[2][8]\n\nIf you want the most consequential **recent hard-news CATL development** in this period, the results you supplied do not contain one tied specifically to the Board of Directors, so I can’t responsibly identify a board action affecting power dynamics from these sources alone."
+    },
+    {
+      "id": "CA-027",
+      "name": "G7 Leaders Summit",
+      "ps_memberships": [
+        "PS-06",
+        "PS-08",
+        "PS-12"
+      ],
+      "raw_news": "In the past week, the most consequential G7 Leaders–level developments are preparatory but directly tied to looming decisions on sanctions, financial architecture stress from Middle East conflict, and Western cohesion. \n\n1. **Sanctions and geoeconomic pressure on Russia and war-economy spillovers**  \n   - Under the 2026 French G7 presidency, leaders have recently reaffirmed their **unity in maintaining sanctions on Russia**, explicitly linking them to broader global energy, fertilizer, and food‑security tensions.[1][2]  \n   - They agreed to **continue close monitoring of fuel, gas, and fertilizer markets** and framed this as part of a wider push for **energy independence and electrification**, a structural move that reinforces the West’s long‑term decoupling from Russian hydrocarbons and reduces vulnerability to geopolitical shocks.[1]  \n\n2. **Middle East war, global monetary order, and navigation/energy security**  \n   - In a videoconference convened by France as incoming summit chair, G7 leaders coordinated on the **economic consequences of the war in the Middle East**, launching work on a mechanism to **escort commercial vessels when security conditions allow** and to engage directly with **shipping companies, transport operators, and insurers**.[1][2]  \n   - They welcomed an International Energy Agency plan, initiated under G7 impetus, to **release up to 400 million barrels from strategic reserves**, a macro‑level intervention aimed at stabilizing energy prices and signalling capacity to manage financial‑market stress from supply disruptions.[1]  \n\n3. **Coordination with Gulf economies and intra‑Western cohesion**  \n   - Leaders agreed to **establish structured coordination between G7 members and Gulf economies** on managing the war’s economic fallout, effectively widening the Western economic coalition in energy and financial‑stability management.[1]  \n   - France, as 2026 G7 president heading into the Évian‑les‑Bains Leaders’ Summit, is using these ad‑hoc leaders’ formats to pre‑align positions on sanctions, energy security, and macro‑financial stability, reinforcing **G7 institutional cohesion** ahead of the June summit where these provisional moves are expected to be formalized and expanded.[1][2][8]"
+    },
+    {
+      "id": "CA-006",
+      "name": "National Security Council (NSC)",
+      "ps_memberships": [
+        "PS-01",
+        "PS-02",
+        "PS-03",
+        "PS-08"
+      ],
+      "raw_news": "Over the past week, the **National Security Council (NSC)** has been central to intensified U.S. signaling in multiple theaters, though much of the detailed NSC deliberation has been reported indirectly through White House and Pentagon actions rather than formal NSC readouts.\n\n- In the **Indo-Pacific**, President Trump convened senior national security officials as the U.S. moved B‑2 stealth bombers from Missouri to Guam with plans to forward-deploy them to Diego Garcia, a posture that places them within one refueling leg of Iran but also visibly reinforces long-range strike capacity relevant to both the Indian Ocean and Western Pacific theaters.[1] This deployment, discussed in the context of a National Security Council meeting, underscores an escalation-ready stance that affects both the **US–China rivalry** and broader Indo-Pacific deterrence dynamics.[1]\n\n- In the **NATO–Russia confrontation arc**, the NSC has been involved in coordinating responses to renewed Russian missile and drone strikes in Ukraine and around the Black Sea region, with U.S. officials signaling continued support for air defense and long-range strike enablers; however, in the past seven days these moves have mostly taken the form of reaffirmed commitments and ongoing assistance rather than discrete, newly announced NSC-led decisions.[4]\n\n- On **sanctions and geoeconomic pressure**, NSC economic and national security staff have continued to coordinate interagency work on enforcement of existing sanctions frameworks against Russia and Iran, but no major new NSC-branded sanctions packages or decoupling initiatives have been formally rolled out in the public record during this specific period.[4]\n\nGiven the limited public-facing NSC documentation in the last week, most observable impact on power dynamics stems from NSC-backed force posture and signaling decisions—particularly the forward movement of strategic bombers—that shape adversary risk calculations in both the Indo-Pacific and Middle East-linked theaters.[1][4]"
+    },
+    {
+      "id": "CA-063",
+      "name": "Samsung Electronics Board of Directors",
+      "ps_memberships": [
+        "PS-04",
+        "PS-08"
+      ],
+      "raw_news": "Over the past week, Samsung Electronics’ Board of Directors has not publicly announced any major decisions or structural moves directly tied to semiconductor chokepoint control, sanctions policy, or geoeconomic decoupling. Available disclosures and governance pages show the existing structure of three executive directors and six independent directors, led on the semiconductor side by Vice Chairman & CEO Jun Young-hyun as head of the Device Solutions (DS) division, but no new board-level resolutions or alliances in the last seven days.[3][5] Recent high‑impact changes such as the restoration of a dual‑CEO system and elevation of DS leadership were reported earlier, outside the specified time window.[1][5] As of the past week, there is no verifiable hard news indicating fresh board actions that materially shift Samsung’s geopolitical or sanctions-related posture."
+    },
+    {
+      "id": "CA-029",
+      "name": "Conseil de Défense et de Sécurité Nationale (French National Security Council)",
+      "ps_memberships": [
+        "PS-01",
+        "PS-12"
+      ],
+      "raw_news": "Over the past week, the **Conseil de Défense et de Sécurité Nationale (CDSN)** has not been the subject of any publicly reported, discrete meeting or decision directly tied to new NATO–Russia confrontation measures, nuclear posture adjustments, or alliance moves within the specified dates. French coverage of national security over this period has instead continued to reference President Macron’s **March 2 nuclear doctrine shift**—“forward deterrence,” an increase in warheads, and potential forward deployment of French nuclear assets in allied European states—as the key structural change through which the CDSN would operationalize France’s nuclear and strategic decisions in a crisis.[1][3][6]  \n\nIn the NATO‑Russia confrontation arc, commentary in expert and think‑tank outlets during this timeframe has focused on how Macron’s updated doctrine—still fully controlled through French sovereign decision‑making channels such as the CDSN—could reshape European deterrence dynamics by extending a de facto **French nuclear umbrella** to interested EU and NATO partners while keeping launch authority strictly in Paris.[1][3][4] These analyses frame the CDSN as the core executive organ through which any future escalation, forward-basing decision, or extended deterrence guarantee vis‑à‑vis Russia would be decided, but they do not report new, date‑specific CDSN decisions in the last seven days."
+    },
+    {
+      "id": "CA-017",
+      "name": "General Staff of the Armed Forces of the Russian Federation",
+      "ps_memberships": [
+        "PS-01"
+      ],
+      "raw_news": "The most significant development involving the **General Staff of the Russian Armed Forces** in the past week was Valery Gerasimov’s report to Vladimir Putin that Russian forces had completed the **capture of Gornal**, described by the Kremlin as the last populated settlement in Kursk region under Ukrainian control, and that the broader defeat of the Ukrainian incursion there was complete.[4] Gerasimov also said Russia is continuing to build a **security zone in Ukraine’s Sumy region**, with four settlements taken and more than 90 square kilometers under control, which signals a continued push to reshape the border battlefield.[4]\n\nHe additionally reported ongoing **mine clearance, clearing operations, and searches for remaining Ukrainian servicemen** in the Kursk border area, indicating Russia is consolidating territory rather than only advancing tactically.[4] On the Belgorod border, he said Russian forces had **eliminated Ukrainian sabotage groups** near Popovka, showing the General Staff is treating the confrontation as a wider border-security operation, not just combat in Ukraine’s interior.[4]"
+    },
+    {
+      "id": "CA-178",
+      "name": "Stavka of the Supreme Commander-in-Chief",
+      "ps_memberships": [
+        "PS-01"
+      ],
+      "raw_news": "Over the past week, the **Stavka of the Supreme Commander-in-Chief** focused on reinforcing northern defenses and preparing for potential Russian escalation from the Belarus–Bryansk axis. Following a Stavka meeting on **20 May**, Zelenskyy reported that new Russian attack scenarios against northern Ukraine, particularly the **Chernihiv–Kyiv direction**, were reviewed, and a decision was taken to **strengthen defenses in the relevant sectors of the front**.[3] The Stavka assigned **additional operational and intelligence tasks** to the military command and security services, including non-public intelligence missions to track threats emanating from Belarus and adjacent Russian regions.[3] Zelenskyy also highlighted the need for **more active diplomatic engagement with Minsk and international partners** to increase pressure and coordinate responses to these potential northern incursions.[3]"
+    },
+    {
+      "id": "CA-057",
+      "name": "Gulf Cooperation Council (GCC) Supreme Council",
+      "ps_memberships": [
+        "PS-07",
+        "PS-11"
+      ],
+      "raw_news": "Over the past week, the **GCC Supreme Council** has not convened or issued any new, formal Supreme Council–level decisions, communiqués, or treaty-level moves; recent hard news has instead come from the Secretariat and ministerial tracks rather than from the heads‑of‑state body itself.[2][3] Within that context, **GCC leadership has focused on regional security and energy‑adjacent chokepoints**, with public messaging around maintaining Gulf unity and safe navigation amid heightened tensions around the Strait of Hormuz and the broader Iran-related crisis.[1] GCC officials have also highlighted the bloc’s role as a **status quo security anchor** and key interlocutor between Western powers and the wider Middle East, reinforcing the Council’s positioning in global South and middle‑power diplomacy but without any formal Supreme Council realignment decisions in the last seven days.[6]",
+      "spontaneous": true
+    },
+    {
+      "id": "CA-309",
+      "name": "Dicastery for Promoting Integral Human Development",
+      "ps_memberships": [],
+      "raw_news": "I couldn’t verify any **significant hard-news developments in the past 7 days** involving the Dicastery for Promoting Integral Human Development from the results provided. The available sources only describe the dicastery’s mandate and structure—its work on **justice and peace, migration, health, ecology, and human rights**—rather than any new policy decision, diplomatic move, alliance, or organizational action in the May 20–27 window.[2][3][4]\n\nIf you want, I can also do a tighter scan for the dicastery’s latest **public statements, appointments, or Vatican-linked initiatives** and separate those from routine activity.",
+      "spontaneous": true
+    }
+  ],
+  "news_items": [
+    {
+      "name": "Ilya Sutskever",
+      "domain": "Co-Founder & CEO, Safe Superintelligence Inc. (SSI)",
+      "raw_news": "There are no significant, independently reported hard-news developments involving Ilya Sutskever or Safe Superintelligence Inc. (SSI) in the last 7 days within the 2026-05-20 to 2026-05-27 window; recent coverage and major moves appear to stop well before this period.  \n\nAvailable reputable sources describe earlier milestones only: Sutskever’s launch of SSI in June 2024, its billion‑dollar funding and rapid valuation growth through early 2025, and his elevation to CEO after co‑founder Daniel Gross’s departure in mid‑2025.[1][2][5] None of these fall in the requested past‑week window.\n\nGiven the lack of fresh hard news in the specified timeframe, there is no evidence of new policy moves, major funding/structure shifts, or public power‑struggle statements by Sutskever in the last 7 days that would materially change his influence or position relative to other frontier AI actors."
+    },
+    {
+      "name": "Reed Hastings",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "I found **one major hard-news item** on Reed Hastings in the past 7 days; the search results do **not** show 3–5 distinct policy, geopolitical, military, economic, or diplomatic events for him in that window.[1][2][3]\n\n- **Reed Hastings is stepping down from Netflix’s board after 29 years.** Netflix said on April 17 that Hastings would not stand for reelection and would leave the board in June to focus on philanthropy and personal interests.[1][3]\n- This matters because it marks a **major reduction in his formal corporate power** at Netflix, which is the main source of his public influence and financial stature.[1][3]\n\n- **Netflix’s weak second-quarter forecast overshadowed the board exit announcement.** The company’s guidance missed analyst expectations and sent shares lower in extended trading the same day Hastings’ departure was announced.[1][2]\n- This matters because the market reaction can affect Hastings’ **reputation as a steward of one of the most influential tech/media companies**, even though he was leaving the board.[1][2]\n\n- **No recent hard-news items tie Hastings directly to frontier AI policy or geopolitical competition in the available results.** The only AI-related material in the search results is a Bloomberg discussion that mentions broader market activity and Anthropic in passing, not a concrete action by Hastings.[2][4]\n- This matters because, based on the available evidence, his **current influence appears indirect rather than tied to a fresh AI or geopolitical move**.[2][4]"
+    },
+    {
+      "name": "Fred Smith",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "I could not find any **hard news from the past 7 days** about Fred Smith, and the premise appears incorrect: **Frederick W. Smith died in June 2025**, so there is no current 2026 news cycle to report on him.[1]\n\nGiven the search results available, the only recent item is a **Forbes recognition** from FedEx noting Smith as one of America’s greatest historic innovators, but this is **not hard news** and falls outside your requested policy/geopolitical/economic/military criteria.[2]\n\n- **No qualifying news found** — The available results do not show any policy decisions, geopolitical moves, military actions, economic initiatives, diplomatic events, or significant public statements involving Fred Smith in the last 7 days.[1][2]\n- **Query mismatch** — The relevant Fred Smith in the results is Frederick W. Smith, the FedEx founder, who **died on June 21, 2025**, so he cannot have recent activity in the requested window.[1]\n- **Only non-hard-news mention** — FedEx highlighted him in a Forbes-linked innovators list, which may matter historically, but it does not indicate a current influence shift or position change.[2]\n\nIf you meant a **different Fred Smith**—for example, another billionaire, executive, or political figure—I can search again with the correct identity."
+    },
+    {
+      "name": "Ursula von der Leyen",
+      "domain": "European Union / President of the European Commission",
+      "raw_news": "1. **EU doubles down on Ukraine support and sanctions on Russia at European Political Community (EPC) summit**\n\n   - In the margins of the EPC summit (late May), von der Leyen backed EU leaders’ agreement to reinforce military, financial and reconstruction support to Ukraine while highlighting the recently adopted **20th sanctions package** against Russia and continued pressure on Moscow’s enablers.[1][3]  \n   - This matters because it underlines her central role in sustaining **NATO‑aligned pressure on Russia**, shaping the EU’s sanctions architecture, and positioning the Commission as a key strategic actor in the broader NATO–Russia confrontation arc.[1][3]\n\n2. **EU–Australia “historic trade and security pact” concluded, with strong tech and economic dimensions**\n\n   - Von der Leyen announced the conclusion of a **historic EU–Australia free trade and security agreement**, stressing tariff cuts, expanded market access for EU exporters and farmers, and the pact’s long‑term strategic nature in a speech during her visit to Australia published in this period.[2][3]  \n   - This matters because it strengthens her hand in **semiconductor/compute supply diversification and geoeconomic de‑risking from China**, while reinforcing Western institutional cohesion through a deeper EU–Indo‑Pacific economic and security alignment.[2][3]\n\n3. **Public statement in Lithuania foregrounding Russia deterrence and Eastern flank security**\n\n   - In a late‑May statement in Lithuania, von der Leyen emphasized EU solidarity with frontline states, reiterated long‑term security commitments to Ukraine, and framed Russia as a lasting strategic threat that must be contained through sustained defence, sanctions and economic pressure.[3]  \n   - This matters because it reinforces her profile as a top civilian strategist in the **NATO‑Russia confrontation arc** and consolidates Eastern member states’ support for her leadership in any future escalatory or deterrence posture debates.[3]\n\n4. **EU–Mexico summit: push to upgrade strategic partnership and align on global economic governance**\n\n   - At the EU–Mexico summit press conference, von der Leyen advocated deepening political, trade and investment ties, and discussed cooperation on supply chains, clean energy, and global rules‑based order issues with a major G20 emerging economy.[3]  \n   - This matters because it enhances her influence over the **global monetary and trade architecture** and supports EU efforts to build broader coalitions on sanctions circumvention, critical raw materials, and financial‑system standards beyond the transatlantic core.[3]\n\n5. **Coalition initiative to return Ukrainian children and signal of long‑war support architecture**\n\n   - Addressing an international coalition focused on returning deported Ukrainian children, von der Leyen linked humanitarian accountability to continued EU funding and defence support for Kyiv, underscoring that the EU has locked in large‑scale multi‑year financial assistance mechanisms.[1][3]  \n   - This matters because it ties **sanctions, legal accountability, and long‑horizon financial commitments** into a single narrative, strengthening her authority over the EU’s Ukraine policy architecture and its broader use of legal‑economic tools against Russia.[1][3]"
+    },
+    {
+      "name": "João Lourenço",
+      "domain": "Head Of State, Angola",
+      "raw_news": "Available open sources do not show any major new, date-specific actions by João Lourenço in the narrow window of roughly 20–27 May 2026; most clearly dated reporting about him in May 2026 concerns his internal party position earlier in the month rather than fresh geopolitical or energy‑related moves in the last seven days.[2]\n\nGiven your constraints (hard news, last 7 days, and focus on energy statecraft/Global South realignment), there are effectively **no clearly documented events that meet all criteria** in that exact time frame. The most recent relevant hard‑news item tied to a precise date is slightly earlier:\n\n1. **Signal to extend control of the MPLA (early–mid May 2026, reported 11 May)**  \n   - **What happened:** João Lourenço informed the ruling MPLA that he intends to seek another term as **party chief** when the party holds its congress in December, allowing him to remain at the top of the party even after his second and final presidential term ends in 2027.[2]  \n   - **Why it matters:** By planning to retain the MPLA leadership in a “**bicefalia**” arrangement (party leader different from head of state), Lourenço positions himself to preserve decisive influence over Angola’s energy policy, foreign alignments and economic strategy beyond his constitutional presidential limit, which affects how Angola will engage future energy transition bargaining and Global South realignment debates.[2]\n\nBecause I cannot reliably identify additional, specific, hard‑news actions by Lourenço dated between 20 and 27 May 2026 from available sources, listing more items would require speculation about timing or significance, which would not meet your “hard news only” requirement."
+    },
+    {
+      "name": "Vladimir Lisin",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "I found **one clearly relevant hard-news item** on Vladimir Lisin from the past 7 days; the available results do **not** show 3–5 separate hard-news events for this window. The strongest recent item is a public statement from NLMK/Lisin warning that Russia’s economic situation is “very challenging” and urging the government not to worsen it with rushed regulation.[1]\n\n- **May 2026: Lisin publicly warned against hurried regulation amid a “very challenging” economic situation.** NLMK’s media release says Lisin told *Kommersant* the environment is difficult and that the government should not aggravate it through rushed regulatory measures.[1]\n  - **Why it matters:** This positions Lisin as a major industrial voice pushing back on policy tightening, which can influence Moscow’s approach to industrial regulation and the operating environment for steel and heavy industry.[1]\n\n- **No other qualifying hard-news items surfaced in the provided results for 2026-05-20 to 2026-05-27.** The other results are biographical or older background material rather than recent policy, geopolitical, or economic developments.[2][3][4][5]\n  - **Why it matters:** This limits the signal on Lisin’s current geopolitical or geoeconomic moves in the specified week, suggesting no major publicly captured escalation, sanction-related move, or diplomatic intervention in the supplied search set.[2][3][4][5]\n\nIf you want, I can also broaden the scan to include **Russian-language sources** and **company releases** to try to surface additional late-May 2026 items."
+    },
+    {
+      "name": "Alisher Usmanov",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "1. **U.S. tightens sanctions on Usmanov’s global network (Treasury/OFAC action)**  \n   - The U.S. Treasury announced new sanctions targeting the **facilitation network of Alisher Usmanov**, revoking Russia-related General License 15 and thereby blocking all entities 50%+ owned by him, even if not explicitly named on the SDN list.[1]  \n   - This **materially hardens his isolation from the dollar system** and constrains his ability to move capital via proxies and shell companies, reducing his usefulness as a sanctions‑evasion hub for Russian state-linked interests.[1]\n\n2. **Megafon downplays impact of new U.S. sanctions on Usmanov-linked assets**  \n   - After the U.S. designated Usmanov-linked firms including USM, Russian telecom operator **Megafon** publicly stated the latest sanctions would have “no material impact” on its business, citing an OFAC license allowing it to continue key telecoms and technology transactions with U.S. entities.[3]  \n   - This response **limits collateral damage to a major Russian telecom asset tied to Usmanov**, helping preserve his economic relevance inside Russia even as Western authorities try to choke off his international financial reach.[3]\n\n3. **EU divisions over potential delisting of Usmanov from sanctions list**  \n   - During negotiations on rolling over EU Russia sanctions, **Hungary and Slovakia pushed to delist Alisher Usmanov**, but the European Commission rejected a compromise that would have linked his delisting to a favorable Court of Justice ruling, keeping his designation fully in political hands.[4]  \n   - The episode shows that while some member states are willing to ease pressure on him, **EU institutions and a majority of governments still view Usmanov as strategically important to maintain under sanctions**, preserving his status as a test case for the bloc’s resolve against Kremlin‑linked elites.[4]\n\n4. **Slovakia backs down on demand to remove Usmanov, enabling full EU sanctions rollover**  \n   - Slovakia, which had been blocking the extension of EU sanctions while demanding Usmanov and Mikhail Fridman be removed, **dropped its objection at the last minute**, allowing the full Russia sanctions package—including measures against Usmanov—to be extended unchanged for another six months.[6][8]  \n   - This outcome **confirms that EU-wide restrictions on Usmanov remain intact at least until mid‑September 2026**, signalling to Moscow and other oligarchs that attempts to fragment the EU line on high‑profile sanctioned figures have so far failed.[6][8]\n\n5. **Usmanov’s lawyers intensify legal and reputational pushback around EU sanctions vote**  \n   - A German law firm representing Usmanov sent a cease-and-desist letter to Slovak outlet Denník N over an article published just before an EU sanctions decision, highlighting that European courts have already banned similar claims and noting they have secured 18 court decisions and over 100 cease‑and‑desist declarations correcting reporting on him since 2023.[5]  \n   - This legal offensive **aims to sanitize the public and judicial record around Usmanov ahead of key sanctions decisions**, potentially strengthening his hand in ongoing challenges to EU measures and shaping how policymakers and courts evaluate his role in the wider sanctions and countersanctions landscape.[5]"
+    },
+    {
+      "name": "Rafaela Aponte-Diamant",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "There are **no significant hard-news items in the past week directly involving Rafaela Aponte-Diamant** in the areas of sanctions, countersanctions, or geoeconomic decoupling.\n\nKey points:\n\n- Recent coverage of **sanctions, countersanctions, and geoeconomic decoupling** focuses on states and large policy moves (e.g., new EU sanctions on Russian LNG, U.S. outbound investment controls on China, EU–China tariff tensions), and does not mention Rafaela Aponte-Diamant or MSC by name in the last 7 days.[1]  \n- Open-source news and policy reporting over this period show **no new designation, investigation, asset freeze, compliance dispute, or public intervention** by Rafaela Aponte-Diamant related to Russia/Ukraine sanctions, Red Sea crisis sanctions enforcement, Iran/North Korea shipping sanctions, or EU/U.S. decoupling measures.  \n- There are also **no notable public statements or lobbying-visible initiatives** by her personally on sanctions regimes, trade decoupling, or maritime restrictions in this time window; shipping-sector reactions have been voiced by industry associations and other executives instead.  \n\nGiven your constraints (hard news only, 3–5 items) and the available record, fabricating such events would be inaccurate; the most accurate answer is that **there have been no reportable, high-significance sanctions/decoupling developments tied to Rafaela Aponte-Diamant in roughly 20–27 May 2026.**"
+    },
+    {
+      "name": "Recep Tayyip Erdoğan",
+      "domain": "Head Of State, Turkey",
+      "raw_news": "Available open web results for the exact last 7 days are extremely sparse and do not show clear, verifiable hard news actions by Recep Tayyip Erdoğan in the specific 20–27 May 2026 window you requested. Based on what can be reliably sourced, there are no major, well-documented new moves in that period that meet your “hard news only / non-routine” threshold on NATO‑Russia, Global South realignment, or Western cohesion.\n\nWhat can be said with confidence from the limited results:\n\n1. **Comment on Iran–US ceasefire implementation risks**  \n   - **What happened:** Erdoğan publicly warned of “possible provocations and sabotage” to a ceasefire accord agreed between Iran and the United States, and positioned Türkiye as supportive of the agreement’s full implementation while offering Turkish backing to the process.[1]  \n   - **Why it matters:** This keeps Ankara visible as a potential **mediator and guarantor** in a core Middle East security file that intersects with US–Iran rivalry and broader NATO‑Russia dynamics, reinforcing Erdoğan’s claim to middle‑power status and influence over conflict management in the region.[1]\n\nBecause I cannot locate additional, date‑verifiable, non-routine items for 20–27 May 2026 that meet your criteria—such as new sanctions decisions, defense deployments, NATO‑related vetoes, major bilateral summits, or large economic/diplomatic initiatives—any attempt to list 3–5 “most significant” events beyond the one above would be speculative rather than grounded in accessible reporting.\n\nIf you want, I can instead:\n\n- Step back to a **broader May 2026 window** (e.g., the full month) and identify 3–5 significant Erdoğan moves with clear dates, or  \n- Focus on the **latest well-documented developments** in each of your three arcs (NATO‑Russia confrontation, Global South alignment, Western institutional strain), even if they fall slightly outside the last 7‑day band."
+    },
+    {
+      "name": "Volodymyr Zelenskyy",
+      "domain": "Head Of State, Ukraine",
+      "raw_news": "1. **Signals willingness to drop NATO membership bid in prospective peace deal with Russia**  \n   - In a recent interview ahead of talks with U.S. envoys, Zelenskyy said Ukraine is prepared to **abandon its long‑standing bid to join NATO in exchange for legally binding Western security guarantees** but will not cede any territory to Russia.[1]  \n   - This is a major shift on the NATO‑Russia confrontation axis because it directly addresses Moscow’s core stated red line on NATO enlargement while testing whether the West is willing to formalize security commitments to Ukraine outside the NATO framework.[1]\n\n2. **Seeks clarification of reported short‑term Russian ceasefire proposal via the U.S.**  \n   - Zelenskyy announced he has instructed his representatives to contact the U.S. president’s team to obtain details on Putin’s proposed **May 9 “Victory Day” ceasefire**, while indicating Ukraine itself is interested in a longer‑term arrangement.[2]  \n   - By engaging but not endorsing a limited, symbolic ceasefire, Zelenskyy is trying to keep diplomatic channels open through Washington while avoiding a move that could freeze frontline dynamics in Russia’s favor and fracture Western unity over war aims.[2]\n\n3. **Authorizes continued deep‑strike campaign against Russian energy and logistics targets**  \n   - Ukrainian security services and navy units, under Kyiv’s political leadership, continued **drone and sea‑drone strikes on Russian oil refineries in Perm and Tuapse and on patrol vessels in the Kerch Strait**, disrupting Russian industrial and naval assets far from the front.[2]  \n   - These operations underline Zelenskyy’s strategy of leveraging long‑range strikes to raise the economic and military costs for Russia and to press NATO states for more permissive rules and capabilities for attacks inside Russian territory.[2]\n\n4. **Uses threat of sanctions to pressure Israel over alleged Russian‑stolen Ukrainian grain shipment**  \n   - Zelenskyy publicly warned that Ukraine could impose **sanctions on Israel** if a ship Kyiv says carried grain stolen by Russia from occupied territories was allowed to unload, after which the vessel departed Israel without unloading.[2]  \n   - This move shows Zelenskyy extending his economic and legal warfare against Russia into the Middle East, signaling to NATO partners and Russia alike that Kyiv will aggressively contest the normalization of trade in commodities originating from occupied Ukrainian regions.[2]"
+    },
+    {
+      "name": "Pope Francis (Jorge Mario Bergoglio)",
+      "domain": "Vatican City / Pope of the Roman Catholic Church",
+      "raw_news": "I can’t reliably identify **3–5 significant news items about Pope Francis in the past 7 days** from the results provided, because the search results are mostly about **Pope Leo XIV** and only one result mentions Pope Francis—and it is from **April**, not the requested May 20–27 window.[1][2][3][4][5][6]\n\nWhat the provided results do support is:\n- Pope Francis’ **earlier health-related appearance** at St. Peter’s Basilica in April, which the Vatican said signaled improvement, but this is **outside the requested period**.[1]\n- Multiple items on **Pope Leo XIV’s** homilies, encyclical, and scheduled visits, which are **not about Pope Francis**.[2][4][5][6]\n\nIf you want, I can still help in one of two ways:\n- **Redo the search focused only on Pope Francis** for May 20–27, 2026.\n- **Summarize the top Vatican hard news from the same week**, if you meant the pope in office, which appears to be **Pope Leo XIV** based on the results."
+    },
+    {
+      "name": "Edir Macedo & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "There are **no significant hard-news events involving Edir Macedo or his immediate family reported in the past 7 days** in major international or Brazilian outlets, based on available open sources and recent searches.[2][4]\n\nContext and implications:\n\n- Recent coverage of Edir Macedo in major English-language and reference sources remains **background/biographical** (his role as founder of the Universal Church of the Kingdom of God, owner of Record TV, and past Forbes-billionaire status), not tied to new policy moves, legal actions, or economic initiatives in the last week.[1][2][4]  \n- No new reports in the last 7 days were found about **government investigations, major business transactions, regulatory actions, high-profile political interventions, or major public statements** by Macedo or his family that would materially alter their influence or position.[1][2][4]  \n- The absence of fresh hard news suggests that Macedo’s **influence remains rooted in his existing media–religious infrastructure** (Universal Church, Grupo Record, and prior political alliances), rather than any recently announced shift or escalation over the requested period.[1][2][4]\n\nGiven your criteria (hard news only; skip routine appearances) and the time window requested, there are **no qualifying items to list as 3–5 discrete events**."
+    },
+    {
+      "name": "Charles Schwab",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "There have been **no significant hard-news events directly involving Charles R. Schwab personally** in the past 7 days that meet your criteria of policy decisions, geopolitical moves, or major interventions in the global monetary/financial architecture. Recent developments primarily concern **Charles Schwab Corp.** as a financial institution rather than Charles Schwab as an individual actor.\n\nWithin roughly the last few weeks, the most relevant items (still short of your “global monetary order” threshold) are:\n\n1. **Schwab Corp. projects markedly higher 2026 revenue growth than Wall Street expected**  \n   - Charles Schwab Corp. told investors it now expects **2026 revenue to grow 14–15%**, versus analyst expectations of about 11.5%, driven by strong retail investor activity and wealth management flows.[1]  \n   - This reinforces Schwab Corp.’s position as a **systemically important retail brokerage and asset‑gathering platform** in U.S. markets, but it does not reflect a direct policy or geopolitical move by Charles R. Schwab himself.[1]\n\n2. **Record trading activity and rapid asset growth at Schwab in April 2026**  \n   - Schwab’s April 2026 activity update reported **total client assets of about $12.61 trillion (up 27% year-on-year)** and record daily average trades, alongside hundreds of thousands of new brokerage accounts.[2][6]  \n   - The scale and velocity of asset growth underscore Schwab’s structural role in U.S. market plumbing and retail capital allocation, yet again this is an institutional trend rather than a personal intervention by Charles R. Schwab in the global monetary order.[2][6]\n\n3. **Strong 1Q 2026 revenue and updated strategic messaging to institutional investors**  \n   - In its 2026 Spring Business Update, Schwab reported **1Q 2026 total revenue up 16% year‑on‑year to a record level** and outlined ongoing strategic priorities for its balance sheet, net interest margin, and platform economics.[9]  \n   - This confirms Schwab’s resilience as a large U.S. broker‑dealer and bank in the current rate environment, but there is no associated personal policy stance or geopolitical initiative by Charles R. Schwab.[9]\n\nGiven your filters—hard news tied to **global monetary order/financial architecture stress** and **the billionaire as an individual actor**—there are **no qualifying items in the 20–27 May 2026 window**:  \n- No major public policy statements by Charles R. Schwab on global monetary architecture.  \n- No new roles in international financial governance, crisis interventions, or coordinated regulatory efforts.  \n- No reported direct involvement in monetary, FX, or sovereign‑debt related initiatives.\n\nIf you are open to broadening the scope to “Schwab Corp. as a systemic market institution” rather than the individual, I can track and structure developments more like systemic‑risk indicators (funding, liquidity, client flows, brokerage stability) going forward."
+    },
+    {
+      "name": "François Pinault & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "There do not appear to be any *hard news* developments specifically about **François Pinault & family** (as Forbes-listed billionaires) in the roughly 7-day window from about May 20–27, 2026, that meet your criteria (policy, geopolitical, major economic initiative, or significant public statement).\n\nAvailable coverage in this period instead focuses on:\n\n- **Ongoing discussion of Kering leadership changes**: Media and analyst pieces continue to reference François‑Henri Pinault’s move to separate the roles of **chairman and CEO** at Kering and the appointment of a new CEO, framed as part of a broader repositioning amid a luxury downturn, but these are follow‑ups to decisions and announcements made earlier, not fresh actions within the last week.[2][4]  \n  - *Relevance*: This matters because the Pinault family’s influence in global luxury and capital markets is exercised mainly via control of Kering; the leadership restructuring is a major strategic shift, but it is not newly initiated in the May 20–27 window.[2][4]\n\n- **Background and profile content**: Recent pieces and databases reiterate the family’s wealth level, control of Kering, and family-office structures, but these are descriptive rather than new moves or decisions.[1][3]  \n  - *Relevance*: They confirm the continued centrality of the Pinault family in European business, yet they do not constitute new “hard news” events for the specified period.[1][3]\n\nGiven current open sources, there are no identifiable items in the last week that would qualify as distinct, dateable hard news events about François Pinault or his immediate family in the sense you defined (no new major deals, policy interventions, geopolitical activity, or significant new public statements attributable directly to them)."
+    },
+    {
+      "name": "Hamad II of Bahrain",
+      "domain": "Head Of State, Bahrain",
+      "raw_news": "There are no publicly reported major moves by **King Hamad bin Isa Al Khalifa** in the last week that match your criteria; recent hard news out of Bahrain is being driven mainly by the Crown Prince/Prime Minister and wider cabinet rather than direct, new initiatives by Hamad himself.\n\nKey developments relevant to his position and your focus areas, where he is implicated institutionally but not as the primary visible actor, include:\n\n1. **Cabinet review of Iran-related security and economic measures (May 18, 2026)**  \n   - The Bahraini cabinet, chaired by Crown Prince and Prime Minister Salman bin Hamad Al Khalifa, reviewed measures to address the impact of “hostile Iranian aggression against the Kingdom of Bahrain.”[4]  \n   - This matters for Hamad’s influence because it underscores Bahrain’s continued hard‑line posture toward Iran and alignment with Gulf security partners, reinforcing the monarchy’s security‑state legitimacy but without any new, personally articulated initiative by Hamad himself.[4]\n\n2. **Reaffirmation of economic diversification and openness policy line (mid‑May 2026)**  \n   - In recent official meetings, Crown Prince Salman reiterated Bahrain’s commitment to economic diversification and openness as pillars of its development model.[2]  \n   - This matters for Hamad’s position because these long‑standing diversification and openness themes are core to the monarchy’s strategy to maintain regime stability and attract investment, but there is no evidence that Hamad personally launched new energy‑transition or economic‑statecraft measures during the last 7 days; the messaging is continuity rather than new initiative.[2]\n\nBecause no credible open sources in the last week report direct, new **energy market statecraft**, **transition contestation**, or **Global South realignment** moves by King Hamad himself, it would be misleading to fabricate discrete “items” attributed to him; current developments instead reflect ongoing policies executed and communicated mainly through the Crown Prince, cabinet, and security apparatus.[2][4]"
+    },
+    {
+      "name": "Abdullah II of Jordan",
+      "domain": "Head Of State, Jordan",
+      "raw_news": "1. **Phone call with Bahrain’s King on regional developments (26 May 2026)**  \n   - King Abdullah II held a phone call with Bahrain’s King Hamad bin Isa Al Khalifa to discuss current regional developments.[2]  \n   - This underlines his role as a **coordination hub among Gulf and Arab monarchies** on de‑escalation and regional alignment, reinforcing Jordan’s positioning as a stabilizing middle power within the wider Arab and Global South camp.[2]\n\n2. **Phone call with Oman’s Sultan on “comprehensive calm” (25 May 2026)**  \n   - King Abdullah II and Oman’s Sultan Haitham bin Tarik discussed regional developments and ways to achieve comprehensive calm in the region during a phone call.[2]  \n   - By synchronizing positions with traditionally neutral Oman, Abdullah II is **deepening a moderation axis** that can broker compromises between rival blocs and enhance Jordan’s weight in regional and Global South diplomacy.[2]\n\n3. **Phone call with Lebanon’s President on de‑escalation (24 May 2026)**  \n   - King Abdullah II and Lebanon’s President Joseph Aoun stressed the importance of supporting de‑escalation efforts in the region in a phone call.[2]  \n   - Engagement with a fragile frontline state like Lebanon allows Abdullah II to **project crisis‑management influence** and position Jordan as a key interlocutor between conflict zones and more stable Arab and Global South actors.[2]\n\n4. **Phone call with France’s President Macron on regional developments (24 May 2026)**  \n   - King Abdullah II and French President Emmanuel Macron discussed current developments in the region in a phone call.[2]  \n   - Direct coordination with a major EU power **raises Jordan’s profile as a bridge between Western capitals and the Arab/Global South**, giving Amman added leverage in debates over conflict resolution and regional order.[2]\n\n5. **Meeting with Venezuela’s Foreign Minister Yván Gil Pinto (24 May 2026)**  \n   - King Abdullah II received Venezuela’s foreign minister in Amman to discuss bilateral relations.[2]  \n   - High‑level engagement with a prominent Latin American Global South actor **signals Jordan’s intent to diversify partnerships beyond the West and the Gulf**, modestly expanding its diplomatic footprint in South–South alignments.[2]"
+    },
+    {
+      "name": "Vajiralongkorn",
+      "domain": "Head Of State, Thailand",
+      "raw_news": "There are no significant, well-documented hard-news developments involving King **Vajiralongkorn** in the specific period you requested (approximately 20–27 May 2026) in accessible open sources; recent coverage remains limited and largely routine or background rather than new events.[3][5]  \n\nBased on what *is* visible in recent reporting:\n\n1. **Ongoing concern over Princess Bajrakitiyabha’s health**  \n   - Several recent Thai and regional outlets continue to reference the prolonged critical condition of **Princess Bajrakitiyabha**, who has been hospitalized since late 2022, with occasional updates noting persisting serious health issues.[5]  \n   - This matters because uncertainty over the health of the king’s most senior and publicly active child keeps questions about the **medium‑term succession landscape** open, which affects perceptions of the monarchy’s stability and Vajiralongkorn’s dynastic leverage.[3][5]  \n\n2. **Continued behind-the-scenes role in political framework and constitutional monarchy**  \n   - Coverage of Thailand’s political scene over the past week continues to treat the **constitutional constraints and role of the monarchy**—shaped by Vajiralongkorn-era constitutional and legal changes—as a fixed parameter in party maneuvering and coalition politics, rather than reporting any new direct interventions.[3][5]  \n   - This matters because it underscores that Vajiralongkorn’s **earlier institutional moves** (e.g., consolidation of royal assets and influence over constitutional arrangements) still structure Thai politics, even in the absence of new public political statements.[3]  \n\n3. **Sustained focus on royal assets and Crown Property Bureau in economic commentary**  \n   - Recent economic and business commentary continues to note that significant Bangkok real estate and major corporate stakes remain under the **personal control of King Vajiralongkorn** via changes enacted since 2017, framing them as a structural feature of Thailand’s political economy rather than new policy.[2][3]  \n   - This matters because it highlights the king’s **enduring economic influence**, which gives the palace substantial leverage over Thailand’s financial and urban-development landscape even without fresh public initiatives.[2][3]  \n\nIf you want, I can broaden the time window (e.g., past 30 or 90 days) to surface concrete, dated events such as foreign visits, legal changes, or notable royal orders tied directly to Vajiralongkorn."
+    },
+    {
+      "name": "Paul Tudor Jones, II.",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "There do not appear to be any **hard-news developments specifically about Paul Tudor Jones II in the last 7 days** (roughly May 20–27, 2026) that meet your criteria of policy moves, major economic initiatives, or new significant public statements; coverage in this period is either older, generalized, or not time-stamped to this week.[1][2][3][5]\n\nBased on available sources:\n\n1. **Recent media presence is earlier in May, not within the last 7 days**  \n   - Paul Tudor Jones appeared on CNBC’s *Squawk Box* and *Squawk Pod* in early May 2026 discussing markets, AI, the U.S. economy, fiscal deficits, and the 2024 election, but these interviews are dated May 7 and May 16, i.e., outside your requested window.[2][3]  \n   - These interviews matter for his influence because they show he remains a high‑profile macro voice shaping market and policy sentiment, but they cannot be counted as news from the last 7 days.[2][3]\n\n2. **No new public policy or geopolitical actions identified in the last week**  \n   - Searches return background information on Paul Tudor Jones (his role at Tudor Investment and his founding of the Robin Hood Foundation) and portfolio/holding analyses, but no fresh policy interventions, lobbying moves, or official advisory roles dated to the May 20–27 window.[1][5][8]  \n   - This suggests that, in this period, he has not taken or announced actions that materially change his formal political or policy footprint.\n\n3. **No time-stamped major economic initiative or fund move tied to him in this window**  \n   - Portfolio tracking sites list his top holdings and strategy insights for May 2026 in general, but do not show a discrete, newsworthy transaction or launch in the past 7 days attributable to him personally (e.g., a new fund, major activist position, or large publicized trade).[1]  \n   - Without a clearly dated, event-style disclosure, these updates do not qualify as “hard news” affecting his influence or position in the way you define it.\n\nGiven your constraints (3–5 hard-news items, last 7 days, no routine appearances), the only rigorous answer is that **no qualifying, verifiable hard-news items about Paul Tudor Jones II have been reported in that specific period**. If you are open to extending the window to “this month” or to including early-May televised statements, those can be itemized and analyzed as significant public interventions."
+    },
+    {
+      "name": "Michael Bloomberg",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "There do not appear to be any significant hard-news developments involving **Michael Bloomberg** in the past 7 days that meet your criteria around global monetary order, financial architecture stress, or information ecosystem/narrative control.\n\nBased on news and media searches, recent coverage of Bloomberg in this period is either:  \n- background or archival material about his past political career and philanthropy[1][2], or  \n- general interviews and legacy content without new policy moves, major economic initiatives, or high-impact public interventions on global monetary or information-order issues[3][4][5].  \n\nBecause of that, I cannot identify 3–5 discrete, verifiable hard-news items in the last week that would materially shift his influence or position in those domains. If you like, I can instead provide a brief current-profile of Bloomberg’s standing and typical levers of influence in global finance and the information ecosystem, but that would be structural analysis rather than event-driven news from the requested time window."
+    },
+    {
+      "name": "Samia Suluhu Hassan",
+      "domain": "Head Of State, Tanzania",
+      "raw_news": "1. **Response to election-violence inquiry commission and framing of unrest**  \n   President Samia Suluhu Hassan publicly received the April 23 Commission of Inquiry report on the October 2025 election violence and stated that her government would create a body to investigate the alleged *planning, coordination, and financing* of the protests, while not addressing alleged abuses by security forces.[4]  \n   This matters because it signals that her administration is prioritizing narratives about opposition-linked unrest over security-sector accountability, which could undercut her reformist image in the Global South and weaken her moral authority in broader realignment debates.[4]\n\n2. **International criticism over handling of post‑election violence**  \n   Human Rights Watch on May 5 criticized Hassan’s handling of the commission’s findings, noting that the report documented at least 518 deaths in 11 regions but has not been made public and that the president did not commit to investigating security-force conduct.[4]  \n   This matters because sustained human-rights pressure may complicate her positioning as a moderate, investment-friendly leader in African and Global South forums, potentially shaping how partners in middle‑power coalitions engage with Tanzania.[4]\n\n3. **Consolidation of domestic mandate after contentious election**  \n   Coverage of Tanzania’s October 2025 general election in which Samia Suluhu Hassan was declared re‑elected with roughly 97–98 percent of the vote amid unrest and international observer concerns over transparency and violence has continued to frame the political context in which she is now governing.[1][4]  \n   This matters because a heavily contested yet overwhelming formal victory gives her a strong legal mandate at home but raises questions abroad about democratic credibility, affecting how influential she can be in advocating for Global South realignment grounded in governance and rule‑of‑law narratives.[1][4]"
+    },
+    {
+      "name": "Grand Imam Ahmed el-Tayeb",
+      "domain": "Egypt / Grand Imam of Al-Azhar",
+      "raw_news": "There are no verifiable, widely reported hard-news developments involving **Grand Imam Ahmed el‑Tayeb** in the specific window of roughly May 20–27, 2026; major international and regional outlets, as well as specialized monitoring of Egyptian and religious-affairs news, show no significant new policy moves, geopolitical interventions, or major public interventions from him in that period.\n\nBased on available information and monitoring:\n\n- Recent coverage of Ahmed el‑Tayeb in English over the last months focuses on his long‑term role as Grand Imam, his past interfaith initiatives (notably the 2019 Document on Human Fraternity with Pope Francis), and his standing as a leading Sunni authority, rather than on new, time‑bound actions in the last week.[1][2]  \n- No credible reports in this 7‑day window document new official **policy decisions**, **diplomatic missions**, **geopolitically salient statements**, or **institutional confrontations** involving Al‑Azhar that would materially shift his influence or position.  \n- Routine religious messaging (e.g., general Ramadan or holiday greetings, calls for solidarity, or standard sermons), when reported, falls outside your requested “hard news only” filter and does not meet the bar of a significant move affecting his power, alliances, or institutional role.[5]  \n\nGiven this, it would be misleading to fabricate 3–5 “significant” items for this week; the evidence indicates *no major new developments* about Ahmed el‑Tayeb’s influence or position in the specified period."
+    },
+    {
+      "name": "Javier Milei",
+      "domain": "Head Of State, Argentina",
+      "raw_news": "1. **Milei backs Brazil’s BRICS+ reserve-currency initiative while insisting on dollarization path for Argentina**  \n   In a joint statement after a virtual summit of South American leaders late last week, Javier Milei endorsed Brazil’s proposal to expand BRICS’ New Development Bank mandate toward a regional settlement currency, while reiterating that Argentina itself remains committed to internal dollarization and strict fiscal orthodoxy.[6][7]  \n   This matters because it signals that Milei is willing to plug Argentina into emerging Global South financial architectures as a *user* of alternative payment systems, while still positioning himself ideologically with the US dollar and liberal markets, giving him leverage both in BRICS-oriented fora and with Western creditors.[6][7]  \n\n2. **Buenos Aires quietly opens technical talks with IMF and BIS on using Argentina’s fiscal surplus to build a dollar liquidity backstop**  \n   According to briefings leaked to local financial press over the weekend, Milei’s economic team held exploratory calls with IMF staff and BIS officials on structuring part of Argentina’s new primary surplus into a precautionary dollar reserve facility to insure against global monetary tightening shocks.[1][4]  \n   This is important because it shows Milei trying to turn his domestic austerity gains into hard-currency firepower, which would strengthen his hand in any future debt negotiations and bolster his reputation in the Global South as a reformer capable of regaining market access without default.[1][4]  \n\n3. **Milei uses CPAC Budapest 2026 platform to attack EU “nanny state” and warn of Western monetary complacency**  \n   In a high-profile speech at CPAC Budapest, Milei denounced the European Union as a “nanny state” that has “lost growth, rule of law, and political credibility,” contrasting Europe’s stagnation with Argentina’s liberalization and warning that vote‑buying via subsidies and open borders is undermining fiscal and monetary stability.[3]  \n   This matters because he is branding himself as a leading Global South critic of Western dirigisme, which enhances his soft power among libertarian and conservative networks and positions Argentina as a poster child for market‑driven adjustment rather than the traditional IMF‑style conditionality narrative.[2][3]  \n\n4. **Government advances 2026 labor and capital‑flow reforms aimed at deepening financial liberalization**  \n   Milei’s administration has been working in recent days to line up governors and congressional allies behind an early‑2026 package that includes labor-market flexibilization and further deregulation of capital flows and trade as part of his broader macroeconomic consolidation strategy.[1][4]  \n   This is significant because, if passed, these reforms would lock in Argentina’s pivot toward a more open financial regime, reinforcing Milei’s message to global investors that the country is a reliable liberal outlier inside the Global South and a potential hub for dollar- and market-based integration.[1][4]  \n\n5. **Milei courts large-scale Global South and Western investment into lithium and energy under long-horizon liberal rules**  \n   Over the past week his government has stepped up promotion of the RIGI investment regime, highlighting more than USD 30 billion in announced lithium and copper projects and inviting additional Middle Eastern and Asian sovereign wealth funds into 30‑year tax‑ and regulation‑light deals.[1][7]  \n   This matters because anchoring cross‑bloc capital—Gulf, Asian, and Western—into Argentina’s resource base under liberalized terms both diversifies its external partners and increases Milei’s structural influence in debates over critical minerals, energy security, and the evolving Global South economic order.[1][7]"
+    },
+    {
+      "name": "Vladimir Potanin",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "I could not verify any **hard-news items from the past 7 days** on Vladimir Potanin from the provided results. The only clearly relevant material is a **UK family-law litigation update** about *Potanina v Potanin*, which is not a policy, geopolitical, military, sanctions, or economic-statecraft event and falls outside your “hard news only” filter.[1][2][3][4][5]\n\nWhat the search results do show is a **court case update**: the UK Supreme Court had previously dealt with procedural questions in *Potanina v Potanin*, and the case had a permission-to-appeal decision refused on 17 December 2025.[4] That matters for Potanin’s position only in a limited way, because it concerns **private legal exposure and asset claims**, not his influence in the NATO-Russia, sanctions, or energy arenas.[1][3][5]\n\nIf you want, I can do a second-pass roundup focused on **actual news in the last 7 days** for Potanin across sanctions, nickel/metals, Russia-linked business activity, and geopolitics."
+    },
+    {
+      "name": "Esmail Qaani",
+      "domain": "Iran / Commander of IRGC Quds Force",
+      "raw_news": "Available open-source reporting over the past week does **not** indicate any new, discrete public actions or statements by IRGC Quds Force commander **Esmail Qaani** himself; however, several developments directly implicate his portfolio and influence over the “Axis of Resistance,” especially in Iraq. Below are the most relevant items tied to his ongoing role and leverage.\n\n1. **Qaani’s Baghdad visit shapes Iraqi government formation and militia disarmament debate (reported May 10, still driving events through this week)**  \n   • Esmail Qaani traveled to Baghdad and met Shia Coordination Framework leaders and Iranian‑backed Iraqi militia commanders to press Tehran’s preferences on government formation, reportedly signaling Iranian “reservations” about Ali al Zaydi as prime minister‑designate due to perceived US support for him.[2]  \n   • This matters because Qaani is using coalition‑building and veto power over key Iraqi figures to preserve Iran’s control over Iraqi militias and state institutions, directly reinforcing Tehran’s authoritarian-aligned axis in Baghdad and constraining any US‑backed effort to disarm or dilute those militias.[2][3][6]\n\n2. **Emerging Iraqi plan to disarm Iranian‑backed militias challenges Qaani’s militia network (continuing through May 20–25)**  \n   • An Iraqi committee authorized by the Shia Coordination Framework is close to finalizing an “executive plan” to disarm Iranian‑backed militias, classify them in a database, and reintegrate them into state structures, while Framework factions are now openly split over a US proposal to dissolve or integrate the Popular Mobilization Forces (PMF).[3][6]  \n   • This matters because any real disarmament or integration would erode Qaani’s ability to use Iraqi militias as deniable instruments of regional pressure, forcing him and Tehran either to sabotage the process or to reconfigure their control mechanisms inside the Iraqi state.[2][3][6]\n\n3. **Iranian‑backed Iraqi militias resist disarmament and PMF integration, signaling alignment with Qaani’s line (May 22–25)**  \n   • The deputy head of the executive council of Harakat Hezbollah al Nujaba—an Iranian‑backed militia with PMF brigades—publicly rejected both disarmament and deeper integration of PMF units into the Iraqi security establishment, while some Shia Coordination Framework factions with armed wings threatened to leave the bloc if it supported US‑backed PMF dissolution.[1][6]  \n   • This matters because militia defiance underscores Qaani’s enduring influence over key Iraqi armed groups that prioritize Tehran’s strategic guidance over Baghdad’s, helping him preserve an ideologically loyal, authoritarian-aligned security architecture across Iraq.[1][2][6]\n\n4. **Iraqi federal committee formed to “investigate” militia drone attacks on Saudi Arabia and UAE, offering cover for Qaani’s external operations (reported May 22)**  \n   • The Shia Coordination Framework has reportedly decided to form a federal government committee to investigate a series of drone attacks from Iraq targeting the UAE and Saudi Arabia that were likely conducted by Iranian‑backed militias between May 17–19.[1]  \n   • This matters because framing cross‑border militia operations as subjects of internal Iraqi “investigation” allows Qaani’s Quds Force to continue using Iraqi proxies for regional coercion while shielding Tehran and allied militia leaders from direct accountability, consolidating an axis of authoritarian partners through plausible deniability.[1][3]\n\n5. **US pressure on PMF and militias intensifies, sharpening Qaani’s contest with Washington over Iraq’s security order (through May 20–25)**  \n   • A US proposal now under debate in the Shia Coordination Framework pushes for disarming Iranian‑backed militias and dissolving or integrating the PMF into formal Iraqi structures, as Washington simultaneously tightens sanctions on foreign entities supplying Iran’s missile and drone programs.[3][6]  \n   • This matters because the US effort directly targets Qaani’s two core levers—regional proxy forces and precision weapons networks—forcing him to invest more in political manipulation in Baghdad and in deepening ties with authoritarian partners like Russia and the PRC to maintain the Quds Force’s regional coercive capacity.[3][4]"
+    },
+    {
+      "name": "Haitham bin Tarik Al Said",
+      "domain": "Head Of State, Oman",
+      "raw_news": "No significant hard news specifically centered on **Sultan Haitham bin Tarik Al Said** in the last 7 days appears in open-source reporting; recent coverage of Oman in that window either does not mention him directly or concerns routine governance and economic data rather than new high‑impact moves.\n\nOver roughly the last few months, however, there are a few structurally important developments he directly drove that are still shaping his influence in the energy/statecraft and middle‑power realignment space; if you are willing to extend slightly beyond the 7‑day window, these are the most relevant:\n\n1. **Major government and economic governance restructuring via a package of Royal Decrees (January 2026)**  \n   • Sultan Haitham issued **16 Royal Decrees** that, among other things, created the **Office of the Deputy Prime Minister for Economic Affairs**, established the **Oman Global Financial Centre**, restructured key ministries (economy, education, social development), amended the **Oman Investment Authority (OIA)** system, and reshaped the **Council of Ministers** and top economic appointments.[4]  \n   • This centralizes economic and investment decision‑making under the royal court and his heir‑apparent, tightening Haitham’s control over Oman's long‑term development path and energy-transition investment strategy, thereby reinforcing his leverage as a **middle power** positioning Oman as a more agile financial and logistics hub in Gulf and Global South alignments.[4]\n\n2. **Strengthening centralized sovereign investment and energy-transition capacity (ongoing through OIA reforms)**  \n   • Through Royal Decree 16/2026, Haitham amended the system of the **Oman Investment Authority**, including providing for two deputy chairmen for investment and operations and appointing senior figures to these posts, while consolidating state‑owned companies and investment policy under OIA.[4]  \n   • By concentrating control over state assets and investment channels, including those linked to hydrocarbons, infrastructure, and renewables, Haitham expands his ability to direct capital into energy‑transition projects and strategic partnerships with Gulf, Asian, and wider Global South partners, enhancing Oman's weight in regional energy‑market statecraft.[4]\n\n3. **Reconfiguration of economic leadership around his son, the Deputy Prime Minister for Economic Affairs**  \n   • Haitham’s decrees formally appoint his son, **Sayyid Theyazin bin Haitham**, as **Deputy Prime Minister for Economic Affairs**, making him the key political node for economic, investment, and financial‑centre policy.[4]  \n   • This move both secures dynastic succession and aligns economic diplomacy—trade, investment, and energy‑related deals—with the royal family’s strategic vision, giving Haitham a coherent channel to project Omani preferences in regional realignment debates while reassuring partners about continuity.[4][5]\n\nBecause no new, clearly non‑routine foreign‑policy, energy, or geopolitical decisions by Sultan Haitham have been reported in the specific period you specified, there are no additional items from the last 7 days that meet your “hard news” and significance criteria."
+    },
+    {
+      "name": "Bidzina Ivanishvili & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No significant new hard-news developments specifically involving **Bidzina Ivanishvili or his family** have been reported in the last 7 days that meet your criteria (policy decisions, new sanctions, concrete geopolitical moves, major economic initiatives, or fresh strategic statements) along the NATO–Russia confrontation arc. Available coverage in this period largely re‑amplifies earlier events rather than adding new ones.\n\nGiven that, here are the most *recently active* items that remain directly relevant to his influence on the NATO–Russia confrontation space, even though they are older than 7 days (included so you have the latest meaningful moves rather than an empty list):\n\n1. **U.S. sanctions on Bidzina Ivanishvili for aiding Russian interests (April 2024)**  \n   – The U.S. government designated Ivanishvili under Executive Order 14024, accusing him of **undermining Georgia’s democratic and Euro‑Atlantic trajectory for the benefit of the Russian Federation**, freezing any U.S. assets and prohibiting U.S. persons from dealing with him directly.[3]  \n   – This materially constrains his Western financial and political room for maneuver and signals that Washington now publicly frames him as an actor advancing Russian influence in a key NATO–Russia frontier state.[3]\n\n2. **Return to formal frontline politics as Honorary Chairman of Georgian Dream (December 2023)**  \n   – Ivanishvili formally returned to the political stage as **Honorary Chairman** of ruling party Georgian Dream, describing himself as the party’s new “center of gravity,” at a televised party congress.[1]  \n   – This cemented his role as Georgia’s de facto power center at a time when the country’s orientation between NATO/EU and Russia is contested, increasing his ability to shape policies that may distance Tbilisi from Euro‑Atlantic integration and align more closely with Moscow’s preferences.[1][3]\n\n3. **Consolidation of an authoritarian model and crackdowns on opponents (analysis through 2025–26, no new wave in last week)**  \n   – Analytical pieces and media coverage over the past year describe a pattern in which Ivanishvili’s system uses security services and selective prosecutions against both opposition and former allies, reinforcing a regime where “loyalty offers no protection” and political dissent is systematically constrained.[2][4]  \n   – This entrenched model reduces internal checks on any future pro‑Russian or anti‑NATO policy shifts, making Georgia’s strategic course more dependent on Ivanishvili’s personal calculus and less on pluralistic democratic debate.[2][4][5]\n\nIf you want, I can narrow this further to strictly 2026‑dated items as they emerge, or track specifically for any new sanctions, asset moves, or formal foreign‑policy steps linked to him over the coming weeks."
+    },
+    {
+      "name": "Daniel Noboa",
+      "domain": "Head Of State, Ecuador",
+      "raw_news": "I found **one clearly relevant hard-news item** in the provided results from the last week; the rest are either older context, opinion-heavy, or not specific enough to count as distinct news events in your window.[1][3][4]\n\n- **Noboa publicly defended deeper U.S. involvement in Ecuador’s anti-crime campaign**, saying American support can work so long as it respects Ecuadorian law and that Ecuador’s military should remain in the lead.[3]  \n  This matters because it signals a **geopolitical alignment choice** that can expand Noboa’s security toolkit while also exposing him to domestic criticism over sovereignty.\n\n- **Noboa claimed measurable security gains and macroeconomic stability in a recent interview**, citing a **16% drop in homicides**, a **25% drop in common crimes**, **4% growth**, and inflation below **2%**.[3]  \n  This matters because he is using crime reduction and economic performance to **justify his authority and reinforce his governing mandate**.\n\n- **Noboa tied security efforts to a broader state-and-market agenda**, arguing that operations against drug trafficking are helping restore stability while the government pushes investment-friendly policies.[3][1]  \n  This matters because it strengthens his position as a **strongman reformer** and connects his anti-crime strategy to his economic credibility with investors.\n\n- **There is ongoing domestic backlash over Noboa’s consolidation of power and civil-liberties record**, including disputes involving the press, courts, and civil society.[1]  \n  This matters because it can **erode institutional legitimacy** and create friction that limits how far he can push his agenda.\n\n- **He remains associated with an aggressive internal-security model that includes curfews and emergency-style measures** as part of the fight against organized crime.[1]  \n  This matters because it underscores that his political strength is still heavily tied to **security politics**, which can boost popularity while deepening concerns about democratic backsliding.\n\nIf you want, I can do a stricter pass and return **only items that are explicitly dated within 2026-05-20 to 2026-05-27**."
+    },
+    {
+      "name": "Charlene de Carvalho-Heineken & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "There are no reports of any major policy decisions, economic initiatives, public statements, or other hard-news events involving **Charlene de Carvalho-Heineken or her family** in the last week; coverage focuses on her standing as Heineken’s controlling shareholder and her net worth, not on new actions.[1][2][3][4]\n\nThe most recent material in reputable business and news databases over the past several days relates only to:\n- Her role as **largest shareholder and effective controller of Heineken/Heineken Holding via L’Arche Green** and the current valuation of that stake, which is updated continuously in billionaire indices but does not reflect a discrete action or event.[3]  \n- Static or periodically updated **profiles of her wealth and influence** (Forbes/Bloomberg-style entries), again without any associated announcement or move in the last 7 days.[2][3][4]\n\nBecause there are no discrete, time-stamped developments (such as a new strategic decision at Heineken, a governance change in L’Arche Green, a major acquisition or divestment tied to the family, or public political/diplomatic interventions) reported in the 20–27 May 2026 window, it is not possible to list 3–5 “significant news” items that meet your hard‑news criteria."
+    }
+  ],
+  "ps_assemblies_fired": {
+    "PS-05": [
+      "CA-200",
+      "CA-071",
+      "CA-133",
+      "CA-014",
+      "CA-120"
+    ],
+    "PS-07": [
+      "CA-285",
+      "CA-322",
+      "CA-169"
+    ],
+    "PS-08": [
+      "CA-027",
+      "CA-006",
+      "CA-063"
+    ],
+    "PS-01": [
+      "CA-029",
+      "CA-017",
+      "CA-178"
+    ]
+  },
+  "assemblies_spontaneous": [
+    "CA-057",
+    "CA-309"
+  ],
+  "neurons_conscious": [
+    "Ilya Sutskever",
+    "Reed Hastings",
+    "Fred Smith",
+    "Ursula von der Leyen",
+    "João Lourenço",
+    "Vladimir Lisin",
+    "Alisher Usmanov",
+    "Rafaela Aponte-Diamant",
+    "Recep Tayyip Erdoğan",
+    "Volodymyr Zelenskyy"
+  ],
+  "neurons_spontaneous": [
+    "Pope Francis (Jorge Mario Bergoglio)",
+    "Edir Macedo & family",
+    "Charles Schwab",
+    "François Pinault & family",
+    "Hamad II of Bahrain",
+    "Abdullah II of Jordan",
+    "Vajiralongkorn",
+    "Paul Tudor Jones, II.",
+    "Michael Bloomberg",
+    "Samia Suluhu Hassan",
+    "Grand Imam Ahmed el-Tayeb",
+    "Javier Milei",
+    "Vladimir Potanin",
+    "Esmail Qaani",
+    "Haitham bin Tarik Al Said",
+    "Bidzina Ivanishvili & family",
+    "Daniel Noboa",
+    "Charlene de Carvalho-Heineken & family"
+  ],
+  "neurons_skipped": [
+    "Xi Jinping",
+    "Donald Trump",
+    "Vladimir Putin",
+    "Li Qiang",
+    "Ali Khamenei",
+    "Salman bin Abdulaziz Al Saud",
+    "Scott Bessent",
+    "Mark Rutte",
+    "Cai Qi",
+    "Kazuo Ueda",
+    "Mohammed Bin Zayed Al Nahyan",
+    "Jerome Powell",
+    "Tahnoun bin Zayed Al Nahyan",
+    "Zhang Youxia",
+    "Mohan Bhagwat",
+    "Mark Zuckerberg",
+    "Amancio Ortega",
+    "Pan Gongsheng",
+    "Johann Rupert & family",
+    "Elon Musk",
+    "Subrahmanyam Jaishankar",
+    "Claudia Sheinbaum",
+    "Christopher Cavoli",
+    "Marco Rubio",
+    "Wang Yi",
+    "Satya Nadella",
+    "C.C. Wei",
+    "Pete Hegseth",
+    "Sundar Pichai",
+    "Igor Sechin",
+    "Pony Ma (Ma Huateng)",
+    "Christophe Fouquet",
+    "Ren Zhengfei",
+    "Yoweri Museveni",
+    "Robin Zeng",
+    "Hibatullah Akhundzada",
+    "Alexander Lukashenko",
+    "Ivan Glasenberg",
+    "Larry Fink",
+    "Luiz Inácio Lula da Silva",
+    "Tamim bin Hamad Al",
+    "Valery Gerasimov",
+    "Abigail Johnson",
+    "Jay Y. Lee",
+    "Stanley Druckenmiller",
+    "Rupert Murdoch & family",
+    "Ayatollah Ali Khamenei",
+    "Prabowo Subianto",
+    "Kim Jong-un",
+    "Mathias Cormann",
+    "Ajay Banga",
+    "Christine Lagarde",
+    "Shavkat Mirziyoyev",
+    "Charles Koch & family",
+    "Yuri Kovalchuk",
+    "Kristalina Georgieva",
+    "Henry Kravis",
+    "Khaldoon Khalifa Al Mubarak",
+    "António Guterres",
+    "Andrei Belousov",
+    "Bill Gates",
+    "Lisa Su",
+    "Tim Cook",
+    "Yuri Kovalchuk & family",
+    "Sergei Lavrov",
+    "Nikolai Patrushev",
+    "Droupadi Murmu",
+    "Jensen Huang",
+    "Bernard Arnault & family",
+    "Sam Altman",
+    "Ilham Aliyev",
+    "Gautam Adani",
+    "Abdel Fattah el-Sisi",
+    "Cristiano Amon",
+    "Mustafa Suleyman",
+    "Demis Hassabis",
+    "Joseph Tsai",
+    "Jeff Bezos",
+    "Frank-Walter Steinmeier",
+    "Larry Ellison",
+    "Frederik X of Denmark",
+    "Rupert Johnson, Jr.",
+    "Cyrus Poonawalla",
+    "Vladimir Bogdanov",
+    "Richard Liu",
+    "Klaus-Michael Kuehne",
+    "Thomas Pritzker",
+    "Tadashi Yanai & family",
+    "Bongbong Marcos",
+    "William Alexander of the Netherlands",
+    "Félix Tshisekedi",
+    "Eric Yuan & family",
+    "Ken Griffin",
+    "Kumar Birla",
+    "Bola Ahmed Tinubu",
+    "Jose Roberto Marinho",
+    "Alessandra Galloni",
+    "Wang Chuanfu",
+    "Jim Walton & family",
+    "Olivier Bouygues",
+    "Patrick Collison",
+    "Hakainde Hichilema",
+    "Francoise Bettencourt Meyers & family",
+    "Elvira Nabiullina",
+    "Warren Buffett",
+    "Ma Huateng",
+    "Tô Lâm",
+    "Jamie Dimon",
+    "Andrew Bailey",
+    "Leonid Mikhelson & family",
+    "Zhang Yiming",
+    "Larry Page",
+    "Ray Dalio",
+    "Morris Chang",
+    "Mukesh Ambani",
+    "Marc Andreessen",
+    "Paul Singer",
+    "David Rubenstein",
+    "Li Ka-shing",
+    "Len Blavatnik",
+    "Vincent Bolloré & family",
+    "Ismail Omar Guelleh",
+    "Sunil Mittal",
+    "Taye Atske Selassie",
+    "Petr Pavel",
+    "Luis Abinader",
+    "Edward Johnson, IV.",
+    "Marc Benioff",
+    "Savitri Jindal & family",
+    "David Bonderman",
+    "Stephen Feinberg",
+    "Safra Catz",
+    "Hamad bin Jassim bin Jaber Al Thani",
+    "Sergey Brin",
+    "Grand Ayatollah Ali al-Sistani",
+    "Robin Li",
+    "Eric Schmidt",
+    "Shen Haixiong",
+    "Tedros Adhanom Ghebreyesus",
+    "Russell M. Nelson",
+    "Martin Lau",
+    "Mohammed VI of Morocco",
+    "William Ackman",
+    "Charles III",
+    "Gennady Timchenko",
+    "Lai Ching-te",
+    "William Ruto",
+    "Pavel Durov",
+    "Melinda French Gates",
+    "Jorge Paulo Lemann & family",
+    "Serdar Berdimuhamedow",
+    "Masayoshi Son",
+    "Michael Dell",
+    "Euisun Chung",
+    "Margarita Louis-Dreyfus & family",
+    "George Roberts",
+    "Salva Kiir Mayardit",
+    "Leon Black",
+    "Anthony Bamford & family",
+    "Theo Albrecht, Jr. & family",
+    "Rodolphe Saadé",
+    "Jonathan Gray",
+    "Karl Albrecht Jr. & family",
+    "MacKenzie Scott",
+    "Sheikh Abdulaziz bin Abdullah Al ash-Sheikh",
+    "Miriam Adelson & family",
+    "Michael Froman",
+    "Leo XIV",
+    "Stephen Schwarzman",
+    "Germán Larrea Mota Velasco & family",
+    "Daniela Amodei",
+    "Terry Gou",
+    "Shah Karim al-Husayni (Aga Khan IV)",
+    "John Malone",
+    "Evan Spiegel",
+    "Dhanin Chearavanont",
+    "Hasso Plattner & family",
+    "Alassane Ouattara",
+    "Cindy McCain",
+    "Laurene Powell Jobs & family",
+    "Thomas Frist, Jr. & family",
+    "Dieter Schwarz",
+    "Gianluigi Aponte",
+    "Donald Horton & family",
+    "Paul Kagame",
+    "Alexander Karp",
+    "Stefano Pessina",
+    "Arkady Rotenberg",
+    "Abdelmadjid Tebboune",
+    "Emmerson Mnangagwa",
+    "Rob Walton & family",
+    "Hassanal Bolkiah I of Brunei",
+    "Asif Ali Zardari",
+    "Aziz Akhannouch & family",
+    "Sergio Mattarella",
+    "Brian Roberts",
+    "Naruhito",
+    "Ngozi Okonjo-Iweala",
+    "Iris Fontbona & family",
+    "Emmanuel Macron",
+    "Carlos Slim Helu & family",
+    "Patriarch Kirill (Vladimir Gundyayev)",
+    "Gustavo Petro",
+    "Gabriel Boric",
+    "Julia Koch & family",
+    "Ricardo Salinas Pliego & family",
+    "Dario Amodei",
+    "Alain Wertheimer",
+    "Oleg Deripaska",
+    "Pierre Omidyar",
+    "Gina Rinehart",
+    "Andrew Forrest & family",
+    "Hiroshi Mikitani",
+    "Onkar Kanwar",
+    "Isaias Afwerki",
+    "Anthony Wood",
+    "Patrick Drahi",
+    "Antonio Del Valle Ruiz & family",
+    "Susanne Klatten",
+    "Travis Kalanick",
+    "Marijke Mars",
+    "Kim Kardashian",
+    "Gong Hongjia & family",
+    "Jayshree Ullal",
+    "Miuccia Prada",
+    "Antony Ressler",
+    "Andrei Guryev & family",
+    "Ronald Lauder",
+    "Howard Marks",
+    "Mochtar Riady & family",
+    "Micky Arison",
+    "Reinhold Wuerth & family",
+    "Wang Jianlin",
+    "Bassirou Diomaye Faye",
+    "William Ding",
+    "Aneel Bhusri",
+    "Nandan Nilekani",
+    "Mark Suzman",
+    "Fang Hongbo",
+    "Lim Kok Thay",
+    "Wang Xing",
+    "Alfredo Harp Helu & family",
+    "Adi Godrej",
+    "John Doerr",
+    "Liu Hanyuan",
+    "William Lauder",
+    "Nassef Sawiris",
+    "Steve Ballmer",
+    "Cyril Ramaphosa",
+    "Riley Bechtel & family",
+    "Brice Clotaire Oligui Nguema",
+    "Kais Saied",
+    "Phil Knight & family",
+    "John Mars",
+    "Yuri Milner",
+    "Karol Nawrocki",
+    "Prajogo Pangestu",
+    "Daniel Ortega",
+    "Thaksin Shinawatra",
+    "Uday Kotak",
+    "Xiang Guangda",
+    "Andrej Babis",
+    "Lei Jun",
+    "Sheryl Sandberg",
+    "Faisal Bin Qassim Al Thani",
+    "Jeff T. Green",
+    "Charles Liang",
+    "Jiang Rensheng & family",
+    "Liu Yongxing",
+    "Hansjoerg Wyss",
+    "Aliko Dangote",
+    "Changpeng Zhao"
+  ],
+  "spontaneous_cap": 18
+}

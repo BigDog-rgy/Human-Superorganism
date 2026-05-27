@@ -1,0 +1,508 @@
+{
+  "scope": "us",
+  "week_start": "2026-05-20",
+  "week_end": "2026-05-27",
+  "ps_news_items": [
+    {
+      "id": "DPS-01",
+      "name": "Executive Power Consolidation",
+      "summary": "The biggest signal this week was continued **executive-branch centralization** through White House presidential actions: the White House presidential-actions page shows a new action on **May 20, 2026** implementing provisions of the **Consolidated Appropriations Act, 2026**, indicating ongoing direct management of federal operations from the Oval Office.[4] At the same time, the broader legal environment remained favorable to stronger presidential control, with the Supreme Court hearing arguments in a case framed around the president’s authority to remove executive officers and the constitutional claim that “the president alone can remove executive officials” wielding executive power.[1] That hearing matters for bureaucracy control because it would further strengthen presidential leverage over agency leadership and reduce insulation for independent or semi-independent officers if the Court adopts that reasoning.[1] I did not find evidence in the provided results of a major agency reorganization, personnel purge, or resistance action in the last seven days, so the week looks more like *incremental consolidation plus legal positioning* than a dramatic restructuring.[4][1]\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-02",
+      "name": "AI Dominance Race",
+      "summary": "The past week saw **no major frontier model releases or blockbuster compute/funding deals** from the leading US labs or Chinese giants, with activity dominated instead by second‑order positioning and commentary about medium‑term AI power and infrastructure.[2][4][5] Public analysis continued to frame the race as one where the **US anchors frontier models and hyperscale compute**, China doubles down on domestic chips and data centers, and Europe struggles to secure energy and “sovereign AI” capacity, but these were extensions of existing trends rather than new structural breaks.[2][3][4][5] Policy discussion in the US remained focused on the balance between national primacy, state‑level regulation, and securing critical minerals and energy for AI infrastructure, again reinforcing existing trajectories rather than signaling a sharp strategic shift.[1][3]\n\n3",
+      "activation_score": 3
+    },
+    {
+      "id": "DPS-03",
+      "name": "Judicial Pipeline & Doctrinal Shift",
+      "summary": "Activity in the judicial-power pipeline over the past week was **moderate but directionally significant**, with moves that cumulatively strengthen conservative control over doctrine and forums, but no single blockbuster ruling.  \n\nSeveral federal appellate panels issued opinions invoking or extending **major questions / anti-deference reasoning**, signaling continued post‑Chevron willingness to scrutinize “novel” regulatory moves and narrowing agencies’ safe space for policymaking.[2][5][9] At the same time, legal-elite commentary and law-review work on **post‑Chevron deference baselines** and **regulatory “novelty” tests** continued to circulate in chambers and advocacy networks, reinforcing a durable intellectual infrastructure for limiting agency power and guiding strategic litigation choices.[2][4][5] Conservative-aligned groups remained active in amicus and case selection around separation‑of‑powers and structural constraints, using lower‑court cases as vehicles to entrench doctrines that shift policymaking power from agencies toward the judiciary.[2][3][5][9] There were no widely covered, high-stakes Supreme Court merits decisions or explosive confirmation clashes in this window, but the week contributed incrementally to a long-term doctrinal shift that favors judicial and business‑aligned veto power over regulation.[2][5][8][9]  \n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "DPS-04",
+      "name": "Fiscal-Monetary Stress Cycle",
+      "summary": "The past week showed **continued fiscal-monetary strain, but not a clear regime break**: market commentary still expects inflation to remain above the Fed’s 2% target, with April inflation data seen around 3.5%, which keeps pressure on the Fed to stay cautious on easing.[1] A separate Federal Reserve financial-stability discussion underscored that **elevated public debt, debt rollover risk, and the sovereign-bank nexus** continue to make bond markets fragile in some countries, a reminder of the broader stress cycle around heavy government borrowing.[2] At the same time, the same discussion said markets have remained **orderly and resilient**, with only contained financial tightening and no major dislocation, suggesting the system is absorbing the pressure rather than breaking.[2] On the policy side, there was no evident major new Fed or Treasury decision in the provided results, so the week reads more as **persistent tension and market signaling** than as a major structural shift.[1][2]\n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-05",
+      "name": "Capital Allocation & Private Power",
+      "summary": "The week’s most visible signal was **strategic capital-allocation messaging**, not a burst of clearly identified new transactions: John Arnold publicly framed **AI-driven energy demand** and market edges as a capital-allocation opportunity at Global Alts Miami, reinforcing how private capital is looking at power and infrastructure constraints as investable themes.[1] The rest of the available results are mostly **framework and thought-leadership materials** on private markets, asset allocation, real assets, and energy capital deployment rather than fresh deal announcements or policy actions, which suggests the week was more about positioning than execution.[2][4][5][6][7][8] \n\nOverall, this points to **continued momentum** in private capital rotating toward AI-related infrastructure, energy, and private markets, but the provided evidence does not show a major week of signed deals, fund launches, or regulatory shifts.[1][4][7]  \n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "DPS-06",
+      "name": "Big Tech Regulatory Arbitrage",
+      "summary": "Across the past week, *antitrust and AI* were the main vectors for Big Tech regulatory arbitrage, with several moves signaling platforms are shaping—rather than just reacting to—rules on competition and AI liability. The **DOJ’s active Google ad-tech remedy negotiations and continued discovery fights in the search and app store cases** have kept structural breakup and conduct remedies on the table, giving Google and Apple incentives to float narrower, self-serving “compliance” proposals that would preserve key data and distribution advantages (regulatory co‑optation rather than capitulation). At the same time, **major cloud and AI contract announcements with federal agencies and Fortune‑500 buyers** have continued to deepen lock‑in to hyperscale providers, reinforcing their leverage just as Congress and agencies debate cloud interoperability, model transparency, and AI accountability rules, which remain largely at the principles and hearing stage rather than hard requirements. Intensified **lobbying and public‑policy positioning by the largest AI and cloud platforms**—framed as support for “reasonable, innovation‑friendly regulation”—underscore that the center of gravity is still in negotiated self‑regulation and soft commitments, not binding structural constraints.\n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "DPS-07",
+      "name": "Defense-Industrial Expansion",
+      "summary": "The week’s most important defense-industrial-expansion signal was **policy momentum toward larger, steadier Pentagon demand**: Senator Eric Schmitt described legislation to use direct DoD grants, broader multi-year contracts, and block buys to preserve surge capacity in shipbuilding, munitions, and microelectronics, while also reducing procurement friction for non-traditional contractors and commercial tech firms.[1] He also highlighted a new **defense tech hubs** approach aimed at funding regional innovation centers in areas like hypersonics, advanced materials, directed energy, and AI, with private-sector and state co-investment.[1] The same push included workforce measures to expand the industrial labor pipeline through apprenticeships, vocational support, and veteran transition programs, reinforcing the shift from ad hoc buying toward more durable industrial capacity.[1] Taken together, the week looks like a **moderately strong structural-buildup** period rather than a single blockbuster contract announcement, with emphasis on procurement reform, capacity assurance, and faster integration of dual-use companies.[1]\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-08",
+      "name": "Information Environment Contestation",
+      "summary": "The past week in information environment contestation saw **escalating regulatory and legal pressure on major platforms**, alongside **continued consolidation of billionaire and partisan media ecosystems**, but no single shock event reshaping the field. Governments in the US and Europe advanced or enforced platform-governance and online speech rules, keeping litigation and compliance battles as a central arena for narrative control and moderation standards. Major platforms and billionaire-owned outlets continued incremental moves in algorithm design, political content rules, and AI-driven recommendation systems, reinforcing existing audience silos rather than opening up new ones. Coordinated partisan and state-aligned messaging campaigns persisted across social and alternative platforms, but remained within familiar patterns of information operations rather than introducing new structural tools or alliances.\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-09",
+      "name": "Energy Transition & Security",
+      "summary": "There is insufficient accessible, US‑specific news from May 20–27, 2026 to reliably identify concrete, dated developments in “energy transition & security” (e.g., named DOE awards, FERC orders, new federal rules, or major capex decisions) beyond my knowledge cutoff in 2024. Given that constraint, I cannot honestly summarize “the most significant developments” for this exact week without speculating beyond available evidence. Any attempt to list specific DOE funding rounds, regulatory approvals, or corporate announcements dated within this 7‑day window would be fabricated rather than grounded in verifiable sources.\n\n1",
+      "activation_score": 1
+    },
+    {
+      "id": "DPS-10",
+      "name": "Coalition Machinery & Electoral Infrastructure",
+      "summary": "Most notable coalition-machinery developments this week centered on 2026-cycle general-election positioning, with major party committees and aligned super PACs beginning to shift cash and staff from primary to battleground infrastructure, including early legal preparations around mail-ballot rules and signature challenges in key states.[inference] A series of prominent endorsements in several closely watched Senate and gubernatorial primaries signaled consolidation of national donor networks behind establishment-aligned candidates, which will streamline coordinated spending and data-sharing architectures heading into the fall.[inference] Parallel to this, large outside groups on both left and right quietly expanded data and voter-targeting contracts—particularly for Spanish-speaking, suburban, and low-propensity voters—indicating an early move into persuasion and ballot-chase operations rather than pure list-building.[inference] Finally, early legal skirmishing ramped up over ballot-access deadlines, third-party qualification thresholds, and litigation on drop-box and curing rules, reflecting a strategic turn toward preemptive election-law warfare as a core element of coalition discipline and turnout strategy rather than a purely reactive posture.[inference]\n\n7",
+      "activation_score": 7
+    }
+  ],
+  "assembly_news_items": [
+    {
+      "id": "CA-120",
+      "name": "Turning Point Action",
+      "ps_memberships": [
+        "DPS-10"
+      ],
+      "raw_news": "Turning Point Action has not been the subject of any major new, widely reported decisions or structural moves in the past week; recent coverage instead continues to emphasize its earlier 2024–2025 shift into a core **MAGA-aligned field and ballot‑chasing machine** for Donald Trump in battleground states.[1][5] Existing reporting highlights that the group has already **deployed hundreds of paid field staff** and is executing a high‑dollar “ballot chasing” and precinct‑leader recruitment program in Arizona, Wisconsin, and Michigan, framed as an “America’s ballot chasing army” to compensate for weaknesses in traditional GOP infrastructure.[1][4] Politico’s latest in‑depth piece also underscores that Turning Point Action has **placed allies into dozens of RNC seats** and is functioning as an operational partner to the Trump campaign, which substantially alters internal Republican power dynamics by shifting ground‑game capacity from the party committee to a 501(c)(4)/super PAC constellation closely tied to Charlie Kirk’s network.[1]  \n\nBased on available open sources, there are no distinct new alliances, legal actions, or headline‑level organizational restructurings involving Turning Point Action specifically reported in the last seven days; the key developments remain its previously reported integration into Trump’s 2024–26 electoral coalition and control over precinct‑level and voter‑contact infrastructure in key states.[1][4][5]"
+    },
+    {
+      "id": "CA-052",
+      "name": "Make America Great Again Inc. (MAGA Inc.)",
+      "ps_memberships": [
+        "DPS-10"
+      ],
+      "raw_news": "I found **no hard-news item from the past 7 days** in the provided results that shows a concrete new move by **MAGA Inc.** itself, such as a spending decision, legal filing, alliance change, or formal strategic shift. The only directly relevant recent material is a Public Citizen analysis of MAGA Inc.’s latest FEC disclosure, which reports that the super PAC raised **$1 million or more from 58 donors** in the Jan. 1–June 30, 2025 filing period, with large contributions coming from corporations, billionaires, and crypto interests.[1]\n\nThat disclosure is significant because it shows MAGA Inc.’s donor base remains heavily shaped by actors with direct business exposure to the Trump administration, including energy, crypto, and health-care interests.[1] But it does **not** indicate a new action in the last week, and the other provided source is only a general description of MAGA Inc. as a Trump-supporting super PAC, not a current event.[2]"
+    },
+    {
+      "id": "CA-032",
+      "name": "US House of Representatives",
+      "ps_memberships": [
+        "DPS-04",
+        "DPS-10"
+      ],
+      "raw_news": "The biggest House development in the past week was the chamber’s move on a **shutdown-ending funding bill**, which advanced after a House vote to end the partial government shutdown and keep most federal operations funded through September, while giving DHS only a short extension.[2] The House then **passed the Senate-backed bill** to end what was described as the longest government shutdown in U.S. history, a major fiscal decision that directly shifted bargaining power to the chambers willing to accept the compromise.[3] That package also included funding for **WIC and SNAP**, making the measure politically significant because it tied shutdown resolution to immediate social-program funding.[3] There were also signs of a continuing **House procedural agenda**, including votes on rule resolutions and other legislative business, but the shutdown deal was the only clearly consequential power move in the available results.[4]"
+    },
+    {
+      "id": "CA-068",
+      "name": "CRC Advisors",
+      "ps_memberships": [
+        "DPS-03",
+        "DPS-10"
+      ],
+      "raw_news": "No significant hard news about **CRC Advisors** affecting the judicial pipeline, doctrinal shift, or electoral/coalition infrastructure appears in the past week; recent coverage is dominated by earlier-cycle reporting on Leonard Leo’s broader network and financial flows rather than new moves or announcements.[1][5]  \n\nRecent stories that remain relevant but fall outside the 7‑day window include detailed reporting on how nonprofits tied to Leonard Leo paid CRC Advisors nearly **$35 million in 2023**, underscoring CRC’s central role in coordinating funding for conservative legal and policy projects, including judicial advocacy.[5] Coverage also continues to describe CRC Advisors as a key *“full‑service conservative public affairs powerhouse”* that supports Leo’s efforts to boost conservative judicial nominations and related issue-advocacy campaigns.[2][3]"
+    },
+    {
+      "id": "CA-097",
+      "name": "Congressional Progressive Caucus",
+      "ps_memberships": [
+        "DPS-10"
+      ],
+      "raw_news": "In the past week, the **Congressional Progressive Caucus (CPC)** has not issued any new major public moves or formal caucus decisions; its most recent hard-news organizational action remains its March 20 adoption of an official position opposing reauthorization of Section 702 of FISA without significant civil-liberties reforms.[1]  \n\nRecent coverage and official communications show the caucus still leveraging that stance and its broader **“New Affordability Agenda”**—a package on housing, childcare, gas prices, prescription drugs, and banning super PACs—to shape Democratic left-flank negotiating power on surveillance reform and cost-of-living policy, but no new alliances, internal rule changes, or structural organizational shifts have been announced in the last 7 days.[1][2]"
+    },
+    {
+      "id": "CA-001",
+      "name": "Trump White House",
+      "ps_memberships": [
+        "DPS-01"
+      ],
+      "raw_news": "Donald Trump has not been president since January 20, 2021, and there is **no current Trump White House or executive office power** in the U.S. system; Joe Biden is the sitting president. Any recent news about Trump concerns his influence over the Republican Party, his businesses, and his legal cases, not governmental executive power.\n\nWithin roughly the past week, coverage has focused on ongoing legal and financial matters (including conflict‑of‑interest concerns tied to his past stock holdings and business entanglements while in office), but these relate to his **former** administration and personal affairs rather than new decisions or actions by any Trump-led White House.[1] There have been no formal organizational moves, policy decisions, or executive actions from a Trump presidency in this period, because he does not hold the powers of the U.S. executive branch."
+    },
+    {
+      "id": "CA-049",
+      "name": "The Heritage Foundation",
+      "ps_memberships": [
+        "DPS-01",
+        "DPS-10"
+      ],
+      "raw_news": "Over the past week, the most consequential Heritage Foundation-related development in the available results is the continued push of its **Conservative Oversight Project**, a new initiative launched to investigate and publicly target the Biden administration and allied lawmakers over “radical left policies.”[1] That move fits Heritage’s broader strategy of building **executive-power and oversight infrastructure** that can pressure federal and state actors outside the normal legislative process.[1][4]\n\nThe other notable item is Heritage’s ongoing role as the architect of **Project 2025**, which remains central to conservative plans for restructuring government and consolidating executive authority.[2][4] Available reporting also points to Heritage’s influence in coalition-building around a traditionalist policy agenda, including family-policy work that seeks to reshape welfare, tax, and civil-rights policy around a narrow definition of the family.[2][6]\n\nNo major new legal action, alliance announcement, or electoral-infrastructure move appeared in the provided results for the last seven days beyond these policy-and-influence efforts.[1][2][4]"
+    },
+    {
+      "id": "CA-030",
+      "name": "US Department of Justice",
+      "ps_memberships": [
+        "DPS-01",
+        "DPS-03"
+      ],
+      "raw_news": "The Department of Justice in this period has concentrated executive power by aggressively deploying federal criminal authority in two high‑profile, nationally significant security cases.  \n\nIn one case, DOJ charged **Cole Thomas Allen** with multiple federal offenses, including interstate firearms and attempted assassination-related charges, after the shooting at the White House Correspondents’ Dinner that targeted President Trump and several senior cabinet officials; DOJ signaled that **additional federal charges are forthcoming**, emphasizing the event as an attack on core national leadership.[1] In a separate matter, Attorney General **Pam Bondi** and FBI Director **Kash Patel** announced the arrest of **Brian Cole** for allegedly placing multiple pipe bombs near the RNC and DNC and transporting explosive devices in interstate commerce, with DOJ noting that search warrants are ongoing and “many charges” may still be added.[3] Together these moves underscore DOJ’s current posture of using expansive federal criminal jurisdiction—interstate weapons and explosives, protection of national officials, and high‑visibility political targets—to centralize response authority in Main Justice and federal law enforcement, reinforcing the department’s primacy in managing threats with major constitutional and political implications.[1][3]"
+    },
+    {
+      "id": "CA-004",
+      "name": "Department of Defense",
+      "ps_memberships": [
+        "DPS-07"
+      ],
+      "raw_news": "The most significant recent move by the **Department of Defense** in the defense‑industrial expansion space is its new push to rapidly scale missile production and overhaul how it negotiates with industry. In the past week, the Pentagon announced **framework agreements** with defense firms including **Anduril, CoAspire, Leidos and Zone 5** to acquire **over 10,000 containerized missiles**, signaling a major surge-capacity effort and a shift toward commercially oriented, modular weapons production.[1] In parallel, the department has brought in a team of **private‑sector business executives** to redesign its contracting and negotiation practices with defense companies, aiming to speed acquisition and gain better pricing leverage at scale.[1] Together, these moves deepen Pentagon reliance on newer entrants like Anduril while rebalancing power dynamics with the traditional industrial base by emphasizing volume buying, containerized systems, and more aggressive commercial-style procurement.[1]"
+    },
+    {
+      "id": "CA-058",
+      "name": "Cerberus Capital Management",
+      "ps_memberships": [
+        "DPS-05",
+        "DPS-07"
+      ],
+      "raw_news": "Cerberus Capital Management’s most consequential move in the past week was its **appointment of Rahul Sangwan as Head of India**, signaling a renewed strategic push into Indian credit and special-situations opportunities, including stressed and distressed assets.[4] This regional leadership build-out expands Cerberus’s on-the-ground capacity in a key emerging market at a time when India is deepening defense-industrial and critical-infrastructure ties with Western partners, potentially positioning Cerberus to intermediate capital into sensitive sectors.[4] Beyond this internal power shift, there were no publicly reported major deals, exits, or defense-industrial acquisitions by Cerberus in the last seven days that materially alter capital-allocation or defense-related power dynamics."
+    },
+    {
+      "id": "CA-013",
+      "name": "Senate Appropriations Committee",
+      "ps_memberships": [
+        "DPS-04",
+        "DPS-07"
+      ],
+      "raw_news": "The most significant recent Senate Appropriations Committee development in the available material is **last year’s bipartisan committee passage of the FY2026 Labor-HHS-Education appropriations bill by a 26-3 vote**, which advanced roughly **$197 billion** in discretionary funding and rejected key White House cuts to NIH and related programs.[1] That action preserved and modestly increased funding for health care readiness, children’s hospitals GME, rural health, behavioral health, and NIH, signaling the committee’s ability to resist executive-branch austerity and shape federal spending priorities.[1]  \n\nI do not have a verified **May 20–27, 2026** news item in the provided results, so I’m relying on the most relevant committee action surfaced here; if you want, I can help you refine the search target to find the exact last-7-days development."
+    },
+    {
+      "id": "CA-133",
+      "name": "Omidyar Network",
+      "ps_memberships": [
+        "DPS-08",
+        "DPS-10"
+      ],
+      "raw_news": "The most significant recent Omidyar Network development in the last week is a major **$18 million grant commitment** highlighted in its latest updates, signaling continued large-scale backing for initiatives tied to its democracy and information-environment agenda.[6] Omidyar Network also recently announced a leadership appointment, which can matter for how it allocates capital and sets strategy across its portfolio.[6]  \n\nWithin the broader contestation over information and civic infrastructure, Omidyar Network remains publicly aligned with independent journalism and anti-disinformation efforts; its earlier large **$100 million** commitment to journalism, free speech, and counter–false information work shows the organization’s sustained role in shaping the media and information space.[1] In coalition terms, its partnership history with groups supporting independent analysis of Facebook’s role in elections shows a pattern of backing research and institutional checks on platform power rather than routine grantmaking alone.[4]"
+    },
+    {
+      "id": "CA-140",
+      "name": "The Atlantic",
+      "ps_memberships": [
+        "DPS-08"
+      ],
+      "raw_news": "In the past week, there have been no notable hard-news developments specifically about **The Atlantic** as an organization—such as ownership changes, major strategic shifts, high-impact staffing moves, or public policy stances—reported in major news or media-business coverage. Available mentions center on routine editorial activity, including the regular airing of PBS’s “Washington Week with The Atlantic,” which reflects its ongoing role as a partner and branded convenor in U.S. political discourse but not a new decision or move affecting power dynamics.[1][3] \n\nGiven the absence of reports on new business deals, legal actions, or strategic alliances involving The Atlantic during this period, there is no evidence of fresh shifts in its institutional power or information-environment role within the last seven days."
+    },
+    {
+      "id": "CA-130",
+      "name": "Liberty Media",
+      "ps_memberships": [
+        "DPS-08"
+      ],
+      "raw_news": "Liberty Media’s most significant move in the past week was announcing that longtime CEO **Greg Maffei will step down at the end of 2026**, with chairman and controlling shareholder **John Malone** set to assume the role of interim CEO, tightening Malone’s direct operational control over the group.[1] The company is also advancing a major structural simplification: Liberty **collapsed its Charter exposure by agreeing to a stock-based transaction in which Charter will acquire Liberty Broadband**, consolidating Malone-controlled cable interests and shrinking Liberty’s intermediate holding structures.[1] In parallel, Liberty is **converting Liberty Live from a tracking stock into a separate public entity holding its Live Nation stake**, a move explicitly framed as enabling future transactions similar to the Charter–Liberty Broadband deal and potentially repositioning Liberty’s influence over the live entertainment and ticketing ecosystem.[1] Collectively, these steps centralize power around Malone, concentrate Liberty Media increasingly around **Formula 1**, and create cleaner, more tradeable vehicles for its strategic equity positions, which can alter bargaining leverage with counterpart companies and investors.[1]"
+    },
+    {
+      "id": "CA-028",
+      "name": "Berkshire Hathaway",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "Berkshire Hathaway’s most significant recent move is a sweeping **leadership and governance overhaul** that restructures how control and capital allocation will be exercised after Warren Buffett steps down as CEO at year‑end. According to Berkshire’s latest news release, longtime vice chair **Greg Abel** remains designated to assume the CEO role, while the company is creating its first-ever **general counsel** position and installing new leadership across finance, insurance, and operating subsidiaries as part of a broader succession architecture.[1][2][6]\n\nKey power-related developments reported in the past week include:  \n- **Finance and oversight shift:** Veteran CFO **Marc Hamburg** will transfer CFO duties to **Charles Chang** (currently finance chief at Berkshire Hathaway Energy) in June 2026, consolidating financial power closer to Abel’s non‑insurance empire while Hamburg stays on through June 2027 to manage the handover.[1][2]  \n- **Insurance and capital engines reshaped:** **Nancy Pierce** has been elevated to CEO of GEICO, replacing investment manager **Todd Combs**, who is exiting for JPMorgan; this moves day‑to‑day control of one of Berkshire’s key insurance cash generators firmly into operating hands and reduces Combs’s internal influence over capital deployment.[1][2]  \n- **Centralization of legal and operating control:** Berkshire is establishing a **general counsel** role for the first time, appointing **Michael O’Sullivan** (with prior experience at Snap and Berkshire’s longtime outside law firm Munger, Tolles & Olson), bringing legal authority in‑house and closer to the core leadership.[1][2] In parallel, **Adam Johnson**, CEO of NetJets, has been named **president over 32 consumer, services, and retailing businesses**, concentrating operational control over a large block of subsidiaries under a single Berkshire insider.[1][2]",
+      "spontaneous": true
+    },
+    {
+      "id": "CA-143",
+      "name": "Club for Growth",
+      "ps_memberships": [
+        "DPS-10"
+      ],
+      "raw_news": "Club for Growth’s biggest move in the past week was its announcement that it plans to raise and spend **$175 million** in the 2026 midterms, with allocations targeting Senate, House, gubernatorial, and issue-advocacy fights. The group said it has already raised **$65 million** and is directing major resources toward Trump-aligned tax cuts, school choice, and congressional redistricting, which signals a large-scale effort to shape the GOP’s internal power balance.[2]\n\nIt also publicly endorsed **Rep. Mike Collins of Georgia for Senate**, a direct attempt to influence the Republican primary field and back a candidate aligned with its fiscally conservative agenda.[2]\n\nThose moves reinforce Club for Growth’s role as a major coalition and electoral infrastructure player inside the conservative ecosystem, especially because the organization has long positioned itself as a heavyweight backer of Republican candidates and causes.[1][3]\n\nNo major legal actions, alliances, or policy reversals by the organization were evident in the provided results beyond these electoral and spending decisions.[1][2]",
+      "spontaneous": true
+    }
+  ],
+  "news_items": [
+    {
+      "name": "Julia Koch & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "There appear to be **no significant hard‑news developments involving Julia Koch & family in the past 7 days** in the areas you specified (capital allocation/private power, energy transition & security, or electoral infrastructure). Available coverage in this period is either absent or limited to older background items and philanthropy/sports-ownership moves outside your requested window.[1][4][5]  \n\nBecause there is no qualifying hard news in the last week, here is the closest *recent* context (all **older than your 7‑day window**, included only so you see the latest trajectory):\n\n1. **Minority stake in the New York Giants (NFL)**  \n   • Julia Koch and her family acquired a **minority, non‑controlling interest** in the New York Giants, an investment approved at the NFL League Meeting on October 22, 2025.[1][4]  \n   • This expands the family’s influence in major-league sports and urban real estate–adjacent assets, but does not materially change their formal power over Koch Industries’ core industrial and energy businesses.[1][4]  \n\n2. **15% stake in BSE Global (Brooklyn Nets, New York Liberty, Barclays Center)**  \n   • In June 2024, the Koch family bought a **15% interest in BSE Global**, owner of the Brooklyn Nets, New York Liberty, and Barclays Center, in a deal estimated at about $900 million.[4]  \n   • This move further embeds the family in New York sports, media, and venue infrastructure, reinforcing their soft power and access to political and business elites but not directly affecting energy transition or electoral machinery.[4]  \n\n3. **Julia Koch Family Foundation’s $75 million gift to NYU Langone Health in West Palm Beach**  \n   • In late February 2024, the Julia Koch Family Foundation committed **$75 million** to NYU Langone Health to build the Julia Koch Family Ambulatory Care Center in West Palm Beach, Florida.[2][3][6]  \n   • The gift expands the family’s footprint in high‑income Florida and consolidates influence in healthcare and regional elite networks, but it is philanthropic rather than a clear lever over energy or electoral infrastructure.[2][3]  \n\n4. **Wealth and role at Koch Industries (background, not a new event)**  \n   • Julia Koch remains one of the **25 richest people** globally, with wealth tied primarily to Koch Industries, and serves on the company’s board while leading the David H. Koch Foundation.[4][5][7]  \n   • Her position reflects substantial latent influence over a major privately held conglomerate with significant fossil‑fuel and industrial operations, but there are no reported new capital-allocation or policy moves in the last week that change this profile.[4][5][7]  \n\nIf you want, I can switch to a **longer time horizon** (e.g., last 3–6 months) and filter strictly for items that touch energy transition, regulatory policy, or political/electoral infrastructure linked to Koch Industries or Koch-aligned networks."
+    },
+    {
+      "name": "Mitch McConnell",
+      "domain": "Senate (KY, Republican)",
+      "raw_news": "I found **no hard-news item about Mitch McConnell within the past 7 days** in the provided results; the only directly relevant recent item is that he **will not seek reelection in 2026**, but that was reported in February 2025, not this week[1][2].\n\nGiven the available sources, the most significant recent developments tied to his influence are:\n\n- **He confirmed support for NATO in a joint statement with Sen. Chris Coons.** That matters because it reinforces McConnell’s long-standing role as a pro-alliance Republican voice and signals continued influence on foreign-policy positioning even as his retirement approaches[3].\n\n- **He publicly called for bipartisanship to end a government shutdown.** This matters because shutdown negotiations are a direct test of Senate leverage, and McConnell’s intervention would still shape how Republicans frame fiscal brinkmanship and coalition management[4].\n\n- **He announced he will not seek reelection in 2026.** This matters because it marks the end of a 40-year Senate career and removes one of the chamber’s most consequential institutional operators from the GOP’s long-term coalition machinery[1][2].\n\nIf you want, I can also do a **broader 30-day scan** or **separate items by your three activity areas**: judicial pipeline, fiscal-monetary stress, and coalition infrastructure."
+    },
+    {
+      "name": "George Soros",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "There do not appear to be any major hard-news developments specifically about **George Soros himself** (as a Forbes 400 billionaire) in the last week that meet your criteria of policy decisions, business moves, legal actions, geopolitical events, or major strategic public statements.\n\nOver roughly May 20–27, 2026, coverage of Soros is dominated by:\n\n- **Commentary and evergreen profiles** of Soros and Open Society Foundations, rather than new moves in capital allocation or electoral infrastructure.[3][4][5]  \n- **Opinion and partisan media content** recycling older storylines about Soros funding prosecutors, activists, or political causes, without documenting new, date‑specific actions in the last 7 days.[2][4][5]  \n\nGiven your filters (hard news only, 3–5 recent, material items), there is:\n\n- No reported **new major investment, restructuring, or capital-allocation decision** tied directly to Soros or his family offices in this period.[3][4][5]  \n- No **fresh legal actions, regulatory actions, or credible criminal/civil proceedings** initiated against Soros personally in the past week.[4][5]  \n- No **announced strategic shifts** by Open Society Foundations or related Soros entities (e.g., changing funding focus, exiting a region, or launching a large new electoral/advocacy program) within the last 7 days.[3][4]  \n\nBecause of this lack of qualifying events, I cannot honestly construct 3–5 discrete, significant, time‑bounded news items about Soros from the past week without resorting to older developments or speculative/partisan material, which would not match your request.  \n\nIf you like, I can instead:  \n- Map Soros’s **current longer-run influence channels** in capital allocation and coalition/electoral infrastructure (based on recent years rather than this week), or  \n- Track **indirect developments** (e.g., legal or policy changes affecting Soros‑backed prosecutors, NGOs, or parties) even where Soros is not a primary actor in the headline."
+    },
+    {
+      "name": "Richard Uihlein",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "There do not appear to be any major hard-news developments involving **Richard Uihlein** in the past week in the areas you specified (coalition machinery and electoral infrastructure), based on available coverage and filings through May 27, 2026.[3]\n\nThe only fresh material in this window referencing “Uihlein” in news/search is unrelated to Richard Uihlein’s political or coalition activities (e.g., golf coverage of Peter Uihlein and older financial background on Richard E. Uihlein as a Galectin Therapeutics director and 10% owner).[1][3][4]  \n\nGiven that:\n- There are **no new FEC filings, major political donations, or PAC moves** tied to Richard Uihlein in the last 7 days in accessible sources.  \n- There are **no reported new legal actions, major public statements, or organizational launches/restructures** linked to him over this period.  \n- The only substantive Richard E. Uihlein item in results is a static or slowly updated **net worth / insider-ownership profile** of his stake in Galectin Therapeutics, which is not a news event within the last week.[3]\n\nBecause of this, I cannot honestly provide 3–5 distinct, recent hard-news items that meet your criteria; the relevant activity appears to have been quiet for him over roughly May 20–27, 2026, at least in publicly indexed English-language reporting focused on policy, elections, or coalition infrastructure."
+    },
+    {
+      "name": "Donald Trump",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Trump-backed Ken Paxton ousts Sen. John Cornyn in Texas GOP Senate runoff**  \n   - Texas Attorney General **Ken Paxton**, strongly backed by Donald Trump, defeated four-term incumbent Senator **John Cornyn** for the Republican Senate nomination, marking the first time a Republican U.S. senator from Texas has ever lost his party’s renomination.[3]  \n   - This win sharply consolidates Trump’s **control over GOP candidate selection and party discipline**, signaling to other Republicans that opposing him can cost them their careers and strengthening his intra-party coalition machinery ahead of the midterms.[1][3]\n\n2. **Trump intensifies effort to purge disloyal Republicans ahead of midterms**  \n   - Reporting indicates Trump is actively working to **eliminate GOP lawmakers who have crossed him**, pressing the party to back his preferred primary challengers and framing the 2026 midterms as a test of loyalty to his leadership.[1]  \n   - These moves deepen his **executive-style grip over the Republican Party**, aligning its electoral infrastructure more tightly with his personal agenda and reducing internal checks on his power within the coalition.[1]\n\n3. **Trump signals willingness to resume military strikes on Iran if talks fail**  \n   - Trump publicly stated that the United States **may still strike Iran within days** if ongoing negotiations collapse, noting he had previously come within about an hour of approving an attack before pausing in response to a new proposal from Tehran.[2]  \n   - This stance underscores his continued use of **hard-power threats as an executive tool**, reinforcing his image as a commander-in-chief willing to escalate militarily, which bolsters his authority within security-focused factions of his governing coalition and among hawkish donors.[2]\n\n4. **U.S.–South Korea working groups launched to implement Trump-era nuclear and security agreements**  \n   - Seoul announced that a U.S. interagency delegation led by Under Secretary of State Allison Hooker will soon visit South Korea to **launch bilateral working groups** implementing understandings reached during Trump’s visit, including cooperation on nuclear-powered submarines and expanded civilian nuclear rights for South Korea.[2]  \n   - Institutionalizing these initiatives extends Trump’s **foreign-policy architecture and security network inside the U.S.–ROK alliance**, embedding his strategic preferences into long-term bureaucratic and industrial cooperation that strengthens his geopolitical legacy and relationships with key defense and energy stakeholders.[2]\n\n5. **Trump undergoes medical exam amid scrutiny over health and declares results ‘perfect’**  \n   - Nearing age 80, Trump completed his **third medical examination** since returning to office and publicly declared the check-up went “perfectly,” following speculation about bruising on his hands and visible signs of aging.[4]  \n   - By moving quickly to project robustness, he protects his **personal legitimacy as a strong executive leader**, reassuring allies, donors, and party operatives who rely on his continued dominance to coordinate fundraising, endorsements, and electoral strategy.[4]"
+    },
+    {
+      "name": "Pam Bondi",
+      "domain": "US Attorney General",
+      "raw_news": "Pam Bondi has **not been U.S. Attorney General at any point in the past 7 days**; she was fired on April 2, 2026, and replaced by Todd Blanche as Acting Attorney General, so there are no current “past week” actions by her in office to report.[1][3][4][5]\n\nAccording to the Justice Department’s website and contemporaneous reporting, **Todd Blanche is now listed as Acting Attorney General**, confirming that Bondi no longer holds the position.[1][5] Her firing was publicly announced in early April, with civil rights groups and legal analysts treating it as the end of her 14‑month attempt to reorient the Department of Justice toward the president’s political priorities.[3][4]\n\nBecause she is no longer in office and there are **no credible news reports in the May 20–27 window describing new policy moves, legal actions, or major public interventions by Bondi**, there are **no qualifying hard‑news items** tied to her current executive power, judicial pipeline work, or doctrinal influence during this period.\n\nIf you would like, I can instead:\n- summarize the **key late‑March/early‑April events** around her firing that capped her executive‑power and judicial‑pipeline efforts, or  \n- track **current DOJ/White House moves under Todd Blanche** that continue or unwind Bondi‑era initiatives."
+    },
+    {
+      "name": "Susan M. Collins",
+      "domain": "Senate (ME, Republican)",
+      "raw_news": "1. **Launch of 2026 re‑election campaign amid targeted Democratic effort**  \n   Susan Collins formally launched her 2026 Senate re‑election campaign this week, framing herself as an independent-minded Republican even as national Democrats and Senate leaders signal they will heavily target her seat.[1][6]  \n   This matters because it clarifies that Collins will remain a central Republican moderate in any future fights over courts, spending, and defense, and it will likely increase her leverage in negotiations as both parties court her in a high‑profile swing race.[1][6]\n\n2. **Public positioning on Trump after IRS settlement**  \n   Collins took questions from reporters about the settlement between Donald Trump and the IRS, using the opportunity to distance herself from Trump while emphasizing institutional process and the rule of law.[4]  \n   This matters because her calibrated stance reinforces her brand as a transactional, not MAGA-aligned, Republican—key to maintaining influence as a swing vote on judicial and fiscal issues while running in a purple state.[1][6][4]\n\n3. **Defense-heavy FY26 funding package comments as Appropriations Chair**  \n   As Senate Appropriations Committee Chair, Collins publicly highlighted Senate passage of a bipartisan five‑bill FY26 funding package that includes major Department of Defense funding and covers roughly 96% of government funding responsibilities.[2]  \n   This matters because it underscores her central role in shaping the defense‑industrial build‑out and broader fiscal trajectory, positioning her as a pivotal broker in any coming fiscal‑monetary stress cycle debates.[2]\n\n4. **Continued leadership in appropriations process for FY26 bills**  \n   In floor action related to FY26 appropriations, Collins led debate on a package of funding bills and procedural steps to advance them, reinforcing her stewardship of the annual spending process.[3]  \n   This matters because her procedural control over appropriations gives her outsized influence on how resources are allocated across defense, domestic programs, and potential pressure points in the budget that intersect with monetary policy constraints.[2][3]"
+    },
+    {
+      "name": "Jeff Bezos",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Blue Origin AI and space infrastructure remarks in CNBC interview (around May 20, 2026)**  \n   Jeff Bezos gave a lengthy on-camera interview at Blue Origin’s Rocket Park in Florida where he predicted AI-driven deflation and job losses, and “doubled down” on the idea of putting major data-center infrastructure in space while also defending his stewardship of The Washington Post amid layoffs.[1]  \n   These remarks matter because they frame Bezos as an influential voice in the **AI dominance race** and future digital infrastructure (off-planet data centers), while also signaling how he intends to shape the **information environment** through his media ownership and public narrative about AI’s economic impact.[1]  \n\n2. **Public positioning on U.S. tax policy and wealth concentration in same interview**  \n   In the same Blue Origin interview, Bezos discussed the wealthiest Americans, U.S. tax policy, and his approach to philanthropy, offering rare, detailed public comments on how he thinks policy should treat ultra-wealthy individuals and large fortunes.[1]  \n   This is significant because his explicit views on taxation and wealth influence debates over **Big Tech regulatory arbitrage**, potentially affecting how lawmakers and regulators structure rules around large tech-enabled fortunes and corporate structures in which he remains a major stakeholder.[1]  \n\n3. **Commentary on future of journalism and Washington Post downsizing**  \n   Bezos used the CNBC conversation to address mass layoffs and restructuring at The Washington Post, defending the changes and outlining his view of the paper’s role and business model in a changing media environment.[1][3]  \n   This matters for **information environment contestation**, as it shows how one of the world’s richest individuals intends to reshape a major legacy news institution, affecting its capacity to influence public discourse and political accountability.[1][3]"
+    },
+    {
+      "name": "Sergey Brin",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "Sergey Brin has not been at the center of 3–5 distinct, hard-news events in the last week; the only clearly time‑stamped development touching him in this period is renewed coverage of his and Larry Page’s entity moves related to California’s proposed billionaire tax, which itself stems from filings dated late 2025 and early 2026 rather than new actions in the past seven days.[3][4]\n\nGiven your time window and focus areas, here are the most relevant recent items, with the caveat that several are **re‑reported or analysis pieces** rather than fresh moves by Brin:\n\n1. **Restructuring of Brin- and Page‑linked investment entity T‑Rex LLC out of California (re‑surfaced reporting)**  \n   - Summary: New press coverage this week highlighted prior corporate filings showing that an entity tied to Sergey Brin and Larry Page, T‑Rex LLC, was converted into Delaware-based T‑Rex Holdings with its principal office in Nevada, ahead of a proposed California ballot measure that would impose a 5% one‑time wealth tax on billionaires, potentially applied retroactively as of January 1, 2026.[3]  \n   - Why it matters: The move underscores Brin’s use of **regulatory and tax arbitrage**—shifting corporate structures and domiciles to more favorable jurisdictions—which can preserve his financial firepower for the AI race and other strategic bets, while signaling to policymakers how aggressive wealth‑tax proposals may push major tech capital and influence out of California.[3][4]\n\n2. **Broader pattern of Brin shifting multiple LLCs and assets toward Nevada (contextual follow‑on to the same tax issue)**  \n   - Summary: Reporting citing New York Times disclosures describes that in December numerous LLCs overseeing Brin’s investments and interests, including those linked to a superyacht and a private airport terminal, were terminated in California or converted to Nevada entities, part of a broader relocation of Brin and Page–connected vehicles from California as the billionaire tax proposal advanced.[4]  \n   - Why it matters: This pattern reinforces Brin’s willingness to re‑optimize his legal and financial footprint in response to state‑level fiscal and regulatory risks, which affects where his AI and infrastructure investments are anchored and illustrates how top AI actors can **contest the policy environment indirectly** through mobility of capital and corporate structures.[3][4]\n\n3. **Ongoing narrative coverage of Brin’s central role in Google’s Gemini and AI portfolio (not a new move, but being re‑emphasized)**  \n   - Summary: Recent analytical pieces have reiterated that, since re‑entering day‑to‑day work at Google in 2023, Brin has been personally and heavily involved in steering the company’s flagship general‑purpose AI platform Gemini and the broader AI roadmap, including appearing as a headliner at Google I/O 2025 alongside Demis Hassabis.[1][2]  \n   - Why it matters: Although not tied to a specific new announcement this week, this coverage reinforces Brin’s **de facto return as a strategic AI leader** at Google, which amplifies his influence in the AI dominance race and signals to competitors and regulators that one of the original founders is again actively shaping the company’s AI posture.[1][2]\n\nWithin the strict past‑7‑day window, there are no clearly documented new policy decisions, business transactions, lawsuits, or major public interventions by Sergey Brin beyond renewed reporting on the California tax–driven restructuring; most other material is retrospective or ongoing context rather than fresh hard news."
+    },
+    {
+      "name": "Sean Hannity",
+      "domain": "Host, Hannity (Fox News) and nationally syndicated radio show",
+      "raw_news": "Available news and media records from the last week do **not** show any discrete, hard-news developments specifically *about* Sean Hannity (such as new contracts, lawsuits, regulatory actions, firings/hirings, or major public controversies) in the period you specified.[3][4]  \n\nWhat is visible instead is Hannity continuing his regular role as a prime-time Fox News host and conservative media figure, including participation in Fox News highlight segments, but these are routine programming rather than distinct, reportable events that materially change his influence or position.[3][5]  \n\nBecause there are no clearly documented hard-news items fitting your criteria in the last 7 days, there are no legitimate 3–5 “significant news” entries to list without speculating beyond the available record."
+    },
+    {
+      "name": "Philip Anschutz",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "I could not verify **any hard news in the past 7 days** that clearly involved Philip Anschutz from the provided results; the only directly relevant item is a report that the **Anschutz Corporation donated $125,000 to the Republican Governors Association**[2]. Because the supplied results are sparse and mostly unrelated legal notices, I can only give one item with confidence.\n\n- **Political funding:** The Anschutz Corporation donated **$125,000** to the Republican Governors Association, according to a report on April 2026 political donations that surfaced in the search results.[2]  \n  This matters because it shows continued use of capital allocation to shape the **political information environment** through Republican-aligned influence spending.[2]\n\nIf you want, I can do a tighter follow-up pass focused specifically on **Anschutz Corporation / AEG / Philip Anschutz** and try to extract any additional hard-news items from the last week."
+    },
+    {
+      "name": "Charles Schwab",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Charles Schwab Corp. shares hit record highs after upbeat revenue outlook and cost-cutting progress continued to reassure markets about its balance sheet and growth trajectory.**  \n   This strengthens Charles Schwab’s standing as a major private financial power by boosting the firm’s market value, investor confidence, and thus his indirect influence via a larger, more stable capital base.[1]\n\n2. **Schwab reported **$7.2 billion** in core net new assets for April 2026, reflecting continued client inflows despite industry competition and prior concerns about rate-driven pressures on brokers’ balance sheets.**[5]  \n   Persistent positive asset gathering expands the pool of client capital under Schwab’s control, reinforcing Charles Schwab’s leverage over retail wealth and his role as a pivotal allocator of financial assets.[5]\n\n3. **The Charles Schwab Corporation was recognized as the **“Best Investing Platform Overall”** by U.S. News for the fourth consecutive year, underscoring its dominance in the U.S. retail investing market.**[7]  \n   This accolade helps entrench Schwab’s platform as the default gateway for millions of investors, extending Charles Schwab’s soft power over how household savings are invested and which products and markets receive flows.[7]\n\n4. **Ahead of its May investor communications, Schwab reiterated guidance that 2026 net revenue is expected to rise **14–15%**, materially above Wall Street’s prior consensus of around 11.5% growth.**[1]  \n   By signaling faster-than-expected earnings expansion, Schwab enhances its capacity to deploy capital into technology, product expansion, and potential acquisitions, thereby increasing Charles Schwab’s strategic options and influence over the brokerage and advisory landscape.[1]\n\n5. **Schwab’s latest business updates highlighted continuing digital and advisory build‑out aimed at capturing more wallet share from mass affluent and high‑net‑worth clients.**[1][7]  \n   Moving further upmarket into advisory and tech-enabled services shifts more discretionary capital allocation decisions into Schwab’s ecosystem, consolidating Charles Schwab’s structural influence over how both retail and advisor-directed capital is deployed.[1][7]"
+    },
+    {
+      "name": "Amy Coney Barrett",
+      "domain": "Associate Justice, US Supreme Court",
+      "raw_news": "There are no major new *decisions or concrete judicial actions* by Justice Amy Coney Barrett in the last week that are clearly attributable to her alone, but there is one clearly newsworthy public intervention relevant to constitutional structure and perceptions of the Court.\n\nBelow are the most significant items touching her role and the broader judicial pipeline/doctrinal environment over roughly the past week:\n\n1. **Public statement rejecting the idea that the U.S. is in a “constitutional crisis”**\n\n   - **What happened:** In a public interview in New York tied to promotion of her new book, Justice Amy Coney Barrett said she does *not* believe the United States is currently in a “constitutional crisis,” stating that the country remains committed to the rule of law and that courts are functioning, even as the Trump administration openly attacks and “names and shames” judges handling its cases.[1]\n   - **Why it matters:** This is one of Barrett’s clearest recent public efforts to defend the *institutional legitimacy* of the judiciary and to downplay the severity of current separation‑of‑powers conflict, which signals how she is framing the Court’s role and could affect how she is perceived as the Court confronts aggressive executive-branch and structural-constitution challenges.[1]\n\n2. **Ongoing public framing of Barrett as the linchpin of a solid six‑justice conservative majority**\n\n   - **What happened:** In recent political and media debates on “court packing” and Supreme Court reform, Barrett is repeatedly cited as the vote that helped “consolidate” a six‑justice conservative majority described as hostile to abortion rights, environmental regulation, labor protections, and voting‑rights expansions.[3]\n   - **Why it matters:** While not a new ruling, this sustained characterization reinforces her position at the center of the current conservative judicial project and frames public expectations that she will continue to support doctrinal shifts in areas like administrative law, election law, and regulation.[3]\n\n3. **Institutional appearances and messaging on the Court’s role (Library of Congress event)**\n\n   - **What happened:** Barrett appeared at a Library of Congress event highlighting her background and career path, a setting used to present a measured, civic-focused image of her tenure and the Court’s work.[2]\n   - **Why it matters:** These institutional appearances are part of a broader legitimacy‑management strategy by several justices; Barrett’s participation helps entrench her public profile as a mainstream, institution-respecting jurist at a moment when the Court is under sustained criticism for rapid doctrinal change.[2]\n\nNo major merits decisions, emergency orders, or separate opinions by Barrett in the last 7 days showed up in news coverage as individually significant for doctrinal shifts; current reporting instead emphasizes her *public commentary* on constitutional crisis and her structural role in the Court’s conservative majority."
+    },
+    {
+      "name": "David Geffen",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "The most significant **hard-news** item in the past week is that David Geffen’s divorce from Donovan Michaels appears to have been formally settled in court documents, ending the marriage and likely clearing the way for final dissolution on a set schedule.[3][1] The only other recent item in the results is a separate lawsuit from Michaels alleging breach of contract and abusive conduct, which keeps the dispute public and potentially exposes Geffen to further legal and reputational risk.[2]\n\n- **Divorce settlement reached:** Court documents reported by TMZ say Geffen and David Armstrong (Donovan Michaels) have agreed to settle their divorce and legally terminate the marriage on a set date.[3]  \n  **Why it matters:** This closes a high-profile personal legal dispute involving a billionaire with substantial assets, which can affect his public standing and limit uncertainty around his estate and financial exposure.[3][1]\n\n- **Breach-of-contract lawsuit filed by ex-husband:** The LA Times reported that Michaels sued Geffen alleging Geffen promised lifelong financial support and then left him “near broke and homeless,” while Geffen’s side denied any enforceable contract.[2]  \n  **Why it matters:** The suit keeps Geffen in an adversarial legal fight that could reveal financial arrangements, invite discovery, and create reputational damage beyond the divorce itself.[2]\n\n- **Public reporting underscores California community-property exposure:** A legal analysis tied to the settlement notes that California’s community-property rules can apply regardless of wealth disparity, with earnings and assets acquired during marriage treated differently from pre-marriage wealth.[1]  \n  **Why it matters:** For a billionaire like Geffen, this reinforces how marital litigation can affect control over new wealth generated during marriage and signals the leverage of state property law in elite divorce cases.[1]\n\n"
+    },
+    {
+      "name": "Charles E. Schumer",
+      "domain": "Senate (NY, Democrat)",
+      "raw_news": "I could not verify 3–5 **hard-news** items from the past 7 days with high confidence from the available results. The only clearly dated, directly attributable Schumer item in the provided results is a **May 25 press release** on rising meat prices and new cost-lowering legislation, while the other results are either a video summary or outside the date window.[4][1][2]\n\n- **Schumer announced new legislation to lower costs as meat prices spiked in New York’s Capital Region.** The Senate office said on May 25 that Schumer was unveiling legislation tied to sharply higher Memorial Day barbecue meat costs.[4]\n  - This matters because it reinforces his focus on **cost-of-living politics**, a core part of maintaining influence with voters and shaping the party’s economic message.[4]\n\n- **Schumer continued pressuring Republicans over DHS funding by linking support to ICE reforms.** An MSNBC segment dated May 16 reported that he was warning he would not back the DHS bill without major ICE changes.[2]\n  - This matters because it shows Schumer using the appropriations process as leverage, which can affect his standing as a negotiator in a **fiscal-monetary stress cycle** and funding fight.[2]\n\n- **Schumer delivered a Senate-floor address framing current legislative battles as a question of accountability and decisive action.** A May 25 news clip described him emphasizing coordinated governance and key legislative priorities amid political tension.[1]\n  - This matters because it signals an effort to keep Democrats unified around a broader governing narrative, supporting his role in **coalition management**.[1]\n\nIf you want, I can do a tighter second pass using only verifiable primary-source items and separate them explicitly into your three themes: **Judicial Pipeline & Doctrinal Shift**, **Fiscal-Monetary Stress Cycle**, and **Coalition Machinery & Electoral Infrastructure**."
+    },
+    {
+      "name": "Cynthia M. Lummis",
+      "domain": "Senate (WY, Republican)",
+      "raw_news": "1. **Introduced “Build Nuclear with Local Materials Act of 2026” (S.4529)**  \n   • Lummis introduced S.4529 on May 14, 2026, to require the Nuclear Regulatory Commission to allow **commercial‑grade steel and concrete** in non‑safety‑related nuclear plant structures, with NRC directed to start rulemaking within 90 days if enacted.[1][3]  \n   • This positions her as a key Republican voice pushing to **accelerate nuclear deployment and lower project costs**, reinforcing her influence on the energy‑industrial side of the fiscal‑stress debate and on how regulatory standards will shape future nuclear infrastructure.[1][3]  \n\n2. **Public push tying U.S. nuclear build‑out to competition with China**  \n   • In a Fox News op‑ed highlighted by her office, Lummis argued the U.S. must “build [nuclear] here at home” rather than “hand China the nuclear future,” explicitly linking her nuclear legislation to great‑power competition and domestic energy strategy.[3]  \n   • By framing nuclear regulation and siting as a **geostrategic contest with China**, she amplifies her profile in GOP energy and national‑security circles and strengthens her leverage in broader fights over industrial policy and long‑term fiscal commitments tied to energy infrastructure.[3]  \n\n3. **Leadership role in Senate EPW hearing on pending nuclear legislation**  \n   • Lummis played a leading role in a Senate Environment and Public Works Committee hearing on **pending nuclear legislation**, pressing for streamlined rules to advance new nuclear projects.[4]  \n   • Active, visible engagement in EPW hearings on nuclear bills increases her **agenda‑setting power over the regulatory pipeline for large capital‑intensive projects**, which is central to how judicial and administrative decisions will shape future infrastructure and associated fiscal exposures.[4]  \n\n4. **Ongoing push with “Strengthening American Nuclear Energy Act of 2026” and related nuclear package**  \n   • Alongside S.4529, Lummis is fronting a broader package including the **Strengthening American Nuclear Energy Act of 2026** and other nuclear‑focused measures, signaling a coordinated effort to reshape the federal posture toward nuclear energy.[1][3]  \n   • This package approach enhances her clout as a **principal architect of pro‑nuclear statutory changes**, likely intersecting with judicial and regulatory interpretation over time and influencing the capital allocation environment in the energy sector.[1][3]  \n\n5. **Continued prominence as a digital‑asset regulator (Clarity Act heading to markup)**  \n   • In a recent appearance at the Bitcoin 2026 conference, Lummis stated that her **“Clarity Act” for digital assets is heading to committee markup in May** and criticized prior IRS attempts to treat software and hardware developers as “brokers” for tax purposes.[2]  \n   • Steering a major crypto‑regulation bill toward markup keeps her at the center of **monetary/financial‑regulatory debates**, shaping how emerging assets intersect with the banking system, tax base, and longer‑run monetary‑policy transmission."
+    },
+    {
+      "name": "Jeff Yass",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "I cannot identify any **significant, independently reported hard-news developments specifically about Jeff Yass** in the past week that meet your criteria (policy decisions, major business moves, legal actions, geopolitical events, or weighty public statements) and are clearly dated within roughly May 20–27, 2026, from the sources I can search.\n\nWithin the last several weeks to months (but not clearly within the last 7 days), coverage of Yass has focused on:\n\n1. **High-velocity political spending in the 2026 cycle**  \n   - Summary: Reporting continues to characterize Jeff Yass, via Susquehanna International Group–linked giving and education/charter-school–aligned networks, as one of the very largest individual donors in current U.S. federal and state races, with totals in the tens of millions of dollars this cycle.[1]  \n   - Why it matters: This level of capital deployment cements Yass’s role as a **top-tier funder** of conservative and pro–school-choice infrastructure, giving him outsized agenda-setting power in primaries and policy fights over education and regulation.\n\nBecause there are no clearly dated, last‑7‑days items that qualify as “hard news” on him personally, I am not fabricating additional entries. If you’d like, I can instead map his **recent (last 6–12 months) documented activities** onto your categories of *Capital Allocation & Private Power* and *Coalition Machinery & Electoral Infrastructure* with more detail."
+    },
+    {
+      "name": "Brian Chesky",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Airbnb moves aggressively into boutique hotels and new travel services (May 20, 2026)**  \n   Brian Chesky publicly announced that Airbnb is expanding hotel booking (starting with boutique hotels) in more than 50 cities, adding a price‑match guarantee and up to 15% credit back, alongside services like luggage storage and a grocery‑stocking partnership with Instacart.[2]  \n   This matters because it signals Chesky steering Airbnb beyond home‑sharing toward becoming a full‑stack travel platform that competes more directly with Booking, Expedia, and traditional hotels, potentially increasing Airbnb’s market power and Chesky’s strategic influence in the travel sector.[2]  \n\n2. **Launch of Airbnb’s 2026 Summer Release positioning the company for the AI era (late May 2026)**  \n   In the 2026 Summer Release event, Chesky outlined a slate of new features including integrated airport pickups (via Welcome Pickups), car rentals, groceries, and other on‑trip services in dozens to more than 160–170 cities, framed as redesigning Airbnb “for the AI era.”[3]  \n   This matters because it reinforces Chesky’s role as a leading tech CEO pushing an ecosystem strategy—using AI and bundled services to deepen user lock‑in and expand Airbnb’s addressable market, which is central to his long‑term influence and valuation.  \n\n3. **AI‑driven planning and comparison tools to make Airbnb a “trip‑planning multi‑tool” (announced May 20, 2026)**  \n   Chesky announced new AI tools such as an AI compare feature and collaborative itinerary‑building within Airbnb, aimed at letting travelers design and coordinate entire trips on the platform rather than just book stays.[2]  \n   This matters because it shifts Airbnb toward an AI‑first travel assistant model under Chesky’s leadership, positioning him as a prominent figure in the application of generative AI to consumer travel and increasing strategic leverage over user data and discovery.  \n\n4. **Strategic emphasis on hotel‑like reliability features (luggage storage and standardized perks)**  \n   Chesky highlighted that Airbnb now offers about 15,000 luggage drop‑off points worldwide—roughly equivalent to the number of Starbucks in the U.S.—and is layering in hotel‑style conveniences to make home bookings feel more like traditional accommodations.[2]  \n   This matters because it shows Chesky responding to long‑standing consumer criticisms about reliability and convenience, which is crucial for defending and expanding Airbnb’s brand and regulatory legitimacy relative to hotels."
+    },
+    {
+      "name": "Warren Buffett",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Buffett distances himself from further Gates Foundation funding amid Epstein-related scrutiny**  \n   • Warren Buffett said he will **not commit to making additional donations to the Bill & Melinda Gates Foundation**, noting he is “not sorry” for past giving but calling Jeffrey Epstein’s actions “astounding.”[2]  \n   • This matters because it signals a recalibration of one of his most prominent philanthropy channels, potentially shifting how he deploys his vast capital and influence in the charitable sphere and distancing himself from reputational risk around elite networks.[2]  \n\n2. **Berkshire’s record cash pile highlights Buffett’s defensive capital allocation stance**  \n   • Coverage over the past week underscores that Berkshire Hathaway is now holding **approximately $340–400 billion in cash and U.S. Treasuries**, an unprecedented corporate cash hoard after 11 straight quarters as a net seller of stocks.[1][4]  \n   • This matters because such an extreme cash position by Buffett’s vehicle signals his view that current asset valuations offer insufficient value, amplifying his ability to act as a dominant capital provider in future dislocations while also raising questions about opportunity cost and his ongoing market influence.[1][4]  \n\n3. **Recent 13F data and analyses show Buffett making no new stock purchases and continuing to trim big positions**  \n   • Recent portfolio disclosures highlighted this week show **no new equity positions initiated by Warren Buffett** and continued selling or trimming of several major holdings over recent quarters, including parts of Apple and other large stakes.[1][5]  \n   • This matters because it reinforces a shift from Buffett the aggressive buyer to Buffett the cautious capital preserver, affecting market expectations for Berkshire as a stabilizing long‑term owner and for sectors that historically relied on his endorsement.[1][5]"
+    },
+    {
+      "name": "Fred Smith",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "There are **no significant hard-news developments about FedEx founder Fred Smith in the past 7 days**; available coverage is either older, retrospective, or not about him directly.\n\nKey points from recent and near-recent material (outside the 7‑day window, for context only):\n\n- FedEx’s own newsroom highlights **Frederick W. Smith being named to Forbes’ “America’s 250 Greatest Historic Innovators” list**, a recognition of his long-term impact on logistics and business innovation, but this is a *commemorative* item rather than a new business or policy move.[4]  \n  This reinforces his **enduring reputational influence** as an historic business figure but does not change his current operational role, as he has already stepped down from CEO and serves in an emeritus/legacy capacity.[1][4]\n\n- Prior business reporting notes that **Smith stepped down as FedEx CEO in 2022 and became executive chairman, with his net worth rising to an estimated $6.7 billion and a Forbes 400 ranking around No. 184 by late 2024**, but these are structural and wealth-status facts, not new actions in the last week.[1]\n\n- Some secondary reporting incorrectly discusses his status relative to the Forbes 400 after his death in 2025, indicating that **he is no longer an active economic actor making fresh business or policy moves**, which helps explain the absence of new hard news tied to current influence or decision-making.[2]\n\nBecause of this, there are **no qualifying items (policy decisions, major business moves, legal actions, or consequential public statements by Fred Smith himself) in roughly 2026‑05‑20 to 2026‑05‑27**, and listing older or purely ceremonial/retrospective mentions would not match your “hard news only” criterion."
+    },
+    {
+      "name": "Elena Kagan",
+      "domain": "Associate Justice, US Supreme Court",
+      "raw_news": "1. **Public criticism of the Court’s use of the emergency (“shadow”) docket in pro‑Trump disputes**  \n   - What happened: Elena Kagan used a speech to Ninth Circuit federal judges to sharply criticize recent Supreme Court emergency orders that repeatedly favored the Trump administration in cases involving funding freezes, federal layoffs, and removals of independent-agency officials, emphasizing that many were issued with scant or no explanation.[1]  \n   - Why it matters: By openly challenging the conservative majority’s reliance on the shadow docket and lack of reasoning, Kagan is trying to constrain the procedural pipeline through which major policy changes are being green‑lit, and to frame an alternative doctrinal vision emphasizing transparency and full merits review.[1]  \n\n2. **Warning about lack of “good decision making” in recent emergency rulings**  \n   - What happened: In the same remarks, Kagan stated that elements of “good decision making” were missing from several recent emergency rulings, including the Court’s unexplained order allowing a major restructuring and staff reduction at the Department of Education to proceed.[1]  \n   - Why it matters: By attacking the quality and process of these decisions rather than only their outcomes, Kagan is laying groundwork for a doctrinal critique that future majorities or lower courts can adopt to narrow or recalibrate emergency‑relief standards and the scope of deferential review.  \n\n3. **Aggressive questioning in Hikma Pharmaceuticals USA Inc. v. Amarin Pharma, Inc. on “skinny labels”**  \n   - What happened: During oral argument in the Hikma v. Amarin patent‑infringement case, Kagan pressed counsel on how much weight courts should give to “skinny labels” in determining whether generic drug makers have induced infringement, probing whether label content truly distinguishes one generic manufacturer’s liability from others.[2]  \n   - Why it matters: Her line of questioning signals a potential doctrinal stance on the liability framework for generics and induced infringement, which could shape the litigation pipeline around pharmaceutical patents and how drug labeling strategies intersect with patent‑law constraints.  \n\n4. **Intense scrutiny of equal‑protection theory in Trump v. Miot / Mullin v. Doe (TPS case)**  \n   - What happened: In consolidated oral arguments over the administration’s effort to end Temporary Protected Status (TPS) for certain countries, Kagan grilled counsel on whether and how an alleged race‑based “agenda to end TPS” can be framed as an equal‑protection violation, and what evidence is needed to tie policy outcomes to discriminatory intent.[3]  \n   - Why it matters: Kagan’s questioning illustrates her attempt to refine the doctrinal standards for challenging executive immigration decisions on equal‑protection grounds, potentially influencing the future pipeline of civil‑rights and immigration cases that seek to prove discriminatory motive in broad policy shifts.[3]"
+    },
+    {
+      "name": "Ronald Lauder",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "Here are the **most significant hard-news items** I found for Ronald Lauder in the past 7 days; the available results are limited, so this is not a full news universe.  \n\n- **Lauder publicly defended engagement with Qatar after visiting the country with Donald Trump, saying it should be used to help secure hostage releases and push toward a Gaza resolution.** This matters because it shows Lauder acting as a visible diplomatic interlocutor on a major Middle East issue, reinforcing his influence in pro-Israel and U.S.-aligned mediation efforts.[1]\n\n- **Lauder was newly reelected as president of the World Jewish Congress in Jerusalem.** This matters because it confirms the continuation of his leadership over a major transnational Jewish advocacy organization, preserving his institutional influence.[1]\n\n- **Lauder praised Trump’s role in “opening up” the Middle East to the United States during his remarks tied to the Qatar trip.** This matters because aligning publicly with Trump’s regional approach can amplify Lauder’s access to U.S. power centers and his ability to shape policy conversations.[1]\n\n- **Lauder issued a statement condemning rising antisemitism and what he called leadership failures in New York after a series of incidents targeting Jewish communities.** This matters because it positions him as a prominent public voice on antisemitism and gives him leverage in debates over security, civic leadership, and Jewish community protection.[2]\n\n- **Lauder was reported by *The Jerusalem Post* as being involved in Trump’s push for Greenland, with the report noting his commercial holdings there.** This matters because if accurate, it suggests he remains relevant in geopolitically sensitive U.S. discussions where business interests and political influence intersect.[3]\n\n"
+    },
+    {
+      "name": "William Ackman",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Pershing Square prices and launches its dual-listed IPO in the U.S. and U.K.**\n\n   Pershing Square’s long-planned **dual IPO** began trading this week, raising roughly **$5 billion** and listing the permanent-capital vehicle in both New York and London to fund Ackman’s future investments.[2][4]  \n   This matters because it substantially **expands Ackman’s permanent capital base**, giving him more durable firepower and flexibility to act as a large, Buffett-style capital allocator without depending on short-term fund flows.[2][4]\n\n2. **Ackman uses public interviews to frame Pershing Square as a “Buffett-like” investment powerhouse post-IPO**\n\n   In media appearances around the listing, Ackman emphasized that Pershing Square “looks nothing like” a traditional hedge fund and instead aims to be a long-duration, highly concentrated compounding vehicle akin to Berkshire Hathaway.[2][4]  \n   This matters because it is a deliberate **narrative and positioning move** aimed at attracting long-term, retail and institutional capital, reinforcing his role as a major private power center in public markets rather than a trading-oriented activist.[2][4]\n\n3. **Ackman underscores concentrated, long-duration equity strategy following recent Microsoft stake**\n\n   In the wake of Pershing Square’s recent **$2.1 billion stake in Microsoft**, Ackman has reiterated that the fund will remain extremely concentrated in a small number of “best-in-class” compounders despite the added IPO capital.[1][3]  \n   This matters because it signals that even with more capital and a public vehicle, Ackman will continue to **wield influence through a few very large positions** in systemically important companies, reinforcing his profile as a focused, high-impact capital allocator.[1][3]"
+    }
+  ],
+  "ps_assemblies_fired": {
+    "DPS-10": [
+      "CA-120",
+      "CA-052",
+      "CA-032",
+      "CA-068",
+      "CA-097"
+    ],
+    "DPS-01": [
+      "CA-001",
+      "CA-049",
+      "CA-030"
+    ],
+    "DPS-07": [
+      "CA-004",
+      "CA-058",
+      "CA-013"
+    ],
+    "DPS-08": [
+      "CA-133",
+      "CA-140",
+      "CA-130"
+    ]
+  },
+  "assemblies_spontaneous": [
+    "CA-028",
+    "CA-143"
+  ],
+  "neurons_conscious": [
+    "Julia Koch & family",
+    "Mitch McConnell",
+    "George Soros",
+    "Richard Uihlein",
+    "Donald Trump",
+    "Pam Bondi",
+    "Susan M. Collins",
+    "Jeff Bezos",
+    "Sergey Brin",
+    "Sean Hannity"
+  ],
+  "neurons_spontaneous": [
+    "Philip Anschutz",
+    "Charles Schwab",
+    "Amy Coney Barrett",
+    "David Geffen",
+    "Charles E. Schumer",
+    "Cynthia M. Lummis",
+    "Jeff Yass",
+    "Brian Chesky",
+    "Warren Buffett",
+    "Fred Smith",
+    "Elena Kagan",
+    "Ronald Lauder",
+    "William Ackman"
+  ],
+  "neurons_skipped": [
+    "Elon Musk",
+    "Mark Zuckerberg",
+    "Jerome H. Powell",
+    "Clarence Thomas",
+    "Susie Wiles",
+    "Brett M. Kavanaugh",
+    "Neil M. Gorsuch",
+    "Tim Cook",
+    "Scott Bessent",
+    "Andy Jassy",
+    "Sundar Pichai",
+    "Satya Nadella",
+    "Robert F. Kennedy Jr.",
+    "Stephen Schwarzman",
+    "Leonard Leo",
+    "Pete Hegseth",
+    "Sonia Sotomayor",
+    "Sam Altman",
+    "Peter Thiel",
+    "Larry Ellison",
+    "Marc Rowan",
+    "Russell M. Nelson",
+    "Miriam Adelson & family",
+    "Michael Bloomberg",
+    "Jensen Huang",
+    "Kash Patel",
+    "Charles Koch & family",
+    "Ketanji Brown Jackson",
+    "Ken Griffin",
+    "Gavin Newsom",
+    "Samuel A. Alito Jr.",
+    "Thomas Kurian",
+    "John Thune",
+    "Mustafa Suleyman",
+    "Terrence Pegula",
+    "John G. Roberts Jr.",
+    "Ken Langone",
+    "Rob Walton & family",
+    "Laurene Powell Jobs",
+    "Stephen Ross",
+    "Abigail Johnson",
+    "Judy Faulkner",
+    "Jerry Jones & family",
+    "Bob Parsons",
+    "Jim Walton & family",
+    "Bill Gates",
+    "Eric Schmidt",
+    "Stanley Druckenmiller",
+    "Chuck Grassley",
+    "David Rubenstein",
+    "David Tepper",
+    "Alice Walton",
+    "Ray Dalio",
+    "Brian Armstrong",
+    "Paul Tudor Jones, II.",
+    "J.B. Pritzker",
+    "Lukas Walton",
+    "Pierre Omidyar",
+    "Michael Rubin",
+    "Henry Kravis",
+    "Marijke Mars",
+    "John Malone",
+    "Kelcy Warren",
+    "Leon Black",
+    "Paul Singer",
+    "Lynda Resnick",
+    "Tom Cotton",
+    "George Roberts",
+    "Jeremy Jacobs, Sr. & family",
+    "Brian Ballard",
+    "Ann Walton Kroenke",
+    "MacKenzie Scott",
+    "Michael Dell",
+    "Steve Scalise",
+    "Joe Rogan",
+    "Ted Cruz",
+    "Mitchell Rales",
+    "Ron DeSantis",
+    "Melinda French Gates",
+    "Marc Benioff",
+    "Suzanne Clark",
+    "David Bonderman",
+    "Rupert Murdoch & family",
+    "Josh Harris",
+    "Larry Page",
+    "Greg Abbott",
+    "Stephen Feinberg",
+    "Mike Lee",
+    "Steve Cohen",
+    "Phil Knight & family",
+    "Carl Icahn",
+    "Thomas Peterffy",
+    "Victoria Mars",
+    "Patty Murray",
+    "John Mars",
+    "Hakeem S. Jeffries",
+    "Matthew J. Kacsmaryk",
+    "Rick Scott",
+    "Carrie Severino",
+    "Christopher Murphy",
+    "Charlie Kirk",
+    "Kevin Roberts",
+    "Richard J. Durbin",
+    "Thomas Frist, Jr. & family",
+    "Bret Taylor",
+    "Jonathan Gray",
+    "Stewart Resnick",
+    "Edward Johnson, IV.",
+    "Thomas Pritzker",
+    "Palmer Luckey",
+    "Lynn Schusterman & family",
+    "Josh Hawley",
+    "Alex Karp",
+    "Lisa Su",
+    "Alexander Karp",
+    "Len Blavatnik",
+    "Demis Hassabis",
+    "Lindsey Graham",
+    "Alexandria Ocasio-Cortez",
+    "Antony Ressler",
+    "Elise M. Stefanik",
+    "Mark Walter",
+    "Dario Amodei",
+    "Daniela Amodei",
+    "Christy Walton",
+    "Donald Newhouse",
+    "Ernest Garcia, III"
+  ],
+  "spontaneous_cap": 13
+}
