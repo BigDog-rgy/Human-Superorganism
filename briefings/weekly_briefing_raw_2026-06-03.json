@@ -1,0 +1,507 @@
+{
+  "scope": "us",
+  "week_start": "2026-05-27",
+  "week_end": "2026-06-03",
+  "ps_news_items": [
+    {
+      "id": "DPS-01",
+      "name": "Executive Power Consolidation",
+      "summary": "Over the past week, executive power consolidation has advanced primarily through a cluster of new **executive orders** and associated implementation signals rather than headline-grabbing reorganizations. The White House issued orders on **advanced AI innovation and security** and on **adjusting tariff regimes**, both structured to vest substantial discretion in the executive branch to define standards, manage interagency coordination, and recalibrate regulatory or trade positions without new legislation.[3][7] These moves fit into a broader pattern, documented by ongoing trackers, of using executive orders and guidance to reshape regulatory baselines across multiple domains and centralize decision-making authority in the presidency and OMB-style oversight functions.[2][6][9] However, in this specific 7‑day window there is no clear evidence of major new purges, large-scale agency reorganizations, or high‑salience legal clashes over presidential authority, suggesting steady but incremental consolidation rather than a sharp structural break.[2][7]  \n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "DPS-02",
+      "name": "AI Dominance Race",
+      "summary": "The week saw **intensifying U.S.–China competition over frontier compute**, with reporting that Chinese labs have placed massive orders for Nvidia’s H200 chips ahead of looming bipartisan legislation in Congress to restrict advanced GPU exports, including a proposed two‑year ban on Blackwell chips and new Congressional veto powers over export approvals.[2] At the same time, **non‑aligned players are pushing to become AI compute hubs**, highlighted by G42’s unveiling of a wafer‑scale “world’s largest AI chip” and broader chip‑and‑data‑center diplomacy aimed at positioning the UAE as a neutral AI infrastructure provider.[2] Strategically, AI is also moving into **orbital infrastructure concepts**, following Elon Musk’s recent declaration of plans for a large space‑based data center and parallel Chinese ambitions to dominate space power by 2045, signaling that control of AI compute may extend beyond terrestrial data centers into a new “second space race.”[2]  \n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "DPS-03",
+      "name": "Judicial Pipeline & Doctrinal Shift",
+      "summary": "There were **no major new Supreme Court merits decisions or high-profile circuit rulings** in the past week that materially shifted core doctrines like deference, major questions, or separation of powers, so the structural balance of judicial power remained largely stable.[4][5] Activity instead centered on **positioning for longer‑term doctrinal battles**, including ongoing litigation invoking post‑Chevron deference realities and separation‑of‑powers arguments over Congress’s ability to channel or cut off judicial review in infrastructure and regulatory disputes, which continues to be shaped by earlier fights like the Mountain Valley Pipeline review‑stripping controversy.[1][4][6] Think‑tank, academic, and advocacy networks remained focused on consolidating and framing recent Supreme Court moves that have increased judicial control over the administrative state and constrained public‑health and equity initiatives, but this week brought **more interpretive and strategic work than new, durable doctrinal moves**.[2][6][8]  \n\n3",
+      "activation_score": 3
+    },
+    {
+      "id": "DPS-04",
+      "name": "Fiscal-Monetary Stress Cycle",
+      "summary": "Over the past week, the fiscal‑monetary stress cycle has been **quiet but tense beneath the surface**, with no new Federal Reserve rate or balance‑sheet decisions and no headline shifts in Treasury’s issuance strategy, yet growing concern about the medium‑term collision between high deficits and a high-for-longer rate path.[3][10] Market commentary has further pushed out expectations for Fed easing into **2027**, reinforcing the prospect that elevated real rates will continue to compound interest costs on a FY‑2026 deficit already running at roughly **$700 billion through the first four months**, underscoring structural fiscal strain.[3] At the same time, financial stress indicators remain relatively contained, suggesting markets are absorbing current issuance and rate levels without an acute dislocation, even as underlying research and official commentary continue to highlight that financial stress is a poor substitute for deliberate monetary tightening in controlling inflation.[2][4][7]\n\n3",
+      "activation_score": 3
+    },
+    {
+      "id": "DPS-05",
+      "name": "Capital Allocation & Private Power",
+      "summary": "Major alternative asset managers continued to lean into **private credit and real assets**, with new direct-lending and infrastructure vehicles concentrating capital in sectors like data centers, energy transition, and logistics, even as overall private markets activity remains below prior-cycle peaks.[1][5] Several large PE and alts platforms announced **sector roll‑ups and carve‑outs** in healthcare and software, reinforcing a pattern of consolidation that shifts operational control and pricing power from public markets to sponsor-led ecosystems.[1] Fundraising updates from leading managers highlighted a continued investor tilt toward **long-dated, yield-focused strategies** (income, secondaries, continuation funds), which lock in fee streams and entrench their role as de facto credit allocators.[1][5] Policy-wise, industry groups and top managers intensified **lobbying around private credit regulation and retirement-access to private markets**, aiming to preserve light-touch oversight while opening new retail and DC capital channels.[5][7]\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-06",
+      "name": "Big Tech Regulatory Arbitrage",
+      "summary": "Big Tech faced mounting U.S. antitrust and AI-related pressure this week, with federal enforcers and states signaling a harder line on platform power and data use.[1][2] Congress intensified scrutiny of AI liability and cloud concentration, using hearings and draft proposals to press large providers on model transparency, enterprise lock-in, and the competitive impact of hyperscale cloud tied to AI services.[1][2] At the same time, major platforms stepped up defensive lobbying and voluntary frameworks around content moderation and AI safety, positioning these as substitutes for more prescriptive regulation and seeking to shape pending FTC/DOJ and legislative actions.[1][2]  \n\n4",
+      "activation_score": 4
+    },
+    {
+      "id": "DPS-07",
+      "name": "Defense-Industrial Expansion",
+      "summary": "The biggest signal this week is *continued structural momentum* in U.S. defense-industrial-base policy rather than a single headline-grabbing contract action: the White House’s recent defense-industrial-base report emphasizes expanding allied industrial cooperation, collaborative defense manufacturing, and measures meant to crowd in private capital into production capacity.[1] That aligns with a broader policy push to make demand more predictable and to use government purchasing power to shape the market for industry investment, including workforce and capacity expansion.[2][3]\n\nWithin the available results, there is no clear evidence of a major new Pentagon budget reprogramming, a flagship SpaceX- or Palantir-class award, or a sudden export-control shock in the last seven days, so the week appears more like a *policy-acceleration* phase than an acute procurement spike.[4][5] The most important development is the reinforcing of a long-term industrial strategy: more stable demand signals, more allied production integration, and stronger incentives for private-sector scale-up across defense, intelligence, and space supply chains.[1][3][7]\n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "DPS-08",
+      "name": "Information Environment Contestation",
+      "summary": "The past week saw **no major, widely reported structural shifts** in the information environment contestation space, with activity dominated by ongoing trends rather than new inflection points. Platform-side, there were **no announced landmark content moderation overhauls, algorithmic resets, or ownership changes** among the largest social platforms or billionaire-owned outlets that would clearly re-balance narrative control. Instead, developments were incremental: continued debate over AI-generated content governance, modest adjustments to recommendation systems in response to regulatory pressure, and routine enforcement or transparency reports that reinforced existing directions rather than setting new ones. Politically aligned communication networks and legacy outlets maintained established messaging campaigns around U.S. electoral politics and geopolitical conflicts, but without clear evidence of a new, coordinated information operation changing the overall competitive landscape.\n\n3",
+      "activation_score": 3
+    },
+    {
+      "id": "DPS-09",
+      "name": "Energy Transition & Security",
+      "summary": "The past week saw **state and federal officials explicitly tying data center and AI-driven load growth to new energy infrastructure and fuel choices**, with competing blocs pushing nuclear, gas, and renewables as the preferred backbone of that build‑out. Several major utilities and tech firms advanced or announced **large-capex power projects and long-term supply deals** for data centers, signaling that compute demand is now a primary driver of US generation and transmission planning. On the policy side, **regulators and legislators continued to grapple with permitting and market design**, proposing changes to accelerate interconnection and grid upgrades while also scrutinizing gas build‑outs and reliability claims. Corporate and investor commentary emphasized **rising tension between near-term reliability (often favoring gas and existing nuclear) and long-term decarbonization targets**, with some moves toward advanced nuclear and long-duration storage but no decisive shift in overall federal strategy yet.\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-10",
+      "name": "Coalition Machinery & Electoral Infrastructure",
+      "summary": "Coalition and electoral infrastructure activity was moderate this week, with several developments reshaping how money, endorsements, and legal tools are deployed around power-building. Voters in Port Washington, Wisconsin approved a first-of-its-kind referendum requiring **voter approval for tax incentives over $10 million**, effectively constraining local elite–developer dealmaking and forcing coalition builders to run citywide persuasion operations before securing major subsidies.[2] Maine’s legislature passed the **nation’s first statewide moratorium on data center construction**, signaling that statewide institutions—not just local NIMBY groups—are now vehicles for coordinated resistance to a major corporate lobbying and infrastructure sector.[2][8] A bipartisan bloc of governors pressed grid operator PJM to make data centers **pay the full costs they impose on the grid**, sharpening an intergovernmental coalition that can reroute corporate capital and lobbying toward grid-cost recovery rather than pure expansion.[2][8] In Virginia’s Prince William County, supervisors voted to end a legal fight with residents over a proposed data-center hub, illustrating how organized local opposition can discipline land-use and development coalitions even after long, lawyered battles.[2][8]\n\n5",
+      "activation_score": 5
+    }
+  ],
+  "assembly_news_items": [
+    {
+      "id": "CA-011",
+      "name": "NVIDIA",
+      "ps_memberships": [
+        "DPS-02"
+      ],
+      "raw_news": "NVIDIA used Computex Taipei to deepen its bid for AI platform dominance, unveiling the **N1X ARM-based CPU** and **RTX Spark** PC platform co-developed with Microsoft to bring always-on AI agents to Windows laptops, desktops, and workstations from OEMs including Dell, HP, and Lenovo starting this fall.[1] In parallel, the company advanced its data center roadmap by highlighting rapid ramp of **Blackwell Ultra** GPUs and reaffirming plans for next-generation architectures **Vera Rubin**, **Groq 3 LPX**, **Rubin Ultra**, and **Feynman** through 2028, positioning NVIDIA as long-term backbone of global “AI factories.”[1] CEO Jensen Huang emphasized that NVIDIA is now an **AI infrastructure company** rather than just a GPU vendor and projected global AI factory buildout to reach **$3–4 trillion annually** by decade’s end, a public framing that signals continued aggressive capital and ecosystem commitments around its stack.[1]"
+    },
+    {
+      "id": "CA-005",
+      "name": "Alphabet / Google",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06"
+      ],
+      "raw_news": "Alphabet’s most significant move in the past week is a plan to **raise about $80 billion via equity offerings**, one of the largest equity deals ever, explicitly to fund an aggressive ramp-up in AI infrastructure and R&D spending.[2] This capital raise is framed by market analysts as arming Google to compete at the top end of the **AI dominance race**, supporting multi‑tens‑of‑billions in annual capex for data centers, custom chips, and cloud AI services.[2] By choosing a massive equity issuance rather than relying solely on debt, Alphabet is leveraging its market power and investor confidence to lock in long-term financing for AI, reinforcing its ability to shape compute supply and model development relative to rivals like Anthropic, OpenAI, and Nvidia.[2][1] This move also signals to regulators and competitors that Google intends to remain vertically integrated across the AI stack—models, chips (TPUs), and cloud—significantly influencing future power dynamics in both AI markets and digital advertising.[1]"
+    },
+    {
+      "id": "CA-047",
+      "name": "OpenAI",
+      "ps_memberships": [
+        "DPS-02"
+      ],
+      "raw_news": "OpenAI’s most significant move this week was the launch of the **OpenAI Deployment Company**, a new, dedicated entity focused on helping organizations build and deploy AI systems for their core business operations.[2] This includes an agreement to **acquire Tomoro**, bringing in an existing team of “Forward Deployed Engineers” to accelerate enterprise implementations, signalling a push to deepen OpenAI’s role inside large companies’ workflows and budgets.[2] By creating a specialized deployment arm rather than relying solely on generic APIs, OpenAI is positioning itself more directly against ecosystem players like consulting firms and cloud integrators, consolidating more control over how frontier models are embedded in industry."
+    },
+    {
+      "id": "CA-060",
+      "name": "Oracle Corporation",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06"
+      ],
+      "raw_news": "Oracle’s only notable corporate move in the past week has been a **June 1 announcement scheduling its fiscal Q4 2026 earnings release and conference call for June 16, 2026**, signaling it will soon update investors on AI and cloud capex strategy but without new disclosed strategic actions yet.[1][2]  \n\nBeyond that procedural step, there have been **no major Oracle-specific announcements in the last seven days about new AI alliances, regulatory confrontations, or structural moves** that materially shift power dynamics in the AI dominance race or big-tech regulatory arbitrage space, based on available news and Oracle’s own press and investor channels.[1][2][4]"
+    },
+    {
+      "id": "CA-070",
+      "name": "Special Competitive Studies Project (SCSP)",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-07"
+      ],
+      "raw_news": "SCSP’s most notable recent move was announcing the launch of a **National Security Commission on Robotics for Advanced Manufacturing**, aimed at strengthening U.S. industrial and defense resilience as emerging technologies reshape national security and economic competitiveness.[5] According to SCSP, the commission will focus on how advanced robotics and automation can be scaled to fortify the U.S. manufacturing base in the context of strategic competition with China.[5] The initiative positions SCSP more directly in the **defense-industrial expansion** space by linking robotics adoption to long-term techno-economic advantage and supply-chain security.[5] No other major SCSP decisions, alliances, or power-shifting policy moves in the last week appear in its official news or press-release channels.[5][7]"
+    },
+    {
+      "id": "CA-108",
+      "name": "Apollo Global Management",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "Apollo Global Management’s most significant move in the past week has been its decision to establish a **second U.S. headquarters outside New York**, actively scouting locations in Texas, South Florida, and potentially Nashville.[6] This expansion reflects a strategic shift of high-end financial and private capital functions toward lower-tax “freedom states,” altering the geographic balance of financial power away from traditional coastal hubs.[6] Apollo has communicated internally that the new HQ will coexist with its New York flagship, not replace it, signaling an additive expansion of its operational and political footprint rather than a withdrawal from Wall Street.[6] This relocation decision positions Apollo to deepen its influence over regional capital markets, local policy ecosystems, and talent pipelines in the selected state, with competitive bidding from multiple pro-business jurisdictions likely to enhance its bargaining power.[6]"
+    },
+    {
+      "id": "CA-021",
+      "name": "Walton Enterprises",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "The most significant recent move involving Walton Enterprises is an updated **Schedule 13D/A** filing that discloses a change in the Walton entities’ control position over Walmart. According to the SEC filing, **Walton Enterprises, LLC and the Walton Family Holdings Trust reduced their beneficial ownership in Walmart by more than one percentage point** versus their prior reported position, through a mix of share distributions to trust beneficiaries and sales for “investment, personal, and charitable objectives.”[1] Walton Enterprises now reports **44.21%** beneficial ownership of Walmart’s common stock, while the Walton Family Holdings Trust reports **6.53%**, based on Walmart’s latest share count.[1] This adjustment continues the long‑running strategy of managing the family’s voting power and liquidity while sustaining a dominant but calibrated level of control over Walmart, reinforcing the Walton family’s role as a central private power block in the company’s governance.[1][4]"
+    },
+    {
+      "id": "CA-136",
+      "name": "Related Companies",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "Related Companies’ most consequential move in the past week is its role in the **opening of Willets Point Commons** and the **groundbreaking for a new senior affordable housing development** in Queens, New York.[5] The milestone advances a large-scale, multi-phase redevelopment of the Willets Point area in partnership with the City, expanding Related’s footprint in publicly backed urban megaprojects and reinforcing its position as a key private actor in New York’s land-use and housing strategy.[5] By deepening its role in mixed-income and senior affordable housing tied to a broader neighborhood remake, Related is strengthening its long-term influence over a significant redevelopment district adjacent to Citi Field and major transit, with implications for future zoning, infrastructure investment, and political negotiation over city-backed projects.[5]"
+    },
+    {
+      "id": "CA-019",
+      "name": "Koch Industries",
+      "ps_memberships": [
+        "DPS-05",
+        "DPS-09"
+      ],
+      "raw_news": "Koch Industries’ most significant development in the past week is a **$4 million proposed legal settlement** resolving an ERISA class action over allegedly excessive recordkeeping fees in its employee retirement plans.[1] The deal, which still requires court approval, commits Koch entities to run a competitive **request for proposals (RFP) for plan recordkeeping services within 180 days**, potentially shifting millions in long-term financial service flows and tightening oversight of a key employee-benefit capital channel.[1] The case targets Koch Industries, Koch Business Solutions, and the Koch Benefits Administrative Committee, underscoring legal and governance pressure on how a major privately held conglomerate manages retirement assets linked to its workforce.[1]"
+    },
+    {
+      "id": "CA-057",
+      "name": "Energy Transfer LP",
+      "ps_memberships": [
+        "DPS-09"
+      ],
+      "raw_news": "No major Energy Transition & Security–relevant moves by **Energy Transfer LP** have been reported in the last week that materially change power dynamics in policy, infrastructure build‑out, or geopolitical positioning. Recent disclosed actions are primarily financial, including an earlier decision to increase its common-unit quarterly cash distribution for Q1 2026 to **$0.3375 per unit** (annualized $1.35), a more than 3% increase versus Q1 2025, and a scheduled Series I preferred distribution, both announced in late April and paid in May.[3] These are capital-allocation decisions rather than new projects, regulatory settlements, or strategic alliances affecting energy transition pathways or security posture.[3]"
+    },
+    {
+      "id": "CA-098",
+      "name": "Breakthrough Energy Ventures",
+      "ps_memberships": [
+        "DPS-09",
+        "DPS-05"
+      ],
+      "raw_news": "Breakthrough Energy Ventures’ most consequential move this week is its role as investment manager for a new **$150 million “oneworld BEV Fund”** launched with the oneworld airline alliance and Singapore Airlines to accelerate next‑generation sustainable aviation fuel (SAF) technologies.[1] The fund brings together American Airlines, Alaska Airlines Group, IAG, Cathay Pacific, Japan Airlines, and Singapore Airlines as cornerstone investors, consolidating airline capital under BEV’s technical and investment leadership.[1] By positioning itself at the center of this cross‑alliance SAF vehicle, BEV increases its influence over which early‑stage fuel technologies scale in commercial aviation and how a future SAF supply chain is structured.[1]"
+    },
+    {
+      "id": "CA-001",
+      "name": "Trump White House",
+      "ps_memberships": [
+        "DPS-01"
+      ],
+      "raw_news": "Over the past week, Trump used the White House to push a new **renewable-fuel policy** for 2026 and 2027, saying it would require the highest biofuel volumes in history and provide major benefits to rural industries.[3] He also announced expanded **SBA loan guarantees** for farmers and food suppliers, an economic move aimed at deepening ties with agricultural constituencies and reinforcing his administration’s leverage over food and energy policy.[3] In his State of the Union address, he paired that domestic agenda with a harder line on **immigration enforcement**, calling for new penalties on sanctuary jurisdictions and broader funding for border security and homeland security.[1] The White House also kept up a stream of executive action in 2026, with the Federal Register showing **35 executive orders** signed so far this year, underscoring the scale of presidential power being exercised from the office.[4]"
+    },
+    {
+      "id": "CA-030",
+      "name": "US Department of Justice",
+      "ps_memberships": [
+        "DPS-01",
+        "DPS-03"
+      ],
+      "raw_news": "The most significant recent U.S. Department of Justice development affecting power dynamics is its criminal action over the Baltimore Key Bridge disaster, which reinforces federal authority over maritime safety, critical infrastructure, and corporate accountability in interstate commerce.[1][4]  \n\nIn late May, DOJ unsealed an **indictment** charging ship manager Synergy Marine Private Limited, an affiliate, and a senior technical manager with conspiracy to violate the Ports and Waterways Safety Act, misconduct or neglect of ship officers resulting in death, obstruction of agency proceedings, and false statements tied to the March 2024 collapse of the Francis Scott Key Bridge in Baltimore.[1] DOJ officials stressed that Synergy and its employee allegedly failed to document and report serious safety risks and falsified inspections, then lied to National Transportation Safety Board investigators, linking criminal liability to failures that caused billions of dollars in infrastructure and economic damage.[1] The department also signaled this is an *ongoing investigation* with the possibility of additional charges, positioning DOJ as a central actor in setting nationwide deterrent norms for maritime operators whose conduct threatens critical infrastructure and interstate commerce.[1][4]"
+    },
+    {
+      "id": "CA-018",
+      "name": "Department of Government Efficiency (DOGE)",
+      "ps_memberships": [
+        "DPS-01"
+      ],
+      "raw_news": "Over the past week, the most significant DOGE developments center on aggressive contract terminations and their implications for executive control over the bureaucracy. DOGE reported that federal agencies, under its guidance, **terminated 141 contracts** with a ceiling value of **$5.1 billion**, claiming **$498 million in savings** in just one week, underscoring its role in reshaping procurement and strengthening White House influence over spending priorities.[4] This push continues DOGE’s broader mandate, set by executive order, to restructure agencies and “moderniz[e] Federal technology and software to maximize governmental efficiency and productivity,” consolidating agenda‑setting power in the presidency rather than in line agencies.[3][2] Critics have questioned DOGE’s past savings claims and warned that rapid cancellations and restructuring effectively give the White House a parallel, politically driven management channel over the federal workforce and contracting system, heightening concerns about executive power consolidation.[1][2]"
+    },
+    {
+      "id": "CA-055",
+      "name": "Google DeepMind",
+      "ps_memberships": [
+        "DPS-02"
+      ],
+      "raw_news": "I couldn’t verify any **hard-news** Google DeepMind developments from the past 7 days in the provided results. The only clearly current item is a **Big Technology interview** with Demis Hassabis discussing product plans like Gemini ads, Veo, and smart-glasses partnerships, but that is a routine public interview rather than a new policy, deal, legal action, or power shift.[1]\n\nThe background result confirming Hassabis leads Google DeepMind is organizational context, not a recent move.[5] No source here shows a new alliance, restructuring, regulatory action, or major strategic decision by Google DeepMind in the requested window.[1][5]",
+      "spontaneous": true
+    },
+    {
+      "id": "CA-074",
+      "name": "Blackstone",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "Blackstone’s most significant recent move has been a renewed push to deploy large-scale capital into private credit and real estate as financing conditions ease, with executives signaling an intention to expand lending and deal-making activity globally.[2][3] This capital-allocation stance reinforces Blackstone’s role as a major nonbank lender and consolidates its influence over corporate financing relative to traditional banks.[2][4] In parallel, management has continued to publicly frame private credit as a structurally advantaged “direct” model, positioning Blackstone to attract more institutional allocations and further entrench its power in alternative lending markets.[1][2]",
+      "spontaneous": true
+    }
+  ],
+  "news_items": [
+    {
+      "name": "Alexander Karp",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "I found **one clearly recent, hard-news item** about Alex Karp in the past 7 days from the provided results; the rest are either older, routine, or not clearly tied to a dated hard-news event in the window you specified. The strongest recent development is Palantir’s push to position itself as an AI infrastructure winner, which Karp used to make a pointed public case about AI’s economic and strategic importance.[2][3]\n\n- **Palantir framed AI adoption as a business filter, with Karp warning companies to stop chasing “AI slop” and focus on software that actually works.** This matters because it reinforces Karp’s influence as a high-profile voice in the AI dominance race and positions Palantir as an arbiter of serious enterprise AI use, not just hype.[2]\n\n- **Karp publicly argued that AI is reshaping warfare, national security, and the real economy at the World Economic Forum.** This matters because it keeps him at the center of the defense-industrial AI narrative, where Palantir’s brand depends on linking AI capability to state power and military relevance.[3]\n\n- **Palantir’s recent earnings-driven messaging highlighted strong U.S. growth and a projected 71% growth rate, which Karp used to underscore the company’s momentum.** This matters because rapid commercial growth strengthens Karp’s leverage with investors, government customers, and defense partners, making Palantir harder to dismiss as a niche contractor.[2]\n\n- **Karp continued a public campaign arguing that AI will reorder labor markets and reward vocationally skilled or atypical talent.** This matters because it supports his broader positioning as a market-shaping executive with views on how AI changes economic hierarchy, even if the cited coverage is from March and not clearly inside the last 7 days.[4]\n\nIf you want, I can do a stricter second pass and return only items that can be tied to a clearly dated event inside **May 27–June 3, 2026**."
+    },
+    {
+      "name": "Thomas Kurian",
+      "domain": "CEO, Google Cloud",
+      "raw_news": "Available news and primary sources over the past week do not show any *new* hard developments specifically involving Thomas Kurian between roughly May 27 and June 3, 2026; his most recent significant moves tied to AI strategy and competition are clustered around Google Cloud Next ’26 in late April, which are still shaping his current influence in the AI race.\n\nGiven the lack of fresh items within the exact 7‑day window, below are the most recent *material* developments that continue to matter for his position on AI dominance and big‑tech power, all anchored in actions and statements he directly led or framed.\n\n1. **Positioning Google Cloud around “agentic AI” and autonomous agents at Google Cloud Next ’26**\n\n- What happened: At Google Cloud Next ’26 in Las Vegas, Thomas Kurian framed a new strategic phase he called the move into the **“agentic era”**, announcing the Gemini Enterprise Agent Platform, Agentic Data Cloud features, and upgraded AI‑specific chips as the core of Google Cloud’s next wave of AI offerings.[3][6]  \n- Why it matters: By making autonomous, enterprise‑grade AI agents and specialized infrastructure the centerpiece of Google Cloud’s roadmap, Kurian is explicitly positioning Google Cloud as a top‑tier AI platform for complex business workflows, directly escalating its competitive stance against AWS and Microsoft Azure in the enterprise AI dominance race.[1][3]\n\n2. **Expanding multicloud data access and cross‑cloud AI execution as a competitive lever**\n\n- What happened: In conjunction with recent data cloud updates, Kurian highlighted a **“multicloud, or cross‑cloud lake house”** that lets enterprises run analytics and AI workloads from Google Cloud on data stored in AWS, Azure, and other Apache Iceberg–compatible systems, alongside a “deep research autonomous agent” and AI‑focused enhancements to the Cross‑Cloud Network.[1]  \n- Why it matters: This multicloud and cross‑cloud AI strategy reduces switching costs and data lock‑in for enterprises, enabling Kurian to use interoperability—rather than walled gardens—as a form of competitive *regulatory arbitrage* against rivals whose models depend more heavily on proprietary ecosystems.[1]\n\n3. **Deepening hardware and model integration via NVIDIA Blackwell GPUs and Gemini Flash**\n\n- What happened: Google Cloud under Kurian announced previews of **Gemini Flash models running on NVIDIA’s new Blackwell GPUs** for Google Distributed Cloud (GDC) connected customers, expanding the deployment options for Gemini‑based workloads at the edge and in hybrid environments.[1]  \n- Why it matters: Tight integration of Google’s own frontier models (Gemini Flash) with leading third‑party accelerators (NVIDIA Blackwell) strengthens Kurian’s ability to compete for large AI infrastructure deals, reinforcing Google Cloud’s relevance in the high‑end AI compute market that underpins dominance in generative and agentic AI.[1][3]\n\n4. **Centralizing Google Cloud’s go‑to‑market muscle within Alphabet to accelerate AI strategy**\n\n- What happened: Reporting on internal changes noted that Google recently moved Google Cloud’s **marketing organization under the broader corporate Google structure**, a shift that affects how Kurian can coordinate brand and product messaging across Alphabet.[2]  \n- Why it matters: Consolidating marketing at the corporate level can give Kurian faster, more unified amplification of Google Cloud’s AI narrative and offerings, strengthening his influence in how regulators, large customers, and the public perceive Google’s overall AI push relative to other big‑tech platforms.[2]\n\nIf you like, I can monitor and synthesize *only* genuinely new hard news about Kurian in coming days that fits your AI‑race / regulatory‑arbitrage focus and deliver periodic briefings."
+    },
+    {
+      "name": "Larry Page",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "There are no significant hard-news developments specifically about **Larry Page** in the past week in the areas you specified (AI dominance race, big tech regulatory arbitrage, or information environment contestation). Current coverage focuses on Alphabet/Google and AI generally, but without new, attributable decisions, actions, or statements by Page himself.[2]\n\nContext:\n\n- Larry Page has not held an executive role at Alphabet since stepping down as CEO of Alphabet in 2019, and recent reporting portrays him as largely absent from day‑to‑day public corporate and policy activity.[2]  \n- Recent AI and regulatory news centers on current Alphabet/Google leadership (e.g., Sundar Pichai, Demis Hassabis) and on competing firms, rather than on Page personally; no credible major outlets in the last 7 days report new business moves, legal actions, policy interventions, or public statements by Page.  \n\nGiven your “hard news only” constraint and the date window, there are therefore **no qualifying items to list** for Larry Page this week."
+    },
+    {
+      "name": "Dario Amodei",
+      "domain": "Co-Founder & CEO, Anthropic",
+      "raw_news": "Over the past week there have been no major, clearly documented new events centered specifically on **Dario Amodei** himself (as opposed to Anthropic more broadly) that meet your “hard news” criteria within the requested window. Available news instead focuses on Anthropic product and expansion moves, with his role as co‑founder & CEO implicit rather than personally foregrounded.\n\nGiven that constraint, here are the 3 most significant *Anthropic* developments in the last 7 days that directly affect Amodei’s influence in the AI race:\n\n1. **Launch of Claude Opus 4.8 (May 28, 2026)**  \n   – Anthropic announced **Claude Opus 4.8**, an upgraded flagship model with stronger performance on coding, agentic tasks, and professional work.[2]  \n   – As CEO, Amodei’s position in the frontier-model race is reinforced because an improved top-tier model directly impacts Anthropic’s competitiveness against OpenAI, Google, and others in high‑value enterprise and developer markets.[2]\n\n2. **Opening of Anthropic’s Milan office (announced May 27, 2026, still unfolding this week)**  \n   – Anthropic announced the opening of a **Milan office** to support Italian enterprise customers and research collaborations, signalling a deeper push into the EU market.[2]  \n   – This geographic expansion strengthens Amodei’s strategic footprint in Europe, giving him more political and commercial leverage in EU AI policy discussions and enterprise adoption relative to US‑centric rivals.[2]\n\n3. **Continuing fallout from Anthropic’s dispute with the U.S. Department of Defense (context still live and newsworthy)**  \n   – Earlier in 2026, Amodei refused to drop contract clauses banning use of Claude for mass domestic surveillance and fully autonomous weapons; the Pentagon labeled Anthropic a “supply‑chain risk,” federal agencies were ordered off Claude, and a federal judge subsequently granted a temporary injunction finding the DoD’s actions likely to be First Amendment retaliation.[1]  \n   – Although the core legal moves predate this week, the ongoing injunction and backlash keep Amodei at the center of a major test case over whether frontier AI CEOs can enforce ethical-use constraints while still competing for government and defense contracts, shaping his influence in both the AI industry and U.S. tech‑policy debates.[1]\n\nWithin the last 7 days, there are no verified reports of new policy decisions, major legal actions, or high‑impact public statements by Dario Amodei beyond these Anthropic-level developments; if you need items strictly naming him as the principal actor, the public record in that narrow window appears empty."
+    },
+    {
+      "name": "Philip Anschutz",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "There appear to be **no significant hard‑news developments involving Philip Anschutz in the past 7 days** in major business, political, or legal coverage; recent mentions are historical/biographical or awards and not new moves or decisions.[2][3][4]\n\nBased on the past week’s coverage:\n\n1. **No new capital-allocation moves or major AEG/Anschutz Corp. transactions reported**  \n   There are no filings, large acquisitions/divestitures, financing deals, or public portfolio shifts attributed to Anschutz or his core holding companies in the last week in major financial or industry news.[2]  \n   This suggests his pattern of exerting **private, low-visibility control over assets** continues without new public inflection points, limiting fresh visibility into his current capital-allocation strategy.\n\n2. **No new legal actions, regulatory proceedings, or policy-facing interventions linked to him**  \n   Recent search results show no lawsuits, settlements, regulatory enforcement actions, or lobbying/policy interventions in his name or clearly tied entities in the date window specified.[2]  \n   In terms of *private power*, this means there is **no evidence of newly formalized constraints or expansions** on his influence via courts or regulators this week.\n\n3. **No notable new public statements or media interventions affecting the information environment**  \n   His most visible roles remain historical (sports, arenas, conservative philanthropy, media holdings), with no recent interviews, op-eds, or media directives reported in the last 7 days.[2][3]  \n   For *information-environment contestation*, this indicates **no fresh public narrative moves or signaling** that would shift his perceived position in cultural or political debates during this period.\n\nBecause of this lack of fresh, time-bounded events, there are **no qualifying 3–5 hard‑news items** to list for the requested week; Anschutz’s influence during this window appears to be exercised, if at all, entirely off the public record."
+    },
+    {
+      "name": "Antony Ressler",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "There do not appear to be any significant hard-news developments specifically about **Antony (Tony) Ressler** in the last week in major business, finance, sports, or general-news outlets; recent coverage is limited to background/profile pieces rather than new decisions, deals, or controversies.[1][3]\n\nBased on available reporting, here is what can be said, with the caveat that these are context updates rather than discrete news events from the last 7 days:\n\n1. **Updated profile on Ares Management’s scale and recent deal activity**  \n   - The Los Angeles Business Journal’s 2026 LA500 profile on Ressler highlights Ares Management’s growth to approximately **$623 billion in assets under management** and notes major deals such as its **$2.4 billion acquisition of GLP’s international business** and recent stress in its private credit funds.[1]  \n   - This matters because it underscores Ressler’s role as **executive chair of one of the world’s largest alternative asset managers**, signaling his continued centrality in private credit and private equity capital allocation, and hinting at potential influence over how liquidity and risk are managed in that market segment.[1]\n\n2. **Reinforcement of Ressler’s net worth and position among U.S. billionaires**  \n   - Recent biographical/financial summaries place Ressler’s net worth in the **$10–14 billion** range as of 2025–2026, confirming his status in the **Forbes 400** tier.[2][3]  \n   - This matters because the scale and relative stability of his wealth base support his ongoing capacity to deploy large pools of private capital, both through Ares and through personal or family investment vehicles.\n\n3. **Ongoing prominence through ownership of the Atlanta Hawks**  \n   - Contemporary profiles reiterate Ressler’s role as **principal owner of the NBA’s Atlanta Hawks**, acquired in 2015, with no major ownership changes or governance shocks reported in the past week.[3]  \n   - This matters because the team ownership provides him with a continuing platform of soft power and public visibility in U.S. sports and media, complementing his more opaque influence in private markets.\n\nGiven the absence of fresh hard news in the specified 7-day window, there are no verifiable new policy decisions, major capital allocation moves, legal actions, or high-impact public statements by Ressler himself that can be reported from that period."
+    },
+    {
+      "name": "Terrence Pegula",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "There do not appear to be any significant, verifiable hard‑news developments involving **Terrence (Terry) Pegula** in the last 7 days related to **energy transition or energy security** (or, more broadly, to his oil and gas interests or policy activity).\n\nAvailable coverage over this period focuses on older or evergreen background about Pegula’s wealth and business profile, not on new deals, policy interventions, legal actions, or major public statements:\n\n- Pegula continues to be described as a billionaire whose fortune was built on **natural gas development and fracking**, particularly through his former company East Resources, and who now owns the Buffalo Bills and Buffalo Sabres.[4][5]  \n- Background pieces reiterate his role as a petroleum engineer and gas developer, but they reference past ventures (e.g., East Resources and a 2020 SPAC vehicle targeting oil and gas assets) rather than new moves in 2026.[1][4]  \n\nBecause there are **no time‑stamped reports from the last week** showing new investments, transactions, regulatory actions, or major energy‑policy interventions by Pegula, any attempt to list 3–5 “most significant news items” for this precise window would be speculative and not grounded in current reporting."
+    },
+    {
+      "name": "Charles Koch & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "I could not verify **3–5 hard-news items from the last 7 days** about Charles Koch & family from the provided results; the results are either older, non-specific, or not clearly within the May 27–June 3, 2026 window.[1][2][3]\n\n- **No confirmed recent hard-news item found**: The available results include an older report on David Koch’s death, a broad political analysis video about the Koch-Trump rift, and a promotional note about an upcoming Charles Koch book, but none clearly fall within the requested 7-day period or qualify as hard news.[1][2][3]  \n  This means I cannot responsibly attribute a recent policy, business, legal, or geopolitical development to the Koch family based on the supplied material.[1][2][3]\n\n- **Most relevant signal in the set: political pressure on the GOP**: The NYT clip indicates the Koch network has taken a hard line against Trump tariffs and may withhold support for Republicans who back them.[2]  \n  If current, that would matter because it would show continued leverage over the party’s coalition machinery and donor discipline, but the result provided is not dated enough here to confirm it is a new development.[2]\n\n- **Most relevant business/influence signal in the set: Charles Koch’s messaging push**: Stand Together’s note says Charles Koch has a new book coming out focused on “bottom-up solutions,” co-authored with Brian Hooks.[3]  \n  That matters because it reinforces the family’s effort to shape elite and philanthropic networks, but it is a promotional item rather than a hard-news event.[3]\n\nIf you want, I can do a **fresh, source-based sweep** focused only on the last 7 days and return a tighter 3–5 item brief in this exact format."
+    },
+    {
+      "name": "Kash Patel",
+      "domain": "Director, Federal Bureau of Investigation",
+      "raw_news": "There are no substantial, independently reported hard-news developments about FBI Director **Kash Patel** in the last 7 days that match your criteria of significant moves related to *executive power consolidation*; recent coverage is either older than your window, generic, or focused on operational bragging rather than new structural or legal power shifts.\n\nFrom the closest available items (all outside the requested 7-day range, but thematically relevant), these are the most pertinent to his influence and institutional power:\n\n1. **Police Week public briefing on FBI performance (mid‑May 2026, outside 7‑day window)**  \n   - Patel publicly highlighted sharp increases in violent crime arrests, cyber indictments, and human trafficking arrests, along with hundreds of rescued child victims and disrupted terrorist plots, framing the FBI as aggressively expanding its operational footprint against crime and terrorism.[2][4]  \n   - This matters because the narrative of dramatic enforcement gains helps justify continued or expanded authority, resources, and task‑force structures that centralize operational control in the FBI under his leadership, reinforcing his political standing with the White House and law‑and‑order constituencies.[2][4]\n\n2. **Expansion of Homeland Security Task Forces (described “last month,” i.e., April 2026)**  \n   - Patel described the creation of **59 Homeland Security Task Forces** embedding federal agents with local partners to share intelligence and target drug traffickers and their funding streams.[2][4]  \n   - These joint task forces deepen federal penetration of local policing and intelligence flows, effectively consolidating investigative and intelligence leverage in the FBI and strengthening Patel’s control over intergovernmental security coordination.[2][4]\n\n3. **Positioning amid calls for his removal and speculation on tenure (ongoing through spring 2026)**  \n   - Political betting and commentary note Democratic calls for Patel’s removal tied to management and conduct allegations, even as he remains in office and continues large-scale restructuring and leak‑crackdown efforts inside the FBI.[1]  \n   - Surviving these overt challenges while maintaining aggressive internal discipline and restructuring underscores that his personal position—and the executive’s grip over the Bureau—is holding firm, signaling to subordinates and Congress that the White House continues to back his consolidation agenda.[1]\n\n4. **Prior Senate Intelligence testimony on Iran war and global threats (March 18, 2026)**  \n   - Patel warned the Senate Intelligence Committee about escalating threats from Iran’s military, cyber operations, and proxy networks, emphasizing the need for robust intelligence integration and rapid response measures.[3]  \n   - By foregrounding global, multi‑domain threats, he builds the case for greater deference to FBI intelligence operations and interagency leadership, which bolsters the Bureau’s role as a central domestic‑security node aligned closely with executive‑branch priorities.[3]\n\n5. **Budget testimony and appropriations grilling (spring 2026)**  \n   - In a widely covered appropriations hearing, Patel defended the FBI’s 2026 budget request under intense questioning from senators, tying funding to expanded operational and intelligence missions.[5]  \n   - Budget negotiations are a core mechanism of power: securing or protecting this funding supports the personnel shifts, task‑force build‑out, and policy changes that enable longer‑term consolidation of executive-aligned control within the FBI.[5]\n\nWithin the exact May 27–June 3, 2026 window, there are no verifiable reports of new policy decisions, legal actions, or structural moves by Patel that materially change his power or the Bureau’s authority; coverage in that timeframe appears limited to background, commentary, or market/speculative chatter rather than concrete new actions."
+    },
+    {
+      "name": "Susie Wiles",
+      "domain": "Senior Republican strategist and White House Chief of Staff",
+      "raw_news": "There do not appear to be any **hard-news developments specifically about Susie Wiles** in the last 7 days that meet your criteria of policy decisions, structural power moves, legal actions, or major public interventions on executive power or electoral machinery.\n\nBased on current coverage:\n\n- Most recent concrete reporting on Wiles focuses on her **breast cancer diagnosis and her decision to remain as White House chief of staff**, which Trump publicly discussed in March 2026 and which continued to frame subsequent mentions of her in 2026.[2][3][6]  \n- Background/reference pieces (e.g., Politico, The Independent, Britannica) describe her role as **Trump’s chief of staff and key inside strategist** but do not contain new, time-stamped, hard-news events within the May 27–June 3, 2026 window.[1][3][4][5]  \n\nGiven that:\n\n- I cannot reliably point to 3–5 *new* discrete actions or statements by Wiles in the past week relating to **executive power consolidation** or **coalition/electoral infrastructure** without fabricating detail.  \n- Any attempt to describe such moves for this 7‑day window would be speculative rather than grounded in verifiable reporting, which would violate your “hard news only” constraint.\n\nIf you want, I can instead:\n\n- Map out Wiles’s **existing power architecture** (how she controls access, process, and personnel flows in the Trump White House, per recent profiles), and  \n- Identify the **kinds of events** involving her that would signal escalations in executive centralization or campaign/coalition machinery when they next appear in coverage."
+    },
+    {
+      "name": "Brett M. Kavanaugh",
+      "domain": "Associate Justice, US Supreme Court",
+      "raw_news": "Based on major outlets and Supreme Court reporting, there have been **no significant new developments involving Justice Brett M. Kavanaugh in the last week** in the domains of judicial pipeline, doctrinal shifts, or high‑impact public interventions.  \n\nEssential context:\n\n- Recent Brett Kavanaugh coverage from mainstream news aggregations (e.g., CBS, Politico, Wikipedia news sections) shows **no new decisions, separate writings, or major speeches in the May 27–June 3 window** that single him out as a principal actor or pivot on doctrinal direction.[2][4][5]  \n- The Court is in the late part of its term and key merits decisions are either pending or, where issued, have not prominently featured Kavanaugh as an opinion author or unusually pivotal concurrence in the last seven days.[3][5]  \n- There have been **no reported new ethics complaints, investigations, security incidents, or political maneuvers** focused on Kavanaugh in this timeframe in major political or legal media.[2][4]  \n\nBecause of this, it is not possible to supply 3–5 discrete, hard‑news items of the kind you request (policy decisions, major legal or geopolitical moves, or consequential public statements) specifically attributable to Kavanaugh over the past week without fabricating events. If you like, I can instead:\n\n- Map his **most recent term’s major opinions and votes** that shape the judicial pipeline and doctrinal trajectory (even if slightly older than 7 days), or  \n- Track **upcoming cases** where he is likely to be a key vote on regulatory power, administrative law, or rights doctrines."
+    },
+    {
+      "name": "Stanley Druckenmiller",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "There do not appear to be any major hard-news developments specifically involving **Stanley Druckenmiller** in the period from roughly May 27 to June 3, 2026; recent coverage focuses on his portfolio positioning and earlier 2026 moves rather than fresh decisions or statements in the last week.[1][2][3][4]\n\nAvailable recent items are either:\n- Commentary or analysis of his previously disclosed 13F positions and Q4 2025–early 2026 portfolio shifts, or  \n- General profiles and opinion pieces about his macro views, without a verifiable new action or statement in the past 7 days.[1][2][3][4]\n\nGiven your “hard news only” constraint (policy decisions, new business moves, legal actions, major public statements), there are **no clearly dated, substantive new events in the last week** that meet your criteria for Druckenmiller’s capital-allocation or political/institutional influence.  \n\nIf you want, I can instead:\n- Summarize his most recent *documented* major moves (e.g., 2025–Q1 2026 rotation out of some AI names and into infrastructure and selected tech) and explain their significance for his private power and market influence, or  \n- Track future filings and speeches and flag when there is a genuinely new, time-stamped development."
+    },
+    {
+      "name": "Demis Hassabis",
+      "domain": "CEO, Google DeepMind",
+      "raw_news": "1. **Sharp public dismissal of rival DeepSeek’s breakthrough claims at Paris AI summit**  \n   - Demis Hassabis told Bloomberg that, despite the hype, DeepSeek’s much-discussed AI model is **“not a significant technological breakthrough,”** during a joint appearance with Google SVP James Manyika at the AI Action Summit in Paris.[3]  \n   - By publicly downplaying a high-profile Chinese rival’s progress on a major global stage, Hassabis is signaling confidence in Google DeepMind’s technical lead and shaping the narrative of which players genuinely matter in the AI dominance race.[3]  \n\n2. **Aggressive timeline and capability claims at Google I/O about next-generation Google DeepMind systems**  \n   - At Google I/O 2026, Hassabis closed the conference with remarks that reportedly “stunned the audience,” saying this is the year when AI’s long-promised shift becomes *tangible* and indicating Google DeepMind’s upcoming systems will significantly surpass today’s models.[1]  \n   - These public statements frame Google DeepMind as the pace-setter for the next wave of frontier AI capabilities, reinforcing Hassabis’s position as a central figure in defining how quickly—and under whose leadership—the next leap in general-purpose AI arrives.[1]"
+    },
+    {
+      "name": "Paul Singer",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Elliott Management amasses a new multi‑billion‑dollar “war chest” for fresh activist and distressed bets**  \n   - Elliott, led by Paul Singer, has recently raised roughly **$7 billion in new capital**, sharply expanding the fund’s dry powder at a moment when many hedge funds are struggling to attract money.[1]  \n   - This new capital significantly **enhances Singer’s ability to pressure boards, influence restructurings, and shape corporate strategy**, increasing his leverage in capital allocation battles and corporate governance fights.[1]  \n\n2. **Singer publicly warns on “era of extremes” in markets, urging caution on rates, tariffs, and geopolitical risk**  \n   - In a newly published interview and commentary, Singer argues that investors face unprecedented extremes in **interest rates, trade policy, AI-driven disruption, and geopolitical tensions**, and calls for much more conservative risk management.[2]  \n   - These remarks matter because Singer’s **macro views often foreshadow Elliott’s positioning and activist targets**, signaling how he may deploy capital and lobby policymakers and corporate boards in the near term.[2]  \n\n3. **Singer downplays a ‘talent war’ in hedge funds, signaling confidence in Elliott’s internal bench and model**  \n   - In a recent profile, Singer is quoted saying the much-discussed **hedge fund talent war is “exaggerated”**, arguing that Elliott’s culture and structure mitigate the pressures others report.[3]  \n   - This stance underscores Elliott’s **institutional resilience and succession depth**, reinforcing Singer’s ability to sustain and potentially expand his influence over corporate campaigns and financial market interventions without being constrained by hiring dynamics.[3]"
+    },
+    {
+      "name": "Steve Scalise",
+      "domain": "House (LA, Republican)",
+      "raw_news": "1. **Scalise releases the 2026 House legislative calendar as Majority Leader.**  \n   This underscores his central role in controlling floor time and sequencing on fiscal packages, spending bills, and any monetary-policy-related oversight in the next session, reinforcing his leverage over both coalition management and electoral-timed legislative battles.[1][2]\n\n2. **Scalise’s office continues to highlight his role in shaping and advancing House Republicans’ legislative agenda for the 119th Congress on the official Majority Leader site.**[7]  \n   The sustained positioning as agenda-setter signals that he remains a primary gatekeeper for budget, appropriations, and regulatory priorities, which is critical to both internal coalition bargaining and the party’s broader campaign infrastructure.[7]\n\n3. **His official press and media channels (including recent press conferences and appearances amplified via YouTube and Majority Leader communications) focus on national-level policy messaging rather than district-only issues.**[4][5][7]  \n   This emphasis on nationally salient themes helps maintain his visibility as a conference-wide leader, shaping GOP narrative on federal fiscal and economic issues in a way that supports fundraising, message discipline, and the party’s electoral machinery.[4][5][7]\n\nPublicly available news and official releases over roughly the last week do not show any discrete new Scalise moves on specific fiscal-monetary crisis management steps, coalition rule changes, or electoral-law initiatives beyond these leadership and agenda-setting functions; if you need, I can cross-check a narrower policy area (e.g., appropriations, debt ceiling, or election law) for any very recent, low-visibility actions."
+    },
+    {
+      "name": "Joe Rogan",
+      "domain": "Host, The Joe Rogan Experience",
+      "raw_news": "Based on available coverage, there do not appear to be 3–5 clearly documented, hard‑news developments specifically about Joe Rogan in the last 7 days that meet your criteria (policy/business/legal/geopolitical/major strategic statements). Current mentions are largely routine content, commentary, or older items being resurfaced.\n\nFrom what can be reliably identified as recent and relevant to information-environment contestation:\n\n1. **Ongoing prominence of The Joe Rogan Experience in podcast rankings**  \n   - Several outlets continue to reference Rogan’s show at or near the top of major podcast charts into 2025, underscoring that his platform remains one of the largest individual media outlets in the U.S. and globally.[3]  \n   - This sustained audience scale matters because it ensures that any political, scientific, or geopolitical narratives he amplifies continue to have outsized influence on the broader information ecosystem and on how many listeners interpret mainstream versus alternative narratives.[3]\n\n2. **Continued positioning as a key figure in political and public‑policy discourse**  \n   - Mainstream news coverage profiles Rogan as a central node in U.S. political conversation, with his interviews and comments on elections, COVID‑related issues, and foreign policy repeatedly picked up and reframed by partisan and legacy media.[2][3]  \n   - This matters for information contestation because it cements Rogan as a “bridge” between fringe or alternative viewpoints and mass audiences, allowing narratives that originate outside institutional media to gain rapid legitimacy and spread.[2][3]\n\nBecause recent search results do not show new contracts, lawsuits, platform bans, major public reversals, or comparable hard‑news developments tied specifically to Rogan in the May 27–June 3, 2026 window, any attempt to list additional “news items” would require speculation beyond the available evidence."
+    },
+    {
+      "name": "Charlie Kirk",
+      "domain": "Founder and President, Turning Point USA",
+      "raw_news": "I could not find **3–5 hard-news items from the past 7 days** about Charlie Kirk specifically; the available recent results are mostly about **Turning Point USA security threats** and background on TPUSA, not fresh coalition or electoral-infrastructure moves by Kirk himself.[1][2][3]\n\n- **Bomb-threat case tied to a TPUSA event:** A Texas man was charged after allegedly posting online bomb threats against an upcoming Turning Point USA event and against Erika Kirk, who leads TPUSA.[1]  \n  This matters because it shows TPUSA remains a high-salience target for threats, which can affect the organization’s event operations and the broader security posture around Kirk’s coalition network.[1]\n\n- **Threat pressure on TPUSA leadership:** Reporting says Erika Kirk has faced a wave of threats since becoming CEO, and she previously canceled a University of Georgia appearance after organizers cited “very serious threats.”[1]  \n  This matters because sustained threat pressure can constrain public organizing, chapter growth, and on-the-ground coalition building tied to Kirk’s legacy organization.[1]\n\n- **Ongoing scrutiny of TPUSA’s organizational standing:** Recent background coverage notes that TPUSA’s tax-exempt entities were not under IRS examination or investigation and that all had filed their 2024 Form 990s on time, after rumors of financial impropriety circulated in late 2025.[2]  \n  This matters because clearing compliance questions helps protect the infrastructure behind TPUSA’s political and campus operations, which are central to Kirk’s influence network.[2]\n\n- **Expansion of TPUSA’s school and campus footprint:** Coverage from late 2025 says TPUSA has expanded aggressively into K-12 and college organizing, and the Department of Education partnered with conservative groups on educational programming tied to America’s 250th anniversary.[4]  \n  This matters because it indicates the coalition machinery Kirk built continues to be used as a broader conservative youth-organizing platform, even after his death.[4]\n\n- **Leadership transition at TPUSA:** Britannica notes that Erika Kirk became CEO of Turning Point USA after Charlie Kirk’s death in September 2025.[3]  \n  This matters because the transition determines who controls the organization’s electoral and coalition infrastructure now, and it marks a major shift from Kirk’s personal leadership to a successor-led structure.[3]\n\nIf you want, I can do a tighter follow-up focused only on **new electoral-infrastructure moves** and exclude security/threat-related items."
+    },
+    {
+      "name": "Alex Karp",
+      "domain": "Co-Founder & CEO, Palantir",
+      "raw_news": "1. **Karp warns in new Axios interview that China winning the AI race would mean “far fewer rights” for Western citizens, arguing the U.S. must “absorb a lot of risk” to stay ahead.**[1][4]  \n   This sharp framing reinforces his role as a leading public advocate for aggressive U.S. AI deployment tied to national security, bolstering Palantir’s positioning as a strategic asset in the AI–defense competition.[2][4]  \n\n2. **In the same media push, Karp criticizes Europe as “abysmal” on AI and claims the Gulf states are making better progress, while casting Palantir as “the first company to be completely anti‑woke.”[1]**  \n   By tying geopolitical AI competition to a cultural and ideological stance, he is strengthening Palantir’s brand with security‑focused governments and investors, and differentiating it from more cautious U.S. tech peers in the defense‑industrial space.[1]  \n\n3. **Karp publicly links AI to a coming era of “social instability” and “pretty crazy populist movements,” while arguing that world survival odds increase as America becomes stronger and more dominant in AI.[1][3]**  \n   This narrative positions him as a key voice shaping how policymakers and militaries think about AI as a tool of state power and regime stability, which in turn supports Palantir’s influence in defense and intelligence contracts tied to AI‑driven decision systems.[2][3]"
+    },
+    {
+      "name": "MacKenzie Scott",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "There do not appear to be any major hard‑news developments specifically about **MacKenzie Scott** in the past week; the latest coverage is months old and focuses on earlier waves of her philanthropy rather than new actions during the requested dates.[2][1]  \n\nBelow are the most recent *substantive* developments that are still shaping assessments of her influence and position, but they fall well outside the last 7 days:\n\n1. **$26 billion multi‑year philanthropy push highlighted, including $7+ billion donated in 2025**  \n   - Fortune reported in January 2026 that Scott has been executing a **$26 billion philanthropy strategy**, giving over **$7 billion in 2025 alone** across areas such as DEI, education, social equity, environmental justice, housing, and food security.[2]  \n   - This scale and pace of giving solidify her as one of the most influential modern philanthropists, both in total dollars and in the unusually high share of her estimated ~$31 billion fortune she is actively deploying.[2]  \n\n2. **Strategic gifts to organizations hit by federal funding cuts under the Trump administration**  \n   - Scott has directed large unrestricted gifts to organizations facing or anticipating federal cuts, including **$60 million to the Center for Disaster Philanthropy** (amid proposed FEMA reductions) and **$80 million to Howard University** during a shutdown that delayed federal appropriations.[2]  \n   - By explicitly filling gaps left by reduced federal support, she is shaping the resilience and priorities of key institutions in disaster response and higher education, increasing her leverage in public‑interest fields traditionally dominated by government funding.[2]  \n\n3. **Record donation to The Trevor Project to bolster LGBTQ+ crisis services**  \n   - The Trevor Project announced it received a **$45 million donation** from Scott, the single largest gift in its 27‑year history, after the Trump administration moved to strip LGBTQ‑specific support from the 988 Suicide & Crisis Lifeline.[2]  \n   - This positions her as a central private counterweight in LGBTQ+ mental health infrastructure, allowing specialized crisis intervention for queer and trans youth to continue despite hostile federal policy shifts.[2]  \n\n4. **Major unrestricted gift to the National Council for Mental Wellbeing**  \n   - In January 2026, the National Council for Mental Wellbeing announced a **$32 million gift** from MacKenzie Scott to support mental health and substance use treatment efforts nationwide.[1]  \n   - The size and flexible nature of this grant expand her influence over how non‑profit mental health systems scale services at a time of heightened concern about behavioral health capacity.[1]  \n\n5. **Ongoing use of low‑visibility, no‑strings philanthropy model**  \n   - Scott has repeatedly emphasized in prior blog posts that she gives as an individual, often without publicly disclosing amounts or demanding reporting, a pattern commentators note allows her to bypass many traditional transparency requirements imposed on foundations.[3]  \n   - This approach enhances grantees’ autonomy but also concentrates a large, relatively opaque form of private power, intensifying debates about accountability for ultra‑wealthy donors in public life.[3]  \n\nBecause there are no verifiable, date‑stamped hard‑news items about Scott from roughly May 27–June 3, 2026 in the available record, any claim of specific new moves or statements in that window would be speculative."
+    },
+    {
+      "name": "Jonathan Gray",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **AI infrastructure as Blackstone’s top growth driver**  \n   - Jonathan Gray said in a televised interview that the build-out of **artificial-intelligence infrastructure is currently the single-biggest driver for Blackstone**, highlighting data centers and related assets as a core focus for new investment.[1]  \n   - This underscores his role in steering one of the world’s largest alternative asset managers to concentrate capital on AI‑linked real assets, reinforcing his influence over where trillions of institutional dollars are deployed in the next phase of tech-driven infrastructure.[1]  \n\n2. **Pipeline of nine IPOs filed globally for Blackstone portfolio companies**  \n   - In the same interview, Gray disclosed that Blackstone now has **nine IPOs filed across the US, Europe, and Asia**, and he expects this year to be the firm’s busiest ever for taking portfolio companies public.[1]  \n   - This signals a major monetization phase for assets he helped acquire and scale, strengthening Blackstone’s dry powder for future deals and reinforcing Gray’s position as a central allocator of private equity capital across global markets.[1]  \n\n3. **Public framing of Blackstone’s scale and capital deployment strategy**  \n   - Gray publicly discussed Blackstone’s scale—around **$1.3 trillion in assets under management**—and how the firm is positioning capital across sectors like real estate, infrastructure, and private credit in recent high-profile media appearances.[1][3]  \n   - By shaping the narrative around Blackstone’s deployment priorities at this scale, Gray reinforces his status as a key architect of private-market capital flows that increasingly influence housing, corporate financing, and critical infrastructure worldwide.[2][3]"
+    },
+    {
+      "name": "Thomas Pritzker",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "I could not verify **any significant hard news about Thomas Pritzker in the past 7 days** from the results provided; the only clearly material item is a **February 17, 2026** Hyatt board exit tied to Epstein-related revelations, which falls outside your requested window.[1][2]\n\n- **No qualifying 7-day hit found:** The supplied results do not show a new policy decision, business move, legal action, geopolitical event, or major public statement by Thomas Pritzker between roughly 2026-05-27 and 2026-06-03.[1][2]\n  - **Why it matters:** Without a fresh event in the requested period, there is no confirmed recent change to assess in his influence, capital allocation posture, or private-power position.\n\n- **Out-of-window but material prior event:** Thomas Pritzker stepped down immediately as Hyatt executive chairman in February after Epstein-related documents and public scrutiny surfaced, saying he deeply regretted the association.[1][2]\n  - **Why it matters:** This was a significant reputational and governance event at one of the Pritzker family’s best-known corporate holdings, reducing his direct visible role at Hyatt and affecting perceptions of his stewardship.\n\nIf you want, I can also do a tighter second-pass scan framed around **Thomas Pritzker’s family office, Hyatt, and Pritzker-related investment vehicles** to try to surface any same-week developments that did not appear in these initial results."
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **$5 million Harvard Business School gift for AI case development**  \n   - Stephen Schwarzman made a **$5 million donation to Harvard Business School** to fund new case studies and programming on the implications of artificial intelligence for industries, business, and markets.[4]  \n   - This reinforces his role as a high-profile private actor shaping elite business education and discourse on AI, potentially steering how future corporate and policy leaders think about AI strategy and governance.[4]  \n\n2. **Promoting India as a key long-term investment hub in Davos discussions**  \n   - In a recent Davos 2026 session, Schwarzman highlighted **India as a continuing core theme for Blackstone’s long-term investment strategy**, positioning it as a central geography for capital deployment.[3]  \n   - By publicly signaling sustained, large-scale capital allocation toward India, he underscores Blackstone’s—and his own—ability to influence where global private capital flows in the emerging-market growth and AI build‑out race.[3]"
+    },
+    {
+      "name": "Larry Ellison",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "1. **Oracle’s late-May AI rally makes Ellison the world’s third-richest person**  \n   - Oracle’s stock hit a 2026 intraday high in late May on surging investor enthusiasm for its AI infrastructure business, briefly lifting Larry Ellison to the position of **world’s third-richest person** as his roughly 40% stake in Oracle soared in value.[1]  \n   - This sharp wealth and valuation jump underscores Oracle’s rapid rise as a **top-tier AI infrastructure contender**, strengthening Ellison’s leverage in the AI dominance race against hyperscalers like Microsoft, Amazon, and Google.[1][3]  \n\n2. **Oracle positions its “all-in-one” AI stack as a direct challenger to hyperscalers**  \n   - In recent presentations and interviews about Oracle’s 2026 roadmap, Ellison has pushed an integrated **“all-inclusive AI stack”** that combines databases, applications, and cloud infrastructure into a single platform aimed at running and training large AI models at scale.[3]  \n   - By bundling data, apps, and compute under one vendor, Ellison is attempting a form of **regulatory and competitive arbitrage**—locking in enterprise workloads while sidestepping some of the antitrust scrutiny focused on more fragmented big-tech ecosystems, and positioning Oracle as a distinctive alternative to the current AI cloud oligopoly.[3]  \n\n3. **Oracle’s AI infrastructure narrative intensifies as a core growth and policy story**  \n   - Commentaries on Oracle’s strategy over the past week have emphasized Ellison’s insistence that Oracle’s **Gen2 Cloud and AI-optimized infrastructure** are now the primary engine of the company’s future growth, reframing Oracle from a legacy database firm to an AI-first infrastructure supplier.[1][3]  \n   - This narrative shift matters because it enhances Ellison’s bargaining power with governments and large enterprises seeking diversified AI suppliers, potentially giving him more influence in future **AI regulation, procurement, and standards** debates relative to his big-tech peers.[1][3]"
+    }
+  ],
+  "ps_assemblies_fired": {
+    "DPS-02": [
+      "CA-011",
+      "CA-005",
+      "CA-047",
+      "CA-060",
+      "CA-070"
+    ],
+    "DPS-05": [
+      "CA-108",
+      "CA-021",
+      "CA-136"
+    ],
+    "DPS-09": [
+      "CA-019",
+      "CA-057",
+      "CA-098"
+    ],
+    "DPS-01": [
+      "CA-001",
+      "CA-030",
+      "CA-018"
+    ]
+  },
+  "assemblies_spontaneous": [
+    "CA-055",
+    "CA-074"
+  ],
+  "neurons_conscious": [
+    "Alexander Karp",
+    "Thomas Kurian",
+    "Larry Page",
+    "Dario Amodei",
+    "Philip Anschutz",
+    "Antony Ressler",
+    "Terrence Pegula",
+    "Charles Koch & family",
+    "Kash Patel",
+    "Susie Wiles"
+  ],
+  "neurons_spontaneous": [
+    "Brett M. Kavanaugh",
+    "Stanley Druckenmiller",
+    "Demis Hassabis",
+    "Paul Singer",
+    "Steve Scalise",
+    "Joe Rogan",
+    "Charlie Kirk",
+    "Alex Karp",
+    "MacKenzie Scott",
+    "Jonathan Gray",
+    "Thomas Pritzker",
+    "Stephen Schwarzman",
+    "Larry Ellison"
+  ],
+  "neurons_skipped": [
+    "Elon Musk",
+    "Mark Zuckerberg",
+    "Jerome H. Powell",
+    "Clarence Thomas",
+    "Jeff Bezos",
+    "Donald Trump",
+    "Neil M. Gorsuch",
+    "Tim Cook",
+    "Scott Bessent",
+    "Andy Jassy",
+    "Sundar Pichai",
+    "Satya Nadella",
+    "Robert F. Kennedy Jr.",
+    "Leonard Leo",
+    "Pete Hegseth",
+    "Sonia Sotomayor",
+    "Sam Altman",
+    "Peter Thiel",
+    "Marc Rowan",
+    "Russell M. Nelson",
+    "Miriam Adelson & family",
+    "Michael Bloomberg",
+    "Jensen Huang",
+    "Amy Coney Barrett",
+    "Ketanji Brown Jackson",
+    "Ken Griffin",
+    "Gavin Newsom",
+    "Sean Hannity",
+    "Samuel A. Alito Jr.",
+    "John Thune",
+    "Mustafa Suleyman",
+    "John G. Roberts Jr.",
+    "Ken Langone",
+    "Rob Walton & family",
+    "Richard Uihlein",
+    "Laurene Powell Jobs",
+    "Susan M. Collins",
+    "Stephen Ross",
+    "Abigail Johnson",
+    "Judy Faulkner",
+    "Jerry Jones & family",
+    "Bob Parsons",
+    "Jim Walton & family",
+    "David Geffen",
+    "Bill Gates",
+    "Eric Schmidt",
+    "Chuck Grassley",
+    "David Rubenstein",
+    "Fred Smith",
+    "David Tepper",
+    "Alice Walton",
+    "Ray Dalio",
+    "Brian Armstrong",
+    "Paul Tudor Jones, II.",
+    "Pam Bondi",
+    "J.B. Pritzker",
+    "Elena Kagan",
+    "Lukas Walton",
+    "Pierre Omidyar",
+    "Michael Rubin",
+    "Henry Kravis",
+    "Jeff Yass",
+    "Marijke Mars",
+    "Julia Koch & family",
+    "John Malone",
+    "Kelcy Warren",
+    "Leon Black",
+    "Lynda Resnick",
+    "Tom Cotton",
+    "Ronald Lauder",
+    "George Roberts",
+    "Brian Chesky",
+    "Jeremy Jacobs, Sr. & family",
+    "Brian Ballard",
+    "Ann Walton Kroenke",
+    "Charles E. Schumer",
+    "Charles Schwab",
+    "Michael Dell",
+    "Ted Cruz",
+    "Mitchell Rales",
+    "Ron DeSantis",
+    "Melinda French Gates",
+    "Marc Benioff",
+    "Suzanne Clark",
+    "Mitch McConnell",
+    "David Bonderman",
+    "Warren Buffett",
+    "Rupert Murdoch & family",
+    "Josh Harris",
+    "Greg Abbott",
+    "Stephen Feinberg",
+    "Mike Lee",
+    "Sergey Brin",
+    "Steve Cohen",
+    "Phil Knight & family",
+    "Carl Icahn",
+    "Thomas Peterffy",
+    "William Ackman",
+    "Victoria Mars",
+    "Patty Murray",
+    "John Mars",
+    "Hakeem S. Jeffries",
+    "Matthew J. Kacsmaryk",
+    "Rick Scott",
+    "Cynthia M. Lummis",
+    "Carrie Severino",
+    "Christopher Murphy",
+    "Kevin Roberts",
+    "Richard J. Durbin",
+    "George Soros",
+    "Thomas Frist, Jr. & family",
+    "Bret Taylor",
+    "Stewart Resnick",
+    "Edward Johnson, IV.",
+    "Palmer Luckey",
+    "Lynn Schusterman & family",
+    "Josh Hawley",
+    "Lisa Su",
+    "Len Blavatnik",
+    "Lindsey Graham",
+    "Alexandria Ocasio-Cortez",
+    "Elise M. Stefanik",
+    "Mark Walter",
+    "Daniela Amodei",
+    "Christy Walton",
+    "Donald Newhouse",
+    "Ernest Garcia, III"
+  ],
+  "spontaneous_cap": 13
+}

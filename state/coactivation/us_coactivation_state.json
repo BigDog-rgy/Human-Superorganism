@@ -1,6 +1,6 @@
 {
-  "week_count": 11,
-  "last_updated": "2026-05-27",
+  "week_count": 12,
+  "last_updated": "2026-06-03",
   "scope": "US",
   "config": {
     "decay_rate": 0.15,
@@ -9,7 +9,7 @@
   },
   "neuron_coactivation": {
     "Christopher Murphy|||Elon Musk": {
-      "score": 0.10712283765598142,
+      "score": 0.0910544120075842,
       "label": "reinforcing",
       "observations": 3,
       "last_ps": [
@@ -19,7 +19,7 @@
       "last_updated": "2026-05-13"
     },
     "Christopher Murphy|||Palmer Luckey": {
-      "score": -0.07350216234401856,
+      "score": -0.062476837992415775,
       "label": "adversarial",
       "observations": 3,
       "last_ps": [
@@ -28,7 +28,7 @@
       "last_updated": "2026-05-13"
     },
     "Elon Musk|||Palmer Luckey": {
-      "score": 0.2877478376559814,
+      "score": 0.24458566200758416,
       "label": "reinforcing",
       "observations": 4,
       "last_ps": [
@@ -57,7 +57,7 @@
       "last_updated": "2026-05-27"
     },
     "Charles E. Schumer|||Lindsey Graham": {
-      "score": -0.10712283765598142,
+      "score": -0.0910544120075842,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -66,7 +66,7 @@
       "last_updated": "2026-03-19"
     },
     "Charles E. Schumer|||Rick Scott": {
-      "score": -0.10712283765598142,
+      "score": -0.0910544120075842,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -93,7 +93,7 @@
       "last_updated": "2026-03-19"
     },
     "Christopher Murphy|||Lindsey Graham": {
-      "score": -0.10712283765598142,
+      "score": -0.0910544120075842,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -102,7 +102,7 @@
       "last_updated": "2026-03-19"
     },
     "Christopher Murphy|||Rick Scott": {
-      "score": -0.10712283765598142,
+      "score": -0.0910544120075842,
       "label": "adversarial",
       "observations": 3,
       "last_ps": [
@@ -112,7 +112,7 @@
       "last_updated": "2026-05-13"
     },
     "Christopher Murphy|||Tom Cotton": {
-      "score": -0.10712283765598142,
+      "score": -0.0910544120075842,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -148,7 +148,7 @@
       "last_updated": "2026-03-19"
     },
     "Lindsey Graham|||Rick Scott": {
-      "score": 0.10712283765598142,
+      "score": 0.0910544120075842,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -157,7 +157,7 @@
       "last_updated": "2026-03-19"
     },
     "Lindsey Graham|||Tom Cotton": {
-      "score": 0.10712283765598142,
+      "score": 0.0910544120075842,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -166,7 +166,7 @@
       "last_updated": "2026-03-19"
     },
     "Rick Scott|||Tom Cotton": {
-      "score": 0.10712283765598142,
+      "score": 0.0910544120075842,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -175,8 +175,8 @@
       "last_updated": "2026-03-19"
     },
     "Charles E. Schumer|||Elon Musk": {
-      "score": -0.05790423657080076,
-      "label": "adversarial",
+      "score": -0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -211,8 +211,8 @@
       "last_updated": "2026-03-19"
     },
     "Elon Musk|||Lindsey Graham": {
-      "score": 0.05790423657080076,
-      "label": "reinforcing",
+      "score": 0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -220,8 +220,8 @@
       "last_updated": "2026-03-19"
     },
     "Elon Musk|||Rick Scott": {
-      "score": 0.05790423657080076,
-      "label": "reinforcing",
+      "score": 0.04921860108518064,
+      "label": "neutral",
       "observations": 2,
       "last_ps": [
         "GLOBAL"
@@ -229,8 +229,8 @@
       "last_updated": "2026-05-13"
     },
     "Elon Musk|||Tom Cotton": {
-      "score": 0.05790423657080076,
-      "label": "reinforcing",
+      "score": 0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -238,8 +238,8 @@
       "last_updated": "2026-03-19"
     },
     "Lindsey Graham|||Palmer Luckey": {
-      "score": 0.05790423657080076,
-      "label": "reinforcing",
+      "score": 0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -256,8 +256,8 @@
       "last_updated": "2026-05-13"
     },
     "Palmer Luckey|||Tom Cotton": {
-      "score": 0.05790423657080076,
-      "label": "reinforcing",
+      "score": 0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -310,7 +310,7 @@
       "last_updated": "2026-03-25"
     },
     "Brian Armstrong|||Ray Dalio": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -319,7 +319,7 @@
       "last_updated": "2026-03-25"
     },
     "Jeff Yass|||John Thune": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -364,7 +364,7 @@
       "last_updated": "2026-03-25"
     },
     "John Thune|||Mitch McConnell": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -373,7 +373,7 @@
       "last_updated": "2026-03-25"
     },
     "John Thune|||Paul Singer": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -382,7 +382,7 @@
       "last_updated": "2026-03-25"
     },
     "John Thune|||Pete Hegseth": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -391,7 +391,7 @@
       "last_updated": "2026-03-25"
     },
     "John Thune|||Ray Dalio": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -409,7 +409,7 @@
       "last_updated": "2026-03-25"
     },
     "Mitch McConnell|||Pete Hegseth": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -427,7 +427,7 @@
       "last_updated": "2026-03-25"
     },
     "Paul Singer|||Pete Hegseth": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -436,7 +436,7 @@
       "last_updated": "2026-03-25"
     },
     "Paul Singer|||Ray Dalio": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -445,7 +445,7 @@
       "last_updated": "2026-03-25"
     },
     "Pete Hegseth|||Ray Dalio": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -481,7 +481,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Elena Kagan": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -490,7 +490,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Jeff Bezos": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -499,7 +499,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Kash Patel": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -508,7 +508,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Larry Page": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -517,7 +517,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Richard Uihlein": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -526,7 +526,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Robert F. Kennedy Jr.": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -544,7 +544,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Thomas Kurian": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -553,7 +553,7 @@
       "last_updated": "2026-04-01"
     },
     "Alexandria Ocasio-Cortez|||Tim Cook": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -652,7 +652,7 @@
       "last_updated": "2026-05-27"
     },
     "Elena Kagan|||Kash Patel": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -661,7 +661,7 @@
       "last_updated": "2026-04-01"
     },
     "Elena Kagan|||Larry Page": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -670,7 +670,7 @@
       "last_updated": "2026-04-01"
     },
     "Elena Kagan|||Richard Uihlein": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -697,7 +697,7 @@
       "last_updated": "2026-04-01"
     },
     "Elena Kagan|||Thomas Kurian": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -769,7 +769,7 @@
       "last_updated": "2026-04-01"
     },
     "Kash Patel|||Larry Page": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -778,7 +778,7 @@
       "last_updated": "2026-04-01"
     },
     "Kash Patel|||Richard Uihlein": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -787,7 +787,7 @@
       "last_updated": "2026-04-01"
     },
     "Kash Patel|||Robert F. Kennedy Jr.": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -797,7 +797,7 @@
       "last_updated": "2026-04-15"
     },
     "Kash Patel|||Thomas Kurian": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -806,7 +806,7 @@
       "last_updated": "2026-04-01"
     },
     "Kash Patel|||Tim Cook": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -815,7 +815,7 @@
       "last_updated": "2026-04-01"
     },
     "Larry Page|||Richard Uihlein": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -824,7 +824,7 @@
       "last_updated": "2026-04-01"
     },
     "Larry Page|||Robert F. Kennedy Jr.": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -860,7 +860,7 @@
       "last_updated": "2026-04-01"
     },
     "Richard Uihlein|||Robert F. Kennedy Jr.": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -887,7 +887,7 @@
       "last_updated": "2026-04-01"
     },
     "Richard Uihlein|||Tim Cook": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -896,7 +896,7 @@
       "last_updated": "2026-04-01"
     },
     "Robert F. Kennedy Jr.|||Susie Wiles": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -905,7 +905,7 @@
       "last_updated": "2026-05-20"
     },
     "Robert F. Kennedy Jr.|||Thomas Kurian": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -959,7 +959,7 @@
       "last_updated": "2026-04-08"
     },
     "Donald Trump|||Kash Patel": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -968,7 +968,7 @@
       "last_updated": "2026-04-15"
     },
     "Donald Trump|||Elon Musk": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -977,7 +977,7 @@
       "last_updated": "2026-04-22"
     },
     "Donald Trump|||Eric Schmidt": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -986,7 +986,7 @@
       "last_updated": "2026-04-08"
     },
     "Donald Trump|||Hakeem S. Jeffries": {
-      "score": -0.09428737890624997,
+      "score": -0.08014427207031247,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -995,7 +995,7 @@
       "last_updated": "2026-04-08"
     },
     "Donald Trump|||Larry Ellison": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1004,7 +1004,7 @@
       "last_updated": "2026-04-08"
     },
     "Donald Trump|||Michael Dell": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1022,7 +1022,7 @@
       "last_updated": "2026-04-08"
     },
     "Donald Trump|||Neil M. Gorsuch": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1031,7 +1031,7 @@
       "last_updated": "2026-04-08"
     },
     "Donald Trump|||Palmer Luckey": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1085,7 +1085,7 @@
       "last_updated": "2026-05-13"
     },
     "Elon Musk|||Hakeem S. Jeffries": {
-      "score": -0.09428737890624997,
+      "score": -0.08014427207031247,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1103,7 +1103,7 @@
       "last_updated": "2026-04-08"
     },
     "Elon Musk|||Larry Ellison": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1175,7 +1175,7 @@
       "last_updated": "2026-04-08"
     },
     "Eric Schmidt|||Hakeem S. Jeffries": {
-      "score": -0.09428737890624997,
+      "score": -0.08014427207031247,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1193,7 +1193,7 @@
       "last_updated": "2026-04-08"
     },
     "Eric Schmidt|||Larry Ellison": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1202,7 +1202,7 @@
       "last_updated": "2026-04-08"
     },
     "Eric Schmidt|||Michael Dell": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1211,7 +1211,7 @@
       "last_updated": "2026-04-08"
     },
     "Eric Schmidt|||Mustafa Suleyman": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1229,7 +1229,7 @@
       "last_updated": "2026-04-29"
     },
     "Eric Schmidt|||Palmer Luckey": {
-      "score": 0.27491237890625,
+      "score": 0.23367552207031247,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -1266,7 +1266,7 @@
       "last_updated": "2026-04-08"
     },
     "Hakeem S. Jeffries|||Kash Patel": {
-      "score": -0.09428737890624997,
+      "score": -0.08014427207031247,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1275,7 +1275,7 @@
       "last_updated": "2026-04-08"
     },
     "Hakeem S. Jeffries|||Larry Ellison": {
-      "score": -0.09428737890624997,
+      "score": -0.08014427207031247,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1284,7 +1284,7 @@
       "last_updated": "2026-04-08"
     },
     "Hakeem S. Jeffries|||Michael Dell": {
-      "score": -0.09428737890624997,
+      "score": -0.08014427207031247,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1311,7 +1311,7 @@
       "last_updated": "2026-04-08"
     },
     "Hakeem S. Jeffries|||Palmer Luckey": {
-      "score": -0.09428737890624997,
+      "score": -0.08014427207031247,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1392,7 +1392,7 @@
       "last_updated": "2026-04-08"
     },
     "Kash Patel|||Palmer Luckey": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1464,7 +1464,7 @@
       "last_updated": "2026-04-08"
     },
     "Larry Ellison|||Palmer Luckey": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1527,7 +1527,7 @@
       "last_updated": "2026-04-08"
     },
     "Michael Dell|||Palmer Luckey": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1581,7 +1581,7 @@
       "last_updated": "2026-04-08"
     },
     "Mustafa Suleyman|||Palmer Luckey": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1599,7 +1599,7 @@
       "last_updated": "2026-04-08"
     },
     "Mustafa Suleyman|||Sergey Brin": {
-      "score": -0.09428737890624997,
+      "score": -0.08014427207031247,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1626,7 +1626,7 @@
       "last_updated": "2026-04-08"
     },
     "Neil M. Gorsuch|||Palmer Luckey": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1761,7 +1761,7 @@
       "last_updated": "2026-04-08"
     },
     "Donald Trump|||Pam Bondi": {
-      "score": 0.10157367187500002,
+      "score": 0.08633762109375001,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -1771,7 +1771,7 @@
       "last_updated": "2026-05-20"
     },
     "Donald Trump|||Robert F. Kennedy Jr.": {
-      "score": 0.323426328125,
+      "score": 0.27491237890625,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -1790,7 +1790,7 @@
       "last_updated": "2026-04-15"
     },
     "Pam Bondi|||Robert F. Kennedy Jr.": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -1808,7 +1808,7 @@
       "last_updated": "2026-04-15"
     },
     "Andy Jassy|||Dario Amodei": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1826,7 +1826,7 @@
       "last_updated": "2026-04-15"
     },
     "Andy Jassy|||Donald Trump": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1862,7 +1862,7 @@
       "last_updated": "2026-04-15"
     },
     "Andy Jassy|||Lisa Su": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1880,7 +1880,7 @@
       "last_updated": "2026-04-15"
     },
     "Andy Jassy|||Pete Hegseth": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -1934,7 +1934,7 @@
       "last_updated": "2026-04-15"
     },
     "Christy Walton|||Donald Trump": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -1988,7 +1988,7 @@
       "last_updated": "2026-04-15"
     },
     "Christy Walton|||Pete Hegseth": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -2033,7 +2033,7 @@
       "last_updated": "2026-04-15"
     },
     "Dario Amodei|||Donald Trump": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2051,7 +2051,7 @@
       "last_updated": "2026-04-15"
     },
     "Dario Amodei|||Kash Patel": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2069,7 +2069,7 @@
       "last_updated": "2026-04-15"
     },
     "Dario Amodei|||Lisa Su": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2087,7 +2087,7 @@
       "last_updated": "2026-04-15"
     },
     "Dario Amodei|||Pete Hegseth": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2222,7 +2222,7 @@
       "last_updated": "2026-04-15"
     },
     "Donald Trump|||Ken Griffin": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2240,7 +2240,7 @@
       "last_updated": "2026-04-15"
     },
     "Donald Trump|||Pete Hegseth": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2249,7 +2249,7 @@
       "last_updated": "2026-04-15"
     },
     "Donald Trump|||Rupert Murdoch & family": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2258,7 +2258,7 @@
       "last_updated": "2026-04-15"
     },
     "Donald Trump|||Thomas Peterffy": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2339,7 +2339,7 @@
       "last_updated": "2026-04-15"
     },
     "Kash Patel|||Ken Griffin": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2357,7 +2357,7 @@
       "last_updated": "2026-04-15"
     },
     "Kash Patel|||Pete Hegseth": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2402,7 +2402,7 @@
       "last_updated": "2026-04-15"
     },
     "Ken Griffin|||Pete Hegseth": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2447,7 +2447,7 @@
       "last_updated": "2026-04-15"
     },
     "Lisa Su|||Pete Hegseth": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2627,7 +2627,7 @@
       "last_updated": "2026-04-22"
     },
     "Carrie Severino|||Kevin Roberts": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2636,7 +2636,7 @@
       "last_updated": "2026-04-22"
     },
     "Carrie Severino|||Leonard Leo": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2690,7 +2690,7 @@
       "last_updated": "2026-04-22"
     },
     "Donald Trump|||Gavin Newsom": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -2717,7 +2717,7 @@
       "last_updated": "2026-04-22"
     },
     "Donald Trump|||John G. Roberts Jr.": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -2726,7 +2726,7 @@
       "last_updated": "2026-04-22"
     },
     "Donald Trump|||Kevin Roberts": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2735,7 +2735,7 @@
       "last_updated": "2026-04-22"
     },
     "Donald Trump|||Leonard Leo": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2744,7 +2744,7 @@
       "last_updated": "2026-04-22"
     },
     "Donald Trump|||Patty Murray": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -2771,7 +2771,7 @@
       "last_updated": "2026-04-22"
     },
     "Donald Trump|||Satya Nadella": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2789,7 +2789,7 @@
       "last_updated": "2026-04-22"
     },
     "Elon Musk|||Gavin Newsom": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -2816,7 +2816,7 @@
       "last_updated": "2026-04-22"
     },
     "Elon Musk|||John G. Roberts Jr.": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -2825,7 +2825,7 @@
       "last_updated": "2026-04-22"
     },
     "Elon Musk|||Kevin Roberts": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -2834,8 +2834,8 @@
       "last_updated": "2026-04-22"
     },
     "Elon Musk|||Leonard Leo": {
-      "score": -0.05012343750000001,
-      "label": "adversarial",
+      "score": -0.04260492187500001,
+      "label": "neutral",
       "observations": 2,
       "last_ps": [
         "GLOBAL"
@@ -2843,7 +2843,7 @@
       "last_updated": "2026-05-13"
     },
     "Elon Musk|||Patty Murray": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -2915,7 +2915,7 @@
       "last_updated": "2026-04-22"
     },
     "Gavin Newsom|||Kevin Roberts": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -2924,7 +2924,7 @@
       "last_updated": "2026-04-22"
     },
     "Gavin Newsom|||Leonard Leo": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -3041,7 +3041,7 @@
       "last_updated": "2026-04-22"
     },
     "Henry Kravis|||Satya Nadella": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -3050,7 +3050,7 @@
       "last_updated": "2026-04-22"
     },
     "Henry Kravis|||Sundar Pichai": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -3068,7 +3068,7 @@
       "last_updated": "2026-04-22"
     },
     "J.B. Pritzker|||Kevin Roberts": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -3131,7 +3131,7 @@
       "last_updated": "2026-04-22"
     },
     "John G. Roberts Jr.|||Kevin Roberts": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -3140,7 +3140,7 @@
       "last_updated": "2026-04-22"
     },
     "John G. Roberts Jr.|||Leonard Leo": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -3149,7 +3149,7 @@
       "last_updated": "2026-04-22"
     },
     "John G. Roberts Jr.|||Peter Thiel": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -3185,7 +3185,7 @@
       "last_updated": "2026-04-22"
     },
     "Kevin Roberts|||Leonard Leo": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -3194,7 +3194,7 @@
       "last_updated": "2026-04-22"
     },
     "Kevin Roberts|||Patty Murray": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -3239,7 +3239,7 @@
       "last_updated": "2026-04-22"
     },
     "Leonard Leo|||Patty Murray": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -3248,7 +3248,7 @@
       "last_updated": "2026-04-22"
     },
     "Leonard Leo|||Peter Thiel": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -3365,7 +3365,7 @@
       "last_updated": "2026-04-22"
     },
     "Satya Nadella|||Sundar Pichai": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -3374,7 +3374,7 @@
       "last_updated": "2026-04-22"
     },
     "Neil M. Gorsuch|||Sonia Sotomayor": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -3518,7 +3518,7 @@
       "last_updated": "2026-04-29"
     },
     "Clarence Thomas|||Jensen Huang": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -3536,7 +3536,7 @@
       "last_updated": "2026-04-29"
     },
     "Clarence Thomas|||Ken Langone": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -3563,7 +3563,7 @@
       "last_updated": "2026-04-29"
     },
     "Clarence Thomas|||Matthew J. Kacsmaryk": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -3572,7 +3572,7 @@
       "last_updated": "2026-04-29"
     },
     "Clarence Thomas|||Neil M. Gorsuch": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -3581,7 +3581,7 @@
       "last_updated": "2026-04-29"
     },
     "Clarence Thomas|||Sonia Sotomayor": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -3599,7 +3599,7 @@
       "last_updated": "2026-04-29"
     },
     "Clarence Thomas|||Ted Cruz": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -3617,7 +3617,7 @@
       "last_updated": "2026-04-29"
     },
     "Eric Schmidt|||Jensen Huang": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -3680,7 +3680,7 @@
       "last_updated": "2026-04-29"
     },
     "Eric Schmidt|||Sundar Pichai": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -3797,7 +3797,7 @@
       "last_updated": "2026-04-29"
     },
     "Jensen Huang|||Ken Langone": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -3806,7 +3806,7 @@
       "last_updated": "2026-04-29"
     },
     "Jensen Huang|||Marc Rowan": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -3851,7 +3851,7 @@
       "last_updated": "2026-04-29"
     },
     "Jensen Huang|||Sundar Pichai": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -3959,7 +3959,7 @@
       "last_updated": "2026-04-29"
     },
     "Ken Langone|||Matthew J. Kacsmaryk": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -4085,7 +4085,7 @@
       "last_updated": "2026-04-29"
     },
     "Mark Zuckerberg|||Sundar Pichai": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -4112,7 +4112,7 @@
       "last_updated": "2026-04-29"
     },
     "Matthew J. Kacsmaryk|||Sonia Sotomayor": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -4130,7 +4130,7 @@
       "last_updated": "2026-04-29"
     },
     "Matthew J. Kacsmaryk|||Ted Cruz": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -4238,7 +4238,7 @@
       "last_updated": "2026-05-13"
     },
     "Christopher Murphy|||Pete Hegseth": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -4445,7 +4445,7 @@
       "last_updated": "2026-05-13"
     },
     "David Rubenstein|||Palmer Luckey": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -4526,7 +4526,7 @@
       "last_updated": "2026-05-13"
     },
     "Elon Musk|||Pete Hegseth": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -4535,7 +4535,7 @@
       "last_updated": "2026-05-13"
     },
     "Elon Musk|||Sam Altman": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -4544,7 +4544,7 @@
       "last_updated": "2026-05-13"
     },
     "Elon Musk|||Scott Bessent": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -4589,7 +4589,7 @@
       "last_updated": "2026-05-13"
     },
     "Eric Schmidt|||Pete Hegseth": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -4625,7 +4625,7 @@
       "last_updated": "2026-05-13"
     },
     "Eric Schmidt|||Scott Bessent": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -4850,7 +4850,7 @@
       "last_updated": "2026-05-13"
     },
     "Palmer Luckey|||Pete Hegseth": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -4877,7 +4877,7 @@
       "last_updated": "2026-05-13"
     },
     "Palmer Luckey|||Scott Bessent": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -4895,7 +4895,7 @@
       "last_updated": "2026-05-13"
     },
     "Pete Hegseth|||Peter Thiel": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -4913,7 +4913,7 @@
       "last_updated": "2026-05-13"
     },
     "Pete Hegseth|||Sam Altman": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -4922,7 +4922,7 @@
       "last_updated": "2026-05-13"
     },
     "Pete Hegseth|||Scott Bessent": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5048,7 +5048,7 @@
       "last_updated": "2026-05-20"
     },
     "Brian Armstrong|||Donald Trump": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5363,7 +5363,7 @@
       "last_updated": "2026-05-20"
     },
     "David Tepper|||Paul Tudor Jones, II.": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5417,7 +5417,7 @@
       "last_updated": "2026-05-20"
     },
     "David Tepper|||Tom Cotton": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -5426,7 +5426,7 @@
       "last_updated": "2026-05-20"
     },
     "Donald Trump|||Greg Abbott": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5444,7 +5444,7 @@
       "last_updated": "2026-05-20"
     },
     "Donald Trump|||John Thune": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5462,7 +5462,7 @@
       "last_updated": "2026-05-20"
     },
     "Donald Trump|||Lukas Walton": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -5471,7 +5471,7 @@
       "last_updated": "2026-05-20"
     },
     "Donald Trump|||Miriam Adelson & family": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5507,7 +5507,7 @@
       "last_updated": "2026-05-20"
     },
     "Donald Trump|||Susie Wiles": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5525,7 +5525,7 @@
       "last_updated": "2026-05-20"
     },
     "Donald Trump|||Tom Cotton": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5543,7 +5543,7 @@
       "last_updated": "2026-05-20"
     },
     "Greg Abbott|||John Thune": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5570,7 +5570,7 @@
       "last_updated": "2026-05-20"
     },
     "Greg Abbott|||Miriam Adelson & family": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5606,7 +5606,7 @@
       "last_updated": "2026-05-20"
     },
     "Greg Abbott|||Ron DeSantis": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5777,7 +5777,7 @@
       "last_updated": "2026-05-20"
     },
     "John Thune|||Miriam Adelson & family": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5804,7 +5804,7 @@
       "last_updated": "2026-05-20"
     },
     "John Thune|||Robert F. Kennedy Jr.": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5831,7 +5831,7 @@
       "last_updated": "2026-05-20"
     },
     "John Thune|||Susie Wiles": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5849,7 +5849,7 @@
       "last_updated": "2026-05-20"
     },
     "John Thune|||Tom Cotton": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6056,7 +6056,7 @@
       "last_updated": "2026-05-20"
     },
     "Miriam Adelson & family|||Ron DeSantis": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6074,7 +6074,7 @@
       "last_updated": "2026-05-20"
     },
     "Miriam Adelson & family|||Susie Wiles": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6092,7 +6092,7 @@
       "last_updated": "2026-05-20"
     },
     "Miriam Adelson & family|||Tom Cotton": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6191,7 +6191,7 @@
       "last_updated": "2026-05-20"
     },
     "Paul Tudor Jones, II.|||Thomas Kurian": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6362,7 +6362,7 @@
       "last_updated": "2026-05-27"
     },
     "Amy Coney Barrett|||Donald Trump": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6371,7 +6371,7 @@
       "last_updated": "2026-05-27"
     },
     "Amy Coney Barrett|||Elena Kagan": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6560,7 +6560,7 @@
       "last_updated": "2026-05-27"
     },
     "Charles E. Schumer|||Donald Trump": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6875,7 +6875,7 @@
       "last_updated": "2026-05-27"
     },
     "Donald Trump|||Elena Kagan": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -7107,11 +7107,335 @@
         "GLOBAL"
       ],
       "last_updated": "2026-05-27"
+    },
+    "Alex Karp|||Alexander Karp": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Alex Karp|||Dario Amodei": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Alex Karp|||Demis Hassabis": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Alex Karp|||Jonathan Gray": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Alex Karp|||Larry Ellison": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Alex Karp|||Paul Singer": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Alex Karp|||Stephen Schwarzman": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Alex Karp|||Steve Scalise": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Alexander Karp|||Dario Amodei": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Alexander Karp|||Demis Hassabis": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Alexander Karp|||Jonathan Gray": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Alexander Karp|||Larry Ellison": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Alexander Karp|||Paul Singer": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Alexander Karp|||Stephen Schwarzman": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Alexander Karp|||Steve Scalise": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Dario Amodei|||Demis Hassabis": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Dario Amodei|||Jonathan Gray": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Dario Amodei|||Larry Ellison": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Dario Amodei|||Paul Singer": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Dario Amodei|||Stephen Schwarzman": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Dario Amodei|||Steve Scalise": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Demis Hassabis|||Jonathan Gray": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Demis Hassabis|||Larry Ellison": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Demis Hassabis|||Paul Singer": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Demis Hassabis|||Stephen Schwarzman": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Demis Hassabis|||Steve Scalise": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Jonathan Gray|||Larry Ellison": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Jonathan Gray|||Paul Singer": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Jonathan Gray|||Stephen Schwarzman": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Jonathan Gray|||Steve Scalise": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Larry Ellison|||Paul Singer": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Larry Ellison|||Stephen Schwarzman": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Larry Ellison|||Steve Scalise": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Paul Singer|||Stephen Schwarzman": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Paul Singer|||Steve Scalise": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "Stephen Schwarzman|||Steve Scalise": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
     }
   },
   "ca_coactivation": {
     "CA-024|||CA-051": {
-      "score": 0.10712283765598142,
+      "score": 0.0910544120075842,
       "label": "reinforcing",
       "observations": 3,
       "last_ps": [
@@ -7129,7 +7453,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-024|||CA-071": {
-      "score": -0.10712283765598142,
+      "score": -0.0910544120075842,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -7147,7 +7471,7 @@
       "last_updated": "2026-05-13"
     },
     "CA-051|||CA-071": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 3,
       "last_ps": [
@@ -7156,7 +7480,7 @@
       "last_updated": "2026-05-13"
     },
     "CA-058|||CA-071": {
-      "score": -0.2877478376559814,
+      "score": -0.24458566200758416,
       "label": "adversarial",
       "observations": 3,
       "last_ps": [
@@ -7174,7 +7498,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-009|||CA-034": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 3,
       "last_ps": [
@@ -7183,8 +7507,8 @@
       "last_updated": "2026-04-22"
     },
     "CA-030|||CA-034": {
-      "score": 0.05790423657080076,
-      "label": "reinforcing",
+      "score": 0.04921860108518064,
+      "label": "neutral",
       "observations": 2,
       "last_ps": [
         "DPS-03"
@@ -7201,8 +7525,8 @@
       "last_updated": "2026-03-19"
     },
     "CA-009|||CA-024": {
-      "score": 0.05790423657080076,
-      "label": "reinforcing",
+      "score": 0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -7228,7 +7552,7 @@
       "last_updated": "2026-05-13"
     },
     "CA-009|||CA-071": {
-      "score": -0.23852923657080077,
+      "score": -0.20274985108518065,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -7264,8 +7588,8 @@
       "last_updated": "2026-03-19"
     },
     "CA-016|||CA-034": {
-      "score": 0.05790423657080076,
-      "label": "reinforcing",
+      "score": 0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -7336,8 +7660,8 @@
       "last_updated": "2026-03-19"
     },
     "CA-030|||CA-051": {
-      "score": 0.05790423657080076,
-      "label": "reinforcing",
+      "score": 0.04921860108518064,
+      "label": "neutral",
       "observations": 2,
       "last_ps": [
         "GLOBAL"
@@ -7354,8 +7678,8 @@
       "last_updated": "2026-05-27"
     },
     "CA-030|||CA-071": {
-      "score": -0.05790423657080076,
-      "label": "adversarial",
+      "score": -0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -7390,8 +7714,8 @@
       "last_updated": "2026-04-22"
     },
     "CA-034|||CA-071": {
-      "score": -0.05790423657080076,
-      "label": "adversarial",
+      "score": -0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -7453,7 +7777,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-002|||CA-032": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -7462,7 +7786,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-002|||CA-004": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -7489,7 +7813,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-002|||CA-071": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -7516,7 +7840,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-004|||CA-032": {
-      "score": 0.3181226312597656,
+      "score": 0.27040423657080076,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -7588,7 +7912,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-032|||CA-071": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -7624,7 +7948,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-012|||CA-031": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -7651,7 +7975,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-031|||CA-060": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -7678,13 +8002,13 @@
       "last_updated": "2026-04-01"
     },
     "CA-001|||CA-018": {
-      "score": 0.08014427207031247,
+      "score": 0.3181226312597656,
       "label": "reinforcing",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-01"
       ],
-      "last_updated": "2026-04-01"
+      "last_updated": "2026-06-03"
     },
     "CA-001|||CA-027": {
       "score": 0.0,
@@ -7696,7 +8020,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-018|||CA-027": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -7768,7 +8092,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-001|||CA-069": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -7777,13 +8101,13 @@
       "last_updated": "2026-04-01"
     },
     "CA-001|||CA-074": {
-      "score": 0.0,
-      "label": "neutral",
-      "observations": 1,
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-01"
+      "last_updated": "2026-06-03"
     },
     "CA-001|||CA-082": {
       "score": 0.0,
@@ -7831,7 +8155,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-012|||CA-027": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -7858,7 +8182,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-012|||CA-074": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -7903,7 +8227,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-018|||CA-060": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -7921,7 +8245,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-018|||CA-069": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -7930,13 +8254,13 @@
       "last_updated": "2026-04-01"
     },
     "CA-018|||CA-074": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-01"
+      "last_updated": "2026-06-03"
     },
     "CA-018|||CA-082": {
       "score": 0.0,
@@ -7948,7 +8272,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-018|||CA-109": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8074,7 +8398,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-031|||CA-074": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8128,7 +8452,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-060|||CA-074": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8200,7 +8524,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-069|||CA-074": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8326,7 +8650,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-012|||CA-099": {
-      "score": 0.22478894140624997,
+      "score": 0.19107060019531247,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -8344,7 +8668,7 @@
       "last_updated": "2026-04-08"
     },
     "CA-099|||CA-105": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8362,7 +8686,7 @@
       "last_updated": "2026-04-08"
     },
     "CA-001|||CA-024": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8371,7 +8695,7 @@
       "last_updated": "2026-04-08"
     },
     "CA-001|||CA-036": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8380,7 +8704,7 @@
       "last_updated": "2026-04-08"
     },
     "CA-001|||CA-051": {
-      "score": 0.20521370703125,
+      "score": 0.1744316509765625,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -8407,7 +8731,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-001|||CA-105": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8434,7 +8758,7 @@
       "last_updated": "2026-04-29"
     },
     "CA-012|||CA-036": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8452,7 +8776,7 @@
       "last_updated": "2026-04-08"
     },
     "CA-012|||CA-101": {
-      "score": -0.24781862890625,
+      "score": -0.2106458345703125,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -8497,7 +8821,7 @@
       "last_updated": "2026-04-29"
     },
     "CA-024|||CA-105": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8542,7 +8866,7 @@
       "last_updated": "2026-04-08"
     },
     "CA-036|||CA-105": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8569,7 +8893,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-051|||CA-101": {
-      "score": 0.291551328125,
+      "score": 0.24781862890625,
       "label": "reinforcing",
       "observations": 3,
       "last_ps": [
@@ -8578,7 +8902,7 @@
       "last_updated": "2026-05-13"
     },
     "CA-051|||CA-105": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8596,7 +8920,7 @@
       "last_updated": "2026-04-08"
     },
     "CA-099|||CA-101": {
-      "score": -0.09428737890624997,
+      "score": -0.08014427207031247,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -8614,7 +8938,7 @@
       "last_updated": "2026-04-08"
     },
     "CA-101|||CA-105": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8632,7 +8956,7 @@
       "last_updated": "2026-04-08"
     },
     "CA-001|||CA-006": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8641,16 +8965,16 @@
       "last_updated": "2026-04-15"
     },
     "CA-001|||CA-030": {
-      "score": 0.360926328125,
+      "score": 0.30678737890624996,
       "label": "reinforcing",
-      "observations": 2,
+      "observations": 3,
       "last_ps": [
         "DPS-01"
       ],
-      "last_updated": "2026-05-27"
+      "last_updated": "2026-06-03"
     },
     "CA-001|||CA-049": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -8668,7 +8992,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-006|||CA-030": {
-      "score": 0.323426328125,
+      "score": 0.27491237890625,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -8677,7 +9001,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-006|||CA-049": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -8686,7 +9010,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-027|||CA-030": {
-      "score": 0.323426328125,
+      "score": 0.27491237890625,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -8695,7 +9019,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-027|||CA-049": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -8704,7 +9028,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-030|||CA-049": {
-      "score": 0.573426328125,
+      "score": 0.48741237890625005,
       "label": "reinforcing",
       "observations": 3,
       "last_ps": [
@@ -8713,7 +9037,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-007|||CA-099": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8740,7 +9064,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-001|||CA-065": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8749,13 +9073,13 @@
       "last_updated": "2026-04-15"
     },
     "CA-001|||CA-070": {
-      "score": 0.11092632812499997,
+      "score": 0.34428737890624994,
       "label": "reinforcing",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-06-03"
     },
     "CA-006|||CA-007": {
       "score": 0.0,
@@ -8776,7 +9100,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-006|||CA-065": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -8785,7 +9109,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-006|||CA-070": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8848,7 +9172,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-007|||CA-065": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -8866,7 +9190,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-007|||CA-101": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -8884,7 +9208,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-027|||CA-065": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -8902,7 +9226,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-027|||CA-099": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 3,
       "last_ps": [
@@ -8920,7 +9244,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-030|||CA-065": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -8929,13 +9253,13 @@
       "last_updated": "2026-05-20"
     },
     "CA-030|||CA-070": {
-      "score": 0.15353124999999998,
+      "score": 0.3805015625,
       "label": "reinforcing",
-      "observations": 2,
+      "observations": 3,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-29"
+      "last_updated": "2026-06-03"
     },
     "CA-030|||CA-099": {
       "score": 0.0,
@@ -9001,7 +9325,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-051|||CA-065": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -9010,7 +9334,7 @@
       "last_updated": "2026-05-13"
     },
     "CA-065|||CA-070": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9019,7 +9343,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-065|||CA-099": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -9029,7 +9353,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-065|||CA-101": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -9038,7 +9362,7 @@
       "last_updated": "2026-05-13"
     },
     "CA-070|||CA-099": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9047,7 +9371,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-070|||CA-101": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -9056,7 +9380,7 @@
       "last_updated": "2026-04-29"
     },
     "CA-004|||CA-058": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -9065,7 +9389,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-012|||CA-047": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9074,7 +9398,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-047|||CA-099": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9092,7 +9416,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-004|||CA-009": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9128,7 +9452,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-004|||CA-047": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9146,7 +9470,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-006|||CA-009": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9308,7 +9632,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-010|||CA-030": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9317,7 +9641,7 @@
       "last_updated": "2026-04-29"
     },
     "CA-010|||CA-073": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9326,7 +9650,7 @@
       "last_updated": "2026-04-29"
     },
     "CA-030|||CA-073": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9515,7 +9839,7 @@
       "last_updated": "2026-04-29"
     },
     "CA-013|||CA-030": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -9830,7 +10154,7 @@
       "last_updated": "2026-04-29"
     },
     "CA-013|||CA-051": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9848,7 +10172,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-013|||CA-071": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9866,7 +10190,7 @@
       "last_updated": "2026-05-13"
     },
     "CA-009|||CA-013": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9947,7 +10271,7 @@
       "last_updated": "2026-05-13"
     },
     "CA-051|||CA-086": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10064,7 +10388,7 @@
       "last_updated": "2026-05-13"
     },
     "CA-006|||CA-018": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10073,13 +10397,13 @@
       "last_updated": "2026-05-20"
     },
     "CA-018|||CA-030": {
-      "score": 0.2125,
+      "score": 0.430625,
       "label": "reinforcing",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "DPS-01"
       ],
-      "last_updated": "2026-05-20"
+      "last_updated": "2026-06-03"
     },
     "CA-018|||CA-049": {
       "score": 0.0,
@@ -10217,7 +10541,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-018|||CA-065": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10388,7 +10712,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-001|||CA-004": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10397,7 +10721,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-001|||CA-013": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10415,7 +10739,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-001|||CA-032": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10442,7 +10766,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-001|||CA-133": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10451,7 +10775,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-001|||CA-143": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10478,7 +10802,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-004|||CA-049": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10523,7 +10847,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-013|||CA-032": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10532,7 +10856,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-013|||CA-049": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10559,7 +10883,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-013|||CA-143": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10649,7 +10973,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-030|||CA-133": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10667,7 +10991,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-032|||CA-049": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10694,7 +11018,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-032|||CA-133": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10721,7 +11045,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-049|||CA-133": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10730,7 +11054,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-049|||CA-143": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10775,13 +11099,652 @@
       "last_updated": "2026-05-27"
     },
     "CA-133|||CA-143": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
       ],
       "last_updated": "2026-05-27"
+    },
+    "CA-005|||CA-011": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-02"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-005|||CA-047": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "DPS-02"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-005|||CA-070": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "DPS-02"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-011|||CA-047": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-02"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-011|||CA-070": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "DPS-02"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-047|||CA-070": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "DPS-02"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-021|||CA-108": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-05"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-021|||CA-136": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-05"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-108|||CA-136": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-05"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-019|||CA-098": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "DPS-09"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-001|||CA-005": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-001|||CA-011": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-001|||CA-019": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-001|||CA-021": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-001|||CA-047": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-001|||CA-098": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-001|||CA-108": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-001|||CA-136": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-005|||CA-018": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-005|||CA-019": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-005|||CA-021": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-005|||CA-030": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-005|||CA-074": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-005|||CA-098": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-005|||CA-108": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-005|||CA-136": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-011|||CA-018": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-011|||CA-019": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-011|||CA-021": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-011|||CA-030": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-011|||CA-074": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-011|||CA-098": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-011|||CA-108": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-011|||CA-136": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-018|||CA-019": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-018|||CA-021": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-018|||CA-047": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-018|||CA-070": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-018|||CA-098": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-018|||CA-108": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-018|||CA-136": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-019|||CA-021": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-019|||CA-030": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-019|||CA-047": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-019|||CA-070": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-019|||CA-074": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-019|||CA-108": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-019|||CA-136": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-021|||CA-030": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-021|||CA-047": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-021|||CA-070": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-021|||CA-074": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-021|||CA-098": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-030|||CA-047": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-030|||CA-074": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-030|||CA-098": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-030|||CA-108": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-030|||CA-136": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-047|||CA-074": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-047|||CA-098": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-047|||CA-108": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-047|||CA-136": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-070|||CA-074": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-070|||CA-098": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-070|||CA-108": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-070|||CA-136": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-074|||CA-098": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-074|||CA-108": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-074|||CA-136": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-098|||CA-108": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
+    },
+    "CA-098|||CA-136": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-06-03"
     }
   }
 }
