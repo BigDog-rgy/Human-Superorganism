@@ -1,0 +1,303 @@
+# Weekly Prime Mover Briefing — 2026-07-15
+
+## Executive Summary
+
+The Supreme Court's expansion of presidential removal power over independent agencies, combined with the White House's creation of a de facto executive regulatory channel over frontier AI models, marked a significant consolidation of executive authority. Private capital concentration accelerated dramatically with NextEra's $67B acquisition of Dominion Energy and Apollo's $35B Broadcom AI infrastructure deal, while NATO's $50B Deep Precision Strike initiative and Anduril's scaling production signaled a structural shift in defense-industrial capacity. Fiscal-monetary stress intensified as the Fed's liquidity backstop effectively disappeared and markets priced renewed rate-hike risk, tightening the feedback loop between Treasury issuance and monetary operations.
+
+---
+
+## Phase Sequence Pulse
+
+**DPS-01: Executive Power Consolidation** [8/10] — *CA-001, CA-027, CA-006*  
+The biggest development this week was the **Supreme Court’s broader recognition of presidential removal power**, which sharply increased White House leverage over independent agencies and narrowed long-standing insulation from direct presidential control.[2][7][9] That ruling appears to have been paired with a broader administrative push: the administration also moved to **relax or rework access to frontier AI models** for firms like Anthropic and OpenAI under a White House-defined scrutiny regime, suggesting the creation of a new de facto executive regulatory channel.[1] Reporting also indicates the White House has been using executive action to **reshape agency decision-making structures**, with the court’s term leaving the president stronger inside the executive branch even as some external presidential powers were checked.[1][8] Together, these developments point to clear momentum toward a more centralized and more interventionist executive apparatus, especially in tech regulation and agency oversight.[1][2][7]
+
+**DPS-02: AI Dominance Race** [8/10] — *CA-060, CA-011, CA-129*  
+Three developments stand out this week: **ByteDance’s reported plan to buy up to $5.6B of Huawei Ascend AI chips**, locking in domestic compute at hyperscale and signaling Beijing‑aligned platforms’ push to reduce dependence on US hardware[6]. **SoftBank’s talks to acquire DigitalBridge**, a major data‑center investor, underscore a structural bet that control of global AI infrastructure (power, racks, locations) is as strategic as owning models themselves[6]. **Meta’s acquisition of Manus**, a universal AI agent startup, and broader agent work highlight Big Tech’s move to turn frontier models into integrated agent ecosystems rather than standalone chatbots[6]. In governance, analysts are flagging the July 8–August 1 window—anchored by Trump’s pending AI standards EO and the NSA/CISA frontier model review mandate—as the most consequential short‑term period for US federal AI rules and access controls, with direct implications for which labs and clouds gain regulatory favor[10]. Overall, these moves point to an AI race increasingly defined by long‑term control of chips, data centers, and agent ecosystems, plus looming US federal guardrails on frontier model deployment[6][10].
+
+**DPS-03: Judicial Pipeline & Doctrinal Shift** [6/10]  
+The past week saw **continued judicial constraint on major energy pipelines**, with a Fourth Circuit panel again halting Mountain Valley Pipeline construction and a Wisconsin circuit court limiting Enbridge’s Line 5 build pending permitting litigation, reinforcing courts’ central role in shaping infrastructure timelines and leverage.[3][5] In the UK, the government highlighted **judicial diversity statistics and pipeline data** for England and Wales, signaling ongoing attention to who enters and advances within the courts and legal professions as part of a broader justice-system strategy.[4] Structural reforms also moved ahead elsewhere: South Africa began implementing its approved **court rationalisation** to reshape jurisdictions and redistribute High Court capacity from July 1, 2026, while Utah’s 2026 judicial reform package expanded judges, tightened timeliness standards, and increased transparency and conflict-of-interest disclosure across its judiciary.[7][10] Collectively, these developments point to a week of incremental but notable adjustments to judicial capacity, accountability, and the courts’ gatekeeping power over energy and regulatory infrastructure, rather than major doctrinal breaks at the Supreme Court level.
+
+**DPS-04: Fiscal-Monetary Stress Cycle** [8/10] — *CA-032, CA-013, CA-009*  
+The past week saw a **sharp escalation in monetary–fiscal stress** as the Fed’s liquidity backstop effectively disappeared just as markets priced a structurally more hawkish policy path and Treasury borrowing costs stayed elevated.[1][3][5] Net system liquidity is now in a **“naked” regime** with the ON RRP facility drained to roughly zero, meaning future Treasury issuance and Fed balance-sheet runoff will pull cash directly from banks rather than from money funds, tightening the direct channel between fiscal financing and monetary operations.[3] At the same time, June inflation data and energy-driven PCE prints have pushed markets to price **renewed rate-hike risk** rather than cuts, locking in a higher-for-longer rate profile that raises the interest burden on outstanding and future federal debt.[1][5][6] The yield curve remains deeply inverted and longer-term Treasury yields stubbornly high, signaling persistent bond-market stress that complicates Treasury debt management and heightens the feedback loop between fiscal deficits, issuance needs, and Fed decisions.[3][7]
+
+**DPS-05: Capital Allocation & Private Power** [9/10] — *CA-108, CA-087, CA-017, CA-150, CA-066*  
+Private capital and corporate power continued to concentrate around energy and infrastructure, with **NextEra’s $67 billion all‑stock acquisition of Dominion Energy** creating a “super‑utility” with roughly **$420 billion** in enterprise value and unprecedented regulatory and grid leverage across key U.S. markets[1]. AI‑driven data‑center demand is visibly steering capital flows: Nscale secured a **$900 million revolving credit facility** from major banks to accelerate global AI infrastructure build‑out, while Switch Inc. is seeking **$2 billion in private funding** at a roughly **$50 billion** valuation, further entrenching hyperscaler‑linked platforms as critical private power gatekeepers[6][8]. In frontier and firm‑power technologies, Proxima Fusion raised **€400 million** at a **€2.4 billion** valuation, and Quaise Energy closed the first **$134 million** tranche of its Series B with strategic backing from JERA and Idemitsu, signaling that large institutions and energy incumbents are now underwriting high‑risk, long‑duration power bets at scale[6]. Policy moves are reinforcing this shift: Ireland’s imminent “private wire” regime will allow data‑center and industrial operators to build and own direct power lines from generators to loads, structurally expanding private control over grid‑adjacent infrastructure and favoring capital‑rich operators[4], while U.S. tax and credit rules (OBBBA, FEOC, leverage‑cap changes) continue to push investors toward scaled, contracted energy assets over development‑stage equity[3][9][10].
+
+**DPS-06: Big Tech Regulatory Arbitrage** [8/10]  
+The past week saw **significant new constraints on Big Tech’s cloud and AI infrastructure**, alongside continued federal–state jockeying over AI and platform regulation. New York’s **one‑year moratorium on large (>50MW) data‑center permits** directly targets hyperscale cloud build‑out and raises stakes for state-level leverage over energy, land use, and AI compute concentration, signaling a willingness to halt core infrastructure rather than just tweak privacy or content rules[3]. The UK moved to **formally regulate major cloud providers (Amazon, Google, Microsoft, Oracle) as “critical third parties” for financial stability**, importing a bank-style prudential oversight model into tech infrastructure and narrowing Big Tech’s room for regulatory arbitrage in the financial sector[3]. In parallel, the Trump administration’s **national AI policy framework and AI Litigation Task Force** intensified efforts to preempt and litigate against stricter state AI laws, while multiple states advanced transparency and sectoral AI rules—highlighting a growing federal–state clash that platforms can exploit or must navigate across antitrust, content, and liability dimensions[8][11]. Together, these moves shift the battleground from traditional antitrust and content moderation toward **structural control of cloud/AI infrastructure and jurisdictional preemption fights**, increasing regulatory uncertainty but also clarifying where governments intend to squeeze platform power[3][7][11].
+
+**DPS-07: Defense-Industrial Expansion** [8/10]  
+Defense-industrial expansion saw **clear momentum** this week, driven by allied institutional moves and U.S. budget posture. NATO launched the **NATO Front Door for Industry** and the **NATO Engine** in Ankara, creating a permanent structural gateway for private firms into alliance procurement and a framework to expand cross-border production capacity, backed by a publicly released “demand signal” of future capability needs[1]. At the same summit, allies announced roughly **$3 billion** in new multinational deals and joint ventures and a **$50 billion**, 10-year Deep Precision Strike Capability Investment Initiative, locking in long-term demand for missiles, drones, and deep-strike systems and pushing European production to scale[2][6][9]. In parallel, new Pentagon budget documents revealed a request for about **$30 billion** in Defense Production Act funding for FY 2027, transforming DPA from a niche tool into a central mechanism for federal-led industrial expansion[5]. These moves collectively indicate a coordinated U.S.-NATO shift toward multi-year, capacity-building contracts and institutional mechanisms that embed private tech and defense manufacturers more deeply into defense and deterrence architectures[1][2][5][9][13].
+
+**DPS-08: Information Environment Contestation** [8/10]  
+The past week saw **escalating concern and structural responses to foreign information manipulation and interference (FIMI)**, with new intelligence assessments highlighting coordinated Russian, Chinese, and Iranian campaigns targeting democratic institutions and election narratives across multiple regions.[2] At the same time, **regulatory enforcement against disinformation and platform harms continued to harden in Europe**, where Digital Services Act mechanisms are being actively tested through investigations and legal challenges, underscoring a shift from declaratory rules to contested, real-world governance practice.[5] In the U.S. context, **platform and AI governance moved further into the courts**, as major firms challenge state-level AI and speech regulations on First Amendment grounds, highlighting growing conflict between state attempts to shape algorithmic outputs and platform owners’ control over narrative-setting systems.[6] Across these developments, governments and transnational bodies are increasingly framing AI-driven disinformation and attention-economy business models as *structural risks* to democratic resilience, pushing for alternative public digital spaces, stronger fact-checking, and media literacy as long-term counterweights to platform-centric narrative control.[6][5]
+
+**DPS-09: Energy Transition & Security** [8/10]  
+The week saw **federal policy continue to tilt toward fossil incumbents while simultaneously tightening the focus on grid reliability and nuclear build‑out**, reinforcing a structurally slower but more security‑oriented energy transition. The DOE’s **conditional $17.5 billion financing commitment for commercial nuclear reactor components** signals a major, long‑lead bet on nuclear as a primary answer to surging compute and grid demand, and the largest federal nuclear investment in decades[4]. At the same time, FERC’s **show‑cause orders to all six RTOs/ISOs on large‑load interconnection rules** mark a structural inflection in how data centers and other big energy users will be integrated into the grid, with potential to reshape who pays for new transmission and generation capacity[4]. Bipartisan House legislation to shield ratepayers from data‑center infrastructure costs and the FREEDOM Act’s push for **technology‑neutral, faster permitting timelines** together indicate growing congressional momentum to accelerate energy infrastructure while containing political blowback from rising power prices and siting conflicts[4].
+
+**DPS-10: Coalition Machinery & Electoral Infrastructure** [5/10]  
+Coalition and electoral infrastructure saw **moderate but meaningful structural activity** this week, driven more by institutional and legal moves than headline-grabbing donor surges.  
+
+The **NSW Electoral Commission** updated public funding formulas for candidates ahead of the 2027 state election, reshaping how party and candidate coffers will be filled and incentivizing coalition-building under the revised Electoral Funding Act regime[1]. In **Nigeria**, President Tinubu’s signing of the amended Electoral Act, which formalizes electronic result transmission with a fallback to paper forms in case of internet failure, locks in a hybrid infrastructure that will influence future coalition strategies, compliance operations, and legal challenges around vote tabulation[3]. **Elections Canada** released its 2026–27 Departmental Plan outlining audits of 2025 federal campaign finances and a multi-phase digital strategy to replace legacy systems, a structural upgrade that will affect how parties, third-party advertisers, and donor networks interact with federal electoral infrastructure[4]. In India, the Election Commission ordered a Special Intensive Revision of electoral rolls across 16 states and 3 union territories, a voter-file and ballot-access operation likely to shape ground targeting and coalition strategies where registration gaps or contestation are high[2].
+
+---
+
+## Cell Assembly Activity
+
+### ▲ Apollo Global Management
+
+Apollo led a landmark $35B capital solution for Broadcom's AI data-center platform alongside Blackstone, provided €3B in equity financing to Bayer, and expanded its Japan reinsurance operations through Athene. These moves reinforce Apollo's central role in AI infrastructure financing and global corporate balance-sheet restructuring.
+
+---
+
+### ▲ Ares Management
+
+Ares completed its $1.7B all-cash acquisition of Whitestone REIT, consolidating control over Sun Belt open-air retail assets and expanding its institutional-scale real estate footprint in high-growth markets.
+
+---
+
+### ▲ The Carlyle Group
+
+Carlyle set a target to raise more than $200B by 2028, authorized a $2B stock repurchase, and continues deploying its record $96B in dry powder through large transactions including the BASF coatings carve-out.
+
+---
+
+### — Swoosh LLC
+
+No new capital allocation moves, governance decisions, or public actions by the Knight family's Nike control vehicle were reported this week.
+
+---
+
+### ▲ Charles Schwab Corporation
+
+Schwab implemented executive leadership reorganizations effective July 1, creating a new Wealth Advisory and Banking Services organization and a consolidated Technology, Operations, and Data unit, centralizing strategic control over client assets and infrastructure.
+
+---
+
+### ▲ Trump White House
+
+The White House rolled out a de facto federal regulatory regime over frontier AI models controlled directly from the Oval Office, leveraging the Supreme Court's expanded presidential removal power to enforce executive orders conditioning advanced AI deployment on ongoing government scrutiny.
+
+---
+
+### ▲ Federal Bureau of Investigation
+
+Director Patel reoriented FBI priorities toward violent crime and immigration enforcement, publicly broke with the administration on FBI funding cuts, and resumed terminating senior officials tied to Trump-related investigations, while facing Senate scrutiny over travel and spending.
+
+---
+
+### ▲ Department of Health and Human Services
+
+A federal judge blocked HHS's planned mass layoffs as likely unlawful while the department simultaneously began sending termination notices to thousands of staff across FDA, CDC, and NIH. HHS also rescinded a $10B funding freeze affecting five Democratic-led states' social services.
+
+---
+
+### ▲ Oracle Corporation
+
+Oracle announced a partnership with xAI to deliver Grok models via OCI, expanded its AI hardware stack with AMD Instinct MI355X GPUs, and highlighted a major cloud services agreement expected to generate over $30B in annual revenue starting FY2028.
+
+---
+
+### ▲ NVIDIA
+
+NVIDIA rolled out a new revenue-sharing model for multi-tenant AI factories with initial partners committing tens of thousands of GPUs, and announced large-scale U.S.-based AI infrastructure production across 43 states with TSMC and Foxconn, deepening its structural role in the AI compute ecosystem.
+
+---
+
+### ▲ xAI
+
+xAI was formally rebranded as SpaceXAI following its all-stock acquisition by SpaceX at a ~$250B valuation within a combined $1.25T entity, and is being reorganized into modular product units including Grok and Macrohard while facing regulatory investigations over deepfake abuses.
+
+---
+
+### ▲ US House of Representatives
+
+The House passed a major multi-bill FY26 appropriations package by an overwhelming 397-28 vote, with all twelve annual appropriations bills cleared from committee, signaling strong bipartisan fiscal coordination and strengthening majority leverage over spending priorities.
+
+---
+
+### ▲ Senate Appropriations Committee
+
+The committee advanced the FY2026 Defense appropriations bill with $851.9B in discretionary defense funding by a 26-3 vote, explicitly boosting the defense industrial base, servicemember pay, and Indo-Pacific accounts alongside the Labor-HHS-Education bill.
+
+---
+
+### ▲ US Senate
+
+Senate Democrats blocked cloture on the FY2027 NDAA, while the chamber confirmed a district judge by a narrow 46-44 vote, approved a War Powers Resolution on Iran hostilities 50-48, and pushed through a $70B immigration enforcement funding package in an overnight session.
+
+---
+
+### — Federalist Society
+
+No new organizational moves or policy decisions were reported; the Society's influence this week was reflected in the results of long-term aligned strategies as conservative judges celebrated rulings curtailing agency power and Chevron deference.
+
+---
+
+### ▲ Palantir Technologies
+
+Palantir expanded its role in federal fraud enforcement via the SBA, was selected as the core cloud data layer for the Army's Next Generation Command and Control program, and deepened its Nvidia alliance for sovereign AI infrastructure in secure government environments.
+
+---
+
+---
+
+## Top Stories
+
+**Supreme Court expands presidential removal power as White House creates executive AI regulatory channel** `DPS-01` `cooperative`  
+*Susie Wiles* — The Court's ruling and the White House's immediate use of it to condition frontier AI model releases on presidential scrutiny marks a structural expansion of executive control over both independent agencies and the emerging AI ecosystem.
+
+**NextEra's $67B Dominion acquisition and Apollo's $35B Broadcom AI deal concentrate private infrastructure power** `DPS-05` `cooperative`  
+*Henry Kravis* — The creation of a $420B super-utility and the largest AI infrastructure financing deal to date signal that private capital is rapidly consolidating control over the energy and compute layers underpinning the AI economy.
+
+**Fed liquidity backstop disappears as markets price renewed rate-hike risk** `DPS-04` `adversarial`  
+*Jerome H. Powell, David Rubenstein* — With the ON RRP drained to zero and inflation data pushing hawkish repricing, Treasury issuance now pulls cash directly from banks, intensifying the feedback loop between fiscal deficits and monetary tightening while Powell faces DOJ grand jury subpoenas threatening his institutional authority.
+
+**NATO launches $50B Deep Precision Strike initiative as Anduril's Arsenal-1 enters production** `DPS-07` `cooperative`  
+*Palmer Luckey* — Coordinated NATO institutional mechanisms for private-sector integration and Anduril's transition from planning to mass production of autonomous weapons mark a structural shift toward long-term, capacity-building defense-industrial expansion embedding private tech firms into alliance deterrence architecture.
+
+**Karp attacks frontier AI labs and launches sovereign AI partnership with Nvidia against OpenAI/Anthropic model** `DPS-02` `adversarial`  
+*Alexander Karp, Peter Thiel* — Karp's public broadside reframes the AI dominance race as a contest between closed frontier labs and sovereign, defense-linked platforms, potentially reshaping enterprise purchasing, regulatory scrutiny, and the geopolitical alignment of AI infrastructure.
+
+---
+
+## Individual Updates
+
+### — Henry Kravis
+
+No new hard-news developments in the past week. Kravis continues in his executive co-chairman role at KKR following the CEO transition, with his controlling preferred stock elimination on track for year-end 2026.
+
+---
+
+### — Mark Walter
+
+No verifiable new capital allocation, policy, or legal moves in the past week. Walter remains positioned as CEO of Guggenheim Partners and TWG Global with his record Lakers acquisition fully closed.
+
+---
+
+### — Paul Singer
+
+No significant new hard-news items in the past week. Elliott Management's macro positioning and prior tech equity moves remain operative but no fresh filings, campaigns, or public interventions were reported.
+
+---
+
+### ▲ David Rubenstein
+
+Rubenstein publicly warned that inflation will be difficult for the Fed to reduce quickly and voiced support for Jerome Powell amid renewed pressure on the Fed chair. He also retained his Kennedy Center board chairmanship through September 2026 after a successor search was paused.
+
+---
+
+### ▲ Robert F. Kennedy Jr.
+
+A federal judge blocked key parts of Kennedy's vaccine schedule overhaul and ruled his reconstituted CDC advisory board was not lawfully constituted. He announced a restructuring of the U.S. Preventive Services Task Force while defending a reduced $111.1B HHS budget before House committees, and reporting revealed his advisory shake-up has stalled tobacco-cessation and cancer-screening guidance.
+
+---
+
+### ▲ Susie Wiles
+
+Wiles disclosed an early-stage breast cancer diagnosis but confirmed she will continue serving as White House chief of staff. She held a Tuesday-night cabinet meeting to align Republican midterm messaging around the economy and affordability, and publicly pushed back against a Vanity Fair profile, reinforcing her role as the administration's central gatekeeper.
+
+---
+
+### ▲ Sundar Pichai
+
+Pichai announced a $15B AI infrastructure investment in India including four subsea cable systems, publicly floated Google's exploration of space-based data centers, and warned users not to 'blindly trust' AI outputs while cautioning of bubble risk. He told employees internally that 2026 will be an 'intense' year and stated publicly that no single company should possess a technology as potent as AI.
+
+---
+
+### ▲ Alexander Karp
+
+Karp launched an escalated public attack on frontier AI labs like OpenAI and Anthropic, accusing them of irresponsible overselling and stripping enterprise customers of proprietary value. He unveiled a sovereign AI infrastructure partnership with Nvidia and published a manifesto advocating AI sovereignty and open-weight alternatives, while warning the U.S.-China AI race will have 'one winner.'
+
+---
+
+### ▲ Jerome H. Powell
+
+Powell disclosed that DOJ served the Fed with grand jury subpoenas threatening criminal indictment over his Senate testimony about Fed building renovations, then received DOJ assurances limiting the scope of any reopened investigation. He confirmed he will remain on the Fed Board, publicly warned that the Fed's autonomy is 'under threat,' and held the federal funds rate steady at 3.50-3.75% amid elevated inflation.
+
+---
+
+### ▲ Christopher Murphy
+
+Murphy issued statements on the Supreme Court's birthright citizenship ruling and marked the anniversary of the Bipartisan Safer Communities Act on the Senate floor. He intensified a national campaign of speeches and organizing in Republican-held districts and proposed banning prediction-market wagering on military conflicts.
+
+---
+
+### ▲ Carrie Severino
+
+Severino provided extensive public commentary framing the Supreme Court's term-ending decisions on birthright citizenship, presidential power, women's sports, and campaign finance, positioning Judicial Crisis Network as the central conservative interpreter of doctrinal shifts. No new organizational initiatives or legal actions were reported beyond her sustained media presence.
+
+---
+
+### ▲ Peter Thiel
+
+Thiel accused Pope Leo XIV of 'working for the Chinese Communists' by calling for global AI regulation and warned that Anthropic could rig the 2028 election for Democrats. He reaffirmed his view that Nvidia is the 'real winner' in AI and predicted a 'democratic-socialist takeover' of the Democratic Party, continuing to frame AI regulation and party realignment as a single strategic battlefield.
+
+---
+
+### ▲ Ketanji Brown Jackson
+
+Jackson publicly warned the Supreme Court 'risks being viewed as political' after issuing a solo dissent in the Louisiana redistricting dispute, prompting conservative justices to rebuke her. She authored a unanimous opinion expanding access to reverse-discrimination claims and wrote the unanimous Urias-Orellana v. Bondi opinion tightening deference standards in asylum cases.
+
+---
+
+### ▲ Melinda French Gates
+
+French Gates announced a $1 billion pledge for women's rights and gender equity over two years, rolled out $250 million in grants to 80+ women's health organizations worldwide, and committed an additional $215 million for midlife and menopause health. She is completing her exit from the Gates Foundation with control of approximately $12.5 billion for independent initiatives.
+
+---
+
+### ▲ Palmer Luckey
+
+Anduril's Arsenal-1 mega-factory in Ohio is entering its operational phase within weeks, and the company is executing on a 10-year, up-to-$20B Army procurement contract. Luckey secured a $23.9M Marine Corps deal for 600+ weaponized drones and is pursuing defense-export expansion to Asian allies and a major R&D presence in Israel.
+
+---
+
+### — Miriam Adelson & family
+
+No new hard-news moves in the past week. Her $100 million to Preserve America and reported $250 million pledge for a potential third Trump term remain the operative context for her coalition and electoral infrastructure influence.
+
+---
+
+### ▲ John Thune
+
+Thune issued a 'last and final' DHS funding offer to Democrats, pushed for a Senate vote on the SAVE Act while rejecting filibuster changes, and coordinated with McConnell on national security and campaign strategy. He is driving an aggressive July floor plan to confirm Trump nominees and delivered a combative floor speech framing Democratic spending proposals.
+
+---
+
+### — Rob Walton & family
+
+No new transactions or decisions in the past week. The Walton family's collective wealth has surged to approximately $520 billion driven by Walmart's stock performance, reinforcing their structural capital allocation power across retail, sports, and philanthropy.
+
+---
+
+### — Brian Armstrong
+
+No significant new hard-news developments in the past week related to coalition machinery or electoral infrastructure. Armstrong's influence continues to operate through regulatory advocacy and Coinbase's institutional positioning rather than direct political operations.
+
+---
+
+### — Paul Tudor Jones, II.
+
+No new hard-news items in the past week. His Q1 2026 portfolio shift toward single-stock positions and away from broad equity beta, along with increased gold exposure, remains the operative context for his macro positioning amid fiscal-monetary stress.
+
+---
+
+### — Lynda Resnick
+
+No new hard-news developments in the past week. Her $100 million UCLA Health gift, $750 million Caltech sustainability endowment, and ongoing water-rights scrutiny remain the active context for her capital allocation and private power influence.
+
+---
+
+### ▲ Tom Cotton
+
+Cotton formally launched his 2026 Senate reelection campaign while chairing both the Intelligence Committee and Republican Conference, backed by $8 million cash-on-hand. He remains at the center of an Iran surveillance and DNI nomination clash with Trump and issued a public statement supporting the Supreme Court's sex-based sports ruling.
+
+---
+
+### ▲ Ron DeSantis
+
+DeSantis pushed implementation of Florida's ban on undocumented students at public colleges, triggering organized legal and political opposition. He continued advancing his 'police state' legislative agenda including bills to label organizations as terrorist and create a counterintelligence division within FDLE, deepening coalition strain with civil-liberties groups while consolidating law-enforcement and right-wing advocacy support.
+
+---
+
