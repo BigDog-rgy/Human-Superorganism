@@ -1,6 +1,6 @@
 {
-  "week_count": 18,
-  "last_updated": "2026-07-15",
+  "week_count": 19,
+  "last_updated": "2026-07-22",
   "scope": "Global",
   "config": {
     "decay_rate": 0.15,
@@ -18,7 +18,7 @@
       "last_updated": "2026-03-19"
     },
     "Cai Qi|||Vladimir Putin": {
-      "score": 0.034341127384179555,
+      "score": 0.02918995827655262,
       "label": "neutral",
       "observations": 2,
       "last_ps": [
@@ -27,7 +27,7 @@
       "last_updated": "2026-03-19"
     },
     "Patriarch Kirill (Vladimir Gundyayev)|||Vladimir Putin": {
-      "score": 0.034341127384179555,
+      "score": 0.02918995827655262,
       "label": "neutral",
       "observations": 2,
       "last_ps": [
@@ -54,7 +54,7 @@
       "last_updated": "2026-03-19"
     },
     "Cristiano Amon|||Elon Musk": {
-      "score": 0.018562771559015975,
+      "score": 0.015778355825163577,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -72,7 +72,7 @@
       "last_updated": "2026-07-15"
     },
     "Cristiano Amon|||Vladimir Putin": {
-      "score": -0.018562771559015975,
+      "score": -0.015778355825163577,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -90,7 +90,7 @@
       "last_updated": "2026-03-19"
     },
     "Elon Musk|||Vladimir Putin": {
-      "score": 0.018562771559015975,
+      "score": 0.015778355825163577,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -99,7 +99,7 @@
       "last_updated": "2026-03-19"
     },
     "Andrei Belousov|||Lai Ching-te": {
-      "score": -0.02183855477531291,
+      "score": -0.018562771559015975,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -108,7 +108,7 @@
       "last_updated": "2026-03-25"
     },
     "Andrei Belousov|||Nikolai Patrushev": {
-      "score": 0.27183855477531293,
+      "score": 0.231062771559016,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -117,7 +117,7 @@
       "last_updated": "2026-07-15"
     },
     "Andrei Belousov|||Valery Gerasimov": {
-      "score": 0.20246355477531292,
+      "score": 0.17209402155901599,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -135,7 +135,7 @@
       "last_updated": "2026-03-25"
     },
     "Lai Ching-te|||Valery Gerasimov": {
-      "score": -0.02183855477531291,
+      "score": -0.018562771559015975,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -144,7 +144,7 @@
       "last_updated": "2026-03-25"
     },
     "Nikolai Patrushev|||Valery Gerasimov": {
-      "score": 0.02183855477531291,
+      "score": 0.018562771559015975,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -162,7 +162,7 @@
       "last_updated": "2026-04-01"
     },
     "Andrew Bailey|||Christopher Cavoli": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -189,7 +189,7 @@
       "last_updated": "2026-04-01"
     },
     "Andrew Bailey|||Jamie Dimon": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -198,7 +198,7 @@
       "last_updated": "2026-07-08"
     },
     "Andrew Bailey|||Larry Fink": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -207,7 +207,7 @@
       "last_updated": "2026-04-01"
     },
     "Andrew Bailey|||Li Qiang": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -234,7 +234,7 @@
       "last_updated": "2026-04-01"
     },
     "Andrew Bailey|||Pete Hegseth": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -243,7 +243,7 @@
       "last_updated": "2026-04-01"
     },
     "Andrew Bailey|||Ray Dalio": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -306,7 +306,7 @@
       "last_updated": "2026-07-08"
     },
     "Christophe Fouquet|||Christopher Cavoli": {
-      "score": 0.0938150486424867,
+      "score": 0.07974279134611369,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -324,7 +324,7 @@
       "last_updated": "2026-04-01"
     },
     "Christophe Fouquet|||Donald Trump": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -342,7 +342,7 @@
       "last_updated": "2026-04-01"
     },
     "Christophe Fouquet|||Larry Fink": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -351,7 +351,7 @@
       "last_updated": "2026-04-01"
     },
     "Christophe Fouquet|||Li Qiang": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -360,7 +360,7 @@
       "last_updated": "2026-04-01"
     },
     "Christophe Fouquet|||Marc Andreessen": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -369,7 +369,7 @@
       "last_updated": "2026-04-01"
     },
     "Christophe Fouquet|||Mustafa Suleyman": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -378,7 +378,7 @@
       "last_updated": "2026-04-01"
     },
     "Christophe Fouquet|||Pete Hegseth": {
-      "score": 0.042430213877044536,
+      "score": 0.03606568179548785,
       "label": "neutral",
       "observations": 2,
       "last_ps": [
@@ -387,7 +387,7 @@
       "last_updated": "2026-05-20"
     },
     "Christophe Fouquet|||Ray Dalio": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -405,7 +405,7 @@
       "last_updated": "2026-04-01"
     },
     "Christophe Fouquet|||Robin Zeng": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -423,7 +423,7 @@
       "last_updated": "2026-04-01"
     },
     "Christophe Fouquet|||Sam Altman": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -450,7 +450,7 @@
       "last_updated": "2026-04-01"
     },
     "Christopher Cavoli|||Dario Amodei": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -459,7 +459,7 @@
       "last_updated": "2026-04-01"
     },
     "Christopher Cavoli|||Donald Trump": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -477,7 +477,7 @@
       "last_updated": "2026-04-01"
     },
     "Christopher Cavoli|||Larry Fink": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -486,7 +486,7 @@
       "last_updated": "2026-04-01"
     },
     "Christopher Cavoli|||Li Qiang": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -495,7 +495,7 @@
       "last_updated": "2026-04-01"
     },
     "Christopher Cavoli|||Marc Andreessen": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -504,7 +504,7 @@
       "last_updated": "2026-04-01"
     },
     "Christopher Cavoli|||Mustafa Suleyman": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -513,7 +513,7 @@
       "last_updated": "2026-04-01"
     },
     "Christopher Cavoli|||Pete Hegseth": {
-      "score": 0.0938150486424867,
+      "score": 0.07974279134611369,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -523,7 +523,7 @@
       "last_updated": "2026-05-20"
     },
     "Christopher Cavoli|||Ray Dalio": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -532,7 +532,7 @@
       "last_updated": "2026-04-01"
     },
     "Christopher Cavoli|||Reed Hastings": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -541,7 +541,7 @@
       "last_updated": "2026-04-01"
     },
     "Christopher Cavoli|||Robin Zeng": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -559,7 +559,7 @@
       "last_updated": "2026-04-01"
     },
     "Christopher Cavoli|||Sam Altman": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -568,7 +568,7 @@
       "last_updated": "2026-04-01"
     },
     "Christopher Cavoli|||Wang Yi": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -586,7 +586,7 @@
       "last_updated": "2026-04-01"
     },
     "Dario Amodei|||Donald Trump": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -604,7 +604,7 @@
       "last_updated": "2026-04-01"
     },
     "Dario Amodei|||Larry Fink": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -622,7 +622,7 @@
       "last_updated": "2026-04-01"
     },
     "Dario Amodei|||Marc Andreessen": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -631,7 +631,7 @@
       "last_updated": "2026-04-01"
     },
     "Dario Amodei|||Mustafa Suleyman": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -640,7 +640,7 @@
       "last_updated": "2026-04-01"
     },
     "Dario Amodei|||Pete Hegseth": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -649,7 +649,7 @@
       "last_updated": "2026-04-01"
     },
     "Dario Amodei|||Ray Dalio": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -658,7 +658,7 @@
       "last_updated": "2026-04-01"
     },
     "Dario Amodei|||Reed Hastings": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -685,7 +685,7 @@
       "last_updated": "2026-04-01"
     },
     "Dario Amodei|||Sam Altman": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -721,7 +721,7 @@
       "last_updated": "2026-04-01"
     },
     "Donald Trump|||Larry Fink": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -730,7 +730,7 @@
       "last_updated": "2026-04-01"
     },
     "Donald Trump|||Li Qiang": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -739,7 +739,7 @@
       "last_updated": "2026-04-01"
     },
     "Donald Trump|||Marc Andreessen": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -748,7 +748,7 @@
       "last_updated": "2026-04-01"
     },
     "Donald Trump|||Mustafa Suleyman": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -757,7 +757,7 @@
       "last_updated": "2026-04-01"
     },
     "Donald Trump|||Pete Hegseth": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -766,7 +766,7 @@
       "last_updated": "2026-04-01"
     },
     "Donald Trump|||Ray Dalio": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -775,7 +775,7 @@
       "last_updated": "2026-04-01"
     },
     "Donald Trump|||Reed Hastings": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -784,7 +784,7 @@
       "last_updated": "2026-04-01"
     },
     "Donald Trump|||Robin Zeng": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -802,7 +802,7 @@
       "last_updated": "2026-04-01"
     },
     "Donald Trump|||Sam Altman": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -811,7 +811,7 @@
       "last_updated": "2026-04-01"
     },
     "Donald Trump|||Wang Yi": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -829,7 +829,7 @@
       "last_updated": "2026-04-01"
     },
     "Jamie Dimon|||Larry Fink": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -838,7 +838,7 @@
       "last_updated": "2026-04-01"
     },
     "Jamie Dimon|||Li Qiang": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -847,7 +847,7 @@
       "last_updated": "2026-04-01"
     },
     "Jamie Dimon|||Marc Andreessen": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -865,7 +865,7 @@
       "last_updated": "2026-04-01"
     },
     "Jamie Dimon|||Pete Hegseth": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -874,7 +874,7 @@
       "last_updated": "2026-04-01"
     },
     "Jamie Dimon|||Ray Dalio": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -883,7 +883,7 @@
       "last_updated": "2026-04-01"
     },
     "Jamie Dimon|||Reed Hastings": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -892,7 +892,7 @@
       "last_updated": "2026-04-01"
     },
     "Jamie Dimon|||Robin Zeng": {
-      "score": -0.2381924173827211,
+      "score": -0.20246355477531292,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -910,7 +910,7 @@
       "last_updated": "2026-07-08"
     },
     "Jamie Dimon|||Sam Altman": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -919,7 +919,7 @@
       "last_updated": "2026-04-01"
     },
     "Jamie Dimon|||Wang Yi": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -937,7 +937,7 @@
       "last_updated": "2026-07-08"
     },
     "Larry Fink|||Li Qiang": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -946,7 +946,7 @@
       "last_updated": "2026-04-01"
     },
     "Larry Fink|||Marc Andreessen": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -955,7 +955,7 @@
       "last_updated": "2026-04-01"
     },
     "Larry Fink|||Mustafa Suleyman": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -964,7 +964,7 @@
       "last_updated": "2026-04-01"
     },
     "Larry Fink|||Pete Hegseth": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -973,7 +973,7 @@
       "last_updated": "2026-04-01"
     },
     "Larry Fink|||Ray Dalio": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -982,7 +982,7 @@
       "last_updated": "2026-04-01"
     },
     "Larry Fink|||Reed Hastings": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -991,7 +991,7 @@
       "last_updated": "2026-04-01"
     },
     "Larry Fink|||Robin Zeng": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1000,7 +1000,7 @@
       "last_updated": "2026-04-01"
     },
     "Larry Fink|||Salman bin Abdulaziz Al Saud": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1009,7 +1009,7 @@
       "last_updated": "2026-04-01"
     },
     "Larry Fink|||Sam Altman": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1018,7 +1018,7 @@
       "last_updated": "2026-04-01"
     },
     "Larry Fink|||Wang Yi": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1036,7 +1036,7 @@
       "last_updated": "2026-04-01"
     },
     "Li Qiang|||Marc Andreessen": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1045,7 +1045,7 @@
       "last_updated": "2026-04-01"
     },
     "Li Qiang|||Mustafa Suleyman": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1054,7 +1054,7 @@
       "last_updated": "2026-04-01"
     },
     "Li Qiang|||Pete Hegseth": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1063,7 +1063,7 @@
       "last_updated": "2026-04-01"
     },
     "Li Qiang|||Ray Dalio": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 2,
       "last_ps": [
@@ -1081,7 +1081,7 @@
       "last_updated": "2026-04-01"
     },
     "Li Qiang|||Robin Zeng": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1099,7 +1099,7 @@
       "last_updated": "2026-04-01"
     },
     "Li Qiang|||Sam Altman": {
-      "score": -0.2756924173827211,
+      "score": -0.23433855477531293,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -1108,7 +1108,7 @@
       "last_updated": "2026-07-15"
     },
     "Li Qiang|||Wang Yi": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1126,7 +1126,7 @@
       "last_updated": "2026-04-01"
     },
     "Marc Andreessen|||Mustafa Suleyman": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1135,7 +1135,7 @@
       "last_updated": "2026-04-01"
     },
     "Marc Andreessen|||Pete Hegseth": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1144,7 +1144,7 @@
       "last_updated": "2026-04-01"
     },
     "Marc Andreessen|||Ray Dalio": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1153,7 +1153,7 @@
       "last_updated": "2026-04-01"
     },
     "Marc Andreessen|||Reed Hastings": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1162,7 +1162,7 @@
       "last_updated": "2026-04-01"
     },
     "Marc Andreessen|||Robin Zeng": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1180,7 +1180,7 @@
       "last_updated": "2026-04-01"
     },
     "Marc Andreessen|||Sam Altman": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1189,7 +1189,7 @@
       "last_updated": "2026-04-01"
     },
     "Marc Andreessen|||Wang Yi": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1207,7 +1207,7 @@
       "last_updated": "2026-04-01"
     },
     "Mustafa Suleyman|||Pete Hegseth": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1216,7 +1216,7 @@
       "last_updated": "2026-04-01"
     },
     "Mustafa Suleyman|||Ray Dalio": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1225,7 +1225,7 @@
       "last_updated": "2026-04-01"
     },
     "Mustafa Suleyman|||Reed Hastings": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1234,7 +1234,7 @@
       "last_updated": "2026-04-01"
     },
     "Mustafa Suleyman|||Robin Zeng": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1252,7 +1252,7 @@
       "last_updated": "2026-04-01"
     },
     "Mustafa Suleyman|||Sam Altman": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1279,7 +1279,7 @@
       "last_updated": "2026-04-01"
     },
     "Pete Hegseth|||Ray Dalio": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1288,7 +1288,7 @@
       "last_updated": "2026-04-01"
     },
     "Pete Hegseth|||Reed Hastings": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1297,7 +1297,7 @@
       "last_updated": "2026-04-01"
     },
     "Pete Hegseth|||Robin Zeng": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1315,7 +1315,7 @@
       "last_updated": "2026-04-01"
     },
     "Pete Hegseth|||Sam Altman": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1324,7 +1324,7 @@
       "last_updated": "2026-04-01"
     },
     "Pete Hegseth|||Wang Yi": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1351,7 +1351,7 @@
       "last_updated": "2026-04-01"
     },
     "Ray Dalio|||Robin Zeng": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1378,7 +1378,7 @@
       "last_updated": "2026-07-15"
     },
     "Ray Dalio|||Wang Yi": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1396,7 +1396,7 @@
       "last_updated": "2026-04-01"
     },
     "Reed Hastings|||Robin Zeng": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1414,7 +1414,7 @@
       "last_updated": "2026-04-01"
     },
     "Reed Hastings|||Sam Altman": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1441,7 +1441,7 @@
       "last_updated": "2026-04-01"
     },
     "Robin Zeng|||Salman bin Abdulaziz Al Saud": {
-      "score": -0.2381924173827211,
+      "score": -0.20246355477531292,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -1450,7 +1450,7 @@
       "last_updated": "2026-07-08"
     },
     "Robin Zeng|||Sam Altman": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1459,7 +1459,7 @@
       "last_updated": "2026-04-01"
     },
     "Robin Zeng|||Wang Yi": {
-      "score": 0.025692417382721072,
+      "score": 0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1504,7 +1504,7 @@
       "last_updated": "2026-07-08"
     },
     "Sam Altman|||Wang Yi": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1558,7 +1558,7 @@
       "last_updated": "2026-07-15"
     },
     "Ali Khamenei|||Mohammed Bin Zayed Al Nahyan": {
-      "score": -0.030226373391436558,
+      "score": -0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1612,7 +1612,7 @@
       "last_updated": "2026-04-08"
     },
     "Ali Khamenei|||Xi Jinping": {
-      "score": -0.030226373391436558,
+      "score": -0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1648,7 +1648,7 @@
       "last_updated": "2026-04-08"
     },
     "Jensen Huang|||Satya Nadella": {
-      "score": 0.030226373391436558,
+      "score": 0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1675,7 +1675,7 @@
       "last_updated": "2026-04-08"
     },
     "Jensen Huang|||Vladimir Bogdanov": {
-      "score": -0.030226373391436558,
+      "score": -0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1693,7 +1693,7 @@
       "last_updated": "2026-04-08"
     },
     "Jensen Huang|||Xi Jinping": {
-      "score": -0.030226373391436558,
+      "score": -0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1747,7 +1747,7 @@
       "last_updated": "2026-04-08"
     },
     "Luiz Inácio Lula da Silva|||Vladimir Bogdanov": {
-      "score": 0.030226373391436558,
+      "score": 0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1783,7 +1783,7 @@
       "last_updated": "2026-04-08"
     },
     "Mark Zuckerberg|||Satya Nadella": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -1810,7 +1810,7 @@
       "last_updated": "2026-04-08"
     },
     "Mark Zuckerberg|||Vladimir Bogdanov": {
-      "score": -0.030226373391436558,
+      "score": -0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1864,7 +1864,7 @@
       "last_updated": "2026-04-08"
     },
     "Mohammed Bin Zayed Al Nahyan|||Vladimir Bogdanov": {
-      "score": -0.030226373391436558,
+      "score": -0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1909,7 +1909,7 @@
       "last_updated": "2026-04-08"
     },
     "Satya Nadella|||Vladimir Bogdanov": {
-      "score": -0.030226373391436558,
+      "score": -0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1918,7 +1918,7 @@
       "last_updated": "2026-04-08"
     },
     "Satya Nadella|||Wang Chuanfu": {
-      "score": 0.030226373391436558,
+      "score": 0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1927,7 +1927,7 @@
       "last_updated": "2026-04-08"
     },
     "Satya Nadella|||Xi Jinping": {
-      "score": -0.030226373391436558,
+      "score": -0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1938,14 +1938,14 @@
     "Sunil Mittal|||Tedros Adhanom Ghebreyesus": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-08"
+      "last_updated": "2026-07-22"
     },
     "Sunil Mittal|||Vladimir Bogdanov": {
-      "score": 0.030226373391436558,
+      "score": 0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -1972,7 +1972,7 @@
       "last_updated": "2026-04-08"
     },
     "Tedros Adhanom Ghebreyesus|||Vladimir Bogdanov": {
-      "score": -0.030226373391436558,
+      "score": -0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2008,7 +2008,7 @@
       "last_updated": "2026-04-08"
     },
     "Vladimir Bogdanov|||Xi Jinping": {
-      "score": -0.030226373391436558,
+      "score": -0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2062,7 +2062,7 @@
       "last_updated": "2026-04-15"
     },
     "Cristiano Amon|||Ken Griffin": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2071,7 +2071,7 @@
       "last_updated": "2026-04-15"
     },
     "Cristiano Amon|||Kim Jong-un": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2080,7 +2080,7 @@
       "last_updated": "2026-04-15"
     },
     "Cristiano Amon|||Kristalina Georgieva": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2089,7 +2089,7 @@
       "last_updated": "2026-04-15"
     },
     "Cristiano Amon|||Marc Andreessen": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2098,7 +2098,7 @@
       "last_updated": "2026-04-15"
     },
     "Cristiano Amon|||Marco Rubio": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2125,7 +2125,7 @@
       "last_updated": "2026-04-15"
     },
     "Cristiano Amon|||Sergei Lavrov": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2161,7 +2161,7 @@
       "last_updated": "2026-04-15"
     },
     "Cristiano Amon|||Tahnoun bin Zayed Al Nahyan": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2181,11 +2181,11 @@
     "Demis Hassabis|||Félix Tshisekedi": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Demis Hassabis|||George Roberts": {
       "score": 0.0,
@@ -2199,20 +2199,20 @@
     "Demis Hassabis|||Kazuo Ueda": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Demis Hassabis|||Ken Griffin": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Demis Hassabis|||Kim Jong-un": {
       "score": 0.0,
@@ -2224,7 +2224,7 @@
       "last_updated": "2026-04-15"
     },
     "Demis Hassabis|||Kristalina Georgieva": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2233,7 +2233,7 @@
       "last_updated": "2026-04-15"
     },
     "Demis Hassabis|||Marc Andreessen": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2262,11 +2262,11 @@
     "Demis Hassabis|||Mohan Bhagwat": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Demis Hassabis|||Sergei Lavrov": {
       "score": 0.0,
@@ -2280,11 +2280,11 @@
     "Demis Hassabis|||Shavkat Mirziyoyev": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Demis Hassabis|||Subrahmanyam Jaishankar": {
       "score": 0.0,
@@ -2298,11 +2298,12 @@
     "Demis Hassabis|||Sundar Pichai": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
+        "PS-05",
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Demis Hassabis|||Tahnoun bin Zayed Al Nahyan": {
       "score": 0.0,
@@ -2334,20 +2335,20 @@
     "Félix Tshisekedi|||Kazuo Ueda": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Félix Tshisekedi|||Ken Griffin": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Félix Tshisekedi|||Kim Jong-un": {
       "score": 0.0,
@@ -2397,11 +2398,11 @@
     "Félix Tshisekedi|||Mohan Bhagwat": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Félix Tshisekedi|||Sergei Lavrov": {
       "score": 0.0,
@@ -2415,11 +2416,11 @@
     "Félix Tshisekedi|||Shavkat Mirziyoyev": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Félix Tshisekedi|||Subrahmanyam Jaishankar": {
       "score": 0.0,
@@ -2433,11 +2434,11 @@
     "Félix Tshisekedi|||Sundar Pichai": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Félix Tshisekedi|||Tahnoun bin Zayed Al Nahyan": {
       "score": 0.0,
@@ -2586,11 +2587,11 @@
     "Kazuo Ueda|||Ken Griffin": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Kazuo Ueda|||Kim Jong-un": {
       "score": 0.0,
@@ -2602,7 +2603,7 @@
       "last_updated": "2026-04-15"
     },
     "Kazuo Ueda|||Kristalina Georgieva": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2640,11 +2641,11 @@
     "Kazuo Ueda|||Mohan Bhagwat": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Kazuo Ueda|||Sergei Lavrov": {
       "score": 0.0,
@@ -2658,11 +2659,11 @@
     "Kazuo Ueda|||Shavkat Mirziyoyev": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Kazuo Ueda|||Subrahmanyam Jaishankar": {
       "score": 0.0,
@@ -2676,11 +2677,11 @@
     "Kazuo Ueda|||Sundar Pichai": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Kazuo Ueda|||Tahnoun bin Zayed Al Nahyan": {
       "score": 0.0,
@@ -2701,7 +2702,7 @@
       "last_updated": "2026-04-15"
     },
     "Ken Griffin|||Kim Jong-un": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2710,7 +2711,7 @@
       "last_updated": "2026-04-15"
     },
     "Ken Griffin|||Kristalina Georgieva": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2719,7 +2720,7 @@
       "last_updated": "2026-04-15"
     },
     "Ken Griffin|||Marc Andreessen": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2728,7 +2729,7 @@
       "last_updated": "2026-04-15"
     },
     "Ken Griffin|||Marco Rubio": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2737,7 +2738,7 @@
       "last_updated": "2026-04-15"
     },
     "Ken Griffin|||Mathias Cormann": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2748,14 +2749,14 @@
     "Ken Griffin|||Mohan Bhagwat": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Ken Griffin|||Sergei Lavrov": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2766,14 +2767,14 @@
     "Ken Griffin|||Shavkat Mirziyoyev": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Ken Griffin|||Subrahmanyam Jaishankar": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2784,14 +2785,14 @@
     "Ken Griffin|||Sundar Pichai": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Ken Griffin|||Tahnoun bin Zayed Al Nahyan": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2809,7 +2810,7 @@
       "last_updated": "2026-04-15"
     },
     "Kim Jong-un|||Kristalina Georgieva": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2818,7 +2819,7 @@
       "last_updated": "2026-04-15"
     },
     "Kim Jong-un|||Marc Andreessen": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2827,7 +2828,7 @@
       "last_updated": "2026-04-15"
     },
     "Kim Jong-un|||Marco Rubio": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2854,7 +2855,7 @@
       "last_updated": "2026-04-15"
     },
     "Kim Jong-un|||Sergei Lavrov": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2890,7 +2891,7 @@
       "last_updated": "2026-04-15"
     },
     "Kim Jong-un|||Tahnoun bin Zayed Al Nahyan": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2899,7 +2900,7 @@
       "last_updated": "2026-04-15"
     },
     "Kim Jong-un|||Tô Lâm": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2908,7 +2909,7 @@
       "last_updated": "2026-04-15"
     },
     "Kristalina Georgieva|||Marc Andreessen": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2917,7 +2918,7 @@
       "last_updated": "2026-04-15"
     },
     "Kristalina Georgieva|||Marco Rubio": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2926,7 +2927,7 @@
       "last_updated": "2026-04-15"
     },
     "Kristalina Georgieva|||Mathias Cormann": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -2998,7 +2999,7 @@
       "last_updated": "2026-04-15"
     },
     "Marc Andreessen|||Marco Rubio": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3052,7 +3053,7 @@
       "last_updated": "2026-04-15"
     },
     "Marc Andreessen|||Sundar Pichai": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3079,7 +3080,7 @@
       "last_updated": "2026-04-15"
     },
     "Marco Rubio|||Mathias Cormann": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3097,7 +3098,7 @@
       "last_updated": "2026-04-15"
     },
     "Marco Rubio|||Sergei Lavrov": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3115,7 +3116,7 @@
       "last_updated": "2026-04-15"
     },
     "Marco Rubio|||Subrahmanyam Jaishankar": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3142,7 +3143,7 @@
       "last_updated": "2026-04-15"
     },
     "Marco Rubio|||Tô Lâm": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3225,11 +3226,11 @@
     "Mohan Bhagwat|||Shavkat Mirziyoyev": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Mohan Bhagwat|||Subrahmanyam Jaishankar": {
       "score": 0.0,
@@ -3241,13 +3242,13 @@
       "last_updated": "2026-04-15"
     },
     "Mohan Bhagwat|||Sundar Pichai": {
-      "score": 0.0,
-      "label": "neutral",
-      "observations": 1,
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Mohan Bhagwat|||Tahnoun bin Zayed Al Nahyan": {
       "score": 0.0,
@@ -3268,7 +3269,7 @@
       "last_updated": "2026-04-15"
     },
     "Sergei Lavrov|||Shavkat Mirziyoyev": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3304,7 +3305,7 @@
       "last_updated": "2026-04-15"
     },
     "Sergei Lavrov|||Tô Lâm": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3324,11 +3325,11 @@
     "Shavkat Mirziyoyev|||Sundar Pichai": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-04-15"
+      "last_updated": "2026-07-22"
     },
     "Shavkat Mirziyoyev|||Tahnoun bin Zayed Al Nahyan": {
       "score": 0.0,
@@ -3358,7 +3359,7 @@
       "last_updated": "2026-04-15"
     },
     "Subrahmanyam Jaishankar|||Tahnoun bin Zayed Al Nahyan": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3403,7 +3404,7 @@
       "last_updated": "2026-04-15"
     },
     "C.C. Wei|||Jensen Huang": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3421,7 +3422,7 @@
       "last_updated": "2026-04-22"
     },
     "Alexander Lukashenko|||C.C. Wei": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3493,7 +3494,7 @@
       "last_updated": "2026-04-22"
     },
     "Alexander Lukashenko|||Petr Pavel": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3511,7 +3512,7 @@
       "last_updated": "2026-04-22"
     },
     "Alexander Lukashenko|||Vladimir Putin": {
-      "score": 0.19536706092240355,
+      "score": 0.166062001784043,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -3529,7 +3530,7 @@
       "last_updated": "2026-04-22"
     },
     "Alexander Lukashenko|||Yuri Kovalchuk": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3538,7 +3539,7 @@
       "last_updated": "2026-04-22"
     },
     "Ayatollah Ali Khamenei|||C.C. Wei": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3547,7 +3548,7 @@
       "last_updated": "2026-04-22"
     },
     "Ayatollah Ali Khamenei|||Donald Trump": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3556,7 +3557,7 @@
       "last_updated": "2026-04-22"
     },
     "Ayatollah Ali Khamenei|||Hamad bin Jassim bin Jaber Al Thani": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3565,7 +3566,7 @@
       "last_updated": "2026-04-22"
     },
     "Ayatollah Ali Khamenei|||Jensen Huang": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3610,7 +3611,7 @@
       "last_updated": "2026-04-22"
     },
     "Ayatollah Ali Khamenei|||Petr Pavel": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3655,7 +3656,7 @@
       "last_updated": "2026-04-22"
     },
     "C.C. Wei|||Donald Trump": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3682,7 +3683,7 @@
       "last_updated": "2026-04-22"
     },
     "C.C. Wei|||Masayoshi Son": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3691,7 +3692,7 @@
       "last_updated": "2026-04-22"
     },
     "C.C. Wei|||Michael Dell": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3718,7 +3719,7 @@
       "last_updated": "2026-04-22"
     },
     "C.C. Wei|||Safra Catz": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3736,7 +3737,7 @@
       "last_updated": "2026-04-22"
     },
     "C.C. Wei|||Warren Buffett": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3754,7 +3755,7 @@
       "last_updated": "2026-04-22"
     },
     "Donald Trump|||Hamad bin Jassim bin Jaber Al Thani": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3763,7 +3764,7 @@
       "last_updated": "2026-04-22"
     },
     "Donald Trump|||Jensen Huang": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3808,7 +3809,7 @@
       "last_updated": "2026-04-22"
     },
     "Donald Trump|||Petr Pavel": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3826,7 +3827,7 @@
       "last_updated": "2026-04-22"
     },
     "Donald Trump|||Vladimir Putin": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3835,7 +3836,7 @@
       "last_updated": "2026-04-22"
     },
     "Donald Trump|||Warren Buffett": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3952,7 +3953,7 @@
       "last_updated": "2026-04-22"
     },
     "Jensen Huang|||Masayoshi Son": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3961,7 +3962,7 @@
       "last_updated": "2026-04-22"
     },
     "Jensen Huang|||Michael Dell": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -3979,7 +3980,7 @@
       "last_updated": "2026-04-22"
     },
     "Jensen Huang|||Petr Pavel": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4006,7 +4007,7 @@
       "last_updated": "2026-04-22"
     },
     "Jensen Huang|||Warren Buffett": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4015,7 +4016,7 @@
       "last_updated": "2026-04-22"
     },
     "Jensen Huang|||Yuri Kovalchuk": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4141,7 +4142,7 @@
       "last_updated": "2026-04-22"
     },
     "Masayoshi Son|||Warren Buffett": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4195,7 +4196,7 @@
       "last_updated": "2026-04-22"
     },
     "Michael Dell|||Warren Buffett": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4267,7 +4268,7 @@
       "last_updated": "2026-04-22"
     },
     "Petr Pavel|||Vladimir Putin": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4285,7 +4286,7 @@
       "last_updated": "2026-04-22"
     },
     "Petr Pavel|||Yuri Kovalchuk": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4330,7 +4331,7 @@
       "last_updated": "2026-04-22"
     },
     "Vladimir Putin|||Yuri Kovalchuk": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4357,7 +4358,7 @@
       "last_updated": "2026-04-29"
     },
     "Ajay Banga|||António Guterres": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4393,7 +4394,7 @@
       "last_updated": "2026-04-29"
     },
     "Ajay Banga|||Eric Schmidt": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4429,7 +4430,7 @@
       "last_updated": "2026-04-29"
     },
     "Ajay Banga|||Mark Rutte": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4474,7 +4475,7 @@
       "last_updated": "2026-04-29"
     },
     "Ajay Banga|||Ursula von der Leyen": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4510,7 +4511,7 @@
       "last_updated": "2026-04-29"
     },
     "António Guterres|||Donald Trump": {
-      "score": -0.04921860108518064,
+      "score": -0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4519,7 +4520,7 @@
       "last_updated": "2026-04-29"
     },
     "António Guterres|||Eric Schmidt": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4555,7 +4556,7 @@
       "last_updated": "2026-04-29"
     },
     "António Guterres|||Mark Rutte": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4582,7 +4583,7 @@
       "last_updated": "2026-04-29"
     },
     "António Guterres|||Tamim bin Hamad Al": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4600,7 +4601,7 @@
       "last_updated": "2026-04-29"
     },
     "António Guterres|||Ursula von der Leyen": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4879,7 +4880,7 @@
       "last_updated": "2026-04-29"
     },
     "Donald Trump|||Mark Rutte": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4888,7 +4889,7 @@
       "last_updated": "2026-04-29"
     },
     "Donald Trump|||Recep Tayyip Erdoğan": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4897,7 +4898,7 @@
       "last_updated": "2026-04-29"
     },
     "Donald Trump|||Tamim bin Hamad Al": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4951,7 +4952,7 @@
       "last_updated": "2026-04-29"
     },
     "Eric Schmidt|||Ma Huateng": {
-      "score": -0.04921860108518064,
+      "score": -0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -4960,7 +4961,7 @@
       "last_updated": "2026-04-29"
     },
     "Eric Schmidt|||Mark Rutte": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -5005,7 +5006,7 @@
       "last_updated": "2026-04-29"
     },
     "Eric Schmidt|||Ursula von der Leyen": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -5113,7 +5114,7 @@
       "last_updated": "2026-04-29"
     },
     "Ilham Aliyev|||Mark Rutte": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -5158,7 +5159,7 @@
       "last_updated": "2026-04-29"
     },
     "Ilham Aliyev|||Ursula von der Leyen": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -5275,7 +5276,7 @@
       "last_updated": "2026-04-29"
     },
     "Mark Rutte|||Ursula von der Leyen": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -5302,7 +5303,7 @@
       "last_updated": "2026-04-29"
     },
     "Recep Tayyip Erdoğan|||Tamim bin Hamad Al": {
-      "score": 0.04921860108518064,
+      "score": 0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -5518,8 +5519,8 @@
       "last_updated": "2026-05-13"
     },
     "Grand Ayatollah Ali al-Sistani|||Xi Jinping": {
-      "score": 0.05790423657080076,
-      "label": "reinforcing",
+      "score": 0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -5527,8 +5528,8 @@
       "last_updated": "2026-05-13"
     },
     "Mustafa Suleyman|||Sergey Brin": {
-      "score": -0.05790423657080076,
-      "label": "adversarial",
+      "score": -0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -5554,8 +5555,8 @@
       "last_updated": "2026-05-13"
     },
     "Mustafa Suleyman|||Xi Jinping": {
-      "score": -0.05790423657080076,
-      "label": "adversarial",
+      "score": -0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -5581,8 +5582,8 @@
       "last_updated": "2026-05-13"
     },
     "Sergey Brin|||Xi Jinping": {
-      "score": -0.05790423657080076,
-      "label": "adversarial",
+      "score": -0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -5599,8 +5600,8 @@
       "last_updated": "2026-05-13"
     },
     "Stephen Schwarzman|||Xi Jinping": {
-      "score": -0.05790423657080076,
-      "label": "adversarial",
+      "score": -0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -5608,8 +5609,8 @@
       "last_updated": "2026-05-13"
     },
     "William Ackman|||Xi Jinping": {
-      "score": -0.05790423657080076,
-      "label": "adversarial",
+      "score": -0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -5725,7 +5726,7 @@
       "last_updated": "2026-05-20"
     },
     "Abdel Fattah el-Sisi|||Ren Zhengfei": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5869,7 +5870,7 @@
       "last_updated": "2026-05-20"
     },
     "Abdelmadjid Tebboune|||Ren Zhengfei": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5905,7 +5906,7 @@
       "last_updated": "2026-05-20"
     },
     "Abdelmadjid Tebboune|||William Ruto": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5914,7 +5915,7 @@
       "last_updated": "2026-05-20"
     },
     "Alexander Karp|||Alisher Usmanov": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -5923,7 +5924,7 @@
       "last_updated": "2026-05-20"
     },
     "Alexander Karp|||Christophe Fouquet": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5932,7 +5933,7 @@
       "last_updated": "2026-05-20"
     },
     "Alexander Karp|||Christopher Cavoli": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5941,7 +5942,7 @@
       "last_updated": "2026-05-20"
     },
     "Alexander Karp|||Daniela Amodei": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -5950,7 +5951,7 @@
       "last_updated": "2026-05-20"
     },
     "Alexander Karp|||Elvira Nabiullina": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -5959,7 +5960,7 @@
       "last_updated": "2026-05-20"
     },
     "Alexander Karp|||Eric Schmidt": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5977,7 +5978,7 @@
       "last_updated": "2026-05-20"
     },
     "Alexander Karp|||Larry Page": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -5995,7 +5996,7 @@
       "last_updated": "2026-05-20"
     },
     "Alexander Karp|||Pete Hegseth": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6004,7 +6005,7 @@
       "last_updated": "2026-05-20"
     },
     "Alexander Karp|||Ren Zhengfei": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6013,7 +6014,7 @@
       "last_updated": "2026-05-20"
     },
     "Alexander Karp|||Robin Li": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6049,7 +6050,7 @@
       "last_updated": "2026-05-20"
     },
     "Alisher Usmanov|||Christophe Fouquet": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6058,7 +6059,7 @@
       "last_updated": "2026-05-20"
     },
     "Alisher Usmanov|||Christopher Cavoli": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6076,7 +6077,7 @@
       "last_updated": "2026-05-20"
     },
     "Alisher Usmanov|||Elvira Nabiullina": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6121,7 +6122,7 @@
       "last_updated": "2026-05-20"
     },
     "Alisher Usmanov|||Pete Hegseth": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6130,7 +6131,7 @@
       "last_updated": "2026-05-20"
     },
     "Alisher Usmanov|||Ren Zhengfei": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6175,7 +6176,7 @@
       "last_updated": "2026-05-20"
     },
     "Christophe Fouquet|||Daniela Amodei": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6184,7 +6185,7 @@
       "last_updated": "2026-05-20"
     },
     "Christophe Fouquet|||Elvira Nabiullina": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6193,7 +6194,7 @@
       "last_updated": "2026-05-20"
     },
     "Christophe Fouquet|||Eric Schmidt": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6211,7 +6212,7 @@
       "last_updated": "2026-05-20"
     },
     "Christophe Fouquet|||Larry Page": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6229,7 +6230,7 @@
       "last_updated": "2026-05-20"
     },
     "Christophe Fouquet|||Ren Zhengfei": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6238,7 +6239,7 @@
       "last_updated": "2026-05-20"
     },
     "Christophe Fouquet|||Robin Li": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6283,7 +6284,7 @@
       "last_updated": "2026-05-20"
     },
     "Christopher Cavoli|||Elvira Nabiullina": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6292,7 +6293,7 @@
       "last_updated": "2026-05-20"
     },
     "Christopher Cavoli|||Eric Schmidt": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6328,7 +6329,7 @@
       "last_updated": "2026-05-20"
     },
     "Christopher Cavoli|||Ren Zhengfei": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6337,7 +6338,7 @@
       "last_updated": "2026-05-20"
     },
     "Christopher Cavoli|||Robin Li": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6346,7 +6347,7 @@
       "last_updated": "2026-05-20"
     },
     "Christopher Cavoli|||Serdar Berdimuhamedow": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6382,7 +6383,7 @@
       "last_updated": "2026-05-20"
     },
     "Daniela Amodei|||Eric Schmidt": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6418,7 +6419,7 @@
       "last_updated": "2026-05-20"
     },
     "Daniela Amodei|||Pete Hegseth": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6427,7 +6428,7 @@
       "last_updated": "2026-05-20"
     },
     "Daniela Amodei|||Ren Zhengfei": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6436,7 +6437,7 @@
       "last_updated": "2026-05-20"
     },
     "Daniela Amodei|||Robin Li": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6508,7 +6509,7 @@
       "last_updated": "2026-05-20"
     },
     "Elvira Nabiullina|||Pete Hegseth": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6517,7 +6518,7 @@
       "last_updated": "2026-05-20"
     },
     "Elvira Nabiullina|||Ren Zhengfei": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6589,7 +6590,7 @@
       "last_updated": "2026-05-20"
     },
     "Eric Schmidt|||Pete Hegseth": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6598,7 +6599,7 @@
       "last_updated": "2026-05-20"
     },
     "Eric Schmidt|||Ren Zhengfei": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6661,7 +6662,7 @@
       "last_updated": "2026-05-20"
     },
     "John Malone|||Pete Hegseth": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6670,7 +6671,7 @@
       "last_updated": "2026-05-20"
     },
     "John Malone|||Ren Zhengfei": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6724,7 +6725,7 @@
       "last_updated": "2026-05-20"
     },
     "Larry Page|||Pete Hegseth": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6733,7 +6734,7 @@
       "last_updated": "2026-05-20"
     },
     "Larry Page|||Ren Zhengfei": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6742,7 +6743,7 @@
       "last_updated": "2026-05-20"
     },
     "Larry Page|||Robin Li": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6832,7 +6833,7 @@
       "last_updated": "2026-05-20"
     },
     "Pete Hegseth|||Ren Zhengfei": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6841,7 +6842,7 @@
       "last_updated": "2026-05-20"
     },
     "Pete Hegseth|||Robin Li": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -6877,7 +6878,7 @@
       "last_updated": "2026-05-20"
     },
     "Ren Zhengfei|||Robin Li": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6904,7 +6905,7 @@
       "last_updated": "2026-05-20"
     },
     "Ren Zhengfei|||William Ruto": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -6985,7 +6986,7 @@
       "last_updated": "2026-05-27"
     },
     "Abdullah II of Jordan|||Esmail Qaani": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -7129,7 +7130,7 @@
       "last_updated": "2026-05-27"
     },
     "Alisher Usmanov|||Ursula von der Leyen": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -7282,7 +7283,7 @@
       "last_updated": "2026-05-27"
     },
     "Esmail Qaani|||Ursula von der Leyen": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -7345,7 +7346,7 @@
       "last_updated": "2026-05-27"
     },
     "Javier Milei|||Ursula von der Leyen": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -7525,7 +7526,7 @@
       "last_updated": "2026-05-27"
     },
     "Ursula von der Leyen|||Vladimir Lisin": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -7534,7 +7535,7 @@
       "last_updated": "2026-05-27"
     },
     "Ursula von der Leyen|||Volodymyr Zelenskyy": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -7966,7 +7967,7 @@
       "last_updated": "2026-06-10"
     },
     "Gustavo Petro|||Marco Rubio": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -8011,7 +8012,7 @@
       "last_updated": "2026-06-10"
     },
     "Gustavo Petro|||Wang Yi": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -8083,7 +8084,7 @@
       "last_updated": "2026-06-10"
     },
     "Ilya Sutskever|||Wang Yi": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -8146,7 +8147,7 @@
       "last_updated": "2026-06-10"
     },
     "Khaldoon Khalifa Al Mubarak|||Wang Yi": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -8155,7 +8156,7 @@
       "last_updated": "2026-06-10"
     },
     "Lai Ching-te|||Marco Rubio": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8200,7 +8201,7 @@
       "last_updated": "2026-06-10"
     },
     "Lai Ching-te|||Wang Yi": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -8236,7 +8237,7 @@
       "last_updated": "2026-06-10"
     },
     "Marco Rubio|||Wang Yi": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -8299,7 +8300,7 @@
       "last_updated": "2026-06-10"
     },
     "Ronald Lauder|||Wang Yi": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -8659,7 +8660,7 @@
       "last_updated": "2026-06-17"
     },
     "Cyril Ramaphosa|||Ngozi Okonjo-Iweala": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8722,7 +8723,7 @@
       "last_updated": "2026-06-17"
     },
     "Elon Musk|||Liu Hanyuan": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -8731,7 +8732,7 @@
       "last_updated": "2026-06-17"
     },
     "Elon Musk|||Mark Rutte": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8740,7 +8741,7 @@
       "last_updated": "2026-06-17"
     },
     "Elon Musk|||Michael Dell": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8758,7 +8759,7 @@
       "last_updated": "2026-06-17"
     },
     "Elon Musk|||Ngozi Okonjo-Iweala": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8794,7 +8795,7 @@
       "last_updated": "2026-06-17"
     },
     "Elvira Nabiullina|||Frank-Walter Steinmeier": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -8821,7 +8822,7 @@
       "last_updated": "2026-06-17"
     },
     "Elvira Nabiullina|||Mark Rutte": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -8857,7 +8858,7 @@
       "last_updated": "2026-06-17"
     },
     "Elvira Nabiullina|||Oleg Deripaska": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8911,7 +8912,7 @@
       "last_updated": "2026-06-17"
     },
     "Evan Spiegel|||Michael Dell": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8965,7 +8966,7 @@
       "last_updated": "2026-06-17"
     },
     "Frank-Walter Steinmeier|||Liu Hanyuan": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -8974,7 +8975,7 @@
       "last_updated": "2026-06-17"
     },
     "Frank-Walter Steinmeier|||Mark Rutte": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -8983,7 +8984,7 @@
       "last_updated": "2026-06-17"
     },
     "Frank-Walter Steinmeier|||Michael Dell": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9001,7 +9002,7 @@
       "last_updated": "2026-06-17"
     },
     "Frank-Walter Steinmeier|||Ngozi Okonjo-Iweala": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9010,7 +9011,7 @@
       "last_updated": "2026-06-17"
     },
     "Frank-Walter Steinmeier|||Oleg Deripaska": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9028,7 +9029,7 @@
       "last_updated": "2026-06-17"
     },
     "Gautam Adani|||Liu Hanyuan": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9037,7 +9038,7 @@
       "last_updated": "2026-06-17"
     },
     "Gautam Adani|||Mark Rutte": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9064,7 +9065,7 @@
       "last_updated": "2026-06-17"
     },
     "Gautam Adani|||Ngozi Okonjo-Iweala": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9091,7 +9092,7 @@
       "last_updated": "2026-06-17"
     },
     "Liu Hanyuan|||Mark Rutte": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9100,7 +9101,7 @@
       "last_updated": "2026-06-17"
     },
     "Liu Hanyuan|||Michael Dell": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9118,7 +9119,7 @@
       "last_updated": "2026-06-17"
     },
     "Liu Hanyuan|||Ngozi Okonjo-Iweala": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9136,7 +9137,7 @@
       "last_updated": "2026-06-17"
     },
     "Liu Hanyuan|||Sundar Pichai": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9154,7 +9155,7 @@
       "last_updated": "2026-06-17"
     },
     "Mark Rutte|||Nassef Sawiris": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9163,7 +9164,7 @@
       "last_updated": "2026-06-17"
     },
     "Mark Rutte|||Ngozi Okonjo-Iweala": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9172,7 +9173,7 @@
       "last_updated": "2026-06-17"
     },
     "Mark Rutte|||Oleg Deripaska": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9190,7 +9191,7 @@
       "last_updated": "2026-06-17"
     },
     "Michael Dell|||Nassef Sawiris": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9199,7 +9200,7 @@
       "last_updated": "2026-06-17"
     },
     "Michael Dell|||Ngozi Okonjo-Iweala": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9226,7 +9227,7 @@
       "last_updated": "2026-06-17"
     },
     "Nassef Sawiris|||Ngozi Okonjo-Iweala": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9289,7 +9290,7 @@
       "last_updated": "2026-06-24"
     },
     "Alexander Lukashenko|||Andrej Babis": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9325,7 +9326,7 @@
       "last_updated": "2026-06-24"
     },
     "Alexander Lukashenko|||Daniel Ortega": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -9343,7 +9344,7 @@
       "last_updated": "2026-06-24"
     },
     "Alexander Lukashenko|||Riley Bechtel & family": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9559,7 +9560,7 @@
       "last_updated": "2026-06-24"
     },
     "Andrej Babis|||Vladimir Putin": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9658,7 +9659,7 @@
       "last_updated": "2026-06-24"
     },
     "Changpeng Zhao|||Daniel Ortega": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9901,7 +9902,7 @@
       "last_updated": "2026-06-24"
     },
     "Riley Bechtel & family|||Vladimir Potanin": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9910,7 +9911,7 @@
       "last_updated": "2026-06-24"
     },
     "Riley Bechtel & family|||Vladimir Putin": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -9955,7 +9956,7 @@
       "last_updated": "2026-06-24"
     },
     "Uday Kotak|||Vladimir Putin": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10063,7 +10064,7 @@
       "last_updated": "2026-07-01"
     },
     "Andrei Belousov|||Scott Bessent": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10162,7 +10163,7 @@
       "last_updated": "2026-07-01"
     },
     "Brian Roberts|||Valery Gerasimov": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10261,7 +10262,7 @@
       "last_updated": "2026-07-01"
     },
     "Jay Y. Lee|||Jeff Bezos": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10297,7 +10298,7 @@
       "last_updated": "2026-07-01"
     },
     "Jay Y. Lee|||Marc Andreessen": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10324,7 +10325,7 @@
       "last_updated": "2026-07-01"
     },
     "Jay Y. Lee|||Scott Bessent": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10333,7 +10334,7 @@
       "last_updated": "2026-07-01"
     },
     "Jay Y. Lee|||Valery Gerasimov": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10369,7 +10370,7 @@
       "last_updated": "2026-07-01"
     },
     "Jeff Bezos|||Marc Andreessen": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10396,7 +10397,7 @@
       "last_updated": "2026-07-01"
     },
     "Jeff Bezos|||Scott Bessent": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10405,7 +10406,7 @@
       "last_updated": "2026-07-01"
     },
     "Jeff Bezos|||Valery Gerasimov": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10459,7 +10460,7 @@
       "last_updated": "2026-07-01"
     },
     "Jerome Powell|||Scott Bessent": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10468,7 +10469,7 @@
       "last_updated": "2026-07-01"
     },
     "Jerome Powell|||Valery Gerasimov": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10594,7 +10595,7 @@
       "last_updated": "2026-07-01"
     },
     "Marc Andreessen|||Scott Bessent": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10603,7 +10604,7 @@
       "last_updated": "2026-07-01"
     },
     "Marc Andreessen|||Valery Gerasimov": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10621,7 +10622,7 @@
       "last_updated": "2026-07-01"
     },
     "Paul Kagame|||Scott Bessent": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10630,7 +10631,7 @@
       "last_updated": "2026-07-01"
     },
     "Paul Kagame|||Valery Gerasimov": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10657,7 +10658,7 @@
       "last_updated": "2026-07-01"
     },
     "Scott Bessent|||Valery Gerasimov": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10711,7 +10712,7 @@
       "last_updated": "2026-07-08"
     },
     "Andrei Guryev & family|||Marco Rubio": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10747,7 +10748,7 @@
       "last_updated": "2026-07-08"
     },
     "Andrei Guryev & family|||Salman bin Abdulaziz Al Saud": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10846,7 +10847,7 @@
       "last_updated": "2026-07-08"
     },
     "Andrew Bailey|||Vladimir Potanin": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10864,7 +10865,7 @@
       "last_updated": "2026-07-08"
     },
     "Bongbong Marcos|||Gautam Adani": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10873,7 +10874,7 @@
       "last_updated": "2026-07-08"
     },
     "Bongbong Marcos|||Jamie Dimon": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10882,7 +10883,7 @@
       "last_updated": "2026-07-08"
     },
     "Bongbong Marcos|||Marco Rubio": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10900,7 +10901,7 @@
       "last_updated": "2026-07-08"
     },
     "Bongbong Marcos|||Robin Zeng": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10909,7 +10910,7 @@
       "last_updated": "2026-07-08"
     },
     "Bongbong Marcos|||Safra Catz": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -10936,7 +10937,7 @@
       "last_updated": "2026-07-08"
     },
     "Bongbong Marcos|||Vladimir Potanin": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10972,7 +10973,7 @@
       "last_updated": "2026-07-08"
     },
     "Frederik X of Denmark|||Marco Rubio": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -10990,7 +10991,7 @@
       "last_updated": "2026-07-08"
     },
     "Frederik X of Denmark|||Robin Zeng": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -11026,7 +11027,7 @@
       "last_updated": "2026-07-08"
     },
     "Frederik X of Denmark|||Vladimir Potanin": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -11053,7 +11054,7 @@
       "last_updated": "2026-07-08"
     },
     "Gautam Adani|||Marco Rubio": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11071,7 +11072,7 @@
       "last_updated": "2026-07-08"
     },
     "Gautam Adani|||Robin Zeng": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -11125,7 +11126,7 @@
       "last_updated": "2026-07-08"
     },
     "Jamie Dimon|||Marco Rubio": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11143,7 +11144,7 @@
       "last_updated": "2026-07-08"
     },
     "Jamie Dimon|||Safra Catz": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11161,7 +11162,7 @@
       "last_updated": "2026-07-08"
     },
     "Jamie Dimon|||Vladimir Potanin": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -11179,7 +11180,7 @@
       "last_updated": "2026-07-08"
     },
     "Marco Rubio|||Robin Zeng": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -11188,7 +11189,7 @@
       "last_updated": "2026-07-08"
     },
     "Marco Rubio|||Safra Catz": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11215,7 +11216,7 @@
       "last_updated": "2026-07-08"
     },
     "Marco Rubio|||Vladimir Potanin": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -11287,7 +11288,7 @@
       "last_updated": "2026-07-08"
     },
     "Robin Zeng|||Safra Catz": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -11395,7 +11396,7 @@
       "last_updated": "2026-07-08"
     },
     "Ali Khamenei|||Andrei Belousov": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11440,7 +11441,7 @@
       "last_updated": "2026-07-15"
     },
     "Ali Khamenei|||Li Qiang": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11449,7 +11450,7 @@
       "last_updated": "2026-07-15"
     },
     "Ali Khamenei|||Mark Rutte": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -11467,7 +11468,7 @@
       "last_updated": "2026-07-15"
     },
     "Ali Khamenei|||Nikolai Patrushev": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11566,7 +11567,7 @@
       "last_updated": "2026-07-15"
     },
     "Andrei Belousov|||Li Qiang": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11575,7 +11576,7 @@
       "last_updated": "2026-07-15"
     },
     "Andrei Belousov|||Mark Rutte": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -11593,7 +11594,7 @@
       "last_updated": "2026-07-15"
     },
     "Andrei Belousov|||Morris Chang": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11602,7 +11603,7 @@
       "last_updated": "2026-07-15"
     },
     "Andrei Belousov|||Patriarch Kirill (Vladimir Gundyayev)": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11629,7 +11630,7 @@
       "last_updated": "2026-07-15"
     },
     "Andrei Belousov|||Safra Catz": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -11638,7 +11639,7 @@
       "last_updated": "2026-07-15"
     },
     "Andrei Belousov|||Sam Altman": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -11818,7 +11819,7 @@
       "last_updated": "2026-07-15"
     },
     "Cristiano Amon|||Li Qiang": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -11827,7 +11828,7 @@
       "last_updated": "2026-07-15"
     },
     "Cristiano Amon|||Mark Rutte": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11845,7 +11846,7 @@
       "last_updated": "2026-07-15"
     },
     "Cristiano Amon|||Morris Chang": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11854,7 +11855,7 @@
       "last_updated": "2026-07-15"
     },
     "Cristiano Amon|||Nikolai Patrushev": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -11863,7 +11864,7 @@
       "last_updated": "2026-07-15"
     },
     "Cristiano Amon|||Prabowo Subianto": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11872,7 +11873,7 @@
       "last_updated": "2026-07-15"
     },
     "Cristiano Amon|||Ray Dalio": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11881,7 +11882,7 @@
       "last_updated": "2026-07-15"
     },
     "Cristiano Amon|||Safra Catz": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11890,7 +11891,7 @@
       "last_updated": "2026-07-15"
     },
     "Cristiano Amon|||Sam Altman": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -11899,7 +11900,7 @@
       "last_updated": "2026-07-15"
     },
     "Cristiano Amon|||Satya Nadella": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -12142,7 +12143,7 @@
       "last_updated": "2026-07-15"
     },
     "Li Qiang|||Mark Rutte": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -12160,7 +12161,7 @@
       "last_updated": "2026-07-15"
     },
     "Li Qiang|||Morris Chang": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -12169,7 +12170,7 @@
       "last_updated": "2026-07-15"
     },
     "Li Qiang|||Nikolai Patrushev": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -12196,7 +12197,7 @@
       "last_updated": "2026-07-15"
     },
     "Li Qiang|||Safra Catz": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -12205,7 +12206,7 @@
       "last_updated": "2026-07-15"
     },
     "Li Qiang|||Satya Nadella": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -12232,7 +12233,7 @@
       "last_updated": "2026-07-15"
     },
     "Mark Rutte|||Morris Chang": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -12241,7 +12242,7 @@
       "last_updated": "2026-07-15"
     },
     "Mark Rutte|||Nikolai Patrushev": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -12250,7 +12251,7 @@
       "last_updated": "2026-07-15"
     },
     "Mark Rutte|||Patriarch Kirill (Vladimir Gundyayev)": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -12313,7 +12314,7 @@
       "last_updated": "2026-07-15"
     },
     "Mark Zuckerberg|||Morris Chang": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -12358,7 +12359,7 @@
       "last_updated": "2026-07-15"
     },
     "Mark Zuckerberg|||Safra Catz": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -12367,7 +12368,7 @@
       "last_updated": "2026-07-15"
     },
     "Mark Zuckerberg|||Sam Altman": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -12385,7 +12386,7 @@
       "last_updated": "2026-07-15"
     },
     "Morris Chang|||Nikolai Patrushev": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -12412,7 +12413,7 @@
       "last_updated": "2026-07-15"
     },
     "Morris Chang|||Ray Dalio": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -12421,7 +12422,7 @@
       "last_updated": "2026-07-15"
     },
     "Morris Chang|||Safra Catz": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -12439,7 +12440,7 @@
       "last_updated": "2026-07-15"
     },
     "Morris Chang|||Satya Nadella": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -12457,7 +12458,7 @@
       "last_updated": "2026-07-15"
     },
     "Nikolai Patrushev|||Patriarch Kirill (Vladimir Gundyayev)": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -12484,7 +12485,7 @@
       "last_updated": "2026-07-15"
     },
     "Nikolai Patrushev|||Safra Catz": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -12574,7 +12575,7 @@
       "last_updated": "2026-07-15"
     },
     "Prabowo Subianto|||Ray Dalio": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -12601,7 +12602,7 @@
       "last_updated": "2026-07-15"
     },
     "Prabowo Subianto|||Satya Nadella": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -12646,7 +12647,7 @@
       "last_updated": "2026-07-15"
     },
     "Safra Catz|||Sam Altman": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -12655,7 +12656,7 @@
       "last_updated": "2026-07-15"
     },
     "Safra Catz|||Satya Nadella": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -12698,11 +12699,1523 @@
         "GLOBAL"
       ],
       "last_updated": "2026-07-15"
+    },
+    "Demis Hassabis|||Masayoshi Son": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "PS-05"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Masayoshi Son|||Sundar Pichai": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "PS-05"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Andrew Forrest & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Christine Lagarde": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Demis Hassabis": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Félix Tshisekedi": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Gabriel Boric": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Johann Rupert & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Kazuo Ueda": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Ken Griffin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Li Ka-shing": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Luis Abinader": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Masayoshi Son": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Mohan Bhagwat": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Savitri Jindal & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Shavkat Mirziyoyev": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Sundar Pichai": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Ursula von der Leyen": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Amancio Ortega|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Christine Lagarde": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Demis Hassabis": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Félix Tshisekedi": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Gabriel Boric": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Johann Rupert & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Kazuo Ueda": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Ken Griffin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Li Ka-shing": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Luis Abinader": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Masayoshi Son": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Mohan Bhagwat": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Savitri Jindal & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Shavkat Mirziyoyev": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Sundar Pichai": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Ursula von der Leyen": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Andrew Forrest & family|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Demis Hassabis": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Félix Tshisekedi": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Gabriel Boric": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Johann Rupert & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Kazuo Ueda": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Ken Griffin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Li Ka-shing": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Luis Abinader": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Masayoshi Son": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Mohan Bhagwat": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Savitri Jindal & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Shavkat Mirziyoyev": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Sundar Pichai": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Ursula von der Leyen": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Christine Lagarde|||Valery Gerasimov": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Demis Hassabis|||Gabriel Boric": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Demis Hassabis|||Johann Rupert & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Demis Hassabis|||Li Ka-shing": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Demis Hassabis|||Luis Abinader": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Demis Hassabis|||Savitri Jindal & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Demis Hassabis|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Demis Hassabis|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Demis Hassabis|||Ursula von der Leyen": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Demis Hassabis|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Félix Tshisekedi|||Gabriel Boric": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Félix Tshisekedi|||Johann Rupert & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Félix Tshisekedi|||Li Ka-shing": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Félix Tshisekedi|||Luis Abinader": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Félix Tshisekedi|||Masayoshi Son": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Félix Tshisekedi|||Savitri Jindal & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Félix Tshisekedi|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Félix Tshisekedi|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Félix Tshisekedi|||Ursula von der Leyen": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Félix Tshisekedi|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Gabriel Boric|||Johann Rupert & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Gabriel Boric|||Kazuo Ueda": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Gabriel Boric|||Ken Griffin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Gabriel Boric|||Li Ka-shing": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Gabriel Boric|||Luis Abinader": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Gabriel Boric|||Masayoshi Son": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Gabriel Boric|||Mohan Bhagwat": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Gabriel Boric|||Savitri Jindal & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Gabriel Boric|||Shavkat Mirziyoyev": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Gabriel Boric|||Sundar Pichai": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Gabriel Boric|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Gabriel Boric|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Gabriel Boric|||Ursula von der Leyen": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Gabriel Boric|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Johann Rupert & family|||Kazuo Ueda": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Johann Rupert & family|||Ken Griffin": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Johann Rupert & family|||Li Ka-shing": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Johann Rupert & family|||Luis Abinader": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Johann Rupert & family|||Masayoshi Son": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Johann Rupert & family|||Mohan Bhagwat": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Johann Rupert & family|||Savitri Jindal & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Johann Rupert & family|||Shavkat Mirziyoyev": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Johann Rupert & family|||Sundar Pichai": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Johann Rupert & family|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Johann Rupert & family|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Johann Rupert & family|||Ursula von der Leyen": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Johann Rupert & family|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Kazuo Ueda|||Li Ka-shing": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Kazuo Ueda|||Luis Abinader": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Kazuo Ueda|||Masayoshi Son": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Kazuo Ueda|||Savitri Jindal & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Kazuo Ueda|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Kazuo Ueda|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Kazuo Ueda|||Ursula von der Leyen": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Kazuo Ueda|||Valery Gerasimov": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Ken Griffin|||Li Ka-shing": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Ken Griffin|||Luis Abinader": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Ken Griffin|||Masayoshi Son": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Ken Griffin|||Savitri Jindal & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Ken Griffin|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Ken Griffin|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Ken Griffin|||Ursula von der Leyen": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Ken Griffin|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Li Ka-shing|||Luis Abinader": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Li Ka-shing|||Masayoshi Son": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Li Ka-shing|||Mohan Bhagwat": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Li Ka-shing|||Savitri Jindal & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Li Ka-shing|||Shavkat Mirziyoyev": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Li Ka-shing|||Sundar Pichai": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Li Ka-shing|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Li Ka-shing|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Li Ka-shing|||Ursula von der Leyen": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Li Ka-shing|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Luis Abinader|||Masayoshi Son": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Luis Abinader|||Mohan Bhagwat": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Luis Abinader|||Savitri Jindal & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Luis Abinader|||Shavkat Mirziyoyev": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Luis Abinader|||Sundar Pichai": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Luis Abinader|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Luis Abinader|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Luis Abinader|||Ursula von der Leyen": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Luis Abinader|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Masayoshi Son|||Mohan Bhagwat": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Masayoshi Son|||Savitri Jindal & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Masayoshi Son|||Shavkat Mirziyoyev": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Masayoshi Son|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Masayoshi Son|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Masayoshi Son|||Ursula von der Leyen": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Masayoshi Son|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Mohan Bhagwat|||Savitri Jindal & family": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Mohan Bhagwat|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Mohan Bhagwat|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Mohan Bhagwat|||Ursula von der Leyen": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Mohan Bhagwat|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Savitri Jindal & family|||Shavkat Mirziyoyev": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Savitri Jindal & family|||Sundar Pichai": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Savitri Jindal & family|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Savitri Jindal & family|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Savitri Jindal & family|||Ursula von der Leyen": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Savitri Jindal & family|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Shavkat Mirziyoyev|||Sunil Mittal": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Shavkat Mirziyoyev|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Shavkat Mirziyoyev|||Ursula von der Leyen": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Shavkat Mirziyoyev|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Sundar Pichai|||Sunil Mittal": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Sundar Pichai|||Tedros Adhanom Ghebreyesus": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Sundar Pichai|||Ursula von der Leyen": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Sundar Pichai|||Valery Gerasimov": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Sunil Mittal|||Ursula von der Leyen": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Sunil Mittal|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Tedros Adhanom Ghebreyesus|||Ursula von der Leyen": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Tedros Adhanom Ghebreyesus|||Valery Gerasimov": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "Ursula von der Leyen|||Valery Gerasimov": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
     }
   },
   "ca_coactivation": {
     "CA-025|||CA-112": {
-      "score": -0.07617693830658308,
+      "score": -0.06475039756059561,
       "label": "adversarial",
       "observations": 3,
       "last_ps": [
@@ -12712,7 +14225,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-025|||CA-113": {
-      "score": -0.034341127384179555,
+      "score": -0.02918995827655262,
       "label": "neutral",
       "observations": 2,
       "last_ps": [
@@ -12721,7 +14234,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-112|||CA-113": {
-      "score": -0.034341127384179555,
+      "score": -0.02918995827655262,
       "label": "neutral",
       "observations": 2,
       "last_ps": [
@@ -12730,7 +14243,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-002|||CA-016": {
-      "score": 0.034341127384179555,
+      "score": 0.02918995827655262,
       "label": "neutral",
       "observations": 2,
       "last_ps": [
@@ -12739,7 +14252,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-002|||CA-032": {
-      "score": -0.034341127384179555,
+      "score": -0.02918995827655262,
       "label": "neutral",
       "observations": 2,
       "last_ps": [
@@ -12748,7 +14261,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-016|||CA-032": {
-      "score": 0.034341127384179555,
+      "score": 0.02918995827655262,
       "label": "neutral",
       "observations": 2,
       "last_ps": [
@@ -12775,7 +14288,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-002|||CA-112": {
-      "score": 0.018562771559015975,
+      "score": 0.015778355825163577,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -12784,7 +14297,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-002|||CA-113": {
-      "score": -0.018562771559015975,
+      "score": -0.015778355825163577,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -12820,7 +14333,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-016|||CA-112": {
-      "score": 0.018562771559015975,
+      "score": 0.015778355825163577,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -12847,7 +14360,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-025|||CA-032": {
-      "score": -0.060398582481419515,
+      "score": -0.05133879510920659,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -12883,7 +14396,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-032|||CA-112": {
-      "score": 0.060398582481419515,
+      "score": 0.05133879510920659,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -12892,7 +14405,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-032|||CA-113": {
-      "score": -0.018562771559015975,
+      "score": -0.015778355825163577,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -12910,7 +14423,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-043|||CA-112": {
-      "score": 0.018562771559015975,
+      "score": 0.015778355825163577,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -12946,7 +14459,7 @@
       "last_updated": "2026-03-19"
     },
     "CA-113|||CA-153": {
-      "score": 0.018562771559015975,
+      "score": 0.015778355825163577,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -12964,7 +14477,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-018|||CA-099": {
-      "score": -0.02183855477531291,
+      "score": -0.018562771559015975,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13018,7 +14531,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-108|||CA-162": {
-      "score": -0.02183855477531291,
+      "score": -0.018562771559015975,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13036,7 +14549,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-162|||CA-223": {
-      "score": 0.02183855477531291,
+      "score": 0.018562771559015975,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13045,7 +14558,7 @@
       "last_updated": "2026-03-25"
     },
     "CA-062|||CA-270": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13063,7 +14576,7 @@
       "last_updated": "2026-04-01"
     },
     "CA-070|||CA-291": {
-      "score": -0.025692417382721072,
+      "score": -0.02183855477531291,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13198,7 +14711,7 @@
       "last_updated": "2026-04-08"
     },
     "CA-023|||CA-311": {
-      "score": 0.030226373391436558,
+      "score": 0.025692417382721072,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13225,7 +14738,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-189|||CA-270": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 2,
       "last_ps": [
@@ -13279,7 +14792,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-083|||CA-212": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13315,7 +14828,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-083|||CA-335": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13333,7 +14846,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-131|||CA-212": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13351,7 +14864,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-131|||CA-307": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13360,7 +14873,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-131|||CA-335": {
-      "score": -0.03556043928404301,
+      "score": -0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13522,7 +15035,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-307|||CA-335": {
-      "score": 0.03556043928404301,
+      "score": 0.030226373391436558,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13531,7 +15044,7 @@
       "last_updated": "2026-04-15"
     },
     "CA-032|||CA-094": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13540,7 +15053,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-025|||CA-228": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13549,7 +15062,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-112|||CA-228": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13558,7 +15071,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-025|||CA-050": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13567,7 +15080,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-025|||CA-070": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13576,7 +15089,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-025|||CA-094": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13585,7 +15098,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-025|||CA-304": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13594,7 +15107,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-025|||CA-346": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13603,7 +15116,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-032|||CA-050": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13630,7 +15143,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-032|||CA-304": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13639,7 +15152,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-032|||CA-346": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13657,7 +15170,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-050|||CA-094": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13666,7 +15179,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-050|||CA-112": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13693,7 +15206,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-050|||CA-346": {
-      "score": -0.041835810922403543,
+      "score": -0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13711,7 +15224,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-070|||CA-112": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13747,7 +15260,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-094|||CA-112": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13765,7 +15278,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-094|||CA-304": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13774,7 +15287,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-094|||CA-346": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13783,7 +15296,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-112|||CA-304": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13792,7 +15305,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-112|||CA-346": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13819,7 +15332,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-304|||CA-346": {
-      "score": 0.041835810922403543,
+      "score": 0.03556043928404301,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13828,7 +15341,7 @@
       "last_updated": "2026-04-22"
     },
     "CA-009|||CA-118": {
-      "score": -0.04921860108518064,
+      "score": -0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13837,7 +15350,7 @@
       "last_updated": "2026-04-29"
     },
     "CA-014|||CA-025": {
-      "score": -0.04921860108518064,
+      "score": -0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13873,7 +15386,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-014|||CA-118": {
-      "score": -0.04921860108518064,
+      "score": -0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13891,7 +15404,7 @@
       "last_updated": "2026-04-29"
     },
     "CA-025|||CA-118": {
-      "score": -0.04921860108518064,
+      "score": -0.041835810922403543,
       "label": "neutral",
       "observations": 1,
       "last_ps": [
@@ -13927,8 +15440,8 @@
       "last_updated": "2026-05-13"
     },
     "CA-030|||CA-058": {
-      "score": 0.05790423657080076,
-      "label": "reinforcing",
+      "score": 0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -13936,8 +15449,8 @@
       "last_updated": "2026-05-13"
     },
     "CA-030|||CA-187": {
-      "score": 0.05790423657080076,
-      "label": "reinforcing",
+      "score": 0.04921860108518064,
+      "label": "neutral",
       "observations": 2,
       "last_ps": [
         "GLOBAL"
@@ -13945,8 +15458,8 @@
       "last_updated": "2026-07-15"
     },
     "CA-030|||CA-199": {
-      "score": -0.05790423657080076,
-      "label": "adversarial",
+      "score": -0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -13954,8 +15467,8 @@
       "last_updated": "2026-05-13"
     },
     "CA-030|||CA-270": {
-      "score": 0.05790423657080076,
-      "label": "reinforcing",
+      "score": 0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -13972,8 +15485,8 @@
       "last_updated": "2026-05-13"
     },
     "CA-058|||CA-199": {
-      "score": 0.05790423657080076,
-      "label": "reinforcing",
+      "score": 0.04921860108518064,
+      "label": "neutral",
       "observations": 1,
       "last_ps": [
         "GLOBAL"
@@ -14017,7 +15530,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-030|||CA-087": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14026,7 +15539,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-019|||CA-030": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14044,7 +15557,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-019|||CA-087": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14062,7 +15575,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-019|||CA-112": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14071,7 +15584,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-030|||CA-068": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14089,7 +15602,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-030|||CA-106": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14098,7 +15611,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-030|||CA-112": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14152,7 +15665,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-087|||CA-106": {
-      "score": -0.0681226312597656,
+      "score": -0.05790423657080076,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -14161,7 +15674,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-087|||CA-112": {
-      "score": 0.0681226312597656,
+      "score": 0.05790423657080076,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14197,7 +15710,7 @@
       "last_updated": "2026-05-20"
     },
     "CA-014|||CA-133": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14224,7 +15737,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-006|||CA-027": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14233,7 +15746,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-017|||CA-178": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -14251,7 +15764,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-006|||CA-017": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -14260,7 +15773,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-006|||CA-133": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -14269,7 +15782,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-006|||CA-178": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -14288,7 +15801,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-006|||CA-285": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14297,7 +15810,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-014|||CA-017": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -14306,7 +15819,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-014|||CA-027": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14324,7 +15837,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-014|||CA-285": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14333,7 +15846,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-017|||CA-027": {
-      "score": -0.08014427207031247,
+      "score": -0.0681226312597656,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -14353,11 +15866,11 @@
     "CA-017|||CA-200": {
       "score": 0.0,
       "label": "neutral",
-      "observations": 1,
+      "observations": 2,
       "last_ps": [
         "GLOBAL"
       ],
-      "last_updated": "2026-05-27"
+      "last_updated": "2026-07-22"
     },
     "CA-017|||CA-285": {
       "score": 0.0,
@@ -14396,7 +15909,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-027|||CA-285": {
-      "score": 0.08014427207031247,
+      "score": 0.0681226312597656,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14450,7 +15963,7 @@
       "last_updated": "2026-05-27"
     },
     "CA-064|||CA-086": {
-      "score": -0.09428737890624997,
+      "score": -0.08014427207031247,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -14468,7 +15981,7 @@
       "last_updated": "2026-06-03"
     },
     "CA-086|||CA-240": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14477,7 +15990,7 @@
       "last_updated": "2026-06-03"
     },
     "CA-002|||CA-014": {
-      "score": 0.22478894140624997,
+      "score": 0.19107060019531247,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -14486,7 +15999,7 @@
       "last_updated": "2026-06-17"
     },
     "CA-002|||CA-064": {
-      "score": -0.09428737890624997,
+      "score": -0.08014427207031247,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -14495,7 +16008,7 @@
       "last_updated": "2026-06-03"
     },
     "CA-002|||CA-086": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14513,7 +16026,7 @@
       "last_updated": "2026-06-03"
     },
     "CA-002|||CA-240": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14531,7 +16044,7 @@
       "last_updated": "2026-06-03"
     },
     "CA-014|||CA-064": {
-      "score": -0.09428737890624997,
+      "score": -0.08014427207031247,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -14540,7 +16053,7 @@
       "last_updated": "2026-06-03"
     },
     "CA-014|||CA-086": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14558,7 +16071,7 @@
       "last_updated": "2026-06-03"
     },
     "CA-014|||CA-240": {
-      "score": -0.09428737890624997,
+      "score": -0.08014427207031247,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -14576,7 +16089,7 @@
       "last_updated": "2026-06-24"
     },
     "CA-064|||CA-154": {
-      "score": 0.09428737890624997,
+      "score": 0.08014427207031247,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14648,7 +16161,7 @@
       "last_updated": "2026-06-10"
     },
     "CA-006|||CA-141": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14657,7 +16170,7 @@
       "last_updated": "2026-06-10"
     },
     "CA-033|||CA-141": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14675,7 +16188,7 @@
       "last_updated": "2026-06-10"
     },
     "CA-006|||CA-015": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14684,7 +16197,7 @@
       "last_updated": "2026-06-10"
     },
     "CA-006|||CA-102": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -14711,7 +16224,7 @@
       "last_updated": "2026-06-10"
     },
     "CA-006|||CA-364": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 2,
       "last_ps": [
@@ -14720,7 +16233,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-015|||CA-033": {
-      "score": 0.11092632812499997,
+      "score": 0.09428737890624997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14729,7 +16242,7 @@
       "last_updated": "2026-06-10"
     },
     "CA-015|||CA-102": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -14774,7 +16287,7 @@
       "last_updated": "2026-06-10"
     },
     "CA-033|||CA-102": {
-      "score": -0.11092632812499997,
+      "score": -0.09428737890624997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -14891,7 +16404,7 @@
       "last_updated": "2026-06-10"
     },
     "CA-002|||CA-037": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -14900,7 +16413,7 @@
       "last_updated": "2026-06-17"
     },
     "CA-002|||CA-094": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14927,7 +16440,7 @@
       "last_updated": "2026-06-17"
     },
     "CA-002|||CA-325": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14936,7 +16449,7 @@
       "last_updated": "2026-06-17"
     },
     "CA-014|||CA-037": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -14945,7 +16458,7 @@
       "last_updated": "2026-06-17"
     },
     "CA-014|||CA-094": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14972,7 +16485,7 @@
       "last_updated": "2026-06-17"
     },
     "CA-014|||CA-325": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -14981,7 +16494,7 @@
       "last_updated": "2026-06-17"
     },
     "CA-037|||CA-094": {
-      "score": -0.13050156249999997,
+      "score": -0.11092632812499997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -15035,7 +16548,7 @@
       "last_updated": "2026-06-17"
     },
     "CA-094|||CA-325": {
-      "score": 0.13050156249999997,
+      "score": 0.11092632812499997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -15098,7 +16611,7 @@
       "last_updated": "2026-06-24"
     },
     "CA-015|||CA-244": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -15107,7 +16620,7 @@
       "last_updated": "2026-06-24"
     },
     "CA-014|||CA-015": {
-      "score": 0.15353124999999998,
+      "score": 0.13050156249999997,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -15125,7 +16638,7 @@
       "last_updated": "2026-06-24"
     },
     "CA-014|||CA-169": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -15134,7 +16647,7 @@
       "last_updated": "2026-06-24"
     },
     "CA-014|||CA-244": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -15161,7 +16674,7 @@
       "last_updated": "2026-06-24"
     },
     "CA-015|||CA-169": {
-      "score": -0.15353124999999998,
+      "score": -0.13050156249999997,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -15449,7 +16962,7 @@
       "last_updated": "2026-06-24"
     },
     "CA-019|||CA-103": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 2,
       "last_ps": [
@@ -15458,7 +16971,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-019|||CA-120": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -15467,7 +16980,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-019|||CA-128": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -15503,7 +17016,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-125|||CA-218": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -15512,7 +17025,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-009|||CA-017": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -15530,7 +17043,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-017|||CA-176": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -15539,7 +17052,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-219|||CA-248": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -15674,7 +17187,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-017|||CA-218": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -15728,7 +17241,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-019|||CA-218": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -15737,7 +17250,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-019|||CA-219": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -15746,7 +17259,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-019|||CA-248": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -15782,7 +17295,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-103|||CA-218": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -15926,7 +17439,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-128|||CA-218": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -15962,7 +17475,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-176|||CA-218": {
-      "score": 0.18062499999999998,
+      "score": 0.15353124999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -15971,7 +17484,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-176|||CA-219": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -15998,7 +17511,7 @@
       "last_updated": "2026-07-01"
     },
     "CA-204|||CA-219": {
-      "score": -0.18062499999999998,
+      "score": -0.15353124999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -16043,7 +17556,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-019|||CA-133": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16106,7 +17619,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-133|||CA-270": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16151,7 +17664,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-006|||CA-055": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16160,7 +17673,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-006|||CA-346": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16169,7 +17682,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-055|||CA-346": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16178,7 +17691,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-006|||CA-019": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16187,7 +17700,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-006|||CA-038": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16196,7 +17709,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-006|||CA-090": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -16223,7 +17736,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-006|||CA-126": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16232,7 +17745,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-006|||CA-162": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16250,7 +17763,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-006|||CA-270": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16277,7 +17790,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-019|||CA-055": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16304,7 +17817,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-019|||CA-162": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16430,7 +17943,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-055|||CA-090": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -16475,7 +17988,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-055|||CA-162": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16583,7 +18096,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-090|||CA-346": {
-      "score": -0.2125,
+      "score": -0.18062499999999998,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -16772,7 +18285,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-133|||CA-162": {
-      "score": 0.2125,
+      "score": 0.18062499999999998,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16934,7 +18447,7 @@
       "last_updated": "2026-07-08"
     },
     "CA-006|||CA-030": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16943,7 +18456,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-006|||CA-040": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16961,7 +18474,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-030|||CA-040": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16970,7 +18483,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-030|||CA-178": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -16988,7 +18501,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-040|||CA-178": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17015,7 +18528,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-008|||CA-164": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -17024,7 +18537,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-008|||CA-310": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17033,7 +18546,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-164|||CA-310": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17042,7 +18555,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-128|||CA-228": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17051,7 +18564,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-128|||CA-364": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -17060,7 +18573,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-228|||CA-364": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17069,7 +18582,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-006|||CA-008": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17078,7 +18591,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-006|||CA-128": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17087,7 +18600,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-006|||CA-164": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -17096,7 +18609,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-006|||CA-187": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17105,7 +18618,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-006|||CA-228": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17114,7 +18627,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-006|||CA-310": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17123,7 +18636,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-008|||CA-030": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17132,7 +18645,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-008|||CA-040": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -17141,7 +18654,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-008|||CA-128": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17150,7 +18663,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-008|||CA-178": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -17159,7 +18672,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-008|||CA-187": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17168,7 +18681,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-008|||CA-228": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17186,7 +18699,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-008|||CA-364": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -17204,7 +18717,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-030|||CA-164": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17213,7 +18726,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-030|||CA-228": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17222,7 +18735,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-030|||CA-310": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17249,7 +18762,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-040|||CA-164": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -17267,7 +18780,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-040|||CA-228": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -17276,7 +18789,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-040|||CA-310": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17294,7 +18807,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-128|||CA-164": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -17312,7 +18825,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-128|||CA-187": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17339,7 +18852,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-164|||CA-178": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17357,7 +18870,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-164|||CA-228": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -17393,7 +18906,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-178|||CA-228": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -17420,7 +18933,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-187|||CA-228": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -17447,7 +18960,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-187|||CA-364": {
-      "score": -0.25,
+      "score": -0.2125,
       "label": "adversarial",
       "observations": 1,
       "last_ps": [
@@ -17465,7 +18978,7 @@
       "last_updated": "2026-07-15"
     },
     "CA-228|||CA-310": {
-      "score": 0.25,
+      "score": 0.2125,
       "label": "reinforcing",
       "observations": 1,
       "last_ps": [
@@ -17499,6 +19012,402 @@
         "GLOBAL"
       ],
       "last_updated": "2026-07-15"
+    },
+    "CA-186|||CA-222": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "PS-07"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-017|||CA-040": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "PS-01"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-017|||CA-080": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "PS-01"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-040|||CA-080": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "PS-01"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-043|||CA-252": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "PS-05"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-078|||CA-200": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "PS-09"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-017|||CA-043": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-017|||CA-078": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-017|||CA-186": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-017|||CA-191": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-017|||CA-222": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-017|||CA-252": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-040|||CA-043": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-040|||CA-078": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-040|||CA-186": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-040|||CA-191": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-040|||CA-200": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-040|||CA-222": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-040|||CA-252": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-043|||CA-078": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-043|||CA-080": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-043|||CA-186": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-043|||CA-191": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-043|||CA-200": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-043|||CA-222": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-078|||CA-080": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-078|||CA-186": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-078|||CA-191": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-078|||CA-222": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-078|||CA-252": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-080|||CA-186": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-080|||CA-191": {
+      "score": -0.25,
+      "label": "adversarial",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-080|||CA-200": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-080|||CA-222": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-080|||CA-252": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-186|||CA-191": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-186|||CA-200": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-186|||CA-252": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-191|||CA-200": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-191|||CA-222": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-191|||CA-252": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-200|||CA-222": {
+      "score": 0.0,
+      "label": "neutral",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-200|||CA-252": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
+    },
+    "CA-222|||CA-252": {
+      "score": 0.25,
+      "label": "reinforcing",
+      "observations": 1,
+      "last_ps": [
+        "GLOBAL"
+      ],
+      "last_updated": "2026-07-22"
     }
   }
 }
