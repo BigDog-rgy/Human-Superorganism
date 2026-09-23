@@ -44,6 +44,36 @@ clone using `lib/bindings/utils.js`, with no Python environment needed.
 pip install -r requirements.txt
 ```
 
+### The `anthropic` pin is load-bearing
+
+`requirements.txt` pins `anthropic>=0.80.0,<1.0`. The SDK's 1.x line **removed
+`temperature` from `Messages.create()`**, and every council, briefing and
+coactivation script passes it (values from 0.1 to 0.7 — see the table below).
+With the dependency unpinned, CI installed 1.x and the weekly Action died at
+Stage 2 synthesis with:
+
+```
+Messages.create() got an unexpected keyword argument 'temperature'
+```
+
+That is a Python `TypeError`, not an API error, so the `except
+anthropic.APIStatusError` retry wrapper does not catch it — the run fails hard.
+
+Lifting the upper bound requires deciding what replaces `temperature` first.
+Note that `claude-opus-4-6` and `claude-haiku-4-5`, the models used here, still
+accept `temperature` at the *API* level; it is the SDK that dropped the
+parameter. On newer models (Opus 5, Sonnet 5, Opus 4.7/4.8) sampling parameters
+are rejected outright, and thinking depth is controlled with
+`output_config: {effort: ...}` instead.
+
+Temperatures currently in use:
+
+| Purpose | Temp |
+|---|---|
+| council generation / proposals | 0.7 |
+| chairman synthesis, briefing synthesis | 0.2 |
+| scoring, classification, coactivation | 0.1 |
+
 Needs a `.env` with the API keys the councils and briefing scripts read; it is
 not committed.
 
