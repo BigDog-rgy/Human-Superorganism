@@ -1,0 +1,508 @@
+{
+  "scope": "us",
+  "week_start": "2026-09-30",
+  "week_end": "2026-10-07",
+  "ps_news_items": [
+    {
+      "id": "DPS-01",
+      "name": "Executive Power Consolidation",
+      "summary": "The week saw continued **institutionalization of DOGE-era restructuring**, particularly at the FDA, where a reorganization effective October 1 consolidated administrative functions across nine centers and converted specialized inspectors into generalists. A federal appeals court also cleared DOGE personnel to access sensitive data held by the Treasury, Education Department, and OPM, strengthening White House-aligned operational control despite privacy and separation-of-powers concerns. The administration further advanced executive authority through new presidential actions, while reporting indicated that DOGE-linked modernization efforts remain active after the formal end of its temporary mandate. These developments suggest consolidation is shifting from headline workforce cuts toward durable agency restructuring and centralized data and management control.[1][2][3][4][5]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "DPS-02",
+      "name": "AI Dominance Race",
+      "summary": "The week’s clearest structural move was President Trump’s creation of a **“Super Intelligence Force,”** led by DNI Director Jay Clayton, to coordinate federal AI strategy, threat response, incident reporting, and engagement with industry while limiting regulation viewed as harmful to innovation.[1][6][12] Major US AI companies—including Google, Anthropic, Meta, OpenAI, xAI, and NVIDIA—also reportedly signed a voluntary accord covering training-time monitoring and independent audits, expanding industry-led safety governance without creating binding compliance requirements.[1][10] The period showed less evidence of a decisive new compute or funding realignment, although open-weight models paired with NVIDIA hardware continued to pressure the premium-model strategies of OpenAI, Google, and Anthropic.[2] NIST separately advanced AI evaluation infrastructure and testing guidance, indicating that standards and measurement—not only model launches—are becoming part of the competitive landscape.[14]\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "DPS-03",
+      "name": "Judicial Pipeline & Doctrinal Shift",
+      "summary": "The week showed **moderate-to-high judicial activity**, led by the Supreme Court’s opening of its October 2026 term and its decision to hear the Trump administration’s challenge to limits on mandatory immigration detention—an important test of executive authority and statutory interpretation.[1][2] The Senate Judiciary Committee also advanced hearings on a new slate of district and appellate nominees, including an Eighth Circuit nominee, sustaining the administration’s effort to shape the federal bench.[3] The Federalist Society’s October 1 Supreme Court-term preview provided a visible coordination and signaling venue for conservative legal networks, while early-term Supreme Court orders established the litigation agenda for the coming term.[4][1] No single merits ruling during the period appeared to produce a comparable doctrinal realignment, but the combination of nomination activity, immigration litigation, and network signaling indicated continued institutional momentum.\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-04",
+      "name": "Fiscal-Monetary Stress Cycle",
+      "summary": "Treasury yields surged, with the 10-year rate reaching roughly **5.31%** and the 30-year yield approaching **5.70%**, reflecting pressure from heavy federal borrowing, inflation concerns, expected Fed tightening, and weak demand for long-duration debt.[4][7][11] The Fed released minutes from its September meeting, reinforcing expectations that monetary policy may remain restrictive and that another hike could occur if inflation persists.[5][12] Treasury’s planned $39 billion 10-year auction became a key test of investor demand, while the Treasury may favor shorter-term bills because they remain cheaper than long-term borrowing.[4][11] Congress avoided an immediate shutdown through a stopgap measure extending current spending levels to December 11, but the unresolved budget process and more than $800 million in canceled appropriations added to fiscal-management friction.[6][9] The week therefore showed clear momentum toward a higher-cost, more politically constrained fiscal-monetary environment, though analysts stopped short of calling it a fiscal crisis.[15]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "DPS-05",
+      "name": "Capital Allocation & Private Power",
+      "summary": "Private capital showed **moderate-to-high momentum** from September 30 to October 7, led by large fund formations and infrastructure transactions. Ares raised roughly **$4.2 billion** for its inaugural global structured-solutions strategy, while Sheridan Capital closed a **$1.1 billion** Fund IV and Endeavor Catalyst closed an oversubscribed **$320 million** venture fund focused increasingly on Europe. [7][9] Energy and real-assets ownership also shifted: Energy Capital Partners raised an **$834 million continuation vehicle** for Next Wave Energy Partners, and Harrison Street agreed to acquire majority control of Vicinity Energy at a **$2.92 billion valuation**. [8][13] The broader backdrop was more selective dealmaking: U.S. private-equity fundraising through September stood at about **$222 billion**, down from the 2023 peak, even as capital concentrated in structured credit, energy infrastructure, AI, and strategic logistics. [6][9]\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "DPS-06",
+      "name": "Big Tech Regulatory Arbitrage",
+      "summary": "From September 30 to October 7, the clearest development was continued implementation pressure on Google’s ad-tech monopoly: the DOJ and Google disputed the timing, scope, and monitoring of court-ordered remedies, keeping structural separation and behavioral restrictions in play.[6][7] Google’s broader antitrust exposure also remained significant, with its search remedies under appeal and the separate ad-tech remedies decision still pending, preserving uncertainty over whether regulators can force meaningful business restructuring.[3] Connecticut’s AI responsibility law took effect October 1, imposing provenance and disclosure duties on large generative-AI providers and illustrating how states are moving ahead while Congress has not enacted a uniform federal framework.[1] Overall, the week showed moderate regulatory momentum, but no newly reported federal breakup order, major congressional action, or landmark contract that materially shifted bargaining power.\n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "DPS-07",
+      "name": "Defense-Industrial Expansion",
+      "summary": "The week’s clearest signal was a **$24.4 billion, five-year Navy–Raytheon SM-6 production agreement**, with two option years, intended to accelerate output, expand manufacturing capacity, and replenish stocks depleted by Middle East operations.[1][4][11] It followed a late-September provisional **$20.7 billion AMRAAM deal**, reinforcing a broader Pentagon shift toward multiyear procurement and contractor-backed surge capacity for precision munitions.[4][11] The Defense Logistics Agency also advanced industrial resilience through roughly **$1.8 billion in metals contracts**, including steel for artillery and mortar projectiles, while the Pentagon continued pursuing critical-minerals supply diversification.[8] Together, these actions indicate strong momentum in defense-industrial expansion, though the available reporting showed fewer major developments involving SpaceX- or Palantir-class technology contractors during the period.\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "DPS-08",
+      "name": "Information Environment Contestation",
+      "summary": "From September 30 to October 7, platforms broadly tightened control over distribution by prioritizing **original content**: YouTube reduced Shorts reach for reuploads, while Instagram extended anti-aggregation rules from Reels to photos and carousels.[12][3] X reportedly shifted its “For You” feed toward popular posts and reduced the weight of unexplored content, potentially concentrating visibility around already-viral material.[4] These moves indicate a structural contest between platforms’ stated originality goals and the political influence of high-volume aggregators, meme networks, and coordinated reposting operations. The week showed meaningful momentum in algorithmic governance, but no clearly verified major ownership transaction or government policy breakthrough.\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-09",
+      "name": "Energy Transition & Security",
+      "summary": "The week brought **major federal support for nuclear power**: DOE announced up to **$4.2 billion for Vistra** to uprate and modernize Ohio and Pennsylvania reactors, adding roughly 433 MW while preserving nearly 4 GW of PJM baseload capacity amid rising demand.[1][2] DOE also directed Defense Production Act funding to Alaska’s Railbelt transmission project, linking grid expansion to military and energy security.[1] Bipartisan senators introduced permitting legislation aimed at accelerating transmission and energy infrastructure for data centers while requiring those facilities to help fund grid upgrades.[14] Meanwhile, renewables surpassed nuclear and coal in US generation during the first nine months of 2026, while fusion commercialization advanced through DOE’s pilot-plant program and emerging state permitting frameworks.[3][4][9]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "DPS-10",
+      "name": "Coalition Machinery & Electoral Infrastructure",
+      "summary": "Republican-aligned groups are entering the final stretch with a major cash advantage: MAGA Inc. held roughly $416 million at the end of August, while allied PACs have accelerated spending in key Senate and House races.[3] Dark-money networks are also expanding, with five major groups—three Republican-aligned and two Democratic-aligned—accounting for at least $265 million in spending while obscuring donor identities.[2] Both parties are simultaneously institutionalizing election litigation: more than 1,200 election-related lawsuits were active or pending nationwide, with the RNC directly or indirectly involved in roughly 200 cases and major Democratic legal groups contesting voting rules across dozens of states.[4][9][13] Democrats responded with a $13 million House advertising buy and an expanded target list, while the bipartisan Fairshake crypto super-PAC network committed to backing 32 House candidates.[5][7][10]\n\n8",
+      "activation_score": 8
+    }
+  ],
+  "assembly_news_items": [
+    {
+      "id": "CA-027",
+      "name": "Federal Bureau of Investigation",
+      "ps_memberships": [
+        "DPS-01"
+      ],
+      "raw_news": "The FBI released a classified internal “Patel Report” to employees on October 2 examining episodes in which the bureau “fell short,” framing the document as part of an accountability and public-trust effort.[2][13] The move reinforces Director Kash Patel’s effort to repudiate predecessor-era decisions, while critics say it politicizes the bureau and supports punishment of personnel linked to past investigations involving President Trump.[2][13]\n\nFBI counterintelligence squads are facing staffing shortages as bureau leadership shifts resources toward violent crime, gangs, and immigration—priorities aligned with the Trump administration—even though officials said no explicit order closed the squads.[7] Co-deputy director Andrew Bailey also resigned, becoming the second deputy director to leave within a year and adding to leadership instability under Patel.[4]"
+    },
+    {
+      "id": "CA-018",
+      "name": "Department of Government Efficiency (DOGE)",
+      "ps_memberships": [
+        "DPS-01"
+      ],
+      "raw_news": "The most significant recent development is that DOGE’s federal mandate expired on **July 4, 2026**, meaning it was no longer operating as the temporary restructuring entity during the September 30–October 7 period.[7][12] Its successor, the **U.S. DOGE Service**, remained in existence, but a GAO report said six agencies had not provided enough records to assure Congress and the public that DOGE personnel properly protected sensitive systems and data.[6] GAO also found a major gap between DOGE’s claimed savings and verified results: contract terminations produced a net **$92 million** in savings, compared with DHS’s public claim of up to **$10.5 billion** in potential savings.[1] Separately, Defense Secretary Pete Hegseth appointed Elon Musk co-director of **Project Meridian**, a Pentagon study on future warfare, giving Musk a new formal role in national-security policymaking after DOGE’s closure.[9]"
+    },
+    {
+      "id": "CA-030",
+      "name": "US Department of Justice",
+      "ps_memberships": [
+        "DPS-01",
+        "DPS-03"
+      ],
+      "raw_news": "From September 30 to October 7, 2026, the Justice Department intensified its challenge to state control over federal law-enforcement operations, suing Maryland and two counties over laws requiring masked officers to identify themselves; DOJ said such rules unlawfully interfere with federal authority.[8] Attorney General Pam Bondi’s Weaponization Working Group also released a report accusing the prior administration of exploring prosecutions of parents and school-board protesters, advancing the department’s broader effort to recast past DOJ actions as politically abusive.[2] A federal judge separately ordered DOJ to fast-track FOIA requests for records concerning Jeffrey Epstein, President Trump, and senior DOJ and FBI officials, creating additional judicial scrutiny of the department’s handling of politically sensitive files.[7]"
+    },
+    {
+      "id": "CA-006",
+      "name": "Department of Health and Human Services",
+      "ps_memberships": [
+        "DPS-01"
+      ],
+      "raw_news": "HHS launched **SURPASS**, an ARPA-H clinical-trials program intended to accelerate drug and biologic evaluation through predictive modeling, shared infrastructure, common control groups, and real-time analysis; it also announced related projects expanding domestic trial capacity and national health-data infrastructure.[7] HHS finalized new healthcare **price-transparency regulations** through CMS, requiring more accessible information on coverage and expected costs and strengthening federal reporting requirements.[10][12] HRSA approved **10 pharmaceutical companies** for its 340B Rebate Model Pilot Program, while CMS opened a voluntary repository for 340B Medicare Part D claims data—moves that increase federal oversight of drug-discount transactions.[1][13] HHS also announced more than **$700 million** in new behavioral-health and homelessness funding, including a $96 million initiative linking people with serious mental illness or substance-use disorders to treatment and recovery services.[8]"
+    },
+    {
+      "id": "CA-049",
+      "name": "The Heritage Foundation",
+      "ps_memberships": [
+        "DPS-01",
+        "DPS-10"
+      ],
+      "raw_news": "No **significant, verifiable hard-news development** involving The Heritage Foundation was identified in the September 30–October 7, 2026 window. The available results show commentary and reporting about Project 2025’s continuing influence on executive-power policy, but no newly announced Heritage decision, legal action, alliance, or organizational move during the period. The closest relevant item is Heritage’s previously announced **Election Transparency Initiative**, led by Ken Cuccinelli, launched August 21—not a development within the requested seven-day window."
+    },
+    {
+      "id": "CA-013",
+      "name": "Senate Appropriations Committee",
+      "ps_memberships": [
+        "DPS-04",
+        "DPS-07"
+      ],
+      "raw_news": "The Senate Appropriations Committee’s most significant recent move was Chair Susan Collins’s rejection of the administration’s proposed **$810 million “pocket rescissions” package**, which she called an unlawful attempt by OMB to cancel funds Congress had already approved and a violation of Congress’s constitutional power of the purse.[3] The dispute places Collins at the center of a congressional challenge to executive impoundment and could shape broader fights over control of discretionary spending.[3] Separately, an investigation reported that appropriations legislation directed funding toward AM General military vehicles the Army had not requested, while Collins’s office said the decision was made by the Defense Appropriations Subcommittee’s chair and ranking member rather than Collins herself.[6] The episode highlights internal power within the committee’s defense subcommittee and scrutiny of industry influence over defense procurement.[6]"
+    },
+    {
+      "id": "CA-009",
+      "name": "US Senate",
+      "ps_memberships": [
+        "DPS-03",
+        "DPS-04"
+      ],
+      "raw_news": "From September 30 to October 7, the Senate blocked a Republican-backed ban on lawmakers buying new stocks, voting 53–47—short of the 60 votes needed to overcome a filibuster.[14] Senate Republicans also blocked a resolution requiring the Trump administration to report on alleged rights violations and American deaths in the West Bank; the vote was 47–51, largely along party lines.[15] Fiscal pressure intensified as the White House canceled more than $800 million in congressionally approved spending through “pocket rescissions,” while the Senate remained away from Washington without resolving broader funding issues.[12] The chamber’s judicial power remained tied to the midterm balance: Republicans were preparing for a possible lame-duck Supreme Court confirmation fight, while a Democratic Senate could halt confirmations of Trump’s court nominees beginning in January.[1][2]"
+    },
+    {
+      "id": "CA-032",
+      "name": "US House of Representatives",
+      "ps_memberships": [
+        "DPS-04",
+        "DPS-10"
+      ],
+      "raw_news": "House Republicans released the chamber early for the midterm-election recess, leaving the FY2027 appropriations process largely unresolved: only three of 12 annual spending bills had passed the House, and Congress extended the government-funding deadline to Dec. 11 through a continuing resolution.[7] The move also postponed House action on AI-safety legislation and a renewed discharge petition concerning Epstein files, limiting opportunities for bipartisan or cross-party coalitions before the election.[7]  \n\nRepublican leaders are shifting campaign resources toward vulnerable incumbents as internal polling reportedly shows President Trump’s approval weakening and threatens the party’s House majority; Speaker Mike Johnson remains publicly committed to defending all contested seats, while strategists are considering a narrow-majority scenario under a potential Speaker Hakeem Jeffries.[3] Separately, 60 House Democrats led by Ayanna Pressley and Jamie Raskin urged the State Department to oppose permanent displacement of Palestinians from Gaza and increase humanitarian aid, signaling continued intra-party pressure on the administration’s Middle East policy.[1]"
+    },
+    {
+      "id": "CA-024",
+      "name": "SpaceX",
+      "ps_memberships": [
+        "DPS-07"
+      ],
+      "raw_news": "The UK said it is shifting operational military communications to SpaceX’s **Starshield**, reporting nearly **$40 million** in spending and roughly 1,000 Starshield terminals—making it the first non-U.S. country to publicly acknowledge using the military network.[1] On September 30, Defense Secretary Pete Hegseth appointed Elon Musk to co-lead a 120-day Pentagon review of future weapons alongside Anduril’s Palmer Luckey and former House Speaker Newt Gingrich, giving Musk influence over future defense priorities.[10][11] SpaceX also launched the first satellite from a Rheinmetall–Argotec military air-defense surveillance program, extending its role in allied defense-space infrastructure.[14] A scheduled SpaceX launch of 21 satellites for the U.S. Space Development Agency was scrubbed on October 4; the mission is part of the military’s proliferated constellation for missile tracking and secure communications.[7]"
+    },
+    {
+      "id": "CA-058",
+      "name": "Cerberus Capital Management",
+      "ps_memberships": [
+        "DPS-05",
+        "DPS-07"
+      ],
+      "raw_news": "Cerberus agreed to acquire a substantial portion of Goodwin plc’s mechanical-engineering division for up to **£1.1 billion**, including steel castings, pumps, aerospace and defense-related businesses; completion is expected in the first quarter of 2027, subject to approvals.[1] The deal expands Cerberus’s industrial and defense manufacturing footprint while reallocating capital into engineering assets.\n\nSeparately, Hamburg Commercial Bank’s owners—including Cerberus as majority shareholder—are considering a sale or other strategic transaction, with Goldman Sachs and Morgan Stanley reportedly retained to evaluate options; any transaction could result in Cerberus exiting the bank.[2] Cerberus is also exploring investment opportunities in the **Caucasus and Central Asia**, aligning its defense-linked investment platform with Washington’s push for greater private capital in the Trans-Caspian region.[8]"
+    },
+    {
+      "id": "CA-070",
+      "name": "Special Competitive Studies Project (SCSP)",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-07"
+      ],
+      "raw_news": "SCSP called for the Defense Department to establish a **“Strategic Compute Reserve”** so commercial AI infrastructure could be secured and made available for military operations during crises. The proposal would involve revising classified-compute requirements, pre-building security into commercial data centers, and strengthening protections against major computing threats; it follows the Pentagon’s reported request for $30 billion to consolidate its AI-compute infrastructure.[15]\n\nA bipartisan fusion-energy bill introduced September 30 would authorize **$10 billion** for research, facilities, commercialization, and workforce development, implementing recommendations from an SCSP commission that warned China is outspending the United States in fusion.[10]\n\nSCSP also published its 2026 technology-competition scorecard, arguing that U.S. technical advantages are being offset by China’s superior industrial capacity and coordinated deployment strategy.[5][13]"
+    },
+    {
+      "id": "CA-057",
+      "name": "Energy Transfer LP",
+      "ps_memberships": [
+        "DPS-09"
+      ],
+      "raw_news": "Energy Transfer’s most significant recent move was the completion of its planned transfer of common-unit and Series I preferred-unit listings from the NYSE to the Texas Stock Exchange, with trading under the existing symbols beginning October 5.[12] The shift gives the Texas-based midstream company an early high-profile role in establishing TXSE as a competitor to the major U.S. exchanges.[9] Energy Transfer also announced that it will release third-quarter 2026 results on November 3, but this was a scheduling announcement rather than a substantive operational or policy decision.[1] No other major energy-transition or energy-security action by Energy Transfer was identified during September 30–October 7."
+    },
+    {
+      "id": "CA-154",
+      "name": "Helion Energy",
+      "ps_memberships": [
+        "DPS-09"
+      ],
+      "raw_news": "Helion Energy’s most significant recent move was securing Washington state licenses for radioactive materials and radioactive-air emissions, clearing a regulatory hurdle for its planned Orion fusion plant.[1] The company also formalized a power-purchase agreement under which Microsoft will receive electricity from Orion, with Constellation managing power marketing and transmission.[4] At the same time, Helion has tempered its public timeline: Orion is now described as beginning “initial operations” in 2028, while company officials acknowledge that full 50-megawatt output is unlikely before 2029 or 2030.[3]"
+    },
+    {
+      "id": "CA-184",
+      "name": "East Resources",
+      "ps_memberships": [
+        "DPS-09"
+      ],
+      "raw_news": "No significant hard-news event involving **East Resources**, the natural-gas company founded by Terry Pegula and sold to Royal Dutch Shell, was identified during **September 30–October 7, 2026**. Recent search results primarily concern **East Resources Acquisition**, a separate SPAC that merged with Abacus Life, and **East Star Resources**, a Kazakhstan-focused mining company—not the original U.S. natural-gas business. The available record therefore does not support reporting a qualifying decision, transaction, legal action, alliance, or organizational move by East Resources in the requested period."
+    },
+    {
+      "id": "CA-010",
+      "name": "Supreme Court of the United States",
+      "ps_memberships": [
+        "DPS-03"
+      ],
+      "raw_news": "The U.S. Supreme Court began its new term by adding a case on whether the Trump administration may detain certain noncitizens without bond hearings, expanding the term’s focus on executive immigration authority.[15] The Court also heard arguments in *Suncor Energy v. Boulder County*, a major dispute over whether federal law blocks state and local climate-liability lawsuits against energy companies; a ruling is expected by summer 2027.[4] The Court’s September 29 emergency order allowing third-country deportations to proceed while litigation continues remains a significant exercise of its influence over the administration’s immigration policy.[13]",
+      "spontaneous": true
+    },
+    {
+      "id": "CA-042",
+      "name": "AMD",
+      "ps_memberships": [
+        "DPS-02"
+      ],
+      "raw_news": "AMD’s most significant move was announcing a strategic partnership with Anthropic to deploy up to **2 gigawatts of AMD Instinct MI450 GPUs**, strengthening AMD’s position as an alternative to NVIDIA for large-scale AI infrastructure.[3]\n\nCEO Lisa Su said AMD plans to **substantially increase CPU and GPU supply in 2027**, after expanding capacity in 2026, as AI demand continues to exceed available supply.[4][10] During visits to Taiwan and South Korea, AMD pursued deeper ties with packaging, memory and semiconductor partners, while exploring integration of Korean AI chips with AMD systems and participation in its ROCm software ecosystem.[1][6]",
+      "spontaneous": true
+    }
+  ],
+  "news_items": [
+    {
+      "name": "Pam Bondi",
+      "domain": "US Attorney General",
+      "raw_news": "Between **September 30 and October 7, 2026**, the most significant reported developments involving Attorney General Pam Bondi were:\n\n- **DOJ released a “weaponization” report on the Garland school-board memorandum (Oct. 5).** The department said parents and school-board participants subjected to FBI assessments could review those records, while DOJ would examine possible constitutional violations and issue apologies where warranted.[4] **Why it matters:** The action advances Bondi’s effort to recast the department around alleged abuses by the prior administration and strengthens her influence over internal accountability and investigative priorities.\n\n- **Bondi challenged a federal judge’s access to national-security information in the deportation-flight litigation (reported Oct. 3).** She said the administration was appealing Judge James Boasberg’s demand for information after he ordered a pause on deportation flights involving alleged gang members.[2] **Why it matters:** The dispute directly tests executive authority over immigration and signals Bondi’s willingness to contest judicial oversight of presidential national-security decisions.\n\n- **Bondi publicly vowed that DOJ would resist what she characterized as liberal judicial overreach and defend presidential authority (Oct. 5).** Her comments framed conflicts with federal judges as part of a broader institutional confrontation over the administration’s power.[1] **Why it matters:** The statement clarifies the doctrinal direction she is promoting—greater deference to executive control—and could shape DOJ’s litigation strategy and judicial nominations.\n\n- **A federal judge ordered DOJ to accelerate processing of Epstein-related records requests that include communications involving Bondi and other senior officials (Sept. 30 ruling, reported Oct. 1).** The order cited substantial public interest and potential questions about government integrity.[11] **Why it matters:** The ruling creates additional disclosure pressure on Bondi’s department and could expose internal decision-making involving senior DOJ and White House-linked officials.\n\n- **A FOIA investigation identified an alternate DOJ email address used by Bondi for government business (Oct. 2).** The discovery raised concerns that undisclosed aliases can make public-record searches more difficult, although the reporting described alternate addresses as a longstanding practice among attorneys general.[7][9] **Why it matters:** The issue threatens transparency around Bondi’s tenure and could increase scrutiny of departmental recordkeeping and compliance with disclosure obligations."
+    },
+    {
+      "name": "Donald Trump",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "From **September 30 to October 7, 2026**, the most significant reported developments involving Donald Trump were:\n\n- **Iran war and possible escalation:** Trump said the U.S. conflict with Iran was “essentially almost over,” while also warning that Washington could end it in a “not-so-nice way” and reportedly considering renewed major combat operations.[3][10][15] **Why it matters:** The conflict gives Trump direct control over a major foreign-policy and military decision while exposing him to heightened political risk over escalation, casualties, and energy prices.\n\n- **Republican candidates distance themselves from Trump:** A Reuters review found that candidates in **41 of 62 competitive House and Senate races** had broken with Trump on policy or deemphasized ties to him; Trump’s approval rating was reported at **32%**, with Democrats leading Republicans nationally among registered voters.[2] **Why it matters:** The findings indicate weakening electoral leverage over vulnerable Republicans ahead of the November midterms, potentially limiting Trump’s ability to use the party’s congressional candidates as an extension of his agenda.\n\n- **Trump shifts funding of controversial DHS advertisements to MAGA Inc.:** Trump said his super PAC would cover future costs for a disputed advertising campaign that had used taxpayer funds, while the White House clarified that he had not committed to reimbursing roughly **$12 million** already spent.[5][11] **Why it matters:** The move links Trump’s political fundraising machinery more directly to presidential messaging while leaving unresolved questions about public-money use and executive accountability.\n\n- **Trump attacks Arizona election administration:** Trump criticized Maricopa County officials after roughly **3,000 ballots were mistakenly mailed early** to voters.[5] **Why it matters:** The intervention reinforces Trump’s role in shaping Republican narratives about election administration and could intensify partisan pressure on local officials ahead of the midterms.\n\n- **Trump planned a call with Vladimir Putin amid concern over a reported pneumonic-plague case in Russia:** Trump said he had a call scheduled “very soon” with Putin and that the two governments were in “very deep discussions.”[7] **Why it matters:** The planned leader-level contact adds another active geopolitical channel for Trump and could expand his influence over the U.S. response to a potential public-health and security issue involving Russia."
+    },
+    {
+      "name": "Robert F. Kennedy Jr.",
+      "domain": "Secretary of Health and Human Services",
+      "raw_news": "- **USPSTF overhaul draws Senate scrutiny (Oct. 5–6):** Sixteen Senate Democrats and Sen. Angus King demanded that Kennedy explain his removal of the task force’s leadership, accelerated replacement process, and failure to publish conflict-of-interest disclosures, with a response requested by Oct. 15.[3][11] **Why it matters:** The inquiry directly challenges Kennedy’s expansion of control over a panel whose recommendations affect which preventive services insurers must cover, increasing congressional and legal pressure on his governance of HHS.\n\n- **New lawsuit targets Kennedy’s childhood-vaccine policy (Oct. 5):** New York Attorney General Letitia James joined 15 states in suing Kennedy over a CDC schedule that no longer universally recommends seven childhood vaccines, including those for hepatitis B, influenza, RSV, and meningitis.[5] **Why it matters:** The litigation threatens a major policy initiative associated with Kennedy’s authority over federal vaccine guidance and could constrain his ability to replace expert-based recommendations with policies favored by his allies.\n\n- **Kennedy promotes AI as an alternative to medical expertise (Sept. 30–Oct. 6):** At a Make America Healthy Again summit, he said AI could provide a second opinion “better informed than any doctor” and free Americans from “medical tyranny,” prompting criticism from six major physician organizations and some MAHA allies.[6][8][9] **Why it matters:** The remarks advance Kennedy’s effort to reshape the health-information environment around distrust of institutional experts, while the backlash exposes tensions between his movement and medical professionals and technology companies.\n\n- **Kennedy announces HHS–UT Austin clinical-trials partnership (Oct. 1):** He unveiled SURPASS, a platform intended to use simulation and real-time adaptive methods in clinical trials, alongside senior HHS officials and university leaders.[2] **Why it matters:** The initiative gives Kennedy a concrete institutional vehicle for influencing how federal health research is conducted and supports his broader claim that HHS is pursuing a new model of “gold-standard” evidence.\n\n- **HHS issues new healthcare-pricing transparency rules (Oct. 7):** Kennedy announced rules requiring clearer, more reliable information about healthcare costs and said they were implemented at President Trump’s direction.[7] **Why it matters:** The action strengthens Kennedy’s policy profile on consumer-facing healthcare reform and demonstrates continued White House backing for his authority at HHS."
+    },
+    {
+      "name": "Kevin Roberts",
+      "domain": "President, The Heritage Foundation",
+      "raw_news": "The clearest hard-news developments from **September 30–October 7, 2026** are:\n\n- **Roberts challenged Republican midterm polling as a “psyop” intended to depress conservative turnout, drawing public praise from President Trump.**[3][14] This matters because it places Roberts directly inside the 2026 turnout and message-discipline effort, strengthening his influence with Trump-aligned activists while tying Heritage more closely to election denial and anti-polling narratives.\n\n- **Heritage’s 2026 Election Integrity Scorecard and Election Transparency Initiative became prominent parts of its election agenda, emphasizing citizenship verification, voter-roll accuracy, foreign-funding restrictions, and state-level enforcement ahead of the 2027 elections.**[7] The initiative gives Roberts an institutional mechanism for shaping state election policy and supporting lawmakers—an evolution from policy advocacy toward durable electoral infrastructure.\n\n- **Reporting described Roberts as having installed loyalists and expanded Heritage’s election operation, including a new role for Project 2025 author Ken Cuccinelli and rapid-response support for state legislatures.**[12] If accurate, this would extend Roberts’s coalition machinery beyond Heritage’s research function by embedding aligned personnel and policy capacity in state-level election fights.\n\n- **A major profile reported that Roberts is repositioning Heritage’s agenda around “civilizational” and family-policy themes, while maintaining support for Trump’s Iran policy and attempting to restore a unified institutional voice.**[1] This matters because it indicates Roberts is consolidating Heritage around a more culturally interventionist, Trump-compatible program rather than its older emphasis on limited government and free enterprise.\n\n- **Roberts’s continued association with the Tucker Carlson–Nick Fuentes controversy remained a visible source of internal and external strain, with commentary linking it to the departure of Heritage scholars, donors, and board members.**[5][10] The dispute matters because it weakens Roberts’s standing among traditional conservative and Jewish constituencies even as it may reinforce his influence with the movement’s nationalist and populist factions."
+    },
+    {
+      "name": "Charles E. Schumer",
+      "domain": "Senate (NY, Democrat)",
+      "raw_news": "- **Schumer pledged to block Trump judicial nominees if Democrats retake the Senate.** He said Democrats could deny hearings to Trump’s lower-court nominees and leave a potential Supreme Court vacancy open until after the next presidential election.[1][2][4] **Why it matters:** The statement makes judicial control a central Democratic midterm argument and signals Schumer’s willingness to use Senate procedure to shape the Supreme Court and federal judiciary.\n\n- **Schumer opposed a Republican-backed bill requiring data centers to cover increased energy costs.** He called the measure “optional” and “a fraud,” arguing it would not adequately protect consumers from costs associated with data-center expansion.[3][10] **Why it matters:** The fight positions Schumer against a major technology-and-energy policy issue while giving Senate Democrats a populist argument on household utility costs.\n\n- **Schumer declared he will seek another term as Democratic Senate leader regardless of the midterm outcome.** He said he is “running for reelection for leader” and expects to spend the pre-election period fundraising and helping Democrats compete for the majority.[5][7][11][15] **Why it matters:** The announcement is an effort to consolidate authority before a potentially disruptive leadership contest and to tie his continued influence to the party’s electoral strategy.\n\n- **Schumer and Representative Alexandria Ocasio-Cortez led New York Democrats in introducing legislation to restore Essential Plan health coverage.** The proposal would seek to reinstate coverage for approximately 450,000 New Yorkers who lost eligibility under the Republican “One Big Beautiful Bill Act.”[8] **Why it matters:** The measure strengthens Schumer’s coalition with progressive New York Democrats and turns a federal fiscal-policy dispute into a concrete electoral issue for affected constituents.\n\n- **Schumer urged the cryptocurrency industry to break with President Trump over ethics restrictions.** He said Democrats could not support a crypto market-structure bill without safeguards preventing Trump from profiting through presidential authority, contributing to the collapse of negotiations over the Clarity Act.[13] **Why it matters:** The position preserves Democratic leverage over crypto legislation while testing whether the industry will distance itself from Trump to secure bipartisan rules."
+    },
+    {
+      "name": "Ted Cruz",
+      "domain": "Senate (TX, Republican)",
+      "raw_news": "- **Bipartisan college-sports legislation advanced.** Cruz and Democratic Sen. Maria Cantwell promoted the **Protect College Sports Act**, which reportedly secured 77 Senate votes and could establish federal rules for college athletics and athlete compensation.[1][9] **Why it matters:** The win gives Cruz a high-profile bipartisan legislative achievement and strengthens his positioning on technology and sports-policy issues, including possible future work on artificial intelligence.[1]\n\n- **Cruz escalated a public dispute with Vice President JD Vance over 2028.** Cruz called Vance “insecure” after Vance said it was obvious Cruz was already running for president, while Cruz said his immediate focus was helping Republicans in the November midterms.[2][4] **Why it matters:** The exchange publicly places Cruz among the potential 2028 Republican contenders and reveals an emerging rivalry with the party’s leading prospective candidate.[2][10]\n\n- **Cruz intensified his midterm campaign activity.** He said he was working to preserve Republican control of the House and Senate and cited campaign travel in Georgia, Iowa, Nebraska, South Carolina and Texas, with additional trips planned to Alaska, Florida and North Carolina.[4][5] **Why it matters:** The activity expands Cruz’s national donor and candidate network, while allowing him to build influence across early-voting and competitive states without formally launching a presidential campaign.[4][13]\n\n- **Cruz’s support for Texas Attorney General Ken Paxton’s Senate campaign became a political liability risk.** Reports described Cruz as a part-time adviser and fundraiser for Paxton, whose campaign was trailing Democrat James Talarico in polling for the open Texas Senate seat.[6] **Why it matters:** Cruz is making a significant investment in a high-stakes Texas race, but a Paxton defeat could weaken Cruz’s standing and damage his credibility as a national Republican power broker ahead of 2028.[6]"
+    },
+    {
+      "name": "Palmer Luckey",
+      "domain": "Founder & CEO, Anduril Industries",
+      "raw_news": "- **Anduril announced a $3.7 billion investment in a new Maryland shipyard** to manufacture components and large assemblies for Virginia-class nuclear-powered submarines, with initial operations expected by 2030 and about 3,100 direct jobs.[4][12][15] **Why it matters:** The move expands Luckey’s company from autonomous systems into major naval manufacturing and gives him a larger role in the U.S. defense-industrial base.\n\n- **The U.S. Navy awarded Anduril a contract worth up to $2.9 billion** for submarine-component production, with payments tied to production outcomes and execution risk largely assigned to the company.[1][3][15] **Why it matters:** It is one of Anduril’s largest government awards and materially strengthens Luckey’s position as a defense contractor capable of taking on complex, long-term programs.\n\n- **The Pentagon selected Palmer Luckey to help lead Project Meridian**, a new initiative examining future weapons and warfare capabilities alongside Elon Musk and former House Speaker Newt Gingrich.[1][9] **Why it matters:** The appointment gives Luckey direct influence over Pentagon technology priorities while raising scrutiny about the overlap between his advisory role and Anduril’s government business.[1][8]\n\n- **The Maryland project, called Arsenal-2, was presented as a combined $6.6 billion public-private expansion**—Anduril’s $3.7 billion investment alongside the Navy’s potential $2.9 billion contract.[6][12] **Why it matters:** The scale positions Luckey as a central figure in the administration’s effort to rebuild U.S. submarine-production capacity and broadens Anduril’s strategic importance beyond software and drones."
+    },
+    {
+      "name": "Elon Musk",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **SpaceX reportedly seeks $40 billion for Nvidia chips (Oct. 7):** SpaceX is in early talks to raise about $10 billion in bank loans and $30 billion in investment-grade debt to finance Nvidia-chip purchases for AI data centers.[4] **Why it matters:** The proposed financing would make Musk’s companies major participants in the AI infrastructure race, while adding substantial leverage and execution risk to SpaceX’s expanding business empire.\n\n- **Musk asserted control over the Terafab chip project (Oct. 7):** Musk said SpaceX and Tesla—not TSMC—would operate the planned Texas AI-chip facility, although TSMC could sublease space.[6] **Why it matters:** The statement reinforces Musk’s effort to vertically integrate chip production and retain strategic control over the hardware underpinning his AI ambitions.\n\n- **Musk returned to a Pentagon war-futures study (Oct. 1):** Musk was reported to be rejoining the U.S. government as a co-leader of a Pentagon study on the future of warfare.[15] **Why it matters:** The role could give him renewed access to senior defense policymakers and strengthen his influence over military technology priorities, despite his earlier break with the Trump administration.\n\n- **Trump expected to award Musk the National Medal of Science (Oct. 7):** President Donald Trump was reported to be preparing to honor Musk with the National Medal of Science.[2] **Why it matters:** The award would provide official recognition from the administration and potentially reinforce Musk’s standing in national technology and policy debates.\n\n- **Memphis officials delayed a vote tied to Musk’s xAI data-center expansion (Oct. 6–7):** Memphis City Council postponed consideration of a proposed one-year moratorium on new data centers amid utility and community concerns surrounding xAI’s facilities.[3] **Why it matters:** The dispute illustrates growing local political resistance to the infrastructure demands of Musk’s AI buildout and could slow expansion or increase regulatory costs."
+    },
+    {
+      "name": "Bill Gates",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "The most significant verified developments from **September 30–October 7, 2026** are:\n\n- **Breakthrough Energy selected 21 climate-tech startups for its sixth fellowship cohort.** The companies span fusion, hydrogen, semiconductor efficiency, critical minerals, agriculture, robotics, and climate adaptation, positioning them for rising electricity demand from AI and broader electrification.[9] **Why it matters:** The move extends Gates’s influence as a climate-tech capital allocator and reinforces his strategy of backing early-stage technologies that could shape future energy infrastructure.\n\n- **Gates and Breakthrough Energy backed Fervo Energy’s Cape Station geothermal project in Utah.** The enhanced-geothermal facility is planned to generate 100 megawatts in 2026 and expand toward 500 megawatts by 2028.[10] **Why it matters:** The investment gives Gates a direct stake in dispatchable clean power at commercial scale, strengthening his role in developing alternatives to fossil fuels and intermittent renewables.\n\n- **The Gates Foundation’s planned $1 billion AI commitment gained public attention.** The foundation intends to spend at least $1 billion over two years, with funding focused chiefly on health care and education in developing economies, alongside agriculture and digital infrastructure; partners include OpenAI, Anthropic, and Google.[1] **Why it matters:** The initiative expands Gates’s private influence over how AI is deployed in essential public services and in lower-income countries, while raising questions about technology governance and control.\n\n- **Gates called for a tax on robots and AI-related automation.** He argued that such a levy could slow job displacement and finance worker retraining, while the International Federation of Robotics criticized the proposal as potentially harmful to productivity and competitiveness.[2] **Why it matters:** The proposal places Gates directly in the policy debate over automation, taxation, and labor-market power, extending his influence beyond investment into possible regulatory responses to AI.\n\n- **Gates’s warnings about AI-enabled security risks continued to shape debate.** Recent coverage highlighted his view that AI used by malicious actors could cause catastrophic deaths and that government oversight is needed because companies cannot be relied upon to regulate advanced systems independently.[4][8] **Why it matters:** These statements strengthen Gates’s profile as a prominent private voice on AI security and support calls for governments—not only technology companies—to set binding safeguards."
+    },
+    {
+      "name": "Kelcy Warren",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Energy Transfer agreed to acquire Vaquero Midstream for about $2.63 billion** in cash and newly issued equity on October 6, expanding its natural-gas gathering and transportation network in the Permian Basin.[1][2] **Why it matters:** The deal strengthens Kelcy Warren’s control over infrastructure serving U.S. gas production, exports, and data-center demand, reinforcing his position in energy security.\n\n- **Energy Transfer’s Permian expansion was framed as a response to rising U.S. natural-gas demand**, including demand from LNG exports and data centers.[14] **Why it matters:** It places Warren’s company at the intersection of domestic energy reliability, industrial growth, and the broader energy-transition debate over gas as a bridge and backup fuel.\n\n- **Energy Transfer and affiliated companies began moving their stock listings from the NYSE to the Texas Stock Exchange**, with trading on TXSE starting October 5; Warren owns roughly 30% of TXSE’s parent company.[9][10] **Why it matters:** The move expands Warren’s influence beyond pipelines into financial-market infrastructure and advances a Texas-centered alternative to established exchanges.\n\nNo other comparably significant hard-news developments involving Warren were identified in the available results for September 30–October 7, 2026."
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "domain": "House (NY, Democrat)",
+      "raw_news": "- **Oct. 5–6 — Backed Abdul El-Sayed’s Michigan Senate campaign.** At a New York fundraiser, Ocasio-Cortez called El-Sayed’s race part of a “generational project” and said a win could reshape Democratic electoral strategy; she also outlined organizing efforts targeting disenfranchised communities and candidates in Tennessee and Florida.[1][5] **Why it matters:** It expands her influence beyond New York and positions her as a national organizer for the progressive coalition while Democrats assess her possible 2028 presidential or Senate bid.\n\n- **Oct. 6 — Joined Gov. Kathy Hochul in opposing hyperscale data-center construction.** Ocasio-Cortez and Hochul promoted New York’s statewide construction pause, citing potential effects on water, land use, and energy costs.[2][4] **Why it matters:** The cooperation gives Ocasio-Cortez a cross-faction issue on which to build relationships with New York’s statewide Democratic leadership and local economic constituencies.\n\n- **Oct. 2 — Introduced the Ban Flock Act with Senators Bernie Sanders and Jeff Merkley.** The bill would address privacy concerns associated with Flock surveillance technology.[6][12] **Why it matters:** The bipartisan-chamber coalition reinforces her role in the progressive privacy and civil-liberties agenda, though the available reporting does not indicate immediate legislative action.\n\n- **Oct. 1 — Introduced legislation with Senate Minority Leader Chuck Schumer to restore health coverage for 450,000 New Yorkers.** The bicameral proposal places Ocasio-Cortez alongside a senior Democratic power broker on a major health-policy issue.[6][12] **Why it matters:** It strengthens her New York policy network and links her progressive profile to statewide constituent services and fiscal pressure over health coverage.\n\n- **Oct. 4–5 — Publicly weighed a 2028 presidential run against a Senate campaign or remaining in the House.** Coverage highlighted her view that the current period represents a significant political opportunity, while her comments on El-Sayed’s campaign offered further evidence of national positioning.[1][9][13] **Why it matters:** Her active involvement in out-of-state organizing and reported political resources increase her leverage within the Democratic succession and coalition-building debate, even though she has not announced a campaign."
+    },
+    {
+      "name": "Joe Rogan",
+      "domain": "Host, The Joe Rogan Experience",
+      "raw_news": "- **UFO claims amplified on *The Joe Rogan Experience* (September 30):** Former U.S. intelligence officer David Grusch reportedly told Rogan that a crash-retrieval incident involved “living reptilian” beings and deaths among U.S. personnel.[1] **Why it matters:** Rogan’s platform gives extraordinary and unverified claims substantial reach, reinforcing his role in shaping contested narratives within the information environment.\n\n- **Rogan attributed changing support for Donald Trump to the Iran war (October 3):** During a conversation on the *JRE MMA Show*, Rogan discussed the political effects of the conflict and argued that it was turning cultural sentiment against Trump.[9] **Why it matters:** The statement places Rogan directly in ongoing political interpretation and demonstrates his capacity to frame geopolitical events for a large audience.\n\n- **Gavin Newsom escalated his public criticism of Rogan (October 1–5):** California Gov. Gavin Newsom said Rogan was unwilling to host him for a debate, while describing Rogan as afraid to confront him publicly.[4][10] **Why it matters:** The dispute highlights Rogan’s gatekeeping power over political exposure: appearing on his podcast is treated as a consequential opportunity for national influence.\n\n- **Rogan warned about artificial intelligence’s future implications (October 7):** In a discussion with LL Cool J, Rogan said he feared AI could recognize the “folly of the human way.”[2] **Why it matters:** His comments contribute to high-reach public framing of AI risks, although the available reporting does not indicate a new policy or business action."
+    },
+    {
+      "name": "Marc Benioff",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "The most significant verified developments involving Marc Benioff from **September 30–October 7, 2026** are concentrated in Salesforce’s AI strategy and capital allocation:\n\n- **Salesforce promoted its AIforce platform at Dreamforce 2026**, presenting it as a unified interface combining generative AI with Salesforce’s enterprise data and applications; Benioff described the system as “untrapping” value from corporate data.[3] **Why it matters:** This reinforces Benioff’s effort to position Salesforce as an infrastructure layer for enterprise AI rather than merely a CRM vendor, increasing his influence over how businesses deploy autonomous agents.\n\n- **Salesforce disclosed or was reported to have spent roughly $27 billion on share repurchases in a single quarter**, as Benioff sought to counter concerns about an AI-driven “SaaSpocalypse.”[5] **Why it matters:** The unusually large buyback materially changes Salesforce’s balance sheet and signals Benioff’s confidence that capital markets will reward an aggressive transition toward AI platforms, despite the associated financial risk.\n\n- **Benioff said Salesforce’s investment in Anthropic could ultimately be worth “tens of billions,”** explaining that Salesforce pursued Anthropic after it was unable to invest in OpenAI.[4] **Why it matters:** The statement highlights Benioff’s attempt to secure strategic exposure to frontier AI while embedding Salesforce in the competitive and regulatory contest among major model providers.\n\n- **Salesforce expanded its AI product positioning at Dreamforce**, including Agentforce and related tools intended to connect autonomous agents with enterprise workflows, data, and software development.[3] **Why it matters:** The move gives Benioff a stronger platform for shaping the information and decision environment inside large organizations, while intensifying Salesforce’s role in debates over AI governance, accountability, and corporate dependence on proprietary platforms.\n\n- **Salesforce faced renewed calls from a Buddhist-led coalition to end contracts with U.S. Immigration and Customs Enforcement and support a pro-democracy business pledge.** The group said it delivered an open letter signed by more than 630 individuals and congregations.[1] **Why it matters:** The campaign directly challenges Benioff’s public positioning on social responsibility and democracy, creating reputational pressure around Salesforce’s government-business relationships and the political uses of its technology."
+    },
+    {
+      "name": "Matthew J. Kacsmaryk",
+      "domain": "US District Judge, Northern District of Texas",
+      "raw_news": "I could not verify **3–5 significant events involving Matthew J. Kacsmaryk between September 30 and October 7, 2026** from the available search results. The results show no clearly dated, substantive ruling, legal action, or major public statement by him during that window.\n\n- **No confirmed hard-news development found:** The available case-index results list a September 24 matter involving FedEx, outside the requested period, but no qualifying event through October 7.  \n  **Why it matters:** There is insufficient evidence of a recent development affecting Kacsmaryk’s judicial influence or position.\n\n- **His official court role remained unchanged:** The Northern District of Texas continued to list Kacsmaryk as the district judge for the Amarillo division as of October 7.  \n  **Why it matters:** This confirms continuity in his institutional position, but is routine administrative information rather than a substantive news event.\n\n- **No new evidence of a doctrinal or judicial-pipeline shift:** Search results surfaced older reporting about his role in abortion, LGBTQ-rights, and judge-shopping controversies, but those reports predate the requested seven-day period.  \n  **Why it matters:** Those earlier controversies remain relevant to his broader influence, but cannot be reported as recent events under the stated timeframe."
+    },
+    {
+      "name": "Lisa Su",
+      "domain": "Chair & CEO, AMD",
+      "raw_news": "- **AMD will substantially increase AI-chip supply in 2027.** Lisa Su said in Taipei on October 6 that demand for AI computing will remain very high for several years, with AMD increasing production and planning further expansion of CPU, GPU, and advanced-wafer capacity in 2027. **Why it matters:** The commitment positions Su as actively managing the supply bottleneck that could determine whether AMD converts surging AI demand into market share and revenue.[2][4][8]\n\n- **AMD’s Helios AI systems began shipping in the third quarter.** Su said AMD had started shipping its rack-scale Helios AI platform on schedule, with volumes expected to grow in coming quarters. **Why it matters:** Helios is central to AMD’s effort to compete with Nvidia at the full-system, data-center scale rather than only in individual accelerator chips.[2][4]\n\n- **Su made supply-chain capacity the focus of her Taiwan visit.** During meetings with manufacturing and packaging partners, she sought expanded capacity for AMD’s CPUs, GPUs, advanced wafers, memory, and AI-server components, which remain constrained across the industry. **Why it matters:** The visit highlights that AMD’s ability to challenge Nvidia depends not only on chip design but also on securing scarce manufacturing, packaging, and high-bandwidth-memory capacity.[4][8]\n\n- **Su pursued Korean AI-chip partnerships.** In Seoul on October 7, she met government officials and executives from 13 Korean AI companies to discuss pairing their inference processors with AMD CPUs and GPUs, while reaffirming plans for an AMD AI Center of Excellence in Korea by year-end. **Why it matters:** Such partnerships could broaden AMD’s inference ecosystem and provide local AI-chip companies with a route to global markets, strengthening AMD’s competitive position against Nvidia.[7]\n\n- **Su called for greater cooperation on AI safety.** While discussing AI’s potential benefits, Su said major technology companies should coordinate on safety and identified a recent AI summit involving U.S. President Donald Trump and technology executives as an important step. **Why it matters:** The statement expands Su’s influence from semiconductor competition into the emerging policy debate over AI governance and responsible deployment.[10]"
+    },
+    {
+      "name": "Miriam Adelson & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "The most significant verified development was **Miriam Adelson’s $25 million contribution to MAGA Inc.**, reported during the period as the super PAC prepared to fund advertising. The donation reinforces her position as one of the Republican Party’s most consequential individual financiers and expands the Adelson family’s role in Trump-aligned electoral infrastructure.[1]\n\n- **MAGA Inc. reported major fundraising and advertising plans.** The Trump-aligned super PAC raised nearly **$424.4 million** for the period ending August 31, 2026, with Adelson identified as its largest overall contributor after giving $25 million on May 5.[1]  \n  **Why it matters:** Her money is helping finance a centralized, high-scale operation capable of shaping Republican messaging and voter mobilization ahead of the 2026 elections.\n\n- **Adelson’s 2026 political giving was reported at approximately $67.6 million.** Her disclosed support included **$30 million for the Senate Leadership Fund, $25 million for MAGA Inc., and $10 million for the Congressional Leadership Fund**.[4][9]  \n  **Why it matters:** The distribution gives her influence across both Trump-aligned messaging and congressional Republican campaign infrastructure, rather than concentrating leverage in a single candidate or organization.\n\n- **Adelson family trusts continued restructuring their Las Vegas Sands holdings.** Recent securities filings described large, no-consideration transfers of Las Vegas Sands shares among Adelson family members and family trusts, including transfers reported by Miriam Adelson.[7][13]  \n  **Why it matters:** These transactions do not represent open-market sales, but they demonstrate continued family control and the formal consolidation or allocation of an asset base that underwrites the family’s broader influence.\n\n- **Forbes continued to list Miriam Adelson and family as controlling shareholders of Las Vegas Sands.** The family owns more than half of the publicly traded casino company, which retains major operations in Singapore and Macau.[2]  \n  **Why it matters:** Maintaining control of a large international gaming company preserves the family’s financial capacity and institutional platform, even as its most visible recent activity remains political rather than operational."
+    },
+    {
+      "name": "John Thune",
+      "domain": "Senate (SD, Republican)",
+      "raw_news": "- **Thune pressed Trump for more Republican campaign funding** in battleground Senate races, saying “resources” had dominated recent discussions with the president and his political team; he said Republicans could retain the Senate majority.[1][4][6] **Why it matters:** It places Thune at the center of the party’s national electoral-resource allocation and could affect his prospects in a post-election leadership contest.\n\n- **Thune campaigned with Republican Senate candidate Michele Tafoya in Minnesota**, including meetings with business leaders and an agricultural roundtable, as polling showed the race within the margin of error.[2] **Why it matters:** The appearance reflects Thune’s effort to protect a vulnerable Republican-held or Republican-targeted Senate map and strengthen the party’s coalition in a closely contested state.\n\n- **Thune said there was no clear path or consensus for advancing permanent daylight-saving-time legislation**, despite President Trump’s support, citing opposition within the Republican caucus.[3][5] **Why it matters:** The statement demonstrates Thune’s role as the Senate’s gatekeeper and highlights limits on presidential influence when he lacks sufficient Republican votes.\n\n- **Thune previewed a demanding post-election Senate agenda**, including government funding, a farm bill, another reconciliation package, permitting reform, and a nominations package.[11][13] **Why it matters:** Managing that agenda will test his ability to preserve Republican unity across fiscal policy, executive confirmations, and bipartisan legislation during the lame-duck period.\n\n- **Thune blamed Senate Democrats for blocking the Ratepayer Protection Act**, arguing the move was intended to deny Republicans an election-year legislative victory.[14] **Why it matters:** The confrontation reinforces Thune’s effort to frame Senate procedure as an electoral and coalition-management issue, while signaling continued partisan gridlock over energy and technology policy."
+    },
+    {
+      "name": "David Rubenstein",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "I found **no more than one potentially relevant hard-news item** in the September 30–October 7, 2026 window; the available results do not support a reliable list of 3–5 major developments.\n\n- **Rubenstein publicly warned about the U.S. debt burden and rising interest costs.** Recent syndicated coverage attributed statements to him that U.S. interest payments have become exceptionally large, including exceeding national-defense spending.[13] **Why it matters:** As Carlyle’s co-founder and co-chair, Rubenstein’s comments reinforce his influence as a prominent private-capital voice on fiscal policy and the macroeconomic risks affecting investment markets.[11][14]\n\nThe other results were routine interviews, book promotion, cultural appearances, background pages, or reports of a **September 11 Carlyle share sale**, which falls outside the requested period.[3][5][6][12]"
+    },
+    {
+      "name": "Henry Kravis",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No **well-sourced hard news directly involving Henry Kravis** was identified for September 30–October 7, 2026. The available results are insufficient to responsibly provide 3–5 verified items.\n\nThe closest relevant developments were:\n\n- **KKR affiliate received 63,654 shares of KKR Real Estate Select Trust on September 30 as management or incentive-fee compensation**, with Kravis and George Roberts identified as 10% owners of KKR Management LLP.[4] This is a routine disclosed insider/affiliate transaction, not evidence of a new personal capital-allocation decision by Kravis.\n\n- **KKR reportedly agreed to acquire Gen II Fund Services for more than $5 billion from Hg and General Atlantic on October 5.**[4] The result identifies a major KKR business move, but does not establish Kravis’s personal role, public statement, or influence over the transaction.\n\n- **KKR and Thomson Reuters reportedly completed a joint venture involving a global print business on October 1.**[4] This indicates continued portfolio activity by KKR, but the available information does not connect the transaction specifically to Kravis or show a change in his position.\n\nI excluded unsourced or poorly corroborated reports, including a claim that a digital-assets fund raised $125 million with Kravis’s backing, because the search results contain inconsistent publication dates and do not provide a sufficiently reliable primary or major-news source.[10]"
+    },
+    {
+      "name": "Paul Singer",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **South Korean lawmakers dropped Paul Singer as a planned witness.** On October 5, South Korea’s parliamentary committee withdrew its plan to summon the Elliott Management chairman for an October 8 audit after the legislator who requested his appearance withdrew the request. **Why it matters:** The decision reduces immediate political scrutiny of Elliott in South Korea, where the firm is also pursuing an investor-state arbitration claim against the government.[1]\n\n- **Elliott denied allegations of exerting control over Lille through its ownership of AC Milan.** On October 6, Elliott rejected an *L’Équipe* investigation alleging that the Singer family’s investment group exercised influence over Lille during the period when Lille and Milan competed in European tournaments; Elliott said it was only Lille’s financier and that UEFA had found no decisive control. **Why it matters:** The allegations could have raised regulatory and competitive-integrity questions about Elliott’s cross-club influence, while the denial seeks to protect the firm’s position in European football.[2]\n\n- **Elliott reportedly backed Air Liquide’s new margin-expansion and buyback strategy.** On October 6, the activist investor, which holds a significant stake, endorsed Air Liquide’s newly announced strategic plan. **Why it matters:** Support from Elliott signals alignment with management rather than an immediate escalation and gives the fund leverage to claim influence over capital allocation at a major European industrial company.[3]\n\n- **Singer remained one of the largest individual financial forces in the 2026 U.S. midterm cycle.** Recent campaign-finance reporting put his election-related giving at more than $53 million, including over $15 million to the newly created STW PAC, $14.5 million to the Senate Leadership Fund, and $8 million to the Congressional Leadership Fund. **Why it matters:** The scale and concentration of his giving strengthen Singer’s role in Republican congressional coalition-building and expand his influence over electoral infrastructure ahead of the midterms.[4]"
+    },
+    {
+      "name": "Lynda Resnick",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "The search found **one material development** involving Lynda Resnick during September 30–October 7, 2026; other results were routine recognition or older developments.\n\n- **The Wonderful Company ranked No. 72 on Fortune’s 2026 “100 Best Companies to Work For” list** on October 2, rising from No. 85 the previous year.[2]  \n  This reinforces Resnick’s influence as vice chair and co-owner of a major private agribusiness and consumer-brands company, though it does not represent a change in ownership or control.\n\n- **No verified hard-news event—such as a new acquisition, legal action, policy decision, or major public statement—was identified for Lynda Resnick in the search window.** The prominent September 30–October 7 results mainly recirculated earlier philanthropy, political giving, water-rights reporting, and the Technion sustainability-center project.[1][3][5][6]  \n  Accordingly, there is no substantiated evidence in the available results of a significant change in Resnick’s financial position, corporate authority, or political influence during the past seven days."
+    },
+    {
+      "name": "Brett M. Kavanaugh",
+      "domain": "Associate Justice, US Supreme Court",
+      "raw_news": "The most significant Kavanaugh-related developments from **September 30–October 7, 2026** were political scrutiny of his rulings and one notable Supreme Court procedural dissent.\n\n- **President Donald Trump said he regretted nominating Kavanaugh**, along with Justices Neil Gorsuch and Amy Coney Barrett, complaining that they had voted against him too often in recent cases.[13] This highlights the Court’s institutional independence from Trump and may reinforce Kavanaugh’s influence as a conservative justice who does not consistently support the administration’s policies.\n\n- **Kavanaugh said he would have voted to hear Sunoco Inc. v. Cline**, while the Court declined review after Justice Samuel Alito recused himself, leaving intact an approximately $100 million class-action judgment against Sunoco.[2] His position places him apart from the other participating conservative justices on a significant corporate-liability dispute and may signal an active role in shaping the Court’s approach to business litigation.\n\n- **Kavanaugh’s role in the Court’s conservative doctrinal shift was again central to political debate**, particularly during scrutiny of Senator Susan Collins’s 2018 confirmation vote and his later participation in the decision overturning *Roe v. Wade*.[5][14] The renewed controversy demonstrates that Kavanaugh remains a key symbol of the Court’s post-2018 realignment and a major issue in the 2026 electoral debate.\n\n- **The Supreme Court began its October 2026 term**, bringing Kavanaugh into a new docket that includes major disputes affecting executive power, federal policy, and corporate accountability.[10] The term offers Kavanaugh further opportunities to determine whether the Court’s conservative majority expands or limits recent doctrinal changes, especially when he diverges from the administration or other conservatives."
+    },
+    {
+      "name": "Leon Black",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "The most significant recent development was the **House’s contempt action over Leon Black’s refusal to cooperate with the Jeffrey Epstein investigation**; no new major capital-allocation or investment announcement involving Black was identified in the available reporting for September 30–October 7, 2026.\n\n- **House contempt proceedings remained the central legal development.** The House voted to hold Black in contempt after he declined to appear for a sworn deposition and resisted subpoenas seeking documents related to his relationship with Jeffrey Epstein.[3][14] **Why it matters:** The action escalates congressional and potential Justice Department scrutiny of Black, further weakening his public influence despite his continuing wealth and Apollo stake.\n\n- **Black continued challenging congressional demands in court.** He filed a federal lawsuit seeking to block the subpoenas and resisted turning over nondisclosure agreements sought by the House Oversight Committee.[2][10] **Why it matters:** The litigation puts Black’s legal strategy—and his ability to control information about his private relationships and payments—at the center of a high-profile institutional confrontation.\n\n- **MoMA faced renewed pressure over Black’s continued trustee status.** Protesters demonstrated outside the museum on October 6, criticizing the institution for retaining Black as a board member amid scrutiny of his Epstein ties.[4] **Why it matters:** The campaign threatens one of Black’s most visible remaining platforms for cultural influence and increases pressure on institutions associated with him to distance themselves.\n\n- **Black’s ongoing financial position remained tied substantially to Apollo.** Bloomberg reported that he still owns roughly 14% of Apollo’s common units directly and through trusts, while Apollo manages more than $1 trillion in assets.[8] **Why it matters:** Although he no longer runs Apollo, that retained ownership preserves significant economic influence over—and exposure to—the private-markets firm he co-founded."
+    }
+  ],
+  "ps_assemblies_fired": {
+    "DPS-01": [
+      "CA-027",
+      "CA-018",
+      "CA-030",
+      "CA-006",
+      "CA-049"
+    ],
+    "DPS-04": [
+      "CA-013",
+      "CA-009",
+      "CA-032"
+    ],
+    "DPS-07": [
+      "CA-024",
+      "CA-058",
+      "CA-070"
+    ],
+    "DPS-09": [
+      "CA-057",
+      "CA-154",
+      "CA-184"
+    ]
+  },
+  "assemblies_spontaneous": [
+    "CA-010",
+    "CA-042"
+  ],
+  "neurons_conscious": [
+    "Pam Bondi",
+    "Donald Trump",
+    "Robert F. Kennedy Jr.",
+    "Kevin Roberts",
+    "Charles E. Schumer",
+    "Ted Cruz",
+    "Palmer Luckey",
+    "Elon Musk",
+    "Bill Gates",
+    "Kelcy Warren"
+  ],
+  "neurons_spontaneous": [
+    "Alexandria Ocasio-Cortez",
+    "Joe Rogan",
+    "Marc Benioff",
+    "Matthew J. Kacsmaryk",
+    "Lisa Su",
+    "Miriam Adelson & family",
+    "John Thune",
+    "David Rubenstein",
+    "Henry Kravis",
+    "Paul Singer",
+    "Lynda Resnick",
+    "Brett M. Kavanaugh",
+    "Leon Black"
+  ],
+  "neurons_skipped": [
+    "Mark Zuckerberg",
+    "Jerome H. Powell",
+    "Clarence Thomas",
+    "Jeff Bezos",
+    "Susie Wiles",
+    "Neil M. Gorsuch",
+    "Tim Cook",
+    "Scott Bessent",
+    "Andy Jassy",
+    "Sundar Pichai",
+    "Satya Nadella",
+    "Stephen Schwarzman",
+    "Leonard Leo",
+    "Pete Hegseth",
+    "Sonia Sotomayor",
+    "Sam Altman",
+    "Peter Thiel",
+    "Larry Ellison",
+    "Marc Rowan",
+    "Russell M. Nelson",
+    "Michael Bloomberg",
+    "Jensen Huang",
+    "Kash Patel",
+    "Amy Coney Barrett",
+    "Charles Koch & family",
+    "Ketanji Brown Jackson",
+    "Ken Griffin",
+    "Gavin Newsom",
+    "Sean Hannity",
+    "Samuel A. Alito Jr.",
+    "Thomas Kurian",
+    "Mustafa Suleyman",
+    "Terrence Pegula",
+    "John G. Roberts Jr.",
+    "Ken Langone",
+    "Rob Walton & family",
+    "Richard Uihlein",
+    "Laurene Powell Jobs",
+    "Susan M. Collins",
+    "Stephen Ross",
+    "Abigail Johnson",
+    "Judy Faulkner",
+    "Jerry Jones & family",
+    "Bob Parsons",
+    "Jim Walton & family",
+    "David Geffen",
+    "Eric Schmidt",
+    "Stanley Druckenmiller",
+    "Chuck Grassley",
+    "Fred Smith",
+    "David Tepper",
+    "Alice Walton",
+    "Ray Dalio",
+    "Brian Armstrong",
+    "Paul Tudor Jones, II.",
+    "J.B. Pritzker",
+    "Elena Kagan",
+    "Lukas Walton",
+    "Pierre Omidyar",
+    "Michael Rubin",
+    "Jeff Yass",
+    "Marijke Mars",
+    "Julia Koch & family",
+    "John Malone",
+    "Tom Cotton",
+    "Ronald Lauder",
+    "Philip Anschutz",
+    "George Roberts",
+    "Brian Chesky",
+    "Jeremy Jacobs, Sr. & family",
+    "Brian Ballard",
+    "Ann Walton Kroenke",
+    "MacKenzie Scott",
+    "Charles Schwab",
+    "Michael Dell",
+    "Steve Scalise",
+    "Mitchell Rales",
+    "Ron DeSantis",
+    "Melinda French Gates",
+    "Suzanne Clark",
+    "Mitch McConnell",
+    "David Bonderman",
+    "Warren Buffett",
+    "Rupert Murdoch & family",
+    "Josh Harris",
+    "Larry Page",
+    "Greg Abbott",
+    "Stephen Feinberg",
+    "Mike Lee",
+    "Sergey Brin",
+    "Steve Cohen",
+    "Phil Knight & family",
+    "Carl Icahn",
+    "Thomas Peterffy",
+    "William Ackman",
+    "Victoria Mars",
+    "Patty Murray",
+    "John Mars",
+    "Hakeem S. Jeffries",
+    "Rick Scott",
+    "Cynthia M. Lummis",
+    "Carrie Severino",
+    "Christopher Murphy",
+    "Charlie Kirk",
+    "Richard J. Durbin",
+    "George Soros",
+    "Thomas Frist, Jr. & family",
+    "Bret Taylor",
+    "Jonathan Gray",
+    "Stewart Resnick",
+    "Edward Johnson, IV.",
+    "Thomas Pritzker",
+    "Lynn Schusterman & family",
+    "Josh Hawley",
+    "Alex Karp",
+    "Alexander Karp",
+    "Len Blavatnik",
+    "Demis Hassabis",
+    "Lindsey Graham",
+    "Antony Ressler",
+    "Elise M. Stefanik",
+    "Mark Walter",
+    "Dario Amodei",
+    "Daniela Amodei",
+    "Christy Walton",
+    "Donald Newhouse",
+    "Ernest Garcia, III"
+  ],
+  "spontaneous_cap": 13
+}
