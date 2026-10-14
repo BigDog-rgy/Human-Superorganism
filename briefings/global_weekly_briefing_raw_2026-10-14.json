@@ -1,0 +1,700 @@
+{
+  "scope": "global",
+  "week_start": "2026-10-07",
+  "week_end": "2026-10-14",
+  "ps_news_items": [
+    {
+      "id": "PS-01",
+      "name": "NATO-Russia Confrontation Arc",
+      "summary": "NATO moved from general deterrence messaging toward publicly articulating an operational concept—“block, blunt and break”—for responding to a possible Russian attack, while integrating drones, AI, and conventional forces into eastern-flank defense planning.[1][3] The alliance also reinforced political-military cohesion through a 32-nation delegation to Kyiv focused on air defense, battlefield lessons, and Russian hybrid activity.[2] Russia’s campaign against NATO-supporting states—sabotage, cyberattacks, disinformation, and potential strikes on military infrastructure and communications—remained the principal escalation channel short of conventional war.[1][6] Continued missile and drone attacks on Ukrainian logistics and infrastructure, alongside reported lethal drone incidents affecting NATO waters and Black Sea trade, increased pressure for stronger allied support and maritime protection.[4][7]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "PS-02",
+      "name": "US-China Strategic Rivalry",
+      "summary": "The week showed **high but mixed momentum**: Washington and Beijing formalized a partial trade de-escalation, with tariff reductions, Chinese critical-mineral export licensing, and a one-year suspension of some U.S. technology restrictions, while major structural disputes remained unresolved.[2] Taiwan stayed central, as Beijing condemned President Lai’s National Day address and Washington continued weighing a potential \\$14 billion arms package, reportedly using it as leverage in dealings with China.[1][3][6] Military signaling also intensified, with China’s Liaoning carrier moving into the Pacific as U.S. and Japanese forces prepared expanded exercises near Taiwan, while Taiwan pursued additional maritime surveillance capabilities.[4] Overall, economic tensions temporarily eased, but military and Taiwan-related competition sharpened.\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "PS-03",
+      "name": "Indo-Pacific Security Architecture Build-Out",
+      "summary": "The week showed **moderate-to-high momentum** in Indo-Pacific security-network construction. Quad officials coordinated on cyber defense and regional resilience, while the US and Japan agreed to deepen Quad-linked cooperation on maritime security, strategic infrastructure, critical minerals, and assistance to Southeast Asian and Pacific partners.[2][10] Australia simultaneously expanded operational interoperability through Bersama Lima with the UK, Singapore, Malaysia, and New Zealand, and launched the sizable Keris Woomera exercise with Indonesia, including amphibious forces, HIMARS, maritime, air, and information capabilities.[3][4] The activity broadened the architecture beyond formal alliances, although Washington reportedly ruled out adding India or Japan to AUKUS, preserving a layered rather than fully integrated structure.[1]\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "PS-04",
+      "name": "Semiconductor and Compute Chokepoint Control",
+      "summary": "The United States tightened semiconductor export controls, expanding licensing requirements for advanced chips and manufacturing equipment, adding 13 entities to the Entity List, and extending restrictions extraterritorially to some non-U.S. foundries supplying listed parties.[1][5] TSMC’s adoption of ASML High-NA EUV systems reinforced the concentration of leading-edge fabrication around the TSMC–ASML technology relationship.[2] ASML’s reported order momentum, higher 2026 guidance, and planned EUV-capacity expansion point to equipment scarcity becoming an increasingly important chokepoint as AI demand accelerates.[7][8] Overall, the week showed strong strategic momentum: Washington widened controls while the leading commercial actors deepened dependence on a narrow advanced-manufacturing base.\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "PS-05",
+      "name": "Frontier AI Power Struggle",
+      "summary": "Meta entered the frontier-model race with Muse Wonder and Muse Wonder Full, trained on its gigawatt-scale Prometheus data center, intensifying competition with OpenAI, Anthropic, and Google.[5][6] Singapore updated its national AI strategy and deepened partnerships with Google and OpenAI, signaling stronger state-level coordination around frontier deployment, workforce, and secure infrastructure.[2] Compute and export-control tensions remained central: offshore chip leasing and alleged transshipment highlighted efforts to circumvent U.S.–China restrictions, while debate over controlling access to models underscored unresolved legal and governance boundaries.[1][3][4] Overall, the week showed meaningful momentum through a major corporate model launch and expanded sovereign-AI alignment, but no clear regulatory breakthrough.\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "PS-06",
+      "name": "Global Monetary Order and Financial Architecture Stress",
+      "summary": "The week showed **continued monetary fragmentation rather than a decisive regime shift**. The IMF’s annual-meetings messaging highlighted synchronized inflation pressure from energy and AI-related factors, with the Fed, ECB, and BOJ maintaining or signaling restrictive policy paths—raising the risk of global debt and refinancing stress.[1] U.S. liquidity plumbing remained structurally supportive: the Fed’s post-QT reserve-management purchases were expanding its balance sheet and cushioning bank reserves, while China and Japan pursued more localized liquidity interventions.[2] China’s renminbi also strengthened to its firmest level since February 2023, suggesting greater exchange-rate confidence but not yet a major breakthrough in international monetary displacement.[3] IMF and BIS discussions increasingly centered on systemic vulnerabilities from debt, AI, cyber risk, and evolving digital-money architecture, indicating mounting stress around the broader financial system rather than a concrete redesign of dollar dominance.[4][5]\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "PS-07",
+      "name": "Energy Market Statecraft and Transition Contestation",
+      "summary": "OPEC+ maintained November oil-production targets at September levels, extending its pause on quota increases and preserving roughly 2 million barrels per day of cuts amid Middle East supply disruptions.[1][4][6] The decision reinforces Saudi-Russian coordination and delays meaningful quota restructuring until a capacity review can establish 2027 baselines.[6][10] Conflict-driven constraints mean formal quotas currently matter less than actual Gulf export capacity, while the broader market remains exposed to geopolitical supply risk.[7] No comparable new LNG, critical-minerals, sovereign-fund, or climate-industrial policy move was identified in the available coverage.\n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "PS-08",
+      "name": "Sanctions, Countersanctions, and Geoeconomic Decoupling",
+      "summary": "The EU adopted its largest-ever Russia sanctions expansion on October 12, listing more than 1,500 individuals and entities tied to Russia’s defense-industrial supply chains, including electronics, semiconductors, aviation, radar, and satellite systems.[1][2] China responded to new U.S. trade restrictions with export controls on drones and key components, blacklists against six U.S. companies, and compliance-related countermeasures—deepening the sanctions-and-countersanctions cycle.[5] U.S. implementation deadlines are approaching for legislation authorizing tariffs of up to 500% on Russian goods and up to 100% on goods from major purchasers of Russian energy, increasing pressure for secondary-sanctions avoidance and supply-chain realignment.[8][10] Friend-shoring and reshoring continued to gain institutional momentum in semiconductors, batteries, and electric vehicles as governments and firms redirected investment toward politically aligned production hubs.[4][7]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "PS-09",
+      "name": "Information Ecosystem and Narrative Control",
+      "summary": "OpenAI disclosed and shut down Russian and Iranian influence operations that used AI-generated journalist personas and a covert think tank to seed anti-Ukraine narratives, highlighting the industrialization of synthetic influence campaigns.[1] Türkiye’s internet-censorship regime faced renewed scrutiny as Human Rights Watch called for repeal of executive-ordered blocking powers under Article 8/A.[4] In the United States, analysts warned that reduced federal counter-disinformation efforts are coinciding with continuing Russian, Chinese, and Iranian attempts to shape the 2026 midterms.[6] Australia’s proposed requirement that platforms let users opt out of algorithmic feeds also triggered a U.S. censorship objection, signaling intensifying conflict over algorithmic control and platform accountability.[2]\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "PS-10",
+      "name": "Authoritarian Axis Consolidation",
+      "summary": "Russia and China advanced plans to integrate strategic maritime corridors, linking the Northern Sea Route with China’s Maritime Silk Road to reduce exposure to sanctions and improve trade resilience.[1] Russia and Iran also pushed deeper economic connectivity through the first Iran–Russia Trade Development Summit in Anzali, centered on the International North–South Transport Corridor, Caspian logistics, energy, and alternative payment mechanisms.[5] Within the Russia-led security architecture, the CSTO promoted tighter coordination with the CIS and SCO, including a joint security conference on Central Asia and Afghanistan and planned decisions to strengthen collective security mechanisms.[7] China’s Liaoning carrier-group deployment and the impending opening of the China–North Korea New Yalu River Bridge added military and infrastructure signals of wider aligned-state coordination.[9]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "PS-11",
+      "name": "Middle-Power and Global South Realignment",
+      "summary": "GCC states signaled deeper economic and financial integration with China and wider Asian partners, including cross-border payments, capital-market links, joint investment platforms, and diversified trade routes.[1][2][3] BRICS finance officials backed local-currency settlements, cross-border payment systems, and stronger emerging-market representation in the IMF and World Bank, reinforcing institutional rather than purely rhetorical realignment.[4] India also pushed expanded India–CELAC cooperation in technology, pharmaceuticals, critical minerals, energy, agriculture, and trade agreements, while framing the relationship as part of a more representative global order.[5] Overall, the week showed converging Gulf, BRICS, and India–Latin America efforts to reduce dependence on Western-centered financial and trade channels, though no single breakthrough alliance or binding monetary mechanism emerged.\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "PS-12",
+      "name": "Western Institutional Cohesion and Democratic Strain",
+      "summary": "The week showed **moderate but mostly cumulative strain** rather than a decisive institutional rupture. EU governments adopted conclusions aimed at rebuilding citizen participation and trust, signaling that democratic disengagement is now being treated as a formal resilience challenge.[10] At the same time, analyses highlighted deepening transatlantic value divergence under the Trump administration, persistent EU institutional paralysis, and continued friction over NATO burden-sharing.[1][2][3] The AfD’s potential path toward state-level power in Germany underscored the risk that populist gains could obstruct EU decision-making and defense cooperation.[4]\n\n6",
+      "activation_score": 6
+    }
+  ],
+  "assembly_news_items": [
+    {
+      "id": "CA-032",
+      "name": "NATO Heads of State and Government Summit",
+      "ps_memberships": [
+        "PS-01",
+        "PS-12"
+      ],
+      "raw_news": "NATO’s top military commander publicly outlined the alliance’s Russia contingency concept—“block, blunt and break”—while saying direct war was not imminent or inevitable; the disclosure was intended to reinforce allied confidence amid Russian sabotage, cyberattacks and disinformation.[1] NATO’s 2026 Ankara summit agenda centers on implementing the pledge to raise defense spending to 5% of GDP by 2035, expand defense-industrial production and sustain support for Ukraine.[2] Washington is also organizing a restricted group of NATO states—excluding the United Kingdom, France and the Baltic countries—to discuss the alliance’s future and burden-sharing, prompting warnings that the format could deepen internal divisions.[7]"
+    },
+    {
+      "id": "CA-192",
+      "name": "DPRK–Russia Military-Technical Cooperation Framework",
+      "ps_memberships": [
+        "PS-01",
+        "PS-10"
+      ],
+      "raw_news": "South Korea’s intelligence service assessed that North Korea had shipped more than one million artillery shells to Russia since August and dispatched weapons specialists to advise on their use, deepening the operational dimension of the bilateral arms relationship.[5]\n\nThe same assessment indicated that Moscow may be providing conventional military assistance, including help for North Korean fighter modernization and its military reconnaissance-satellite program.[5] Ukrainian President Volodymyr Zelenskyy separately stated that Russia had shared jet-powered drone technology with Pyongyang in exchange for North Korean missiles.[2][8]\n\nThe EU responded on October 12 by sanctioning three individuals and four organizations tied to North Korea’s nuclear and missile programs and alleged Russia-linked arms-for-oil, labor, and commercial networks, signaling a move to disrupt the cooperation’s supporting infrastructure.[10]"
+    },
+    {
+      "id": "CA-118",
+      "name": "Supreme State Council of the Union State of Russia and Belarus",
+      "ps_memberships": [
+        "PS-01",
+        "PS-10"
+      ],
+      "raw_news": "The Supreme State Council’s reported October agenda included seven integration measures, notably cross-border suburban rail, a Union State Committee on Standardization and Quality, and coordinated support in international law.[6] These steps would deepen administrative and economic integration, while the Council of Ministers’ parallel decisions advanced Union State goods, a unified electricity market, transport links, and preparation of a common agricultural policy.[3][8] Lukashenko also reaffirmed that intensive Minsk–Moscow cooperation and joint projects demonstrate the continuing relevance of building the Union State.[4] The EU meanwhile adopted a new measure implementing restrictive actions over Belarus’s involvement in Russia’s war against Ukraine, reinforcing the confrontation between the Union State bloc and European institutions.[7]"
+    },
+    {
+      "id": "CA-030",
+      "name": "Office of the Secretary of Defense (OSD)",
+      "ps_memberships": [
+        "PS-01",
+        "PS-02",
+        "PS-03"
+      ],
+      "raw_news": "The Pentagon is advancing a **“deterrence by denial”** posture against China along the First Island Chain, with Under Secretary of Defense for Policy Elbridge Colby emphasizing stronger regional military capabilities and allied burden-sharing under the 2026 National Defense Strategy.[1]\n\nOSD is also implementing a Europe force-posture review intended to shift primary responsibility for conventional NATO defense toward European allies while retaining the United States as the alliance’s nuclear guarantor and strategic backstop.[2]\n\nThe review is already associated with U.S. troop reductions in Germany, Romania, and Estonia, potentially altering NATO’s conventional balance vis-à-vis Russia.[2]\n\nSeparately, Hegseth is creating a Pentagon Office of Religious Affairs, a significant organizational change in the department’s internal policy apparatus but one with less direct effect on the three specified geopolitical theaters.[4]"
+    },
+    {
+      "id": "CA-086",
+      "name": "United States European Command (USEUCOM)",
+      "ps_memberships": [
+        "PS-01"
+      ],
+      "raw_news": "Gen. Alexus Grynkewich, commander of USEUCOM and NATO’s Supreme Allied Commander Europe, unveiled a “block, blunt, break” concept for responding to a Russian attack: halt an invasion at the border, strike advancing forces, and dismantle their logistics and command networks while avoiding wider strategic escalation.[1][2] He also said NATO is “ready to fight tonight” and would use land, sea, air, autonomous systems, and other force to deny an attacker the ability to seize and hold territory.[1][4] Separately, USEUCOM began reorganizing the Security Assistance Group–Ukraine and transferring its functions to an unnamed NATO member, while stating that U.S. military aid to Ukraine would continue.[5]"
+    },
+    {
+      "id": "CA-108",
+      "name": "TSMC Board of Directors",
+      "ps_memberships": [
+        "PS-02",
+        "PS-04"
+      ],
+      "raw_news": "TSMC’s board authorized roughly **US$31.3 billion** for advanced manufacturing capacity and up to **US$20 billion** in capital injections into TSMC Arizona, reinforcing the company’s strategic shift toward expanding leading-edge production in the United States.[1] The move strengthens U.S. leverage over advanced-chip supply chains while reducing reliance on Taiwan-based capacity amid the U.S.-China semiconductor rivalry. The board also approved senior executive promotions across planning, quality, R&D, and intelligent manufacturing, consolidating leadership for the expansion.[1] No other major TSMC board decision or geopolitical action was reported during October 7–14 beyond these investment and organizational measures."
+    },
+    {
+      "id": "CA-164",
+      "name": "ROC National Security Council",
+      "ps_memberships": [
+        "PS-02",
+        "PS-03"
+      ],
+      "raw_news": "Taiwan’s National Security Council publicly signaled expanding cooperation with the United States ahead of the Trump–Xi summit, including continued security cooperation, high-technology supply-chain coordination, and a potential US$14 billion arms package.[1] NSC Deputy Secretary-General Vincent Chao said Taiwan aims to raise defense spending to 5% of GDP by 2030, strengthen asymmetric capabilities, and deepen cooperation with India on cybersecurity, drones, artificial intelligence, and supply-chain resilience.[6] Taiwan also assessed that China is increasingly practicing blockade and air-sea control operations around the island, with military planning incorporating lessons from Ukraine and the Iran conflict.[9]"
+    },
+    {
+      "id": "CA-003",
+      "name": "CCP Politburo",
+      "ps_memberships": [
+        "PS-02",
+        "PS-03",
+        "PS-10"
+      ],
+      "raw_news": "The CCP Politburo chaired by Xi Jinping decided to convene the Central Committee’s fifth plenary session in Beijing on October 26–29, focusing on “full and rigorous” Party self-governance and discipline—an internal power-consolidation move ahead of major political and diplomatic activity.[4][10]  \n\nPolitburo member Wang Yi held the China-France Strategic Dialogue on October 10, reaching agreement with Paris on deepening strategic cooperation and emphasizing China-EU management of trade disputes through dialogue and multilateralism.[1][2] He is also scheduled to represent Xi at the October 15 CICA summit in Azerbaijan and visit Azerbaijan, Croatia, Montenegro, and Bulgaria, extending China’s diplomatic outreach across Eurasia and southeastern Europe.[3]"
+    },
+    {
+      "id": "CA-025",
+      "name": "State Council of the People's Republic of China",
+      "ps_memberships": [
+        "PS-02",
+        "PS-04",
+        "PS-07",
+        "PS-08"
+      ],
+      "raw_news": "The State Council’s most consequential recent move was an economic-support package aimed at stabilizing growth: officials pledged stronger countercyclical adjustment, more effective use of local-government debt quotas, recalibrated monetary tools, and expanded relending for technological upgrading, agriculture, and small businesses.[2][7]  \n\nThe cabinet also advanced semiconductor self-reliance by issuing revised protections for integrated-circuit layout designs, with rules on licensing, ownership, and infringement enforcement taking effect October 15; the measure supports domestic commercialization but does not itself impose new export controls.[6]  \n\nDuring talks with Vietnam, Premier Li Qiang offered greater Chinese market access for Vietnamese goods and deeper cooperation on trade and quarantine, while supporting expanded railway connectivity—an economic-diplomatic initiative that strengthens China’s regional influence.[1][4]"
+    },
+    {
+      "id": "CA-210",
+      "name": "AMD Executive Leadership Team",
+      "ps_memberships": [
+        "PS-04"
+      ],
+      "raw_news": "AMD CEO Lisa Su announced plans to invest **tens of billions of dollars** in the company’s supply chain and substantially increase chip output in 2027, as AI demand continues to exceed capacity.[1][2] AMD is extending supplier planning horizons from one–two years to three–five years to coordinate expansion across advanced wafers, packaging, CPUs, GPUs, and memory.[2][7] During meetings with Samsung and SK Hynix leadership, Su pursued stronger Korean cooperation on AI semiconductors, HBM, and potentially Samsung foundry production, reinforcing AMD’s reliance on Asian supply-chain partners.[8][10] Su also described Taiwan as “very, very critical” to AMD and the global semiconductor supply chain, underscoring the company’s exposure to Taiwan Strait-related disruption.[1][2]"
+    },
+    {
+      "id": "CA-335",
+      "name": "EU Chips Act Industrial Advisory Group",
+      "ps_memberships": [
+        "PS-04"
+      ],
+      "raw_news": "The most significant development was the EU Council’s 12–13 October examination of a presidency compromise text for Chips Act 2.0, moving the revision into active intergovernmental negotiation.[7] The process builds on the Industry Advisory Group’s 11 recommendations, including broader support across the semiconductor value chain, stronger demand for European chips, and improved scale-up financing.[3] ASML’s leadership simultaneously warned that Europe bought no ASML chipmaking systems in the latest quarter because new fabs are not being built, increasing pressure for the EU to convert Chips Act 2.0 into credible investment incentives.[2] These developments sharpen the power struggle over whether European semiconductor sovereignty will rely on regulatory coordination alone or materially stronger state-backed industrial support."
+    },
+    {
+      "id": "CA-112",
+      "name": "Semiconductor Industry Association (SIA)",
+      "ps_memberships": [
+        "PS-04",
+        "PS-08"
+      ],
+      "raw_news": "SIA’s most significant recent move was its opposition to proposed CHIPS Act “guardrails” that would restrict China-related investment by subsidy recipients, arguing that the definition of “significant renovation” exceeds the statute and narrows a congressional exemption.[4] The position challenges efforts to tighten outbound technology and capital controls while preserving industry flexibility in China. No other clearly verified SIA decision, alliance, or organizational action from October 7–14, 2026 emerged in the available results; several export-control reports cited were historical material merely updated during the period.[1][3]"
+    },
+    {
+      "id": "CA-091",
+      "name": "G7 Finance Ministers and Central Bank Governors",
+      "ps_memberships": [
+        "PS-06",
+        "PS-08"
+      ],
+      "raw_news": "No clearly verified **October 7–14, 2026** hard-news decision by G7 finance ministers and central bank governors appears in the available results. The reporting indicates the group’s Bangkok meeting was scheduled for October 15, after the requested window, while South Korea was invited as a guest—its second G7 finance-ministers invitation of 2026, signaling expanded outreach to non-G7 partners.[2][3] The only substantive policy report in the results concerns an earlier Washington meeting, where G7 officials backed full and prompt bank disclosure of risk exposures within 100 days and reaffirmed cooperation on financial stability and price stability.[5]"
+    },
+    {
+      "id": "CA-102",
+      "name": "World Trade Organization (WTO)",
+      "ps_memberships": [
+        "PS-08"
+      ],
+      "raw_news": "The WTO raised its 2026 merchandise-trade growth forecast on October 8, citing stronger-than-expected trade linked to the AI boom despite tariffs, the Iran war, and disruption around the Strait of Hormuz.[3] Director-General Ngozi Okonjo-Iweala said 72% of global goods trade still occurs on most-favoured-nation terms, while warning that tariffs and geopolitical shocks are straining the rules-based system.[2] WTO members remained deadlocked over post-ministerial negotiations and dispute-settlement reform, with the General Council urging more concrete reform proposals but recording no major breakthrough.[1] Madagascar also launched a safeguard investigation into imported sugar and chocolate confectionery, adding a new protectionist trade action to the WTO agenda.[4]"
+    },
+    {
+      "id": "CA-123",
+      "name": "Telegram Messenger",
+      "ps_memberships": [
+        "PS-09"
+      ],
+      "raw_news": "Russia escalated pressure on Telegram: Roskomnadzor began slowing and restricting access, while authorities promoted the state-backed Max messenger as an alternative, citing Telegram’s alleged failure to curb fraud and criminal activity.[1]\n\nOn October 14, Russia’s Federal Security Service charged Pavel Durov with facilitating terrorism and issued an international arrest warrant, alleging Telegram channels and bots were used by Ukrainian services and extremist groups to coordinate attacks and fraud.[2]\n\nThe moves deepen Moscow’s effort to displace Telegram from Russia’s information ecosystem and shift users toward a state-supported communications platform. Russian officials also accused Telegram of refusing to cooperate on drug-propaganda investigations and ignoring large numbers of content-removal requests.[6]",
+      "spontaneous": true
+    },
+    {
+      "id": "CA-149",
+      "name": "Ares Management Corporation Executive Committee",
+      "ps_memberships": [],
+      "raw_news": "Ares Management’s most significant move was its acquisition of a significant minority stake in Statera Energy’s 1.9 GW UK portfolio of storage and flexible-generation assets, its first European infrastructure-equity investment.[1][3] The transaction gives Ares a long-term position in critical UK energy-flexibility infrastructure while Statera retains operational control.[3] No other major executive-committee decision, leadership change, alliance, or policy-position announcement was identified in the available reporting for October 7–14, 2026.",
+      "spontaneous": true
+    }
+  ],
+  "news_items": [
+    {
+      "name": "Andrei Belousov",
+      "domain": "Russia / Minister of Defense",
+      "raw_news": "- **Baltic confrontation:** On October 14, Belousov awarded the commander of the Baltic Fleet corvette *Soobrazitelny* after its crew fired signal flares at a Danish military helicopter in international waters.[2] This publicly rewards a coercive encounter with a NATO member and strengthens Belousov’s role in signaling Russia’s willingness to contest NATO activity in the Baltic.\n\n- **CIS defense coordination:** Belousov arrived in Kyrgyzstan for a CIS defense-ministers’ meeting focused on military cooperation and coordinating joint armed-forces activities for 2027.[1] The initiative expands Moscow’s institutional military influence across the post-Soviet space and reinforces Belousov’s position as the coordinator of Russia’s regional security bloc.\n\n- **China-linked military alignment:** Belousov participated in Russia’s Center-2026 exercises, which involved Chinese and other foreign forces, with the drills’ NATO-related messaging including warnings over access to Kaliningrad.[4][6] His association with the exercise links Russia’s defense leadership to deepening military cooperation with China while supporting the Kremlin’s confrontation narrative toward NATO.\n\n- **Belarus security ties:** Belousov traveled to Minsk for talks with Belarusian Defense Minister Viktor Khrenin amid discussions involving security and tactical-nuclear-weapons drills.[9] This reinforces Russia’s defense integration with its closest European military ally and gives Belousov a central role in managing the Belarus theater of the NATO-Russia confrontation."
+    },
+    {
+      "name": "Valery Gerasimov",
+      "domain": "Russia / Chief of the General Staff of the Russian Armed Forces",
+      "raw_news": "- **Ukraine buffer-zone expansion ordered:** Gerasimov said on October 14 that Putin had ordered an expansion in 2026 of Russia’s claimed “buffer zone” into Ukraine’s Sumy and Kharkiv regions, while reporting advances by the Northern Grouping.[2] This ties Gerasimov directly to the Kremlin’s forward strategy and signals continued pressure along NATO’s eastern flank.\n\n- **Front-line command visit near Pokrovsk:** Gerasimov inspected Russian units and command positions in the Donetsk region amid operations around Pokrovsk and Chasiv Yar.[8] The visit reinforced his role as the Kremlin’s senior operational overseer despite persistent speculation about his dismissal.\n\n- **Expanded military-technology priorities:** Gerasimov said Russia would increase investment in drones, ground robots, artificial intelligence, space, and information warfare, and suggested enemy economic and non-military government targets could be attacked in wartime.[7] The statement broadens Russia’s declared conflict model and strengthens his influence over long-term force modernization and escalation doctrine.\n\n- **Reported battlefield gains presented to Putin:** Gerasimov briefed Putin on Russian territorial gains and the effects of strikes against Ukraine’s military industry and infrastructure during a senior command meeting.[9] Publicly associating him with claimed battlefield progress supports his continued retention and political standing within Russia’s military hierarchy."
+    },
+    {
+      "name": "Frederik X of Denmark",
+      "domain": "Head Of State, Kingdom of Denmark",
+      "raw_news": "No significant, verifiable hard-news events involving King Frederik X personally were identified during 7–14 October 2026. The available reporting concerns Denmark’s security environment and royal scheduling, not decisions or geopolitical actions by the head of state.\n\n- **No confirmed NATO–Russia policy move by Frederik X:** Reporting highlighted NATO’s readiness messaging and Denmark’s Arctic-defense posture, but did not attribute a new policy decision or military action to the King.[2][7] **Why it matters:** As a constitutional monarch, Frederik’s influence is primarily representational and diplomatic; the absence of a reported intervention indicates no documented change in his public role during the period.\n\n- **No confirmed diplomatic event involving the King:** The only recent royal diplomatic item in the available results was his 5 October audience with Faroese Prime Minister Beinir Johannesen, outside the requested seven-day window.[5] **Why it matters:** It therefore cannot be counted as a qualifying event for 7–14 October, and there is no verified evidence of a new move affecting Denmark’s institutional cohesion or external alignment in the target period.\n\n- **Routine royal news, not hard geopolitical news:** Coverage during the period included a new official portrait and a cancelled October audience, neither of which involved policy, defense, diplomacy, or a significant public statement.[4][6] **Why it matters:** These developments have no demonstrated effect on Frederik X’s influence or constitutional position."
+    },
+    {
+      "name": "Mark Rutte",
+      "domain": "NATO / Secretary General",
+      "raw_news": "- **Estonia eastern-flank visit (14 October):** Rutte met Estonia’s president, prime minister, foreign and defence ministers, visited Ämari Air Base, and highlighted NATO’s air, land and maritime support for Estonia.[1][9] **Why it matters:** It reinforces allied deterrence on NATO’s eastern flank while allowing Rutte to reassure members that the alliance sees no evidence of an imminent Russian attack.[7]\n\n- **Estonia held up as a NATO benchmark (14 October):** Rutte said Estonia not only meets NATO defence-spending requirements but sets the standard for member contributions.[7] **Why it matters:** The message strengthens his leverage over less-invested allies and supports his effort to shift more of Europe’s defence burden away from the United States.\n\n- **Public warning that NATO’s current burden-sharing model is unsustainable:** Rutte argued that Europe’s dependence on the United States for the defence of roughly 600 million Europeans cannot continue, while maintaining that Washington will remain engaged in Europe.[10] **Why it matters:** The statement frames European rearmament as necessary for Western cohesion, but also exposes the alliance’s continuing political tension over U.S. commitment and European responsibility.\n\n- **Continued emphasis on Russian hybrid pressure and Ukraine support:** Rutte’s recent NATO messaging has described Russian airspace violations, sabotage, arson and other hostile actions across Europe, while urging allies to remain calm and continue supporting Ukraine.[2][3] **Why it matters:** This sustains his role as the alliance’s central coordinator against the NATO–Russia confrontation short of direct war, while testing allied unity over the cost and duration of Ukraine support."
+    },
+    {
+      "name": "Larry Fink",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "Only two items meet the **hard-news** threshold in the available coverage for October 7–14, 2026:\n\n- **Fink warned that a U.S. moratorium on data-center construction could trigger a recession**, arguing that AI-infrastructure investment has become a major source of capital expenditure and employment.[1] **Why it matters:** The statement positions BlackRock against local and political resistance to data centers while linking continued AI buildout to U.S. growth and competitiveness with China.[1][3]\n\n- **BlackRock reported stronger third-quarter results, including $205 billion in net inflows, while Fink said the firm had raised $68 billion for private markets over the prior 12 months and launched its first AI Infrastructure Partnership investment.**[2] **Why it matters:** The figures reinforce Fink’s influence over the allocation of institutional capital into private markets and strategic technology infrastructure, strengthening BlackRock’s role in the evolving financial architecture.[2]"
+    },
+    {
+      "name": "Xi Jinping",
+      "domain": "Head Of State, People's Republic of China",
+      "raw_news": "- **China and Botswana elevated ties to a comprehensive strategic cooperative partnership on October 13.** Xi and President Duma Boko also witnessed cooperation-document signings.[4][9] **Why it matters:** The upgrade expands Beijing’s political and economic reach in Africa and reinforces Xi’s effort to build China-centered partnerships beyond the Western alliance system.\n\n- **Xi met Togo’s president of the Council of Ministers and agreed to elevate bilateral relations to a “community with a shared future for a new era.”**[4][9] **Why it matters:** The language signals deeper ideological and diplomatic alignment, strengthening China’s effort to consolidate influence among developing countries.\n\n- **China’s military said it was ready to strengthen communication and cooperation with the United States while managing differences.** A Chinese defense spokesperson said the goal was a stable, constructive military relationship based on respect, fairness and reciprocity.[2] **Why it matters:** The statement indicates an effort by Beijing to reduce escalation risks with Washington while preserving its demand for more equal strategic treatment.\n\n- **Xi sent a congratulatory letter to the 140th Canton Fair, held amid China’s push for high-standard opening and innovation-led growth.[5][9]** **Why it matters:** The initiative supports Xi’s economic influence by presenting China as an indispensable global trade and production hub despite strategic rivalry with the United States.\n\n- **Xi proposed principles for constructive participation in resolving African hotspot issues.**[4] **Why it matters:** The move broadens China’s diplomatic role as a potential mediator and supports Beijing’s bid to challenge Western leadership in global crisis management."
+    },
+    {
+      "name": "Aneel Bhusri",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **Workday unveiled an AI-agent strategy at its 2026 Analyst Day**, including consumption-based monetization, 20 prioritized agents, and plans to use anonymized data from roughly 80 million employees and 11,500 customers.[6] This strengthens Bhusri’s control over a major enterprise-data and workflow platform that could become an important distribution channel for frontier AI capabilities.\n\n- **Bhusri publicly framed Workday’s AI approach as “lawful” and governed**, with agents operating within customer permissions, workflows, and business rules rather than with unchecked autonomy.[3][6] The position gives him influence in the emerging contest over enterprise AI safety, data governance, and who controls high-value corporate compute and information flows.\n\n- **Bhusri warned that AI-driven job displacement could arrive within five years** and argued that AI is fundamentally different from the earlier cloud transition because it can replace elements of human reasoning.[1][10] The forecast elevates him as a prominent business voice shaping expectations around the economic and labor consequences of frontier AI.\n\n- **He sharply contrasted Workday’s AI strategy with Oracle and SAP**, characterizing the established rivals as “dinosaurs,” while highlighting Workday’s acquisition of identity-governance company C1.ai.[2] The move positions Bhusri to challenge incumbent control of enterprise software infrastructure and make identity governance a strategic layer for deploying autonomous AI agents.\n\n- **At Workday Rising, the company announced autonomous “Autopilot” agents and a headless Trusted Agent Platform** for customers to build, run, and govern their own agents across HR, finance, and IT.[8] This expands Bhusri’s influence from selling software applications toward controlling the platform and governance layer through which businesses deploy AI agents."
+    },
+    {
+      "name": "Christophe Fouquet",
+      "domain": "CEO, ASML",
+      "raw_news": "- **ASML raised its 2026 outlook and warned of a supply shortfall.** On October 14, CEO Christophe Fouquet said AI-driven demand meant ASML’s planned supply for 2027–28 would not meet customer needs, prompting an investigation into expanding 2028 capacity beyond the previously planned 30% increase.[1][5] **Why it matters:** The statement reinforces Fouquet’s influence over the world’s most critical semiconductor-equipment bottleneck and strengthens ASML’s leverage in negotiations with chipmakers and governments.\n\n- **Customers signaled semiconductor-tool demand extending through 2030.** Fouquet said some customers were already interested in placing ASML orders for 2029 and 2030, reflecting expectations that AI infrastructure investment will continue beyond 2028.[4][8] **Why it matters:** Longer-term demand visibility gives Fouquet greater strategic leverage over allocation, capacity planning, and national efforts to secure advanced-chip manufacturing supply.\n\n- **ASML reported record third-quarter results and lifted its annual sales forecast.** The company reported €11.7 billion in Q3 sales and nearly €5 billion in net income, while raising its 2026 sales expectation to €44–45 billion.[1][4][10] **Why it matters:** The results strengthen Fouquet’s position to pursue additional investment and capacity expansion while demonstrating that AI-driven semiconductor demand remains a major force in the global technology economy.\n\n- **Fouquet publicly framed AI infrastructure as a multiyear semiconductor-demand cycle.** In remarks during the period, he said AI infrastructure construction could last two to five years and potentially sustain chip-equipment demand beyond 2028.[7] **Why it matters:** This positions ASML’s CEO as a central corporate voice shaping expectations about the duration of the AI boom, with implications for industrial policy, investment, and supply-chain security."
+    },
+    {
+      "name": "Jensen Huang",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "Between **October 7 and 14, 2026**, the most significant hard-news developments involving Jensen Huang were:\n\n- **Nvidia’s China AI-chip market share fell to 34% in the first half of 2026, while Huawei and other domestic suppliers gained ground; Nvidia’s China shipments dropped 44% year over year to 678,000 accelerators.** This shows that U.S. export controls are weakening Huang’s commercial leverage in China while accelerating Beijing’s semiconductor substitution strategy.[1]\n\n- **Huang reportedly called Chinese AI models from Alibaba, Tencent, and DeepSeek “world-class” during a Beijing visit.** The statement strengthens his position as an advocate for continued U.S.-China technology engagement, but also places him at odds with efforts to restrict Chinese AI ecosystems.[2]\n\n- **Nvidia prepared to resume H20 chip sales to China, subject to U.S. approval for individual orders, while developing a new export-compliant RTX Pro GPU for Chinese customers.** Huang is seeking to preserve access to China’s AI infrastructure market despite sanctions and countersanctions, though the approval regime leaves that influence dependent on Washington.[2]\n\n- **Chinese companies were reportedly required to obtain approval before importing Nvidia chips that comply with U.S. restrictions, as Beijing promoted domestic alternatives.** This gives Chinese authorities an additional lever over Nvidia’s market access and makes Huang’s China strategy vulnerable to both U.S. and Chinese policy decisions.[1]\n\n- **Nvidia’s China position was linked to an expanding enforcement and smuggling environment surrounding restricted AI chips, with the company maintaining that allegedly diverted products represent less than 0.5% of its shipments.** The episode increases regulatory and reputational pressure on Huang while reinforcing the geopolitical importance of Nvidia’s supply-chain controls.[8]"
+    },
+    {
+      "name": "Rafaela Aponte-Diamant",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No qualifying hard-news events involving **Rafaela Aponte-Diamant** were identified for approximately **October 7–14, 2026**.\n\n- Available reporting during the period consisted mainly of updated biographical and wealth profiles, not policy decisions, sanctions, countersanctions, military actions, diplomatic events, or major economic initiatives.[1][5]\n- The closest relevant development was a previously announced transfer of MSC ownership to Rafaela and Gianluigi Aponte’s children, Diego and Alexa, reportedly completed in the fourth quarter of 2025 and disclosed in April 2026.[1][7] This may indicate a generational shift in formal control of MSC, but it was not a new event during the requested seven-day window.\n- OFAC records were updated during the period, but the search results concern other individuals or entities and do not show Rafaela Aponte-Diamant being sanctioned.[2][3][4][6][8][9]"
+    },
+    {
+      "name": "Pavel Durov",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **Russia charged Durov with facilitating terrorism and issued an international arrest warrant (Oct. 14).** The FSB alleges Telegram failed to remove material used by Ukrainian services and extremist groups to coordinate sabotage, terrorism, killings, and cyber fraud.[1] **Why it matters:** The move sharply escalates Moscow’s pressure on Telegram and frames control over the platform’s information ecosystem as a national-security issue.\n\n- **Russia reportedly added Durov to its “terrorist and extremist” list (Oct. 14).** The designation followed the FSB’s terrorism-related charges and warrant.[5] **Why it matters:** It increases Durov’s personal legal exposure in Russia and gives authorities a stronger basis for restricting Telegram-linked activity and shaping domestic narratives about the platform.\n\n- **Durov criticized France’s continuing investigation into Telegram (Oct. 13).** He reiterated that he would rather die than give third parties access to private messages and defended Telegram’s privacy commitments.[4] **Why it matters:** The statement reinforces his central narrative of Telegram as a privacy bulwark, potentially strengthening user loyalty while intensifying his conflict with governments seeking greater platform cooperation.\n\n- **Durov said Russian VPN restrictions triggered a major domestic payment-system failure (reported Oct. 14).** He claimed the disruption mobilized tens of millions of Russians against digital controls and praised a “digital resistance.”[9] **Why it matters:** The intervention casts Telegram’s founder as an active political narrator against state censorship and positions the platform within resistance to Russia’s internet-control policies."
+    },
+    {
+      "name": "Alain Wertheimer",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "The most significant reported development was a **Chanel family-office and succession restructuring centered on Geneva**.\n\n- **Chanel-linked entities established a new Geneva wealth-management hub, including investment vehicles and a CHF 34 million office-building acquisition.** Alain Wertheimer reportedly listed the same Geneva address, alongside his brother Gérard’s reorganization efforts.[2][3]  \n  **Why it matters:** This suggests the family is shifting part of its financial architecture from New York to Switzerland and preparing for longer-term control and succession of the Chanel fortune.\n\n- **The Wertheimer family’s strategic financial center appears to be diversifying beyond its traditional Manhattan base through Swiss structures managed by private-banking and legal professionals.**[3]  \n  **Why it matters:** The move could increase Alain’s influence over asset allocation, governance, and intergenerational wealth management while reducing reliance on the family’s established U.S. platform.\n\n- **Reports continued to identify Alain Wertheimer as Chanel’s executive chairman and co-owner, with an estimated fortune of about $39.4 billion.**[2][7][9]  \n  **Why it matters:** His position remains central to Chanel’s ownership and strategic authority, while the restructuring indicates that his influence is being institutionalized beyond day-to-day brand operations.\n\nNo other clearly verified hard-news event involving Alain Wertheimer—such as a policy decision, diplomatic move, military action, or major public statement—was identified in the supplied coverage for October 7–14, 2026."
+    },
+    {
+      "name": "Ilya Sutskever",
+      "domain": "Co-Founder & CEO, Safe Superintelligence Inc. (SSI)",
+      "raw_news": "No 3–5 qualifying hard-news events were reliably reported for **October 7–14, 2026**. The available results mainly recirculate earlier developments or provide commentary rather than new policy, diplomatic, military, or economic decisions.\n\n- **Sutskever warned that rogue AI agents could attack neocloud providers.** He argued that providers such as CoreWeave and Nebius may lack the cybersecurity of hyperscalers, citing a reported OpenAI-related breach as an example.[7] **Why it matters:** The statement positions Sutskever as an influential voice on frontier-AI infrastructure security, but it was a warning rather than a new policy or operational move.\n\n- **Coverage highlighted SSI’s reported $5 billion Nvidia investment and long-term partnership.** The deal reportedly gives SSI access to Nvidia’s Vera Rubin systems and could increase its compute capacity tenfold over 12 months.[1][2] **Why it matters:** This strengthens Sutskever’s ability to compete in the frontier-AI power struggle by pairing his research agenda with one of the industry’s strongest hardware platforms; however, the underlying announcement predates the requested week.\n\n- **Reports emphasized that SSI has raised substantial capital without releasing a public product.** Coverage said the company has attracted about $8 billion, including Nvidia’s investment, while maintaining a single stated objective of building safe superintelligence.[8] **Why it matters:** The model increases Sutskever’s strategic autonomy from commercial release pressure, but the absence of a product also leaves his influence dependent on investor confidence and future technical results."
+    },
+    {
+      "name": "Gustavo Petro",
+      "domain": "Head Of State, Colombia",
+      "raw_news": "The available results do **not support a reliable 3–5 item report on Gustavo Petro as Colombia’s current head of state** for October 7–14, 2026. They instead describe Petro as a **former president** after Abelardo de la Espriella took office on August 7, 2026, and contain several internally inconsistent or weakly sourced claims.\n\n- **Petro called for nationwide protests on October 14 against the De la Espriella government**, focusing on a “living minimum wage,” food access, and drought relief; he said the mobilization could help prepare a general strike.[1][2] **Why it matters:** This represents Petro’s most significant reported effort to retain political influence from opposition and challenge the new government’s economic legitimacy.\n\n- **Petro continued criticizing U.S. sanctions and alleged that OFAC targeted him for defending Palestinian rights**, arguing that sanctions had become a tool against supporters of Palestinian accountability.[8] **Why it matters:** The statement reinforces his Global South and anti-sanctions positioning, but the available report does not establish any new U.S. policy action.\n\n- **Reports said Petro accused Ecuador of a cross-border bombing or explosive incident and ordered an investigation into the origin of explosives**, though the available result does not provide enough detail to verify the timing or official response.[5] **Why it matters:** If confirmed, the episode would carry regional-security implications and test Petro’s approach to Andean diplomacy; the evidence here is insufficient for a firm event assessment.\n\n- **A report claimed Petro intended to decree a popular consultation on his labor reform despite Senate opposition**, with the Constitutional Court expected to review the decree.[7] **Why it matters:** This would be a major institutional confrontation over executive authority, but the result conflicts with other reporting that identifies Petro as no longer president and should therefore be treated as unverified."
+    },
+    {
+      "name": "Gina Rinehart",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "The most significant reported developments involving Gina Rinehart from **7–14 October 2026** were:\n\n- **Arafura Rare Earths expanded a major offtake agreement by 70%.** The Rinehart-backed company will supply 850 tonnes annually of neodymium-praseodymium oxide from its Northern Territory Nolans project, up from 500 tonnes, with Hancock Prospecting holding 17.5%.[8][9] **Why it matters:** The deal strengthens Rinehart’s influence in Australia’s critical-minerals sector and links her portfolio to supply chains important to advanced manufacturing and defense.\n\n- **Rinehart’s support helped open veteran housing in Brisbane.** A new Norman Park complex opened on 12 October as part of her effort to provide accommodation for homeless Australian veterans.[2] **Why it matters:** The initiative expands her public profile and influence among veterans’ groups and conservative constituencies while converting private wealth into a prominent national policy-adjacent cause.\n\n- **One Nation’s new Brisbane headquarters was confirmed as Rinehart-owned.** Hancock Prospecting reportedly bought an $8 million building that the party will lease at commercial rates for its headquarters.[3][4][5] **Why it matters:** The property deal adds substantial infrastructure support to Rinehart’s already significant backing of One Nation, increasing scrutiny of her role in Australia’s right-wing political ecosystem.\n\n- **A Rinehart-funded specialist children’s medical center opened in Sydney.** The Rinehart Kookaburra Care Centre launched on 14 October following Hancock Prospecting’s $5 million contribution.[1] **Why it matters:** The project reinforces her philanthropic standing and gives her influence in a high-profile national health initiative, though it is not a direct political or geopolitical move.\n\n- **The Rinehart-backed Vulcan Energy project reported battery-grade lithium production.** Vulcan announced successful production from its integrated European lithium operation, a project in which Hancock Prospecting is a substantial shareholder.[10] **Why it matters:** The milestone broadens Rinehart’s influence from Australian mining into Europe’s strategic battery-materials supply chain."
+    },
+    {
+      "name": "Antony Ressler",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "Only **one significant hard-news item** involving Antony Ressler was found in the requested period; the available results do not support 3–5 distinct events.\n\n- **Ressler pushed to move WNBA Finals games to State Farm Arena (Oct. 13–14).** Atlanta Hawks CEO Steve Koonin said Ressler directed the organization to do everything possible to host the Atlanta Dream’s Finals games at the Hawks’ arena, prompting schedule changes to accommodate the event.[1] **Why it matters:** The move demonstrates Ressler’s direct influence over Atlanta’s sports infrastructure and reinforces his effort to consolidate the Hawks and Dream as major basketball institutions in the city.\n\n- **No other qualifying events identified.** Results during the period mainly showed routine profile or wealth updates, including Forbes’ estimate of Ressler’s net worth at $10.5 billion, rather than new policy decisions, economic initiatives, diplomatic events, or significant public statements.[2][5] **Why it matters:** There is no evidentiary basis in the available coverage for reporting additional hard-news developments affecting Ressler’s financial or political influence."
+    },
+    {
+      "name": "Ronald Lauder",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **October 7 statement on the Israel–Hamas war:** Ronald Lauder, president of the World Jewish Congress, marked the third anniversary of Hamas’s October 7 attacks by defending Israel’s legitimacy, condemning allegations that Israel committed genocide, and urging governments to protect Jewish communities.[1] **Why it matters:** The statement reinforces Lauder’s role as a prominent international advocate for Israel and positions the World Jewish Congress against governments and public figures he says are normalizing antisemitism.\n\n- **Condemnation of Navi Pillay’s Nobel Peace Prize selection:** On October 9, the World Jewish Congress newsroom reported that Lauder condemned the selection of Navi Pillay for the Nobel Peace Prize.[5] **Why it matters:** The intervention extends Lauder’s influence into a high-profile international legitimacy dispute and signals an effort to shape Jewish organizational and diplomatic responses to criticism of Israel."
+    },
+    {
+      "name": "Howard Marks",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No major hard-news event involving Howard Marks was identified in the **October 7–14, 2026** window. The available reporting shows market commentary and media appearances, but not a new policy decision, geopolitical move, military action, diplomatic event, or major economic initiative directly involving him.\n\n- **Marks argued that Treasury efforts to suppress long-term yields are cosmetic rather than a solution to underlying fiscal and market pressures.** This matters because his views can influence institutional investors’ interpretation of U.S. debt-market policy and Oaktree’s positioning.[3][10]\n\n- **Brookfield’s full ownership of Oaktree was reported in connection with the firm’s corporate restructuring, with Marks remaining Oaktree co-chair and becoming chair of Brookfield’s Investment Solutions Group.** This matters because it consolidates Marks’s formal influence across Brookfield’s and Oaktree’s investment platforms, although the transaction itself was completed earlier.[4]\n\n- **Marks discussed the difficulty of valuing artificial-intelligence investments and advised investors to adopt some defensive positioning.** This matters because his caution provides a prominent institutional-investor counterpoint to continued optimism around AI-related assets.[5]\n\n- **Marks appeared in coverage revisiting his contrarian investment career and the lessons of the financial crisis.** This is primarily reputational rather than a new hard-news development and does not indicate a material change in his influence or position.[8]"
+    },
+    {
+      "name": "Reinhold Wuerth & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "The most significant developments in the period **October 7–14, 2026** were concentrated in Würth’s succession planning, political commentary, and cultural influence:\n\n- **Reinhold Würth intensified preparations for a family succession**, giving grandsons Benjamin and Sebastian practical roles and presenting Benjamin as an emerging successor. This matters because it signals an active, controlled transition of influence within the privately held Würth Group rather than a change imposed by external shareholders.[6]\n\n- **Würth publicly attacked Germany’s federal government**, calling successive governments a “drama” and demanding stronger political leadership. The comments matter because his public interventions give a major German industrialist a visible platform to influence debate over national economic governance and business conditions.[7]\n\n- **Würth reopened the expanded Kunsthalle Würth in Schwäbisch Hall after a €25 million investment**, with Federal President Frank-Walter Steinmeier and Baden-Württemberg Premier Cem Özdemir attending. The event reinforces the family’s soft power through cultural patronage and its access to senior German political figures.[1][2][5]\n\n- **The Würth family’s art operation gained greater institutional prominence**, with granddaughter Maria Würth overseeing the group’s art and culture division and a collection of roughly 21,000 works displayed through museums at 14 global locations. This broadens the family’s influence beyond industrial wealth into Germany’s cultural landscape and preserves a family-linked platform for public engagement.[1]\n\n- **Reinhold Würth continued publicly shaping the company’s long-term direction despite holding only an honorary supervisory role**, emphasizing that he is working actively to build the next generation. The development indicates that his influence remains strategic and familial, even after withdrawing from operational management.[1][6]"
+    },
+    {
+      "name": "Elon Musk",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **Record Republican election spending:** Musk has directed more than **$276 million** to Republican groups and his super PAC since July, including $158 million to the Senate Leadership Fund and more than $76 million to America PAC.[1] **Why it matters:** This makes him the largest known 2026 midterm donor and gives him extraordinary leverage over Republican turnout, messaging, and candidate strategy.\n\n- **Supreme Court takes up DOGE-records case:** The Court agreed to hear a watchdog lawsuit seeking public records from Musk’s Department of Government Efficiency operations.[2][4] **Why it matters:** The case could determine how much transparency is required around Musk’s role in executive-branch decision-making and his access to government data.\n\n- **Musk escalates India–Starlink dispute:** Musk accused unnamed “oligarchs” of blocking Starlink’s Indian launch and amplified reports tying Reliance to donations to Prime Minister Narendra Modi’s BJP; India rejected the allegations as baseless.[6] **Why it matters:** The dispute turns a commercial licensing battle into a public challenge to Indian political and regulatory authority, potentially complicating Starlink’s market entry.\n\n- **Tesla–SpaceX semiconductor project advances:** Musk said the Texas “Terafab” facility planned by Tesla and SpaceX could eventually produce at least $1 trillion in annual output and supply chips for vehicles, robots, and the merged SpaceX–xAI operation.[3] **Why it matters:** The project would deepen Musk’s control over an integrated AI, manufacturing, and space-industrial stack while reducing reliance on external chip suppliers.\n\n- **Trump awards Musk the National Medal of Science:** President Trump presented Musk with the honor at the White House on October 8, citing his contributions to space exploration, AI, communications, and American manufacturing.[8] **Why it matters:** The award reinforces Musk’s institutional legitimacy and strengthens his alignment with the administration’s technology and national-power agenda."
+    },
+    {
+      "name": "Frank-Walter Steinmeier",
+      "domain": "Head Of State, Germany",
+      "raw_news": "- **Reaffirmed Germany’s European commitment in France (Oct. 8–14):** During a state visit to France, Steinmeier told President Emmanuel Macron that Germany would remain firmly embedded in Europe despite far-right electoral gains.[2][6] **Why it matters:** The intervention positioned the presidency as a stabilizing force for Franco-German leadership and Western institutional cohesion amid domestic political strain.\n\n- **Called for joint action against antisemitism (Oct. 7):** On the anniversary of Hamas’s October 7 attack, Steinmeier said antisemitism had risen to an “intolerable” level in Germany and reaffirmed support for Israel’s security, Palestinian self-determination, and peaceful coexistence.[8] **Why it matters:** The statement reinforced Germany’s foreign-policy posture on Israel while addressing a major democratic and social-cohesion challenge at home.\n\n- **Democratic resilience became a central presidential warning:** Steinmeier’s German Unity Day address, still prominent in coverage during the period, warned that extremism, disinformation, and political demagoguery were again challenging German democracy.[1][7][10] **Why it matters:** With the AfD gaining strength, the president is using the largely nonpartisan authority of his office to defend constitutional norms and mobilize resistance to democratic erosion.\n\n- **Domestic pressure increased over Russia policy:** In Saxony-Anhalt, AfD and BSW lawmakers called for ending sanctions on Russia and German military and financial support for Ukraine.[4][5] **Why it matters:** Although not a Steinmeier decision, the development highlights the growing internal challenge to Germany’s Ukraine policy and complicates his role as a symbol of continuity in the NATO–Russia confrontation."
+    },
+    {
+      "name": "João Lourenço",
+      "domain": "Head Of State, Angola",
+      "raw_news": "- **Venezuela–Angola strategic alliance:** João Lourenço met Venezuela’s acting president, Delcy Rodríguez, in Rome to expand cooperation in food security, trade, mining and oil exploration under a South–South framework.[5] **Why it matters:** The engagement strengthens Angola’s Global South positioning while linking diplomatic alignment to energy and resource cooperation.\n\n- **Canada–Angola critical-minerals talks:** Lourenço met Canadian Prime Minister Mark Carney to discuss expanding commercial ties, including cooperation on mining and critical minerals.[9] **Why it matters:** The outreach broadens Angola’s options beyond traditional oil partners and positions Lourenço as an intermediary between Western capital and African resource opportunities.\n\n- **FAO leadership diplomacy:** During his Rome mission, Lourenço reinforced Angola’s support for Josefa Sacko’s candidacy to lead the FAO for 2027–2031.[3] **Why it matters:** Backing an Angolan candidate for a major multilateral post gives Luanda a concrete vehicle for influence in food security and Global South governance.\n\n- **Memorial and reconciliation agenda:** Lourenço was scheduled to inaugurate Angola’s Memorial for Victims of Political Conflicts on October 14, a flagship symbol of national reconciliation.[3] **Why it matters:** The initiative helps shape his late-term political legacy and consolidate authority during the final phase of his constitutionally limited second mandate.\n\n- **Purchase of 250 urban buses:** Lourenço authorized expenditure and a simplified procurement procedure for 250 urban buses.[7] **Why it matters:** Though primarily domestic, the move addresses urban transport pressures and demonstrates executive delivery as Lourenço approaches the end of his presidency."
+    },
+    {
+      "name": "Michael Dell",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **AI safeguards and government oversight (Oct. 13):** Michael Dell said AI models need safeguards, bounded permissions, monitoring, human oversight, and a government role in managing risks.[1][4] **Why it matters:** This positions Dell as an influential industry voice in the emerging fight over frontier-AI governance, while stopping short of endorsing specific regulation.\n\n- **Prolonged semiconductor and memory shortage (Oct. 13–14):** Dell warned that AI-driven demand could worsen the compute and memory supply imbalance in 2027 and persist for roughly four years, since new fabrication capacity may not arrive until 2029–30.[3][7] **Why it matters:** The warning reinforces Dell’s strategic relevance as a major AI-server supplier and highlights supply-chain constraints that could give leading chip and compute providers continued pricing and bargaining power.\n\n- **$6.25 billion Trump Accounts pledge (Oct. 7–13):** Michael and Susan Dell advanced their pledge to put $250 into accounts for 25 million children and defended allowing donated individual company stock in the accounts.[2][5][6] **Why it matters:** The initiative deepens Dell’s relationship with the Trump administration and gives him significant influence in shaping a high-profile national savings and financial-education program.\n\n- **Dell employee contribution to Trump Accounts (Oct. 8–14):** Dell Technologies said it would provide a one-time $1,000 contribution to eligible employees’ children, while Michael Dell said similar donations could become a standard corporate benefit.[9] **Why it matters:** The move converts Dell’s personal philanthropy into a broader corporate-policy model, potentially expanding his influence over how employers participate in the administration’s program."
+    },
+    {
+      "name": "Evan Spiegel",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **Snapchat considers daily teen time limits (October 14):** Evan Spiegel said Snap is willing to consider default daily usage limits for young users amid pressure for platforms to adopt safeguards similar to Meta’s settlement measures.[1] **Why it matters:** This could materially change how Snap’s recommendation system reaches minors and positions Spiegel as responding to growing regulatory and parental demands over platform design.\n\n- **Snapchat introduces bank-linked age checks in Australia (October 14):** Snap began rolling out bank-linked, government-ID, and facial-age-estimation verification ahead of Australia’s restrictions on social-media access for under-16s.[5] **Why it matters:** The move places Spiegel’s company at the center of the expanding global debate over platform access, privacy, and age verification.\n\n- **Parents and advocates demand industry-wide child-safety rules (October 13):** A coalition urged Snapchat and other major platforms to adopt daily limits, school-hour and overnight restrictions, stronger parental controls, and algorithmic safeguards.[4] **Why it matters:** The campaign increases political pressure on Spiegel to convert voluntary safety commitments into product and policy changes, potentially constraining Snap’s engagement model.\n\n- **Spiegel’s Specs strategy remains Snap’s major growth bet:** Snap’s augmented-reality glasses, reportedly backed by roughly $3 billion in development spending, were presented as a path beyond the company’s advertising dependence.[6][9] **Why it matters:** Specs could give Spiegel a new information-delivery channel—overlaying AI-generated or contextual content directly onto users’ surroundings—while exposing Snap to substantial financial and narrative risk."
+    },
+    {
+      "name": "Aziz Akhannouch & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **RNI excluded from Morocco’s next government:** Fatima Ezzahra El Mansouri formed a four-party coalition with PAM, Istiqlal, USFP and PPS, leaving Aziz Akhannouch’s RNI outside the governing majority.[1][2] **Why it matters:** Akhannouch’s five-year premiership and direct control of national policy are ending, sharply reducing his formal political influence.\n\n- **Akhannouch remains only in a caretaker role:** He is expected to continue temporarily until El Mansouri’s cabinet is appointed and approved by parliament.[1] **Why it matters:** His authority is now transitional, limiting his ability to shape the incoming government’s agenda or ministerial appointments.\n\n- **RNI suffered a major electoral setback:** The party won 66 seats—down from 102—and finished second in the September election, while the new coalition commands 207 of 395 seats.[1][2] **Why it matters:** The result weakens Akhannouch’s bargaining power and may force RNI into opposition or a defensive parliamentary role.\n\n- **Afriquia Gaz reported largely stable profits:** Akhannouch-linked Afriquia Gaz posted MAD370.2 million in consolidated net profit for the first half of 2026, up 0.5% year on year.[9] **Why it matters:** Despite the political loss, the family’s core business position appears resilient, preserving economic influence even as governmental leverage declines."
+    },
+    {
+      "name": "Ngozi Okonjo-Iweala",
+      "domain": "Nigeria / Director-General, World Trade Organization (WTO)",
+      "raw_news": "- **WTO reform faces pressure to produce concrete results.** At the WTO General Council’s 5–6 October meeting, Okonjo-Iweala urged members to move beyond process and submit substantive proposals on institutional reform, negotiations, and follow-up to ministerial commitments.[1][3] **Why it matters:** Her influence depends on converting broad support for preserving the WTO into decisions that can sustain the institution amid growing unilateralism and democratic strain among members.\n\n- **She warned that global trade fragmentation is accelerating.** In a 7 October interview, Okonjo-Iweala said trade faces its most serious test in decades, citing disruptions and fragmentation linked to tariffs and geopolitical tensions, and called for more geographically diversified supply chains.[2][10] **Why it matters:** The statement positions her as a leading advocate of “de-risking” through diversification rather than sanctions-driven decoupling, while underscoring the WTO’s weakened ability to constrain major-power trade actions.\n\n- **WTO negotiations remain stalled after the Yaoundé ministerial conference.** Okonjo-Iweala reported concern over the limited pace of negotiations since MC14 and called for renewed momentum alongside institutional reform efforts.[5] **Why it matters:** Persistent deadlock narrows her room to demonstrate leadership and risks reinforcing arguments that the multilateral trade system cannot deliver negotiated outcomes.\n\n- **The WTO continued work on plurilateral and sustainability-related trade tracks.** Members advanced planning for 2026–27 discussions on trade and environmental sustainability and continued work on electronic commerce, investment facilitation, agriculture, and plastics-related trade measures.[1][4] **Why it matters:** These narrower initiatives offer Okonjo-Iweala a route to preserve institutional relevance when consensus on broader WTO rules is blocked, but they may also deepen fragmentation between members able and unwilling to join plurilateral arrangements."
+    },
+    {
+      "name": "Oleg Deripaska",
+      "domain": "Russia / Aluminum magnate and Kremlin back-channel intermediary",
+      "raw_news": "- **Rusal seeks Kremlin intervention amid major losses (14 October):** Deripaska-owned Rusal reportedly asked Prime Minister Mikhail Mishustin’s government for help and proposed mothballing several alumina and bauxite facilities after losses of about $800 million annually.[2] **Why it matters:** The appeal shows worsening pressure on Deripaska’s core industrial base and renewed dependence on state support, weakening his commercial autonomy while increasing his relevance as an intermediary between industry and the Kremlin.\n\n- **Sual Partners moves to block Rusal share buyback (13–14 October):** Viktor Vekselberg-linked Sual Partners said it would exercise veto rights against a proposed Rusal share buyback; Deripaska’s En+ controls 56.9% of Rusal, while Sual holds 25.5%.[3] **Why it matters:** The dispute threatens Deripaska’s control over Rusal’s capital structure and exposes an increasingly contested balance of power among sanctioned Russian industrial groups.\n\n- **Ukraine’s auction of Deripaska-linked quarry fails (11 October):** A first auction of the confiscated Hlukhiv Quartzite Quarry and related property received no bids, despite a starting price of 98.64 million hryvnias.[9] **Why it matters:** The failed sale delays Ukraine’s effort to convert sanctioned Deripaska-linked assets into state revenue and signals practical difficulties in enforcing wartime economic decoupling.\n\n- **Deripaska-linked Rasperia case continues to obstruct Raiffeisen’s Russian exit (14 October):** A Russian court maintained restrictions affecting Raiffeisenbank shares in litigation connected to Rasperia Trading, an entity affiliated with Deripaska, over a disputed Strabag transaction.[8] **Why it matters:** The case preserves leverage over a major European bank’s Russian divestment and illustrates how Deripaska-associated legal claims remain tools in Russia’s broader countersanctions and asset-retaliation strategy.\n\n- **Former Russian diplomat pleads guilty in Deripaska sanctions-evasion case (13 October):** A former Russian diplomat pleaded guilty to lying to FBI agents after prosecutors dropped more serious allegations tied to work for Deripaska.[6] **Why it matters:** Although the reduced charge limits immediate legal consequences, the case keeps Deripaska’s alleged sanctions-bypass networks and U.S. influence operations in the public and judicial spotlight."
+    },
+    {
+      "name": "Anthony Wood",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **Texas A&M speaker appearance and public reflections (Oct. 8–14):** Wood opened Texas A&M’s Sesquicentennial Speaker Series and discussed entrepreneurship, innovation, and his career building ReplayTV and Roku.[1][2][3] **Why it matters:** The event reinforced his status as a prominent technology entrepreneur, but it produced no reported policy, diplomatic, military, or major economic decision.\n\n- **Roku–Fox transaction remains the principal strategic development:** Reporting detailed how Wood’s desire to step back from Roku’s leadership helped lead to Fox’s planned $22 billion acquisition of the company, adding Roku’s platform and The Roku Channel to Tubi.[4] **Why it matters:** The transaction could materially reshape Wood’s corporate influence and represents the most consequential recent development tied to his wealth and position, although the underlying deal was reported before this seven-day window.\n\n- **No other qualifying hard-news events identified:** The available coverage for approximately Oct. 7–14 consists primarily of Wood’s university appearance and retrospective commentary, rather than new policy decisions, geopolitical moves, military actions, diplomatic events, or significant business announcements.[1][2][3] **Why it matters:** There is insufficient evidence of a new event during the period that materially changed Wood’s influence or standing."
+    }
+  ],
+  "ps_assemblies_fired": {
+    "PS-01": [
+      "CA-032",
+      "CA-192",
+      "CA-118",
+      "CA-030",
+      "CA-086"
+    ],
+    "PS-02": [
+      "CA-108",
+      "CA-164",
+      "CA-003"
+    ],
+    "PS-04": [
+      "CA-025",
+      "CA-210",
+      "CA-335"
+    ],
+    "PS-08": [
+      "CA-112",
+      "CA-091",
+      "CA-102"
+    ]
+  },
+  "assemblies_spontaneous": [
+    "CA-123",
+    "CA-149"
+  ],
+  "neurons_conscious": [
+    "Andrei Belousov",
+    "Valery Gerasimov",
+    "Frederik X of Denmark",
+    "Mark Rutte",
+    "Larry Fink",
+    "Xi Jinping",
+    "Aneel Bhusri",
+    "Christophe Fouquet",
+    "Jensen Huang",
+    "Rafaela Aponte-Diamant"
+  ],
+  "neurons_spontaneous": [
+    "Pavel Durov",
+    "Alain Wertheimer",
+    "Ilya Sutskever",
+    "Gustavo Petro",
+    "Gina Rinehart",
+    "Antony Ressler",
+    "Ronald Lauder",
+    "Howard Marks",
+    "Reinhold Wuerth & family",
+    "Elon Musk",
+    "Frank-Walter Steinmeier",
+    "João Lourenço",
+    "Michael Dell",
+    "Evan Spiegel",
+    "Aziz Akhannouch & family",
+    "Ngozi Okonjo-Iweala",
+    "Oleg Deripaska",
+    "Anthony Wood"
+  ],
+  "neurons_skipped": [
+    "Donald Trump",
+    "Vladimir Putin",
+    "Li Qiang",
+    "Ali Khamenei",
+    "Salman bin Abdulaziz Al Saud",
+    "Scott Bessent",
+    "Cai Qi",
+    "Kazuo Ueda",
+    "Ursula von der Leyen",
+    "Mohammed Bin Zayed Al Nahyan",
+    "Jerome Powell",
+    "Tahnoun bin Zayed Al Nahyan",
+    "Zhang Youxia",
+    "Mohan Bhagwat",
+    "Mark Zuckerberg",
+    "Amancio Ortega",
+    "Pan Gongsheng",
+    "Johann Rupert & family",
+    "Volodymyr Zelenskyy",
+    "Subrahmanyam Jaishankar",
+    "Claudia Sheinbaum",
+    "Christopher Cavoli",
+    "Marco Rubio",
+    "Wang Yi",
+    "Satya Nadella",
+    "C.C. Wei",
+    "Pete Hegseth",
+    "Sundar Pichai",
+    "Igor Sechin",
+    "Pony Ma (Ma Huateng)",
+    "Ren Zhengfei",
+    "Yoweri Museveni",
+    "Robin Zeng",
+    "Hibatullah Akhundzada",
+    "Alexander Lukashenko",
+    "Pope Francis (Jorge Mario Bergoglio)",
+    "Ivan Glasenberg",
+    "Luiz Inácio Lula da Silva",
+    "Tamim bin Hamad Al",
+    "Recep Tayyip Erdoğan",
+    "Abigail Johnson",
+    "Jay Y. Lee",
+    "Stanley Druckenmiller",
+    "Rupert Murdoch & family",
+    "Ayatollah Ali Khamenei",
+    "Prabowo Subianto",
+    "Kim Jong-un",
+    "Mathias Cormann",
+    "Ajay Banga",
+    "Christine Lagarde",
+    "Shavkat Mirziyoyev",
+    "Charles Koch & family",
+    "Yuri Kovalchuk",
+    "Kristalina Georgieva",
+    "Henry Kravis",
+    "Khaldoon Khalifa Al Mubarak",
+    "António Guterres",
+    "Bill Gates",
+    "Lisa Su",
+    "Tim Cook",
+    "Yuri Kovalchuk & family",
+    "Sergei Lavrov",
+    "Nikolai Patrushev",
+    "Droupadi Murmu",
+    "Bernard Arnault & family",
+    "Sam Altman",
+    "Ilham Aliyev",
+    "Gautam Adani",
+    "Abdel Fattah el-Sisi",
+    "Cristiano Amon",
+    "Mustafa Suleyman",
+    "Demis Hassabis",
+    "Joseph Tsai",
+    "Jeff Bezos",
+    "Larry Ellison",
+    "Rupert Johnson, Jr.",
+    "Cyrus Poonawalla",
+    "Vladimir Bogdanov",
+    "Richard Liu",
+    "Klaus-Michael Kuehne",
+    "Thomas Pritzker",
+    "Tadashi Yanai & family",
+    "Bongbong Marcos",
+    "William Alexander of the Netherlands",
+    "Félix Tshisekedi",
+    "Eric Yuan & family",
+    "Ken Griffin",
+    "Kumar Birla",
+    "Bola Ahmed Tinubu",
+    "Alisher Usmanov",
+    "Jose Roberto Marinho",
+    "Alessandra Galloni",
+    "Wang Chuanfu",
+    "Jim Walton & family",
+    "Olivier Bouygues",
+    "Patrick Collison",
+    "Hakainde Hichilema",
+    "Francoise Bettencourt Meyers & family",
+    "Elvira Nabiullina",
+    "Warren Buffett",
+    "Ma Huateng",
+    "Tô Lâm",
+    "Jamie Dimon",
+    "Andrew Bailey",
+    "Leonid Mikhelson & family",
+    "Zhang Yiming",
+    "Larry Page",
+    "Ray Dalio",
+    "Morris Chang",
+    "Mukesh Ambani",
+    "Marc Andreessen",
+    "Paul Singer",
+    "David Rubenstein",
+    "Li Ka-shing",
+    "Len Blavatnik",
+    "Vincent Bolloré & family",
+    "Ismail Omar Guelleh",
+    "Sunil Mittal",
+    "Taye Atske Selassie",
+    "Petr Pavel",
+    "Luis Abinader",
+    "Edward Johnson, IV.",
+    "Marc Benioff",
+    "Savitri Jindal & family",
+    "David Bonderman",
+    "Stephen Feinberg",
+    "Safra Catz",
+    "Hamad bin Jassim bin Jaber Al Thani",
+    "Sergey Brin",
+    "Grand Ayatollah Ali al-Sistani",
+    "Robin Li",
+    "Eric Schmidt",
+    "Shen Haixiong",
+    "Tedros Adhanom Ghebreyesus",
+    "Russell M. Nelson",
+    "Martin Lau",
+    "Mohammed VI of Morocco",
+    "William Ackman",
+    "Charles III",
+    "Gennady Timchenko",
+    "Lai Ching-te",
+    "William Ruto",
+    "Edir Macedo & family",
+    "Melinda French Gates",
+    "Charles Schwab",
+    "Jorge Paulo Lemann & family",
+    "Serdar Berdimuhamedow",
+    "Masayoshi Son",
+    "Euisun Chung",
+    "Margarita Louis-Dreyfus & family",
+    "George Roberts",
+    "Salva Kiir Mayardit",
+    "Leon Black",
+    "Anthony Bamford & family",
+    "Theo Albrecht, Jr. & family",
+    "François Pinault & family",
+    "Rodolphe Saadé",
+    "Jonathan Gray",
+    "Vladimir Lisin",
+    "Karl Albrecht Jr. & family",
+    "MacKenzie Scott",
+    "Sheikh Abdulaziz bin Abdullah Al ash-Sheikh",
+    "Miriam Adelson & family",
+    "Michael Froman",
+    "Leo XIV",
+    "Stephen Schwarzman",
+    "Germán Larrea Mota Velasco & family",
+    "Daniela Amodei",
+    "Terry Gou",
+    "Fred Smith",
+    "Shah Karim al-Husayni (Aga Khan IV)",
+    "John Malone",
+    "Dhanin Chearavanont",
+    "Hamad II of Bahrain",
+    "Hasso Plattner & family",
+    "Alassane Ouattara",
+    "Cindy McCain",
+    "Laurene Powell Jobs & family",
+    "Thomas Frist, Jr. & family",
+    "Dieter Schwarz",
+    "Gianluigi Aponte",
+    "Abdullah II of Jordan",
+    "Donald Horton & family",
+    "Paul Kagame",
+    "Vajiralongkorn",
+    "Alexander Karp",
+    "Paul Tudor Jones, II.",
+    "Stefano Pessina",
+    "Arkady Rotenberg",
+    "Abdelmadjid Tebboune",
+    "Emmerson Mnangagwa",
+    "Rob Walton & family",
+    "Hassanal Bolkiah I of Brunei",
+    "Asif Ali Zardari",
+    "Sergio Mattarella",
+    "Brian Roberts",
+    "Michael Bloomberg",
+    "Naruhito",
+    "Samia Suluhu Hassan",
+    "Grand Imam Ahmed el-Tayeb",
+    "Javier Milei",
+    "Vladimir Potanin",
+    "Iris Fontbona & family",
+    "Esmail Qaani",
+    "Emmanuel Macron",
+    "Haitham bin Tarik Al Said",
+    "Carlos Slim Helu & family",
+    "Bidzina Ivanishvili & family",
+    "Patriarch Kirill (Vladimir Gundyayev)",
+    "Daniel Noboa",
+    "Charlene de Carvalho-Heineken & family",
+    "Gabriel Boric",
+    "Julia Koch & family",
+    "Ricardo Salinas Pliego & family",
+    "Dario Amodei",
+    "Pierre Omidyar",
+    "Andrew Forrest & family",
+    "Hiroshi Mikitani",
+    "Onkar Kanwar",
+    "Isaias Afwerki",
+    "Patrick Drahi",
+    "Antonio Del Valle Ruiz & family",
+    "Susanne Klatten",
+    "Travis Kalanick",
+    "Reed Hastings",
+    "Marijke Mars",
+    "Kim Kardashian",
+    "Gong Hongjia & family",
+    "Jayshree Ullal",
+    "Miuccia Prada",
+    "Andrei Guryev & family",
+    "Mochtar Riady & family",
+    "Micky Arison",
+    "Wang Jianlin",
+    "Bassirou Diomaye Faye",
+    "William Ding",
+    "Nandan Nilekani",
+    "Mark Suzman",
+    "Fang Hongbo",
+    "Lim Kok Thay",
+    "Wang Xing",
+    "Alfredo Harp Helu & family",
+    "Adi Godrej",
+    "John Doerr",
+    "Liu Hanyuan",
+    "William Lauder",
+    "Nassef Sawiris",
+    "Steve Ballmer",
+    "Cyril Ramaphosa",
+    "Riley Bechtel & family",
+    "Brice Clotaire Oligui Nguema",
+    "Kais Saied",
+    "Phil Knight & family",
+    "John Mars",
+    "Yuri Milner",
+    "Karol Nawrocki",
+    "Prajogo Pangestu",
+    "Daniel Ortega",
+    "Thaksin Shinawatra",
+    "Uday Kotak",
+    "Xiang Guangda",
+    "Andrej Babis",
+    "Lei Jun",
+    "Sheryl Sandberg",
+    "Faisal Bin Qassim Al Thani",
+    "Jeff T. Green",
+    "Charles Liang",
+    "Jiang Rensheng & family",
+    "Liu Yongxing",
+    "Hansjoerg Wyss",
+    "Aliko Dangote",
+    "Changpeng Zhao"
+  ],
+  "spontaneous_cap": 18
+}
