@@ -1,0 +1,511 @@
+{
+  "scope": "us",
+  "week_start": "2026-10-14",
+  "week_end": "2026-10-21",
+  "ps_news_items": [
+    {
+      "id": "DPS-01",
+      "name": "Executive Power Consolidation",
+      "summary": "The week saw **moderate executive-branch restructuring**, led by a presidential order creating a White House Women’s Health Task Force and directing HHS/NIH to establish a new NIH Women’s Health Division within 90 days.[3][5] The administration also issued an order implementing the 2026 Graham sanctions law, delegating significant authorities across State, Treasury, USTR, and Energy while directing all agencies to comply.[4][6] A federal judge ruled that OPM unlawfully gave DOGE personnel access to sensitive employee data, although the practical impact is limited because DOGE has been dissolved and access ended in 2025.[2] Overall, the week combined new presidential control mechanisms with a notable judicial constraint on prior bureaucracy-overhaul methods.\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "DPS-02",
+      "name": "AI Dominance Race",
+      "summary": "The week saw **high-intensity platform consolidation**: Nvidia unveiled an agent-safety stack built around OpenShell, with support from major labs and hyperscalers, while its DSX POD design aimed to shorten AI-factory deployment from months to roughly two weeks.[1][5] OpenAI expanded distribution to Google Cloud’s Model Garden, putting its frontier models across all three major hyperscalers and reducing dependence on Microsoft.[5] Google broadened Gemini 4 Argon access, Meta launched its first frontier-class models from Superintelligence Labs, and OpenAI acquired Orchestra Bio to deepen vertical deployment in biopharma.[4][9] Washington also tightened the institutional perimeter: updated GSA AI-purchasing rules took effect, federal agencies were directed to remove DeepSeek, and the FTC pursued investigations into leading AI firms amid safety and consumer-protection concerns.[2][3][7]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "DPS-03",
+      "name": "Judicial Pipeline & Doctrinal Shift",
+      "summary": "The week showed **moderate judicial-power activity**, led by the Supreme Court’s refusal to lift an injunction blocking the Trump administration’s policy ending gender-affirming care for transgender federal prisoners; Justices Thomas and Alito dissented, leaving the lower-court constraint in place.[3][4] The Court also stayed a Fourth Circuit mandamus order that would have required the FCC to act on an application within 48 hours, reinforcing agency discretion over deliberative timing.[2] The federal judiciary’s personnel pipeline continued expanding, reaching 57 confirmations by October 21, alongside 15 vacancies and five pending nominees.[1][6] Appellate activity included a Fourth Circuit immigration ruling vacating and remanding a BIA decision, but no comparable surge in nominations, confirmation battles, or durable doctrinal realignment was evident in the available record.[9]\n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "DPS-04",
+      "name": "Fiscal-Monetary Stress Cycle",
+      "summary": "Inflation and Treasury yields intensified the fiscal-monetary strain: CPI reached 3.7%, while the 10-year yield briefly hit 5.33%, sharply raising federal refinancing costs and increasing pressure on the Fed to tighten further.[3] Markets repriced the next policy path, with December hike odds reaching 94% even as investors largely expected no move at the October 27–28 meeting.[8] Treasury bill and note yields remained elevated, with the 2-year near 4.79% and 10-year near 5.12% on October 20, signaling persistent term-premium and debt-supply pressure.[10] The week therefore showed clear momentum toward a higher-for-longer regime in which fiscal financing costs and inflation risk constrain monetary-policy flexibility.\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "DPS-05",
+      "name": "Capital Allocation & Private Power",
+      "summary": "Private-capital activity was **moderately strong**, led by continued expansion into credit, AI, cybersecurity, and infrastructure. MidOcean Partners formed a joint venture providing up to $225 million to small-business lender Idea Financial, while GTCR helped lead a $200 million second-lien loan for Thoma Bravo-owned Sophos and Aiga Capital committed up to $85 million to CleanChoice Energy.[2] Fundraising also remained active: Pear VC raised a $333 million early-stage fund, GenNx360 closed a roughly $285 million continuation vehicle, and BBAM raised more than $1.7 billion for aviation investments.[4][8] The broader structural signal is continued institutionalization of private assets: rated alternative managers’ fee-earning AUM rose 16.4% year over year to $4.3 trillion, with private capital increasingly financing AI and digital infrastructure.[3]\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "DPS-06",
+      "name": "Big Tech Regulatory Arbitrage",
+      "summary": "Congress showed renewed bipartisan momentum against platform self-preferencing: Senators Amy Klobuchar and Chuck Grassley announced a bill that would bar dominant platforms from favoring their own products or forcing businesses to buy platform services, although enactment remains uncertain.[1] FTC action also advanced a narrower form of platform accountability, with the agency referring a ticket broker’s alleged circumvention of online purchasing controls to DOJ for litigation.[2] On AI, lawmakers continued converging around federal frontier-model safety, auditing, shutdown authority, and liability proposals, while debating federal preemption of state rules—a potential regulatory-arbitrage channel for major AI firms.[10] Overall, the week produced meaningful legislative signaling but few completed structural changes or major Big Tech litigation outcomes.\n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "DPS-07",
+      "name": "Defense-Industrial Expansion",
+      "summary": "The week showed strong defense-industrial momentum: the Pentagon awarded Raytheon an \\( \\$8 \\) billion, 10-year nuclear-communications modernization contract, while DARPA established a potential \\( \\$499.8 \\) million research vehicle with Johns Hopkins APL.[1][2] Counter-UAS acceleration was evident in JIATF 401’s three-year, \\( \\$500 \\) million ceiling IDIQ with Leonardo DRS, designed to speed fielding of vetted sensing and low-altitude air-defense systems.[4][6] Industrial capacity also expanded through Lockheed Martin–Avio cooperation on solid-rocket motors and European Union funding for missile, drone, and ammunition inputs.[8][3] The Army’s near-exhaustion of FY2026 munitions funding and plans for autonomous launchers point to rising demand, but continuing-resolution uncertainty remains a constraint on procurement execution.[8][9]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "DPS-08",
+      "name": "Information Environment Contestation",
+      "summary": "Skydance’s completed $110 billion acquisition of Warner Bros. Discovery consolidated CBS News, CNN, HBO, Paramount, and major entertainment assets under David Ellison, intensifying concerns about billionaire control and editorial independence.[2][10] The deal’s reported FCC waiver for foreign sovereign-wealth participation and corporate appointment of the news-independence board signal regulatory and governance changes that could reshape media power.[2][4] Mexico separately issued a decree giving TikTok, Meta, X, and other platforms 30 days to impose stronger protections for minors, including default privacy controls, age classification, and rapid removal of harmful material.[3][6] TikTok also permanently banned an Elon Musk documentary’s advertising account over political-content violations, while Meta introduced mandatory human review for some automated ad restrictions amid election-related complaints in Brazil.[9]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "DPS-09",
+      "name": "Energy Transition & Security",
+      "summary": "The week showed **high momentum around grid expansion and permitting reform**, rather than a single breakthrough technology. DOE announced new grid investments, including Defense Production Act support for a Virginia–West Virginia transmission project and broader measures to lower electricity costs and improve reliability.[9] Bipartisan Senate permitting legislation gained fresh support from energy and national-security figures; the package would accelerate environmental reviews, expand FERC transmission authority, enable faster approval of gas, geothermal, hydropower, wind and other projects, and require large data centers to pay associated grid-upgrade costs.[3][6][7] Nuclear and fusion activity also advanced, with Tennessee licensing the first fusion plant for Type One Energy and the TVA Clinch River small modular reactor receiving an NRC construction permit, while renewables reportedly surpassed nuclear and coal in US generation during the first nine months of 2026.[2][5]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "DPS-10",
+      "name": "Coalition Machinery & Electoral Infrastructure",
+      "summary": "Republican House-aligned super PAC Congressional Leadership Fund reported a record $94 million in third-quarter fundraising, including $20 million checks from Elon Musk and Timothy Mellon, while Democratic House-aligned groups held a larger combined cycle-to-date advantage when dark-money affiliates are included.[1] Dark-money channels remained central to both parties’ coalition-building, with major Senate spending groups receiving substantial funding through opaque nonprofits and newly formed entities.[5] Election administration also became more contested: the federal government sued California over ballots cast by roughly 20,000 suspected noncitizens, while a federal judge allowed North Carolina’s stricter absentee-ballot verification rules to take effect.[3][8] Together, the donor surge and expanding ballot-access litigation point to a high-intensity pre-midterm infrastructure fight, with both financing networks and legal mechanisms being mobilized simultaneously.\n\n8",
+      "activation_score": 8
+    }
+  ],
+  "assembly_news_items": [
+    {
+      "id": "CA-029",
+      "name": "Google",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06"
+      ],
+      "raw_news": "Google pursued a stronger legal defense of its search monopoly, asking a U.S. appeals court to overturn a landmark antitrust ruling and arguing that its browser agreements did not unlawfully exclude rivals.[1][5]\n\nThe company also sought to pause separate digital-advertising antitrust litigation in New York while it appeals its Virginia loss, potentially delaying another major case against its ad-tech business.[10]\n\nGoogle Cloud deepened its AI distribution role by agreeing to offer OpenAI’s frontier models, including GPT-6 Astra and Codex, through its Model Garden and Marketplace—bringing a major rival into Google’s cloud ecosystem.[3]\n\nGoogle Cloud and Cognizant announced a joint Gemini effort backed by 18,000 employees to deploy enterprise “agentic AI,” strengthening Google’s channel for large-scale corporate adoption.[7]"
+    },
+    {
+      "id": "CA-099",
+      "name": "Google Cloud",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06"
+      ],
+      "raw_news": "OpenAI and Google Cloud announced that OpenAI’s frontier models and Codex coding agent will be sold through Google Cloud’s Model Garden and Marketplace, with purchases eligible for existing cloud-spending commitments and deployment under Google’s governance controls. The agreement strengthens Google Cloud’s role as an enterprise AI distribution channel while giving OpenAI access to customers across all three major U.S. cloud providers.[2][5]\n\nGoogle Cloud also resolved a power-related outage at its London region that disrupted Revolut, HSBC, Halifax, DPD, the NHS app and court services, highlighting the operational dependence of critical institutions on its infrastructure.[1][3]"
+    },
+    {
+      "id": "CA-012",
+      "name": "Alphabet Inc.",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06",
+        "DPS-08"
+      ],
+      "raw_news": "Alphabet’s most consequential move was committing to **significantly higher AI capital spending in 2027**, after forecasting $195–205 billion in 2026 spending—an escalation that intensifies the infrastructure race while increasing financial exposure.[1] On October 21, **OpenAI agreed to offer its leading models through Google Cloud**, creating a commercial alliance between major AI competitors and strengthening Google’s position as an enterprise distribution channel.[6] Alphabet also globally rolled out **Gemini 4 Argon**, targeting high-value enterprise uses including coding, law, finance, cybersecurity, and scientific research.[4] Separately, subsidiary Waymo announced plans to enter Toronto by 2028 through a partnership with Element Fleet Management, extending Alphabet’s autonomous-vehicle footprint into Canada.[3]"
+    },
+    {
+      "id": "CA-070",
+      "name": "Special Competitive Studies Project (SCSP)",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-07"
+      ],
+      "raw_news": "SCSP released **“The Open Frontier: How America Wins the AI Diffusion Race”** on October 15, urging U.S. policymakers to make American open-weight models the global default and counter rising adoption of Chinese models.[7] The group’s preliminary robotics commission report called for a national deployment mission to expand U.S. manufacturing, workforce capacity, and domestic component supply, citing China’s much larger robotics base and production scale.[8] SCSP also announced formation of the bipartisan **Commission on U.S. Quantum Primacy** on October 21 to develop a national strategy for maintaining American leadership in quantum technology.[9]"
+    },
+    {
+      "id": "CA-060",
+      "name": "Oracle Corporation",
+      "ps_memberships": [
+        "DPS-02",
+        "DPS-06"
+      ],
+      "raw_news": "Oracle partnered with AstraZeneca on a non-binding agreement to use Oracle’s health data, cloud, AI, and clinical-workflow capabilities to identify clinical-trial candidates and accelerate evidence generation—an expansion of Oracle’s AI platform into pharmaceutical operations.[2]\n\nOracle also broadened OCI’s model-neutral AI strategy by adding on-demand access to xAI’s Grok 4.6 and 4.7, expanding model imports from providers including Alibaba, DeepSeek, Google, and Z.ai, and introducing tools for regional routing and granular model-access controls.[1]\n\nOn October 20, OCI added generative-AI sandboxes, CPU-only inference across 30 commercial regions, and support for importing Alibaba’s Qwen3.6 model, strengthening Oracle’s effort to make its cloud a broad enterprise gateway for competing AI models.[9]"
+    },
+    {
+      "id": "CA-009",
+      "name": "US Senate",
+      "ps_memberships": [
+        "DPS-03",
+        "DPS-04"
+      ],
+      "raw_news": "The Senate advanced two judicial nominees—William W. Mercer and Anne-Leigh Gaylord Moe—by 53–46 cloture votes on October 21, extending the chamber’s role in reshaping the federal judiciary.[4] The Senate also confirmed President Trump’s 200th judicial nominee, marking a significant milestone in the administration’s doctrinal and institutional shift.[10] On fiscal policy, the Finance Committee promoted tax-cut messaging centered on expanded health-care savings, while no major floor action was recorded during the period.[2][6] Democratic leader Chuck Schumer warned that more than $400 million in Republican-aligned funds could influence control of the Senate in the November midterms, highlighting campaign-finance pressure on chamber power dynamics.[5]"
+    },
+    {
+      "id": "CA-013",
+      "name": "Senate Appropriations Committee",
+      "ps_memberships": [
+        "DPS-04",
+        "DPS-07"
+      ],
+      "raw_news": "The Senate Appropriations Committee’s major power issue remained its stalled FY2027 spending process: Chair Susan Collins had postponed markups of all 12 regular appropriations bills amid Republican Sen. Mitch McConnell’s prolonged absence, leaving the panel’s narrow one-vote GOP majority consequential.[7] Collins also announced that the committee would consider increasing Low Income Home Energy Assistance Program funding, while defending the early release of existing heating aid as winter costs rose.[10] On defense, a recent investigation intensified scrutiny of the committee’s decision to fund Army trucks the service did not want; Collins’ office attributed the decision to the Defense Appropriations subcommittee’s bipartisan leadership rather than Collins personally.[2]"
+    },
+    {
+      "id": "CA-032",
+      "name": "US House of Representatives",
+      "ps_memberships": [
+        "DPS-04",
+        "DPS-10"
+      ],
+      "raw_news": "The House passed a short-term funding bill by **370–48**, extending federal operations through December 11 and postponing the larger FY2027 appropriations fight until after the midterm elections.[5][8] The bipartisan vote—backed by 193 Republicans and 176 Democrats—temporarily removes the threat of a pre-election shutdown while preserving the existing spending structure.[8] The chamber also narrowly approved a roughly **$1.15 trillion defense policy bill, 216–212**, advancing FY2027 defense priorities despite deep partisan divisions.[6]"
+    },
+    {
+      "id": "CA-058",
+      "name": "Cerberus Capital Management",
+      "ps_memberships": [
+        "DPS-05",
+        "DPS-07"
+      ],
+      "raw_news": "Cerberus agreed to acquire Goodwin’s mechanical-engineering division for approximately £1.1 billion, expanding its defense-industrial holdings in radar equipment and submarine components; completion is expected in 2027, subject to regulatory approval.[8] It also agreed with Intrum to acquire a €2 billion portfolio of distressed Hoist Finance loans, with Cerberus taking 70% and Intrum 30%, reinforcing their asset-management partnership.[1] Cerberus is reportedly evaluating a possible exit from Hamburg Commercial Bank, hiring Goldman Sachs and Morgan Stanley to assess options for its majority stake.[3] A federal disclosure also showed that Pentagon official Stephen Feinberg received $65.6 million in 2025 income from Cerberus before divesting his holdings upon entering government.[7]"
+    },
+    {
+      "id": "CA-071",
+      "name": "Senate Foreign Relations Committee",
+      "ps_memberships": [
+        "DPS-07"
+      ],
+      "raw_news": "Senate Foreign Relations Committee member Chris Murphy accused the Trump administration of obstructing congressional oversight after the Pentagon denied him access to Qatar’s Al Udeid Air Base during an official Middle East delegation, alleging officials were concealing the Iran war’s costs and consequences.[10] On October 20, Murphy issued a statement on protests in Albania, while committee Ranking Member Jeanne Shaheen led a bipartisan statement ahead of Serbia’s parliamentary elections, signaling continued Democratic engagement on European political stability.[3][6] No major committee-level arms-sale decision or defense-industrial expansion move was identified in the available reporting for October 14–21."
+    },
+    {
+      "id": "CA-103",
+      "name": "Blue Origin",
+      "ps_memberships": [
+        "DPS-07"
+      ],
+      "raw_news": "Blue Origin announced a **$330 million expansion of its Florida launch infrastructure**, including additional launch pads, manufacturing capacity, and landing barges, targeting multiple New Glenn flights per week by the end of the decade.[1][2][3] The company is seeking approval to raise launch capacity at Cape Canaveral’s Launch Complex 36 from 12 to as many as 50 New Glenn missions annually.[4] The move strengthens Blue Origin’s position in the U.S. commercial and national-security launch market by scaling production and operational capacity around its existing defense contracts.[1][2]"
+    },
+    {
+      "id": "CA-118",
+      "name": "Emerson Collective",
+      "ps_memberships": [
+        "DPS-08"
+      ],
+      "raw_news": "Laurene Powell Jobs, founder and president of Emerson Collective, bought a $250 million stake in Skydance when its Warner Bros. Discovery merger closed and joined Skydance’s board as an independent director, expanding Emerson’s influence in film and news media.[1] Skydance shares subsequently fell 43% from the purchase price, leaving the stake worth roughly $142 million as of October 19.[1] The move adds Skydance to Emerson’s broader media portfolio, which includes majority ownership of *The Atlantic* and investments in Anonymous Content and Concordia Studio.[1]"
+    },
+    {
+      "id": "CA-082",
+      "name": "Warner Bros. Discovery",
+      "ps_memberships": [
+        "DPS-08"
+      ],
+      "raw_news": "Paramount Skydance’s acquisition of Warner Bros. Discovery has closed, creating a consolidated media and news conglomerate combining Warner Bros., HBO, CNN, Paramount, and CBS.[1][8] The merger is facing a new federal antitrust challenge: plaintiffs filed an October 16 motion seeking to keep HBO Max, Paramount+, CNN, and related operations separate while litigation proceeds, with a December 3 hearing requested.[3] John Malone publicly floated a potential $8–10 billion SpaceX–Skydance investment and distribution partnership, though he said negotiations were not underway.[2] CNN also announced a content-licensing partnership with Google for AI training and features, adding a major technology platform to the conglomerate’s information-distribution ecosystem.[10]"
+    },
+    {
+      "id": "CA-130",
+      "name": "Liberty Media",
+      "ps_memberships": [
+        "DPS-08"
+      ],
+      "raw_news": "Liberty Media’s most consequential move in the period was advancing the **Liberty Live spin-off and CEO transition**, signaling a restructuring of the group’s live-entertainment assets and leadership.[9] Formula 1 also reshuffled its 2026 calendar, moving the Bahrain Grand Prix to Malaysia and preserving a 23-race schedule; its Las Vegas race agreement was extended through 2037, reinforcing Liberty’s long-term commitment to the U.S. market.[4] No major new policy, legal action, or alliance involving SiriusXM or the Atlanta Braves was reported during the period; other coverage centered on share-price movements and analyst ratings rather than strategic decisions.[1][3]"
+    },
+    {
+      "id": "CA-035",
+      "name": "Citadel Securities",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "Citadel Securities is considering expanding its fixed-income market-making business over the next several years, with President Jim Esposito saying the firm has gaps in its current offering but is not rushing the move.[1] The potential expansion would broaden the firm’s role across U.S. market infrastructure beyond equities and options.[1] Separately, Citadel Securities strategist Scott Rubner said some institutional clients are waiting until after the Nov. 3 midterm elections to rebuild exposure, while retail traders net bought $9.1 billion in U.S. equities on the firm’s platform in the week ended Oct. 11, concentrated in AI-linked stocks and ETFs.[3][4] Ken Griffin also publicly characterized the AI market as “almost certainly” a bubble, adding a prominent risk warning from the firm’s co-founder amid continued AI-driven trading activity.[6]",
+      "spontaneous": true
+    },
+    {
+      "id": "CA-136",
+      "name": "Related Companies",
+      "ps_memberships": [
+        "DPS-05"
+      ],
+      "raw_news": "Related Ross, the Stephen Ross-led platform affiliated with Related Companies, agreed to acquire the 380,823-square-foot North 40 office complex in Boca Raton for $64 million, its second South Florida office purchase in roughly two months.[1] The acquisition expands Ross’s local office footprint and follows the undisclosed purchase of the nearby 124-acre BRiC campus, consolidating control of a sizable office cluster.[1] Separately, Related Companies and NextEra Energy Resources are advancing Project Star, a planned $22 billion-plus natural-gas power and data-center campus in Texas, with 6.47 gigawatts of generation capacity and Related Digital developing an adjacent 5-gigawatt data-center campus.[2]",
+      "spontaneous": true
+    }
+  ],
+  "news_items": [
+    {
+      "name": "Eric Schmidt",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Reported 1% Anthropic stake:** Bloomberg reported that Eric Schmidt owns about 1% of Anthropic from a 2021 Series A investment, potentially worth roughly $10 billion at the company’s latest reported private valuation and more if it pursues an IPO.[1][3] **Why it matters:** The holding could make Schmidt one of the largest individual financial beneficiaries of the AI boom and strengthens his position within the leading-model investment ecosystem.\n\n- **Anthropic IPO windfall potential:** Reports said Anthropic is preparing for a possible public listing and that investors have discussed valuations ranging from roughly $1.5 trillion to $2 trillion, although the timing and valuation remain uncertain.[3][6] **Why it matters:** A successful listing would convert Schmidt’s early AI access into substantial financial and strategic influence, reinforcing his role in the AI dominance race.\n\n- **No additional verified hard-news developments found:** The available coverage for October 14–21 primarily concerned Schmidt’s Anthropic stake and its possible IPO; other surfaced items were older commentary or routine statements rather than new policy decisions, legal actions, or defense-business moves.[1][3][9] **Why it matters:** The week’s clearest change in Schmidt’s position was financial exposure to Anthropic, not a newly announced regulatory or defense initiative."
+    },
+    {
+      "name": "Bret Taylor",
+      "domain": "Co-Founder, Sierra; Chairman, OpenAI Board",
+      "raw_news": "No major, independently verified hard-news developments involving Bret Taylor were found specifically between **October 14 and October 21, 2026**. The available coverage points to one significant ongoing development:\n\n- **Sierra reportedly raised $350 million at a $10 billion valuation.** The financing, reportedly led by Greenoaks Capital, would strengthen Sierra’s position in enterprise AI and expand Taylor’s influence as co-founder while increasing the strategic significance of his simultaneous role as OpenAI chair.[5]\n\n- **Taylor’s Personal Agent Protocol initiative gained continued attention as an emerging industry standard.** Sierra, Meta, Walmart, Stripe and other companies are developing an open framework for authenticating and governing AI agents interacting with businesses; Taylor said he expects OpenAI and Anthropic to join and would be disappointed if competitors did not adopt it.[4][8]\n\n- **The protocol underscored a competitive fault line among major AI companies.** OpenAI and Anthropic were not initial participants, leaving Taylor promoting an interoperability standard from outside his own boardroom while representing Sierra’s interests in shaping how AI agents access commercial services.[8][9]\n\nThese are the only developments in the available results that meet the requested significance threshold; routine events such as Taylor’s October 17 conference appearance were excluded."
+    },
+    {
+      "name": "Satya Nadella",
+      "domain": "Chairman & CEO, Microsoft",
+      "raw_news": "No verified hard-news event involving Satya Nadella falls clearly within **October 14–21, 2026** in the available results. The latest substantive development was reported earlier:\n\n- **AI “emergency brake” proposal:** Nadella called for advanced AI systems to be treated as potentially compromised, with containment, independent controls, auditability, and a human-controlled shutdown mechanism.[1][2] **Why it matters:** The proposal positions Microsoft as a standards setter in AI safety and gives Nadella influence over the governance framework for agentic AI.\n\n- **AI systems framed as insider risks:** Nadella argued that autonomous models with access to sensitive data should be governed like potential insider threats rather than trusted solely on developers’ assurances.[7][9] **Why it matters:** This strengthens Microsoft’s case for enterprise AI controls and could shape forthcoming regulatory and procurement requirements.\n\n- **Microsoft’s Windows AI strategy:** Microsoft unveiled a “hybrid intelligence” Windows approach combining cloud AI, local models, Copilot, and agentic capabilities.[5][6] **Why it matters:** It reflects Nadella’s effort to extend Microsoft’s AI platform influence from cloud infrastructure into the PC operating system and developer ecosystem.\n\nBecause the available reporting is dated mainly **October 7–12**, it does not support adding 3–5 events specifically occurring during October 14–21."
+    },
+    {
+      "name": "Stephen Schwarzman",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Japan investment plan:** Schwarzman said Blackstone plans to invest **$40 billion in Japan over the next three years**, targeting real estate, corporate acquisitions, AI, and defense.[5] **Why it matters:** The commitment expands Schwarzman’s role in Japan’s economic and strategic investment landscape while directing substantial capital toward sectors tied to national competitiveness.\n\n- **India expansion:** Schwarzman said Blackstone expects to deploy significant additional capital in India, including infrastructure and private credit alongside private equity and real estate.[1] **Why it matters:** The strategy broadens Blackstone’s influence in one of the world’s fastest-growing major markets and increases Schwarzman’s leverage with Indian policymakers and businesses.\n\n- **Political alignment with Trump:** Schwarzman reportedly said he will support Donald Trump in the November presidential election and plans to contribute to Trump and Republican Senate candidates.[4] **Why it matters:** The move could reconnect one of Wall Street’s largest donor networks to Trump and strengthen Schwarzman’s influence over Republican economic and policy circles.\n\n- **Blackstone multifamily loan enters special servicing:** A $517.7 million remaining balance on a Blackstone-linked CMBS loan entered special servicing after missing its October maturity, with a three-month forbearance granted to facilitate asset sales.[2][3] **Why it matters:** The episode highlights stress in parts of Blackstone’s real-estate portfolio and could test confidence in Schwarzman’s capital-allocation record amid higher financing costs.\n\n- **AI and data-center concerns:** Schwarzman said Blackstone is addressing social and environmental concerns linked to AI development as opposition to U.S. data-center construction grows.[7] **Why it matters:** The statement signals that AI infrastructure is a major strategic priority for Blackstone, while acknowledging the regulatory and community resistance that could constrain its expansion."
+    },
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "domain": "House (NY, Democrat)",
+      "raw_news": "- **$1 million transferred to Abdul El-Sayed’s Michigan Senate campaign:** Ocasio-Cortez moved $1 million from her New York political operation to the joint fundraising committee supporting El-Sayed, after campaigning with him in Michigan.[4][5][9] **Why it matters:** The contribution demonstrates her capacity to move substantial resources into competitive Democratic races and strengthens her role as a national progressive fundraising and coalition broker.\n\n- **Michigan campaign push with El-Sayed:** Ocasio-Cortez joined El-Sayed for a multiday Michigan bus tour and rallies, including events in the Upper Peninsula, Pontiac, Dearborn, and Detroit.[10] **Why it matters:** The deployment broadens her organizing network beyond New York and links her national profile to a battleground Senate contest that could affect party control of the chamber.\n\n- **Strong fundraising quarter:** Federal filings reportedly showed Ocasio-Cortez raised $4.7 million in the third quarter and entered October with nearly $17.4 million cash on hand.[6][9] **Why it matters:** The financial position gives her greater independence from party leadership and the ability to fund allied candidates and infrastructure at scale.\n\nNo other clearly significant hard-news developments within October 14–21 were identified in the available results; the remaining official congressional items were dated before the requested window.[1][2]"
+    },
+    {
+      "name": "Mike Lee",
+      "domain": "Senate (UT, Republican)",
+      "raw_news": "- **Supreme Court brief on John Eastman’s disbarment (Oct. 15):** Lee and Sen. Ted Cruz urged the Supreme Court to review California’s disbarment of Eastman, arguing that the state punished politically protected speech and acted unconstitutionally.[4][6] **Why it matters:** The filing reinforces Lee’s role in the conservative judicial and constitutional campaign around election-related prosecutions and professional discipline.\n\n- **Call to impeach a federal judge (Oct. 21):** Lee advocated impeaching a federal judge who ruled against President Trump’s executive order restricting voting by mail and used the effort to solicit campaign contributions.[5] **Why it matters:** It escalates Lee’s pressure on the federal judiciary and ties judicial accountability to his political fundraising and alignment with Trump.\n\n- **Attack on Sen. Elissa Slotkin over prosecution comments (Oct. 19–21):** Lee called Slotkin’s suggestion that Trump administration officials could face prosecution to deter future service a “fascist” tactic and said it threatened young Americans participating in government.[1][2] **Why it matters:** The dispute positions Lee as a prominent Republican defender of Trump personnel and sharpens his profile in the party’s broader conflict over political retaliation and accountability.\n\n- **Kratom scheduling push:** A recent letter associated with Lee urged the DEA and FDA to move beyond scheduling concentrated 7-OH products and consider placing the entire kratom plant and related compounds under federal control.[3] **Why it matters:** The move signals a substantial policy shift from Lee’s earlier opposition to broader kratom scheduling and could matter if he assumes a leading Republican role on the Senate Judiciary Committee.[3]"
+    },
+    {
+      "name": "Christopher Murphy",
+      "domain": "Senate (CT, Democrat)",
+      "raw_news": "- **DOJ gun-sale enforcement challenge (Oct. 16):** Murphy, Mark Kelly, and Adam Schiff demanded answers from Attorney General Todd Blanche over the Justice Department’s decision to stop enforcing a longstanding prohibition on handgun sales to people under 18.[1] **Why it matters:** The move positions Murphy as a prominent Senate opponent of the administration’s firearms policy and gives him a concrete oversight and litigation issue.\n\n- **Albania protests statement (Oct. 20):** Murphy issued a statement on protests in Albania in his capacity as a Senate Foreign Relations Committee member.[1] **Why it matters:** It reinforces his role in Democratic foreign-policy messaging, though the available reporting does not indicate a new legislative or diplomatic action.\n\n- **Campaign intervention in Tennessee (Oct. 15):** Murphy joined Justin J. Pearson on the campaign trail as Democrats targeted Tennessee’s 9th Congressional District.[3] **Why it matters:** The appearance expands Murphy’s national political profile and signals an effort to help Democrats build influence beyond Connecticut ahead of the midterms.\n\n- **Threatening letter sent to Murphy’s office (reported Oct. 15):** Federal authorities investigated a suspicious-substance letter sent to a Murphy state office; staff said safety protocols prevented immediate danger.[7] **Why it matters:** The incident adds security and political-risk pressure around Murphy’s public work, but it was not reported as an attack or policy development."
+    },
+    {
+      "name": "Patty Murray",
+      "domain": "Senate (WA, Democrat)",
+      "raw_news": "- **Student-aid office restructuring — Oct. 15:** Murray condemned the Trump administration’s reported move to remove the Federal Student Aid office from the Department of Education, warning it could create financial chaos for borrowers.[2] The statement reinforces her role as a senior appropriations and education-policy defender, while setting up a direct oversight fight over implementation of the FY2026 funding law.[2]\n\n- **Education grant funding dispute — Oct. 14:** Murray and Sen. Tammy Baldwin urged the Education Department to abandon a grant “frontloading” tactic they said was preventing more than $600 million from reaching schools and students in the current year.[10] As Appropriations vice chair, Murray is using control over federal funding oversight to challenge executive branch spending decisions.[10]\n\n- **Public-health policy initiative — Oct. 14:** Murray launched the Public Health for America Working Group at Washington State University to develop safeguards and legislation aimed at rebuilding trust in public health.[7] The initiative expands her influence beyond appropriations into a potential Democratic policy framework responding to the administration’s health agenda.[7]\n\n- **Border-station modernization request — Oct. 15:** Murray and Rep. Rick Larsen pressed the administration to fund modernization projects at the Sumas and Lynden border crossings.[3] The move links her appropriations leverage to Washington’s trade and border infrastructure priorities, though the available reporting does not show a funding decision.[3]\n\n- **Wildfire-response funding advocacy — Oct. 16:** Murray and Rep. Kim Schrier toured Washington’s Fire Training Academy and highlighted federal investments in wildfire preparedness, suppression, and firefighter pay included in the FY2026 appropriations law.[4] The event underscores Murray’s influence as a senior appropriator delivering geographically targeted defense and resilience spending, but it was advocacy rather than a new policy action.[4]"
+    },
+    {
+      "name": "Donald Newhouse",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Condé Nast joined publishers seeking AI-scraping transparency (Oct. 15).** The publisher backed a coalition letter urging UK legislation requiring AI companies to disclose access to and use of copyrighted publisher content.[1] **Why it matters:** The move positions the Newhouse-controlled media group in the policy fight over publishers’ bargaining power, copyright protection, and control of the information environment.\n\n- **Condé Nast’s UK profits fell sharply while the Newhouse family ruled out a sale (reported Oct. 18).** UK pre-tax profits excluding exceptional items dropped 36% to about £18 million, while Advance chair Steven Newhouse said the family was not pursuing a sale of Condé Nast.[6] **Why it matters:** Despite worsening traditional-media economics, the family’s decision preserves its ownership and continuing influence over major global outlets including Vogue, GQ, Vanity Fair, and Tatler.\n\n- **Condé Nast continued operating under interim leadership after Roger Lynch’s departure.** Mike Perlis remains interim CEO while the board searches for a permanent successor after Lynch left to lead Mattel.[5] **Why it matters:** The leadership transition creates uncertainty over the strategy and editorial-commercial direction of one of the Newhouse family’s most influential information assets.\n\n- **Condé Nast’s financial pressure remained visible despite international growth.** UK revenue fell 7% to £70.6 million, although international revenue rose 18% and kept total revenue near £100 million.[6] **Why it matters:** The figures underscore the challenge facing the Newhouse media portfolio: maintaining influence and investment in journalism while offsetting weakness in core publishing markets."
+    },
+    {
+      "name": "Sundar Pichai",
+      "domain": "CEO, Alphabet/Google",
+      "raw_news": "- **AI compute prioritized over cloud revenue:** Pichai said Google is deliberately sacrificing some near-term Cloud revenue to reserve computing capacity for DeepMind’s frontier-AI development, calling that allocation “non-negotiable.”[4] This reinforces his strategy of treating infrastructure and model leadership as more important than maximizing immediate cloud monetization.\n\n- **Alphabet’s large AI investment and usage claims:** Pichai said Alphabet expects nearly $190 billion in capital spending this year, while Google’s Gemini app, AI Overviews, AI Mode, and developer ecosystem have reached hundreds of millions to billions of users or developers.[2] The figures strengthen his case that Google remains a leading contender in the AI dominance race, though they are company-provided claims rather than independent measurements.\n\n- **Potential $692 million compensation package:** Alphabet reportedly proposed a new three-year package for Pichai worth up to $692 million, with major performance-linked awards tied to Alphabet and its Waymo and Wing businesses.[6] The structure signals board-level confidence in Pichai’s ability to turn AI-era bets and other “moonshots” into long-term shareholder value.\n\n- **White House AI-safety accord:** Pichai was reported as backing a White House accord requiring internal controls, independent evaluation, and board scrutiny for advanced AI systems.[1] Support positions Google as a participant in shaping voluntary AI governance, potentially helping it influence regulatory standards while avoiding or delaying more prescriptive rules."
+    },
+    {
+      "name": "Mitchell Rales",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "The only clearly significant hard-news development identified in **October 14–21, 2026** was a Danaher equity disclosure; no reliable evidence in the available results supports 3–5 separate events.\n\n- **Mitchell Rales waived a 500,000-share Danaher restricted-stock-unit award for no consideration.** The award had been granted in August, and the waiver was disclosed in an SEC Form 4 filed October 14.[2][4] **Why it matters:** It changes the compensation and ownership profile of Danaher’s executive-committee chairman while underscoring his continuing influence as the company’s co-founder and a major indirect shareholder.[4][6]\n\n- **The waiver occurred alongside a parallel action by co-founder Steven Rales.** Both brothers relinquished 500,000-share Founder RSU awards, while retaining other long-term equity awards, including options.[2][5] **Why it matters:** The coordinated move signals a deliberate governance or compensation decision by Danaher’s founding shareholders rather than an isolated personal transaction.[5]\n\nNo other substantiated policy, legal, geopolitical, or major public-statement event involving Mitchell Rales during the specified seven-day period appears in the available reporting."
+    },
+    {
+      "name": "Ketanji Brown Jackson",
+      "domain": "Associate Justice, US Supreme Court",
+      "raw_news": "- **Solo jurisprudential approach highlighted (Oct. 19):** A major profile described Jackson as increasingly isolated from her colleagues in both style and substance, while developing a distinctive critique of conservative originalism that emphasizes Black Americans’ role in shaping the Fourteenth Amendment.[1] **Why it matters:** The approach positions her as the Supreme Court’s most prominent liberal counterweight and could influence future doctrinal debates if the Court’s membership changes.[1]\n\n- **Dissented from FCC emergency relief (Oct. 15):** Jackson, joined by Justice Sonia Sotomayor, indicated she would have denied the FCC’s request to block an appeals-court ruling concerning the agency’s political-advertising-rate notice.[4][5] **Why it matters:** The vote reinforces her resistance to expansive emergency interventions by the Court’s conservative majority and clarifies her position on administrative-law disputes.[4][5]\n\n- **Recusal contributed to Supreme Court’s inability to hear music-copyright appeal (Oct. 19):** Jackson was among four justices who recused themselves in a case involving BMG Rights Management, whose corporate parent also publishes books by the recused justices; the remaining five-member court lacked the quorum needed to hear the appeal.[3] **Why it matters:** The episode highlights how justices’ outside publishing relationships can affect the Court’s case pipeline and raises institutional questions about recusal rules.[3]\n\n- **Video-privacy case exposed a major doctrinal test (Oct. 15–21):** The Court heard argument in *Salazar v. Paramount Global* over how the 1988 Video Privacy Protection Act applies to online services, with Jackson participating in the term’s final October argument.[4] **Why it matters:** The case gives Jackson an opportunity to shape how an older privacy statute is adapted to modern technology, an area central to the Court’s broader doctrinal direction.[4]"
+    },
+    {
+      "name": "Bob Parsons",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard-news events involving Bob Parsons were reliably identified in the period **October 14–21, 2026**.\n\n- **GoDaddy sale report:** A report dated October 19, updated October 21, said GoDaddy agreed to a **$2.25 billion acquisition by a KKR- and Silver Lake-led consortium**; Parsons, who had already sold his remaining stake and left GoDaddy’s board in 2018, reportedly said the deal could support international expansion and potentially an IPO.[1][3]  \n  **Why it matters:** The transaction concerns Parsons’s most prominent legacy company, but it does not represent a new ownership or governance role for him.\n\n- **No verified new PXG or YAM Worldwide hard-news move:** Available results showed routine or earlier PXG-related coverage, including an October 9 Japan management announcement, rather than a material business transaction, legal action, policy decision, or major public statement during the requested window.[2][8]  \n  **Why it matters:** There is insufficient evidence of a consequential change in Parsons’s current influence through PXG or YAM Worldwide during these seven days."
+    },
+    {
+      "name": "Stanley Druckenmiller",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **AI-assisted Wall Street Journal op-ed (Oct. 19–21):** Druckenmiller said he now uses AI to help write his views, after the Journal defended publishing his essay on letting bond markets signal fiscal risks.[1] **Why it matters:** It reinforces his influence as a high-profile market commentator while putting his credibility and the role of AI in elite financial opinion under scrutiny.\n\n- **Warning on an AI earnings bubble (reported Oct. 16–20):** Druckenmiller warned that AI’s economic value may not translate into adequate returns for investors financing the buildout, especially as borrowing costs rise.[3] **Why it matters:** The statement signals caution from a major capital allocator toward the sector driving substantial private investment and market valuations.\n\n- **U.S. borrowing-cost and Fed criticism (updated Oct. 20):** Druckenmiller argued that U.S. borrowing costs remain too low and criticized policymakers who believe monetary tightening has already done enough.[2] **Why it matters:** His intervention adds influential investor pressure to debates over fiscal discipline, Treasury financing, and Federal Reserve policy.\n\n- **Brazil exposure remains under scrutiny after election-driven rally:** Reporting highlighted Duquesne’s previously disclosed Brazil ETF shares and call options, valued at roughly $118 million and $146 million respectively, after Brazil’s largest ETF surged following an election shock.[4] **Why it matters:** The position illustrates Druckenmiller’s ability to deploy concentrated capital around geopolitical and political market catalysts, although his post-election holdings remain undisclosed."
+    },
+    {
+      "name": "Fred Smith",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "The most significant recent development was **the creation of a family office to manage Fred Smith’s investments and philanthropy**.\n\n- **Family establishes FWS Enterprises:** Smith’s family formed FWS Enterprises to oversee investments and charitable work; the family is FedEx’s largest combined shareholder and has pledged matching donations of up to $50 million for Memphis projects.[2]  \n  **Why it matters:** The entity formalizes the family’s role as a major financial and civic force in Memphis after Smith’s death.\n\n- **Smith’s legacy remains central to FedEx’s shareholder narrative:** FedEx’s proxy materials continued highlighting Smith as its founder and former chairman while noting his death and his inclusion on Forbes’ list of historic innovators.[10]  \n  **Why it matters:** The company is using Smith’s legacy to frame its governance and long-term identity during the post-founder transition.\n\n- **FedEx’s European cold-chain booking system launched:** FedEx introduced a digital booking process for temperature-controlled pharmaceutical shipments in Europe.[7]  \n  **Why it matters:** Although not a direct action by Smith, the move extends the logistics infrastructure he created into a higher-value, regulated sector, reinforcing his continuing influence through FedEx’s strategy.\n\n- **New coverage revisited Smith’s 1970s survival gamble:** A report recounted how Smith used FedEx’s final $5,000 in company funds to win enough money at blackjack to keep operations running.[1]  \n  **Why it matters:** The story is retrospective rather than a new business action, but it continues shaping public perceptions of Smith as the risk-taking founder behind FedEx’s global position."
+    },
+    {
+      "name": "Ronald Lauder",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No 3–5 qualifying hard-news events involving Ronald Lauder were identified in the seven-day window of October 14–21, 2026. The available results show one substantive development:\n\n- **World Jewish Congress statement on antisemitism and Israel:** Lauder issued a statement marking the third anniversary of the October 7 attacks, defending Israel against genocide accusations and urging governments to protect Jewish communities.[3] **Why it matters:** It reinforces his role as a prominent international Jewish leader and as a public advocate for Israel and against antisemitism.\n\nA related report described Lauder’s political retreat—no Republican donations in 2026, an inactive super PAC, and the dismissal of political advisers—but the underlying reporting dates to August, not the requested seven-day period.[6] His announced plan to leave the World Jewish Congress presidency and his Estée Lauder board role also appear to predate the window.[1]"
+    },
+    {
+      "name": "Leonard Leo",
+      "domain": "Co-chairman, The Federalist Society; Chairman, CRC Advisors; Marble Freedom Trust network architect",
+      "raw_news": "No significant hard-news events involving Leonard Leo were reliably identified for **October 14–21, 2026**.\n\n- **No verified new policy, legal, or organizational action surfaced.** The available results mainly recirculate earlier reporting about Leo’s refusal to provide information in the Senate Judiciary Committee’s Supreme Court ethics inquiry, rather than documenting a new development during this seven-day window.[2][4]\n- **No confirmed judicial-pipeline or doctrinal announcement appeared.** Current results provide background on Leo’s Federalist Society role and influence over conservative judicial networks, but no new nominee, litigation strategy, court decision, or policy initiative tied to him in the specified period.[6][8]\n- **No clear coalition-machinery or electoral-infrastructure move was established.** A New Jersey Globe result mentions Washington conservatives raising money for “Webber,” but the available snippet does not establish Leo’s involvement or provide enough detail to treat it as a significant Leo-related event.[5]\n\n**Bottom line:** On the evidence available, there are fewer than three defensible hard-news items for the requested period; adding more would risk overstating routine or weakly sourced material."
+    },
+    {
+      "name": "Charles Koch & family",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Getty Images takeover:** Koch Equity Development and the Getty family agreed to inject up to $533 million into Getty Images through a prepackaged Chapter 11 restructuring, taking the company private and eliminating public shareholders.[2][4] **Why it matters:** The deal expands Koch’s private-investment footprint into a major global media-asset business while giving the family greater control over a strategically influential information platform.\n\n- **Senate advertising push:** Americans for Prosperity Action began a $22 million “closing argument” advertising campaign in five Senate battleground states, attacking Democratic candidates and socialism ahead of the midterm elections.[3] **Why it matters:** The spending demonstrates the Koch network’s capacity to shape national electoral narratives and potentially influence control of the Senate.\n\n- **Wisconsin governor’s race:** Americans for Prosperity–Wisconsin launched a new $3 million ad campaign supporting Republican Rep. Tom Tiffany, bringing its investment in the race to $10 million.[7] **Why it matters:** The escalation shows the network deploying substantial resources beyond congressional contests to reclaim state-level executive power.\n\n- **Koch-linked policy network in Kansas:** Reporting connected Kansas gubernatorial candidate Ty Masterson’s tax, election-security, and education positions to policy models associated with networks funded by Charles Koch and affiliated entities.[10] **Why it matters:** It illustrates the longer-term pipeline through which Koch-aligned policy infrastructure can shape candidates and state-government agendas, even without direct campaign control.\n\n- **VLCC shipping activity:** Koch was reported to have secured a record tanker charter worth about $1 million per day for an Oman route.[9] **Why it matters:** The transaction would underscore Koch’s continuing leverage in global energy logistics and the strategic value of its commodity-trading operations amid geopolitical supply risks."
+    },
+    {
+      "name": "Ken Griffin",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Criticized Trump’s tariff strategy.** Griffin called tariffs on U.S. allies “a disaster,” saying they are inflationary and have severed global supply chains.[1][8] **Why it matters:** The intervention positions one of the Republican Party’s largest donors as a high-profile critic of a core administration policy, potentially influencing midterm economic debate.\n\n- **Warned of an AI investment bubble.** Griffin said markets are “almost certainly” experiencing an AI bubble, citing uneven corporate returns from heavy spending on AI systems and data centers.[3][7] **Why it matters:** His comments could affect investor risk perceptions around one of the largest current areas of capital deployment, even though he did not advocate abandoning AI investment.\n\n- **Opposed further tax cuts.** Griffin said Republicans and President Trump erred by extending tax cuts after pandemic-era spending, arguing that the U.S. lacked fiscal room and should instead focus on economic growth.[2][5] **Why it matters:** The position marks a significant policy break with the party he financially supports and adds credibility to deficit concerns from a major conservative donor.\n\n- **Predicted Republican midterm losses.** Griffin said Republicans would “almost certainly” lose control of at least one chamber of Congress, describing the elections as a check on the party in power.[8] **Why it matters:** As a major Republican fundraiser, his forecast signals concern within the party’s donor class and could shape strategic capital allocation toward competitive races."
+    },
+    {
+      "name": "Stephen Ross",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "Stephen Ross’s most significant hard-news development during October 14–21, 2026, was a major minority-stake sale in his sports holdings:\n\n- **Ross agreed to sell 2.1% of the Miami Dolphins and affiliated properties to Chilean billionaire Jean Eric Salata at a valuation above $12.5 billion.** The transaction includes interests in Hard Rock Stadium, the F1 Miami Grand Prix, and the Miami Open; NFL owners are expected to approve it after the league finance committee cleared it.[1][4]  \n  **Why it matters:** The deal sets a reported record valuation for an NFL minority transaction and converts part of Ross’s sports empire into liquidity while expanding the circle of billionaire investors around his South Florida platform.[4][8]\n\n- **The sale continues Ross’s broader divestment of minority stakes in Ross Sports & Entertainment.** It follows the 2024 sale of 10% to Ares Management and additional stakes to Joe Tsai and Oliver Weisberg, plus a reported 1% sale to Xiaomi co-founder Lin Bin earlier in 2026.[2][3][7]  \n  **Why it matters:** Ross is retaining control while using high-value minority transactions to monetize appreciation and bring financially powerful partners into properties that reinforce his influence in Miami sports and entertainment.[3][8]\n\n- **Ross reportedly has no current intention of selling his controlling stake in the Dolphins.** The latest transaction reduces his ownership incrementally but leaves him as the franchise’s majority owner.[3][8]  \n  **Why it matters:** The strategy preserves Ross’s formal control and political-commercial leverage in South Florida while allowing capital extraction at valuations far above the roughly $1.1 billion acquisition price in 2009.[1][8]\n\nNo other comparably significant policy, legal, geopolitical, or Related Companies capital-allocation event involving Ross was identified in the available coverage for this seven-day window."
+    },
+    {
+      "name": "Judy Faulkner",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No significant hard-news events involving Judy Faulkner were identified in the available results for **October 14–21, 2026**. The relevant developments were:\n\n- **Epic announced Prescription Marketplace on October 15.** The planned tool will let clinicians and patients compare insured and cash medication prices across pharmacies before sending a prescription, with a potential May 2027 rollout.[1][9] **Why it matters:** It expands Faulkner’s influence into prescription-price transparency and could strengthen Epic’s role in medication purchasing decisions.\n\n- **Epic expanded its AI strategy beyond traditional electronic health records.** The company highlighted work on “agentic AI” and tools such as Emmie, signaling a broader push into automated healthcare workflows.[3] **Why it matters:** The move positions Faulkner as a major private-sector voice shaping how AI is integrated into clinical and administrative care.\n\n- **Epic’s cybersecurity disclosures continued to affect the company’s position.** Reporting during the period revisited vulnerabilities that AI testing identified in configurations affecting access to patient records, while Epic said its product roadmap remained on track after remediation work.[5][10] **Why it matters:** The episode places Faulkner at the center of scrutiny over the security of systems used for health data on a massive scale and tests Epic’s credibility as a dominant vendor.\n\n- **Epic’s VA integration was highlighted as improving specialist appointment scheduling for veterans.** The Epic–Veterans Affairs connection was presented as making access to specialty care easier.[2] **Why it matters:** The development reinforces Faulkner’s influence over federal health-information interoperability and Epic’s strategic importance to the U.S. healthcare system."
+    },
+    {
+      "name": "Jeff Yass",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "- **Expanded Ohio gubernatorial backing:** Jeff Yass donated another $10 million to a super PAC supporting Vivek Ramaswamy, bringing his 2026-cycle contributions to more than $105 million.[6] **Why it matters:** The spending makes Yass one of the Republican Party’s most consequential outside financiers and gives him substantial leverage in a high-profile state race.\n\n- **Reported Trump ballroom pledge:** Yass committed $5 million toward President Donald Trump’s proposed White House ballroom, according to reporting cited by the Philadelphia Inquirer.[3] **Why it matters:** The contribution strengthens Yass’s relationship with Trump’s donor network and could increase his access to the administration.\n\n- **Election-cycle giving reached roughly $110 million:** Reuters reported that Yass and his wife, Janine, had donated about $110 million to Republican and conservative causes during the 2026 cycle, including approximately $20 million for Ramaswamy’s Ohio campaign.[1] **Why it matters:** The scale of the giving confirms Yass’s role as a central funding node for conservative electoral infrastructure.\n\n- **Influence highlighted in Pennsylvania races:** Reporting said Republicans were relying heavily on Yass-backed funding, including $715,000 from the PA Education Choice Fund to the state Republican committee; that fund previously received $4.2 million from Yass’s Students First PAC.[7] **Why it matters:** His money is supporting both candidate campaigns and durable state-level machinery tied to school-choice policy."
+    },
+    {
+      "name": "Brian Chesky",
+      "domain": "Billionaire (Forbes 400)",
+      "raw_news": "No major policy decision, legal action, geopolitical event, or corporate transaction involving Brian Chesky was identified in the available reporting for October 14–21, 2026. The notable developments were:\n\n- **Chesky outlined Airbnb’s AI-agent strategy.** In an interview published/updated during the period, he said Airbnb is pursuing richer, multimodal AI agents rather than a simple chatbot and expects an agent launch in 2027.[1][4][10] This matters because it positions Chesky as a prominent CEO shaping Airbnb’s next product model and the broader debate over AI interfaces.\n\n- **He disclosed an internal AI system that reduced his meetings by half.** Chesky said the system was trained on tens of thousands of Airbnb documents and helps him maintain company-wide visibility while AI handles nearly half of support requests.[10] The claim strengthens his influence as an early adopter of AI-enabled executive management and signals potential changes to Airbnb’s operating model.\n\n- **Chesky said he rarely uses email, preferring texts and live communication.** He told *Fortune* that he writes roughly one email a week because texting feels less burdensome and more effective for reaching staff.[2][6] The statement is not a corporate policy, but it reinforces his distinctive management style and public profile as Airbnb’s founder-CEO.\n\n- **He argued that AI has dramatically lowered the resources needed to start companies.** Chesky said a venture can now be launched by one to three people, an opportunity he viewed as largely unimaginable when he was 26.[7][9] The remarks extend his influence beyond Airbnb by framing him as a prominent advocate for AI-driven changes in entrepreneurship and company formation."
+    }
+  ],
+  "ps_assemblies_fired": {
+    "DPS-02": [
+      "CA-029",
+      "CA-099",
+      "CA-012",
+      "CA-070",
+      "CA-060"
+    ],
+    "DPS-04": [
+      "CA-009",
+      "CA-013",
+      "CA-032"
+    ],
+    "DPS-07": [
+      "CA-058",
+      "CA-071",
+      "CA-103"
+    ],
+    "DPS-08": [
+      "CA-118",
+      "CA-082",
+      "CA-130"
+    ]
+  },
+  "assemblies_spontaneous": [
+    "CA-035",
+    "CA-136"
+  ],
+  "neurons_conscious": [
+    "Eric Schmidt",
+    "Bret Taylor",
+    "Satya Nadella",
+    "Stephen Schwarzman",
+    "Alexandria Ocasio-Cortez",
+    "Mike Lee",
+    "Christopher Murphy",
+    "Patty Murray",
+    "Donald Newhouse",
+    "Sundar Pichai"
+  ],
+  "neurons_spontaneous": [
+    "Mitchell Rales",
+    "Ketanji Brown Jackson",
+    "Bob Parsons",
+    "Stanley Druckenmiller",
+    "Fred Smith",
+    "Ronald Lauder",
+    "Leonard Leo",
+    "Charles Koch & family",
+    "Ken Griffin",
+    "Stephen Ross",
+    "Judy Faulkner",
+    "Jeff Yass",
+    "Brian Chesky"
+  ],
+  "neurons_skipped": [
+    "Elon Musk",
+    "Mark Zuckerberg",
+    "Jerome H. Powell",
+    "Clarence Thomas",
+    "Jeff Bezos",
+    "Susie Wiles",
+    "Donald Trump",
+    "Brett M. Kavanaugh",
+    "Neil M. Gorsuch",
+    "Tim Cook",
+    "Scott Bessent",
+    "Andy Jassy",
+    "Robert F. Kennedy Jr.",
+    "Pete Hegseth",
+    "Sonia Sotomayor",
+    "Sam Altman",
+    "Peter Thiel",
+    "Larry Ellison",
+    "Marc Rowan",
+    "Russell M. Nelson",
+    "Miriam Adelson & family",
+    "Michael Bloomberg",
+    "Jensen Huang",
+    "Kash Patel",
+    "Amy Coney Barrett",
+    "Gavin Newsom",
+    "Sean Hannity",
+    "Samuel A. Alito Jr.",
+    "Thomas Kurian",
+    "John Thune",
+    "Mustafa Suleyman",
+    "Terrence Pegula",
+    "John G. Roberts Jr.",
+    "Ken Langone",
+    "Rob Walton & family",
+    "Richard Uihlein",
+    "Laurene Powell Jobs",
+    "Susan M. Collins",
+    "Abigail Johnson",
+    "Jerry Jones & family",
+    "Jim Walton & family",
+    "David Geffen",
+    "Bill Gates",
+    "Chuck Grassley",
+    "David Rubenstein",
+    "David Tepper",
+    "Alice Walton",
+    "Ray Dalio",
+    "Brian Armstrong",
+    "Paul Tudor Jones, II.",
+    "Pam Bondi",
+    "J.B. Pritzker",
+    "Elena Kagan",
+    "Lukas Walton",
+    "Pierre Omidyar",
+    "Michael Rubin",
+    "Henry Kravis",
+    "Marijke Mars",
+    "Julia Koch & family",
+    "John Malone",
+    "Kelcy Warren",
+    "Leon Black",
+    "Paul Singer",
+    "Lynda Resnick",
+    "Tom Cotton",
+    "Philip Anschutz",
+    "George Roberts",
+    "Jeremy Jacobs, Sr. & family",
+    "Brian Ballard",
+    "Ann Walton Kroenke",
+    "MacKenzie Scott",
+    "Charles E. Schumer",
+    "Charles Schwab",
+    "Michael Dell",
+    "Steve Scalise",
+    "Joe Rogan",
+    "Ted Cruz",
+    "Ron DeSantis",
+    "Melinda French Gates",
+    "Marc Benioff",
+    "Suzanne Clark",
+    "Mitch McConnell",
+    "David Bonderman",
+    "Warren Buffett",
+    "Rupert Murdoch & family",
+    "Josh Harris",
+    "Larry Page",
+    "Greg Abbott",
+    "Stephen Feinberg",
+    "Sergey Brin",
+    "Steve Cohen",
+    "Phil Knight & family",
+    "Carl Icahn",
+    "Thomas Peterffy",
+    "William Ackman",
+    "Victoria Mars",
+    "John Mars",
+    "Hakeem S. Jeffries",
+    "Matthew J. Kacsmaryk",
+    "Rick Scott",
+    "Cynthia M. Lummis",
+    "Carrie Severino",
+    "Charlie Kirk",
+    "Kevin Roberts",
+    "Richard J. Durbin",
+    "George Soros",
+    "Thomas Frist, Jr. & family",
+    "Jonathan Gray",
+    "Stewart Resnick",
+    "Edward Johnson, IV.",
+    "Thomas Pritzker",
+    "Palmer Luckey",
+    "Lynn Schusterman & family",
+    "Josh Hawley",
+    "Alex Karp",
+    "Lisa Su",
+    "Alexander Karp",
+    "Len Blavatnik",
+    "Demis Hassabis",
+    "Lindsey Graham",
+    "Antony Ressler",
+    "Elise M. Stefanik",
+    "Mark Walter",
+    "Dario Amodei",
+    "Daniela Amodei",
+    "Christy Walton",
+    "Ernest Garcia, III"
+  ],
+  "spontaneous_cap": 13
+}
