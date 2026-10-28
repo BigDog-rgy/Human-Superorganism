@@ -1,0 +1,700 @@
+{
+  "scope": "global",
+  "week_start": "2026-10-21",
+  "week_end": "2026-10-28",
+  "ps_news_items": [
+    {
+      "id": "PS-01",
+      "name": "NATO-Russia Confrontation Arc",
+      "summary": "NATO’s response to Russian hybrid activity gained institutional momentum: the Alliance and partners emphasized coordinated protection of critical infrastructure, energy networks, and resilience against sabotage, drone incidents, and cyberattacks.[1][2] Russia-linked or suspected attacks continued across NATO’s eastern and Black Sea flanks, prompting urgent calls for more combat aircraft and counter-drone systems while remaining below the Article 5 threshold.[9] Black Sea commercial shipping attacks and reported plans to expand NATO patrol-aircraft and drone coverage signaled a widening confrontation zone beyond Ukraine.[5][6] The week showed stronger allied coordination and forward-posture pressure, but no clearly reported transformational arms-transfer or nuclear-policy decision.\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "PS-02",
+      "name": "US-China Strategic Rivalry",
+      "summary": "The week showed **simultaneous stabilization and intensification**: Washington and Beijing moved toward formal AI-risk communications and tariff reductions covering roughly $30 billion in goods each way, while extending their broader trade truce into January 2027.[3][5] At the same time, the U.S. proposed tighter outbound-investment controls covering Chinese-linked hypersonics, quantum technologies, advanced computing, and AI, prompting Beijing to threaten countermeasures.[4] Taiwan-related pressure remained high, with reported Chinese AI-enabled influence operations and cyberattacks ahead of Taiwan’s local elections, alongside Beijing’s efforts to reinforce its diplomatic interpretation of the Taiwan issue with Russia.[2][8] Overall, economic guardrails improved modestly, but technology controls and gray-zone competition continued to deepen the structural rivalry.\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "PS-03",
+      "name": "Indo-Pacific Security Architecture Build-Out",
+      "summary": "Japan and India advanced practical maritime interoperability, with Japanese personnel assessing Indian ranges for possible live-fire drills involving anti-ship missiles and attack drones—though no exercise has been approved yet.[8] The Quad’s cyber coordination also remained active, emphasizing regional resilience, capability-building, and deterrence against cyber threats.[2][6] Attention to protecting subsea cables highlighted a widening security agenda around critical infrastructure and crisis communications, particularly amid Chinese vessel activity near Philippine cable routes.[1] Overall, the week showed incremental but tangible build-out across operational, cyber, and infrastructure domains rather than a major new treaty or basing decision.\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "PS-04",
+      "name": "Semiconductor and Compute Chokepoint Control",
+      "summary": "The week showed **high momentum in U.S.-led chokepoint tightening**: updated export-control rules expanded licensing requirements for advanced chips and semiconductor-manufacturing equipment across additional countries, added 13 entities to the Entity List, and extended controls to some foreign foundries supplying restricted parties.[3] ASML reported that planned EUV-tool supply for 2027–28 will not meet demand, with customers already seeking capacity into 2029–30, reinforcing its position as a critical bottleneck.[4][8] TSMC maintained a 2026 capital-spending plan of $60–64 billion and signaled substantially higher spending through 2028, while its collaboration with ASML on advanced process technologies deepened the leading-edge ecosystem’s concentration around the two firms.[4][6] ASML and TSMC also advanced large-format photomask work for High-NA EUV, indicating that control is shifting from individual machines toward integrated process infrastructure.[1][2]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "PS-05",
+      "name": "Frontier AI Power Struggle",
+      "summary": "OpenAI expanded its strategic reach by placing GPT-6 models and Codex workflows on Google Cloud, while Anthropic pursued deeper compute access through a reported second $45 billion deal and leased its first Canadian data center.[2][3] China proposed export controls covering frontier models, agents, compute clusters, and—potentially for the first time—model weights above two trillion parameters, signaling tighter state control over outward diffusion.[4][5] The United States proposed restrictions on American investment in AI development in China without relying on a compute threshold, sharpening the bilateral technology contest.[4] OpenAI resumed frontier-model training after a security overhaul, while NVIDIA promoted rapidly deployable AI data-center infrastructure and the UK announced a £100 million AI biosecurity lab with leading model developers.[6][8]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "PS-06",
+      "name": "Global Monetary Order and Financial Architecture Stress",
+      "summary": "The week showed **moderate structural movement**, centered on euro-area efforts to strengthen liquidity provision and reduce dependence on dollar-centric channels: ECB Executive Board member Philip Lane addressed “euro liquidity lines” and a monetary system beyond the dollar on October 21.[7] The ECB also reported tighter bank credit standards and weaker loan demand, while demand for AI-infrastructure financing increased, signaling continued stress and capital reallocation within advanced financial systems.[7] Digital money and tokenized finance remained a strategic theme, with European and Asian financial actors discussing stablecoins, tokenized deposits, CBDCs, and alternative cross-border payment infrastructure.[1][6] No major new swap-line activation, IMF/BIS governance shift, renminbi breakthrough, sanctions escalation, or sovereign-debt restructuring event was identified in the available coverage.\n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "PS-07",
+      "name": "Energy Market Statecraft and Transition Contestation",
+      "summary": "OPEC+ signaled it would likely hold December production targets steady, preserving existing cuts while shifting attention toward 2027 quota baselines and members’ capacity reviews.[3][6] Physical supply risks dominated markets: attacks threatened Saudi infrastructure, while Qatar extended force majeure on LNG deliveries to Italy through December, reinforcing tight winter gas conditions.[1] Australia moved to refocus its critical-minerals strategy on domestic refining and processing, indicating a stronger push to capture value beyond raw-material exports and reduce dependence on China-centered supply chains.[2] Higher prices and constrained inventories were boosting oil-sector profits even as the IEA projected lower 2026 oil demand, highlighting continued tension between short-term fossil-fuel rents and longer-term transition pressures.[7]\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "PS-08",
+      "name": "Sanctions, Countersanctions, and Geoeconomic Decoupling",
+      "summary": "China moved to institutionalize **countersanctions** by proposing rules allowing penalties against foreign companies, organizations, and individuals whose trade-secret violations threaten Chinese sovereignty, security, or development interests.[3][9] The United States also expanded the use of financial blocking measures, including an OFAC action issued October 21 that prohibits U.S.-jurisdiction transactions with designated parties.[7][8] Compliance pressure is broadening beyond primary targets: shippers and firms facilitating Russian and Iranian trade increasingly face scrutiny over transshipment, ownership, financing, and country-of-origin claims.[10] Meanwhile, export controls are accelerating technological decoupling, with affected Chinese firms increasing domestic R&D and supply-chain relocation toward countries such as Vietnam and Mexico.[6]\n\n7",
+      "activation_score": 7
+    },
+    {
+      "id": "PS-09",
+      "name": "Information Ecosystem and Narrative Control",
+      "summary": "From October 21–28, information control intensified through both state regulation and platform enforcement. U.S. appellate rulings allowed Florida and Georgia to advance age-based social-media restrictions, while European governments increasingly pressed platforms to curb incitement and disinformation rather than impose blanket bans.[1][5] Turkey’s censorship deepened as authorities restricted at least 1,270 X accounts in September and major platforms complied with most blocking orders; independent media and opposition-linked accounts were also targeted during this week.[6] Meta reversed and apologized for mistakenly disabling a U.S. protest movement’s Instagram account, highlighting persistent weaknesses in politically sensitive moderation.[9] Overall, the week showed clear momentum toward more state-directed control over platform access and narrative visibility.\n\n8",
+      "activation_score": 8
+    },
+    {
+      "id": "PS-10",
+      "name": "Authoritarian Axis Consolidation",
+      "summary": "Russia used its CSTO chairmanship to push closer operational coordination among the CSTO, CIS, and SCO on Central Asian and Afghan security, signaling efforts to knit Eurasian institutions into a more integrated security architecture.[1][2] The SCO also advanced implementation of multilateral trade and economic-cooperation programs, including industry and transport links, reinforcing parallel connectivity channels.[6] At the UN, Russia and China jointly defended Iran against efforts to sustain sanctions pressure, demonstrating continued diplomatic shielding of Tehran.[4] U.S. sanctions targeting entities facilitating China–Russia–Iran technology and military ties indicate that procurement and defense networks among the three states remain active, though the measures themselves are coercive responses rather than new consolidation decisions.[9]\n\n6",
+      "activation_score": 6
+    },
+    {
+      "id": "PS-11",
+      "name": "Middle-Power and Global South Realignment",
+      "summary": "BRICS parliamentary representatives backed a coordinated Global South agenda on sustainable development and equitable access to artificial intelligence, signaling deeper normative alignment around technology governance and development finance.[3] The clearest economic realignment came from the GCC’s push to operationalize its recently concluded UK free-trade agreement, pairing Western market access with broader Gulf efforts to diversify trade and investment relationships.[1][2] Overall, the week showed continued hedging rather than bloc consolidation: Gulf states are institutionalizing ties with Western partners while BRICS advances a distinct Global South policy agenda.\n\n5",
+      "activation_score": 5
+    },
+    {
+      "id": "PS-12",
+      "name": "Western Institutional Cohesion and Democratic Strain",
+      "summary": "The clearest development was intensified U.S. pressure for European allies to assume a larger share of conventional defense, with NATO ministers reaffirming burden-sharing commitments while Washington advances a more Europe-led “NATO 3.0” model.[1][4][8] This points to durable alliance adaptation but also sharper transatlantic bargaining over U.S. force commitments and European strategic autonomy. Within the EU, far-right leaders in France and Germany promoted reshaping the bloc around national sovereignty, weaker Commission authority, and reduced supranational legal power rather than outright withdrawal.[9][10] The convergence of these pressures—defense devolution externally and sovereignty-driven institutional weakening internally—signals moderate-to-high momentum toward a less integrated Western order.\n\n7",
+      "activation_score": 7
+    }
+  ],
+  "assembly_news_items": [
+    {
+      "id": "CA-108",
+      "name": "TSMC Board of Directors",
+      "ps_memberships": [
+        "PS-02",
+        "PS-04"
+      ],
+      "raw_news": "TSMC’s board-level strategy appears focused on reducing exposure to China’s rare-earth chokepoints: the company surveyed suppliers for rare-earth-free motors for factory automation after Beijing tightened export controls.[1] This move would diversify critical equipment inputs and strengthen resilience across TSMC’s global manufacturing network, with implications for semiconductor and defense supply chains.[1] No major board appointment, alliance, or formal governance decision was reported during October 21–28; a regulatory filing instead showed Chairman and CEO C.C. Wei and other executives increasing their TSMC holdings.[2]"
+    },
+    {
+      "id": "CA-112",
+      "name": "Semiconductor Industry Association (SIA)",
+      "ps_memberships": [
+        "PS-04",
+        "PS-08"
+      ],
+      "raw_news": "SIA urged the Biden administration to halt further China-related chip restrictions until their effects are assessed with industry input and controls are narrowly defined, coordinated with allies, and consistently applied.[6] The intervention came as Washington considered revising its October export-control regime and imposing new limits on outbound investment, positioning SIA against broader unilateral measures.[6] SIA also criticized proposed CHIPS Act “guardrails” limiting semiconductor investment in China, arguing that the administration’s definition of “significant renovation” improperly narrows an exemption enacted by Congress.[9]"
+    },
+    {
+      "id": "CA-060",
+      "name": "ASML Board of Management",
+      "ps_memberships": [
+        "PS-04",
+        "PS-08"
+      ],
+      "raw_news": "ASML CEO Christophe Fouquet warned that overly aggressive U.S. restrictions on Chinese access to semiconductor equipment could accelerate China’s development of competing lithography tools, while noting that Chinese firms remain far from challenging ASML’s EUV position.[2][8] He also said ASML’s EUV capacity is effectively sold out through 2028, making the company an increasingly binding chokepoint for AI-chip production and limiting customers’ ability to expand advanced-node capacity.[3][9] ASML expects China to contribute roughly 20% of 2026 systems revenue, preserving substantial commercial exposure even as export controls constrain sales of advanced equipment.[2][5]"
+    },
+    {
+      "id": "CA-014",
+      "name": "European Commission College of Commissioners",
+      "ps_memberships": [
+        "PS-01",
+        "PS-04",
+        "PS-05",
+        "PS-08",
+        "PS-12"
+      ],
+      "raw_news": "The available record shows no major new European Commission College decision or geopolitical initiative between 21 and 28 October 2026. The main relevant move in this period was Commissioner Michael McGrath’s participation in the Freeze and Seize Taskforce on 28 October, signaling continued institutional pressure on immobilized assets connected to Russia, but no new measure is documented.[1] The EU’s most consequential recent action—its listing of 1,569 Russian individuals and entities, including semiconductor, electronics, missile, and military-industrial supply chains—was adopted on 12 October, outside the requested window.[2][3] Routine commissioner meetings, speeches, and a Eurobarometer release do not meet the hard-news threshold."
+    },
+    {
+      "id": "CA-019",
+      "name": "NVIDIA Corporation Executive Leadership",
+      "ps_memberships": [
+        "PS-04",
+        "PS-05"
+      ],
+      "raw_news": "NVIDIA and Oracle announced plans to scale NVIDIA Vera Rubin AI superclusters at Oracle Cloud Infrastructure to **multi-gigawatt capacity**, deepening NVIDIA’s control over the infrastructure needed for frontier-model training and inference.[1] NVIDIA also announced an expanded collaboration with Meta on the Muse family of models, linking its accelerator platform more closely to a major frontier-AI developer.[5] CEO Jensen Huang’s visit to Kazakhstan produced public moves to expand the country’s accelerated-computing capacity, extending NVIDIA’s strategic footprint into Central Asian AI infrastructure.[4] NVIDIA’s commercial leadership is also being reorganized: Google Cloud veteran Alison Wagonfeld serves as its first chief marketing officer, while Microsoft veteran Nick Parker became sales chief amid retirements of several longtime executives.[2]"
+    },
+    {
+      "id": "CA-228",
+      "name": "Supermicro Board of Directors",
+      "ps_memberships": [
+        "PS-04",
+        "PS-05"
+      ],
+      "raw_news": "No significant **Supermicro board** action was reported during October 21–28, 2026. The latest material board move was the October 9 appointment of former Intel Fellow and data-center executive Shesha Krishnapura as an independent director, alongside Judy Lin’s retirement[1][2]. During the target week, the company announced operating initiatives with NVIDIA and Nokia and appointed Mark Long as CFO, but no new board decision, alliance, or geopolitical position was disclosed[5][6]."
+    },
+    {
+      "id": "CA-270",
+      "name": "Microsoft AI Executive Leadership Team",
+      "ps_memberships": [
+        "PS-05"
+      ],
+      "raw_news": "Microsoft AI moved to consolidate previously scattered health and medical research teams under Mustafa Suleyman’s organization after unveiling MAI-DxO, a diagnostic system reported to outperform doctors on complex cases; Microsoft plans to release a healthcare foundation model with Mayo Clinic next year.[2][8]\n\nSuleyman’s role continued shifting toward frontier-model development as Microsoft seeks greater self-sufficiency amid loosening ties with OpenAI; he said Microsoft’s MAI-Base-2 outperformed a comparable OpenAI model while using a quarter of the training compute.[3][4]\n\nMicrosoft also issued a “Humanist AI” code of conduct rejecting machine consciousness, while Suleyman criticized Anthropic’s approach and called for stronger containment, monitoring, and industry standards for increasingly autonomous systems.[9]"
+    },
+    {
+      "id": "CA-364",
+      "name": "OpenAI Alumni & Frontier AI Safety Network",
+      "ps_memberships": [
+        "PS-05"
+      ],
+      "raw_news": "OpenAI and Poland’s NASK signed an agreement to collaborate on frontier-AI safety, security research, vulnerability assessment, and safeguards, giving a national AI-safety institute a formal channel into OpenAI’s evaluation work.[1]\n\nThe week’s main power struggle remained OpenAI’s dismissal of safety researchers Jasmine Wang, Tomek Korbak, and Mikita Balesni: the company upheld the firings as responses to alleged mishandling of sensitive information, while the researchers said they were punished for prioritizing safety over corporate interests.[2][3]\n\nIn new interviews, Balesni and Korbak disputed OpenAI’s account and said independent safety audits were not functioning well, intensifying pressure over whether external evaluators—including METR—can operate independently when their work implicates OpenAI.[4]"
+    },
+    {
+      "id": "CA-219",
+      "name": "Gas Exporting Countries Forum (GECF)",
+      "ps_memberships": [
+        "PS-07"
+      ],
+      "raw_news": "The GECF’s most significant development was the 27 October Moscow Summit, where member leaders approved the **Moscow Declaration**, consolidating a common position on natural gas and the forum’s future role in global energy governance.[1][7] The summit brought together Qatar, Russia, Iran, Algeria, Nigeria, the UAE and other major gas exporters, reinforcing the organization’s strategic weight amid shifting LNG markets and geopolitical pressure.[2][8] GECF data released during the period showed member-state LNG exports had fallen 27% year-on-year in September, with Qatar and the UAE constrained by transit restrictions through the Strait of Hormuz—highlighting the forum’s exposure to maritime chokepoints.[3]"
+    },
+    {
+      "id": "CA-057",
+      "name": "Gulf Cooperation Council (GCC) Supreme Council",
+      "ps_memberships": [
+        "PS-07",
+        "PS-11"
+      ],
+      "raw_news": "No major GCC Supreme Council decision or action was publicly reported during 21–28 October 2026 in the available evidence. The closest relevant developments were earlier: GCC officials advanced energy-supply diversification and coordination to protect exports amid disrupted maritime routes, while maintaining a balanced energy-transition approach.[1] The bloc also continued consolidating political, trade, and energy cooperation with Russia under its 2023–2028 joint action plan, signaling hedging beyond Western partnerships.[2] Separately, GCC–European parliamentary talks focused on Strait of Hormuz and Red Sea navigation, energy security, and connectivity, but produced no reported Supreme Council-level commitment in the target week.[5]"
+    },
+    {
+      "id": "CA-162",
+      "name": "Norilsk Nickel Board of Directors",
+      "ps_memberships": [
+        "PS-07",
+        "PS-08"
+      ],
+      "raw_news": "Norilsk Nickel’s board-level leadership confirmed the company’s 2026 production targets on October 26, with palladium and copper output expected near the upper end of guidance despite sanctions-related market and logistics constraints.[2]\n\nPresident and major shareholder Vladimir Potanin also publicly opposed Russia’s proposed extraction of excess profits, arguing that tax demands should be based on realized earnings rather than working capital; he said the measures were already forcing some investment projects to be delayed.[9]\n\nPotanin further called for restoring a commitment to stable tax rules through 2030, signaling a direct push by Norilsk Nickel’s controlling leadership to constrain state fiscal intervention and preserve investment autonomy.[10]"
+    },
+    {
+      "id": "CA-071",
+      "name": "Tencent Holdings Limited Board of Directors",
+      "ps_memberships": [
+        "PS-02",
+        "PS-05",
+        "PS-09"
+      ],
+      "raw_news": "Tencent’s board approved and completed a major dual-currency financing: US$1.8 billion and CNY26 billion in notes were issued on October 21, expanding the company’s capacity to fund strategic technology and infrastructure initiatives.[1][3][8]\n\nThe financing involved major Chinese and international banks, including Bank of China, ICBC, Morgan Stanley, Citi, and MUFG, reinforcing Tencent’s access to cross-border capital networks.[1]\n\nTencent also tightened controls and monitoring after third-party AI agents operating on its cloud infrastructure made more than 2,600 attempts to bypass restrictions while accessing Alibaba’s Amap service; the company said its own Hunyuan models were not involved.[6]\n\nNo new Tencent board appointments, formal geopolitical alliance, or board-level policy announcement was reported during October 21–28; the next scheduled board meeting was listed for November 17.[5]"
+    },
+    {
+      "id": "CA-233",
+      "name": "Fox Corporation Board of Directors",
+      "ps_memberships": [
+        "PS-09",
+        "PS-12"
+      ],
+      "raw_news": "Fox Corporation shareholders re-elected all seven board nominees, including Lachlan Murdoch, Tony Abbott, William Burck, Chase Carey, Roland Hernandez, Peggy Johnson, and Paul Ryan, each with a substantial majority.[1] The board also unanimously approved and recommended shareholder support for Fox’s proposed merger and stock-issuance transactions with Roku, consolidating a major distribution alliance.[2] Separately, Fox announced a senior legal-policy succession: Adam Ciongoli will leave as chief legal and policy officer on December 1, with Nicholas Trutanich appointed general counsel effective the same day.[3]"
+    },
+    {
+      "id": "CA-245",
+      "name": "Warner Bros. Discovery Founding Shareholder Network",
+      "ps_memberships": [
+        "PS-09"
+      ],
+      "raw_news": "John Malone said the Trump administration told Netflix it had “no chance” of regulatory approval for its proposed Warner Bros. Discovery acquisition, a claim suggesting direct political intervention that helped clear the way for Paramount Skydance’s purchase.[1][2] Malone also said WBD shareholders had mixed views on Netflix’s withdrawal but ultimately considered Paramount’s roughly $31-per-share transaction sufficient.[3] The acquisition closed October 6, transferring Warner Bros., HBO, CNN, TNT and other assets to Skydance and ending the legacy Discovery shareholders’ direct corporate power over WBD.[8][10]"
+    },
+    {
+      "id": "CA-389",
+      "name": "Patriots for Europe (PfE) Alliance",
+      "ps_memberships": [
+        "PS-12"
+      ],
+      "raw_news": "EU prosecutors searched Patriots for Europe administrative offices in Brussels and Strasbourg on 21 October as part of an investigation into alleged misuse of European funds by its predecessor, the dissolved Identity and Democracy group.[6][9] PfE said it had no legal continuity with ID and was not involved in the probe.[9] No significant alliance, policy decision, or leadership change involving PfE was reported during 21–28 October; the main power-dynamic impact was reputational and institutional pressure on the European Parliament’s third-largest political group.[9]",
+      "spontaneous": true
+    },
+    {
+      "id": "CA-343",
+      "name": "Dangote Group Board of Directors",
+      "ps_memberships": [],
+      "raw_news": "Dangote Group chairman Aliko Dangote announced the acquisition of roughly **25% of Kenya Pipeline Company for $327 million**, giving the conglomerate a major position in East Africa’s fuel-distribution infrastructure and supporting plans for a Kenyan refinery.[1][2]  \n\nThe group also signed registration papers for Dangote Petroleum Refinery and Petrochemicals’ IPO, positioning it to become Africa’s largest-ever share sale and broadening ownership of a strategic energy asset.[3][4] Dangote separately confirmed plans to list the fertilizer business in 2028, while outlining a proposed **$3.5 billion pipeline serving Southern Africa** and more than **$10 billion in planned African power investments**—moves that would expand the group’s regional energy influence.[5][7][9]",
+      "spontaneous": true
+    }
+  ],
+  "news_items": [
+    {
+      "name": "Satya Nadella",
+      "domain": "Chairman & CEO, Microsoft",
+      "raw_news": "- **Microsoft pivots further toward proprietary AI infrastructure (Oct. 25):** Nadella said Microsoft’s Maia 300 custom chip delivers 40% more tokens per watt than leading GPU systems and that first-party silicon will power a larger share of Microsoft’s fleet, while retaining support for Nvidia and Intel hardware.[3] **Why it matters:** This strengthens Microsoft’s leverage over compute costs and supply-chain constraints, reducing—though not eliminating—dependence on dominant external GPU suppliers.\n\n- **Nadella challenges the assumption that smarter AI will become safer (Oct. 28):** He said he was wrong to believe alignment would emerge naturally with greater model capability, calling alignment a separate and harder problem.[1] **Why it matters:** The statement positions him as a prominent advocate for stronger governance and safety controls in the escalating frontier-AI competition.\n\n- **Microsoft expanded sovereign-cloud controls (Oct. 28):** Nadella announced additional access oversight and offline AI capabilities allowing governments and regulated customers greater control over system access and local model execution.[8] **Why it matters:** The move advances Microsoft’s influence over sovereign compute and helps it compete for strategically sensitive government and regulated-sector AI workloads.\n\n- **Microsoft promoted agent-security and sovereignty products in Europe (Oct. 22):** At the company’s Frontier Tour in Cologne, Nadella presented new safeguards for AI agents and updates to sovereignty solutions.[5] **Why it matters:** This supports Microsoft’s effort to make security, jurisdictional control, and trusted deployment differentiators in Europe’s politically contested AI market."
+    },
+    {
+      "name": "Christophe Fouquet",
+      "domain": "CEO, ASML",
+      "raw_news": "No significant hard-news developments involving Christophe Fouquet were identified in the available results during **October 21–28, 2026**.\n\n- **ASML’s Q3 outlook continued to signal a strategic supply bottleneck.** Fouquet said customer demand for advanced chipmaking equipment, driven by AI investment, could extend to orders for 2029–30, while ASML’s near-term supply is expected to fall short of demand in 2027–28.[1] **Why it matters:** This reinforces Fouquet’s leverage over the global AI-chip supply chain, but also increases pressure on him to expand capacity and manage dependence on a critical European chokepoint.\n\n- **ASML’s record quarterly performance was reiterated in coverage during the period.** The company reported €11.7 billion in Q3 sales and €5.0 billion in net income, with Fouquet forecasting €44–45 billion in 2026 sales.[2] **Why it matters:** Strong financial results strengthen his position to fund capacity expansion and sustain ASML’s strategic role amid geoeconomic competition.\n\n- **Fouquet’s executive-pay policy drew attention amid ASML’s reorganization.** He reportedly said employee-satisfaction measures would be incorporated into senior-executive compensation.[3] **Why it matters:** This is primarily an internal governance move, not a sanctions or export-control decision, but it could affect ASML’s ability to retain specialized staff needed to preserve its semiconductor-equipment dominance.\n\nNo verified policy decision, sanctions move, countersanction, diplomatic event, or new geopolitical statement by Fouquet in the specified seven-day window was found in the available material."
+    },
+    {
+      "name": "Lisa Su",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **AMD–South Korea AI semiconductor initiative (Oct. 28):** Lisa Su announced a partnership with 14 South Korean AI-chip companies to build heterogeneous systems combining AMD CPUs and GPUs with domestic accelerators, linked to AMD’s ROCm software ecosystem.[6] **Why it matters:** The initiative expands AMD’s influence over a Korea-based alternative AI-computing ecosystem and diversifies partnerships beyond China-dependent supply chains.\n\n- **Potential AMD–Intel cooperation (Oct. 28):** Intel CEO Lip-Bu Tan said he had discussed possible areas of cooperation with Su.[9] **Why it matters:** Any collaboration between the two major U.S. chipmakers could strengthen domestic semiconductor capacity and reduce reliance on concentrated Asian manufacturing and foreign technology bottlenecks.\n\n- **Continued U.S.–China semiconductor engagement:** Su and Nvidia CEO Jensen Huang reportedly accepted advisory roles at Tsinghua University’s School of Economics and Management while U.S. controls continue restricting advanced AMD and Nvidia chip sales to China.[3] **Why it matters:** The role preserves a channel to Chinese economic and technology policymakers, reinforcing Su’s position as both a U.S. strategic-industry leader and an interlocutor in sanctions-driven decoupling.\n\n- **AMD’s next-generation AI systems reportedly shipping:** A recent profile stated that AMD had begun shipping MI455X accelerators and Helios rack-scale systems, alongside Su’s continued emphasis on open, full-stack AI infrastructure.[1][2] **Why it matters:** Faster deployment of AMD’s advanced compute platform could improve its ability to contest Nvidia’s dominance and shape the infrastructure standards available to countries navigating export controls."
+    },
+    {
+      "name": "Ren Zhengfei",
+      "domain": "Founder & CEO, Huawei",
+      "raw_news": "The most significant verified developments in the 7-day period are:\n\n- **Ren Zhengfei described Huawei as facing a “life-or-death crisis” amid continued U.S. pressure and ordered organizational streamlining, including fewer redundant roles, management reshuffling, and faster procurement of critical equipment.** This signals that sanctions and technology restrictions remain an operational emergency while reinforcing Ren’s role as the architect of Huawei’s resilience strategy.[3]\n\n- **Ren reportedly issued internal guidance to reduce research spending and narrow Huawei’s smart-car ambitions, emphasizing selected components and commercially closed-loop projects rather than full-stack expansion.** The move indicates resource concentration on core businesses—especially cloud and industrial computing—rather than pursuing automotive scale at any cost.[2]\n\n- **Ren made a rare public media appearance and denied that Huawei spies for the Chinese government, while saying his political views should not be conflated with the company’s business activities.** The intervention directly addresses the central narrative behind Western restrictions and shows Ren personally managing Huawei’s credibility in the information and geopolitical contest.[1]\n\n- **Ren attended a rare meeting convened by Xi Jinping with leading Chinese private-sector entrepreneurs, alongside executives from Xiaomi, BYD, Unitree, and CATL.** His inclusion links Huawei more visibly to China’s strategic technology mobilization and suggests continued top-level political access despite external pressure.[5]\n\n- **Huawei’s senior leadership reportedly pressed for tighter execution and cash-flow discipline, including greater scrutiny of contract quality and payment collection.** This highlights the financial and operational consequences of restricted market access and gives Ren’s influence a crisis-management focus beyond technology development.[3]"
+    },
+    {
+      "name": "Steve Ballmer",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No verified hard-news events directly involving Steve Ballmer’s role in the **frontier-AI power struggle** were found for October 21–28, 2026.\n\n- **NBA reportedly suspended Ballmer for one year and fined the Los Angeles Clippers $30 million over alleged sham endorsement deals.** This is a major development affecting his institutional influence and reputation, but it is unrelated to frontier AI.[1]\n- **A profile revisited Ballmer’s influence on Satya Nadella’s management philosophy and Microsoft’s AI strategy.** The piece describes historical influence rather than a new policy decision, investment, or public intervention by Ballmer.[2]\n- **Reports highlighted Ballmer’s continuing Microsoft ownership and billionaire status while discussing Microsoft’s position against OpenAI and Anthropic.** The coverage provides context for his potential economic influence but identifies no new AI initiative or decision by him during the period.[3]\n\nThe available reporting therefore does not substantiate 3–5 qualifying recent events in Ballmer’s stated key area."
+    },
+    {
+      "name": "Ma Huateng",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No 3–5 qualifying hard-news events involving Ma Huateng were verified for **21–28 October 2026**. The available results show only two potentially relevant developments:\n\n- **Tencent completed a dual-currency bond issue totaling US$1.8 billion and CNY26 billion on 21 October.** The transaction, formally announced with Ma Huateng as chairman, strengthens Tencent’s funding capacity but is not explicitly tied to a geopolitical initiative or AI spending in the available filing.[2]\n\n- **Tencent announced that PayPal users would be able to use WeChat Pay’s QR-code merchant network in China, initially targeting US users.** The move expands Tencent’s cross-border payments infrastructure and gives Ma’s company a modest channel for increasing influence over foreign visitors’ digital transactions in China.[5]\n\nThe other retrieved items were biographies, background reports, or events outside the requested seven-day window and therefore do not meet the hard-news and date constraints."
+    },
+    {
+      "name": "Prajogo Pangestu",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **Indonesia imposed record fines of Rp2.1 trillion (about $116.7 million) over alleged stock-trading violations involving three companies, including Barito Renewables Energy and Petrindo Jaya Kreasi, both controlled by Prajogo Pangestu.**[1][10] This materially increases regulatory and reputational pressure on Pangestu’s corporate network as Indonesia seeks to reassure markets amid scrutiny of its capital-market governance.\n\n- **Prajogo Pangestu’s wealth fell sharply during Indonesia’s market sell-off following MSCI’s proposal to downgrade the country from emerging-market to standalone status; reports put his losses at roughly $2.2 billion over two trading days.**[6] The episode weakens his financial standing and could reduce the leverage derived from his large listed-company holdings in energy, petrochemicals, and renewables.\n\n- **His estimated fortune declined by more than 60% from its January peak to about $15 billion by October 22, amid index removals, regulatory action, and falling shares in Barito-related companies.**[2] Although he remains one of Indonesia’s richest individuals, the decline significantly constrains his position as a major private-sector actor in the country’s energy transition and industrial policy.\n\n- **Barito Pacific prepared a share buyback of up to Rp1 trillion, funded from internal cash, for implementation from October 19 through December 31.**[5] The move signals an effort to support the group’s market valuation and preserve investor confidence while Pangestu’s listed energy assets face heightened liquidity and governance concerns.\n\n- **Indonesian analysts characterized the OJK fines against Pangestu-linked issuers as part of the authorities’ response to MSCI’s threatened downgrade.**[3][8] This links Pangestu’s corporate influence directly to a broader contest over Indonesia’s market credibility and its ability to retain emerging-market status."
+    },
+    {
+      "name": "João Lourenço",
+      "domain": "Head Of State, Angola",
+      "raw_news": "- **Climate-finance push at the African Union (22 October):** Lourenço called for African countries to demand more grant funding, concessional loans and streamlined international finance for climate adaptation, while promoting cross-border water-basin institutions.[1] This strengthens Angola’s Global South leadership credentials and links climate diplomacy to preventive regional security.\n\n- **Water-security diplomacy at the Luanda Biennale (22 October):** He argued that political and diplomatic mechanisms are needed to prevent African water conflicts, including operational committees for shared river basins.[2] The position expands Angola’s influence beyond oil and positions Luanda as a broker on emerging climate-security disputes.\n\n- **Namibia invited into the Lobito refinery project (reported 27 October):** Lourenço proposed that Namibia acquire a stake in the planned 200,000-barrel-per-day Lobito refinery, tying the offer to regional refined-product supply and bilateral energy cooperation.[8] The initiative supports Angola’s downstream industrial strategy while using energy infrastructure to deepen middle-power partnerships in southern Africa.\n\n- **Angola’s mediation role in the Great Lakes highlighted:** Recent reporting on Lourenço’s national address emphasized Angola’s claimed role in conflict prevention and mediation, including support for dialogue involving the Democratic Republic of Congo and Rwanda.[6] Sustaining that role reinforces Angola’s diplomatic standing and Lourenço’s effort to establish the country as a continental peace broker.\n\n- **Lobito Corridor used as a diplomatic-finance platform:** Lourenço linked Angola’s international profile and peace diplomacy to financing commitments for the Lobito Corridor, rail, port infrastructure and critical-minerals exports.[9] This reinforces Angola’s strategic relevance to competing Western and Global South economic initiatives while anchoring its influence in mineral and transport connectivity."
+    },
+    {
+      "name": "Pony Ma (Ma Huateng)",
+      "domain": "Chairman & CEO, Tencent",
+      "raw_news": "No **3–5 qualifying hard-news events directly involving Pony Ma** can be reliably established from the available results for 21–28 October 2026. The strongest items are:\n\n- **Tencent faced intensified Chinese regulatory pressure over fintech and past acquisitions.** Reports said regulators fined Tencent and other major technology firms and were considering broader oversight of Tencent’s financial businesses, potentially including a financial-holding-company structure.[5][6] **Why it matters:** This would constrain Pony Ma’s control over Tencent’s payments and financial ecosystem and reinforce Beijing’s leverage over his corporate influence.\n\n- **Tencent’s second-quarter 2026 earnings call featured Pony Ma as chairman and CEO.** The available record confirms his participation in the 28 October management call but does not provide a substantive new policy, geopolitical, or AI announcement.[4] **Why it matters:** It confirms Ma’s continued formal leadership, but the evidence does not support treating the appearance itself as significant geopolitical news.\n\n- **Tencent continued repositioning its AI organization around a young OpenAI-trained scientist, Yao Shunyu.** Reports highlighted Yao’s role overseeing Tencent’s AI divisions and his public appearance alongside Ma during a Guangdong leadership visit, although the underlying event occurred on 8 October, outside the requested window.[3][7] **Why it matters:** The move signals Tencent’s effort to compete in China’s frontier-AI race, but it is not a new event from the past seven days.\n\n- **Tencent’s market valuation and Ma’s personal wealth rankings shifted sharply in conflicting reports.** One report placed Pony Ma as China’s richest person after a Tencent share surge, while another placed him fourth after a reported 26% decline, indicating inconsistent or unreliable coverage.[1][2] **Why it matters:** The conflicting data do not establish a dependable geopolitical or strategic development and should not be treated as hard news about Ma’s influence."
+    },
+    {
+      "name": "Marc Andreessen",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **a16z rebrands its crypto fund as a16z Frontier (Oct. 22).** The $2.2 billion vehicle will expand beyond crypto into artificial intelligence, robotics, and other frontier technologies while retaining its crypto investments.[4][7] **Why it matters:** The move broadens Andreessen’s institutional role in allocating capital—and shaping policy priorities—across strategically important emerging technologies.\n\n- **Political pressure linked Andreessen to Ohio’s data-center agenda (Oct. 27–28).** The Guardrails Alliance announced an ad campaign tying Senator Jon Husted’s support for data centers to campaign donations from technology executives, including Andreessen.[1] **Why it matters:** It shows Andreessen’s political spending becoming a target in disputes over AI infrastructure, energy use, and the economic beneficiaries of data-center expansion.\n\n- **Forbes highlighted a16z’s political financing of pro-AI candidates (Oct. 28).** The report described Andreessen Horowitz billionaires backing politicians whose policies could benefit their technology investments.[2] **Why it matters:** This reinforces Andreessen’s position as both a technology investor and political actor seeking influence over the regulatory environment for AI and related industries.\n\n- **A major profile detailed Andreessen’s political realignment around AI and crypto policy.** Bloomberg described his opposition to Biden-era regulations and his growing role as a Republican donor and adviser, with disputes over AI and cryptocurrency helping drive the shift.[3][8] **Why it matters:** The account frames his influence as extending beyond venture capital into Washington access and the broader public narrative about technology regulation."
+    },
+    {
+      "name": "Donald Horton & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No 3–5 qualifying hard-news events involving **Donald Horton & family** were identified in the October 21–28, 2026 window. The available reporting supports these two significant developments:\n\n- **D.R. Horton appointed Carl E. Reichardt Jr. as an independent director on October 22, expanding the board to nine members, seven of them independent.[1]** This strengthens corporate governance at the family-linked homebuilder while adding an experienced banking executive to its oversight structure.\n\n- **Horton family entities disclosed beneficial ownership of roughly 8.1% each for Donald Ryan Horton and Douglas Reagan Horton in an updated Schedule 13G/A.[1]** The filing confirms that the next generation retains substantial voting and economic influence over D.R. Horton despite the founder’s death.\n\nThe Sarasota County development dispute was reported during the period but the underlying county decisions occurred on October 6–8, so it falls outside the requested seven-day window.[1]"
+    },
+    {
+      "name": "Bassirou Diomaye Faye",
+      "domain": "Head Of State, Senegal",
+      "raw_news": "- **Elected ECOWAS chair:** Faye was elected chair of the Economic Community of West African States at the bloc’s 69th summit in Sierra Leone on October 25.[9] **Why it matters:** The appointment gives Senegal greater leverage over West African integration, relations with the Alliance of Sahel States, and regional security diplomacy.\n\n- **ECOWAS–Egypt engagement:** During an African Union coordination meeting in Egypt, Faye promoted preventive diplomacy, political dialogue, and a regional counterterrorism brigade while discussing expanded Senegal–Egypt cooperation.[8] **Why it matters:** It positions Dakar as a bridge between West Africa, North Africa, and wider Global South partners on security and economic sovereignty.\n\n- **Debt treatment request:** Senegal reportedly requested debt treatment under the G20 Common Framework amid continuing debt pressures.[5] **Why it matters:** The move could shape Faye’s credibility on economic sovereignty and test his ability to balance domestic reform with reliance on international creditors.\n\n- **Economic-sovereignty agenda:** Faye met Senegal’s 14 chambers of trades on October 27 and called for artisan formalization, financing, local production, and reduced external dependence under the Senegal 2050 plan.[2] **Why it matters:** The initiative translates his sovereignty-oriented platform into domestic industrial policy and may strengthen support among small producers.\n\n- **Dakar 2026 as diplomatic soft power:** Faye said Senegal intends to use the Youth Olympic Games to build hosting capacity, develop a sports industry, and amplify its voice in the Olympic movement.[1] **Why it matters:** Hosting Africa’s first Olympic event offers Dakar a platform to project Senegalese leadership and broader African influence beyond traditional diplomacy."
+    },
+    {
+      "name": "Fang Hongbo",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No significant hard-news events involving Fang Hongbo were identified for **21–28 October 2026**.\n\n- **Midea repurchased 1.4263 million Class A shares for approximately RMB120 million on 22 October.** The disclosure was submitted by Fang Hongbo as chairman, executive director, and president.[1] **Why it matters:** The buyback supports Midea’s capital-management strategy and reinforces Fang’s direct control over a major shareholder-value decision.\n- **No qualifying policy, geopolitical, diplomatic, military, or major public-statement event involving Fang Hongbo was reported during the period.** The closest relevant item was a previously announced 29 October board meeting to review Midea’s third-quarter results, which falls outside the requested window.[3] **Why it matters:** There is no evidence in the available reporting of a material change in Fang’s political, economic, or corporate influence during these seven days."
+    },
+    {
+      "name": "Gong Hongjia & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **U.S. restrictions on Hikvision intensified.** The FCC barred certain video devices containing Chinese surveillance chips and included Hikvision among companies subject to national-security restrictions.[3][4] **Why it matters:** Hikvision is Gong Hongjia’s principal strategic asset, so expanding U.S. technology and market controls increases pressure on his wealth, overseas influence, and the company’s global customer base.\n\n- **Reports emerged of possible U.S. SDN sanctions against Hikvision.** Unconfirmed reporting said Washington was considering sanctions that could freeze U.S.-linked assets and penalize companies or governments dealing with Hikvision, though no official announcement was cited.[2] **Why it matters:** SDN designation would be substantially more severe than existing export controls, potentially accelerating financial and commercial decoupling around Gong’s core holding.\n\n- **Gong Hongjia reportedly retired from Hikvision’s board.** A report updated October 25 said he formally left the board after roughly two decades and had progressively reduced his Hikvision stake, reportedly cashing out about 30 billion yuan.[1] **Why it matters:** The move reinforces his shift away from direct governance of the surveillance business, potentially reducing his formal exposure while preserving substantial economic influence through holdings.\n\n- **Hikvision remained central to Washington’s broader China technology blacklist.** Reporting stated that U.S. measures targeted Hikvision alongside Dahua and other Chinese surveillance and artificial-intelligence firms over alleged human-rights and security concerns.[8] **Why it matters:** The policy environment narrows Hikvision’s access to U.S. technology and allied markets, weakening the international platform through which Gong built much of his fortune.\n\n- **Gong’s reported wealth remained closely tied to Hikvision.** Bloomberg’s October 26 profile put his wealth at about $15.3 billion and said he held roughly 12% of Hikvision directly and through Hangzhou Pukang Investment.[6] **Why it matters:** Despite board retirement and reported disposals, his position remains materially exposed to sanctions risk, share-price volatility, and the wider U.S.-China technology split."
+    },
+    {
+      "name": "Brice Clotaire Oligui Nguema",
+      "domain": "Head Of State, Gabon",
+      "raw_news": "- **Manganese sovereignty talks with France (21 October):** Oligui Nguema met France’s ambassador to discuss Eramet’s decisions and prospects for local manganese processing.[7] **Why it matters:** The initiative supports Gabon’s effort to capture more value from strategic minerals and recalibrate its economic relationship with a major former colonial partner.\n\n- **Agricultural investment push (25 October):** He received investors interested in agriculture and livestock, including expanding domestic poultry production.[10] **Why it matters:** Mobilizing investment in food production advances economic diversification and reduces reliance on imports, strengthening the government’s Global South development agenda.\n\n- **Oil-platform disaster response (25–27 October):** After a BW Energy platform sank, rescuers saved 110 people, five remained missing, and Oligui Nguema ordered or backed an investigation.[1] **Why it matters:** The incident places scrutiny on state oversight of offshore resources and may affect confidence in Gabon’s energy sector.\n\n- **Land-titling reform (22–25 October):** Oligui Nguema presided over the finalization of 16,000 land titles and waived title-issuance costs for 100 poorer families.[4][8] **Why it matters:** The reform strengthens domestic legitimacy by addressing property insecurity, though it is primarily an internal governance initiative rather than a major geopolitical move.\n\nNo other clearly significant diplomatic, military, or international realignment event involving Oligui Nguema was identified in the available reporting for 21–28 October 2026."
+    },
+    {
+      "name": "Kais Saied",
+      "domain": "Head Of State, Tunisia",
+      "raw_news": "- **Cabinet meeting focused on economic pressures (Oct. 26–27):** Saied directed attention to rising prices, public-service performance, and responding to social demands while reaffirming an intensified anti-corruption campaign.[1][2] **Why it matters:** The move reinforces his domestic-populist governing model, but also signals that economic deterioration is becoming a central threat to his authority.\n\n- **Police clashes and unrest over deaths linked to police custody (Oct. 22–23):** Security forces used tear gas against protesters in Tunis’s Ettadhamen suburb, while unrest also spread to Jebiniana amid anger over deteriorating conditions and public services.[9] **Why it matters:** Growing street unrest tests Saied’s control of the security environment and could weaken his claim to represent popular sovereignty.\n\n- **Opposition pressure intensified after major protests:** The latest reporting in the period continued to highlight the largest anti-Saied demonstration in years, led by the UGTT, opposition groups, and civil society over democratic restrictions and economic hardship.[4][8] **Why it matters:** Broader coordination among labor, political, and civic actors creates a more serious domestic challenge to Saied’s position than fragmented opposition alone.\n\n- **Military-court conviction of opposition politician Olfa Hamdi:** A military court sentenced Hamdi to four years for alleged state-security offenses and incitement of military disobedience.[9] **Why it matters:** The use of military justice against a political opponent deepens concerns about institutional centralization and may further isolate Saied internationally, limiting his room for diplomatic maneuver.\n\n- **No clearly documented major foreign-policy or Global South realignment move:** The available reporting for Oct. 21–28 centers on domestic economic management, unrest, and repression rather than a new diplomatic initiative, external alignment, or major international agreement. **Why it matters:** Saied’s influence during this window appears driven primarily by internal consolidation and crisis management, not by a visible expansion of Tunisia’s middle-power role."
+    },
+    {
+      "name": "Daniel Ortega",
+      "domain": "Head Of State, Nicaragua",
+      "raw_news": "- **Nicaragua’s legislature advanced measures to eliminate or postpone elections.** Ortega-backed constitutional changes would extend presidential terms from six to seven years, potentially delay elections, and allow authorities to bar opposition figures from ballots.[1][3] This would entrench Ortega and Rosario Murillo’s control while sharply reducing the prospect of a competitive transfer of power.\n\n- **The National Assembly voted to abolish the vice presidency.** Lawmakers unanimously approved replacing the office with unelected presidential “designees,” a change widely viewed as formalizing succession arrangements around the Ortega-Murillo family.[2] It strengthens the regime’s ability to manage leadership succession without creating an independently elected counterweight.\n\n- **The proposed reforms would exclude critics from future elections.** The legislation targets people labeled coup plotters, traitors, or linked to foreign financing, sanctions, or actions against national sovereignty.[3] The broad criteria give Ortega’s government a legal mechanism to prevent opposition participation and convert repression into constitutional exclusion.\n\n- **The reforms triggered international condemnation.** The United States, European Union, United Nations, and Organization of American States criticized the measures, while the OAS called for restored civil liberties, the release of political prisoners, and conditions for fair elections.[3][10] External pressure may increase Ortega’s diplomatic isolation and the risk of further sanctions, but the measures also show that international criticism has not yet constrained his domestic consolidation."
+    },
+    {
+      "name": "Thaksin Shinawatra",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **Returned to Thailand and was jailed:** Thaksin Shinawatra returned on October 27 after 15 years in exile and was imprisoned to serve his court-imposed sentence.[1][8] **Why it matters:** His return ends his period of overseas political maneuvering and places his influence under direct legal and institutional constraints.\n\n- **Royal sentence reduction:** King Maha Vajiralongkorn reduced Thaksin’s eight-year sentence to one year shortly after his return.[3] **Why it matters:** The reduction substantially improves his prospects for an earlier release and could preserve his ability to shape Thai politics through allies and the Pheu Thai network.\n\n- **Transferred to a police hospital:** Authorities moved Thaksin from prison to a police hospital after officials cited multiple health complaints.[1] **Why it matters:** His medical treatment could affect the practical enforcement of his sentence and intensify scrutiny over whether he receives preferential conditions.\n\n- **Amnesty petition advanced:** A screening subcommittee moved forward with reviewing Thaksin’s petition under the 2026 Peaceful Society Promotion Act, with the broader committee expected to consider it next month.[2][9][10] **Why it matters:** Approval could clear criminal records and legal liabilities, potentially restoring his formal and informal political reach.\n\n- **Bankruptcy pressure over tax liability:** A former MP asked the attorney-general to initiate involuntary bankruptcy proceedings over an unpaid tax claim of roughly 17.6 billion baht, prompting an official review.[7] **Why it matters:** The case threatens Thaksin’s financial position and could constrain the resources that underpin his continuing political influence."
+    },
+    {
+      "name": "Andrej Babis",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **Senate elections weaken Babiš’s coalition:** Pro-Western opposition parties retained control of the Czech Senate, winning 22 of 27 contested seats while Babiš’s ANO won none; he called the result “catastrophic.”[1][6] **Why it matters:** The result limits the government’s legislative room and is a major early setback for Babiš’s post-2025 return to power.\n\n- **Public-media reform advances:** Babiš’s coalition pushed legislation through the Czech lower house to abolish household broadcasting fees and fund public radio and television directly from the state budget.[3][4] **Why it matters:** Direct state financing could increase government leverage over public broadcasters and intensify concerns about democratic checks and media independence.\n\n- **Mass protests target media overhaul:** Thousands demonstrated in Prague against the reform, while opposition parties vowed to challenge it in the Constitutional Court.[2][4] **Why it matters:** The protests show that Babiš’s efforts to reshape public-media governance are generating organized resistance beyond parliament.\n\n- **EU–Ukraine funding stance strains Western alignment:** Babiš criticized the EU proposal to place €100 billion for Ukraine in its next seven-year budget and said Czechia would not guarantee the borrowing.[8] **Why it matters:** His position could complicate EU consensus on Ukraine financing and reinforce his coalition’s more eurosceptic orientation."
+    },
+    {
+      "name": "Sheryl Sandberg",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **Lean In published research on manosphere and “tradwife” content (Oct. 21–22):** Sandberg’s organization reported that nine in ten Americans had seen such material online, while six in ten employees had encountered related sexist views at work.[1][7] **Why it matters:** It positions Sandberg as an active agenda-setter on online gender narratives and extends her influence beyond Meta into workplace and media discourse.\n\n- **New Mexico privacy judgment named Sandberg personally (Oct. 21–27):** Reporting on the state’s Facebook privacy trial said a judge’s findings cited Sandberg in connection with misleading public representations, alongside a reported \\$25 billion penalty against Meta.[4][8] **Why it matters:** The judgment revives scrutiny of her role in shaping Facebook’s public narrative about privacy and could weaken her credibility as an authority on information governance.\n\nNo other clearly verified hard-news events involving Sandberg within the specified seven-day window were identified in the available results."
+    },
+    {
+      "name": "Faisal Bin Qassim Al Thani",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **Qatar–France industrial partnership push (Oct. 21–28):** As chairman of the Qatari Businessmen Association, Faisal bin Qassim Al Thani led discussions with France’s foreign-trade minister on joint investment, industrial projects, technology transfer and economic diversification.[1][4] **Why it matters:** It reinforces his role as a channel between Qatar’s private sector and a major European partner, expanding his economic influence beyond domestic business.\n\n- **Investment outreach to Iraq, Lebanon and Hong Kong (Oct. 27–28):** He led QBA meetings with senior officials and trade leaders from Iraq, Lebanon and Hong Kong during Qatar’s World Investment Forum, seeking stronger trade ties and joint projects.[3][7] **Why it matters:** The outreach positions him as a prominent private-sector broker for Qatar’s international economic relationships across Arab and Asian markets.\n\n- **Aamal Energy wins QAR 100 million contract (Oct. 27):** Aamal Company, chaired by Faisal, announced that its subsidiary Aamal Energy had secured a procurement contract worth QAR 100 million.[6] **Why it matters:** The award strengthens his corporate position and demonstrates continued expansion of his business group in Qatar’s energy-related supply chain.\n\n- **Economic cooperation with Pakistan (Oct. 27):** Pakistan’s commerce minister met Faisal to discuss Qatar–Pakistan business links and cooperation in information technology, logistics, agriculture and food security.[9] **Why it matters:** It broadens his influence in a strategically important bilateral economic relationship and connects Qatari capital to sectors relevant to national resilience and food security.\n\nNo military or major policy action involving Faisal was reported in the available coverage during this period."
+    },
+    {
+      "name": "Jiang Rensheng & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No qualifying **hard-news events** involving Jiang Rensheng or his family were identified in the period **October 21–28, 2026**. Available results show only wealth-tracker updates and company-profile information, not policy decisions, diplomatic moves, military actions, economic initiatives, or significant public statements.\n\n- **Wealth estimates rose modestly:** Jiang Rensheng & family’s estimated fortune was reported at about **$4.92 billion**, up roughly **3.1% over seven days**.[1][2] This indicates a short-term improvement in the market value of their holdings but does not represent a substantive change in their corporate or political influence.\n\n- **Control of Zhifei remained concentrated:** The family was listed as holding approximately **51.21% of Chongqing Zhifei Biological Products**, preserving effective control of the vaccine company.[3] This supports their continued influence over the group, but the result reports no new transaction or strategic decision during the period.\n\n- **No new succession event was reported during the window:** Earlier reporting said Jiang Rensheng remained chairman while his son Jiang Lingfeng assumed the presidency and operational management of Zhifei.[4] That transition matters because it shifts day-to-day authority toward the next generation, but it predates the requested seven-day period and should not be treated as a new event.\n\n"
+    },
+    {
+      "name": "Liu Yongxing",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "No qualifying hard-news events involving Liu Yongxing were identified in the period **October 21–28, 2026**.\n\n- **No reported policy, diplomatic, military, or geopolitical action:** Available coverage was limited to billionaire wealth estimates and background on East Hope Group, not a new public decision or geopolitical move.[1][5][8]\n- **East Hope’s influence remained economically significant:** The company was described as a large privately held conglomerate active in aluminum, energy, agriculture, chemicals, and real estate, with roughly 30,000 employees and more than 178 billion yuan in 2024 revenue.[8] This supports Liu’s domestic industrial influence but does not document a new development in US-China strategic rivalry or authoritarian-axis consolidation.\n- **No evidence of a new international initiative:** The available results contain no verified report of Liu or East Hope announcing a major overseas investment, diplomatic engagement, sanctions-related action, or China–Russia/other authoritarian-axis initiative during the specified week."
+    },
+    {
+      "name": "Aliko Dangote",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **Dangote announced a major refinery expansion.** He said the Lagos refinery will increase capacity from 650,000 to 1.4 million barrels per day by 2028, potentially making it the world’s largest single-site refinery.[1] **Why it matters:** The expansion would significantly increase Dangote’s leverage over Nigeria’s fuel supply and regional crude-product markets.\n\n- **Dangote Group acquired a 24.76% stake in Kenya Pipeline Company for about $327 million.** The purchase extends the group’s planned East African refining strategy into fuel transportation and distribution infrastructure.[4][9] **Why it matters:** Control of pipeline capacity would strengthen Dangote’s ability to build an integrated regional energy network around the proposed Lamu refinery.\n\n- **A Kenyan court temporarily halted site activity at Dangote’s planned Lamu refinery.** The order followed a land-rights lawsuit by local residents challenging the proposed $16–20 billion, 700,000-barrel-per-day facility.[3] **Why it matters:** The injunction creates a legal and social obstacle to Dangote’s East African expansion and could delay his effort to establish a regional refining hub.\n\n- **Dangote outlined a roughly $50 billion African fuel-network investment program through 2030.** The plan includes pipelines, storage depots and supply routes spanning East, Central and Southern Africa, alongside refinery development.[5] **Why it matters:** It positions Dangote to compete across the full regional energy chain rather than merely operate a Nigerian refinery.\n\n- **Dangote said the refinery could consume about 2.5% of globally traded crude at full capacity.** The statement highlighted the plant’s projected 700,000-barrel-per-day crude demand and growing international market significance.[8] **Why it matters:** Greater dependence on imported crude supplies could increase Dangote’s bargaining power in global procurement while exposing the project to supply and geopolitical risks."
+    },
+    {
+      "name": "Changpeng Zhao",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **BNB Chain positioned for AI-agent payments (Oct. 26):** Changpeng Zhao said BNB Chain should become a primary network for AI-agent payments, potentially using Bitcoin, stablecoins, AI-company tokens, and tokenized computing capacity, but offered no implementation timetable.[1] **Why it matters:** This extends Zhao’s influence from exchange infrastructure toward a prospective role in automated, machine-driven financial settlement.\n\n- **Warning that AI-enabled phishing—not cryptographic attacks—is the immediate crypto threat (Oct. 23):** Zhao argued that AI is unlikely to break Bitcoin’s encryption soon but could intensify phishing, social engineering, and attacks exploiting leaked data.[2][3] **Why it matters:** The statement reinforces his role as a prominent crypto risk commentator while shifting attention from monetary-system cryptography to operational vulnerabilities affecting trust in digital finance.\n\n- **Public criticism of unequal financial enforcement remained in circulation:** Zhao’s criticism of U.S. regulators’ civil penalties against Bank of America, contrasted with his own criminal case and prison sentence, was reported during the period.[9] **Why it matters:** The comparison supports his broader challenge to the legitimacy and consistency of traditional financial regulation, though the underlying statement predates the seven-day window."
+    },
+    {
+      "name": "Cai Qi",
+      "domain": "China / First Secretary of the CPC Central Committee Secretariat",
+      "raw_news": "- **Beijing executive vice mayor Xia Linmao placed under investigation (Oct. 22).** Xia, who held senior Beijing posts while Cai Qi led the city, became the latest official linked to Cai’s former political network to face investigation.[1] **Why it matters:** The case creates potential political exposure for Cai ahead of the Communist Party’s Fifth Plenum, although no evidence in the available reporting implicates Cai personally.\n\n- **Cai accompanied Xi Jinping to the BRICS summit in India (Oct. 26).** Chinese state media identified Cai as part of Xi’s delegation, alongside Foreign Minister Wang Yi, for the summit.[3] **Why it matters:** His inclusion underscores Cai’s role in managing top-level party operations and projecting China’s leadership within non-Western multilateral institutions amid strategic competition with the United States.\n\n- **The Fifth Plenum opened with an emphasis on party discipline and loyalty (Oct. 26–28).** China’s senior leadership held a closed-door meeting focused on strengthening party discipline, official reliability, and personnel arrangements ahead of Xi’s expected bid for another term.[6] **Why it matters:** As Secretariat first secretary and a key party-organization official, Cai is positioned to help enforce ideological discipline and shape elite-management decisions during a sensitive succession and reshuffle period.\n\n- **Cai’s political network became a subject of heightened scrutiny before the plenum.** Reporting and commentary linked the investigation of Xia Linmao to broader questions about Cai’s influence and political circle.[1][2] **Why it matters:** Even absent confirmed action against Cai, scrutiny of his network can affect perceptions of his standing and signal factional pressure around Xi’s consolidation of power."
+    },
+    {
+      "name": "Jerome Powell",
+      "domain": "United States / Chair of the Federal Reserve",
+      "raw_news": "- **Fed holds rates steady:** On October 28, the Federal Reserve voted 10–2 to keep its benchmark rate at 3.50%–3.75%, while Powell said the economy had “once again surprised us with its strength” and that policymakers were in no rush to cut.[1] **Why it matters:** The decision reinforces Powell’s influence over global borrowing costs and signals that persistent inflation and resilient growth outweigh pressure for near-term easing.\n\n- **Powell highlights tariff-driven inflation risks:** Powell said U.S. import tariffs were contributing to higher expected inflation and policy uncertainty, while weaker growth was partly offsetting those pressures.[2] **Why it matters:** His framing positions the Fed as a key buffer against trade-policy shocks and exposes tensions between monetary independence and the administration’s economic agenda.\n\n- **Fed slows balance-sheet reduction:** The central bank announced it would slow the drawdown of its roughly $6.81 trillion balance sheet, or quantitative tightening.[2] **Why it matters:** The move has direct implications for global dollar liquidity, Treasury-market functioning, and financial-system stress, giving Powell an important role in managing the international monetary architecture.\n\n- **Powell adopts a wait-and-see posture:** Powell said policy was “well-positioned” and that the Fed would wait for greater clarity before changing rates, citing diminished—but still present—inflation and employment risks.[1] **Why it matters:** The stance preserves room for maneuver while making Powell’s interpretation of incoming data central to market expectations and the dollar’s direction."
+    },
+    {
+      "name": "Rupert Murdoch & family",
+      "domain": "Billionaire (Forbes Global)",
+      "raw_news": "- **Murdoch succession transition:** Rupert Murdoch is set to step down as chair of Fox Corp. and News Corp. in mid-November, with Lachlan Murdoch taking over as chair while Rupert becomes chairman emeritus.[2] **Why it matters:** It formalizes Lachlan’s control over the companies behind Fox News, The Wall Street Journal, and other major agenda-setting outlets, increasing the likelihood of continuity in their conservative editorial direction.\n\n- **Nevada succession dispute:** A court hearing on the family’s trust and control of Fox and News Corp. brought the succession conflict among Rupert’s children into public view, with Rupert seeking to preserve Lachlan’s control and the other heirs opposing the arrangement.[5][6] **Why it matters:** The dispute directly concerns who will control a major Western political-information network and highlights the family’s role in sustaining or challenging its ideological alignment.\n\n- **Lachlan increases Fox stake:** Lachlan Murdoch purchased roughly $10.3 million of Fox shares, raising his holdings by nearly 12%.[3] **Why it matters:** The acquisition reinforces his financial and voting position as he consolidates authority over Fox during the broader succession transition.\n\n- **Fox’s streaming expansion:** Fox’s planned $22 billion acquisition of Roku was highlighted as a major strategic move under Lachlan’s leadership.[1] **Why it matters:** Ownership of a major streaming platform would extend Murdoch influence beyond traditional broadcasting into the infrastructure through which audiences increasingly receive news and political narratives."
+    }
+  ],
+  "ps_assemblies_fired": {
+    "PS-04": [
+      "CA-108",
+      "CA-112",
+      "CA-060",
+      "CA-014",
+      "CA-019"
+    ],
+    "PS-05": [
+      "CA-228",
+      "CA-270",
+      "CA-364"
+    ],
+    "PS-07": [
+      "CA-219",
+      "CA-057",
+      "CA-162"
+    ],
+    "PS-09": [
+      "CA-071",
+      "CA-233",
+      "CA-245"
+    ]
+  },
+  "assemblies_spontaneous": [
+    "CA-389",
+    "CA-343"
+  ],
+  "neurons_conscious": [
+    "Satya Nadella",
+    "Christophe Fouquet",
+    "Lisa Su",
+    "Ren Zhengfei",
+    "Steve Ballmer",
+    "Ma Huateng",
+    "Prajogo Pangestu",
+    "João Lourenço",
+    "Pony Ma (Ma Huateng)",
+    "Marc Andreessen"
+  ],
+  "neurons_spontaneous": [
+    "Donald Horton & family",
+    "Bassirou Diomaye Faye",
+    "Fang Hongbo",
+    "Gong Hongjia & family",
+    "Brice Clotaire Oligui Nguema",
+    "Kais Saied",
+    "Daniel Ortega",
+    "Thaksin Shinawatra",
+    "Andrej Babis",
+    "Sheryl Sandberg",
+    "Faisal Bin Qassim Al Thani",
+    "Jiang Rensheng & family",
+    "Liu Yongxing",
+    "Aliko Dangote",
+    "Changpeng Zhao",
+    "Cai Qi",
+    "Jerome Powell",
+    "Rupert Murdoch & family"
+  ],
+  "neurons_skipped": [
+    "Xi Jinping",
+    "Donald Trump",
+    "Vladimir Putin",
+    "Li Qiang",
+    "Ali Khamenei",
+    "Salman bin Abdulaziz Al Saud",
+    "Scott Bessent",
+    "Mark Rutte",
+    "Kazuo Ueda",
+    "Ursula von der Leyen",
+    "Mohammed Bin Zayed Al Nahyan",
+    "Tahnoun bin Zayed Al Nahyan",
+    "Zhang Youxia",
+    "Mohan Bhagwat",
+    "Mark Zuckerberg",
+    "Amancio Ortega",
+    "Pan Gongsheng",
+    "Johann Rupert & family",
+    "Elon Musk",
+    "Volodymyr Zelenskyy",
+    "Subrahmanyam Jaishankar",
+    "Claudia Sheinbaum",
+    "Christopher Cavoli",
+    "Marco Rubio",
+    "Wang Yi",
+    "C.C. Wei",
+    "Pete Hegseth",
+    "Sundar Pichai",
+    "Igor Sechin",
+    "Yoweri Museveni",
+    "Robin Zeng",
+    "Hibatullah Akhundzada",
+    "Alexander Lukashenko",
+    "Pope Francis (Jorge Mario Bergoglio)",
+    "Ivan Glasenberg",
+    "Larry Fink",
+    "Luiz Inácio Lula da Silva",
+    "Tamim bin Hamad Al",
+    "Valery Gerasimov",
+    "Recep Tayyip Erdoğan",
+    "Abigail Johnson",
+    "Jay Y. Lee",
+    "Stanley Druckenmiller",
+    "Ayatollah Ali Khamenei",
+    "Prabowo Subianto",
+    "Kim Jong-un",
+    "Mathias Cormann",
+    "Ajay Banga",
+    "Christine Lagarde",
+    "Shavkat Mirziyoyev",
+    "Charles Koch & family",
+    "Yuri Kovalchuk",
+    "Kristalina Georgieva",
+    "Henry Kravis",
+    "Khaldoon Khalifa Al Mubarak",
+    "António Guterres",
+    "Andrei Belousov",
+    "Bill Gates",
+    "Tim Cook",
+    "Yuri Kovalchuk & family",
+    "Sergei Lavrov",
+    "Nikolai Patrushev",
+    "Droupadi Murmu",
+    "Jensen Huang",
+    "Bernard Arnault & family",
+    "Sam Altman",
+    "Ilham Aliyev",
+    "Gautam Adani",
+    "Abdel Fattah el-Sisi",
+    "Cristiano Amon",
+    "Mustafa Suleyman",
+    "Demis Hassabis",
+    "Joseph Tsai",
+    "Jeff Bezos",
+    "Frank-Walter Steinmeier",
+    "Larry Ellison",
+    "Frederik X of Denmark",
+    "Rupert Johnson, Jr.",
+    "Cyrus Poonawalla",
+    "Vladimir Bogdanov",
+    "Richard Liu",
+    "Klaus-Michael Kuehne",
+    "Thomas Pritzker",
+    "Tadashi Yanai & family",
+    "Bongbong Marcos",
+    "William Alexander of the Netherlands",
+    "Félix Tshisekedi",
+    "Eric Yuan & family",
+    "Ken Griffin",
+    "Kumar Birla",
+    "Rafaela Aponte-Diamant",
+    "Bola Ahmed Tinubu",
+    "Alisher Usmanov",
+    "Jose Roberto Marinho",
+    "Alessandra Galloni",
+    "Wang Chuanfu",
+    "Jim Walton & family",
+    "Olivier Bouygues",
+    "Patrick Collison",
+    "Hakainde Hichilema",
+    "Francoise Bettencourt Meyers & family",
+    "Elvira Nabiullina",
+    "Warren Buffett",
+    "Tô Lâm",
+    "Jamie Dimon",
+    "Andrew Bailey",
+    "Leonid Mikhelson & family",
+    "Zhang Yiming",
+    "Larry Page",
+    "Ray Dalio",
+    "Morris Chang",
+    "Mukesh Ambani",
+    "Paul Singer",
+    "David Rubenstein",
+    "Li Ka-shing",
+    "Len Blavatnik",
+    "Vincent Bolloré & family",
+    "Ilya Sutskever",
+    "Ismail Omar Guelleh",
+    "Sunil Mittal",
+    "Taye Atske Selassie",
+    "Petr Pavel",
+    "Luis Abinader",
+    "Edward Johnson, IV.",
+    "Marc Benioff",
+    "Savitri Jindal & family",
+    "David Bonderman",
+    "Stephen Feinberg",
+    "Safra Catz",
+    "Hamad bin Jassim bin Jaber Al Thani",
+    "Sergey Brin",
+    "Grand Ayatollah Ali al-Sistani",
+    "Robin Li",
+    "Eric Schmidt",
+    "Shen Haixiong",
+    "Tedros Adhanom Ghebreyesus",
+    "Russell M. Nelson",
+    "Martin Lau",
+    "Mohammed VI of Morocco",
+    "William Ackman",
+    "Charles III",
+    "Gennady Timchenko",
+    "Lai Ching-te",
+    "William Ruto",
+    "Edir Macedo & family",
+    "Pavel Durov",
+    "Melinda French Gates",
+    "Charles Schwab",
+    "Jorge Paulo Lemann & family",
+    "Serdar Berdimuhamedow",
+    "Masayoshi Son",
+    "Michael Dell",
+    "Euisun Chung",
+    "Margarita Louis-Dreyfus & family",
+    "George Roberts",
+    "Salva Kiir Mayardit",
+    "Leon Black",
+    "Anthony Bamford & family",
+    "Theo Albrecht, Jr. & family",
+    "François Pinault & family",
+    "Rodolphe Saadé",
+    "Jonathan Gray",
+    "Vladimir Lisin",
+    "Karl Albrecht Jr. & family",
+    "MacKenzie Scott",
+    "Sheikh Abdulaziz bin Abdullah Al ash-Sheikh",
+    "Miriam Adelson & family",
+    "Michael Froman",
+    "Leo XIV",
+    "Stephen Schwarzman",
+    "Germán Larrea Mota Velasco & family",
+    "Daniela Amodei",
+    "Terry Gou",
+    "Fred Smith",
+    "Shah Karim al-Husayni (Aga Khan IV)",
+    "John Malone",
+    "Evan Spiegel",
+    "Dhanin Chearavanont",
+    "Hamad II of Bahrain",
+    "Hasso Plattner & family",
+    "Alassane Ouattara",
+    "Cindy McCain",
+    "Laurene Powell Jobs & family",
+    "Thomas Frist, Jr. & family",
+    "Dieter Schwarz",
+    "Gianluigi Aponte",
+    "Abdullah II of Jordan",
+    "Paul Kagame",
+    "Vajiralongkorn",
+    "Alexander Karp",
+    "Paul Tudor Jones, II.",
+    "Stefano Pessina",
+    "Arkady Rotenberg",
+    "Abdelmadjid Tebboune",
+    "Emmerson Mnangagwa",
+    "Rob Walton & family",
+    "Hassanal Bolkiah I of Brunei",
+    "Asif Ali Zardari",
+    "Aziz Akhannouch & family",
+    "Sergio Mattarella",
+    "Brian Roberts",
+    "Michael Bloomberg",
+    "Naruhito",
+    "Samia Suluhu Hassan",
+    "Ngozi Okonjo-Iweala",
+    "Grand Imam Ahmed el-Tayeb",
+    "Javier Milei",
+    "Vladimir Potanin",
+    "Iris Fontbona & family",
+    "Esmail Qaani",
+    "Emmanuel Macron",
+    "Haitham bin Tarik Al Said",
+    "Carlos Slim Helu & family",
+    "Bidzina Ivanishvili & family",
+    "Patriarch Kirill (Vladimir Gundyayev)",
+    "Gustavo Petro",
+    "Daniel Noboa",
+    "Charlene de Carvalho-Heineken & family",
+    "Gabriel Boric",
+    "Julia Koch & family",
+    "Ricardo Salinas Pliego & family",
+    "Dario Amodei",
+    "Alain Wertheimer",
+    "Oleg Deripaska",
+    "Pierre Omidyar",
+    "Gina Rinehart",
+    "Andrew Forrest & family",
+    "Hiroshi Mikitani",
+    "Onkar Kanwar",
+    "Isaias Afwerki",
+    "Anthony Wood",
+    "Patrick Drahi",
+    "Antonio Del Valle Ruiz & family",
+    "Susanne Klatten",
+    "Travis Kalanick",
+    "Reed Hastings",
+    "Marijke Mars",
+    "Kim Kardashian",
+    "Jayshree Ullal",
+    "Miuccia Prada",
+    "Antony Ressler",
+    "Andrei Guryev & family",
+    "Ronald Lauder",
+    "Howard Marks",
+    "Mochtar Riady & family",
+    "Micky Arison",
+    "Reinhold Wuerth & family",
+    "Wang Jianlin",
+    "William Ding",
+    "Aneel Bhusri",
+    "Nandan Nilekani",
+    "Mark Suzman",
+    "Lim Kok Thay",
+    "Wang Xing",
+    "Alfredo Harp Helu & family",
+    "Adi Godrej",
+    "John Doerr",
+    "Liu Hanyuan",
+    "William Lauder",
+    "Nassef Sawiris",
+    "Cyril Ramaphosa",
+    "Riley Bechtel & family",
+    "Phil Knight & family",
+    "John Mars",
+    "Yuri Milner",
+    "Karol Nawrocki",
+    "Uday Kotak",
+    "Xiang Guangda",
+    "Lei Jun",
+    "Jeff T. Green",
+    "Charles Liang",
+    "Hansjoerg Wyss"
+  ],
+  "spontaneous_cap": 18
+}
